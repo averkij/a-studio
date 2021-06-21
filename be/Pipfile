@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+flask-cors = "*"
+scipy = "*"
+razdel = "*"
+numpy = "*"
+scikit-learn = "*"
+nltk = "*"
+transformers = "*"
+tensorflow-cpu = "*"
+tensorflow-text = "*"
+tensorflow-hub = "*"
+tf-sentencepiece = "*"
+seaborn = "*"
+sentence-transformers = "*"
+
+[requires]
+python_version = "3.8"
