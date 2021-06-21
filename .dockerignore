@@ -1,0 +1,8 @@
+**/node_modules
+**/dist
+**/static
+
+**/sentence_transformers.bin
+**/sentence_transformers_xlm_100.bin
+**/labse.bin
+**/use_multilingual_models_saved
