@@ -1,0 +1,14 @@
+export const SET_ITEMS = "set_items";
+export const SET_ITEMS_PROCESSING = "set_items_processing";
+export const SET_SPLITTED = "set_splitted";
+export const SET_MARKS = "set_marks";
+export const SET_PROCESSING = "set_processing";
+export const SET_PROCESSING_META = "set_processing_meta";
+export const SET_DOC_INDEX = "set_doc_index";
+export const SET_CONFLICT_SPLITTED_FROM = "get_conflict_splitted_from";
+export const SET_CONFLICT_SPLITTED_TO = "get_conflict_splitted_to";
+export const SET_CONFLICT_FLOW_TO = "get_conflict_flow_to";
+export const SET_CONTENTS = "set_contents";
+export const SET_CONFLICTS = "set_conflicts";
+export const SET_CONFLICT_DETAILS = "set_conflict_details";
+export const SET_BOOK_PREVIEW = "set_book_preview";
