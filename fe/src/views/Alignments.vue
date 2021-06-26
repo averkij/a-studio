@@ -326,7 +326,7 @@
           @click="resolveConflictsBatch(-1)">
           Resolve all
         </v-btn>
-      </v-row>      
+      </v-row>
 
       <!-- EDITOR SECTION -->
       <div class="text-h5 mt-10 font-weight-bold">Editor</div>
@@ -356,8 +356,8 @@
               {{selectedProcessing.name}}
               <v-spacer></v-spacer>
 
-              <!-- <v-icon>mdi-translate</v-icon>
-              <v-switch color="green" value="true" v-model="showProxyTo" class="mx-2"></v-switch> -->
+              <v-icon>mdi-translate</v-icon>
+              <v-switch color="green" value="true" v-model="showProxyTo" class="mx-2"></v-switch>
 
               <v-btn icon @click="collapseEditItems">
                 <v-icon>mdi-collapse-all</v-icon>
@@ -403,6 +403,27 @@
           </v-row>
         </v-card>
       </div>
+
+      <!-- PROXY SECTION -->
+      <div class="text-h5 mt-10 font-weight-bold">Subscript</div>
+
+      <v-alert type="info" border="left" colored-border color="blue" class="mt-6" elevation="2">
+        You can optionally add the translation of the splitted text. Translation should contain the same amount of lines.
+      </v-alert>
+      <v-row class="mt-3">
+        <v-col cols="12" sm="6">
+          <ProxyPanel @onPreviewPageChange="onPreviewPageChange" @onProxyFileChange="onProxyFileChange"
+            @downloadSplitted="downloadSplitted" @uploadProxyFile="uploadProxyFile" :info="LANGUAGES[langCodeFrom]"
+            :splitted=splitted :isLoading=isLoading :showUploadProxyBtn=true>
+          </ProxyPanel>
+        </v-col>
+        <v-col cols="12" sm="6">
+          <ProxyPanel @onPreviewPageChange="onPreviewPageChange" @onProxyFileChange="onProxyFileChange"
+            @downloadSplitted="downloadSplitted" @uploadProxyFile="uploadProxyFile" :info="LANGUAGES[langCodeTo]"
+            :splitted=splitted  :isLoading=isLoading :showUploadProxyBtn=true>
+          </ProxyPanel>
+        </v-col>
+      </v-row>
 
       <div class="text-h4 mt-10 font-weight-bold">
         <v-icon color="blue" large>mdi-puzzle</v-icon> Unused strings
@@ -514,6 +535,7 @@
   import 'swiper/swiper-bundle.css'
   import RawPanel from "@/components/RawPanel";
   import InfoPanel from "@/components/InfoPanel";
+  import ProxyPanel from "@/components/ProxyPanel";
   import EditItem from "@/components/EditItem";
   import GoToDialog from "@/components/GoToDialog";
   import CreateAlignmentDialog from "@/components/CreateAlignmentDialog"
@@ -575,7 +597,8 @@
     CREATE_ALIGNMENT,
     DELETE_ALIGNMENT,
     ALIGN_SPLITTED,
-    RESOLVE_CONFLICTS
+    RESOLVE_CONFLICTS,
+    DOWNLOAD_SPLITTED
   } from "@/store/actions.type";
   import {
     SET_ITEMS_PROCESSING,
@@ -651,7 +674,19 @@
         alignWindow: 50
       };
     },
-    methods: {
+    methods: {      
+      downloadSplitted(langCode, openInBrowser) {
+        this.$store.dispatch(DOWNLOAD_SPLITTED, {
+          align_guid: this.selectedProcessingId,
+          fileName: this.selectedProcessingId + ".txt",
+          username: this.$route.params.username,
+          langCodeFrom: this.langCodeFrom,
+          langCodeTo: this.langCodeTo,
+          langCodeDownload: langCode,
+          fromDb: true,
+          openInBrowser
+        });
+      },
       getImgUrl(batch_id) {
         return `${API_URL}/static/img/${this.username}/${this.processingMeta.meta.align_guid}.best_${batch_id}.png?rnd=${Math.random()}`;
       },
@@ -903,11 +938,11 @@
         this.isLoading.uploadProxy[langCode] = true;
         this.$store
           .dispatch(UPLOAD_FILES, {
+            alignGuid: this.selectedProcessingId,
             file: this.proxyFiles[langCode],
             username: this.$route.params.username,
             langCode,
             isProxy: true,
-            rawFileName: this.selected[langCode]
           })
           .then(() => {
             this.isLoading.uploadProxy[langCode] = false;
@@ -1358,6 +1393,7 @@
       EditItem,
       RawPanel,
       InfoPanel,
+      ProxyPanel,
       GoToDialog,
       CreateAlignmentDialog,
       RecalculateBatchDialog,

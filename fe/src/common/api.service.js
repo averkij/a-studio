@@ -74,7 +74,7 @@ export const ItemsService = {
     let form = new FormData();
     form.append(params.langCode, params.file);
     form.append("type", params.isProxy ? "proxy" : "raw");
-    form.append("rawFileName", params.rawFileName);
+    form.append("align_guid", params.alignGuid);
     return ApiService.post("items",
       `${params.username}/raw/${params.langCode}`,
       form);
@@ -83,6 +83,21 @@ export const ItemsService = {
     return ApiService.get(
       "items",
       `${params.username}/splitted/${params.langCode}/${params.fileId}/download`
+    ).then((response) => {
+      const url = window.URL.createObjectURL(new Blob([response.data],{encoding:"UTF-8",type:"text/plain;charset=UTF-8"}));
+      const link = document.createElement('a');
+      link.href = url;
+      if (!params.openInBrowser) {
+        link.setAttribute('download', params.fileName);
+      }
+      document.body.appendChild(link);
+      link.click();
+    });
+  },
+  downloadSplittedFromDb(params) {
+    return ApiService.get(
+      "items",
+      `${params.username}/splitted/${params.langCodeFrom}/${params.langCodeTo}/${params.align_guid}/download/${params.langCodeDownload}`
     ).then((response) => {
       const url = window.URL.createObjectURL(new Blob([response.data],{encoding:"UTF-8",type:"text/plain;charset=UTF-8"}));
       const link = document.createElement('a');

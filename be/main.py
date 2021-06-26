@@ -52,8 +52,17 @@ def items(username, lang):
                 return ('File already exists', 400)
 
             if request.form["type"] == "proxy":
+                align_guid = request.form.get("align_guid", '')
+                _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+                    username, align_guid)
+                filename_from, lang_from = user_db_helper.get_document_info(
+                    username, guid_from)
+                filename_to, lang_to = user_db_helper.get_document_info(username, guid_to)
+                db_folder = os.path.join(con.UPLOAD_FOLDER, username,
+                                        con.DB_FOLDER, lang_from, lang_to)
+                db_path = os.path.join(db_folder, f"{align_guid}.db")
                 upload_folder = con.PROXY_FOLDER
-                filename = request.form["rawFileName"]
+                filename = filename_from if lang == lang_from else filename_to
             else:
                 user_db_helper.register_file(username, lang, filename)
 
@@ -69,7 +78,13 @@ def items(username, lang):
                 splitted_path = os.path.join(con.UPLOAD_FOLDER, username,
                                              con.SPLITTED_FOLDER, lang, filename)
                 splitter.split_by_sentences_and_save(
-                    raw_path, splitted_path, lang)
+                    raw_path, splitted_path, lang, handle_marks=True)
+            elif request.form["type"] == "proxy":
+                logging.info(f"[{username}]. Update proxy. {upload_path} into {db_path} database.")
+                direction = "from" if lang==lang_from else "to"
+
+                aligner.load_proxy(db_path, upload_path, direction)
+
             logging.info(f"[{username}]. Success. {filename} is loaded.")
         return ('', 200)
     # return documents list
@@ -636,6 +651,35 @@ def edit_processing(username, lang_from, lang_to, align_guid):
     else:
         abort(400)
     return ('', 200)
+
+
+@app.route("/items/<username>/splitted/<lang_from>/<lang_to>/<align_guid>/download/<lang>", methods=["GET"])
+def download_splitted_from_db(username, lang_from, lang_to, align_guid, lang):
+    """Download splitted document file"""
+    logging.info(f"[{username}]. Downloading {lang} align_guid:{align_guid} splitted document.")
+    db_folder = os.path.join(con.UPLOAD_FOLDER, username,
+                             con.DB_FOLDER, lang_from, lang_to)
+    db_path = os.path.join(db_folder, f'{align_guid}.db')
+    if not os.path.isfile(db_path):
+        abort(404)
+
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    download_folder = os.path.join(
+        con.UPLOAD_FOLDER, username, con.DOWNLOAD_FOLDER)
+    misc.check_folder(download_folder)
+    download_file = os.path.join(download_folder, "{0}_{1}_{2}.txt".format(
+        align_guid, lang, timestamp))
+    
+    if lang == lang_from:
+        lines = aligner.get_splitted_from(db_path)
+    else:
+        lines = aligner.get_splitted_to(db_path)
+
+    with open(download_file, 'w', encoding="utf-8") as out:
+        out.write("\n".join(lines))
+
+    logging.info(f"[{username}]. Document found. Path: {download_file}. Sent to user.")
+    return send_file(download_file)
 
 
 @app.route("/items/<username>/processing/<lang_from>/<lang_to>/<align_guid>/download/<lang>/<file_format>", methods=["POST"])
