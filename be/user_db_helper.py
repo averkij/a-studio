@@ -173,6 +173,15 @@ def get_documents_list(username, lang=None):
                 "lang": lang}).fetchall()
 
 
+def get_document_info(username, guid):
+    """Get documents list by language code"""
+    db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
+    with sqlite3.connect(db_path) as db:
+        res = db.execute("select name, lang from documents where guid=:guid", {
+            "guid": guid}).fetchone()
+    return ([res[0], res[1]]) if res else None
+
+
 def get_alignment_fileinfo_from(username, guid):
     """Get file (from) info by id from alignments table"""
     db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
