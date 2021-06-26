@@ -897,7 +897,6 @@
             username: this.$route.params.username,
             langCode,
             isProxy: true,
-            rawFileName: this.selected[langCode]
           })
           .then(() => {
             this.isLoading.uploadProxy[langCode] = false;

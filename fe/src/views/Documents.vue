@@ -53,15 +53,15 @@
     </v-alert>
     <v-row>
       <v-col cols="12" sm="6">
-        <SplittedPanel @onPreviewPageChange="onPreviewPageChange" @onProxyFileChange="onProxyFileChange"
-          @downloadSplitted="downloadSplitted" @uploadProxyFile="uploadProxyFile" :info="LANGUAGES[langCodeFrom]"
-          :splitted=splitted :selected=selected :isLoading=isLoading :showUploadProxyBtn=true>
+        <SplittedPanel @onPreviewPageChange="onPreviewPageChange"
+          @downloadSplitted="downloadSplitted" :info="LANGUAGES[langCodeFrom]"
+          :splitted=splitted :selected=selected :isLoading=isLoading>
         </SplittedPanel>
       </v-col>
       <v-col cols="12" sm="6">
-        <SplittedPanel @onPreviewPageChange="onPreviewPageChange" @onProxyFileChange="onProxyFileChange"
-          @downloadSplitted="downloadSplitted" @uploadProxyFile="uploadProxyFile" :info="LANGUAGES[langCodeTo]"
-          :splitted=splitted :selected=selected :isLoading=isLoading :showUploadProxyBtn=true>
+        <SplittedPanel @onPreviewPageChange="onPreviewPageChange"
+          @downloadSplitted="downloadSplitted" :info="LANGUAGES[langCodeTo]"
+          :splitted=splitted :selected=selected :isLoading=isLoading>
         </SplittedPanel>
       </v-col>
     </v-row>
@@ -70,11 +70,6 @@
     <div class="text-h4 mt-10 font-weight-bold">
       <v-icon color="blue" large>mdi-format-header-1</v-icon> Marks
     </div>
-    <!-- <v-alert type="info" class="mt-6" v-show="showAlert">
-      There are no uploaded documents yet. Please upload some using the form
-      below.
-    </v-alert> -->
-
     <v-alert v-if="!marks || (marks[langCodeFrom].length==0 && marks[langCodeTo].length==0)" type="info" border="left" colored-border color="info" class="mt-6" elevation="2">
       No marks besides paragraphs were found in selected documents.
     </v-alert>
@@ -173,7 +168,8 @@
     DOWNLOAD_SPLITTED
   } from "@/store/actions.type";
   import {
-    SET_SPLITTED
+    SET_SPLITTED,
+    SET_MARKS
   } from "@/store/mutations.type";
 
   export default {
@@ -251,21 +247,7 @@
               this.isLoading.upload[langCode] = false;
             });
           });
-      },
-      uploadProxyFile(langCode) {
-        this.isLoading.uploadProxy[langCode] = true;
-        this.$store
-          .dispatch(UPLOAD_FILES, {
-            file: this.proxyFiles[langCode],
-            username: this.$route.params.username,
-            langCode,
-            isProxy: true,
-            rawFileName: this.selected[langCode]
-          })
-          .then(() => {
-            this.isLoading.uploadProxy[langCode] = false;
-          });
-      },     
+      },  
       //helpers
       itemsNotEmpty(langCode) {
         if (!this.items | !this.items[langCode]) {
@@ -285,6 +267,14 @@
             langCode
           });
           this.selected[langCode] = null;
+          this.$store.commit(SET_MARKS, {
+            data: {"items": []},
+            langCode: this.langCodeFrom
+          });
+          this.$store.commit(SET_MARKS, {
+            data: {"items": []},
+            langCode: this.langCodeTo
+          });
         }
       },
       fetchAll() {
@@ -307,6 +297,7 @@
           fileName: this.selected[langCode],
           username: this.$route.params.username,
           langCode,
+          fromDb: false,
           openInBrowser
         });
       },
@@ -365,7 +356,7 @@
         return this.$route.params.username;
       },
       showAlert() {
-        if (!this.items | !this.items[this.langCodeFrom] | !this.items[this.langCodeTo]) {
+        if (!this.items || !this.items[this.langCodeFrom] || !this.items[this.langCodeTo]) {
           return true;
         }
         return (this.items[this.langCodeFrom].length == 0) & (this.items[this.langCodeTo].length == 0);

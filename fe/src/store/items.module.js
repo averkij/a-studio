@@ -113,7 +113,11 @@ export const actions = {
   },
   // params {fileId, username, langCode, fileName}
   async [DOWNLOAD_SPLITTED](context, params) {
-    await ItemsService.downloadSplitted(params);
+    if (params.fromDb) {
+      await ItemsService.downloadSplittedFromDb(params);
+    } else {
+      ItemsService.downloadSplitted(params);
+    }
   },
   // params {fileId, username, langCode, fileName}
   async [DOWNLOAD_PROCESSING](context, params) {
@@ -336,6 +340,7 @@ export const mutations = {
     }
   },
   [SET_MARKS](state, params) {
+    console.log("SET_MARKS", params)
     state.marks[params.langCode] = params.data.items;
   },
   [SET_PROCESSING](state, data) {
