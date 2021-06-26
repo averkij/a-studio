@@ -123,14 +123,21 @@ class AlignmentProcessor:
 
     def start_align(self):
         """Start workers"""
-        align_handler = Process(
-            target=self.handle_result, args=(self.queue_out,), daemon=True)
-        align_handler.start()
-
         workers = [Process(target=self.work, args=(self.queue_in, self.queue_out), daemon=True) for _ in range(
             min(self.proc_count, self.tasks_count))]  # do not run more processes than necessary
         for w in workers:
             w.start()
+
+        #local
+        align_handler = Process(
+            target=self.handle_result, args=(self.queue_out,), daemon=True)
+        align_handler.start()
+
+        #docker        
+        # align_handler = Process(
+        #     target=self.handle_result, args=(self.queue_out,))
+        # align_handler.start()
+        # align_handler.join()
     
     def process_batch_wrapper(self, lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_number):
         """Align process wrapper"""
