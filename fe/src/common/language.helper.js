@@ -47,7 +47,7 @@ export const LANGUAGES = {
     'cz': {
         langCode: "cz",
         name: "Czech",
-        icon: "🍻"
+        icon: "🍺"
     },
     'pl': {
         langCode: "pl",
@@ -57,7 +57,7 @@ export const LANGUAGES = {
     'uk': {
         langCode: "uk",
         name: "Ukrainian",
-        icon: "🍻"
+        icon: "🌻"
     },
     'hu': {
         langCode: "hu",
@@ -67,12 +67,17 @@ export const LANGUAGES = {
     'nl': {
         langCode: "nl",
         name: "Dutch",
-        icon: "🍻"
+        icon: "🌈"
+    },
+    'sw': {
+        langCode: "sw",
+        name: "Sweden",
+        icon: "⛄️"
     },
     'ko': {
         langCode: "ko",
         name: "Korean",
-        icon: "🍻"
+        icon: "🐕"
     },
     'zh': {
         langCode: "zh",
