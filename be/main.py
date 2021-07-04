@@ -16,7 +16,7 @@ import user_db_helper
 from align_processor import AlignmentProcessor
 from flask import Flask, abort, request, send_file
 from flask_cors import CORS
-from lingtrain_aligner import aligner, helper, preprocessor, splitter, saver, resolver, reader
+from lingtrain_aligner import aligner, helper, preprocessor, splitter, saver, resolver, reader, vis_helper
 
 misc.configure_logging()
 
@@ -140,7 +140,7 @@ def get_splitted(username, lang, guid, count, page):
             lines.append((line, lines_count))
 
     total_pages = (lines_count//count) + (1 if lines_count % count != 0 else 0)
-    meta = {"lines_count": lines_count, "symbols_count": symbols_count,
+    meta = {"lines_count": lines_count-1, "symbols_count": symbols_count,
             "page": page, "total_pages": total_pages}
     return {"items": {lang: lines}, "meta": {lang: meta}}
 
@@ -246,6 +246,44 @@ def delete_document(username):
     filename = request.form.get("filename", '')
 
     user_db_helper.delete_document(username, guid, lang, filename)
+
+    return ('', 200)
+
+
+@app.route("/items/<username>/alignment/visualize", methods=["POST"])
+def update_visualization(username):
+    """Align two splitted documents"""
+    align_guid = request.form.get("id", '')
+    update_all = request.form.get("update_all", '')
+    batch_ids = misc.parse_json_array(request.form.get("batch_ids", "[0]"))
+
+    logging.info(
+        f"visualize parameters align_guid {align_guid} update_all {update_all} batch_ids {batch_ids}")
+
+    _, guid_from, guid_to, _, _, total_batches = user_db_helper.get_alignment_info(
+        username, align_guid)
+    _, lang_from = user_db_helper.get_alignment_fileinfo_from(
+        username, guid_from)
+    _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
+    db_folder = os.path.join(con.UPLOAD_FOLDER, username,
+                             con.DB_FOLDER, lang_from, lang_to)
+    db_path = os.path.join(db_folder, f"{align_guid}.db")
+
+    if update_all:
+        logging.info(f"[{username}]. Cleaning images.")
+        misc.clean_img_user_foler(username, align_guid)
+        batch_ids = list(range(total_batches))
+
+    # exit if batch ids is empty
+    batch_ids = [x for x in batch_ids if x < total_batches][:total_batches]
+    if not batch_ids:
+        abort(404)
+
+    res_img_best = os.path.join(
+        con.STATIC_FOLDER, con.IMG_FOLDER, username, f"{align_guid}.best.png")
+
+    vis_helper.visualize_alignment_by_db(
+        db_path, res_img_best, lang_name_from=lang_from, lang_name_to=lang_to, batch_ids=batch_ids, transparent_bg=True)
 
     return ('', 200)
 
@@ -422,6 +460,8 @@ def show_alignment_conflict(username, align_guid, id):
     conflicts, rest = resolver.get_all_conflicts(
         db_path, min_chain_length=2, max_conflicts_len=18, batch_id=-1)
     conflicts.extend(rest)
+    if not conflicts:
+        return {"from": [], "to": []}
     id = id % len(conflicts)
     splitted_from, splitted_to = resolver.show_conflict(
         db_path, conflicts[id], print_conf=False)
@@ -762,6 +802,9 @@ def get_book_preview(username, lang_from, lang_to, align_guid):
     if not os.path.isfile(db_path):
         abort(404)
 
+    if reader.is_empty_cells(db_path):
+        abort(400)
+
     par_amount = 6
 
     paragraphs, delimeters, metas = reader.get_paragraphs_polybook(
@@ -799,9 +842,11 @@ def download_book(username, lang_from, lang_to, align_guid):
     if not os.path.isfile(db_path):
         abort(404)
 
-    paragraphs, delimeters, metas = reader.get_paragraphs_polybook(
-        db_paths = [db_path],
-        direction = direction)
+    if reader.is_empty_cells(db_path):
+        abort(400)
+
+    paragraphs, delimeters, metas = reader.get_paragraphs(
+        db_path, direction)
 
     if left_lang == "from":
         lang_order = [lang_from, lang_to]
@@ -815,7 +860,7 @@ def download_book(username, lang_from, lang_to, align_guid):
     download_file = os.path.join(download_folder, "{0}_{1}_{2}_{3}.html".format(
         align_guid, lang_from, lang_from, timestamp))
 
-    reader.create_polybook(
+    reader.create_book(
                 lang_ordered = lang_order,
                 paragraphs = paragraphs,
                 delimeters = delimeters,
@@ -823,6 +868,7 @@ def download_book(username, lang_from, lang_to, align_guid):
                 output_path = download_file,
                 template=style,
                 styles=[])
+
     logging.debug(
         f"[{username}]. File (book) {download_file} prepared. Sent to user.")
     return send_file(download_file, as_attachment=True)
