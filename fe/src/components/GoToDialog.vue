@@ -5,7 +5,7 @@
         Go to page
       </v-card-title>
       <v-card-text class="mt-5">
-        <v-text-field label="Page number" v-model="pageNumber">
+        <v-text-field label="Page number" v-model="pageNumber" v-on:keyup.enter="goToPage">
         </v-text-field>
       </v-card-text>
       <v-card-actions>
