@@ -203,7 +203,7 @@ export default {
     },
     goToGithub() {
       window.open(
-        "https://github.com/averkij/lingtrain-aligner-editor",
+        "https://github.com/averkij/a-studio",
         "_blank"
       );
     },
