@@ -36,5 +36,6 @@ export const GET_CONFLICTS = "get_conflicts";
 export const GET_CONFLICT_DETAILS = "get_conflict_details";
 export const RESOLVE_CONFLICTS = "resolve_conflicts";
 
+export const UPDATE_VISUALIZATION = "update_visualization";
 
 export const GET_CONTENTS = "get_contents";

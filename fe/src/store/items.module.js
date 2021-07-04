@@ -34,7 +34,8 @@ import {
   GET_CONFLICT_SPLITTED_TO,
   GET_CONFLICT_FLOW_TO,
   GET_CONTENTS,
-  GET_BOOK_PREVIEW
+  GET_BOOK_PREVIEW,
+  UPDATE_VISUALIZATION
 } from "./actions.type";
 
 import {
@@ -131,8 +132,14 @@ export const actions = {
       function (response) {
         context.commit(SET_BOOK_PREVIEW, response.data);
       },
-      function () {
-        console.log(`GET_BOOK_PREVIEW error.`);
+      function (error) {
+        let code = ErrorHelper.getErrorCode(error)
+        if (code == '400') {
+          alert('There are cells without IDs in your alignment.')
+        } else {
+          alert(error)
+        }
+        console.log(error);
       }
     );
   },
@@ -283,6 +290,13 @@ export const actions = {
       console.log("alignment error")
     });
   },
+  async [UPDATE_VISUALIZATION](context, params) {
+    await ItemsService.updateVisualization(params).then(() => {
+    },
+    () => {
+      console.log("update visualization error")
+    });
+  },
   async [RESOLVE_CONFLICTS](context, params) {
     await ItemsService.resolveConflicts(params).then(() => {
     },
@@ -321,7 +335,7 @@ export const actions = {
       }
     );
     return;
-  }
+  },
 };
 
 export const mutations = {
@@ -420,6 +434,19 @@ const getters = {
     return state.bookPreview;
   },
 };
+
+export const ErrorHelper = {
+  getErrorCode(line) {
+    if (line) {      
+      let match = String(line).match(/^.*\s([\d]+)$/i)
+      if (match && match.length > 1) {
+        return match[1]
+      }
+      return '402'
+    }
+    return '402'
+  }
+}
 
 export default {
   state,

@@ -148,15 +148,18 @@
         <!-- VISUAL CAROUSEL -->
         <swiper class="swiper" :options="swiperOption">
           <swiper-slide v-for="(batch_id, i) in processingMeta.meta.batch_ids" :key=i>
-              <v-card flat
-                @click="showRecalculateBatchDialog=true; currentBatchId=batch_id">
+              <v-card class="vis-card" flat>
                 <div class="green lighten-5">
                   <v-card-title class="text-subtitle-2 pa-3 pb-3">
-                    batch {{batch_id+1}}
+                    <span>batch {{batch_id+1}} </span>
+                    <v-spacer></v-spacer>
+                    <span class="refresh-vis-icon">
+                      <v-icon @click="refreshVis(batch_id)">mdi-refresh</v-icon>
+                    </span>
                   </v-card-title>
                 </div>
                 <v-divider></v-divider>
-                <div class="grey lighten-2">
+                <div class="vis-card-img" @click="showRecalculateBatchDialog=true; currentBatchId=batch_id">
                   <img width=100% :src="getImgUrl(batch_id)">
                 </div>
               </v-card>
@@ -598,7 +601,8 @@
     DELETE_ALIGNMENT,
     ALIGN_SPLITTED,
     RESOLVE_CONFLICTS,
-    DOWNLOAD_SPLITTED
+    DOWNLOAD_SPLITTED,
+    UPDATE_VISUALIZATION
   } from "@/store/actions.type";
   import {
     SET_ITEMS_PROCESSING,
@@ -671,7 +675,8 @@
         },
         batchesToAlign: 5,
         alignShift: 0,
-        alignWindow: 50
+        alignWindow: 50,
+        cacheKey: Math.random()
       };
     },
     methods: {      
@@ -688,7 +693,7 @@
         });
       },
       getImgUrl(batch_id) {
-        return `${API_URL}/static/img/${this.username}/${this.processingMeta.meta.align_guid}.best_${batch_id}.png?rnd=${Math.random()}`;
+        return `${API_URL}/static/img/${this.username}/${this.processingMeta.meta.align_guid}.best_${batch_id}.png?rnd=${this.cacheKey}`;
       },
       prepareUsedToLines() {
         let foo = new Set();
@@ -763,6 +768,18 @@
             this.unusedToLines = unusedToLines;
           });
       },
+      refreshVis(batch_id) {
+        this.$store
+          .dispatch(UPDATE_VISUALIZATION, {
+            username: this.$route.params.username,
+            id: this.selectedProcessingId,
+            batchIds: [batch_id],
+            updateAll: ''
+          })
+          .then(() => {
+            this.cacheKey = Math.random();
+          });
+      },
       createAlignment(name) {
         this.$store
           .dispatch(CREATE_ALIGNMENT, {
@@ -777,6 +794,7 @@
               langCodeFrom: this.langCodeFrom,
               langCodeTo: this.langCodeTo
             }).then(() => {
+              this.cacheKey = Math.random();
               this.selectFirstProcessingDocument();
             });
           });
@@ -839,6 +857,7 @@
               this.selectCurrentlyProcessingDocument(this.selectedProcessing);
               this.fetchItemsProcessingTimer();
             } else {
+              this.cacheKey = Math.random();
               this.userAlignInProgress = false;
               this.isLoading.alignStopping = false;
               this.isLoading.resolve = false;
@@ -1274,6 +1293,7 @@
               0] ==
             1)
           if (in_progress_items.length > 0) {
+            this.cacheKey = Math.random();
             let item_index = this.itemsProcessing[this.langCodeFrom].indexOf(in_progress_items[0])
             this.currentlyProcessingId = this.itemsProcessing[this.langCodeFrom][item_index].guid
             this.userAlignInProgress = true;

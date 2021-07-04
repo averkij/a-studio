@@ -4,6 +4,7 @@ import VueAxios from "vue-axios";
 import {
   API_URL
 } from "@/common/config";
+import { ErrorHelper } from "@/store/items.module"
 
 const ApiService = {
   init() {
@@ -138,6 +139,14 @@ export const ItemsService = {
       link.setAttribute('download', params.fileName);
       document.body.appendChild(link);
       link.click();
+    }, (error) => {
+      let code = ErrorHelper.getErrorCode(error)
+        if (code == '400') {
+          alert('There are cells without IDs in your alignment.')
+        } else {
+          alert(error)
+        }
+        console.log(error);
     });
   },  
   getBookPreview(params) {
@@ -247,6 +256,17 @@ export const ItemsService = {
       );
 
     }
+  },
+  updateVisualization(params) {
+    let form = new FormData();
+    form.append("id", params.id);
+    form.append("update_all", params.updateAll);
+    form.append("batch_ids", JSON.stringify(params.batchIds))
+    return ApiService.post(
+      "items",
+      `${params.username}/alignment/visualize`,
+      form
+    );
   },
   createAlignment(params) {
     let form = new FormData();
