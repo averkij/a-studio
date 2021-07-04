@@ -304,3 +304,23 @@ h3 {
     background: linear-gradient(90deg, #fefbd6 0px, #ffffff00 150px);
     border-radius: 15px;
 }
+
+.vis-card-img {
+    cursor: pointer;
+    background: #00000022;
+    transition: ease-in-out 0.1s all;
+}
+
+.vis-card-img:hover {
+    background: #cfefd7 !important;
+}
+
+.refresh-vis-icon {
+    cursor: pointer;
+    opacity: 0;
+    transition: ease-in-out 0.1s opacity;
+}
+
+.vis-card:hover > div > .v-card__title > .refresh-vis-icon {
+    opacity: 1;
+}
