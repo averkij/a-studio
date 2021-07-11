@@ -102,7 +102,7 @@
             <v-list-item v-for="(item, i) in itemsProcessing[langCodeFrom]" :key="i"
               @change="selectProcessing(item, item.guid)"
               @mouseover="hoverAlignmentIndex = i"
-              @mouseleave="hoverAlignmentIndex = -1">
+              @mouseleave="hoverAlignmentIndex = -1" class="lighten-4" :class="{'yellow':item.guid==selectedProcessingId}">
               <v-list-item-icon>
                 <v-icon v-if="item.state[0]==PROC_INIT || item.state[0]==PROC_IN_PROGRESS" color="blue">
                   mdi-clock-outline</v-icon>
@@ -133,7 +133,7 @@
       <!-- PROCESSING DOCUMENTS LIST BLOCK -->
       <v-row>
         <v-col class="text-center text-h4 mt-12">
-          {{selectedProcessing.name}}
+          <span>{{selectedProcessing.name}}</span>
         </v-col>
       </v-row>
       <div class="text-h5 mt-12 font-weight-bold">
@@ -870,7 +870,7 @@
               }
             }
           });
-        }, 5000)
+        }, 6000)
       },
       initProcessingDocument() {
         let processingItemsCopy = JSON.parse(JSON.stringify(this.itemsProcessing[this.langCodeFrom]));
