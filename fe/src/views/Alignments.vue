@@ -711,7 +711,7 @@
         } else {
           alert("There are no conflicts.")
         }
-      }, 
+      },
       downloadSplitted(langCode, openInBrowser) {
         this.$store.dispatch(DOWNLOAD_SPLITTED, {
           alignId: this.selectedProcessingId,
@@ -1081,7 +1081,26 @@
             this.isLoading.processing = false;
           });
         });
-
+        this.$store.dispatch(GET_CONFLICTS, {
+          username: this.$route.params.username,
+          alignId: this.selectedProcessingId,
+        }).then(() => {
+          this.currConflictId = 0;
+          if (this.conflictsAmount() > 0) {
+            this.$store.dispatch(GET_CONFLICT_DETAILS, {
+              username: this.$route.params.username,
+              alignId: this.selectedProcessingId,
+              conflictId: 0
+            }).then(() => {
+              this.isLoading.conflicts = false;              
+            });
+          } else {
+            this.isLoading.conflicts = false; 
+          }
+        });
+      },
+      refreshConflicts() {
+        this.isLoading.conflicts = true;  
         this.$store.dispatch(GET_CONFLICTS, {
           username: this.$route.params.username,
           alignId: this.selectedProcessingId,
