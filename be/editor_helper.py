@@ -1,6 +1,7 @@
 import sqlite3
 
 import constants as con
+import json
 from lingtrain_aligner import helper
 
 
@@ -97,3 +98,13 @@ def get_candidates_page(db_path, text_type, id_from, id_to):
                 res.append({"id": id, "text": splitted, "proxy": proxy})
     return res
 
+
+def get_line_id_index_position(db_path, line_id, direction="from"):
+    """Get index position on the splitted line ID """
+    index = helper.get_flatten_doc_index(db_path)
+    direction_pos = 1 if direction=="from" else 3
+    for i,item in enumerate(index):
+        ids = json.loads(item[0][direction_pos])
+        if line_id in ids:
+            return i
+    return -1
