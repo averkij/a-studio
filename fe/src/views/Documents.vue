@@ -88,9 +88,7 @@
                   'green': mark[2]=='author' || mark[2]=='title',
                   'teal': mark[2] == 'h1',
                   'cyan': mark[2] == 'h2',
-                  'lime': mark[2] == 'h3',
-                  'lime': mark[2] == 'h4',
-                  'lime': mark[2] == 'h5',
+                  'lime': mark[2] == 'h3' || mark[2] == 'h4' || mark[2] == 'h5',
                   'pr-5': mark[2] == 'h2' || mark[2] == 'h3' || mark[2] == 'h4' || mark[2] == 'h5',
                   'purple': mark[2] == 'qtext' || mark[2] == 'qname',
                   'orange': mark[2] == 'image'
@@ -116,9 +114,7 @@
                   'green': mark[2]=='author' || mark[2]=='title',
                   'teal': mark[2] == 'h1',
                   'cyan': mark[2] == 'h2',
-                  'lime': mark[2] == 'h3',
-                  'lime': mark[2] == 'h4',
-                  'lime': mark[2] == 'h5',
+                  'lime': mark[2] == 'h3' || mark[2] == 'h4' || mark[2] == 'h5',
                   'pr-5': mark[2] == 'h2' || mark[2] == 'h3' || mark[2] == 'h4' || mark[2] == 'h5',
                   'purple': mark[2] == 'qtext' || mark[2] == 'qname',
                   'orange': mark[2] == 'image'
