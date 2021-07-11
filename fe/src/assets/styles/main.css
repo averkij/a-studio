@@ -258,13 +258,6 @@ h3 {
     font-weight: 400;
 }
 
-.lt-author {
-    margin-top: 10px;
-}
-.lt-title {
-    margin-top: 20px;
-}
-
 .lt-quote-text {
     font-style: italic;
     text-align: right;
@@ -273,6 +266,13 @@ h3 {
 .lt-quote-name {
     text-align: right;
     font-size: 0.8em;
+}
+.lt-title {
+    margin-top: 20px;
+}
+.lt-author {
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .lt-image {
@@ -323,4 +323,12 @@ h3 {
 
 .vis-card:hover > div > .v-card__title > .refresh-vis-icon {
     opacity: 1;
+}
+
+.red-dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background: red;
+    border-radius: 50%;
 }
