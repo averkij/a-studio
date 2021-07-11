@@ -696,7 +696,7 @@
           .dispatch(GET_CONFLICT_SPLITTED_FROM, {
             username: this.$route.params.username,
             ids: JSON.stringify(unusedFromLines),
-            align_guid: this.selectedProcessingId,
+            alignId: this.selectedProcessingId,
             langCodeFrom: this.langCodeFrom,
             langCodeTo: this.langCodeTo
           }).then(() => {
@@ -706,7 +706,7 @@
           .dispatch(GET_CONFLICT_SPLITTED_TO, {
             username: this.$route.params.username,
             ids: JSON.stringify(unusedToLines),
-            align_guid: this.selectedProcessingId,
+            alignId: this.selectedProcessingId,
             langCodeFrom: this.langCodeFrom,
             langCodeTo: this.langCodeTo
           }).then(() => {
@@ -716,7 +716,7 @@
         //   .dispatch(GET_CONFLICT_FLOW_TO, {
         //     username: this.$route.params.username,
         //     index_ids: JSON.stringify([...flowBreaks]),
-        //     align_guid: this.selectedProcessingId,
+        //     alignId: this.selectedProcessingId,
         //     langCodeFrom: this.langCodeFrom,
         //     langCodeTo: this.langCodeTo
         //   }).then(() => {
@@ -929,7 +929,7 @@
       },
       downloadProcessing(langCode) {
         this.$store.dispatch(DOWNLOAD_PROCESSING, {
-          align_guid: this.selectedProcessingId,
+          alignId: this.selectedProcessingId,
           fileName: this.selectedProcessingId + ".txt",
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,
@@ -940,7 +940,7 @@
       },
       downloadProcessingTmx() {
         this.$store.dispatch(DOWNLOAD_PROCESSING, {
-          align_guid: this.selectedProcessingId,
+          alignId: this.selectedProcessingId,
           fileName: this.selectedProcessingId + ".tmx",
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,

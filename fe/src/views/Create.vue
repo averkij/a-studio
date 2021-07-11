@@ -328,7 +328,7 @@
       },
       getBookPreview() {
         this.$store.dispatch(GET_BOOK_PREVIEW, {
-          align_guid: this.selectedProcessingId,
+          alignId: this.selectedProcessingId,
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,
           langCodeTo: this.langCodeTo,
@@ -339,7 +339,7 @@
       },
       downloadBook() {
         this.$store.dispatch(DOWNLOAD_BOOK, {
-          align_guid: this.selectedProcessingId,
+          alignId: this.selectedProcessingId,
           fileName: this.selectedProcessingId + ".html",
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,
@@ -360,7 +360,7 @@
       },
       downloadProcessing(langCode) {
         this.$store.dispatch(DOWNLOAD_PROCESSING, {
-          align_guid: this.selectedProcessingId,
+          alignId: this.selectedProcessingId,
           fileName: this.selectedProcessingId + ".txt",
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,
@@ -371,7 +371,7 @@
       },
       downloadProcessingTmx() {
         this.$store.dispatch(DOWNLOAD_PROCESSING, {
-          align_guid: this.selectedProcessingId,
+          alignId: this.selectedProcessingId,
           fileName: this.selectedProcessingId + ".tmx",
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,
