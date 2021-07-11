@@ -16,16 +16,6 @@ const routes = [
     component: () => import("@/views/Login"),
     alias: "/user"
   },
-  {
-    path: "/user/:username/items/:from/:to",
-    name: "items",
-    component: () => import("@/views/Items")
-  },
-  //obsolete
-  {
-    path: "/user/:username/items",
-    redirect: `/user/:username/items/${DEFAULT_FROM}/${DEFAULT_TO}`
-  },
   //documents
   {
     path: "/user/:username/docs/:from/:to",
