@@ -75,7 +75,7 @@ export const ItemsService = {
     let form = new FormData();
     form.append(params.langCode, params.file);
     form.append("type", params.isProxy ? "proxy" : "raw");
-    form.append("align_guid", params.alignGuid);
+    form.append("align_guid", params.alignId);
     return ApiService.post("items",
       `${params.username}/raw/${params.langCode}`,
       form);
@@ -98,7 +98,7 @@ export const ItemsService = {
   downloadSplittedFromDb(params) {
     return ApiService.get(
       "items",
-      `${params.username}/splitted/${params.langCodeFrom}/${params.langCodeTo}/${params.align_guid}/download/${params.langCodeDownload}`
+      `${params.username}/splitted/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}`
     ).then((response) => {
       const url = window.URL.createObjectURL(new Blob([response.data],{encoding:"UTF-8",type:"text/plain;charset=UTF-8"}));
       const link = document.createElement('a');
@@ -113,7 +113,7 @@ export const ItemsService = {
   downloadProcessing(params) {
     return ApiService.post(
       "items",
-      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.align_guid}/download/${params.langCodeDownload}/${params.format}`
+      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}/${params.format}`
     ).then((response) => {
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement('a');
@@ -130,7 +130,7 @@ export const ItemsService = {
     form.append("style", params.style);
     return ApiService.post(
       "items",
-      `${params.username}/create/${params.langCodeFrom}/${params.langCodeTo}/${params.align_guid}/download`,
+      `${params.username}/create/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download`,
       form
     ).then((response) => {
       const url = window.URL.createObjectURL(new Blob([response.data]));
@@ -156,7 +156,7 @@ export const ItemsService = {
     form.append("style", params.style);
     return ApiService.post(
       "items",
-      `${params.username}/create/${params.langCodeFrom}/${params.langCodeTo}/${params.align_guid}/preview`,
+      `${params.username}/create/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/preview`,
       form
     );
   },
@@ -189,7 +189,7 @@ export const ItemsService = {
     form.append("index_ids", params.index_ids);
     return ApiService.post(
       "items",
-      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.align_guid}`,
+      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}`,
       form
     );
   },
@@ -202,13 +202,13 @@ export const ItemsService = {
   getConflicts(params) {
     return ApiService.get(
       "items",
-      `${params.username}/alignment/conflicts/${params.align_guid}`
+      `${params.username}/alignment/conflicts/${params.alignId}`
     );
   },
   getConflictDetails(params) {
     return ApiService.get(
       "items",
-      `${params.username}/alignment/conflicts/${params.align_guid}/show/${params.conflictId}`
+      `${params.username}/alignment/conflicts/${params.alignId}/show/${params.conflictId}`
     );
   },
   getDocIndex(params) {
@@ -222,8 +222,14 @@ export const ItemsService = {
     form.append("ids", params.ids);
     return ApiService.post(
       "items",
-      `${params.username}/splitted/${type}/${params.langCodeFrom}/${params.langCodeTo}/${params.align_guid}`,
+      `${params.username}/splitted/${type}/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}`,
       form
+    );
+  },
+  findLinePosition(params) {
+    return ApiService.get(
+      "items",
+      `${params.username}/edit/find/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/${params.langCode}/${params.lineId}`
     );
   },
   stopAlignment(params) {

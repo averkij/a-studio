@@ -35,7 +35,8 @@ import {
   GET_CONFLICT_FLOW_TO,
   GET_CONTENTS,
   GET_BOOK_PREVIEW,
-  UPDATE_VISUALIZATION
+  UPDATE_VISUALIZATION,
+  FIND_LINE_POSITION_IN_INDEX
 } from "./actions.type";
 
 import {
@@ -52,7 +53,8 @@ import {
   SET_CONFLICT_SPLITTED_TO,
   SET_CONFLICT_FLOW_TO,
   SET_CONTENTS,
-  SET_BOOK_PREVIEW
+  SET_BOOK_PREVIEW,
+  SET_LINE_POSITION_IN_INDEX
 } from "./mutations.type";
 
 const initialState = {
@@ -69,7 +71,8 @@ const initialState = {
   contents: [],
   conflicts: {},
   conflictDetails: {"from": [], "to": []},
-  bookPreview: ""
+  bookPreview: "",
+  linePositionInIndex: -1
 };
 
 export const state = {
@@ -254,6 +257,16 @@ export const actions = {
   async [GET_CANDIDATES](context, params) {
     return await ItemsService.getCandidates(params);
   },
+  async [FIND_LINE_POSITION_IN_INDEX](context, params) {
+    await ItemsService.findLinePosition(params).then(
+      function (response) {
+        context.commit(SET_LINE_POSITION_IN_INDEX, response.data);
+      },
+      function () {
+        console.log(`FIND_LINE_POSITION_IN_INDEX error.`);
+      }
+    );
+  },
   async [STOP_ALIGNMENT](context, params) {
     await ItemsService.stopAlignment(params);
     return;
@@ -387,6 +400,9 @@ export const mutations = {
   },
   [SET_BOOK_PREVIEW](state, data) {
     state.bookPreview = data.items;
+  },
+  [SET_LINE_POSITION_IN_INDEX](state, data) {
+    state.linePositionInIndex = data.pos;
   }
 };
 
@@ -432,6 +448,9 @@ const getters = {
   },
   bookPreview(state) {
     return state.bookPreview;
+  },
+  linePositionInIndex(state) {
+    return state.linePositionInIndex;
   },
 };
 

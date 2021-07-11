@@ -12,3 +12,4 @@ export const SET_CONTENTS = "set_contents";
 export const SET_CONFLICTS = "set_conflicts";
 export const SET_CONFLICT_DETAILS = "set_conflict_details";
 export const SET_BOOK_PREVIEW = "set_book_preview";
+export const SET_LINE_POSITION_IN_INDEX = "set_line_position_in_index";

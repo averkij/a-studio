@@ -323,6 +323,18 @@
           Next
         </v-btn>
         <v-spacer></v-spacer>
+        <v-btn class="primary mt-4 mr-3 btn-min-w"
+          :loading="isLoading.resolve"
+          :disabled="isLoading.resolve || userAlignInProgress"
+          @click="refreshConflicts()">
+          Refresh
+        </v-btn>
+        <v-btn class="primary mt-4 mr-3 btn-min-w"
+          :loading="isLoading.resolve"
+          :disabled="isLoading.resolve || userAlignInProgress || conflictsAmount()==0"
+          @click="findLinePositionAndGotoEditor()">
+          Open in editor
+        </v-btn>
         <v-btn class="success mt-4 mr-3 btn-min-w"
           :loading="isLoading.resolve"
           :disabled="isLoading.resolve || userAlignInProgress || conflictsAmount()==0"
@@ -602,7 +614,8 @@
     ALIGN_SPLITTED,
     RESOLVE_CONFLICTS,
     DOWNLOAD_SPLITTED,
-    UPDATE_VISUALIZATION
+    UPDATE_VISUALIZATION,
+    FIND_LINE_POSITION_IN_INDEX
   } from "@/store/actions.type";
   import {
     SET_ITEMS_PROCESSING,
@@ -679,10 +692,29 @@
         cacheKey: Math.random()
       };
     },
-    methods: {      
+    methods: {    
+      findLinePositionAndGotoEditor() {
+        if (this.conflictDetails) {
+          let lineId = Object.keys(this.conflictDetails["from"])[0];
+          this.$store.dispatch(FIND_LINE_POSITION_IN_INDEX, {
+            alignId: this.selectedProcessingId,
+            username: this.$route.params.username,
+            langCodeFrom: this.langCodeFrom,
+            langCodeTo: this.langCodeTo,
+            langCode: this.langCodeFrom,
+            lineId: lineId
+          }).then(() => {
+            let editorPageSize = 10;
+            let pageNumber = Math.floor(this.linePositionInIndex / editorPageSize) + 1;
+            this.goToPage(pageNumber);
+          });
+        } else {
+          alert("There are no conflicts.")
+        }
+      }, 
       downloadSplitted(langCode, openInBrowser) {
         this.$store.dispatch(DOWNLOAD_SPLITTED, {
-          align_guid: this.selectedProcessingId,
+          alignId: this.selectedProcessingId,
           fileName: this.selectedProcessingId + ".txt",
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,
@@ -751,7 +783,7 @@
           .dispatch(GET_CONFLICT_SPLITTED_FROM, {
             username: this.$route.params.username,
             ids: JSON.stringify(unusedFromLines),
-            align_guid: this.selectedProcessingId,
+            alignId: this.selectedProcessingId,
             langCodeFrom: this.langCodeFrom,
             langCodeTo: this.langCodeTo
           }).then(() => {
@@ -761,7 +793,7 @@
           .dispatch(GET_CONFLICT_SPLITTED_TO, {
             username: this.$route.params.username,
             ids: JSON.stringify(unusedToLines),
-            align_guid: this.selectedProcessingId,
+            alignId: this.selectedProcessingId,
             langCodeFrom: this.langCodeFrom,
             langCodeTo: this.langCodeTo
           }).then(() => {
@@ -957,7 +989,7 @@
         this.isLoading.uploadProxy[langCode] = true;
         this.$store
           .dispatch(UPLOAD_FILES, {
-            alignGuid: this.selectedProcessingId,
+            alignId: this.selectedProcessingId,
             file: this.proxyFiles[langCode],
             username: this.$route.params.username,
             langCode,
@@ -1009,7 +1041,7 @@
       showConflict(conflictId) {
         this.$store.dispatch(GET_CONFLICT_DETAILS, {
           username: this.$route.params.username,
-          align_guid: this.selectedProcessingId,
+          alignId: this.selectedProcessingId,
           conflictId: conflictId
         }).then(() => {
           this.isLoading.conflicts = false;
@@ -1052,13 +1084,13 @@
 
         this.$store.dispatch(GET_CONFLICTS, {
           username: this.$route.params.username,
-          align_guid: this.selectedProcessingId,
+          alignId: this.selectedProcessingId,
         }).then(() => {
           this.currConflictId = 0;
           if (this.conflictsAmount() > 0) {
             this.$store.dispatch(GET_CONFLICT_DETAILS, {
               username: this.$route.params.username,
-              align_guid: this.selectedProcessingId,
+              alignId: this.selectedProcessingId,
               conflictId: 0
             }).then(() => {
               this.isLoading.conflicts = false;              
@@ -1375,7 +1407,7 @@
     },
     computed: {
       ...mapGetters(["items", "itemsProcessing", "splitted", "processing", "docIndex", "conflicts", "conflictDetails",
-        "conflictSplittedFrom", "conflictSplittedTo", "conflictFlowTo", "processingMeta"
+        "conflictSplittedFrom", "conflictSplittedTo", "conflictFlowTo", "processingMeta", "linePositionInIndex"
       ]),
       username() {
         return this.$route.params.username;
