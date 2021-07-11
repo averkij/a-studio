@@ -874,6 +874,20 @@ def download_book(username, lang_from, lang_to, align_guid):
     return send_file(download_file, as_attachment=True)
 
 
+@app.route("/items/<username>/edit/find/<lang_from>/<lang_to>/<aling_id>/<lang>/<int:line_id>", methods=["GET"])
+def get_line_id_position(username, lang_from, lang_to, aling_id, lang, line_id):
+    db_folder = os.path.join(con.UPLOAD_FOLDER, username,
+                             con.DB_FOLDER, lang_from, lang_to)
+    db_path = os.path.join(db_folder, f'{aling_id}.db')
+
+    if not os.path.isfile(db_path):
+        abort(404)
+
+    direction = "from" if lang==lang_from else "to"
+    res = editor_helper.get_line_id_index_position(db_path, line_id, direction)
+
+    return {"pos": res}
+
 @app.route("/items/<username>/edit/exclude/<lang_from>/<lang_to>/<aling_id>", methods=["POST"])
 def switch_excluded(username, lang_from, lang_to, aling_id):
     """Switch excluded flag for unused string"""
