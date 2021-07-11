@@ -22,7 +22,7 @@
             <v-list-item v-for="(item, i) in itemsProcessing[langCodeFrom]" :key="i"
               @change="selectProcessing(item, item.guid)"
               @mouseover="hoverAlignmentIndex = i"
-              @mouseleave="hoverAlignmentIndex = -1">
+              @mouseleave="hoverAlignmentIndex = -1" class="lighten-3" :class="{'grey':item.guid==selectedProcessingId}">
               <v-list-item-icon>
                 <v-icon v-if="item.state[0]==PROC_INIT || item.state[0]==PROC_IN_PROGRESS" color="blue">
                   mdi-clock-outline</v-icon>
