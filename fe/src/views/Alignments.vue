@@ -324,13 +324,11 @@
         </v-btn>
         <v-spacer></v-spacer>
         <v-btn class="primary mt-4 mr-3 btn-min-w"
-          :loading="isLoading.resolve"
           :disabled="isLoading.resolve || userAlignInProgress"
           @click="refreshConflicts()">
           Refresh
         </v-btn>
         <v-btn class="primary mt-4 mr-3 btn-min-w"
-          :loading="isLoading.resolve"
           :disabled="isLoading.resolve || userAlignInProgress || conflictsAmount()==0"
           @click="findLinePositionAndGotoEditor()">
           Open in editor
