@@ -433,7 +433,7 @@ def get_alignment_conflicts(username, align_guid):
         abort(404)
 
     conflicts, rest = resolver.get_all_conflicts(
-        db_path, min_chain_length=2, max_conflicts_len=18, batch_id=-1)
+        db_path, min_chain_length=2, max_conflicts_len=20, batch_id=-1)
     stat1 = resolver.get_statistics(conflicts, print_stat=False)
     stat2 = resolver.get_statistics(rest, print_stat=False)
     res = [(x, stat1[x]) for x in stat1]
@@ -458,7 +458,7 @@ def show_alignment_conflict(username, align_guid, id):
         abort(404)
 
     conflicts, rest = resolver.get_all_conflicts(
-        db_path, min_chain_length=2, max_conflicts_len=18, batch_id=-1)
+        db_path, min_chain_length=2, max_conflicts_len=20, batch_id=-1)
     conflicts.extend(rest)
     if not conflicts:
         return {"from": [], "to": []}
@@ -845,7 +845,7 @@ def download_book(username, lang_from, lang_to, align_guid):
     if reader.is_empty_cells(db_path):
         abort(400)
 
-    paragraphs, delimeters, metas = reader.get_paragraphs(
+    paragraphs, delimeters, metas, sent_counter = reader.get_paragraphs(
         db_path, direction)
 
     if left_lang == "from":
@@ -865,6 +865,7 @@ def download_book(username, lang_from, lang_to, align_guid):
                 paragraphs = paragraphs,
                 delimeters = delimeters,
                 metas = metas,
+                sent_counter = sent_counter,
                 output_path = download_file,
                 template=style,
                 styles=[])
