@@ -15,6 +15,16 @@ def get_batches_count(db_path):
     return count[0]
 
 
+def get_last_batch_id(db_path):
+    """Get amount of already processed batches"""
+    with sqlite3.connect(db_path) as db:
+        batch_ids = db.execute("select batch_id from batches").fetchall()
+    res = [x[0] for x in batch_ids]
+    if not res:
+        return -1 
+    return max(res)
+
+
 def get_processed_batch_ids(db_path):
     """Get IDs of the processed batches"""
     with sqlite3.connect(db_path) as db:
@@ -63,6 +73,9 @@ def init_user_db(username):
                 'create table documents(id integer primary key, guid text, lang text, name text)')
             db.execute(
                 'create table alignments(id integer primary key, guid text, guid_from text, guid_to text, lang_from text, lang_to text, name text, state integer, curr_batches integer, total_batches integer, deleted integer default 0 NOT NULL)')
+            db.execute(
+                'create table version(id integer primary key, version text)')
+            db.execute('insert into version(version) values (?)', (con.USER_DB_VERSION,))
 
 
 def alignment_exists(username, guid_from, guid_to):

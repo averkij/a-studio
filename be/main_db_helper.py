@@ -16,6 +16,9 @@ def init_main_db():
         with sqlite3.connect(main_db_path) as db:
             db.execute(
                 'create table global_alignments(id integer primary key, username text, lang_from text, lang_to text, guid text, name varchar, state integer, insert_ts text, deleted integer)')
+            db.execute(
+                'create table version(id integer primary key, version text)')
+            db.execute('insert into version(version) values (?)', (con.MAIN_DB_VERSION,))
 
 
 def get_contents():

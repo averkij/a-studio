@@ -377,8 +377,8 @@ def align_next_batch(username):
     db_path = os.path.join(db_folder, f"{align_guid}.db")
     user_db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
 
-    batches_count = user_db_helper.get_batches_count(db_path)
-    batch_ids = list(range(batches_count, batches_count + amount))
+    last_batch_id = user_db_helper.get_last_batch_id(db_path) + 1
+    batch_ids = list(range(last_batch_id, last_batch_id + amount))
 
     logging.info(
         f"align parameters NEXT align_guid {align_guid} batch_ids {batch_ids} name {name} guid_from {guid_from} guid_to {guid_to} total_batches {total_batches}")
