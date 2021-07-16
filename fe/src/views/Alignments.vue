@@ -136,17 +136,17 @@
           <span>{{selectedProcessing.name}}</span>
         </v-col>
       </v-row>
-      <div class="text-h5 mt-12 font-weight-bold">
+      <!-- VISUALIZATION -->
+      <div class="text-h5 mt-10 font-weight-bold">
         Visualization
       </div>
-
       <v-alert v-if="!processingMeta || !processingMeta.meta || processingMeta.meta.batch_ids.length == 0" type="info"
         border="left" colored-border color="purple" class="mt-6" elevation="2">
         Images will start showing after the first batch completion.
       </v-alert>
       <div v-else class="mt-6">
         <!-- VISUAL CAROUSEL -->
-        <swiper class="swiper" :options="swiperOption">
+        <swiper class="swiper pb-8" :options="swiperOption" ref="mySwiper">
           <swiper-slide v-for="(batch_id, i) in processingMeta.meta.batch_ids" :key=i>
               <v-card class="vis-card" flat>
                 <div class="green lighten-5">
@@ -159,13 +159,14 @@
                   </v-card-title>
                 </div>
                 <v-divider></v-divider>
-                <div class="vis-card-img" @click="showRecalculateBatchDialog=true; currentBatchId=batch_id">
-                  <img width=100% :src="getImgUrl(batch_id)">
+                <div class="vis-card-img" style="height:100%" @click="showRecalculateBatchDialog=true; currentBatchId=batch_id">
+                  <img width=100% :src="getImgUrl(batch_id)" lazy-src="@/assets/vis_placeholder.png" class="_swiper-lazy">
+                  <!-- <div class="swiper-lazy-preloader"></div> -->
                 </div>
               </v-card>
           </swiper-slide>
-          <div class="swiper-pagination" slot="pagination"></div>
-        </swiper>        
+          <div class="swiper-scrollbar" slot="scrollbar"></div>
+        </swiper>
         <RecalculateBatchDialog v-model="showRecalculateBatchDialog"
           :batch_id=currentBatchId
           :inProgress="userAlignInProgress"
@@ -173,8 +174,11 @@
           @resolveConflictsBatch="resolveConflictsBatch"/>
       </div>
 
-      <!-- ALIGNMENT SETTINGS -->
-      <v-row class="mt-6">
+      <!-- ALIGNMENT SETTINGS -->      
+      <div class="text-h5 mt-12 font-weight-bold">
+        Alignment
+      </div>
+      <v-row class="mt-5">
         <v-col>
           <v-card>
             <div class="green lighten-5">
@@ -196,7 +200,7 @@
                       </v-card-title>
                     </div>
                     <div class="white lighten-3 pa-3">
-                      <v-slider v-model="batchesToAlign" min="1" max="5" step="1" ticks="always" tick-size="1">
+                      <v-slider v-model="batchesToAlign" @change="customAlignmentSettings=null;" min="1" max="5" step="1" ticks="always" tick-size="1">
                       </v-slider>
                     </div>
                   </v-card>
@@ -234,9 +238,26 @@
       </v-row>
 
       <!-- ALIGNMENT BUTTON -->
+      <v-alert type="info" border="left" colored-border color="orange" class="mt-5" elevation="2"
+        v-if="customAlignmentSettings">
+        Alignment settings was changed. Batches to align: from <span class="font-weight-bold">{{customAlignmentSettings.start + 1}}</span> to <span class="font-weight-bold">{{customAlignmentSettings.end + 1}}</span>.
+      </v-alert>
       <v-row>
         <v-col class="text-right">
-          <v-btn v-if="!userAlignInProgress" class="success mt-4 btn-min-w"
+          <v-btn class="primary mt-4 mr-3 btn-min-w"
+            @click="$refs.custAlignDialog.init(); showCustomAlignmentSettingsDialog=true">
+            Customize
+          </v-btn>
+          <CustomAlignmentSettingsDialog ref="custAlignDialog" v-model="showCustomAlignmentSettingsDialog"
+            :totalBatches="selectedProcessingTotalBatches"
+            @applySettings="applyCustomAlignmentSettings"/>
+          <v-btn v-if="customAlignmentSettings && !userAlignInProgress" class="success mt-4 btn-min-w"
+            :loading="isLoading.align || isLoading.alignStopping"
+            :disabled="isLoading.resolve"
+            @click="alignCustom()">
+            Align custom
+          </v-btn>
+          <v-btn v-else-if="!userAlignInProgress" class="success mt-4 btn-min-w"
             :loading="isLoading.align || isLoading.alignStopping"
             :disabled="(selectedProcessing && selectedProcessing.state[1]==selectedProcessing.state[2]) || (isLoading.resolve)"
             @click="alignBatches()">
@@ -246,7 +267,7 @@
             Stop alignment
           </v-btn>
         </v-col>
-      </v-row>      
+      </v-row>
 
       <!-- CONFLICTS RESOLVING SECTION -->
       <div class="text-h5 mt-5 font-weight-bold">Conflicts</div>
@@ -544,8 +565,6 @@
 </template>
 
 <script>
-  import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
-  import 'swiper/swiper-bundle.css'
   import RawPanel from "@/components/RawPanel";
   import InfoPanel from "@/components/InfoPanel";
   import ProxyPanel from "@/components/ProxyPanel";
@@ -554,6 +573,7 @@
   import CreateAlignmentDialog from "@/components/CreateAlignmentDialog"
   import RecalculateBatchDialog from "@/components/RecalculateBatchDialog"
   import ConfirmDeleteDialog from "@/components/ConfirmDeleteDialog"
+  import CustomAlignmentSettingsDialog from "@/components/CustomAlignmentSettingsDialog"
   import {
     mapGetters
   } from "vuex";
@@ -664,6 +684,7 @@
         showCreateAlignmentDialog: false,
         showRecalculateBatchDialog: false,
         showConfirmDeleteAlignmentDialog:false,
+        showCustomAlignmentSettingsDialog:false,
 
         //conflicts
         unusedFromLines: [],
@@ -679,18 +700,32 @@
         swiperOption: {
           slidesPerView: 5,
           spaceBetween: 20,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true
-          }
+          // mousewheel: {
+          //   sensitivity:5
+          // },
+          scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true,
+          },
+          // preloadImages: false,
+          // lazy: true
         },
         batchesToAlign: 5,
         alignShift: 0,
         alignWindow: 50,
-        cacheKey: Math.random()
+        cacheKey: Math.random(),
+
+        customAlignmentSettings: null,
+        selectedProcessingTotalBatches: 0,
       };
     },
-    methods: {    
+    methods: {
+      toSlide(index) {
+        this.$refs.mySwiper.$swiper.slideTo(index, 0)
+      },
+      applyCustomAlignmentSettings(settings) {
+        this.customAlignmentSettings = settings;
+      },
       findLinePositionAndGotoEditor() {
         if (this.conflictDetails) {
           let lineId = Object.keys(this.conflictDetails["from"])[0];
@@ -808,6 +843,8 @@
           })
           .then(() => {
             this.cacheKey = Math.random();
+            this.$refs.mySwiper.$swiper.lazy.load();
+            console.log(this.$refs.mySwiper.$swiper.lazy.load)
           });
       },
       createAlignment(name) {
@@ -829,7 +866,7 @@
             });
           });
       },
-      startAlignment(batch_id = 0, shift = 0, nextOnly = true, amount = 1, window=50) {
+      startAlignment(batch_ids = [0], shift = 0, nextOnly = true, amount = 1, window=50) {
         this.isLoading.align = true;
         this.initProcessingDocument();
         this.currentlyProcessingId = this.selectedProcessingId;
@@ -840,7 +877,7 @@
             username: this.$route.params.username,
             id: this.selectedProcessingId,
             nextOnly: nextOnly,
-            batchIds: [batch_id],
+            batchIds: batch_ids,
             batchShift: shift,
             amount: amount,
             window: window,
@@ -853,10 +890,17 @@
           });
       },
       alignBatches() {
-        this.startAlignment(0, this.alignShift, true, this.batchesToAlign, this.alignWindow)
+        this.startAlignment([0], this.alignShift, true, this.batchesToAlign, this.alignWindow)
+      },
+      alignCustom() {
+        let batch_ids = this.getRange(this.customAlignmentSettings.start, this.customAlignmentSettings.end);        
+        this.startAlignment(batch_ids, this.alignShift, false, 1, this.alignWindow)
+      },
+      getRange(start, stop, step=1) {
+        return Array.from({ length: (stop - start) / step + 1}, (_, i) => start + (i * step));
       },
       recalculateBatch(batch_id, shift) {
-        this.startAlignment(batch_id, shift, false, 1, this.alignWindow)
+        this.startAlignment([batch_id], shift, false, 1, this.alignWindow)
       },
       resolveConflictsBatch(batch_id) {
         this.isLoading.resolve = true;
@@ -1046,12 +1090,18 @@
         });
       },
       selectProcessing(item, fileId) {
+        // if (fileId == this.selectedProcessingId) {
+        //   return;
+        // }
+
         this.selectedListItem = fileId;
         this.isLoading.processing = true;
         this.isLoading.processingMeta = true;
         this.isLoading.conflicts = true;
         this.selectedProcessing = item;
         this.selectedProcessingId = fileId;
+        this.selectedProcessingTotalBatches = item.state[1];
+        this.customAlignmentSettings = null;
 
         this.$store.dispatch(GET_PROCESSING_META, {
           username: this.$route.params.username,
@@ -1467,8 +1517,7 @@
       CreateAlignmentDialog,
       RecalculateBatchDialog,
       ConfirmDeleteDialog,
-      Swiper,
-      SwiperSlide
+      CustomAlignmentSettingsDialog
     }
   };
 </script>
