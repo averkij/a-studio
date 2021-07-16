@@ -8,10 +8,10 @@ import uuid
 import constants as con
 
 
-def get_batches_count(db_path):
+def get_batches_count(db_path, align_guid):
     """Get amount of already processed batches"""
     with sqlite3.connect(db_path) as db:
-        count = db.execute("select count(*) from batches").fetchone()
+        count = db.execute("select count(*) from alignment_progress where guid=:guid", {"guid": align_guid}).fetchone()
     return count[0]
 
 
@@ -32,9 +32,9 @@ def get_processed_batch_ids(db_path):
     return res
 
 
-def increment_alignment_state(db_path, user_db_path, align_guid, state):
+def increment_alignment_state(user_db_path, align_guid, state):
     """Increment alignment progress"""
-    batches_count = get_batches_count(db_path)
+    batches_count = get_batches_count(user_db_path, align_guid)
     with sqlite3.connect(user_db_path) as user_db:
         print("batches_count", batches_count)
         user_db.execute('update alignments set state=:state, curr_batches=:curr_batches where guid=:guid', {
@@ -75,7 +75,16 @@ def init_user_db(username):
                 'create table alignments(id integer primary key, guid text, guid_from text, guid_to text, lang_from text, lang_to text, name text, state integer, curr_batches integer, total_batches integer, deleted integer default 0 NOT NULL)')
             db.execute(
                 'create table version(id integer primary key, version text)')
+            #tracking the alignment progress
+            db.execute(
+                'create table alignment_progress(id integer primary key, guid text, batch_id int, UNIQUE(guid, batch_id) ON CONFLICT IGNORE)')
             db.execute('insert into version(version) values (?)', (con.USER_DB_VERSION,))
+
+
+def update_alignment_progress(db, align_guid, batch_id):
+    """Update batch IDs in order to detect current alignment progress on UI"""
+    db.execute(
+        "insert or ignore into alignment_progress(guid, batch_id) values (?, ?)", (align_guid, batch_id))
 
 
 def alignment_exists(username, guid_from, guid_to):

@@ -16,7 +16,7 @@ import user_db_helper
 from align_processor import AlignmentProcessor
 from flask import Flask, abort, request, send_file
 from flask_cors import CORS
-from lingtrain_aligner import aligner, helper, preprocessor, splitter, saver, resolver, reader, vis_helper
+from lingtrain_aligner import aligner, helper, preprocessor, splitter, saver, resolver, reader, vis_helper, constants as la_con
 
 misc.configure_logging()
 
@@ -57,9 +57,10 @@ def items(username, lang):
                     username, align_guid)
                 filename_from, lang_from = user_db_helper.get_document_info(
                     username, guid_from)
-                filename_to, lang_to = user_db_helper.get_document_info(username, guid_to)
+                filename_to, lang_to = user_db_helper.get_document_info(
+                    username, guid_to)
                 db_folder = os.path.join(con.UPLOAD_FOLDER, username,
-                                        con.DB_FOLDER, lang_from, lang_to)
+                                         con.DB_FOLDER, lang_from, lang_to)
                 db_path = os.path.join(db_folder, f"{align_guid}.db")
                 upload_folder = con.PROXY_FOLDER
                 filename = filename_from if lang == lang_from else filename_to
@@ -80,8 +81,9 @@ def items(username, lang):
                 splitter.split_by_sentences_and_save(
                     raw_path, splitted_path, lang, handle_marks=True)
             elif request.form["type"] == "proxy":
-                logging.info(f"[{username}]. Update proxy. {upload_path} into {db_path} database.")
-                direction = "from" if lang==lang_from else "to"
+                logging.info(
+                    f"[{username}]. Update proxy. {upload_path} into {db_path} database.")
+                direction = "from" if lang == lang_from else "to"
 
                 aligner.load_proxy(db_path, upload_path, direction)
 
@@ -341,7 +343,7 @@ def start_alignment(username):
     res_img_best = os.path.join(
         con.STATIC_FOLDER, con.IMG_FOLDER, username, f"{align_guid}.best.png")
 
-    task_list = [(lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_id)
+    task_list = [(lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_id, batch_shift, window)
                  for lines_from_batch, lines_to_batch,
                  line_ids_from, line_ids_to, batch_id
                  in misc.get_batch_intersected(lines_from, lines_to, batch_ids, batch_shift, window=window)]
@@ -349,7 +351,8 @@ def start_alignment(username):
     proc_count = config.PROCESSORS_COUNT
 
     proc = AlignmentProcessor(
-        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS)
+        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
+        operation=la_con.OPERATION_CALCULATE_CUSTOM)
     proc.add_tasks(task_list)
     proc.start_align()
 
@@ -402,7 +405,7 @@ def align_next_batch(username):
     res_img_best = os.path.join(
         con.STATIC_FOLDER, con.IMG_FOLDER, username, f"{align_guid}.best.png")
 
-    task_list = [(lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_id)
+    task_list = [(lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_id, batch_shift, window)
                  for lines_from_batch, lines_to_batch,
                  line_ids_from, line_ids_to, batch_id
                  in misc.get_batch_intersected(lines_from, lines_to, batch_ids, batch_shift, window=window)]
@@ -497,8 +500,8 @@ def resolve_conflicts(username):
 
     proc_count = config.PROCESSORS_COUNT
     proc = AlignmentProcessor(
-        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS, mode="resolve")
-    proc.add_tasks(batch_ids)
+        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS, mode="resolve", operation=la_con.OPERATION_RESOLVE)
+    proc.add_tasks([(batch_id, total_batches) for batch_id in batch_ids])
     proc.start_resolve()
 
     return ('', 200)
@@ -696,7 +699,8 @@ def edit_processing(username, lang_from, lang_to, align_guid):
 @app.route("/items/<username>/splitted/<lang_from>/<lang_to>/<align_guid>/download/<lang>", methods=["GET"])
 def download_splitted_from_db(username, lang_from, lang_to, align_guid, lang):
     """Download splitted document file"""
-    logging.info(f"[{username}]. Downloading {lang} align_guid:{align_guid} splitted document.")
+    logging.info(
+        f"[{username}]. Downloading {lang} align_guid:{align_guid} splitted document.")
     db_folder = os.path.join(con.UPLOAD_FOLDER, username,
                              con.DB_FOLDER, lang_from, lang_to)
     db_path = os.path.join(db_folder, f'{align_guid}.db')
@@ -709,7 +713,7 @@ def download_splitted_from_db(username, lang_from, lang_to, align_guid, lang):
     misc.check_folder(download_folder)
     download_file = os.path.join(download_folder, "{0}_{1}_{2}.txt".format(
         align_guid, lang, timestamp))
-    
+
     if lang == lang_from:
         lines = aligner.get_splitted_from(db_path)
     else:
@@ -718,7 +722,8 @@ def download_splitted_from_db(username, lang_from, lang_to, align_guid, lang):
     with open(download_file, 'w', encoding="utf-8") as out:
         out.write("\n".join(lines))
 
-    logging.info(f"[{username}]. Document found. Path: {download_file}. Sent to user.")
+    logging.info(
+        f"[{username}]. Document found. Path: {download_file}. Sent to user.")
     return send_file(download_file)
 
 
@@ -808,9 +813,9 @@ def get_book_preview(username, lang_from, lang_to, align_guid):
     par_amount = 6
 
     paragraphs, delimeters, metas = reader.get_paragraphs_polybook(
-        db_paths = [db_path],
-        par_amount = par_amount,
-        direction = direction)
+        db_paths=[db_path],
+        par_amount=par_amount,
+        direction=direction)
 
     if left_lang == "from":
         lang_order = [lang_from, lang_to]
@@ -818,13 +823,13 @@ def get_book_preview(username, lang_from, lang_to, align_guid):
         lang_order = [lang_to, lang_from]
 
     res_html = reader.create_polybook_preview(
-                lang_ordered = lang_order,
-                paragraphs = paragraphs,
-                delimeters = delimeters,
-                metas = metas,
-                template=style,
-                styles=[],
-                par_amount=par_amount)
+        lang_ordered=lang_order,
+        paragraphs=paragraphs,
+        delimeters=delimeters,
+        metas=metas,
+        template=style,
+        styles=[],
+        par_amount=par_amount)
 
     return {"items": res_html}
 
@@ -861,14 +866,14 @@ def download_book(username, lang_from, lang_to, align_guid):
         align_guid, lang_from, lang_from, timestamp))
 
     reader.create_book(
-                lang_ordered = lang_order,
-                paragraphs = paragraphs,
-                delimeters = delimeters,
-                metas = metas,
-                sent_counter = sent_counter,
-                output_path = download_file,
-                template=style,
-                styles=[])
+        lang_ordered=lang_order,
+        paragraphs=paragraphs,
+        delimeters=delimeters,
+        metas=metas,
+        sent_counter=sent_counter,
+        output_path=download_file,
+        template=style,
+        styles=[])
 
     logging.debug(
         f"[{username}]. File (book) {download_file} prepared. Sent to user.")
@@ -884,10 +889,11 @@ def get_line_id_position(username, lang_from, lang_to, aling_id, lang, line_id):
     if not os.path.isfile(db_path):
         abort(404)
 
-    direction = "from" if lang==lang_from else "to"
+    direction = "from" if lang == lang_from else "to"
     res = editor_helper.get_line_id_index_position(db_path, line_id, direction)
 
     return {"pos": res}
+
 
 @app.route("/items/<username>/edit/exclude/<lang_from>/<lang_to>/<aling_id>", methods=["POST"])
 def switch_excluded(username, lang_from, lang_to, aling_id):
