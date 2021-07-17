@@ -285,7 +285,7 @@ def update_visualization(username):
         con.STATIC_FOLDER, con.IMG_FOLDER, username, f"{align_guid}.best.png")
 
     vis_helper.visualize_alignment_by_db(
-        db_path, res_img_best, lang_name_from=lang_from, lang_name_to=lang_to, batch_ids=batch_ids, transparent_bg=True)
+        db_path, res_img_best, lang_name_from=lang_from, lang_name_to=lang_to, batch_ids=batch_ids, transparent_bg=True, plot_batch_info=True)
 
     return ('', 200)
 

@@ -112,9 +112,9 @@ class AlignmentProcessor:
         for batch_id, _, _, shift, window in result:
             aligner.update_history(self.db_path, [batch_id], self.operation, parameters={"shift": shift, "window": window})
 
-        for batch_id, _, _, _, _ in result:
+        for batch_id, _, _, shift, window in result:
             vis_helper.visualize_alignment_by_db(
-                self.db_path, self.res_img_best, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, batch_ids=[batch_id], transparent_bg=True)
+                self.db_path, self.res_img_best, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, batch_ids=[batch_id], transparent_bg=True, plot_batch_info=True)
 
         if not error_occured:
             print("finishing. no error occured")
@@ -226,7 +226,7 @@ class AlignmentProcessor:
         result = []
         
         while counter < self.tasks_count:
-            result_code, batch_number = queue_out.get()            
+            result_code, batch_number = queue_out.get()  
             if result_code == con.PROC_DONE:
                 result.append(batch_number)
             elif result_code == con.PROC_ERROR:
@@ -237,7 +237,7 @@ class AlignmentProcessor:
             counter += 1
 
         vis_helper.visualize_alignment_by_db(
-                self.db_path, self.res_img_best, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, batch_ids=result, transparent_bg=True)
+                self.db_path, self.res_img_best, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, batch_ids=result, transparent_bg=True, plot_batch_info=True)
 
         if not error_occured:
             print("finishing. no error occured")
