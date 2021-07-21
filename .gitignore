@@ -7,5 +7,6 @@ be/models/sentence_transformers_xlm_100.bin
 be/models/sentence_transformers-v2.bin
 docs/source/_build
 be/data
+be/data_old
 be/_data
 be/static/img
