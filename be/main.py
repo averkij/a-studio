@@ -285,7 +285,7 @@ def update_visualization(username):
         con.STATIC_FOLDER, con.IMG_FOLDER, username, f"{align_guid}.best.png")
 
     vis_helper.visualize_alignment_by_db(
-        db_path, res_img_best, lang_name_from=lang_from, lang_name_to=lang_to, batch_ids=batch_ids, transparent_bg=True, plot_batch_info=True)
+        db_path, res_img_best, lang_name_from=lang_from, lang_name_to=lang_to, batch_ids=batch_ids, transparent_bg=True, show_info=config.VIS_BATCH_INFO, show_regression=config.VIS_REGRESSION)
 
     return ('', 200)
 
@@ -352,7 +352,7 @@ def start_alignment(username):
 
     proc = AlignmentProcessor(
         proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
-        operation=la_con.OPERATION_CALCULATE_CUSTOM)
+        operation=la_con.OPERATION_CALCULATE_CUSTOM, plot_info=config.VIS_BATCH_INFO, plot_regression=config.VIS_REGRESSION)
     proc.add_tasks(task_list)
     proc.start_align()
 
@@ -413,7 +413,8 @@ def align_next_batch(username):
     proc_count = config.PROCESSORS_COUNT
 
     proc = AlignmentProcessor(
-        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS)
+        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
+        plot_info=config.VIS_BATCH_INFO, plot_regression=config.VIS_REGRESSION)
     proc.add_tasks(task_list)
     proc.start_align()
 
@@ -500,7 +501,8 @@ def resolve_conflicts(username):
 
     proc_count = config.PROCESSORS_COUNT
     proc = AlignmentProcessor(
-        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS, mode="resolve", operation=la_con.OPERATION_RESOLVE)
+        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
+        mode="resolve", operation=la_con.OPERATION_RESOLVE, plot_info=config.VIS_BATCH_INFO, plot_regression=config.VIS_REGRESSION)
     proc.add_tasks([(batch_id, total_batches) for batch_id in batch_ids])
     proc.start_resolve()
 

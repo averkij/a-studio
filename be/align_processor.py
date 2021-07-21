@@ -21,7 +21,7 @@ FINISH_PROCESS = "finish_process"
 class AlignmentProcessor:
     """Processor with parallel texts alignment logic"""
 
-    def __init__(self, proc_count, db_path, user_db_path, res_img_best, lang_name_from, lang_name_to, align_guid, model_name, window, embed_batch_size, normalize_embeddings, mode="align", operation=la_con.OPERATION_CALCULATE_NEXT):
+    def __init__(self, proc_count, db_path, user_db_path, res_img_best, lang_name_from, lang_name_to, align_guid, model_name, window, embed_batch_size, normalize_embeddings, mode="align", operation=la_con.OPERATION_CALCULATE_NEXT, plot_info=False, plot_regression=False):
         self.proc_count = proc_count
         self.queue_in = Queue()
         self.queue_out = Queue()
@@ -38,6 +38,8 @@ class AlignmentProcessor:
         self.embed_batch_size = embed_batch_size
         self.normalize_embeddings = normalize_embeddings
         self.operation = operation
+        self.plot_info = plot_info,
+        self.plot_regression = plot_regression
 
 
     def add_tasks(self, task_list):
@@ -114,7 +116,7 @@ class AlignmentProcessor:
 
         for batch_id, _, _, shift, window in result:
             vis_helper.visualize_alignment_by_db(
-                self.db_path, self.res_img_best, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, batch_ids=[batch_id], transparent_bg=True, plot_batch_info=True)
+                self.db_path, self.res_img_best, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, batch_ids=[batch_id], transparent_bg=True, show_info=self.plot_info, show_regression=self.plot_regression)
 
         if not error_occured:
             print("finishing. no error occured")
@@ -153,7 +155,7 @@ class AlignmentProcessor:
         logging.info(f"Alignment started for {self.db_path}.")
         try:
             texts_from, texts_to = aligner.process_batch(lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_number, self.model_name, self.window, self.embed_batch_size, self.normalize_embeddings, show_progress_bar=False,
-                                                         save_pic=True, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, img_path=self.res_img_best)
+                                                         save_pic=True, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, img_path=self.res_img_best, show_info=self.plot_info, show_regression=self.plot_regression)
             self.queue_out.put(
                 (con.PROC_DONE, batch_number, texts_from, texts_to, shift, window))
         except Exception as e:
@@ -198,10 +200,10 @@ class AlignmentProcessor:
             print("resolving conflicts strategy 2. batch_id:", batch_id)
 
             min_chain_length = 2
-            max_conflicts_len = 20
+            max_conflicts_len = 25
 
             conflicts, _ = resolver.get_all_conflicts(
-                self.db_path, min_chain_length=2, max_conflicts_len=20, batch_id=batch_id)
+                self.db_path, min_chain_length=min_chain_length, max_conflicts_len=max_conflicts_len, batch_id=batch_id)
             resolver.resolve_all_conflicts(
                 self.db_path, conflicts, self.model_name, show_logs=False)
             
@@ -237,7 +239,7 @@ class AlignmentProcessor:
             counter += 1
 
         vis_helper.visualize_alignment_by_db(
-                self.db_path, self.res_img_best, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, batch_ids=result, transparent_bg=True, plot_batch_info=True)
+                self.db_path, self.res_img_best, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, batch_ids=result, transparent_bg=True, show_info=self.plot_info, show_regression=self.plot_regression)
 
         if not error_occured:
             print("finishing. no error occured")
