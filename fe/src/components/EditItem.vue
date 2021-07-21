@@ -249,7 +249,7 @@
   } from "@/common/helper"
   export default {
     name: "EditItem",
-    props: ["item", "collapse", "clearCandidates", "showProxyTo", "prevItem", "fileId", "panelColor", "proxy_from_dict", "proxy_to_dict"],
+    props: ["item", "collapse", "expand", "clearCandidates", "showProxyTo", "prevItem", "fileId", "panelColor", "proxy_from_dict", "proxy_to_dict"],
     data() {
       return {
         state: STATE_SAVED,
@@ -267,7 +267,7 @@
     },
     methods: {
       getCandidates(textType) {
-        this.$emit('getCandidates', this.item.index_id, textType, 1, 36, (res, data) => {
+        this.$emit('getCandidates', this.item.index_id, textType, 0, 10, (res, data) => {
           if (res == RESULT_OK) {
             if (textType == "from") {
               this.transFrom = data.items;
@@ -348,15 +348,23 @@
           this.changed_to = true;
         }
       },
-      toggleShowLines(textType) {
+      toggleShowLines(textType, forceOpen=false) {
         if (textType == "from") {
-          this.showLinesFrom = !this.showLinesFrom;
-          if (this.transFrom.length == 0) {
+          if (!forceOpen) {
+            this.showLinesFrom = !this.showLinesFrom;
+          } else {
+            this.showLinesFrom = true;
+          }
+          if (this.transFrom.length == 0 && this.showLinesFrom) {
             this.getCandidates(textType);
           }
-        } else if (textType == "to") {
-          this.showLines = !this.showLines;
-          if (this.trans.length == 0) {
+        } else if (textType == "to") {          
+          if (!forceOpen) {
+            this.showLines = !this.showLines;
+          } else {
+            this.showLines = true;
+          }
+          if (this.trans.length == 0 && this.showLines) {
             this.getCandidates(textType);
           }
         }
@@ -429,6 +437,9 @@
       collapse: function () {
         this.showLines = false;
         this.showLinesFrom = false;
+      },
+      expand: function () {
+        this.toggleShowLines("to", true)
       },
       clearCandidates: function () {
         this.trans = [];
