@@ -117,7 +117,7 @@
                   'lime': mark[2] == 'h3' || mark[2] == 'h4' || mark[2] == 'h5',
                   'pr-5': mark[2] == 'h2' || mark[2] == 'h3' || mark[2] == 'h4' || mark[2] == 'h5',
                   'purple': mark[2] == 'qtext' || mark[2] == 'qname',
-                  'orange': mark[2] == 'image'
+                  'orange': mark[2] == 'image', 'orange': mark[2] == 'divider'
                   }"
                   text-color="white">{{mark[2]}}</v-chip>
                   {{mark[0]}}

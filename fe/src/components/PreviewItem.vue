@@ -19,6 +19,7 @@
             <v-chip v-if="item[0].qt" class="ml-2" small label color="purple" text-color="white">qtext</v-chip>
             <v-chip v-if="item[0].qn" class="ml-2" small label color="purple" text-color="white">qname</v-chip>
             <v-chip v-if="item[0].im" class="ml-2" small label color="orange" text-color="white">image</v-chip>
+            <v-chip v-if="item[0].di" class="ml-2" small label color="orange" text-color="white">divider</v-chip>
           </div>
         </div>
       </v-col>
