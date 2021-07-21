@@ -396,6 +396,9 @@
               <v-btn icon @click="collapseEditItems">
                 <v-icon>mdi-collapse-all</v-icon>
               </v-btn>
+              <v-btn icon @click="expandEditItems">
+                <v-icon>mdi-expand-all</v-icon>
+              </v-btn>
             </v-card-title>
             <v-card-text>Review and edit automatically aligned document</v-card-text>
           </div>
@@ -407,7 +410,7 @@
               @editDeleteLine="editDeleteLine" @editAddEmptyLineBefore="editAddEmptyLineBefore"
               @editAddEmptyLineAfter="editAddEmptyLineAfter" @editClearLine="editClearLine" @getCandidates="getCandidates"
               @editAddCandidateEnd="editAddCandidateEnd" :item="line"
-              :prevItem="i == 0 ? processing.items[0] : processing.items[i-1]" :collapse="triggerCollapseEditItem"
+              :prevItem="i == 0 ? processing.items[0] : processing.items[i-1]" :collapse="triggerCollapseEditItem" :expand="triggerExpandEditItem"
               :clearCandidates="triggerClearCandidates" :showProxyTo="showProxyTo" :panelColor="'green'"
               :proxy_from_dict="processing.proxy_from_dict" :proxy_to_dict="processing.proxy_to_dict">
             </EditItem>
@@ -671,6 +674,7 @@
           conflicts: false
         },
         triggerCollapseEditItem: false,
+        triggerExpandEditItem: false,
         triggerClearCandidates: false,
         userAlignInProgress: false,
         showProxyTo: SettingsHelper.getShowProxyTo(),
@@ -1369,6 +1373,9 @@
       },
       collapseEditItems() {
         this.triggerCollapseEditItem = !this.triggerCollapseEditItem;
+      },
+      expandEditItems() {
+        this.triggerExpandEditItem = !this.triggerExpandEditItem;
       },
       fetchAll() {
         this.$store.dispatch(FETCH_ITEMS, {
