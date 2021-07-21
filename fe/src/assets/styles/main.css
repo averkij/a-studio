@@ -49,6 +49,7 @@
 
 .cell-edit-index-cont.fix-height {
     min-height: 150px;
+    min-width: 50px;
 }
 
 .cell-edit-index {
