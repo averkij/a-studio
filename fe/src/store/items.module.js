@@ -16,7 +16,8 @@ import {
   DOWNLOAD_PROCESSING,
   DOWNLOAD_BOOK,
   GET_SPLITTED,
-  GET_MARKS,
+  GET_FILE_MARKS,
+  GET_ALIGNMENT_MARKS,
   GET_DOC_INDEX,
   GET_PROCESSING,
   GET_PROCESSING_META,
@@ -36,7 +37,9 @@ import {
   GET_CONTENTS,
   GET_BOOK_PREVIEW,
   UPDATE_VISUALIZATION,
-  FIND_LINE_POSITION_IN_INDEX
+  FIND_LINE_POSITION_IN_INDEX,
+  ADD_ALIGNMENT_MARK,
+  EDIT_ALIGNMENT_MARK
 } from "./actions.type";
 
 import {
@@ -44,6 +47,7 @@ import {
   SET_ITEMS_PROCESSING,
   SET_SPLITTED,
   SET_MARKS,
+  SET_ALIGNMENT_MARKS,
   SET_PROCESSING,
   SET_PROCESSING_META,
   SET_DOC_INDEX,
@@ -62,6 +66,7 @@ const initialState = {
   itemsProcessing: LanguageHelper.initItems(),
   splitted: LanguageHelper.initSplitted(),
   marks: LanguageHelper.initMarks(),
+  alignmentMarks: LanguageHelper.initMarks(),
   processing: LanguageHelper.initProcessing(),
   processingMeta: {},
   docIndex: [],
@@ -72,7 +77,7 @@ const initialState = {
   conflicts: {},
   conflictDetails: {"from": [], "to": []},
   bookPreview: "",
-  linePositionInIndex: -1
+  linePositionInIndex: -1,
 };
 
 export const state = {
@@ -157,8 +162,7 @@ export const actions = {
     });
     return;
   },
-  // params {fileId, username, langCode}
-  async [GET_MARKS](context, params) {
+  async [GET_FILE_MARKS](context, params) {
     const {
       data
     } = await ItemsService.getMarks(params);
@@ -167,6 +171,29 @@ export const actions = {
       langCode: params.langCode
     });
     return;
+  },
+  async [GET_ALIGNMENT_MARKS](context, params) {
+    const {
+      data
+    } = await ItemsService.getAlignmentMarks(params);
+    context.commit(SET_ALIGNMENT_MARKS, {
+      data: data
+    });
+    return;
+  },
+  async [EDIT_ALIGNMENT_MARK](context, params) {
+    await ItemsService.editAlignmentMark(params).then(() => {
+    },
+    () => {
+      console.log("alignment mark edit error")
+    });
+  },
+  async [ADD_ALIGNMENT_MARK](context, params) {
+    await ItemsService.addAlignmentMark(params).then(() => {
+    },
+    () => {
+      console.log("alignment mark add error")
+    });
   },
   async [GET_DOC_INDEX](context, params) {
     await ItemsService.getDocIndex(params).then(
@@ -370,6 +397,10 @@ export const mutations = {
     console.log("SET_MARKS", params)
     state.marks[params.langCode] = params.data.items;
   },
+  [SET_ALIGNMENT_MARKS](state, params) {
+    console.log("SET_ALIGNMENT_MARKS", params)
+    state.alignmentMarks = params.data.items;
+  },
   [SET_PROCESSING](state, data) {
     state.processing = data;
   },
@@ -418,6 +449,9 @@ const getters = {
   },
   marks(state) {
     return state.marks;
+  },
+  alignmentMarks(state) {
+    return state.alignmentMarks;
   },
   processing(state) {
     return state.processing;

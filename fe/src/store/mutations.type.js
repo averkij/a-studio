@@ -2,6 +2,7 @@ export const SET_ITEMS = "set_items";
 export const SET_ITEMS_PROCESSING = "set_items_processing";
 export const SET_SPLITTED = "set_splitted";
 export const SET_MARKS = "set_marks";
+export const SET_ALIGNMENT_MARKS = "set_alignment_marks";
 export const SET_PROCESSING = "set_processing";
 export const SET_PROCESSING_META = "set_processing_meta";
 export const SET_DOC_INDEX = "set_doc_index";

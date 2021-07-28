@@ -183,6 +183,7 @@
 
 .dt-row {
     display: table-row;
+    position: relative;
 }
 
 /* .dt-row:nth-child(even):not(.header) {
@@ -192,6 +193,21 @@
 .dt-row:nth-child(even):not(.header) > .dt-cell:not(.divider) {
     border-top: 1px solid #f0f0f0;
     border-bottom: 1px solid #f0f0f0;
+}
+
+.dt-row:hover > .dt-cell > .book-par-id {
+    opacity: 1;
+}
+
+.book-par-id {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    font-size: 12px;
+    opacity: 0;
+    font-weight: 600;
+    text-align: left;
+    display: inline-block;
 }
 
 .dt-cell {

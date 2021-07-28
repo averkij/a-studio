@@ -48,9 +48,52 @@
           @confirmDelete="performDeleteAlignment" />
       </v-card>
 
+      <div class="text-h4 mt-10 font-weight-bold">
+        <v-icon color="blue" large>mdi-format-header-1</v-icon> Edit marks
+      </div>
+
+      <v-alert v-if="!alignmentMarks || (alignmentMarks[langCodeFrom].length==0 && alignmentMarks[langCodeTo].length==0)" type="info" border="left" colored-border color="info" class="mt-6" elevation="2">
+        Selected alignment doesn't have marks.
+      </v-alert>
+      
+      <div v-else-if="showAlignmentMarks" class="mt-6">
+        <v-row>
+          <v-col cols="12" sm="6">
+            <v-card>
+            <div v-for="(mark,i) in orderedMarksFrom" :key="i">    
+              <MarkItem :mark=mark :id=i :showParId="true"></MarkItem>
+              <v-divider/>
+            </div>
+            </v-card>
+          </v-col>
+          <v-col cols="12" sm="6">
+            <v-card>
+            <div v-for="(mark,i) in orderedMarksTo" :key="i">            
+              <MarkItem :mark=mark :id=i :showParId="true"></MarkItem>
+              <v-divider/>
+            </div>
+            </v-card>
+          </v-col>  
+        </v-row>
+        <v-row>
+          <v-col class="text-right">
+            <v-btn class="primary mt-4 btn-min-w" @click="showAddMarkDialog=true">
+              Add new mark
+            </v-btn>
+          </v-col>          
+          <AddMarkDialog v-model="showAddMarkDialog" :langFrom=LANGUAGES[langCodeFrom].name :langTo=LANGUAGES[langCodeTo].name @addMark="addMark"/>
+        </v-row>
+      </div>
+
+      <div v-else>
+        <v-btn class="mt-9 btn-min-w" @click="showAlignmentMarks=true">
+          Show marks
+        </v-btn>
+      </div>
+
       <!-- PROCESSING DOCUMENTS LIST BLOCK -->
       <v-row>
-        <v-col class="text-center text-h4 mt-12">
+        <v-col v-if="selectedProcessing" class="text-center text-h4 mt-12">
           {{selectedProcessing.name}}
         </v-col>
       </v-row>
@@ -236,6 +279,8 @@
 <script>
   import DownloadPanel from "@/components/DownloadPanel";
   import ConfirmDeleteDialog from "@/components/ConfirmDeleteDialog"
+  import MarkItem from "@/components/MarkItem";
+  import AddMarkDialog from "@/components/AddMarkDialog";
   import {
     mapGetters
   } from "vuex";
@@ -270,13 +315,15 @@
     GET_PROCESSING,
     GET_PROCESSING_META,
     GET_BOOK_PREVIEW,
+    GET_ALIGNMENT_MARKS,
     DELETE_ALIGNMENT,
     DOWNLOAD_SPLITTED,
     DOWNLOAD_PROCESSING,
-    DOWNLOAD_BOOK
+    DOWNLOAD_BOOK,
+    ADD_ALIGNMENT_MARK
   } from "@/store/actions.type";
   import {
-    SET_BOOK_PREVIEW
+    SET_BOOK_PREVIEW,
   } from "@/store/mutations.type";
 
   export default {
@@ -303,7 +350,8 @@
         isLoading: {
           download: LanguageHelper.initGeneralBools(),
           processing: false,
-          processingMeta: false
+          processingMeta: false,
+          alignmentMarks: false
         },
         satisfactionEmojis: ['😍', '😄', '😁', '😊', '🙂', '😐', '🙁', '☹️', '😢', '😭'],
         downloadThreshold: 9,
@@ -312,13 +360,27 @@
         hoveredAlignmentItem: {"name": ""},
         //dialogs
         showConfirmDeleteAlignmentDialog:false,
+        showAddMarkDialog: false,
         parStructureDirection: "to",
         bookLeftLang: "from",
         bookStyle: BOOK_STYLES[0],
-        bookStyles: BOOK_STYLES
+        bookStyles: BOOK_STYLES,
+        showAlignmentMarks: true
       };
     },
     methods: {
+      addMark(type, valueFrom, valueTo, parIdFrom, parIdTo) {
+        this.$store.dispatch(ADD_ALIGNMENT_MARK, {
+          alignId: this.selectedProcessingId,
+          username: this.$route.params.username,
+          type,
+          valueFrom,
+          valueTo,
+          parIdFrom,
+          parIdTo,
+          occurence:0
+        });
+      },
       bookOrder(dir) {
         if (dir == "from") {
           return this.langCodeFrom + "-" + this.langCodeTo
@@ -380,18 +442,19 @@
           format: "tmx"
         });
       },
-      selectProcessing(item, fileId) {
-        this.selectedListItem = fileId;
+      selectProcessing(item, alignId) {
+        this.selectedListItem = alignId;
         this.isLoading.processing = true;
         this.isLoading.processingMeta = true;
+        this.isLoading.alignmentMarks = true;
         this.selectedProcessing = item;
-        this.selectedProcessingId = fileId;
+        this.selectedProcessingId = alignId;
 
         this.$store.dispatch(GET_PROCESSING_META, {
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,
           langCodeTo: this.langCodeTo,
-          fileId
+          fileId: alignId
         }).then(() => {
           this.isLoading.processingMeta = false;
         });
@@ -400,18 +463,27 @@
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,
           langCodeTo: this.langCodeTo,
-          fileId
+          fileId: alignId
         }).then(() => {
           this.$store.dispatch(GET_PROCESSING, {
             username: this.$route.params.username,
             langCodeFrom: this.langCodeFrom,
             langCodeTo: this.langCodeTo,
-            fileId,
+            fileId: alignId,
             linesCount: 10,
             page: 1
           }).then(() => {
             this.isLoading.processing = false;
           });
+        });
+
+        this.$store.dispatch(GET_ALIGNMENT_MARKS, {
+          username: this.$route.params.username,
+          langCodeFrom: this.langCodeFrom,
+          langCodeTo: this.langCodeTo,
+          alignId
+        }).then(() => {
+          this.isLoading.alignmentMarks = false;
         });
       },
       //helpers
@@ -512,8 +584,30 @@
     },
     computed: {
       ...mapGetters(["items", "itemsProcessing", "splitted", "processing", "docIndex", "conflictSplittedFrom",
-        "conflictSplittedTo", "conflictFlowTo", "processingMeta", "bookPreview"
+        "conflictSplittedTo", "conflictFlowTo", "processingMeta", "bookPreview", "alignmentMarks"
       ]),
+      orderedMarksFrom() {
+        //sort marks by paragraph id
+        let marksCopy = JSON.parse(JSON.stringify(this.alignmentMarks[this.langCodeFrom]));
+        marksCopy.sort((a,b) => {
+          if (a[3] == b[3]) {
+            return a[1] - b[1];
+          }
+          return a[3] - b[3];
+        });
+        return marksCopy;
+      },
+      orderedMarksTo() {
+        //sort marks by paragraph id
+        let marksCopy = JSON.parse(JSON.stringify(this.alignmentMarks[this.langCodeTo]));
+        marksCopy.sort((a,b) => {
+          if (a[3] == b[3]) {
+            return a[1] - b[1];
+          }
+          return a[3] - b[3];
+        });
+        return marksCopy;
+      },
       username() {
         return this.$route.params.username;
       },
@@ -580,7 +674,9 @@
     },
     components: {
       DownloadPanel,
-      ConfirmDeleteDialog
+      ConfirmDeleteDialog,
+      AddMarkDialog,
+      MarkItem
     }
   };
 </script>

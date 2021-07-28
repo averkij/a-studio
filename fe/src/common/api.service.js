@@ -80,6 +80,32 @@ export const ItemsService = {
       `${params.username}/raw/${params.langCode}`,
       form);
   },
+  addAlignmentMark(params) {
+    let form = new FormData();
+    form.append("type", params.type);
+    form.append("valFrom", params.valueFrom);
+    form.append("valTo", params.valueTo);
+    form.append("parIdFrom", params.parIdFrom);
+    form.append("parIdTo", params.parIdTo);
+    form.append("occurence", params.occurence);
+    return ApiService.post(
+      "items",
+      `${params.username}/alignment/marks/${params.alignId}/add`,
+      form
+    );
+  },
+  editAlignmentMark(params) {
+    let form = new FormData();
+    form.append("type", params.type);
+    form.append("direction", params.type);
+    form.append("val", params.valFrom);
+    form.append("occurence", params.occurence);
+    return ApiService.post(
+      "items",
+      `${params.username}/alignment/marks/${params.alignId}/edit`,
+      form
+    );
+  },  
   downloadSplitted(params) {
     return ApiService.get(
       "items",
@@ -122,7 +148,7 @@ export const ItemsService = {
       document.body.appendChild(link);
       link.click();
     });
-  },  
+  },
   downloadBook(params) {
     let form = new FormData();
     form.append("par_direction", params.parStructureDirection);
@@ -170,6 +196,13 @@ export const ItemsService = {
     return ApiService.get(
       "items",
       `${params.username}/marks/${params.langCode}/${params.fileId}`
+    );
+  },
+  getAlignmentMarks(params) {
+    console.log("getAlignmentMarks", params)
+    return ApiService.get(
+      "items",
+      `${params.username}/alignment/marks/${params.alignId}`
     );
   },
   getProcessing(params) {

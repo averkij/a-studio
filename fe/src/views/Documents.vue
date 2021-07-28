@@ -78,7 +78,7 @@
         <v-col cols="12" sm="6">
           <v-card>
           <div v-for="(mark,i) in marks[langCodeFrom]" :key="i">            
-            <MarkItem :mark=mark :id=i></MarkItem>
+            <MarkItem :mark=mark :id=i :showParId="false"></MarkItem>
             <v-divider/>
           </div>
           </v-card>
@@ -86,7 +86,7 @@
         <v-col cols="12" sm="6">
           <v-card>
           <div v-for="(mark,i) in marks[langCodeTo]" :key="i">            
-            <MarkItem :mark=mark :id=i></MarkItem>
+            <MarkItem :mark=mark :id=i :showParId="false"></MarkItem>
             <v-divider/>
           </div>
           </v-card>
@@ -125,7 +125,7 @@
     UPLOAD_FILES,
     DELETE_DOCUMENT,
     GET_SPLITTED,
-    GET_MARKS,
+    GET_FILE_MARKS,
     DOWNLOAD_SPLITTED
   } from "@/store/actions.type";
   import {
@@ -177,7 +177,7 @@
           linesCount: this.splittedPanelPageCount,
           page: 1
         });
-        this.$store.dispatch(GET_MARKS, {
+        this.$store.dispatch(GET_FILE_MARKS, {
           username: this.$route.params.username,
           langCode,
           fileId: this.selectedIds[langCode]
