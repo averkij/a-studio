@@ -165,6 +165,77 @@ def get_marks(username, lang, guid):
     return {"items": marks}
 
 
+@app.route("/items/<username>/alignment/marks/<align_guid>", methods=["GET"])
+def get_alignment_marks(username, align_guid):
+    """Get alignment marks"""
+    if not user_db_helper.alignment_guid_exists(username, align_guid):
+        return ('', 400)
+    logging.info(
+        f"get_alignment_marks parameters: align_guid {align_guid}")
+
+    _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+        username, align_guid)
+    _, lang_from = user_db_helper.get_alignment_fileinfo_from(
+        username, guid_from)
+    _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
+    db_folder = os.path.join(con.UPLOAD_FOLDER, username,
+                             con.DB_FOLDER, lang_from, lang_to)
+    db_path = os.path.join(db_folder, f"{align_guid}.db")
+
+    meta_dict = helper.get_meta_dict(db_path)
+    res = {"items": {lang_from: [], lang_to: []}}
+
+    for mark_name in meta_dict:
+        for mark_tuple in meta_dict[mark_name]:
+            #(val, occurence, par_id)
+            val = mark_tuple[0]
+            idx = mark_tuple[1]
+            pid = mark_tuple[2]
+            if mark_name.endswith("from"):
+                res["items"][lang_from].append((val, idx, mark_name[:len(mark_name)-5], pid))
+            else:
+                res["items"][lang_to].append((val, idx, mark_name[:len(mark_name)-3], pid))
+    
+    return res
+
+
+@app.route("/items/<username>/alignment/marks/<align_guid>/add", methods=["POST"])
+def add_alignment_marks(username, align_guid):
+    """Get alignment marks"""
+    if not user_db_helper.alignment_guid_exists(username, align_guid):
+        return ('', 400)
+
+    _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+        username, align_guid)
+    _, lang_from = user_db_helper.get_alignment_fileinfo_from(
+        username, guid_from)
+    _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
+    db_folder = os.path.join(con.UPLOAD_FOLDER, username,
+                             con.DB_FOLDER, lang_from, lang_to)
+    db_path = os.path.join(db_folder, f"{align_guid}.db")
+
+    mark = request.form.get("type", '')
+    val_from = request.form.get("valFrom", '')
+    val_to = request.form.get("valTo", '')
+    par_id_from, _ = misc.try_parse_int(
+        request.form.get("parIdFrom", -1))
+    par_id_to, _ = misc.try_parse_int(
+        request.form.get("parIdTo", -1))
+    #TODO occurence parameter
+
+    logging.info(
+        f"get_alignment_marks parameters: align_guid: {align_guid} mark: {type} val_from: {val_from} val_to: {val_to}, parIdFrom: {par_id_from}, parIdTo: {par_id_to}")
+
+    if mark in preprocessor.MARKS_FOR_ADDING and \
+        val_from and val_to and \
+        par_id_from >= 0 and par_id_to >= 0:
+        helper.add_meta(db_path, mark, val_from, val_to, par_id_from, par_id_to)
+    else:
+        return ('invalid parameters', 400)
+
+    return ('', 200)
+
+
 @app.route("/items/<username>/alignment/create", methods=["POST"])
 def create_alignment(username):
     """Register new alignment"""
