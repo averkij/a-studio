@@ -24,7 +24,7 @@
           <v-card flat>
             <v-card-text class="mt-0 pa-0">
               <v-select
-              v-model="type"
+              v-model="markItem"
               :items="markTypes"
               item-text="name"
               item-value="type"
@@ -111,14 +111,14 @@ export default {
       valueFrom: "",
       valueTo: "",
       parId: "",
-      type: MARK_NAMES[0]
+      markItem: MARK_NAMES[0].type
     };
   },
   methods: {
     addMark() {
       if (this.valueFrom != "" && this.valueTo != "" && this.parId != "") {
         this.show = false;
-        this.$emit("addMark", this.type.type, this.valueFrom, this.valueTo, this.parId, this.parId);
+        this.$emit("addMark", this.markItem, this.valueFrom, this.valueTo, this.parId - 1, this.parId - 1);
       } else {
         alert("Please, fill the whole form");
       }
