@@ -7,9 +7,10 @@
             {{ item[1] }}
           </div>
           <v-divider class="d-table-cell" vertical></v-divider>
-          <div class="d-table-cell break-word pa-2" :class="{'font-weight-bold': item[0].au || item[0].ti || item[0].h1 || item[0].h2 || item[0].h3 || item[0].h4 || item[0].h5}">{{ item[0].text }}
+          <div class="d-table-cell break-word pa-2" :class="{'font-weight-bold': item[0].au || item[0].ti || item[0].tr || item[0].h1 || item[0].h2 || item[0].h3 || item[0].h4 || item[0].h5}">{{ item[0].text }}
             <v-chip v-if="item[0].au" class="ml-2" small label color="green" text-color="white">author</v-chip>
             <v-chip v-if="item[0].ti" class="ml-2" small label color="green" text-color="white">title</v-chip>
+            <v-chip v-if="item[0].tr" class="ml-2" small label color="green" text-color="white">translator</v-chip>
             <v-chip v-if="item[0].pa" class="ml-2" small label color="blue" text-color="white">paragraph</v-chip>
             <v-chip v-if="item[0].h1" class="ml-2" small label color="teal" text-color="white">h1</v-chip>
             <v-chip v-if="item[0].h2" class="ml-2" small label color="cyan" text-color="white">h2</v-chip>

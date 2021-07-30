@@ -59,29 +59,40 @@
       <div v-else-if="showAlignmentMarks" class="mt-6">
         <v-row>
           <v-col cols="12" sm="6">
-            <v-card>
-            <div v-for="(mark,i) in orderedMarksFrom" :key="i">    
-              <MarkItem :mark=mark :id=i :showParId="true"></MarkItem>
+             <v-card>
+            <div v-for="(mark,i) in orderedMarksFrom" :key="i" class="relative"
+                @mouseover="hoverMarkFromIndex = i"
+                @mouseleave="hoverMarkFromIndex = -1"
+                @click="hoveredMarkItem=mark; $refs.editMarkFromDialog.init(mark); showEditMarkFromDialog=true">
+              <MarkItem :mark=mark :id=i :showParId="true" class="pointer"></MarkItem>
+              <v-icon v-show="hoverMarkFromIndex == i" class="pa-2 abs-right white" @click.stop.prevent="hoveredMarkItem=mark, showConfirmDeleteMarkDialog=true">mdi-close</v-icon>
               <v-divider/>
             </div>
             </v-card>
+            <EditMarkDialog ref="editMarkFromDialog" v-model="showEditMarkFromDialog" :lang=LANGUAGES[langCodeFrom].name :mark=hoveredMarkItem :direction="'from'" @editMark="editMark"/>
           </v-col>
           <v-col cols="12" sm="6">
             <v-card>
-            <div v-for="(mark,i) in orderedMarksTo" :key="i">            
-              <MarkItem :mark=mark :id=i :showParId="true"></MarkItem>
+            <div v-for="(mark,i) in orderedMarksTo" :key="i" class="relative"
+                @mouseover="hoverMarkToIndex = i"
+                @mouseleave="hoverMarkToIndex = -1"
+                @click="hoveredMarkItem=mark; $refs.editMarkToDialog.init(mark); showEditMarkToDialog=true">
+              <MarkItem :mark=mark :id=i :showParId="true" class="pointer"></MarkItem>
+              <v-icon v-show="hoverMarkToIndex == i" class="pa-2 abs-right white" @click.stop.prevent="hoveredMarkItem=mark, showConfirmDeleteMarkDialog=true">mdi-close</v-icon>
               <v-divider/>
             </div>
             </v-card>
-          </v-col>  
+            <EditMarkDialog ref="editMarkToDialog" v-model="showEditMarkToDialog" :lang=LANGUAGES[langCodeTo].name :mark=hoveredMarkItem :direction="'to'" @editMark="editMark"/>
+          </v-col>
         </v-row>
         <v-row>
           <v-col class="text-right">
             <v-btn class="primary mt-4 btn-min-w" @click="showAddMarkDialog=true">
               Add new mark
             </v-btn>
-          </v-col>          
+          </v-col>
           <AddMarkDialog v-model="showAddMarkDialog" :langFrom=LANGUAGES[langCodeFrom].name :langTo=LANGUAGES[langCodeTo].name @addMark="addMark"/>
+          <ConfirmDeleteMarkDialog v-model="showConfirmDeleteMarkDialog" @confirmDelete="performDeleteMark" />
         </v-row>
       </div>
 
@@ -279,8 +290,10 @@
 <script>
   import DownloadPanel from "@/components/DownloadPanel";
   import ConfirmDeleteDialog from "@/components/ConfirmDeleteDialog"
+  import ConfirmDeleteMarkDialog from "@/components/ConfirmDeleteMarkDialog"
   import MarkItem from "@/components/MarkItem";
   import AddMarkDialog from "@/components/AddMarkDialog";
+  import EditMarkDialog from "@/components/EditMarkDialog";
   import {
     mapGetters
   } from "vuex";
@@ -320,7 +333,8 @@
     DOWNLOAD_SPLITTED,
     DOWNLOAD_PROCESSING,
     DOWNLOAD_BOOK,
-    ADD_ALIGNMENT_MARK
+    ADD_ALIGNMENT_MARK,
+    EDIT_ALIGNMENT_MARK
   } from "@/store/actions.type";
   import {
     SET_BOOK_PREVIEW,
@@ -358,18 +372,26 @@
         selectedListItem: 0,
         hoverAlignmentIndex: -1,
         hoveredAlignmentItem: {"name": ""},
+        hoverMarkToIndex: -1,
+        hoverMarkFromIndex: -1,
+        hoveredMarkItem: [],
         //dialogs
         showConfirmDeleteAlignmentDialog:false,
+        showConfirmDeleteMarkDialog:false,
         showAddMarkDialog: false,
+        showEditMarkToDialog: false,
+        showEditMarkFromDialog: false,
         parStructureDirection: "to",
         bookLeftLang: "from",
         bookStyle: BOOK_STYLES[0],
         bookStyles: BOOK_STYLES,
-        showAlignmentMarks: true
+        showAlignmentMarks: false
       };
     },
     methods: {
       addMark(type, valueFrom, valueTo, parIdFrom, parIdTo) {
+        console.log(type)
+        this.isLoading.alignmentMarks = true;
         this.$store.dispatch(ADD_ALIGNMENT_MARK, {
           alignId: this.selectedProcessingId,
           username: this.$route.params.username,
@@ -379,6 +401,38 @@
           parIdFrom,
           parIdTo,
           occurence:0
+        }).then(() => {
+          this.$store.dispatch(GET_ALIGNMENT_MARKS, {
+            username: this.$route.params.username,
+            langCodeFrom: this.langCodeFrom,
+            langCodeTo: this.langCodeTo,
+            alignId: this.selectedProcessingId
+          }).then(() => {
+            this.isLoading.alignmentMarks = false;
+          });
+        });
+      },
+      editMark(mark, operation, direction, value, parId) {
+        console.log(mark, operation, direction, value, parId)
+        this.isLoading.alignmentMarks = true;
+        this.$store.dispatch(EDIT_ALIGNMENT_MARK, {
+          alignId: this.selectedProcessingId,
+          username: this.$route.params.username,
+          markId: mark[4],
+          type: mark[2],
+          direction,
+          value,
+          parId,
+          operation
+        }).then(() => {
+          this.$store.dispatch(GET_ALIGNMENT_MARKS, {
+            username: this.$route.params.username,
+            langCodeFrom: this.langCodeFrom,
+            langCodeTo: this.langCodeTo,
+            alignId: this.selectedProcessingId
+          }).then(() => {
+            this.isLoading.alignmentMarks = false;
+          });
         });
       },
       bookOrder(dir) {
@@ -556,6 +610,9 @@
               this.selectFirstProcessingDocument();
             });
           });
+      },      
+      performDeleteMark() {
+        this.editMark(this.hoveredMarkItem, "delete")
       },
     },
     mounted() {
@@ -675,7 +732,9 @@
     components: {
       DownloadPanel,
       ConfirmDeleteDialog,
+      ConfirmDeleteMarkDialog,
       AddMarkDialog,
+      EditMarkDialog,
       MarkItem
     }
   };

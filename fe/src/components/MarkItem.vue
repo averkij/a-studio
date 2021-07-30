@@ -3,10 +3,14 @@
     <div class="d-table-cell grey lighten-4 pa-2 text-center" style="min-width:45px">
       {{ id+1 }}
     </div>
+    <v-divider v-if="showParId" class="d-table-cell" vertical></v-divider>
+    <div v-if="showParId" class="d-table-cell pa-2 yellow lighten-5 text-center" style="min-width:45px;">
+      {{mark[3] + 1}}
+    </div>
     <v-divider class="d-table-cell" vertical></v-divider>
-    <div class="d-table-cell pa-2" style="width: 100%" :class="{'mark-title': mark[2]=='author' || mark[2]=='title', 'break-all': mark[2]=='image'}">
+    <div class="d-table-cell pa-2" style="width: 100%" :class="{'mark-title': mark[2]=='author' || mark[2]=='title' || mark[2]=='translator', 'break-all': mark[2]=='image'}">
       <v-chip class="mx-1" small label :class="{
-        'green': mark[2]=='author' || mark[2]=='title',
+        'green': mark[2]=='author' || mark[2]=='title' || mark[2]=='translator',
         'teal': mark[2] == 'h1',
         'cyan': mark[2] == 'h2',
         'lime': mark[2] == 'h3' || mark[2] == 'h4' || mark[2] == 'h5',
@@ -16,10 +20,6 @@
         }"
         text-color="white">{{mark[2]}}</v-chip>
         {{mark[0]}}
-    </div>
-    <v-divider v-if="showParId" class="d-table-cell" vertical></v-divider>
-    <div v-if="showParId" class="d-table-cell pa-2" style="min-width:60px; text-align:center;">
-      {{mark[3]}}
     </div>
   </div>
 </template>
