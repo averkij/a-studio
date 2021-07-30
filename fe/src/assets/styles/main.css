@@ -351,3 +351,17 @@ h3 {
     background: red;
     border-radius: 50%;
 }
+
+.relative {
+    position:relative;
+}
+
+.abs-right {
+    position: absolute !important;
+    right: 0;
+    top: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
