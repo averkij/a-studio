@@ -96,10 +96,12 @@ export const ItemsService = {
   },
   editAlignmentMark(params) {
     let form = new FormData();
+    form.append("mark_id", params.markId);
+    form.append("operation", params.operation);
     form.append("type", params.type);
     form.append("direction", params.type);
-    form.append("val", params.valFrom);
-    form.append("occurence", params.occurence);
+    form.append("value", params.value);
+    form.append("par_id", params.parId);
     return ApiService.post(
       "items",
       `${params.username}/alignment/marks/${params.alignId}/edit`,
