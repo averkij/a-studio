@@ -187,20 +187,21 @@ def get_alignment_marks(username, align_guid):
 
     for mark_name in meta_dict:
         for mark_tuple in meta_dict[mark_name]:
-            #(val, occurence, par_id)
+            #(val, occurence, par_id, id)
             val = mark_tuple[0]
             idx = mark_tuple[1]
             pid = mark_tuple[2]
+            id = mark_tuple[3]
             if mark_name.endswith("from"):
-                res["items"][lang_from].append((val, idx, mark_name[:len(mark_name)-5], pid))
+                res["items"][lang_from].append((val, idx, mark_name[:len(mark_name)-5], pid, id))
             else:
-                res["items"][lang_to].append((val, idx, mark_name[:len(mark_name)-3], pid))
-    
+                res["items"][lang_to].append((val, idx, mark_name[:len(mark_name)-3], pid, id))
+
     return res
 
 
 @app.route("/items/<username>/alignment/marks/<align_guid>/add", methods=["POST"])
-def add_alignment_marks(username, align_guid):
+def add_alignment_mark(username, align_guid):
     """Get alignment marks"""
     if not user_db_helper.alignment_guid_exists(username, align_guid):
         return ('', 400)
@@ -224,12 +225,55 @@ def add_alignment_marks(username, align_guid):
     #TODO occurence parameter
 
     logging.info(
-        f"get_alignment_marks parameters: align_guid: {align_guid} mark: {type} val_from: {val_from} val_to: {val_to}, parIdFrom: {par_id_from}, parIdTo: {par_id_to}")
+        f"get_alignment_marks parameters: align_guid: {align_guid} mark: {mark} val_from: {val_from} val_to: {val_to}, parIdFrom: {par_id_from}, parIdTo: {par_id_to}")
 
     if mark in preprocessor.MARKS_FOR_ADDING and \
         val_from and val_to and \
         par_id_from >= 0 and par_id_to >= 0:
         helper.add_meta(db_path, mark, val_from, val_to, par_id_from, par_id_to)
+    else:
+        return ('invalid parameters', 400)
+
+    return ('', 200)
+
+
+@app.route("/items/<username>/alignment/marks/<align_guid>/edit", methods=["POST"])
+def edit_alignment_mark(username, align_guid):
+    """Get alignment marks"""
+    if not user_db_helper.alignment_guid_exists(username, align_guid):
+        return ('', 400)
+
+    _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+        username, align_guid)
+    _, lang_from = user_db_helper.get_alignment_fileinfo_from(
+        username, guid_from)
+    _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
+    db_folder = os.path.join(con.UPLOAD_FOLDER, username,
+                             con.DB_FOLDER, lang_from, lang_to)
+    db_path = os.path.join(db_folder, f"{align_guid}.db")
+
+    mark_id, _ = misc.try_parse_int(
+        request.form.get("mark_id", -1))
+    operation = request.form.get("operation", '')
+
+    if mark_id > 0 and operation == "delete":
+        logging.info(
+        f"deleting mark: align_guid: {align_guid}, mark_id: {mark_id}")
+        helper.delete_meta(db_path, mark_id)
+        return ('', 200)
+
+    direction = request.form.get("direction", '')
+    type = request.form.get("type", '')
+    val = request.form.get("value", '')
+    par_id, _ = misc.try_parse_int(
+        request.form.get("par_id", -1))
+    #TODO occurence parameter
+
+    logging.info(
+        f"get_alignment_marks parameters: align_guid: {align_guid}, mark_id: {mark_id}, val: {val}, parId: {par_id}")
+
+    if operation=="edit" and val and par_id >= 0 and mark_id > 0:
+        helper.edit_meta(db_path, type, direction, mark_id, par_id, val)
     else:
         return ('invalid parameters', 400)
 
