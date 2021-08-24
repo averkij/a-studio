@@ -29,13 +29,20 @@ Automated alignment process relies on the sentence embeddings models. Embeddings
 You can run the application on your computer using docker.
 
 1. Make sure that docker is installed by typing the <code>docker version</code> command in your console.
+
 2. Images configured to run locally are available on Docker Hub.
 
 3. Run the following commads in your console:
-<code>docker pull lingtrain/aligner:habr</code>
-<code>docker run -p 80:80 lingtrain/aligner:habr</code>
+    - <code>docker pull lingtrain/aligner:v5</code>
+    - <code>docker run -v C:\app\data:/app/data -v C:\app\img:/app/static/img -p 80:80 lingtrain/aligner:v5</code>
+    - Use lingtrain/aligner:v5-labse for LaBSE version (109 languages).
 
 4. App will be available in your browser on the <code>localhost</code> address.
+
+5. If you need to run the container on another port (e.g. localhost:8081):
+    - Change the API_URL parameter in config.js
+    - Rebuild the docker container
+    - Start it with changed -p parameter (e.g. -p 8081:80)
 
 ## Running in development mode
 
