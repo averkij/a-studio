@@ -39,6 +39,7 @@ import {
   UPDATE_VISUALIZATION,
   FIND_LINE_POSITION_IN_INDEX,
   ADD_ALIGNMENT_MARK,
+  BULK_ADD_ALIGNMENT_MARK,
   EDIT_ALIGNMENT_MARK
 } from "./actions.type";
 
@@ -193,6 +194,13 @@ export const actions = {
     },
     () => {
       console.log("alignment mark add error")
+    });
+  },
+  async [BULK_ADD_ALIGNMENT_MARK](context, params) {
+    await ItemsService.bulkAddAlignmentMark(params).then(() => {
+    },
+    () => {
+      console.log("alignment mark bulk add error")
     });
   },
   async [GET_DOC_INDEX](context, params) {

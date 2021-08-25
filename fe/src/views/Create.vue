@@ -87,11 +87,15 @@
         </v-row>
         <v-row>
           <v-col class="text-right">
-            <v-btn class="primary mt-4 btn-min-w" @click="showAddMarkDialog=true">
+            <v-btn class="mt-4 btn-min-w" @click="showAddMarksAsTextDialog=true">
+              Add images
+            </v-btn>
+            <v-btn class="primary mt-4 ml-3 btn-min-w" @click="showAddMarkDialog=true">
               Add new mark
             </v-btn>
           </v-col>
           <AddMarkDialog v-model="showAddMarkDialog" :langFrom=LANGUAGES[langCodeFrom].name :langTo=LANGUAGES[langCodeTo].name @addMark="addMark"/>
+          <AddMarksAsTextDialog v-model="showAddMarksAsTextDialog" :langFrom=LANGUAGES[langCodeFrom].name :langTo=LANGUAGES[langCodeTo].name @addMark="addMarksAsText"/>
           <ConfirmDeleteMarkDialog v-model="showConfirmDeleteMarkDialog" @confirmDelete="performDeleteMark" />
         </v-row>
       </div>
@@ -271,13 +275,25 @@
           </v-row>
           <v-row>
             <v-col cols="12" sm="6">
-              <DownloadPanel @downloadFile="downloadProcessing" :info="LANGUAGES[langCodeFrom]" :isLoading=isLoading
-                :count=100 :countOrig=splitted[langCodeFrom].meta.lines_count>
+              <DownloadPanel @downloadFile="downloadProcessing" :title="'corpora'" :info="LANGUAGES[langCodeFrom]" :isLoading=isLoading
+                :count=100 :paragraphs=false :countOrig=splitted[langCodeFrom].meta.lines_count>
               </DownloadPanel>
             </v-col>
             <v-col cols="12" sm="6">
-              <DownloadPanel @downloadFile="downloadProcessing" :info="LANGUAGES[langCodeTo]" :isLoading=isLoading
-                :count=100 :countOrig=splitted[langCodeTo].meta.lines_count>
+              <DownloadPanel @downloadFile="downloadProcessing" :title="'corpora'" :info="LANGUAGES[langCodeTo]" :isLoading=isLoading
+                :count=100 :paragraphs=false :countOrig=splitted[langCodeTo].meta.lines_count>
+              </DownloadPanel>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="12" sm="6">
+              <DownloadPanel @downloadFile="downloadProcessing" :title="'paragraphs based on choosen side'" :info="LANGUAGES[langCodeFrom]" :isLoading=isLoading
+                :count=100 :direction="parStructureDirection" :paragraphs=true :countOrig=splitted[langCodeFrom].meta.lines_count>
+              </DownloadPanel>
+            </v-col>
+            <v-col cols="12" sm="6">
+              <DownloadPanel @downloadFile="downloadProcessing" :title="'paragraphs based on choosen side'" :info="LANGUAGES[langCodeTo]" :isLoading=isLoading
+                :count=100 :direction="parStructureDirection" :paragraphs=true :countOrig=splitted[langCodeTo].meta.lines_count>
               </DownloadPanel>
             </v-col>
           </v-row>
@@ -293,6 +309,7 @@
   import ConfirmDeleteMarkDialog from "@/components/ConfirmDeleteMarkDialog"
   import MarkItem from "@/components/MarkItem";
   import AddMarkDialog from "@/components/AddMarkDialog";
+  import AddMarksAsTextDialog from "@/components/AddMarksAsTextDialog";
   import EditMarkDialog from "@/components/EditMarkDialog";
   import {
     mapGetters
@@ -334,6 +351,7 @@
     DOWNLOAD_PROCESSING,
     DOWNLOAD_BOOK,
     ADD_ALIGNMENT_MARK,
+    BULK_ADD_ALIGNMENT_MARK,
     EDIT_ALIGNMENT_MARK
   } from "@/store/actions.type";
   import {
@@ -379,6 +397,7 @@
         showConfirmDeleteAlignmentDialog:false,
         showConfirmDeleteMarkDialog:false,
         showAddMarkDialog: false,
+        showAddMarksAsTextDialog: false,
         showEditMarkToDialog: false,
         showEditMarkFromDialog: false,
         parStructureDirection: "to",
@@ -389,6 +408,23 @@
       };
     },
     methods: {
+      addMarksAsText(rawInfo) {
+        this.isLoading.alignmentMarks = true;
+        this.$store.dispatch(BULK_ADD_ALIGNMENT_MARK, {
+          alignId: this.selectedProcessingId,
+          username: this.$route.params.username,
+          rawInfo: rawInfo
+        }).then(() => {
+          this.$store.dispatch(GET_ALIGNMENT_MARKS, {
+            username: this.$route.params.username,
+            langCodeFrom: this.langCodeFrom,
+            langCodeTo: this.langCodeTo,
+            alignId: this.selectedProcessingId
+          }).then(() => {
+            this.isLoading.alignmentMarks = false;
+          });
+        });
+      },
       addMark(type, valueFrom, valueTo, parIdFrom, parIdTo) {
         console.log(type)
         this.isLoading.alignmentMarks = true;
@@ -474,7 +510,7 @@
           openInBrowser
         });
       },
-      downloadProcessing(langCode) {
+      downloadProcessing(langCode, paragraphs, direction) {
         this.$store.dispatch(DOWNLOAD_PROCESSING, {
           alignId: this.selectedProcessingId,
           fileName: this.selectedProcessingId + ".txt",
@@ -482,6 +518,8 @@
           langCodeFrom: this.langCodeFrom,
           langCodeTo: this.langCodeTo,
           langCodeDownload: langCode,
+          paragraphs: paragraphs,
+          direction: direction,
           format: "txt"
         });
       },
@@ -734,6 +772,7 @@
       ConfirmDeleteDialog,
       ConfirmDeleteMarkDialog,
       AddMarkDialog,
+      AddMarksAsTextDialog,
       EditMarkDialog,
       MarkItem
     }

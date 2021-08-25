@@ -43,4 +43,5 @@ export const GET_CONTENTS = "get_contents";
 
 export const GET_ALIGNMENT_MARKS = "get_alignment_marks";
 export const ADD_ALIGNMENT_MARK = "add_alignment_mark";
+export const BULK_ADD_ALIGNMENT_MARK = "bulk_add_alignment_mark";
 export const EDIT_ALIGNMENT_MARK = "edit_alignment_mark";

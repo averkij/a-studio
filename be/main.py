@@ -237,6 +237,36 @@ def add_alignment_mark(username, align_guid):
     return ('', 200)
 
 
+@app.route("/items/<username>/alignment/marks/<align_guid>/bulkadd", methods=["POST"])
+def bulk_add_alignment_mark(username, align_guid):
+    """Get alignment marks"""
+    if not user_db_helper.alignment_guid_exists(username, align_guid):
+        return ('', 400)
+
+    _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+        username, align_guid)
+    _, lang_from = user_db_helper.get_alignment_fileinfo_from(
+        username, guid_from)
+    _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
+    db_folder = os.path.join(con.UPLOAD_FOLDER, username,
+                             con.DB_FOLDER, lang_from, lang_to)
+    db_path = os.path.join(db_folder, f"{align_guid}.db")
+
+    raw_info = request.form.get("rawInfo", '')
+
+    if raw_info:
+        text_info = raw_info.split("\n")
+        info = [(x.split(',')[0],x.split(',')[1],x.split(',')[2]) for x in text_info if len(x.split(','))>2]
+        info.sort(key=lambda x: x[1])
+        for i in range(0, len(info), 2):
+            if i+1 < len(info):
+                helper.add_meta(db_path, preprocessor.IMAGE, info[i][0], info[i+1][0], info[i][1], info[i+1][1], info[i][2], info[i+1][2])
+    else:
+        return ('invalid parameters', 400)
+
+    return ('', 200)
+
+
 @app.route("/items/<username>/alignment/marks/<align_guid>/edit", methods=["POST"])
 def edit_alignment_mark(username, align_guid):
     """Get alignment marks"""
@@ -855,6 +885,9 @@ def download_processsing(username, lang_from, lang_to, align_guid, lang, file_fo
     if not os.path.isfile(db_path):
         abort(404)
 
+    paragraphs = request.form.get("paragraphs", False)
+    pars_direction = request.form.get("direction", "to")
+
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     download_folder = os.path.join(
         con.UPLOAD_FOLDER, username, con.DOWNLOAD_FOLDER)
@@ -868,6 +901,14 @@ def download_processsing(username, lang_from, lang_to, align_guid, lang, file_fo
     direction = "from"
     if not lang == lang_from:
         direction = "to"
+
+    if paragraphs == "true":
+        try:
+            paragraphs, _, _, _ = reader.get_paragraphs(db_path, pars_direction)
+            saver.save_paragraphs(paragraphs, lang, download_file)
+            return send_file(download_file, as_attachment=True)
+        except:
+            return abort(404)
 
     if file_format == con.FORMAT_TMX:
         saver.save_tmx(db_path, download_file, lang_from, lang_to)
