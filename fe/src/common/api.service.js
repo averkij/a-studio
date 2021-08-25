@@ -94,6 +94,15 @@ export const ItemsService = {
       form
     );
   },
+  bulkAddAlignmentMark(params) {
+    let form = new FormData();
+    form.append("rawInfo", params.rawInfo);
+    return ApiService.post(
+      "items",
+      `${params.username}/alignment/marks/${params.alignId}/bulkadd`,
+      form
+    );
+  },
   editAlignmentMark(params) {
     let form = new FormData();
     form.append("mark_id", params.markId);
@@ -139,9 +148,13 @@ export const ItemsService = {
     });
   },
   downloadProcessing(params) {
+    let form = new FormData();
+    form.append("paragraphs", params.paragraphs);
+    form.append("direction", params.direction);
     return ApiService.post(
       "items",
-      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}/${params.format}`
+      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}/${params.format}`,
+      form
     ).then((response) => {
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement('a');

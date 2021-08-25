@@ -1,12 +1,12 @@
 <template>
   <v-card>
     <div class="blue lighten-5">
-      <v-card-title>{{ info.icon }} {{ info.name }} corpora</v-card-title>
+      <v-card-title>{{ info.icon }} {{ info.name }} {{title}}</v-card-title>
       <!-- <v-card-text>Your {{ info.name }} files</v-card-text> -->
     </div>
     <v-divider></v-divider>
     <v-card-title>Download</v-card-title>
-    <v-card-text>Aligned {{ info.name }} corpora in txt format.</v-card-text>
+    <v-card-text>Aligned {{ info.name }} {{title}} in txt format.</v-card-text>
     <v-divider class="mt-10"></v-divider>
     <v-card-actions>
       <v-btn @click="downloadFile(info.langCode)" :loading="isLoading.download[info.langCode]"
@@ -20,10 +20,10 @@
 <script>
   export default {
     name: "DownloadPanel",
-    props: ["info", "isLoading", "countOrig", "count"],
+    props: ["info", "isLoading", "countOrig", "count", "title", "direction", "paragraphs"],
     methods: {
       downloadFile(langCode) {
-        this.$emit('downloadFile', langCode)
+        this.$emit('downloadFile', langCode, this.paragraphs, this.direction)
       }
     },
     computed: {}
