@@ -296,6 +296,14 @@ h3 {
 
 .lt-image {
     max-height: 260px;
+    -webkit-mask-image: url(https://hsto.org/webt/wg/wv/ai/wgwvai84o5fvgpok4mnannr7jca.png);
+    mask-image: url(https://hsto.org/webt/wg/wv/ai/wgwvai84o5fvgpok4mnannr7jca.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
 }
 
 .s {
