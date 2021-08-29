@@ -33,9 +33,9 @@ You can run the application on your computer using docker.
 2. Images configured to run locally are available on Docker Hub.
 
 3. Run the following commads in your console:
-    - <code>docker pull lingtrain/aligner:v5</code>
-    - <code>docker run -v C:\app\data:/app/data -v C:\app\img:/app/static/img -p 80:80 lingtrain/aligner:v5</code>
-    - Use lingtrain/aligner:v5-labse for LaBSE version (109 languages).
+    - <code>docker pull lingtrain/aligner:v6</code>
+    - <code>docker run -v C:\app\data:/app/data -v C:\app\img:/app/static/img -p 80:80 lingtrain/aligner:v6</code>
+    - Use lingtrain/aligner:v6-labse for LaBSE version (109 languages).
 
 4. App will be available in your browser on the <code>localhost</code> address.
 
