@@ -9,11 +9,11 @@ export const LANGUAGES = {
         name: "English",
         icon: "🧸"
     },
-    // 'ba': {
-    //     langCode: "ba",
-    //     name: "Bashkir",
-    //     icon: "🌹"
-    // },
+    'ba': {
+        langCode: "ba",
+        name: "Bashkir",
+        icon: "🌹"
+    },
     'de': {
         langCode: "de",
         name: "German",
@@ -90,6 +90,11 @@ export const LANGUAGES = {
         name: "Japanese",
         icon: "🍣",
         noSpaceBetweenSentences: true
+    },
+    'xx': {
+        langCode: "xx",
+        name: "General",
+        icon: "👽"
     },
 };
 export const DEFAULT_FROM = 'en';
