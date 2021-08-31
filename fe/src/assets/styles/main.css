@@ -228,8 +228,8 @@
 }
 
 .divider-img {
-    width: 50px;
-    height: 50px;
+    /* width: 50px;
+    height: 50px; */
 }
 
 .flag-img {
@@ -260,6 +260,14 @@
     text-indent: 30px;
     font-weight: 400;
     /* line-height: initial; */
+}
+
+.title-cell {
+    padding: 20px 20px 10px 20px;
+}
+
+.author-cell {
+    padding: 0px 0px 30px 0px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -295,29 +303,18 @@ h3 {
 }
 
 .lt-image {
-    height: 260px;
-    width: 260px;
-    display: block;
-}
-
-.lt-image-mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: url(https://hsto.org/webt/3d/s2/rt/3ds2rtuhpjkb4qtnlgmx7o7l5_0.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 100;
-}
-
-.img-cont {
-    position: relative;
-    height: 260px;
-    width: 260px;
-    margin: 0 auto;
+    max-height: 260px;
+    mask-image: url(https://hsto.org/webt/wg/wv/ai/wgwvai84o5fvgpok4mnannr7jca.png);
+    
+    /* bird */
+    /* mask-image: url(https://hsto.org/webt/bz/vp/mc/bzvpmcq0a7fsremrnz8xmgdcaj0.png); */
+    /* cat */
+    /* mask-image: url(https://hsto.org/webt/ms/h5/fr/msh5frym7ua7d0cgltar_evqp84.png); */
+    mask-mode: alpha;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    margin: 20px 0;
 }
 
 .s {
