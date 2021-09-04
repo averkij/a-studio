@@ -968,12 +968,12 @@ def get_book_preview(username, lang_from, lang_to, align_guid):
     if reader.is_empty_cells(db_path):
         abort(400)
 
-    par_amount = 6
+    par_amount = 5
 
-    paragraphs, delimeters, metas = reader.get_paragraphs_polybook(
-        db_paths=[db_path],
-        par_amount=par_amount,
-        direction=direction)
+    paragraphs, delimeters, metas, _ = reader.get_paragraphs(
+        db_path=db_path,
+        direction=direction,
+        par_amount=par_amount)
 
     if left_lang == "from":
         lang_order = [lang_from, lang_to]
