@@ -49,42 +49,85 @@
       </v-card>
 
       <div class="text-h4 mt-10 font-weight-bold">
-        <v-icon color="blue" large>mdi-format-header-1</v-icon> Edit marks
+        <v-row>
+          <v-col><v-icon color="blue" large>mdi-format-header-1</v-icon> Edit marks</v-col>
+          <v-col align="right">
+          <div class="d-inline-flex">
+            <v-icon class="mr-2">mdi-format-horizontal-align-center</v-icon>
+            <v-switch
+              color="blue"
+              value="true"
+              v-model="isMarksInRow"
+              class="mx-2"
+            ></v-switch></div>
+          </v-col>
+        </v-row>
       </div>
 
       <v-alert v-if="!alignmentMarks || (alignmentMarks[langCodeFrom].length==0 && alignmentMarks[langCodeTo].length==0)" type="info" border="left" colored-border color="info" class="mt-6" elevation="2">
         Selected alignment doesn't have marks.
       </v-alert>
       
-      <div v-else-if="showAlignmentMarks" class="mt-6">
-        <v-row>
-          <v-col cols="12" sm="6">
-             <v-card>
-            <div v-for="(mark,i) in orderedMarksFrom" :key="i" class="relative"
-                @mouseover="hoverMarkFromIndex = i"
-                @mouseleave="hoverMarkFromIndex = -1"
-                @click="hoveredMarkItem=mark; $refs.editMarkFromDialog.init(mark); showEditMarkFromDialog=true">
-              <MarkItem :mark=mark :id=i :showParId="true" class="pointer"></MarkItem>
-              <v-icon v-show="hoverMarkFromIndex == i" class="pa-2 abs-right white" @click.stop.prevent="hoveredMarkItem=mark, showConfirmDeleteMarkDialog=true">mdi-close</v-icon>
-              <v-divider/>
-            </div>
-            </v-card>
+      <div v-else-if="showAlignmentMarks" class="mt-0">
+        
+
+
+          <div v-if="isMarksInRow == 'true'">
+            <v-row v-for="(pair, i) in mergedMarks" :key="i">
+              <v-col cols="12" sm="6">
+                <v-card outlined v-if="pair[0]"
+                      @mouseover="hoverMarkFromIndex = i"
+                      @mouseleave="hoverMarkFromIndex = -1"
+                      @click="hoveredMarkItem=pair[0]; $refs.editMarkFromDialog.init(pair[0]); showEditMarkFromDialog=true">
+                  <MarkItem :mark="pair[0]" :id="i" :showParId="true" class="pointer"></MarkItem>
+                  <v-icon v-show="hoverMarkFromIndex == i" class="pa-2 abs-right white" @click.stop.prevent="hoveredMarkItem=pair[0], showConfirmDeleteMarkDialog=true">mdi-close</v-icon>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <v-card outlined v-if="pair[1]"
+                    @mouseover="hoverMarkToIndex = i"
+                    @mouseleave="hoverMarkToIndex = -1"
+                    @click="hoveredMarkItem=pair[1]; $refs.editMarkToDialog.init(pair[1]); showEditMarkToDialog=true">
+                  <MarkItem :mark="pair[1]" :id="i" :showParId="true" class="pointer"></MarkItem>
+                  <v-icon v-show="hoverMarkToIndex == i" class="pa-2 abs-right white" @click.stop.prevent="hoveredMarkItem=pair[1], showConfirmDeleteMarkDialog=true">mdi-close</v-icon>
+                </v-card>
+              </v-col>
+            </v-row>
             <EditMarkDialog ref="editMarkFromDialog" v-model="showEditMarkFromDialog" :lang=LANGUAGES[langCodeFrom].name :mark=hoveredMarkItem :direction="'from'" @editMark="editMark"/>
-          </v-col>
-          <v-col cols="12" sm="6">
-            <v-card>
-            <div v-for="(mark,i) in orderedMarksTo" :key="i" class="relative"
-                @mouseover="hoverMarkToIndex = i"
-                @mouseleave="hoverMarkToIndex = -1"
-                @click="hoveredMarkItem=mark; $refs.editMarkToDialog.init(mark); showEditMarkToDialog=true">
-              <MarkItem :mark=mark :id=i :showParId="true" class="pointer"></MarkItem>
-              <v-icon v-show="hoverMarkToIndex == i" class="pa-2 abs-right white" @click.stop.prevent="hoveredMarkItem=mark, showConfirmDeleteMarkDialog=true">mdi-close</v-icon>
-              <v-divider/>
-            </div>
-            </v-card>
             <EditMarkDialog ref="editMarkToDialog" v-model="showEditMarkToDialog" :lang=LANGUAGES[langCodeTo].name :mark=hoveredMarkItem :direction="'to'" @editMark="editMark"/>
-          </v-col>
-        </v-row>
+          </div>
+
+
+          <div v-else>
+            <v-row>
+              <v-col cols="12" sm="6">
+                <v-card>
+                  <div v-for="(mark,i) in orderedMarksFrom" :key="i" class="relative"
+                      @mouseover="hoverMarkFromIndex = i"
+                      @mouseleave="hoverMarkFromIndex = -1"
+                      @click="hoveredMarkItem=mark; $refs.editMarkFromDialog.init(mark); showEditMarkFromDialog=true">
+                    <MarkItem :mark=mark :id=i :showParId="true" class="pointer"></MarkItem>
+                    <v-icon v-show="hoverMarkFromIndex == i" class="pa-2 abs-right white" @click.stop.prevent="hoveredMarkItem=mark, showConfirmDeleteMarkDialog=true">mdi-close</v-icon>
+                    <v-divider/>
+                  </div>
+                </v-card>
+                <EditMarkDialog ref="editMarkFromDialog" v-model="showEditMarkFromDialog" :lang=LANGUAGES[langCodeFrom].name :mark=hoveredMarkItem :direction="'from'" @editMark="editMark"/>
+              </v-col>
+              <v-col cols="12" sm="6">
+                <v-card>
+                <div v-for="(mark,i) in orderedMarksTo" :key="i" class="relative"
+                    @mouseover="hoverMarkToIndex = i"
+                    @mouseleave="hoverMarkToIndex = -1"
+                    @click="hoveredMarkItem=mark; $refs.editMarkToDialog.init(mark); showEditMarkToDialog=true">
+                  <MarkItem :mark=mark :id=i :showParId="true" class="pointer"></MarkItem>
+                  <v-icon v-show="hoverMarkToIndex == i" class="pa-2 abs-right white" @click.stop.prevent="hoveredMarkItem=mark, showConfirmDeleteMarkDialog=true">mdi-close</v-icon>
+                  <v-divider/>
+                </div>
+                </v-card>
+                <EditMarkDialog ref="editMarkToDialog" v-model="showEditMarkToDialog" :lang=LANGUAGES[langCodeTo].name :mark=hoveredMarkItem :direction="'to'" @editMark="editMark"/>
+              </v-col>
+            </v-row>
+          </div>
         <v-row>
           <v-col class="text-right">
             <v-btn class="mt-4 btn-min-w" @click="showAddMarksAsTextDialog=true">
@@ -326,11 +369,11 @@
     LanguageHelper,
   } from "@/common/language.helper";
   import {
-    BOOK_STYLES
+    Helper,BOOK_STYLES
   } from "@/common/helper";
-  // import {
-  //   SettingsHelper
-  // } from "@/common/settings.helper";
+  import {
+    SettingsHelper
+  } from "@/common/settings.helper";
   import {
     PROC_INIT,
     PROC_IN_PROGRESS,
@@ -404,7 +447,8 @@
         bookLeftLang: "from",
         bookStyle: BOOK_STYLES[0],
         bookStyles: BOOK_STYLES,
-        showAlignmentMarks: false
+        showAlignmentMarks: false,
+        isMarksInRow: SettingsHelper.getIsMarksInRow(),
       };
     },
     methods: {
@@ -661,6 +705,9 @@
       });
     },
     watch: {
+      isMarksInRow(value) {
+        localStorage.isMarksInRow = value ? true : false;
+      },
       showProxyTo(value) {
         localStorage.showProxyTo = value
       },
@@ -680,7 +727,11 @@
     computed: {
       ...mapGetters(["items", "itemsProcessing", "splitted", "processing", "docIndex", "conflictSplittedFrom",
         "conflictSplittedTo", "conflictFlowTo", "processingMeta", "bookPreview", "alignmentMarks"
-      ]),
+      ]),      
+      mergedMarks() {
+        let res = Helper.mergeMarks(this.orderedMarksFrom, this.orderedMarksTo)
+        return res;
+      },
       orderedMarksFrom() {
         //sort marks by paragraph id
         let marksCopy = JSON.parse(JSON.stringify(this.alignmentMarks[this.langCodeFrom]));

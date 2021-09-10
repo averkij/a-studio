@@ -5,7 +5,7 @@
     </div>
     <v-divider v-if="showParId" class="d-table-cell" vertical></v-divider>
     <div v-if="showParId" class="d-table-cell pa-2 yellow lighten-5 text-center" style="min-width:45px;">
-      {{mark[3] + 1}}
+      {{(mark[3] || mark[3] == 0) ? mark[3] + 1 : ''}}
     </div>
     <v-divider class="d-table-cell" vertical></v-divider>
     <div class="d-table-cell pa-2" style="width: 100%" :class="{'mark-title': mark[2]=='author' || mark[2]=='title' || mark[2]=='translator', 'break-all': mark[2]=='image'}">
