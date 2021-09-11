@@ -97,7 +97,7 @@
 </template>
 
 <script>
-import { MARK_NAMES } from "@/common/helper";
+import { MARK_NAMES_DICT } from "@/common/helper";
 export default {
   name: "AddMarkDialog",
   props: {
@@ -107,11 +107,11 @@ export default {
   },
   data() {
     return {
-      markTypes: MARK_NAMES,
+      markTypes: MARK_NAMES_DICT,
       valueFrom: "",
       valueTo: "",
       parId: "",
-      markItem: MARK_NAMES[0].type
+      markItem: MARK_NAMES_DICT[0].type
     };
   },
   methods: {

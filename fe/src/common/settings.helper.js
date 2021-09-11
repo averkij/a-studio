@@ -14,6 +14,9 @@ export const SettingsHelper = {
     setSplittedPanelPageCount(value) {
         localStorage.splittedPanelPageCount = value;
     },
+    getIsMarksInRow() {
+        return localStorage.isMarksInRow ? localStorage.isMarksInRow : defaultClientSettings.isMarksInRow;
+    },
 }
 
 const defaultClientSettings = {
@@ -21,7 +24,8 @@ const defaultClientSettings = {
     showAllTo: false,
     showAllFrom: false,
     candidatesSorting: CANDIDATES_SORTING_NEAREST,
-    splittedPanelPageCount: 20
+    splittedPanelPageCount: 20,
+    isMarksInRow: false
 }
 
 export const CANDIDATES_SORTING_NEAREST = 'nearest'
