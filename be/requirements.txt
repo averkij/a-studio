@@ -44,5 +44,5 @@ more-itertools==8.7.0
 dateparser==1.0.0
 
 --find-links https://download.pytorch.org/whl/torch_stable.html
-torch==1.8.1+cpu
-sentence-transformers==1.0.4
+torch==1.9.0+cpu
+sentence-transformers==2.0.0
