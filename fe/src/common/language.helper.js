@@ -14,6 +14,11 @@ export const LANGUAGES = {
         name: "Bashkir",
         icon: "🌹"
     },
+    'cv': {
+        langCode: "cv",
+        name: "Chuvash",
+        icon: "🌞"
+    },
     'de': {
         langCode: "de",
         name: "German",
