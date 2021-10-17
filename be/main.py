@@ -445,6 +445,8 @@ def start_alignment(username):
         request.form.get("batch_shift", 0))
     window, _ = misc.try_parse_int(
         request.form.get("window", config.DEFAULT_WINDOW))
+    use_proxy_from = request.form.get("use_proxy_from", '')
+    use_proxy_to = request.form.get("use_proxy_to", '')
 
     logging.info(
         f"align parameters align_guid {align_guid} align_all {align_all} batch_ids {batch_ids}, batch_shift {batch_shift}")
@@ -461,10 +463,13 @@ def start_alignment(username):
     user_db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
 
     logging.info(
-        f"align parameters START align_guid {align_guid} align_all {align_all} batch_ids {batch_ids} name {name} guid_from {guid_from} guid_to {guid_to} total_batches {total_batches}")
+        f"align parameters START align_guid {align_guid} align_all {align_all} batch_ids {batch_ids} name {name} guid_from {guid_from} guid_to {guid_to} total_batches {total_batches} use_proxy_from {use_proxy_from} use_proxy_to {use_proxy_to}")
 
     lines_from = aligner.get_splitted_from(db_path)
     lines_to = aligner.get_splitted_to(db_path)
+
+    proxy_from = aligner.get_proxy_from(db_path)
+    proxy_to = aligner.get_proxy_to(db_path)
 
     logging.info(f"[{username}]. Cleaning images.")
     # misc.clean_img_user_foler(username, align_guid)
@@ -488,16 +493,45 @@ def start_alignment(username):
     res_img_best = os.path.join(
         con.STATIC_FOLDER, con.IMG_FOLDER, username, f"{align_guid}.best.png")
 
-    task_list = [(lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_id, batch_shift, window)
-                 for lines_from_batch, lines_to_batch,
-                 line_ids_from, line_ids_to, batch_id
-                 in misc.get_batch_intersected(lines_from, lines_to, batch_ids, batch_shift, window=window)]
+    task_list = [(
+                    lines_from_batch,
+                    lines_to_batch,
+                    proxy_from_batch,
+                    proxy_to_batch,
+                    line_ids_from,
+                    line_ids_to,
+                    batch_id,
+                    batch_shift,
+                    window)
+                 for
+                    lines_from_batch,
+                    lines_to_batch,
+                    proxy_from_batch,
+                    proxy_to_batch,
+                    line_ids_from,
+                    line_ids_to,
+                    batch_id
+                 in
+                    aligner.get_batch_intersected(lines_from, lines_to, n=config.DEFAULT_BATCHSIZE, window=window, batch_ids=batch_ids, batch_shift=batch_shift, iter3=proxy_from, iter4=proxy_to)]
 
     proc_count = config.PROCESSORS_COUNT
-
     proc = AlignmentProcessor(
-        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
-        operation=la_con.OPERATION_CALCULATE_CUSTOM, plot_info=config.VIS_BATCH_INFO, plot_regression=config.VIS_REGRESSION)
+        proc_count,
+        db_path,
+        user_db_path,
+        res_img_best,
+        lang_from,
+        lang_to,
+        align_guid,
+        model_name=config.MODEL,
+        embed_batch_size=config.EMBED_BATCH_SIZE,
+        normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
+        operation=la_con.OPERATION_CALCULATE_CUSTOM,
+        plot_info=config.VIS_BATCH_INFO,
+        plot_regression=config.VIS_REGRESSION,
+        use_proxy_from = use_proxy_from,
+        use_proxy_to = use_proxy_to
+    )
     proc.add_tasks(task_list)
     proc.start_align()
 
@@ -519,6 +553,8 @@ def align_next_batch(username):
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(
         username, guid_from)
     _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
+    use_proxy_from = request.form.get("use_proxy_from", '')
+    use_proxy_to = request.form.get("use_proxy_to", '')
 
     db_folder = os.path.join(con.UPLOAD_FOLDER, username,
                              con.DB_FOLDER, lang_from, lang_to)
@@ -533,6 +569,9 @@ def align_next_batch(username):
 
     lines_from = aligner.get_splitted_from(db_path)
     lines_to = aligner.get_splitted_to(db_path)
+
+    proxy_from = aligner.get_proxy_from(db_path)
+    proxy_to = aligner.get_proxy_to(db_path)
 
     logging.info(f"[{username}]. Cleaning images.")
     # misc.clean_img_user_foler(username, align_guid)
@@ -550,16 +589,46 @@ def align_next_batch(username):
     res_img_best = os.path.join(
         con.STATIC_FOLDER, con.IMG_FOLDER, username, f"{align_guid}.best.png")
 
-    task_list = [(lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_id, batch_shift, window)
-                 for lines_from_batch, lines_to_batch,
-                 line_ids_from, line_ids_to, batch_id
-                 in misc.get_batch_intersected(lines_from, lines_to, batch_ids, batch_shift, window=window)]
+    task_list = [(
+                    lines_from_batch,
+                    lines_to_batch,
+                    proxy_from_batch,
+                    proxy_to_batch,
+                    line_ids_from,
+                    line_ids_to,
+                    batch_id,
+                    batch_shift,
+                    window)
+                 for
+                    lines_from_batch,
+                    lines_to_batch,
+                    proxy_from_batch,
+                    proxy_to_batch,
+                    line_ids_from,
+                    line_ids_to,
+                    batch_id
+                 in
+                    aligner.get_batch_intersected(lines_from, lines_to, n=config.DEFAULT_BATCHSIZE, window=window, batch_ids=batch_ids, batch_shift=batch_shift, iter3=proxy_from, iter4=proxy_to)]
 
     proc_count = config.PROCESSORS_COUNT
 
     proc = AlignmentProcessor(
-        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
-        plot_info=config.VIS_BATCH_INFO, plot_regression=config.VIS_REGRESSION)
+        proc_count,
+        db_path,
+        user_db_path,
+        res_img_best,
+        lang_from,
+        lang_to,
+        align_guid,
+        model_name=config.MODEL,
+        embed_batch_size=config.EMBED_BATCH_SIZE,
+        normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
+        operation=la_con.OPERATION_CALCULATE_CUSTOM,
+        plot_info=config.VIS_BATCH_INFO,
+        plot_regression=config.VIS_REGRESSION,
+        use_proxy_from = use_proxy_from,
+        use_proxy_to = use_proxy_to
+    )
     proc.add_tasks(task_list)
     proc.start_align()
 
@@ -632,6 +701,8 @@ def resolve_conflicts(username):
                              con.DB_FOLDER, lang_from, lang_to)
     db_path = os.path.join(db_folder, f"{align_guid}.db")
     user_db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
+    use_proxy_from = request.form.get("use_proxy_from", '')
+    use_proxy_to = request.form.get("use_proxy_to", '')
 
     # exit if batch ids is empty
     batch_ids = [x for x in batch_ids if x < total_batches][:total_batches]
@@ -646,8 +717,23 @@ def resolve_conflicts(username):
 
     proc_count = config.PROCESSORS_COUNT
     proc = AlignmentProcessor(
-        proc_count, db_path, user_db_path, res_img_best, lang_from, lang_to, align_guid, model_name=config.MODEL, window=config.DEFAULT_WINDOW, embed_batch_size=config.EMBED_BATCH_SIZE, normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
-        mode="resolve", operation=la_con.OPERATION_RESOLVE, plot_info=config.VIS_BATCH_INFO, plot_regression=config.VIS_REGRESSION)
+        proc_count,
+        db_path,
+        user_db_path,
+        res_img_best,
+        lang_from,
+        lang_to,
+        align_guid,
+        model_name=config.MODEL,
+        embed_batch_size=config.EMBED_BATCH_SIZE,
+        normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
+        mode="resolve",
+        operation=la_con.OPERATION_RESOLVE,
+        plot_info=config.VIS_BATCH_INFO,
+        plot_regression=config.VIS_REGRESSION,
+        use_proxy_from = use_proxy_from,
+        use_proxy_to = use_proxy_to
+    )
     proc.add_tasks([(batch_id, total_batches) for batch_id in batch_ids])
     proc.start_resolve()
 
