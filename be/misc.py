@@ -147,30 +147,6 @@ def get_batch(iter1, iter2, iter3, n):
         yield iter1[ndx:min(ndx + n, l1)], iter2[kdx:min(kdx + k, l3)], iter3[kdx:min(kdx + k, l3)]
 
 
-def get_batch_intersected(iter1, iter2, batch_ids, batch_shift=0, n=config.DEFAULT_BATCHSIZE, window=config.DEFAULT_WINDOW):
-    """Get batch with an additional window"""
-    l1 = len(iter1)
-    l2 = len(iter2)
-    k = int(round(n * l2/l1))
-    kdx = 0 - k
-
-    if k < window*2:
-        # subbatches will be intersected
-        logging.warning(
-            f"Batch for the second language is too small. k = {k}, window = {window}")
-
-    counter = 0
-    for ndx in range(0, l1, n):
-        kdx += k
-        if counter in batch_ids:
-            yield iter1[ndx:min(ndx + n, l1)], \
-                iter2[max(0, kdx - window + batch_shift):min(kdx + k + window + batch_shift, l2)], \
-                list(range(ndx, min(ndx + n, l1))), \
-                list(range(max(0, kdx - window + batch_shift), min(kdx + k + window + batch_shift, l2))), \
-                counter
-        counter += 1
-
-
 def try_parse_int(value):
     """Try parse int"""
     try:
