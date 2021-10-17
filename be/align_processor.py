@@ -21,7 +21,12 @@ FINISH_PROCESS = "finish_process"
 class AlignmentProcessor:
     """Processor with parallel texts alignment logic"""
 
-    def __init__(self, proc_count, db_path, user_db_path, res_img_best, lang_name_from, lang_name_to, align_guid, model_name, window, embed_batch_size, normalize_embeddings, mode="align", operation=la_con.OPERATION_CALCULATE_NEXT, plot_info=False, plot_regression=False):
+    def __init__(self, proc_count, db_path, user_db_path, res_img_best, lang_name_from, lang_name_to, align_guid, model_name, 
+                     embed_batch_size, normalize_embeddings, mode="align", operation=la_con.OPERATION_CALCULATE_NEXT,
+                     plot_info=False,
+                     plot_regression=False,
+                     use_proxy_from=False,
+                     use_proxy_to=False):
         self.proc_count = proc_count
         self.queue_in = Queue()
         self.queue_out = Queue()
@@ -33,14 +38,14 @@ class AlignmentProcessor:
         self.tasks_count = 0
         self.align_guid = align_guid
         self.model_name = model_name
-        self.window = window
         self.mode = mode
         self.embed_batch_size = embed_batch_size
         self.normalize_embeddings = normalize_embeddings
         self.operation = operation
-        self.plot_info = plot_info,
+        self.plot_info = plot_info
         self.plot_regression = plot_regression
-
+        self.use_proxy_from = use_proxy_from
+        self.use_proxy_to = use_proxy_to
 
     def add_tasks(self, task_list):
         """Add batches with string arrays for the further processing"""
@@ -150,12 +155,32 @@ class AlignmentProcessor:
         # align_handler.join()
     
 
-    def process_batch_wrapper(self, lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_number, shift, window):
+    def process_batch_wrapper(self, lines_from_batch, lines_to_batch, proxy_from, proxy_to, line_ids_from, line_ids_to, batch_number, shift, window):
         """Align process wrapper"""
         logging.info(f"Alignment started for {self.db_path}.")
         try:
-            texts_from, texts_to = aligner.process_batch(lines_from_batch, lines_to_batch, line_ids_from, line_ids_to, batch_number, self.model_name, self.window, self.embed_batch_size, self.normalize_embeddings, show_progress_bar=False,
-                                                         save_pic=True, lang_name_from=self.lang_name_from, lang_name_to=self.lang_name_to, img_path=self.res_img_best, show_info=self.plot_info, show_regression=self.plot_regression)
+            texts_from, texts_to = aligner.process_batch(
+                lines_from_batch,
+                lines_to_batch,
+                proxy_from,
+                proxy_to,
+                line_ids_from,
+                line_ids_to,
+                batch_number,
+                self.model_name,
+                window,
+                self.embed_batch_size,
+                self.normalize_embeddings,
+                show_progress_bar=False,
+                save_pic=True,
+                lang_name_from=self.lang_name_from,
+                lang_name_to=self.lang_name_to,
+                img_path=self.res_img_best,
+                show_info=self.plot_info,
+                show_regression=self.plot_regression,
+                use_proxy_from = self.use_proxy_from,
+                use_proxy_to = self.use_proxy_to
+            )
             self.queue_out.put(
                 (con.PROC_DONE, batch_number, texts_from, texts_to, shift, window))
         except Exception as e:
@@ -189,7 +214,7 @@ class AlignmentProcessor:
                 conflicts, _ = resolver.get_all_conflicts(
                     self.db_path, min_chain_length=min_chain_length, max_conflicts_len=max_conflicts_len, batch_id=batch_id)
                 resolver.resolve_all_conflicts(
-                    self.db_path, conflicts, self.model_name, show_logs=False)
+                    self.db_path, conflicts, self.model_name, show_logs=False, use_proxy_from=self.use_proxy_from, use_proxy_to=self.use_proxy_to)
                     
                 if batch_id == -1:
                     parameters = {"batch_amount":batch_amount, "min_chain_length":min_chain_length, "max_conflicts_len":max_conflicts_len}
@@ -205,7 +230,7 @@ class AlignmentProcessor:
             conflicts, _ = resolver.get_all_conflicts(
                 self.db_path, min_chain_length=min_chain_length, max_conflicts_len=max_conflicts_len, batch_id=batch_id)
             resolver.resolve_all_conflicts(
-                self.db_path, conflicts, self.model_name, show_logs=False)
+                self.db_path, conflicts, self.model_name, show_logs=False, use_proxy_from=self.use_proxy_from, use_proxy_to=self.use_proxy_to)
             
             if batch_id == -1:
                 parameters = {"batch_amount":batch_amount, "min_chain_length":min_chain_length, "max_conflicts_len":max_conflicts_len}
