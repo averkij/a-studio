@@ -319,24 +319,24 @@
           <v-row>
             <v-col cols="12" sm="6">
               <DownloadPanel @downloadFile="downloadProcessing" :title="'corpora'" :info="LANGUAGES[langCodeFrom]" :isLoading=isLoading
-                :count=100 :paragraphs=false :countOrig=splitted[langCodeFrom].meta.lines_count>
+                :count=100 :paragraphs=false :countOrig=splitted[langCodeFrom].meta.lines_count :lineItemName="'sentence'">
               </DownloadPanel>
             </v-col>
             <v-col cols="12" sm="6">
               <DownloadPanel @downloadFile="downloadProcessing" :title="'corpora'" :info="LANGUAGES[langCodeTo]" :isLoading=isLoading
-                :count=100 :paragraphs=false :countOrig=splitted[langCodeTo].meta.lines_count>
+                :count=100 :paragraphs=false :countOrig=splitted[langCodeTo].meta.lines_count :lineItemName="'sentence'">
               </DownloadPanel>
             </v-col>
           </v-row>
           <v-row>
             <v-col cols="12" sm="6">
               <DownloadPanel @downloadFile="downloadProcessing" :title="'paragraphs based on choosen side'" :info="LANGUAGES[langCodeFrom]" :isLoading=isLoading
-                :count=100 :direction="parStructureDirection" :paragraphs=true :countOrig=splitted[langCodeFrom].meta.lines_count>
+                :count=100 :direction="parStructureDirection" :paragraphs=true :countOrig=splitted[langCodeFrom].meta.lines_count :lineItemName="'paragraph'">
               </DownloadPanel>
             </v-col>
             <v-col cols="12" sm="6">
               <DownloadPanel @downloadFile="downloadProcessing" :title="'paragraphs based on choosen side'" :info="LANGUAGES[langCodeTo]" :isLoading=isLoading
-                :count=100 :direction="parStructureDirection" :paragraphs=true :countOrig=splitted[langCodeTo].meta.lines_count>
+                :count=100 :direction="parStructureDirection" :paragraphs=true :countOrig=splitted[langCodeTo].meta.lines_count :lineItemName="'paragraph'">
               </DownloadPanel>
             </v-col>
           </v-row>
