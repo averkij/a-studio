@@ -5,7 +5,6 @@
       <!-- <v-card-text>Your {{ info.name }} files</v-card-text> -->
     </div>
     <v-divider></v-divider>
-    <v-card-title>Download</v-card-title>
     <v-card-text>Aligned {{ info.name }} {{title}} in txt format.</v-card-text>
     <v-card-text class="py-0">One <b>{{lineItemName}}</b> per line.</v-card-text>
     <v-divider class="mt-10"></v-divider>
@@ -21,7 +20,7 @@
 <script>
   export default {
     name: "DownloadPanel",
-    props: ["info", "isLoading", "countOrig", "count", "title", "direction", "paragraphs", "lineItemName"],
+    props: ["info", "isLoading", "title", "direction", "paragraphs", "lineItemName"],
     methods: {
       downloadFile(langCode) {
         this.$emit('downloadFile', langCode, this.paragraphs, this.direction)

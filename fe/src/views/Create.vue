@@ -293,7 +293,6 @@
                   <v-card-title>📕 Book</v-card-title>
                 </div>
                 <v-divider></v-divider>
-                <v-card-title>Download</v-card-title>
                 <v-card-text>Book in html format.</v-card-text>
                 <v-divider class="mt-10"></v-divider>
                 <v-card-actions>
@@ -307,11 +306,10 @@
                   <v-card-title>📘 TMX corpora</v-card-title>
                 </div>
                 <v-divider></v-divider>
-                <v-card-title>Download</v-card-title>
                 <v-card-text>Aligned corpora in TMX format.</v-card-text>
                 <v-divider class="mt-10"></v-divider>
                 <v-card-actions>
-                  <v-btn class="mt-5" @click="downloadProcessingTmx()"><v-icon left color="grey">mdi-download</v-icon>Download</v-btn>
+                  <v-btn class="mt-5" @click="downloadProcessingData('tmx')"><v-icon left color="grey">mdi-download</v-icon>Download</v-btn>
                 </v-card-actions>
               </v-card>
             </v-col>
@@ -319,25 +317,32 @@
           <v-row>
             <v-col cols="12" sm="6">
               <DownloadPanel @downloadFile="downloadProcessing" :title="'corpora'" :info="LANGUAGES[langCodeFrom]" :isLoading=isLoading
-                :count=100 :paragraphs=false :countOrig=splitted[langCodeFrom].meta.lines_count :lineItemName="'sentence'">
+                :paragraphs=false :lineItemName="'sentence'">
               </DownloadPanel>
             </v-col>
             <v-col cols="12" sm="6">
               <DownloadPanel @downloadFile="downloadProcessing" :title="'corpora'" :info="LANGUAGES[langCodeTo]" :isLoading=isLoading
-                :count=100 :paragraphs=false :countOrig=splitted[langCodeTo].meta.lines_count :lineItemName="'sentence'">
+                :paragraphs=false :lineItemName="'sentence'">
               </DownloadPanel>
             </v-col>
           </v-row>
           <v-row>
             <v-col cols="12" sm="6">
               <DownloadPanel @downloadFile="downloadProcessing" :title="'paragraphs based on choosen side'" :info="LANGUAGES[langCodeFrom]" :isLoading=isLoading
-                :count=100 :direction="parStructureDirection" :paragraphs=true :countOrig=splitted[langCodeFrom].meta.lines_count :lineItemName="'paragraph'">
+                :direction="parStructureDirection" :paragraphs=true :lineItemName="'paragraph'">
               </DownloadPanel>
             </v-col>
             <v-col cols="12" sm="6">
               <DownloadPanel @downloadFile="downloadProcessing" :title="'paragraphs based on choosen side'" :info="LANGUAGES[langCodeTo]" :isLoading=isLoading
-                :count=100 :direction="parStructureDirection" :paragraphs=true :countOrig=splitted[langCodeTo].meta.lines_count :lineItemName="'paragraph'">
+                :direction="parStructureDirection" :paragraphs=true :lineItemName="'paragraph'">
               </DownloadPanel>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="12" sm="6">
+              <DownloadDataPanel @downloadFile="downloadProcessingData" :info="LANGUAGES[langCodeFrom]" :isLoading=isLoading
+                :direction="parStructureDirection">
+              </DownloadDataPanel>
             </v-col>
           </v-row>
         </div>
@@ -347,7 +352,8 @@
 </template>
 
 <script>
-  import DownloadPanel from "@/components/DownloadPanel";
+  import DownloadPanel from "@/components/DownloadPanel"
+  import DownloadDataPanel from "@/components/DownloadDataPanel"
   import ConfirmDeleteDialog from "@/components/ConfirmDeleteDialog"
   import ConfirmDeleteMarkDialog from "@/components/ConfirmDeleteMarkDialog"
   import MarkItem from "@/components/MarkItem";
@@ -567,15 +573,16 @@
           format: "txt"
         });
       },
-      downloadProcessingTmx() {
+      downloadProcessingData(format, direction) {
         this.$store.dispatch(DOWNLOAD_PROCESSING, {
           alignId: this.selectedProcessingId,
-          fileName: this.selectedProcessingId + ".tmx",
+          fileName: this.selectedProcessingId + "." + format,
           username: this.$route.params.username,
           langCodeFrom: this.langCodeFrom,
           langCodeTo: this.langCodeTo,
           langCodeDownload: this.langCodeFrom,
-          format: "tmx"
+          format: format,
+          direction: direction
         });
       },
       selectProcessing(item, alignId) {
@@ -820,6 +827,7 @@
     },
     components: {
       DownloadPanel,
+      DownloadDataPanel,
       ConfirmDeleteDialog,
       ConfirmDeleteMarkDialog,
       AddMarkDialog,
