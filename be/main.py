@@ -998,6 +998,10 @@ def download_processsing(username, lang_from, lang_to, align_guid, lang, file_fo
 
     if file_format == con.FORMAT_TMX:
         saver.save_tmx(db_path, download_file, lang_from, lang_to)
+    if file_format == con.FORMAT_XML:
+        saver.save_xml(db_path, download_file, lang_from, lang_to, direction)
+    if file_format == con.FORMAT_JSON:
+        saver.save_json(db_path, download_file, lang_from, lang_to, direction)
     elif file_format == con.FORMAT_PLAIN:
         saver.save_plain_text(db_path, download_file, direction)
 
