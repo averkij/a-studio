@@ -294,6 +294,8 @@ export const ItemsService = {
     form.append("batch_shift", params.batchShift)
     form.append("amount", params.amount)
     form.append("window", params.window)
+    form.append("use_proxy_from", params.useProxyFrom)
+    form.append("use_proxy_to", params.useProxyTo)
     if (params.nextOnly) {
       console.log("calculating next batch")
       return ApiService.post(
@@ -337,7 +339,9 @@ export const ItemsService = {
     let form = new FormData();
     form.append("id", params.id);
     form.append("resolve_all", params.resolveAll);
-    form.append("batch_ids", JSON.stringify(params.batchIds))
+    form.append("batch_ids", JSON.stringify(params.batchIds));
+    form.append("use_proxy_from", params.useProxyFrom);
+    form.append("use_proxy_to", params.useProxyTo);
     return ApiService.post(
       "items",
       `${params.username}/alignment/resolve`,

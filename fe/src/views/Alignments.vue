@@ -194,12 +194,12 @@
               <v-row>
                 <v-col cols="12" sm="4">
                   <v-card flat>
-                    <div class="white lighten-5">
+                    <div>
                       <v-card-title class="text-subtitle-1 pa-3 pt-0">
                         Batches to align: <span class="font-weight-bold px-2">{{batchesToAlign}}</span>
                       </v-card-title>
                     </div>
-                    <div class="white lighten-3 pa-3">
+                    <div class="pa-3">
                       <v-slider v-model="batchesToAlign" @change="customAlignmentSettings=null;" min="1" max="5" step="1" ticks="always" tick-size="1">
                       </v-slider>
                     </div>
@@ -207,12 +207,12 @@
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card flat>
-                    <div class="white lighten-5">
+                    <div>
                       <v-card-title class="text-subtitle-1 pa-3 pt-0">
                         Shift: <span class="font-weight-bold px-2">{{alignShift}}</span>
                       </v-card-title>
                     </div>
-                    <div class="white lighten-3 pa-3">
+                    <div class="pa-3">
                       <v-slider v-model="alignShift" min="-500" max="500" step="20" thumb-label>
                       </v-slider>
                     </div>
@@ -220,18 +220,41 @@
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card flat>
-                    <div class="white lighten-5">
+                    <div>
                       <v-card-title class="text-subtitle-1 pa-3 pt-0">
                         Window: <span class="font-weight-bold px-2">{{alignWindow}}</span>
                       </v-card-title>
                     </div>
-                    <div class="white lighten-3 pa-3">
+                    <div class="pa-3">
                       <v-slider v-model="alignWindow" min="20" max="100" step="10" thumb-label>
                       </v-slider>
                     </div>
                   </v-card>
                 </v-col>
               </v-row>
+              <div v-if="selectedProcessing.proxy_to_loaded || selectedProcessing.proxy_from_loaded">
+                <v-card-title class="text-subtitle-1 pa-3 pt-0">
+                  Align and resolve through the subscript:
+                </v-card-title>
+                <v-row>
+                  <v-col cols="12" sm="6">
+                    <v-card v-if="selectedProcessing.proxy_from_loaded" flat color="lighten-5 pa-1 rounded-xl" :class="{'blue': useProxyFrom, 'grey': !useProxyFrom}">
+                      <v-checkbox :disabled="selectedProcessing.proxy_from_loaded=='0'" class="pl-5"
+                        v-model="useProxyFrom"
+                        label="For the left text"
+                      ></v-checkbox>
+                    </v-card>
+                  </v-col>
+                  <v-col cols="12" sm="6">
+                    <v-card v-if="selectedProcessing.proxy_to_loaded" flat color="lighten-5 pa-1 rounded-xl" :class="{'blue': useProxyTo, 'grey': !useProxyTo}">
+                      <v-checkbox :disabled="selectedProcessing.proxy_to_loaded=='0'" class="pl-5"
+                        v-model="useProxyTo"
+                        label="For the right text"
+                      ></v-checkbox>
+                    </v-card>
+                  </v-col>
+                </v-row>
+              </div>
             </div>
           </v-card>
         </v-col>
@@ -721,6 +744,8 @@
 
         customAlignmentSettings: null,
         selectedProcessingTotalBatches: 0,
+        useProxyFrom: false,
+        useProxyTo: false
       };
     },
     methods: {
@@ -885,7 +910,9 @@
             batchShift: shift,
             amount: amount,
             window: window,
-            alignAll: ''
+            alignAll: '',
+            useProxyFrom: this.useProxyFrom,
+            useProxyTo: this.useProxyTo
           })
           .then(() => {
             this.isLoading.align = false;
@@ -915,7 +942,9 @@
             username: this.$route.params.username,
             id: this.selectedProcessingId,
             batchIds: [batch_id],
-            resolveAll: ''
+            resolveAll: '',
+            useProxyFrom: this.useProxyFrom,
+            useProxyTo: this.useProxyTo
           })
           .then(() => {
             console.log("fetchItemsProcessingTimer set")
@@ -1043,6 +1072,13 @@
           })
           .then(() => {
             this.isLoading.uploadProxy[langCode] = false;
+            this.$store.dispatch(FETCH_ITEMS_PROCESSING, {
+              username: this.$route.params.username,
+              langCodeFrom: this.langCodeFrom,
+              langCodeTo: this.langCodeTo
+            }).then(() => {
+              this.refreshCurrentlyProcessingDocument();
+            });
           });
       },
       getCandidates(indexId, textType, countBefore, countAfter, callback) {
@@ -1360,16 +1396,28 @@
           this.selectProcessing(this.itemsProcessing[this.langCodeFrom][0], this.itemsProcessing[this.langCodeFrom][0]
             .guid);
         }
+      },      
+      getSelectedProcessingDocument() {
+        if (this.itemsProcessingNotEmpty(this.langCodeFrom)) {
+          if (this.selectedProcessingId) {
+            let ids = this.itemsProcessing[this.langCodeFrom].filter(x => x.guid == this.selectedProcessingId)
+            if (ids.length > 0) {
+              let item_index = this.itemsProcessing[this.langCodeFrom].indexOf(ids[0])
+              return this.itemsProcessing[this.langCodeFrom][item_index]
+            }
+          }
+        }
+        return 0
       },
       selectCurrentlyProcessingDocument(item) {
         if (this.itemsProcessingNotEmpty(this.langCodeFrom)) {
           if (this.currentlyProcessingId) {
             this.selectProcessing(item, this.currentlyProcessingId);
-
-            // console.log("set swiper")
-            // this.swiper.setProgress(1, 1)
           }
         }
+      },
+      refreshCurrentlyProcessingDocument() {
+        this.selectProcessing(this.getSelectedProcessingDocument(), this.selectedProcessingId);
       },
       collapseEditItems() {
         this.triggerCollapseEditItem = !this.triggerCollapseEditItem;
@@ -1395,9 +1443,7 @@
           langCodeFrom: this.langCodeFrom,
           langCodeTo: this.langCodeTo
         }).then(() => {
-          let in_progress_items = this.itemsProcessing[this.langCodeFrom].filter(x => x.state[0] == 0 || x.state[
-              0] ==
-            1)
+          let in_progress_items = this.itemsProcessing[this.langCodeFrom].filter(x => x.state[0] == 0 || x.state[0] == 1)
           if (in_progress_items.length > 0) {
             this.cacheKey = Math.random();
             let item_index = this.itemsProcessing[this.langCodeFrom].indexOf(in_progress_items[0])
