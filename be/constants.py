@@ -13,6 +13,8 @@ DB_FOLDER = "db"
 IMG_FOLDER = "img"
 FORMAT_PLAIN = "txt"
 FORMAT_TMX = "tmx"
+FORMAT_XML = "xml"
+FORMAT_JSON = "json"
 TYPE_FROM = "from"
 TYPE_TO = "to"
 
@@ -20,7 +22,7 @@ USER_DB_NAME = "user.db"
 MAIN_DB_NAME = "main.db"
 
 USER_DB_VERSION = "5.0"
-MAIN_DB_VERSION = "5.0"
+MAIN_DB_VERSION = "5.1"
 
 PROC_INIT = 0
 PROC_IN_PROGRESS = 1
