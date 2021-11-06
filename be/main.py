@@ -86,6 +86,7 @@ def items(username, lang):
                 direction = "from" if lang == lang_from else "to"
 
                 aligner.load_proxy(db_path, upload_path, direction)
+                user_db_helper.update_alignment_proxy_loaded(username, align_guid, direction)
 
             logging.info(f"[{username}]. Success. {filename} is loaded.")
         return ('', 200)
@@ -445,8 +446,8 @@ def start_alignment(username):
         request.form.get("batch_shift", 0))
     window, _ = misc.try_parse_int(
         request.form.get("window", config.DEFAULT_WINDOW))
-    use_proxy_from = request.form.get("use_proxy_from", '')
-    use_proxy_to = request.form.get("use_proxy_to", '')
+    use_proxy_from = True if request.form.get("use_proxy_from", '') == 'true' else False
+    use_proxy_to = True if request.form.get("use_proxy_to", '') == 'true' else False
 
     logging.info(
         f"align parameters align_guid {align_guid} align_all {align_all} batch_ids {batch_ids}, batch_shift {batch_shift}")
@@ -553,8 +554,8 @@ def align_next_batch(username):
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(
         username, guid_from)
     _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
-    use_proxy_from = request.form.get("use_proxy_from", '')
-    use_proxy_to = request.form.get("use_proxy_to", '')
+    use_proxy_from = True if request.form.get("use_proxy_from", '') == 'true' else False
+    use_proxy_to = True if request.form.get("use_proxy_to", '') == 'true' else False
 
     db_folder = os.path.join(con.UPLOAD_FOLDER, username,
                              con.DB_FOLDER, lang_from, lang_to)
@@ -701,8 +702,11 @@ def resolve_conflicts(username):
                              con.DB_FOLDER, lang_from, lang_to)
     db_path = os.path.join(db_folder, f"{align_guid}.db")
     user_db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
-    use_proxy_from = request.form.get("use_proxy_from", '')
-    use_proxy_to = request.form.get("use_proxy_to", '')
+    use_proxy_from = True if request.form.get("use_proxy_from", '') == 'true' else False
+    use_proxy_to = True if request.form.get("use_proxy_to", '') == 'true' else False
+
+    print("use_proxy_from", use_proxy_from)
+    print("use_proxy_to", use_proxy_to)
 
     # exit if batch ids is empty
     batch_ids = [x for x in batch_ids if x < total_batches][:total_batches]

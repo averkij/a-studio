@@ -61,6 +61,18 @@ def update_alignment_state_by_align_id(user_db_path, align_id, state):
             "guid": align_id, "state": state})
 
 
+def update_alignment_proxy_loaded(username, align_id, direction):
+    """Update alignment proxy_loaded"""
+    db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
+    with sqlite3.connect(db_path) as db:
+        if direction == "from":
+            db.execute('update alignments set proxy_from_loaded=1 where guid=:guid', {
+                "guid": align_id})
+        else:
+            db.execute('update alignments set proxy_to_loaded=1 where guid=:guid', {
+                "guid": align_id})
+
+
 def init_user_db(username):
     """Init user database with tables structure"""
     pathlib.Path(os.path.join(con.UPLOAD_FOLDER, username)
@@ -72,7 +84,9 @@ def init_user_db(username):
             db.execute(
                 'create table documents(id integer primary key, guid text, lang text, name text)')
             db.execute(
-                'create table alignments(id integer primary key, guid text, guid_from text, guid_to text, lang_from text, lang_to text, name text, state integer, curr_batches integer, total_batches integer, deleted integer default 0 NOT NULL)')
+                'create table alignments(id integer primary key, guid text, guid_from text, guid_to text, lang_from text, lang_to text, \
+                    name text, state integer, curr_batches integer, total_batches integer, deleted integer default 0 NOT NULL, \
+                    proxy_from_loaded integer default 0 NOT NULL, proxy_to_loaded integer default 0 NOT NULL)')
             db.execute(
                 'create table version(id integer primary key, version text)')
             #tracking the alignment progress
@@ -240,7 +254,7 @@ def get_alignments_list(username, lang_from, lang_to):
     db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
     with sqlite3.connect(db_path) as db:
         res = db.execute("""select
-                                a.guid, a.name, a.guid_from, a.guid_to, a.state, a.curr_batches, a.total_batches
+                                a.guid, a.name, a.guid_from, a.guid_to, a.state, a.curr_batches, a.total_batches, a.proxy_from_loaded, a.proxy_to_loaded
                             from alignments a
                             where
                                 a.lang_from=:lang_from and a.lang_to=:lang_to
