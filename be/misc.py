@@ -10,7 +10,6 @@ import sqlite3
 import sys
 from warnings import simplefilter
 
-import config
 import constants as con
 import user_db_helper
 
@@ -30,13 +29,15 @@ def get_files_list_with_path(folder, mask="*.txt"):
 def get_processing_list_with_state(username, lang_from, lang_to):
     """Get processing docs list with states"""
     res = []
-    for guid, name, guid_from, guid_to, state_code, done_batches, total_batches in user_db_helper.get_alignments_list(username, lang_from, lang_to):
+    for guid, name, guid_from, guid_to, state_code, done_batches, total_batches, proxy_from_loaded, proxy_to_loaded in user_db_helper.get_alignments_list(username, lang_from, lang_to):
         res.append({
             "guid": guid,
             "name": name,
             "guid_from": guid_from,
             "guid_to": guid_to,
             "state": (state_code, total_batches, done_batches),
+            "proxy_from_loaded": proxy_from_loaded,
+            "proxy_to_loaded": proxy_to_loaded
             # "imgs": get_files_list(os.path.join(con.STATIC_FOLDER, con.IMG_FOLDER, username), mask=f"{guid}.best_*.png"),
             # "sim_grades": get_sim_grades(file)
         })
