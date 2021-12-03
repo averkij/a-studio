@@ -396,7 +396,6 @@
     GET_BOOK_PREVIEW,
     GET_ALIGNMENT_MARKS,
     DELETE_ALIGNMENT,
-    DOWNLOAD_SPLITTED,
     DOWNLOAD_PROCESSING,
     DOWNLOAD_BOOK,
     ADD_ALIGNMENT_MARK,
@@ -549,15 +548,6 @@
           parStructureDirection: this.parStructureDirection,
           leftLang: this.bookLeftLang,
           style: this.bookStyle
-        });
-      },
-      downloadSplitted(langCode, openInBrowser) {
-        this.$store.dispatch(DOWNLOAD_SPLITTED, {
-          fileId: this.selectedIds[langCode],
-          fileName: this.selected[langCode],
-          username: this.$route.params.username,
-          langCode,
-          openInBrowser
         });
       },
       downloadProcessing(langCode, paragraphs, direction) {
