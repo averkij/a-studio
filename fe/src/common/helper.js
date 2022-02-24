@@ -50,6 +50,10 @@ export const Helper = {
     },
 }
 
+export const TXT_EXTENSION = "txt"
+export const CONVERT_EXTENSIONS = ["epub", "fb2", "rtf"]
+export const SUPPORTED_EXTENSIONS = CONVERT_EXTENSIONS + [TXT_EXTENSION]
+
 export const BOOK_STYLES = ["simple", "pastel_fill", "pastel_start"]
 export const MARK_NAMES_DICT = [{
         name: "Image",
