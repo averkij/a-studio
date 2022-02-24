@@ -66,6 +66,7 @@
         >
           <v-icon left color="grey">mdi-cloud-upload</v-icon>Upload
         </v-btn>
+        <ConvertDialog v-model="showConvertDialog" />
       </v-card-actions>
     </div>
   </v-card>
@@ -73,6 +74,8 @@
 
 <script>
 import ConfirmDeleteDialog from "@/components/ConfirmDeleteDialog";
+import ConvertDialog from "@/components/ConvertDialog";
+import { SUPPORTED_EXTENSIONS } from "@/common/helper";
 
 export default {
   name: "RawPanel",
@@ -81,7 +84,9 @@ export default {
     return {
       hover_index: -1,
       showConfirmDeleteDialog: false,
+      showConvertDialog: false,
       currentItem: { name: "" },
+      fileName: "",
     };
   },
   methods: {
@@ -89,10 +94,19 @@ export default {
       this.$emit("performDelete", this.currentItem, this.info.langCode);
     },
     onFileChange(event, langCode) {
+      this.fileName = event.name;
       this.$emit("onFileChange", event, langCode);
     },
     uploadFile(langCode) {
-      this.$emit("uploadFile", langCode);
+      console.log("this.fileName", this.fileName);
+      let extension = this.fileName.split(".").pop();
+      if (this.fileName && !SUPPORTED_EXTENSIONS.includes(extension)) {
+        alert("File format is not supported.");
+      } else if (extension == "txt") {
+        this.$emit("uploadFile", langCode);
+      } else {
+        this.showConvertDialog = true;
+      }
     },
     selectAndLoadPreview(langCode, item, id) {
       this.$emit("selectAndLoadPreview", langCode, item, id);
@@ -101,6 +115,7 @@ export default {
   computed: {},
   components: {
     ConfirmDeleteDialog,
+    ConvertDialog,
   },
 };
 </script>
