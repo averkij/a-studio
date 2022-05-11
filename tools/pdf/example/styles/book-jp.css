@@ -1,13 +1,13 @@
 /* Add your custom fonts here */
 @font-face {
   font-family: Josefin Sans;
-  src: url("fonts/JosefinSans-Regular.ttf") format('truetype');
+  src: url("../fonts/JosefinSans-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: Noto Sans JP;
   font-weight: normal;
-  src: url("fonts/NotoSansJP-Medium.otf");
+  src: url("../fonts/NotoSansJP-Medium.otf");
 }
 
 /* A4 format */
