@@ -5,9 +5,9 @@
 }
 
 @font-face {
-  font-family: Noto Sans JP;
+  font-family: Ma Shan Zheng;
   font-weight: normal;
-  src: url("../fonts/NotoSansJP-Medium.otf");
+  src: url("../fonts/MaShanZheng-Regular.ttf") format('truetype');
 }
 
 /* A4 format */
@@ -79,7 +79,7 @@
 
 html {
   counter-reset: h2-counter;
-  font-family: 'Noto Sans JP';
+  font-family: 'Ma Shan Zheng';
   font-size: 10pt;
 }
 
@@ -103,7 +103,7 @@ h2 {
   counter-increment: h2-counter;
   display: flex;
   flex-direction: column;
-  font-family: 'Noto Sans JP';
+  font-family: 'Ma Shan Zheng';
   font-size: 1.8em;
   justify-content: flex-start;
   margin: 0;
@@ -112,14 +112,14 @@ h2 {
   margin-bottom: 50px;
 }
 
-h2::before {
-  content: " "counter(h2-counter, upper-roman) " ";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-bottom: 20px;
-}
+/* h2::before { */
+  /* content: " "counter(h2-counter, upper-roman) " "; */
+  /* display: block; */
+  /* font-size: 1.2rem; */
+  /* font-weight: normal; */
+  /* line-height: 1; */
+  /* margin-bottom: 20px; */
+/* } */
 
 section {
   break-after: always;
@@ -406,7 +406,6 @@ aside img {
   background: #fefbd6;
   color: black;
 }
-
 
 .sub-h2 {
   display: block;

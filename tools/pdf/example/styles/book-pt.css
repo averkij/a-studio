@@ -105,11 +105,11 @@ h2 {
   flex-direction: column;
   font-family: 'PT Serif';
   font-size: 1.8em;
-  height: 5cm;
   justify-content: flex-start;
   margin: 0;
   string-set: heading content();
   text-align: center;
+  margin-bottom: 50px;
 }
 
 h2::before {
@@ -386,89 +386,17 @@ aside img {
   color: white;
   background: cornflowerblue;
 }
-
-/*
-.s0 {
-  background: #cfefd7;
+.sub-h2 {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 1;
   color: black;
-}
-
-.s1 {
-  background: #fadce2;
-  color: black;
-}
-
-.s2 {
-  background: #cce7eb;
-  color: black;
-}
-
-.s3 {
-  background: #fefbd6;
-  color: black;
-}*/
-
-/* GENERATED CONTENT */
-
-#part-1-h2::after {
-  content: "Что сказал на допросе судейского чиновника дровосек";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-top: 20px;
-}
-
-#part-2-h2::after {
-  content: "Что сказал на допросе судейского чиновника странствующий монах";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-top: 20px;
-}
-
-#part-3-h2::after {
-  content: "Что сказал на допросе судейского чиновника стражник";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-top: 20px;
-}
-
-#part-4-h2::after {
-  content: "Что сказала на допросе судейского чиновника старуха";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-top: 20px;
-}
-
-#part-5-h2::after {
-  content: "Признание Тадземару";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-top: 20px;
-}
-
-#part-6-h2::after {
-  content: "Что рассказала женщина на исповеди в храме Кемидзу";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-top: 20px;
-}
-
-#part-7-h2::after {
-  content: "Что сказал устами прорицательницы дух убитого";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans SC';
+  justify-content: flex-start;
+  margin: 0;
+  margin-bottom: 100px;
+  text-align: center;
 }

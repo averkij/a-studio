@@ -5,9 +5,9 @@
 }
 
 @font-face {
-  font-family: Noto Sans JP;
+  font-family: Noto Sans SC;
   font-weight: normal;
-  src: url("../fonts/NotoSansJP-Medium.otf");
+  src: url("../fonts/NotoSansSC-Medium.otf");
 }
 
 /* A4 format */
@@ -79,7 +79,7 @@
 
 html {
   counter-reset: h2-counter;
-  font-family: 'Noto Sans JP';
+  font-family: 'Noto Sans SC';
   font-size: 10pt;
 }
 
@@ -112,14 +112,14 @@ h2 {
   margin-bottom: 50px;
 }
 
-h2::before {
-  content: " "counter(h2-counter, upper-roman) " ";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-bottom: 20px;
-}
+/* h2::before { */
+  /* content: " "counter(h2-counter, upper-roman) " "; */
+  /* display: block; */
+  /* font-size: 1.2rem; */
+  /* font-weight: normal; */
+  /* line-height: 1; */
+  /* margin-bottom: 20px; */
+/* } */
 
 section {
   break-after: always;
@@ -335,7 +335,7 @@ aside img {
 }
 
 .s {
-  padding: 0 6px;
+  padding: 0 3px;
 }
 
 .text-center {
@@ -406,7 +406,6 @@ aside img {
   background: #fefbd6;
   color: black;
 }
-
 
 .sub-h2 {
   display: block;

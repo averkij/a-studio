@@ -5,9 +5,9 @@
 }
 
 @font-face {
-  font-family: Noto Sans JP;
+  font-family: Noto Sans SC;
   font-weight: normal;
-  src: url("../fonts/NotoSansJP-Medium.otf");
+  src: url("../fonts/NotoSansSC-Medium.otf");
 }
 
 /* A4 format */
@@ -78,8 +78,8 @@
 }
 
 html {
-  counter-reset: h2-counter;
-  font-family: 'Noto Sans JP';
+  counter-reset: h1-counter 1 h2-counter;
+  font-family: 'Noto Sans SC';
   font-size: 10pt;
 }
 
@@ -103,7 +103,7 @@ h2 {
   counter-increment: h2-counter;
   display: flex;
   flex-direction: column;
-  font-family: 'Noto Sans JP';
+  font-family: 'Noto Sans SC';
   font-size: 1.8em;
   justify-content: flex-start;
   margin: 0;
@@ -335,7 +335,7 @@ aside img {
 }
 
 .s {
-  padding: 0 6px;
+  padding: 0 3px;
 }
 
 .text-center {
@@ -407,7 +407,6 @@ aside img {
   color: black;
 }
 
-
 .sub-h2 {
   display: block;
   font-size: 1.2rem;
@@ -420,5 +419,17 @@ aside img {
   justify-content: flex-start;
   margin: 0;
   margin-bottom: 100px;
+  text-align: center;
+}
+
+.default-title-1 {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+.default-title-2 {
+  font-size: 1.1em;
+  margin: 1em 0 2.0em;
   text-align: center;
 }
