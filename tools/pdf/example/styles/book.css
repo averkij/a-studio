@@ -22,6 +22,25 @@
   src: url("../fonts/NotoSansJP-Medium.otf");
 }
 
+@font-face {
+  font-family: Ma Shan Zheng;
+  font-weight: normal;
+  src: url("../fonts/MaShanZheng-Regular.ttf") format('truetype');
+}
+
+.font-zh {
+	font-family: 'Noto Sans SC' !important;
+}
+.font-zh-title {
+	font-family: 'Ma Shan Zheng' !important;
+}
+.font-jp {
+	font-family: 'Noto Sans JP' !important;
+}
+.font-jp-title {
+	font-family: 'Noto Sans JP' !important;
+}
+
 /* A4 format */
 @page {
   margin: 1cm 1cm 2cm 1cm;
@@ -91,7 +110,7 @@
 
 html {
   counter-reset: h1-counter 1 h2-counter;
-  font-family: 'Noto Sans SC';
+  font-family: 'PT Serif';
   font-size: 10pt;
 }
 
@@ -123,14 +142,14 @@ h2 {
   margin-bottom: 50px;
 }
 
-h2::before {
-  content: " "counter(h2-counter, upper-roman) " ";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: normal;
-  line-height: 1;
-  margin-bottom: 20px;
-}
+/* h2::before { */
+  /* content: " "counter(h2-counter, upper-roman) " "; */
+  /* display: block; */
+  /* font-size: 1.2rem; */
+  /* font-weight: normal; */
+  /* line-height: 1; */
+  /* margin-bottom: 20px; */
+/* } */
 
 section {
   break-after: always;
@@ -291,7 +310,7 @@ aside img {
 
 .par {
   padding: 15px 10px;
-  text-indent: 10px;
+  /* text-indent: 10px; */
 }
 
 
@@ -406,26 +425,6 @@ aside img {
   background: cornflowerblue;
 }
 
-.s0 {
-  background: #cfefd7;
-  color: black;
-}
-
-.s1 {
-  background: #fadce2;
-  color: black;
-}
-
-.s2 {
-  background: #cce7eb;
-  color: black;
-}
-
-.s3 {
-  background: #fefbd6;
-  color: black;
-}
-
 .sub-h2 {
   display: block;
   font-size: 1.2rem;
@@ -434,7 +433,6 @@ aside img {
   color: black;
   display: flex;
   flex-direction: column;
-  font-family: 'Noto Sans SC';
   justify-content: flex-start;
   margin: 0;
   margin-bottom: 100px;
@@ -455,23 +453,20 @@ aside img {
 
 /* ruby */
 
-r
-{
+r {
     display:inline-block;
     text-align:center !important;
-	margin: 4px -6px 0 -6px !important;
+	margin: 4px -1px 0 -2px !important;
 	padding: 0 !important;
     word-wrap:normal;
     vertical-align: bottom !important;
 }
 
-r rp
-{
+r rp {
     display:none;
 }
 
-r c, r f
-{
+r c, r f {
     display:block;
     text-align:center !important;
     vertical-align:bottom !important;
@@ -479,18 +474,62 @@ r c, r f
 	padding: 0 !important;
 }
 
-r f
-{
+r f {
     display: table-header-group;
-    font-size:0.45em;
-    line-height:1.5em;
+    font-size: 0.45em;
+    line-height: 1.5em;
 	margin: 0 !important;
 	padding: 0 !important;
 }
 
-r c
-{
+r c {
     display: table-row-group;
+	font-size: 1.05em;
 	margin: 0 !important;
 	padding: 0 !important;
+	background: white;
 }
+
+
+/* colors */
+
+.s.s0 {
+  background: #cfefd7;
+  color: black;
+}
+
+.s.s1 {
+  background: #fadce2;
+  color: black;
+}
+
+.s.s2 {
+  background: #cce7eb;
+  color: black;
+}
+
+.s.s3 {
+  background: #fefbd6;
+  color: black;
+}
+
+.sf.s0 r f {
+  background: #cfefd7;
+  color: black;
+}
+
+.sf.s1 r f {
+  background: #fadce2;
+  color: black;
+}
+
+.sf.s2 r f {
+  background: #cce7eb;
+  color: black;
+}
+
+.sf.s3 r f {
+  background: #fefbd6;
+  color: black;
+}
+

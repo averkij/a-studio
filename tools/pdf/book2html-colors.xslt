@@ -131,7 +131,7 @@
 		<div class='dt-row'>
 			<xsl:for-each select="/book/head/langs/lang/@id">
 				<div>
-					<xsl:attribute name="class" select="concat('par dt-cell',' dt-w', position() )" />
+					<xsl:attribute name="class" select="concat('par dt-cell',' dt-width-', current() )" />
 					<!-- <div class='book-par-id' aria-hidden='true'> -->
 					<!-- <xsl:value-of select="$p/@id"/> -->
 					<!-- </div> -->
@@ -143,7 +143,6 @@
 
 	<!-- Sentence inside the paragraph cell -->
 	<xsl:template match="su">
-		<!-- I don't know how it works, really -->
 		<xsl:variable name="scount">
 			<xsl:number count="sentence"/>
 		</xsl:variable>
@@ -168,7 +167,6 @@
 						<xsl:attribute name="aria-hidden">true</xsl:attribute>
 					</xsl:if>
 					<xsl:element name="{$level}">
-						<!-- No alignment on headers.... -->
 						<xsl:value-of select="$p/sentence/su[@lang = current()]" />
 					</xsl:element>
 				</div>

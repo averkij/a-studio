@@ -20,19 +20,23 @@
 		</section>
 
 		<section class="title">
-			<p class="book-title">
+			<p>
+				<xsl:attribute name="class" select="concat('book-title font-', head/title/s[1]/@lang, '-title')" />
 				<xsl:value-of select="head/title/s[1]" />
 			</p>
-			<p class="book-author">
+			<p>
+				<xsl:attribute name="class" select="concat('book-author font-', head/title/s[1]/@lang, '-title')" />
 				<xsl:value-of select="head/author/s[1]" />
 			</p>
 		</section>
 
 		<section class="title">
-			<p class="book-title">
+			<p>
+				<xsl:attribute name="class" select="concat('book-title font-', head/title/s[2]/@lang, '-title')" />
 				<xsl:value-of select="head/title/s[2]" />
 			</p>
-			<p class="book-author">
+			<p>
+				<xsl:attribute name="class" select="concat('book-author font-', head/title/s[2]/@lang, '-title')" />
 				<xsl:value-of select="head/author/s[2]" />
 			</p>
 		</section>
@@ -45,7 +49,8 @@
 		</section>
 
 		<xsl:if test="/book/body/section[@type='h2']">
-			<section class="contents">
+			<section>
+				<xsl:attribute name="class" select="concat('contents font-', head/title/s[1]/@lang)" />
 				<p>
 					<xsl:value-of select="head/contents/s[1]" />
 				</p>
@@ -60,7 +65,8 @@
 				</ul>
 			</section>
 
-			<section class="contents">
+			<section>
+				<xsl:attribute name="class" select="concat('contents font-', head/title/s[2]/@lang)" />
 				<p>
 					<xsl:value-of select="head/contents/s[2]" />
 				</p>
@@ -141,13 +147,21 @@
 
 	<!-- Sentence inside the paragraph cell -->
 	<xsl:template match="su">
-
-		<xsl:if test="./@lang = 'zh'">
-			<xsl:copy-of select=".//r" />
-		</xsl:if>
-		<xsl:if test="./@lang != 'zh'">
-			<xsl:value-of select="." />
-		</xsl:if>
+		<xsl:variable name="scount">
+			<xsl:number count="sentence"/>
+		</xsl:variable>
+		<xsl:variable name="highlight">s<xsl:value-of select="(($scount - 1) mod $gNumColors)"/></xsl:variable>
+		<span>
+			<xsl:if test="./@lang = 'zh'">
+				<xsl:attribute name="class">sf <xsl:value-of select="$highlight"/></xsl:attribute>			
+				<xsl:copy-of select=".//r" />				
+			</xsl:if>
+			<xsl:if test="./@lang != 'zh'">
+				<xsl:attribute name="class">s <xsl:value-of select="$highlight"/></xsl:attribute>	
+				<xsl:value-of select="." />
+				<xsl:text> </xsl:text>
+			</xsl:if>			
+		</span>
 	</xsl:template>
 	
 	<!-- Header -->
