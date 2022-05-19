@@ -5,14 +5,26 @@
 }
 
 @font-face {
+  font-family: PT Serif;
+  font-weight: normal;
+  src: url("../fonts/PTSerif-Regular.ttf") format('truetype');
+}
+
+@font-face {
   font-family: Noto Sans SC;
   font-weight: normal;
   src: url("../fonts/NotoSansSC-Medium.otf");
 }
 
+@font-face {
+  font-family: Noto Sans JP;
+  font-weight: normal;
+  src: url("../fonts/NotoSansJP-Medium.otf");
+}
+
 /* A4 format */
 @page {
-  margin: 2cm 2cm 2cm 2cm;
+  margin: 1cm 1cm 2cm 1cm;
   size: 210mm 297mm;
 }
 
@@ -103,7 +115,6 @@ h2 {
   counter-increment: h2-counter;
   display: flex;
   flex-direction: column;
-  font-family: 'Noto Sans SC';
   font-size: 1.8em;
   justify-content: flex-start;
   margin: 0;
@@ -304,8 +315,16 @@ aside img {
 
 .dt-cell {
   display: table-cell;
-  width: 50% !important;
+  /* width: 50% !important; */
   /* word-break: break-word; */
+}
+
+.dt-w1 {
+	width: 55% !important;
+}
+
+.dt-w2 {
+	width: 45% !important;
 }
 
 .dt-cell-colspan {
@@ -432,4 +451,46 @@ aside img {
   font-size: 1.1em;
   margin: 1em 0 2.0em;
   text-align: center;
+}
+
+/* ruby */
+
+r
+{
+    display:inline-block;
+    text-align:center !important;
+	margin: 4px -6px 0 -6px !important;
+	padding: 0 !important;
+    word-wrap:normal;
+    vertical-align: bottom !important;
+}
+
+r rp
+{
+    display:none;
+}
+
+r c, r f
+{
+    display:block;
+    text-align:center !important;
+    vertical-align:bottom !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+r f
+{
+    display: table-header-group;
+    font-size:0.45em;
+    line-height:1.5em;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+r c
+{
+    display: table-row-group;
+	margin: 0 !important;
+	padding: 0 !important;
 }

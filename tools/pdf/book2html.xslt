@@ -82,13 +82,12 @@
 	</xsl:template>
 
 	<!-- Section -->
-	<xsl:template match="section[@type='h2'] | section[@type='default']">
+	<xsl:template match="section[@type='h2']">
 		<xsl:variable name="sect" select="." />
 		<xsl:variable name="section_id">
 			<xsl:number count="section" />
 		</xsl:variable>
 		<section class="part">
-			<!-- <xsl:attribute name="class"><xsl:text>part</xsl:text></xsl:attribute> -->
 			<xsl:attribute name="id">
 				<xsl:value-of select="$section_id" />
 			</xsl:attribute>
@@ -105,6 +104,26 @@
 			<xsl:apply-templates select="$sect/p" />
 		</section>
 	</xsl:template>
+	
+	<!-- Default section -->
+	<xsl:template match="section[@type='default']">
+		<xsl:variable name="sect" select="." />
+		<xsl:variable name="section_id">
+			<xsl:number count="section" />
+		</xsl:variable>
+		<section class="part">
+			<xsl:attribute name="id">
+				<xsl:value-of select="$section_id" />
+			</xsl:attribute>
+			<div class="default-title-1">
+				<xsl:value-of select="/book/head/title/s[1]" />
+			</div>
+			<div class="default-title-2">
+				<xsl:value-of select="/book/head/title/s[2]" />
+			</div>
+			<xsl:apply-templates select="$sect/p" />
+		</section>
+	</xsl:template>
 
 	<!-- Generic paragraph -->
 	<xsl:template match="p[@type='text']">
@@ -114,9 +133,6 @@
 				<div>
 					<xsl:attribute name="class" select="concat('par dt-cell',' dt-w', position() )" />
 
-					<!-- <div class='book-par-id' aria-hidden='true'> -->
-					<!-- <xsl:value-of select="$p/@id"/> -->
-					<!-- </div> -->
 					<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
 				</div>
 			</xsl:for-each>
@@ -125,15 +141,13 @@
 
 	<!-- Sentence inside the paragraph cell -->
 	<xsl:template match="su">
-		<!-- I don't know how it works, really -->
-		<xsl:variable name="scount">
-			<xsl:number count="sentence" />
-		</xsl:variable>
-		<xsl:variable name="highlight">s
-			<xsl:value-of select="(($scount - 1) mod $gNumColors)" />
-		</xsl:variable>
-		<xsl:value-of select="." />
-		<xsl:text> </xsl:text>
+
+		<xsl:if test="./@lang = 'zh'">
+			<xsl:copy-of select=".//r" />
+		</xsl:if>
+		<xsl:if test="./@lang != 'zh'">
+			<xsl:value-of select="." />
+		</xsl:if>
 	</xsl:template>
 	
 	<!-- Header -->
