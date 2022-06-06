@@ -2,8 +2,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
 	<xsl:output method="html" indent="yes" xslt:indent-amount="2" xmlns:xslt="http://xml.apache.org/xalan" />
 
-	<!-- number of colors to rotate for sentences -->
-	<xsl:variable name="gNumColors">4</xsl:variable>
+	<!-- parameters -->
+	<xsl:variable name="showColors" select="$SHOW_COLORS()"/>
+	<xsl:variable name="numColors">4</xsl:variable>
+	<xsl:variable name="cjkTips" select="$CJK_TIPS()"/>
 
 	<!-- main  -->
 	<xsl:template match="/book">
@@ -150,17 +152,21 @@
 		<xsl:variable name="scount">
 			<xsl:number count="sentence"/>
 		</xsl:variable>
-		<xsl:variable name="highlight">s<xsl:value-of select="(($scount - 1) mod $gNumColors)"/></xsl:variable>
+		<xsl:variable name="highlight">s<xsl:value-of select="(($scount - 1) mod $numColors)"/></xsl:variable>
 		<span>
-			<xsl:if test="./@lang = 'zh'">
-				<xsl:attribute name="class">sf <xsl:value-of select="$highlight"/></xsl:attribute>			
-				<xsl:copy-of select=".//r" />				
+			<xsl:if test="(($cjkTips) and ((./@lang = 'zh') or (./@lang = 'jp')))">
+				<xsl:if test="$showColors">
+					<xsl:attribute name="class">sf <xsl:value-of select="$highlight"/></xsl:attribute>
+				</xsl:if>
+				<xsl:copy-of select=".//r" />
 			</xsl:if>
-			<xsl:if test="./@lang != 'zh'">
-				<xsl:attribute name="class">s <xsl:value-of select="$highlight"/></xsl:attribute>	
+			<xsl:if test="(not($cjkTips) or ((./@lang != 'zh') and (./@lang != 'jp')))">
+				<xsl:if test="$showColors">
+					<xsl:attribute name="class">s <xsl:value-of select="$highlight"/></xsl:attribute>
+				</xsl:if>
 				<xsl:value-of select="." />
 				<xsl:text> </xsl:text>
-			</xsl:if>			
+			</xsl:if>
 		</span>
 	</xsl:template>
 	
@@ -201,7 +207,6 @@
 				</div>
 			</xsl:for-each>
 		</div>
-
 	</xsl:template>
 
 	<!-- QText -->
