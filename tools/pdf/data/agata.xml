@@ -1,0 +1,2105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220529T141301Z</creationdate>
+    <paragraphs>156</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>465</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>491</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Agatha Christie</s>
+      <s lang="ru">Агата Кристи</s>
+    </author>
+    <title>
+      <s lang="en">The Blue Geranium</s>
+      <s lang="ru">Синяя герань</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">'When I was down here last year -' said Sir Henry Clithering, and stopped.</su>
+          <su lang="ru">— Когда я был здесь в прошлом году… — начал сэр Генри Клитеринг и умолк.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">His hostess, Mrs Bantry, looked at him curiously.</su>
+          <su lang="ru">Хозяйка дома, миссис Бантри, посмотрела на него с любопытством.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Ex-Commissioner of Scotland Yard was staying with old friends of his, Colonel and Mrs Bantry, who lived near St Mary Mead.</su>
+          <su lang="ru">Экс-комиссар Скотленд-Ярда, их старый приятель, гостил у них с мужем в их имении, расположенном неподалеку от Сент-Мэри-Мид.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mrs Bantry, pen in hand, had just asked his advice as to who should be invited to make a sixth guest at dinner that evening.</su>
+          <su lang="ru">Миссис Бантри только что спросила у него, кого бы он хотел видеть шестым приглашённым на сегодняшний ужин.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">'Yes?' said Mrs Bantry encouragingly.</su>
+          <su lang="ru">— Итак? — произнесла миссис Бантри, ожидая продолжения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'When you were here last year?'</su>
+          <su lang="ru">— Когда вы были здесь в прошлом году…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Tell me,' said Sir Henry, 'do you know a Miss Marple?'</su>
+          <su lang="ru">— Скажите, а вы знаете мисс Марпл? — спросил сэр Генри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">Mrs Bantry was surprised.</su>
+          <su lang="ru">Миссис Бантри удивилась.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was the last thing she had expected.</su>
+          <su lang="ru"> Этого она никак не ожидала.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">'Know Miss Marple?</su>
+          <su lang="ru">— Знаю ли я мисс Марпл?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Who doesn't!</su>
+          <su lang="ru">Да кто же её не знает!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The typical old maid of fiction.</su>
+          <su lang="ru">Типичная старая дева.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Quite a dear, but hopelessly behind the times.</su>
+          <su lang="ru">Довольно мила, но… безнадёжно старомодна.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Do you mean you would like me to ask her to dinner?'</su>
+          <su lang="ru">Вы хотите, чтобы мы пригласили её на ужин?</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">'You are surprised?'</su>
+          <su lang="ru">— Вы удивлены?</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">'A little, I must confess.</su>
+          <su lang="ru"> — Признаться, да.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I should hardly have thought you - but perhaps there's an explanation?'</su>
+          <su lang="ru"> Никогда бы не подумала… Но, вероятно, этому есть объяснение?</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">'The explanation is simple enough.</su>
+          <su lang="ru"> — И очень простое.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When I was down here last year we got into the habit of discussing unsolved mysteries there were five or six of us - Raymond West, the novelist, started it.</su>
+          <su lang="ru"> Когда я был здесь в прошлом году, мы взяли за обыкновение обсуждать разные загадочные случаи. Нас было пятеро или шестеро. Всё это было затеей Рэймонда Уэста. Он же писатель!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We each supplied a story to which we knew the answer, but nobody else did.</su>
+          <su lang="ru"> Ну, и каждый по очереди рассказывал какую-нибудь таинственную историю, разгадку которой знал он один.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was supposed to be an exercise in the deductive faculties - to see who could get nearest the truth.'</su>
+          <su lang="ru">Состязались, так сказать, в дедуктивных умопостроениях: кто ближе всех окажется к истине.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">'Well?'</su>
+          <su lang="ru">— И что же?</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">'Like in the old story - we hardly realized that Miss Marple was playing; but we were very polite about it - didn't want to hurt the old dear's feelings.</su>
+          <su lang="ru">— Мы и не предполагали, что мисс Марпл пожелает к нам присоединиться, но, из вежливости разумеется, предложили.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And now comes the cream of the jest.</su>
+          <su lang="ru">И тут произошло нечто неожиданное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The old lady outdid us every time!'</su>
+          <su lang="ru">Почтенная дама перещеголяла нас всех!</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">'What?'</su>
+          <su lang="ru">— Да что вы!</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">'I assure you - straight to the truth like a homing pigeon.'</su>
+          <su lang="ru">— Чистая правда.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'But how extraordinary!</su>
+          <su lang="ru">И, поверьте, без особых усилий.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">Why, dear old Miss Marple has hardly ever been out of St Mary Mead.'</su>
+          <su lang="ru">— Не может быть.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Ah!</su>
+          <su lang="ru">Она ведь почти и не выезжала из Сент-Мэри-Мид.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">But according to her, that has given her unlimited opportunities of observing human nature - under the microscope as it were.'</su>
+          <su lang="ru">— Зато, как она говорит, там у неё были неограниченные возможности изучать человеческую натуру как бы под микроскопом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">'I suppose there's something in that,' conceded Mrs Bantry.</su>
+          <su lang="ru">— Ну, не знаю, — с сомнением протянула миссис Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'One would at least know the petty side of people.</su>
+          <su lang="ru">— Преступников тут и днём с огнём не сыщешь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But I don't think we have any really exciting criminals in our midst.</su>
+          <su lang="ru">Под микроскопом!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I think we must try her with Arthur's ghost story after dinner.</su>
+          <su lang="ru">А не испытать ли нам её после ужина? У Артура есть отличная история с привидением.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd be thankful if she'd find a solution to that.'</su>
+          <su lang="ru">Мы были бы ей крайне признательны, сумей она растолковать нам, в чём дело.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">'I didn't know that Arthur believed in ghosts?'</su>
+          <su lang="ru">— Вот уж не думал, что Артур верит в привидения.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">'Oh! he doesn't.</su>
+          <su lang="ru">— Ох!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That's what worries him so.</su>
+          <su lang="ru">Ну конечно же он не верит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And it happened to a friend of his, George Pritchard - a most prosaic person.</su>
+          <su lang="ru">Вот потому-то вся эта история и не даёт ему покоя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's really rather tragic for poor George.</su>
+          <su lang="ru">Потом, это случилось с его другом, а уж человека приземлённее Джорджа Притчарда ещё поискать…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Either this extraordinary story is true - or else - '</su>
+          <su lang="ru">Бедный Джордж…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Or else what?'</su>
+          <su lang="ru">Правда это или нет, но закончилось всё это для него очень печально.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">Mrs Bantry did not answer.</su>
+          <su lang="ru">— Так правда или нет?</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">After a minute or two she said irrelevantly:</su>
+          <su lang="ru">Миссис Бантри промолчала и неожиданно заявила:</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">'You know, I like George - everyone does.</su>
+          <su lang="ru">— Знаете, я так люблю Джорджа! Да его все любят.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One can't believe that he - but people do do such extraordinary things.'</su>
+          <su lang="ru">Невозможно поверить, что он… но бывает ведь: самые приличные люди совершают совершенно немыслимые поступки…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sir Henry nodded.</su>
+          <su lang="ru">Сэр Генри кивнул.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He knew, better than Mrs Bantry, the extraordinary things that people did.</su>
+          <su lang="ru">Ему как никому другому было известно, что «немыслимые» поступки совершаются куда чаще, чем кажется.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">So it came about that that evening Mrs Bantry looked round her dinner table (shivering a little as she did so, because the diningroom, like most English dining-rooms, was extremely cold) and fixed her gaze on the very upright old lady sitting on her husband's right.</su>
+          <su lang="ru">Вечером, когда все расположились за столом, миссис Бантри с несколько большим, чем обычно, интересом разглядывала пожилую даму, сидевшую по правую руку от её мужа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Miss Marple wore black lace mittens; an old lace fichu was draped round her shoulders and another piece of lace surmounted her white hair.</su>
+          <su lang="ru">На мисс Марпл были чёрные кружевные митенки, изящно наброшенное на плечи fichu[1] из старинных кружев и кружевная наколка, венчающая её белоснежные волосы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was talking animatedly to the elderly doctor, Dr Lloyd, about the Workhouse and the suspected shortcomings of the District Nurse.</su>
+          <su lang="ru">Она оживлённо беседовала с пожилым доктором Ллойдом о работном доме и местной медицинской сестре, особе весьма небрежной и вообще не внушающей никакого доверия.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">Mrs Bantry marvelled anew.</su>
+          <su lang="ru">Миссис Бантри никак не могла избавиться от подозрения, что сэр Генри попросту пошутил.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She even wondered whether Sir Henry had been making an elaborate joke - but there seemed no point in that.</su>
+          <su lang="ru">Впрочем, на него это не было похоже… И однако, поверить, что он рассказывал о мисс Марпл чистую правду…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Incredible that what he had said could be really true.</su>
+          <su lang="ru">Нет, это было выше её сил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">Her glance went on and rested affectionately on her red-faced, broad-shouldered husband as he sat talking horses to Jane Helier, the beautiful and popular actress.</su>
+          <su lang="ru">Её взгляд остановился на муже, который завёл разговор о лошадях с Джейн Хелльер — популярной актрисой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jane, more beautiful (if that were possible) off the stage than on, opened enormous blue eyes and murmured at discreet intervals: 'Really?'</su>
+          <su lang="ru">Джейн, в жизни ещё более прекрасная (если такое возможно), чем на сцене, периодически ахала: «Нет? В самом деле?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Oh fancy!'</su>
+          <su lang="ru">Надо же!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'How extraordinary!'</su>
+          <su lang="ru">Как замечательно!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She knew nothing whatever about horses and cared less.</su>
+          <su lang="ru">Это при том, что о лошадях она не знала ровным счётом ничего по той простой причине, что они её совершенно не интересовали.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">'Arthur,' said Mrs Bantry, 'you're boring poor Jane to distraction.</su>
+          <su lang="ru">— Артур, — обратилась к мужу миссис Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Leave horses alone and tell her your ghost story instead.</su>
+          <su lang="ru">— Ты доведёшь бедняжку Джейн до нервного срыва.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You know...</su>
+          <su lang="ru">Оставь лошадей в покое, расскажи ей лучше про привидение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">George Pritchard.'</su>
+          <su lang="ru">Ну, ты знаешь… та история с Джорджем Притчардом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">'Eh, Dolly?</su>
+          <su lang="ru">— Долли!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Oh! but I don't know- '</su>
+          <su lang="ru">Ты уверена…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Sir Henry wants to hear it too.</su>
+          <su lang="ru">— Сэр Генри тоже хочет послушать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I was telling him something about it this morning.</su>
+          <su lang="ru">Я уже успела его заинтриговать нынче утром.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">It would be interesting to hear what everyone has to say about it.' 'Oh do!' said Jane.</su>
+          <su lang="ru">— О, пожалуйста! — сказала Джейн.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I love ghost stories.'</su>
+          <su lang="ru">— Я просто обожаю истории с привидениями.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">'Well - ' Colonel Bantry hesitated.</su>
+          <su lang="ru">— Ну… — замялся полковник Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I've never believed much in the supernatural.</su>
+          <su lang="ru">— Я, собственно, никогда особо не верил в сверхъестественное, но тут…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But this - 'I don't think any of you know George Pritchard.</su>
+          <su lang="ru">Кажется, никто из присутствующих не знаком с Джорджем Притчардом?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He's one of the best.</su>
+          <su lang="ru">Это замечательный человек.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His wife - well, she's dead now, poor woman. I'll just say this much: she didn't give George any too easy a time when she was alive.</su>
+          <su lang="ru">Его жена — она, бедняжка, уже нас покинула — была для него поистине тяжким грузом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was one of those semi-invalids - I believe she had really something wrong with her, but whatever it was she played it for all it was worth.</su>
+          <su lang="ru">Знаете, она принадлежала к числу тех больных — заметьте, я не отрицаю, что она действительно серьёзно болела, — которые выжимают из своего недуга всё.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was capricious, exacting, unreasonable. She complained from morning to night.</su>
+          <su lang="ru">Капризная, требовательная и непредсказуемая, она жаловалась на свою участь с утра до вечера и нисколько не сомневалась, что Джордж просто обязан постоянно быть в её полном распоряжении.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">George was expected to wait on her hand and foot and everything he did was always wrong and he got cursed for it.</su>
+          <su lang="ru">Причём, что бы он ни делал, — всё было плохо…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Most men, I'm fully convinced, would have hit her over the head with a hatchet long ago.</su>
+          <su lang="ru">Готов поклясться, что любой другой на его месте через пару недель такой жизни взял бы топор и навсегда избавил её от мучений.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Eh, Dolly, isn't that so?'</su>
+          <su lang="ru">Ведь ты не скажешь, что это не так, Долли.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">'She was a dreadful woman,' said Mrs Bantry with conviction.</su>
+          <su lang="ru">— Отвратительная была особа, — подтвердила миссис Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'If George Pritchard had brained her with a hatchet and there had been any woman on the jury, he would have been triumphantly acquitted.'</su>
+          <su lang="ru">— Если бы Джордж Притчард размозжил ей голову, любая женщина, окажись она судьёй, тут же бы его оправдала.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">'I don't quite know how this business started. George was rather vague about it.</su>
+          <su lang="ru">— Не знаю точно, как это всё началось: Джордж в подробности не вдавался.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I gather Mrs Pritchard had always had a weakness for fortune tellers, palmists, clairvoyants - anything of that sort.</su>
+          <su lang="ru">Насколько я понимаю, миссис Притчард всегда питала слабость к разного рода ясновидцам, прорицателям и гадалкам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">George didn't mind.</su>
+          <su lang="ru">Джордж и это сносил с истинно христианским смирением.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If she found amusement in it, well and good.</su>
+          <su lang="ru">Он относился к этому так: раз это приносит ей хоть какое-то утешение, то и слава Богу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But he refused to go into rhapsodies himself, and that was another grievance.</su>
+          <su lang="ru">Но и особого восторга по этому поводу он, естественно, тоже не проявлял, что служило для его жены лишним поводом для обид.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">'A succession of hospital nurses was always passing through the house, Mrs Pritchard usually becoming dissatisfied with them after a few weeks.</su>
+          <su lang="ru">Сиделки в доме не задерживались. Миссис Притчард меняла их как перчатки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One young nurse had been very keen on this fortune telling stunt, and for a time Mrs Pritchard had been very fond of her.</su>
+          <su lang="ru">Была, правда, одна молоденькая сестра, с удивительным благоговением относившаяся к разного рода предсказаниям и тому подобной ерунде… Так вот её миссис Притчард одно время даже вроде как любила.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then she suddenly fell out with her and insisted on her going.</su>
+          <su lang="ru">Потом неожиданно разочаровалась и заменила на сиделку, которую уже однажды успела уволить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She had back another nurse who had been with her previously - an older woman, experienced and tactful in dealing with a neurotic patient.</su>
+          <su lang="ru">Сестра Коплинг была уже пожилой женщиной, накопившей богатый опыт общения с неуравновешенными пациентами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nurse Copling, according to George, was a very good sort - a sensible woman to talk to.</su>
+          <su lang="ru">Сестра Коплинг, по мнению Джорджа, была из тех женщин, с которыми можно ладить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She put up with Mrs Pritchard's tantrums and nervestorms with complete indifference.</su>
+          <su lang="ru">Сохраняя полную невозмутимость, она ловко справлялась со вспышками раздражения и истериками его жены.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">'Mrs Pritchard always lunched upstairs, and it was usual at lunch time for George and the nurse to come to some arrangement for the afternoon.</su>
+          <su lang="ru">Ленч всегда подавался миссис Притчард наверх, и, заняв её таким образом, Джордж и сестра Коплинг могли договориться о второй половине дня.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Strictly speaking, the nurse went off from two to four, but 'to oblige' as the phrase goes, she would sometimes take her time off after tea if George wanted to be free for the afternoon.</su>
+          <su lang="ru">Строго говоря, сестра была свободна от двух до четырёх, но «в виде одолжения» частенько задерживалась и дольше — если Джорджу нужен был свободный вечер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On this occasion, she mentioned that she was going to see a sister at Golders Green and might be a little late returning.</su>
+          <su lang="ru">Но в тот раз она собиралась в Голдерс-Грин повидать родственницу и задержаться никак не могла.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">George's face fell, for he had arranged to play a round of golf.</su>
+          <su lang="ru">Джордж, уже договорившийся о партии в гольф, ужасно расстроился.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">Nurse Copling, however, reassured him. '"We'll neither of us be missed, Mr Pritchard."</su>
+          <su lang="ru">Сестра Коплинг принялась его успокаивать: «Да сегодня мы тут совершенно без надобности, мистер Притчард.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A twinkle came into her eye. "Mrs Pritchard's going to have more exciting company than ours."</su>
+          <su lang="ru">Ваша жена подыскала на вечер компанию поинтереснее».</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">'"Who's that?"</su>
+          <su lang="ru">«Это кого же?..»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'"Wait a minute," Nurse Copling's eyes twinkled more than ever. "Let me get it right.</su>
+          <su lang="ru">«Да Зариду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Zarida, Psychic Reader of the Future ."</su>
+          <su lang="ru">Это медиум, предсказывает будущее…»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'"Oh Lord!" groaned George.</su>
+          <su lang="ru">«Опять! — простонал Джордж.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"That's a new one, isn't it?"</su>
+          <su lang="ru">— Какая-то новенькая?»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'"Quite new.</su>
+          <su lang="ru">«О да!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I believe my predecessor, Nurse Carstairs, sent her along.</su>
+          <su lang="ru">Я так понимаю, её порекомендовала вашей жене моя предшественница, сестра Карстерс.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mrs Pritchard hasn't seen her yet.</su>
+          <su lang="ru">Сама миссис Притчард её и в глаза не видела.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She made me write, fixing an appointment for this afternoon."</su>
+          <su lang="ru">Попросила меня написать ей и пригласить на сегодня».</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">'"Well, at any rate, I shall get my golf," said George, and he went off with the kindliest feelings towards Zarida, the Reader of the Future.</su>
+          <su lang="ru">«Ну, по крайней мере, я смогу поиграть в гольф», — сказал Джордж и ушёл, отчасти даже благодарный так кстати появившейся прорицательнице.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">'On his return to the house, he found Mrs Pritchard in a state of great agitation.</su>
+          <su lang="ru">Вернувшись домой, он нашёл миссис Притчард в состоянии крайнего возбуждения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was, as usual, lying on her invalid couch, and she had a bottle of smelling salts in her hand which she sniffed at frequent intervals.</su>
+          <su lang="ru">Она лежала на софе — как, впрочем, всегда — и то и дело подносила к носу флакон с нюхательной солью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">'"George," she exclaimed.</su>
+          <su lang="ru">«Джордж! — воскликнула она.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"What did I tell you about this house?</su>
+          <su lang="ru">— Я ведь тебя предупреждала про этот дом!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The moment I came into it, I felt there was something wrong!</su>
+          <su lang="ru">Я почувствовала неладное, едва переступила его порог.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Didn't I tell you so at the time?"</su>
+          <su lang="ru">Ты что же, не помнишь?»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Repressing his desire to reply, "You always do," George said, "No, I can't say I remember it."</su>
+          <su lang="ru">«Что-то не очень».</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">'"You never do remember anything that has to do with me.</su>
+          <su lang="ru">«А ты никогда не помнишь того, что связано со мной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Men are all extraordinarily callous - but I really believe that you are even more insensitive than most."</su>
+          <su lang="ru">Мужчины вообще бессердечны, а ты особенно».</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">'"Oh, come now, Mary dear, that's not fair."</su>
+          <su lang="ru">«Успокойся, Мэри, дорогая, ты несправедлива ко мне».</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">'"Well, as I was telling you, this woman knew at once!</su>
+          <su lang="ru">«Так вот, то, что я говорила тебе давно, эта женщина почувствовала сразу!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She - she actually blenched - if you know what I mean - as she came in at the door, and she said: "There is evil here - evil and danger.</su>
+          <su lang="ru">Она… так и отпрянула… если ты понимаешь, что я имею в виду… Вошла в дверь и сказала: «Здесь — зло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I feel it.'"</su>
+          <su lang="ru">Зло и опасность.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Very unwisely George laughed.</su>
+          <su lang="ru">Я чувствую».</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">'"Well, you have had your money's worth this afternoon."</su>
+          <su lang="ru">«Ну, сегодня ты не зря заплатила своему медиуму», — не подумав, улыбнулся Джордж.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">'His wife closed her eyes and took a long sniff from her smelling bottle.</su>
+          <su lang="ru">Его жена немедленно закрыла глаза и изо всех сил потянула носом из флакона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">'"How you hate me!</su>
+          <su lang="ru">«Боже! Как ты меня ненавидишь!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You would jeer and laugh if I were dying."</su>
+          <su lang="ru">Когда я умру, у тебя, верно, будет праздник».</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">"George protested and after a minute or two she went on. '"You may laugh, but I shall tell you the whole thing.</su>
+          <su lang="ru">Джордж запротестовал, но она перебила его: «Можешь смеяться, но я всё-таки расскажу тебе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This house is definitely dangerous to me - the woman said so."</su>
+          <su lang="ru">Этот дом убьёт меня — Зарида так прямо и сказала».</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">'George's formerly kind feeling towards Zarida underwent a change.</su>
+          <su lang="ru">Всё расположение Джорджа к упомянутой Зариде мигом улетучилось.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He knew his wife was perfectly capable of insisting on moving to a new house if the caprice got hold of her.</su>
+          <su lang="ru">Он-то знал, что стоит жене уверовать в этот бред, и переезд неизбежен.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">'"What else did she say?" he asked.</su>
+          <su lang="ru">«Что ещё сказала эта женщина?» — сухо осведомился он.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">'"She couldn't tell me very much. She was so upset.</su>
+          <su lang="ru">«Она не могла долго говорить: была слишком расстроена.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One thing she did say.</su>
+          <su lang="ru">Но кое-что всё-таки сказала.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had some violets in a glass.</su>
+          <su lang="ru">У меня на столике в стакане стояли фиалки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She pointed at them and cried out:</su>
+          <su lang="ru">Она показала на них и вскрикнула: «Уберите их прочь!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'"Take those away.</su>
+          <su lang="ru">Прочь!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No blue flowers - never have blue flowers.</su>
+          <su lang="ru">Никаких синих цветов!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Blue flowers are fatal to you - remember that.</su>
+          <su lang="ru">В вашем доме не должно быть синих цветов!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"'</su>
+          <su lang="ru">Помните, синие цветы для вас — смерть!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'"And you know," added Mrs Pritchard, "I always have told you that blue as a colour is repellent to me.</su>
+          <su lang="ru">А ты ведь знаешь, — добавила миссис Притчард, — я действительно никогда не любила синий цвет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I feel a natural instinctive sort of warning against it."</su>
+          <su lang="ru">Всегда чувствовала, что он мне вреден».</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">'George was much too wise to remark that he had never heard her say so before.</su>
+          <su lang="ru">Джордж был достаточно благоразумен и промолчал, что первый раз об этом слышит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Instead he asked what the mysterious Zarida was like.</su>
+          <su lang="ru">Он спросил только, что эта таинственная Зарида собой представляет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mrs Pritchard entered with gusto upon a description.</su>
+          <su lang="ru">И миссис Притчард с удовольствием принялась её описывать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">'"Black hair in coiled knobs over her ears - her eyes were half closed - great black rims round them - she had a black veil over her mouth and chin - and she spoke in a kind of singing voice with a marked foreign accent - Spanish, I think - "</su>
+          <su lang="ru">«Густые чёрные волосы, собранные на затылке, мечтательные полузакрытые глаза, чёрные круги вокруг них, а рот и подбородок скрыты чёрной вуалью. Говорит немного нараспев, с заметным иностранным акцентом, по-моему, испанским».</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">'"In fact all the usual stock-in-trade," said George cheerfully.</su>
+          <su lang="ru">«Ну что ж, в общем, вроде всё как и положено», — бодро заметил Джордж.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">'His wife immediately closed her eyes.</su>
+          <su lang="ru">Миссис Притчард тут же снова закрыла глаза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">'"I feel extremely ill," she said.</su>
+          <su lang="ru">«Ну вот, мне сразу стало хуже, — сказала она.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Ring for nurse.</su>
+          <su lang="ru">— Вызови сиделку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Unkindness upsets me, as you know only too well."</su>
+          <su lang="ru">Твоя бессердечность меня убивает, и ты это прекрасно знаешь».</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">'It was two days later that Nurse Copling came to George with a grave face.</su>
+          <su lang="ru">Через два дня после этой сцены сестра Коплинг подошла к Джорджу и мрачно сказала:</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">'"Will you come to Mrs Pritchard, please.</su>
+          <su lang="ru">«Зайдите к миссис Притчард.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She has had a letter which upsets her greatly." 'He found his wife with the letter in her hand.</su>
+          <su lang="ru">Она получила письмо, которое ее очень сильно расстроило».</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">She held it out to him.</su>
+          <su lang="ru">Он поднялся к жене.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">'"Read it," she said.</su>
+          <su lang="ru">«Прочти», — сказала она, протягивая ему письмо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="en">'George read it.</su>
+          <su lang="ru">Джордж прочёл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was on heavily scented paper, and the writing was big and black.</su>
+          <su lang="ru">Оно было написано большими чёрными буквами на сильно надушенной бумаге.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">'I have seen the future.</su>
+          <su lang="ru">«Я видела будущее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Be warned before it is too late.</su>
+          <su lang="ru">Верьте мне: час близок…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Beware of the Full Moon.</su>
+          <su lang="ru">Бойтесь полной луны.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Blue Primrose means Warning; the Blue Hollyhock means Danger; the Blue Geranium means Death...</su>
+          <su lang="ru">Синяя примула — предупреждение, синяя роза — опасность, синяя герань — смерть…»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Just about to burst out laughing, George caught Nurse Copling's eye. She made a quick warning gesture.</su>
+          <su lang="ru">Джордж хотел было рассмеяться, но, поймав предостерегающий взгляд сиделки, сдержался и довольно неловко пробормотал:</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">He said rather awkwardly, "The woman's probably trying to frighten you, Mary.</su>
+          <su lang="ru">«Она тебя просто запугивает, Мэри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Anyway there aren't such things as blue primroses and blue geraniums."</su>
+          <su lang="ru">Послушай, ведь ни синих примул, ни синих гераней не бывает».</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">'But Mrs Pritchard began to cry and say her days were numbered.</su>
+          <su lang="ru">Но миссис Притчард только плакала и причитала, что дни её сочтены.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nurse Copling came out with George upon the landing.</su>
+          <su lang="ru">Джордж с сиделкой вышли на лестницу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">'"Of all the silly tomfoolery," he burst out.</su>
+          <su lang="ru">«Чушь какая!» — вырвалось у него.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">'"I suppose it is."</su>
+          <su lang="ru">«Конечно», — подтвердила та.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">'Something in the nurse's tone struck him, and he stared at her in amazement.</su>
+          <su lang="ru">Однако что-то в её тоне его насторожило, и он взглянул на нее повнимательнее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">'"Surely, nurse, you don't believe - "</su>
+          <su lang="ru">«Но вы же… вы же не верите?..» — вырвалось у него.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="en">'"No, no, Mr Pritchard.</su>
+          <su lang="ru">«Нет-нет, мистер Притчард. Конечно нет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't believe in reading the future - that's nonsense.</su>
+          <su lang="ru">Все эти предсказания сплошная чушь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What puzzles me is the meaning of this.</su>
+          <su lang="ru">Но… но какой в этом смысл?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Fortune-tellers are usually out for what they can get.</su>
+          <su lang="ru">Прорицатели зарабатывают своими предсказаниями.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But this woman seems to be frightening Mrs Pritchard with no advantage to herself.</su>
+          <su lang="ru">А эта женщина запугивает миссис Притчард без всякой видимой причины.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can't see the point.</su>
+          <su lang="ru">Никак не пойму: зачем ей это?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There's another thing - "</su>
+          <su lang="ru">И еще одно…»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'"Yes?"</su>
+          <su lang="ru">«Да?»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'"Mrs Prichard says that something about Zarida was faintly familiar to her."</su>
+          <su lang="ru">«Миссис Притчард говорит, что Зарида ей кого-то напоминает».</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="en">'"Well?"</su>
+          <su lang="ru">«Кого бы это?»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'"Well, I don't like it, Mr Pritchard, that's all."</su>
+          <su lang="ru">«Словом, мне это не нравится, мистер Притчард, совсем не нравится».</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="en">'"I didn't know you were so superstitious, nurse."</su>
+          <su lang="ru">«Вот уж не думал, что вы так суеверны».</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="en">'"I'm not superstitious; but I know when a thing is fishy."</su>
+          <su lang="ru">«Я не суеверна, я просто чувствую, что здесь что-то не так».</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="en">'It was about four days after this that the first incident happened.</su>
+          <su lang="ru">Прошло ещё четыре дня, и произошёл первый инцидент.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">To explain it to you, I shall have to describe Mrs Pritchard's room - '</su>
+          <su lang="ru">Чтобы объяснить его, надо описать комнату миссис Притчард.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="en">'You'd better let me do that,' interrupted Mrs Bantry.</su>
+          <su lang="ru">— Это ты лучше предоставь мне, — прервала его миссис Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'It was papered with one of those new wallpapers where you apply clumps of flowers to make a kind of herbaceous border.</su>
+          <su lang="ru">— Так вот: комната у неё была оклеена этими новомодными обоями. Цветы, цветы и ещё раз цветы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The effect is almost like being in a garden - though, of course, the flowers are all wrong.</su>
+          <su lang="ru">Такое ощущение, будто попала в клумбу. Глупость, конечно, страшная.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I mean they simply couldn't be in bloom all at the same time - '</su>
+          <su lang="ru">Я хочу сказать, не могут они все цвести одновременно…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Don't let a passion for horticultural accuracy run away with you, Dolly,' said her husband.</su>
+          <su lang="ru">— Не придирайся, Долли, — заметил её муж.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'We all know you're an enthusiastic gardener.'</su>
+          <su lang="ru">— Все и так знают, что ты одержима цветами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="en">'Well, it is absurd,' protested Mrs Bantry.</su>
+          <su lang="ru">— Но ведь это абсурд, — возмущалась миссис Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'To have bluebells and daffodils and lupins and hollyhocks and Michaelmas daisies all grouped together.'</su>
+          <su lang="ru">— Собрать вместе колокольчики, нарциссы, люпины и астры!</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="en">'Most unscientific,' said Sir Henry.</su>
+          <su lang="ru">— Да, дизайнер был явно не силён в ботанике, — согласился сэр Генри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'But to proceed with the story.'</su>
+          <su lang="ru">— Но продолжайте же.</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="en">'Well, among these massed flowers were primroses, clumps of yellow and pink primroses and - oh go on, Arthur, this is your story - '</su>
+          <su lang="ru">— Так вот: среди этого моря цветов были жёлтые и розовые примулы… Ой, извини, Артур, это ведь ты рассказываешь…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Colonel Bantry took up the tale.</su>
+          <su lang="ru">Полковник Бантри продолжил историю:</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence>
+          <su lang="en">'Mrs Pritchard rang her bell violently one morning.</su>
+          <su lang="ru">— Однажды утром миссис Притчард начала звонить в колокольчик как одержимая.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The household came running - thought she was in extremis; not at all.</su>
+          <su lang="ru">Мигом примчалась прислуга. Все были уверены, что у неё приступ.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was violently excited and pointing at the wallpaper; and there sure enough was one blue primrose in the midst of the others...</su>
+          <su lang="ru">Ничего похожего.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Oh!' said Miss Helier, 'how creepy!'</su>
+          <su lang="ru">Она сидела в постели и истерично тыкала пальцем на обои.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'The question was: Hadn't the blue primrose always been there?</su>
+          <su lang="ru">И там, среди примул, теперь была одна синяя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="en">That was George's suggestion and the nurse's.</su>
+          <su lang="ru">— Ой, — воскликнула мисс Хелльер, — мне как-то не по себе!</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="en">But Mrs Pritchard wouldn't have it at any price.</su>
+          <su lang="ru">— Джордж попытался убедить жену, что этот цветок был на обоях и раньше, но ему это не удалось.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She had never noticed it till that very morning and the night before had been full moon.</su>
+          <su lang="ru">Миссис Притчард была твёрдо уверена, что до того самого утра никакой синей примулы там не было.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was very upset about it.'</su>
+          <su lang="ru">К тому же накануне как раз было полнолуние, и миссис Притчард не помнила себя от страха.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="en">'I met George Pritchard that same day and he told me about it,' said Mrs Bantry.</su>
+          <su lang="ru">— Я встретила Джорджа Притчарда в тот самый день, и он рассказал мне всё, — вмешалась миссис Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I went to see Mrs Pritchard and did my best to ridicule the whole thing; but without success.</su>
+          <su lang="ru">— Я пошла проведать миссис Притчард и, как могла, постаралась её успокоить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I came away really concerned, and I remember I met Jean Instow and told her about it.</su>
+          <su lang="ru">Куда там!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jean is a queer girl.</su>
+          <su lang="ru">Я ушла с тяжёлым сердцем. Помню, ещё повстречала Джин Инстоу и поделилась с ней новостями.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She said, "So she's really upset about it?"</su>
+          <su lang="ru">«Что, в самом деле так расстроилась?» — удивилась Джин.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I told her that I thought the woman was perfectly capable of dying of fright - she was really abnormally superstitious.</su>
+          <su lang="ru">Я ей сказала, что миссис Притчард настолько суеверна, что вполне может умереть от страха.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="en">'I remember Jean rather startled me with what she said next.</su>
+          <su lang="ru">А Джин, надо вам сказать, девица довольно своеобразная.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She said, "Well, that might be all for the best, mightn't it?"</su>
+          <su lang="ru">Возьми да и ляпни в ответ: «А может, оно и к лучшему. Вам так не кажется?»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And she said it so coolly, in so matter-of-fact a tone that I was really - well, shocked.</su>
+          <su lang="ru">И таким ещё безразличным тоном, что я была просто в шоке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Of course I know it's done nowadays - to be brutal and outspoken; but I never get used to it.</su>
+          <su lang="ru">Нет, я понимаю, теперь это в моде — вести себя вульгарно и вызывающе, только я никак не могу к этому привыкнуть.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jean smiled at me rather oddly and said, "You don't like my saying that - but it's true.</su>
+          <su lang="ru">А Джин ухмыльнулась и говорит: «Да что вы так напряглись-то? Это ж правда.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What use is Mrs Pritchard's life to her?</su>
+          <su lang="ru">Разве у неё жизнь?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">None at all; and it's hell for George Pritchard.</su>
+          <su lang="ru">И сама не живёт, и мужу не дает.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">To have his wife frightened out of existence would be the best thing that could happen to him."</su>
+          <su lang="ru">Напугать её до смерти — лучше и не придумаешь».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I said, "George is most awfully good to her always."</su>
+          <su lang="ru">Я говорю: «Джордж с ней так терпелив».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And she said, "Yes, he deserves a reward, poor dear.</su>
+          <su lang="ru">А она: «Да, уж если кто заслужил награду, так это Джордж Притчард.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He's a very attractive person, George Pritchard.</su>
+          <su lang="ru">Привлекательный малый.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The last nurse thought so - the pretty one what was her name?</su>
+          <su lang="ru">Вот и последняя их сиделка тоже так думала. Как её?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Carstairs.</su>
+          <su lang="ru">Карстерс, что ли?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That was the cause of the row between her and Mrs P."</su>
+          <su lang="ru">Хорошенькая такая. То-то они с хозяйкой и не поладили».</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="en">'Now I didn't like hearing Jean say that.</su>
+          <su lang="ru">И очень мне, знаете, не понравилось, каким тоном Джин всё это сказала.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Of course one had wondered - '</su>
+          <su lang="ru">Тут поневоле призадумаешься…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mrs Bantry paused significantly.</su>
+          <su lang="ru">— Миссис Бантри сделала многозначительную паузу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="en">'Yes, dear,' said Miss Marple placidly.</su>
+          <su lang="ru">— Конечно, дорогая, — спокойно произнесла мисс Марпл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'One always does.</su>
+          <su lang="ru">— Всегда возникают вопросы…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Is Miss Instow a pretty girl?</su>
+          <su lang="ru">А мисс Инстоу тоже хорошенькая?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I suppose she plays golf?'</su>
+          <su lang="ru">Наверное, и в гольф играет?</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="en">'Yes.</su>
+          <su lang="ru">— Просто замечательно, и не только в гольф.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She's good at all games.</su>
+          <su lang="ru">И такая милая, просто душка: волосы светлые, а глаза ну прямо цвета неба.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And she's nice looking, attractivelooking, very fair with a healthy skin, and nice steady blue eyes.</su>
+          <su lang="ru">И кожа нежная.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Of course we always have felt that she and George Pritchard - I mean if things had been different - they are so well suited to one another.'</su>
+          <su lang="ru">Все, конечно, знали, что она и Джордж Притчард… То есть это если бы сложились обстоятельства по-другому… Они так подходили друг к другу…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'And they were friends?' asked Miss Marple.</su>
+          <su lang="ru">— И они были друзьями? — спросила мисс Марпл.</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence>
+          <su lang="en">'Oh yes.</su>
+          <su lang="ru">— О да, и хорошими.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="en">Great friends.' 'Do you think, Dolly,' said Colonel Bantry plaintively, 'that I might be allowed to go on with my story?'</su>
+          <su lang="ru">— Может быть, Долли, я всё же дорасскажу? — обиженно проговорил полковник Бантри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="en">'Arthur,' said Mrs Bantry resignedly, 'wants to get back to his ghosts.'</su>
+          <su lang="ru">— Да-да, Артур, извини, возвращайся к своим привидениям, — согласилась миссис Бантри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="en">'I had the rest of the story from George himself,' went on the colonel.</su>
+          <su lang="ru">— Остальное я слышал лично от Джорджа, — продолжал полковник.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'There's no doubt that Mrs Pritchard got the wind up badly towards the end of the next month.</su>
+          <su lang="ru">— Понятно, что с тех пор мысли миссис Притчард были заняты следующим полнолунием.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She marked off on a calendar the day when the moon would be full, and on that night she had both the nurse and then George into her room and made them study the wallpaper carefully.</su>
+          <su lang="ru">Она даже отметила его на календаре и, когда оно наступило, заставила сначала сестру, а потом и Джорджа тщательно исследовать обои.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There were pink hollyhocks and red ones, but there were no blue amongst them. Then when George left the room she locked the door - '</su>
+          <su lang="ru">Убедилась, что розы на обоях розовые или на худой конец красные, выпровадила их и тщательно заперла дверь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="en">'And in the morning there was a large blue hollyhock,' said Miss Helier joyfully.</su>
+          <su lang="ru">— А к утру несколько цветков посинели, — догадалась мисс Хелльер.</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence>
+          <su lang="en">'Quite right,' said Colonel Bantry.</su>
+          <su lang="ru">— Совершенно верно, — подтвердил полковник Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Or at any rate, nearly right.</su>
+          <su lang="ru">— Или почти верно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One flower of a hollyhock just above her head had turned blue.</su>
+          <su lang="ru">Синей стала одна роза, как раз у неё над головой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It staggered George; and of course the more it staggered him the more he refused to take the thing seriously. He insisted that the whole thing was some kind of practical joke.</su>
+          <su lang="ru">Это потрясло даже Джорджа, хоть он и уверял всех, что это чья-то глупая шутка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He ignored the evidence of the locked door and the fact that Mrs Pritchard discovered the change before anyone - even Nurse Copling - was admitted. 'It staggered George; and it made him unreasonable. His wife wanted to leave the house, and he wouldn't let her.</su>
+          <su lang="ru">Сам-то он прекрасно знал, что миссис Притчард запирала дверь на ночь, да и перемену обнаружила раньше всех, раньше даже сестры Коплинг.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was inclined to believe in the supernatural for the first time, but he wasn't going to admit it.</su>
+          <su lang="ru">Он, похоже, и сам уже начинал верить во всякие сверхъестественные штуки, только даже себе не хотел в этом признаться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He usually gave in to his wife, but this time he wouldn't.</su>
+          <su lang="ru">И, вопреки своему обыкновению, категорически отказывался потакать капризам жены.</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="en">Mary was not to make a fool of herself, he said.</su>
+          <su lang="ru">«Мэри, прекрати строить из себя дурочку, — заявил он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The whole thing was the most infernal nonsense.</su>
+          <su lang="ru">— Вся эта чертовщина — вздор и чепуха».</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="en">'And so the next month sped away.</su>
+          <su lang="ru">Прошёл месяц.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mrs Pritchard made less protest than one would have imagined.</su>
+          <su lang="ru">Миссис Притчард успокоилась и даже стала меньше капризничать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I think she was superstitious enough to believe that she couldn't escape her fate.</su>
+          <su lang="ru">Догадываюсь даже почему: бедняжка была настолько суеверна, что попросту смирилась с неизбежным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She repeated again and again: "The blue primrose - warning. The blue hollyhock - danger. The blue geranium - death."</su>
+          <su lang="ru">Только всё повторяла: «Синяя примула — предупреждение, синяя роза — опасность, синяя герань — смерть».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And she would lie looking at the clump of pinky-red geraniums nearest her bed.</su>
+          <su lang="ru">Целыми днями лежала и разглядывала на обоях соцветия розово-красной герани, самой близкой к её постели.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'The whole business was pretty nervy.</su>
+          <su lang="ru">Обстановка в доме становилась совершенно невыносимой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Even the nurse caught the infection.</su>
+          <su lang="ru">Настроение хозяйки передалось даже её сиделке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She came to George two days before full moon and begged him to take Mrs Pritchard away.</su>
+          <su lang="ru">За два дня до очередного полнолуния она явилась к Джорджу и стала уговаривать его увезти жену из дома.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">George was angry.</su>
+          <su lang="ru">Джордж пришел в ярость.</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="en">'"If all the flowers on that damned wall turned into blue devils it couldn't kill anyone!" he shouted.</su>
+          <su lang="ru">«Да хоть бы они все посинели и приняли очертания дьявола, от этого никто не помрёт!» — заорал он на неё.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="en">'"It might.</su>
+          <su lang="ru">«Не скажите.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Shock has killed people before now."</su>
+          <su lang="ru">Нервное потрясение может оказаться для миссис Притчард смертельным».</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence>
+          <su lang="en">'"Nonsense," said George.</su>
+          <su lang="ru">«Чушь!» — отрезал Джордж.</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence>
+          <su lang="en">George has always been a shade pig-headed.</su>
+          <su lang="ru">Он всегда был немного упрямым.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You can't drive him. I believe he had a secret idea that his wife worked the changes herself and that it was all some morbid hysterical plan of hers.</su>
+          <su lang="ru">Подозреваю, он считал, что жена сама все это подстраивает, движимая какой-то навязчивой идеей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence>
+          <su lang="en">'Well, the fatal night came.</su>
+          <su lang="ru">Наконец наступила развязка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mrs Pritchard locked the door as usual.</su>
+          <su lang="ru">Тем вечером миссис Притчард как обычно заперлась в своей спальне.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was very calm - in almost an exalted state of mind.</su>
+          <su lang="ru">Она была неестественно спокойна.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The nurse was worried by her state - wanted to give her a stimulant, an injection of strychnine, but Mrs Pritchard refused.</su>
+          <su lang="ru">Сестра хотела дать ей чего-нибудь тонизирующего, сделать укол стрихнина, но миссис Притчард отказалась.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In a way, I believe, she was enjoying herself.</su>
+          <su lang="ru">Мне кажется, она находила какое-то извращённое наслаждение в своих страхах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">George said she was.'</su>
+          <su lang="ru">Джордж говорит, что так оно и было.</su>
+        </sentence>
+      </p>
+      <p type="text" id="95">
+        <sentence>
+          <su lang="en">'I think that's quite possible,' said Mrs Bantry.</su>
+          <su lang="ru">Миссис Притчард всегда просыпалась около восьми.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'There must have been a strange sort of glamour about the whole thing.'</su>
+          <su lang="ru">Утром колокольчик не прозвенел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'There was no violent ringing of a bell the next morning.</su>
+          <su lang="ru">В восемь тридцать было всё так же тихо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mrs Pritchard usually woke about eight.</su>
+          <su lang="ru">Тогда сиделка сама постучала к ней в дверь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When, at eight-thirty, there was no sign from her, nurse rapped loudly on the door.</su>
+          <su lang="ru">Не получив ответа, она пошла за Джорджем и убедила его выломать дверь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Getting no reply, she fetched George, and insisted on the door being broken open.</su>
+          <su lang="ru">Тот принес стамеску и кое-как открыл замок.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence>
+          <su lang="en">They did so with the help of a chisel.</su>
+          <su lang="ru">Поза распростёртого на постели тела не оставляла никаких сомнений.</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence>
+          <su lang="en">'One look at the still figure on the bed was enough for Nurse Copling.</su>
+          <su lang="ru">Джордж позвонил врачу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She sent George to telephone for the doctor, but it was too late.</su>
+          <su lang="ru">Тот явился, но всё, что ему оставалось, — только констатировать смерть.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mrs Pritchard, he said, must have been dead at least eight hours.</su>
+          <su lang="ru">Остановка сердца, как определил доктор, произошла восемь часов назад.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Her smelling salts lay by her hand on the bed, and on the wall beside her one of the pinky-red geraniums was a bright deep blue .'</su>
+          <su lang="ru">Под рукой миссис Притчард лежал флакончик нюхательной соли, а одна из розово-красных гераней на стене была теперь ярко-синей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence>
+          <su lang="en">'Horrible,' said Miss Helier with a shiver.</su>
+          <su lang="ru">— Какой ужас! — вздрогнула мисс Хелльер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sir Henry was frowning.</su>
+          <su lang="ru">Сэр Генри нахмурился:</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence>
+          <su lang="en">'No additional details?'</su>
+          <su lang="ru">— И никаких дополнительных деталей?</su>
+        </sentence>
+      </p>
+      <p type="text" id="100">
+        <sentence>
+          <su lang="en">Colonel Bantry shook his head, but Mrs Bantry spoke quickly.</su>
+          <su lang="ru">Полковник Бантри покачал головой, но миссис Бантри напомнила:</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence>
+          <su lang="en">'The gas.'</su>
+          <su lang="ru">— Газ.</su>
+        </sentence>
+      </p>
+      <p type="text" id="102">
+        <sentence>
+          <su lang="en">'What about the gas?' asked Sir Henry.</su>
+          <su lang="ru">— Что газ? — спросил сэр Генри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="103">
+        <sentence>
+          <su lang="en">'When the doctor arrived there was a slight smell of gas, and sure enough he found the gas ring in the fireplace very slightly turned on; but so little it couldn't have mattered.'</su>
+          <su lang="ru">— Когда пришёл врач, он обнаружил, что газовая горелка в камине привёрнута неплотно. Однако запах был настолько слабый, что это не могло иметь значения.</su>
+        </sentence>
+      </p>
+      <p type="text" id="104">
+        <sentence>
+          <su lang="en">'Did Mr Pritchard and the nurse not notice it when they first went in?'</su>
+          <su lang="ru">— Разве мистер Притчард и сиделка не заметили запаха, когда вошли в первый раз?</su>
+        </sentence>
+      </p>
+      <p type="text" id="105">
+        <sentence>
+          <su lang="en">'The nurse said she did notice a slight smell.</su>
+          <su lang="ru">— Сестра говорила, что лёгкий запах был.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">George said he didn't notice gas, but something made him feel very queer and overcome; but he put that down to shock - and probably it was.</su>
+          <su lang="ru">Джордж говорит, что не было, но что, войдя в комнату, он как-то странно себя почувствовал, объясняя это, впрочем, состоянием шока.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At any rate there was no question of gas poisoning.</su>
+          <su lang="ru">Вероятно, так оно и было.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The smell was scarcely noticeable.'</su>
+          <su lang="ru">Что же касается газа, запах был едва уловим и отравления произойти не могло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="106">
+        <sentence>
+          <su lang="en">'And that's the end of the story?'</su>
+          <su lang="ru">— На этом история заканчивается?</su>
+        </sentence>
+      </p>
+      <p type="text" id="107">
+        <sentence>
+          <su lang="en">'No, it isn't.</su>
+          <su lang="ru">— Нет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One way and another, there was a lot of talk.</su>
+          <su lang="ru">Пошли разговоры.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The servants, you see, had overheard things - had heard, for instance, Mrs Pritchard telling her husband that he hated her and would jeer if she were dying.</su>
+          <su lang="ru">Слуги, например, слышали, как миссис Притчард говорила мужу, что он её ненавидит и будет радоваться, если она умрёт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And also more recent remarks.</su>
+          <su lang="ru">Эти слуги, как выяснилось, вообще много чего слышали.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She had said one day, apropos of his refusing to leave the house: "Very well, when I am dead, I hope everyone will realize that you have killed me."</su>
+          <su lang="ru">В том числе и как на отказ переехать в другой дом она однажды сказала: «Очень хорошо, надеюсь, когда я умру, все поймут, что меня убил ты».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And as ill luck would have it, he had been mixing some weed killer for the garden paths the day before.</su>
+          <su lang="ru">И как назло, за день до этого Джордж готовил какой-то химикат, чтобы вывести сорняки на садовой дорожке, а один из слуг видел, как он потом нёс жене стакан кипяченого молока.</su>
+        </sentence>
+      </p>
+      <p type="text" id="108">
+        <sentence>
+          <su lang="en">One of the younger servants had seen him and had afterwards seen him taking up a glass of hot milk for his wife.</su>
+          <su lang="ru">Слухи множились с невероятной скоростью.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'The talk spread and grew.</su>
+          <su lang="ru">Доктор выдал свидетельство, но оно никого не удовлетворило.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The doctor had given a certificate - I don't know exactly in what terms - shock, syncope, heart failure, probably some medical terms meaning nothing much.</su>
+          <su lang="ru">Какие-то невразумительные медицинские словечки, ничего толком не объясняющие.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">However the poor lady had not been a month in her grave before an exhumation order was applied for and granted.'</su>
+          <su lang="ru">Словом, не прошло и месяца, как бедняжку зарыли, а уже поступила просьба об эксгумации, которую тут же удовлетворили.</su>
+        </sentence>
+      </p>
+      <p type="text" id="109">
+        <sentence>
+          <su lang="en">'And the result of the autopsy was nil, I remember,' said Sir Henry gravely.</su>
+          <su lang="ru">— Помнится, аутопсия[2] ровным счётом ничего не дала, — сказал сэр Генри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'A case, for once, of smoke without fire.'</su>
+          <su lang="ru">— Прямо-таки исключительный случай: дым без огня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="110">
+        <sentence>
+          <su lang="en">'The whole thing is really very curious,' said Mrs Bantry.</su>
+          <su lang="ru">— В общем, всё это очень странно, — сказала миссис Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'That fortune-teller, for instance - Zarida.</su>
+          <su lang="ru">— Предсказательницу Зариду, например, никто больше не видел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At the address where she was supposed to be, no one had ever heard of any such person!'</su>
+          <su lang="ru">Кинулись по её адресу — там о ней и не слышали.</su>
+        </sentence>
+      </p>
+      <p type="text" id="111">
+        <sentence>
+          <su lang="en">'She appeared once - out of the blue,' said her husband.</su>
+          <su lang="ru">— Как появилась из туманной сини, — сказал полковник, — так туда и сгинула.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'and then utterly vanished.</su>
+          <su lang="ru">Хм-м… Сини.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Out of the blue - that's rather good!'</su>
+          <su lang="ru">Надо же было так сказать!</su>
+        </sentence>
+      </p>
+      <p type="text" id="112">
+        <sentence>
+          <su lang="en">'And what is more,' continued Mrs Bantry, 'little Nurse Carstairs, who was supposed to have recommended her, had never even heard of her.'</su>
+          <su lang="ru">— И что интересно, — продолжила миссис Бантри. — Эта молоденькая сестра Карстерс, которая, как считали, и рекомендовала Зариду, никогда о ней не слыхала.</su>
+        </sentence>
+      </p>
+      <p type="text" id="113">
+        <sentence>
+          <su lang="en">They looked at each other.</su>
+          <su lang="ru">Все переглянулись.</su>
+        </sentence>
+      </p>
+      <p type="text" id="114">
+        <sentence>
+          <su lang="en">'It's a mysterious story,' said Dr Lloyd.</su>
+          <su lang="ru">— Загадочная история, — сказал доктор Ллойд.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'One can make guesses; but to guess - '</su>
+          <su lang="ru">— Предположения, предположения, и ничего конкретного…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He shook his head.</su>
+          <su lang="ru">Он покачал головой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="115">
+        <sentence>
+          <su lang="en">'Has Mr Pritchard married Miss Instow?' asked Miss Marple in her gentle voice.</su>
+          <su lang="ru">— А мистер Притчард женился на мисс Инстоу? — вкрадчиво спросила мисс Марпл.</su>
+        </sentence>
+      </p>
+      <p type="text" id="116">
+        <sentence>
+          <su lang="en">'Now why do you ask that?' inquired Sir Henry.</su>
+          <su lang="ru">— Почему вы об этом спрашиваете? — заинтересовался сэр Генри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="117">
+        <sentence>
+          <su lang="en">Miss Marple opened gentle blue eyes. 'It seems to me so important,' she said.</su>
+          <su lang="ru">— Мне кажется, это очень важно, — ответила мисс Марпл, поднимая на него свои кроткие голубые глаза.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Have they married?'</su>
+          <su lang="ru">— Так они поженились?</su>
+        </sentence>
+      </p>
+      <p type="text" id="118">
+        <sentence>
+          <su lang="en">Colonel Bantry shook his head.</su>
+          <su lang="ru">Полковник Бантри покачал головой:</su>
+        </sentence>
+      </p>
+      <p type="text" id="119">
+        <sentence>
+          <su lang="en">'We - well, we expected something of the kind - but it's eighteen months now.</su>
+          <su lang="ru">— Ну, мы…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't believe they even see much of each other.'</su>
+          <su lang="ru">Честно говоря, мы все этого ждали, но вот уже полтора года, а они и видятся-то, кажется, далеко не каждый день.</su>
+        </sentence>
+      </p>
+      <p type="text" id="120">
+        <sentence>
+          <su lang="en">'That is important,' said Miss Marple.</su>
+          <su lang="ru">— Это важно, — повторила мисс Марпл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Very important.'</su>
+          <su lang="ru">— Это крайне важно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="121">
+        <sentence>
+          <su lang="en">'Then you think the same as I do,' said Mrs Bantry.</su>
+          <su lang="ru">— Значит, вы думаете о том же, о чём и я! — радостно воскликнула миссис Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'You think - '</su>
+          <su lang="ru">— Значит, по-вашему…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Now, Dolly,' said her husband.</su>
+          <su lang="ru">— Долли! — оборвал её муж.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'It's unjustifiable - what you're going to say.</su>
+          <su lang="ru">— Я запрещаю тебе это говорить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You can't go about accusing people without a shadow of proof .'</su>
+          <su lang="ru">Нельзя обвинять человека, не имея никаких доказательств.</su>
+        </sentence>
+      </p>
+      <p type="text" id="122">
+        <sentence>
+          <su lang="en">'Don't be so - so manly, Arthur.</su>
+          <su lang="ru">— Ну не будь ты таким, Артур.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Men are always afraid to say anything .</su>
+          <su lang="ru">Вечно мужчины боятся сказать лишнее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Anyway, this is all between ourselves. It's just a wild fantastic idea of mine that possibly - only possibly - Jean Instow disguised herself as a fortune-teller.</su>
+          <su lang="ru">В общем, может, это только моя фантазия, но, по-моему, предсказательницей была переодетая Джин Инстоу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mind you, she may have done it for a joke.</su>
+          <su lang="ru">Разумеется, она хотела лишь подшутить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't for a minute think that she meant any harm; but if she did do it, and if Mrs Pritchard was foolish enough to die of fright - well, that's what Miss Marple meant, wasn't it?'</su>
+          <su lang="ru">Нисколько не сомневаюсь, что она сделала это не со зла. Откуда же ей было знать, что миссис Притчард окажется настолько глупа, что умрёт от страха? Вы ведь это подумали, мисс Марпл, правда?</su>
+        </sentence>
+      </p>
+      <p type="text" id="123">
+        <sentence>
+          <su lang="en">'No, dear, not quite,' said Miss Marple.</su>
+          <su lang="ru">— Нет, милая, не совсем, — сказала мисс Марпл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'You see, if I were going to kill anyone - which, of course, I wouldn't dream of doing for a minute, because it would be very wicked, and besides I don't like killing - not even wasps, though I know it has to be, and I'm sure the gardener does it as humanely as possible.</su>
+          <su lang="ru">— Видите ли, если бы я собралась кого-то — не приведи Господи — убить… что совершенно исключено, поскольку мне даже ос жалко, хоть я и знаю, что уничтожать их совершенно необходимо…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Let me see, what was I saying?'</su>
+          <su lang="ru">Надеюсь, садовник делает это по возможности гуманно… да… собственно, о чём это я говорила?</su>
+        </sentence>
+      </p>
+      <p type="text" id="124">
+        <sentence>
+          <su lang="en">'If you wished to kill anyone,' prompted Sir Henry.</su>
+          <su lang="ru">— Если бы вы захотели кого-то убить, — подсказал сэр Генри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="125">
+        <sentence>
+          <su lang="en">'Oh yes.</su>
+          <su lang="ru">— Ах да…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Well, if I did, I shouldn't be at all satisfied to trust to fright .</su>
+          <su lang="ru">Тогда я ни в коем случае на стала бы полагаться на какой-то там испуг.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I know one reads of people dying of it, but it seems a very uncertain sort of thing, and the most nervous people are far more brave than one really thinks they are.</su>
+          <su lang="ru">Нет: иногда люди действительно умирают от страха, но твёрдо на это рассчитывать представляется мне в высшей степени неразумным: даже самые нервные люди куда смелее, чем кажутся.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I should like something definite and certain, and make a thoroughly good plan about it.'</su>
+          <su lang="ru">Я избрала бы что-нибудь понадежнее, тщательно обдумав все детали.</su>
+        </sentence>
+      </p>
+      <p type="text" id="126">
+        <sentence>
+          <su lang="en">'Miss Marple,' said Sir Henry, 'you frighten me.</su>
+          <su lang="ru">— Мисс Марпл, — сказал сэр Генри, — вы меня пугаете.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I hope you will never wish to remove me.</su>
+          <su lang="ru">Надеюсь, я никогда не попаду в число ваших врагов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Your plans would be too good.'</su>
+          <su lang="ru">Уверен: задумай вы меня устранить, ваш план был бы настолько безупречен, что у меня не осталось бы ни единого шанса.</su>
+        </sentence>
+      </p>
+      <p type="text" id="127">
+        <sentence>
+          <su lang="en">Miss Marple looked at him reproachfully.</su>
+          <su lang="ru">Мисс Марпл наградила его суровым взглядом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="128">
+        <sentence>
+          <su lang="en">'I thought I had made it clear that I would never contemplate such wickedness,' she said.</su>
+          <su lang="ru">— Мне кажется, я достаточно ясно дала понять, что подобное просто не может прийти мне в голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'No, I was trying to put myself in the place of - er - a certain person.'</su>
+          <su lang="ru">Сейчас я только пытаюсь поставить себя на место, э-э… определённой личности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="129">
+        <sentence>
+          <su lang="en">'Do you mean George Pritchard?' asked Colonel Bantry.</su>
+          <su lang="ru">— Вы имеете в виду Джорджа Притчарда? — спросил полковник Бантри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I'll never believe it of George - though - mind you, even the nurse believes it.</su>
+          <su lang="ru">— Исключено! Хотя даже медсестра подозревает беднягу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I went and saw her about a month afterwards, at the time of the exhumation.</su>
+          <su lang="ru">Я виделся с ней примерно через месяц после эксгумации.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She didn't know how it was done - in fact, she wouldn't say anything at all - but it was clear enough that she believed George to be in some way responsible for his wife's death.</su>
+          <su lang="ru">Она ничего не говорит прямо, но слишком очевидно, что она считает Джорджа так или иначе ответственным за смерть жены.</su>
+        </sentence>
+      </p>
+      <p type="text" id="130">
+        <sentence>
+          <su lang="en">She was convinced of it.'</su>
+          <su lang="ru">— М-да уж, — сказал доктор Ллойд.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Well,' said Dr Lloyd, 'perhaps she wasn't so far wrong.</su>
+          <su lang="ru">— Возможно, она не так уж далека от истины.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And mind you, a nurse often knows.</su>
+          <su lang="ru">Сёстры-сиделки шестым чувством чувствуют, кто виноват.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She can't say - she's got no proof - but she knows.'</su>
+          <su lang="ru">Только у них нет доказательств.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sir Henry leant forward.</su>
+          <su lang="ru">Сестёр — их не проведёшь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="131">
+        <sentence>
+          <su lang="en">'Come now, Miss Marple,' he said persuasively.</su>
+          <su lang="ru">Сэр Генри подался вперёд:</su>
+        </sentence>
+      </p>
+      <p type="text" id="132">
+        <sentence>
+          <su lang="en">'You're lost in a daydream.</su>
+          <su lang="ru">— Мисс Марпл…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Won't you tell us all about it?'</su>
+          <su lang="ru">Извините, что отвлекаю вас, но мне почему-то кажется, что сейчас вы нам всё объясните.</su>
+        </sentence>
+      </p>
+      <p type="text" id="133">
+        <sentence>
+          <su lang="en">Miss Marple started and turned pink.</su>
+          <su lang="ru">Мисс Марпл вздрогнула и слегка покраснела.</su>
+        </sentence>
+      </p>
+      <p type="text" id="134">
+        <sentence>
+          <su lang="en">'I beg your pardon,' she said.</su>
+          <su lang="ru">— Прошу прощения, — сказала она.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I was just thinking about our District Nurse.</su>
+          <su lang="ru">— Я как раз думала об этой медицинской сестре.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A most difficult problem.'</su>
+          <su lang="ru">Крайне сложная проблема.</su>
+        </sentence>
+      </p>
+      <p type="text" id="135">
+        <sentence>
+          <su lang="en">'More difficult than the problem of the blue geranium?'</su>
+          <su lang="ru">— Сложнее даже, чем с синей геранью?</su>
+        </sentence>
+      </p>
+      <p type="text" id="136">
+        <sentence>
+          <su lang="en">'It really depends on the primroses,' said Miss Marple.</su>
+          <su lang="ru">— Вообще-то вся загвоздка в примулах, — задумчиво протянула мисс Марпл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I mean, Mrs Bantry said they were yellow and pink.</su>
+          <su lang="ru">— Миссис Бантри говорит, они были жёлтыми и розовыми.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If it was a pink primrose that turned blue, of course, that fits in perfectly. But if it happened to be a yellow one - '</su>
+          <su lang="ru">Нет, если синей вдруг стала розовая примула, тогда всё очень даже сходится, но вот если это случилось с жёлтой…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'It was a pink one,' said Mrs Bantry. She stared. They all stared at Miss Marple.</su>
+          <su lang="ru">— Розовая, — подтвердила миссис Бантри, удивлённо взглянув на мисс Марпл.</su>
+        </sentence>
+      </p>
+      <p type="text" id="137">
+        <sentence>
+          <su lang="en">'Then that seems to settle it,' said Miss Marple. She shook her head regretfully.</su>
+          <su lang="ru">— Тогда понятно, — вздохнула мисс Марпл, печально покачивая головой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'And the wasp season and everything.</su>
+          <su lang="ru">— И снадобье для ос, и остальное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And of course the gas.'</su>
+          <su lang="ru">Газ, опять же…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'It reminds you, I suppose, of countless village tragedies?' said Sir Henry.</su>
+          <su lang="ru">— Вам что: снова припомнились какие-то деревенские истории? — поинтересовался сэр Генри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="138">
+        <sentence>
+          <su lang="en">'Not tragedies,' said Miss Marple.</su>
+          <su lang="ru">— Нет, — ответила мисс Марпл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'And certainly nothing criminal.</su>
+          <su lang="ru">— Скорее, неприятности, связанные с медицинскими сестрами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But it does remind me a little of the trouble we are having with the District Nurse.</su>
+          <su lang="ru">Они ведь тоже живые люди, но им приходится постоянно подавлять истинные свои чувства, подлаживаться под больных…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After all, nurses are human beings, and what with having to be so correct in their behaviour and wearing those uncomfortable collars and being so thrown with the family - well, can you wonder that things sometimes happen?'</su>
+          <su lang="ru">И потом, эти неудобные воротнички… Ничего удивительного, что порой они совершают довольно странные поступки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="139">
+        <sentence>
+          <su lang="en">A glimmer of light broke upon Sir Henry.</su>
+          <su lang="ru">— Вы имеете в виду сестру Карстерс? — спросил слегка удивлённый сэр Генри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="140">
+        <sentence>
+          <su lang="en">'You mean Nurse Carstairs?'</su>
+          <su lang="ru">— Да нет же, другую: сестру Коплинг.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Oh no. Not Nurse Carstairs.</su>
+          <su lang="ru">Это ведь она служила в доме раньше.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nurse Copling .</su>
+          <su lang="ru">Понимаете, очень уж ей приглянулся мистер Притчард.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You see, she had been there before, and very much thrown with Mr Pritchard, who you say is an attractive man.</su>
+          <su lang="ru">Он ведь, как я поняла, очень хорош собой…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I daresay she thought, poor thing well, we needn't go into that.</su>
+          <su lang="ru">Наверное, она, бедняжка надеялась… но не стоит об этом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't suppose she knew about Miss Instow, and of course afterwards, when she found out, it turned her against him and she tried to do all the harm she could.</su>
+          <su lang="ru">Думаю, она и не подозревала о существовании мисс Инстоу. А узнав, решила отомстить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Of course the letter really gave her away, didn't it?'</su>
+          <su lang="ru">Отомстить любой ценой. Но письмо выдало её с головой, правда?</su>
+        </sentence>
+      </p>
+      <p type="text" id="141">
+        <sentence>
+          <su lang="en">'What letter?'</su>
+          <su lang="ru">— Какое ещё письмо?</su>
+        </sentence>
+      </p>
+      <p type="text" id="142">
+        <sentence>
+          <su lang="en">'Well, she wrote to the fortune-teller at Mrs Pritchard's request, and the fortune-teller came, apparently in answer to the letter.</su>
+          <su lang="ru">— Ну то… которое она будто бы написала предсказательнице по просьбе миссис Притчард.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But later it was discovered that there never had been such a person at that address.</su>
+          <su lang="ru">Предсказательница-то пришла, только потом выяснилось, что по указанному адресу её отродясь не было.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So that shows that Nurse Copling was in it.</su>
+          <su lang="ru">Понятно, сестра Коплинг никакого письма не писала.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She only pretended to write - so what could be more likely than that she was the fortune teller herself?'</su>
+          <su lang="ru">Остаётся предположить, что Зарида — это она и есть.</su>
+        </sentence>
+      </p>
+      <p type="text" id="143">
+        <sentence>
+          <su lang="en">'I never saw the point about the letter,' said Sir Henry.</su>
+          <su lang="ru">— Про письмо-то я и забыл, — удивленно сказал сэр Генри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'That's a most important point, of course.'</su>
+          <su lang="ru">— Да, это очень важная деталь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="144">
+        <sentence>
+          <su lang="en">'Rather a bold step to take,' said Miss Marple, 'because Mrs Pritchard might have recognized her in spite of the disguise though of course if she had, the nurse could have pretended it was a joke.'</su>
+          <su lang="ru">— Смелый шаг, — продолжила мисс Марпл. — Ведь миссис Притчард могла узнать её, несмотря на весь этот маскарад. Хотя… в таком случае можно было легко обратить всё в шутку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="145">
+        <sentence>
+          <su lang="en">'What did you mean,' said Sir Henry, 'when you said that if you were a certain person you would not have trusted to fright?'</su>
+          <su lang="ru">— А что вы имели в виду, — спросил сэр Генри, — когда сказали, что, будь вы на её месте, ни за что не положились бы на испуг?</su>
+        </sentence>
+      </p>
+      <p type="text" id="146">
+        <sentence>
+          <su lang="en">'One couldn't be sure that way,' said Miss Marple.</su>
+          <su lang="ru">— Я-то? — переспросила мисс Марпл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'No, I think that the warnings and the blue flowers were, if I may use a military term,' she laughed self-consciously - ' just camouflage .'</su>
+          <su lang="ru">— Ну, что все эти предупреждения и синие цветы, говоря военной терминологией, были всего лишь камуфляжем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="147">
+        <sentence>
+          <su lang="en">'And the real thing?'</su>
+          <su lang="ru">— Да что же тогда, по-вашему, случилось на самом деле?</su>
+        </sentence>
+      </p>
+      <p type="text" id="148">
+        <sentence>
+          <su lang="en">'I know,' said Miss Marple apologetically, 'that I've got wasps on the brain.</su>
+          <su lang="ru">— Вы уж меня простите, — сказала мисс Марпл извиняющимся тоном, — но я снова об осах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Poor things, destroyed in their thousands - and usually on such a beautiful summer's day.</su>
+          <su lang="ru">Бедняжки: стоят такие прекрасные летние деньки, а они гибнут тысячами!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But I remember thinking, when I saw the gardener shaking up the cyanide of potassium in a bottle with water, how like smelling-salts it looked.</su>
+          <su lang="ru">Помню, видела как-то, как садовник перемешивает цианистый калий в бутылке с водой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And if it were put in a smelling-salts bottle and substituted for the real one well, the poor lady was in the habit of using her smelling-salts.</su>
+          <su lang="ru"> Удивительно похоже на нюхательную соль! А если это налить во флакончик из-под соли да поставить, где он обычно стоит… Бедная леди часто ею пользовалась.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Indeed you said they were found by her hand.</su>
+          <su lang="ru"> Помните: вы говорили, флакончик нашли у неё под рукой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then, of course, while Mr Pritchard went to telephone to the doctor, the nurse would change it for the real bottle, and she'd just turn on the gas a little bit to mask any smell of almonds and in case anyone felt queer, and I always have heard that cyanide leaves no trace if you wait long enough.</su>
+          <su lang="ru"> Ну и вот… А когда мистер Притчард пошёл вызывать врача по телефону, сестра заменила его и немножко открутила газовую горелку. Газ очень хорошо перебивает запах миндаля, хотя, конечно, его и так вряд ли бы кто почувствовал. Где-то я слышала, что цианистый калий довольно быстро и бесследно выводится из организма.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But, of course I may be wrong, and it may have been something entirely different in the bottle; but that doesn't really matter, does it?'</su>
+          <su lang="ru"> Хотя, возможно, я и ошибаюсь. Во флаконе вполне могло быть что-то другое. Но ведь это, в сущности, ничего не меняет, правда?</su>
+        </sentence>
+      </p>
+      <p type="text" id="149">
+        <sentence>
+          <su lang="en">Miss Marple paused, a little out of breath.</su>
+          <su lang="ru"> Мисс Марпл замолчала.</su>
+        </sentence>
+      </p>
+      <p type="text" id="151">
+        <sentence>
+          <su lang="en">Jane Helier leant forward and said, 'But the blue geranium, and the other flowers?'</su>
+          <su lang="ru">Джейн Хелльер подалась вперёд: — А синяя герань? А другие цветы?</su>
+        </sentence>
+      </p>
+      <p type="text" id="152">
+        <sentence>
+          <su lang="en">'Nurses always have litmus paper, don't they?' said Miss Marple, 'for - well, for testing.</su>
+          <su lang="ru"> — У сестёр ведь всегда есть лакмусовая бумажка, — сказала мисс Марпл. — Ну для этих… для анализов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Not a very pleasant subject.</su>
+          <su lang="ru">Не слишком приятная тема, так что не будем об этом говорить…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We won't dwell on it.</su>
+          <su lang="ru">Она слегка покраснела.</su>
+        </sentence>
+      </p>
+      <p type="text" id="153">
+        <sentence>
+          <su lang="en">I have done a little nursing myself.'</su>
+          <su lang="ru">— Мне ведь тоже приходилось когда-то ухаживать за больными.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She grew delicately pink.</su>
+          <su lang="ru">Так вот, от кислоты бумажка краснеет, а от щёлочи — синеет снова.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Blue turns red with acids, and red turns blue with alkalis.</su>
+          <su lang="ru">Ну долго ли натереть такой покрасневшей бумажкой цветок на обоях?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So easy to paste some red litmus over a red flower - near the bed, of course.</su>
+          <su lang="ru">И когда бедная леди воспользуется своей нюхательной солью, пары нашатырного спирта тут же заставят такой цветок посинеть.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And then, when the poor lady used her smelling-salts, the strong ammonia fumes would turn it blue.</su>
+          <su lang="ru">Совершенно гениальная идея!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Really most ingenious.</su>
+          <su lang="ru">Ну, а с геранью…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Of course, the geranium wasn't blue when they first broke into the room - nobody noticed it till afterwards.</su>
+          <su lang="ru">Думаю, когда дверь взломали, она всё-таки была ещё красной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When nurse changed the bottles, she held the sal ammoniac against the wallpaper for a minute, I expect.'</su>
+          <su lang="ru">Думаю, на неё обратили внимание позже, когда сестра уже успела поменять флакончики и на минутку поднести нашатырный спирт к обоям.</su>
+        </sentence>
+      </p>
+      <p type="text" id="154">
+        <sentence>
+          <su lang="en">'You might have been there, Miss Marple,' said Sir Henry.</su>
+          <su lang="ru">— Ничего себе! Можно подумать, вы лично при этом присутствовали! — восхитился сэр Генри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="155">
+        <sentence>
+          <su lang="en">'What worries me,' said Miss Marple, 'is poor Mr Pritchard and that nice girl, Miss Instow.</su>
+          <su lang="ru">— Кто меня беспокоит, — сказала мисс Марпл, — так это бедный мистер Притчард и та милая девушка, мисс Инстоу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Probably both suspecting each other and keeping apart - and life so very short.'</su>
+          <su lang="ru">Они ведь, наверное, подозревают друг друга… Видите, даже встречаться перестали. А жизнь такая короткая!</su>
+        </sentence>
+      </p>
+      <p type="text" id="156">
+        <sentence>
+          <su lang="en">She shook her head.</su>
+          <su lang="ru">Она покачала головой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="157">
+        <sentence>
+          <su lang="en">'You needn't worry,' said Sir Henry.</su>
+          <su lang="ru">— За них можете не беспокоиться, — улыбнулся сэр Генри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'As a matter of fact I have something up my sleeve.</su>
+          <su lang="ru">— У меня с самого начала было кое-что припрятано в рукаве.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A nurse has been arrested on a charge of murdering an elderly patient who had left her a legacy.</su>
+          <su lang="ru">Сестру Коплинг недавно арестовали по обвинению в убийстве престарелого пациента, оставившего ей наследство.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was done with cyanide of potassium substituted for smelling-salts.</su>
+          <su lang="ru">Преступление было совершено посредством цианистого калия, которым она подменила нюхательную соль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nurse Copling trying the same trick again.</su>
+          <su lang="ru">Как видите, методы те же.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Miss Instow and Mr Pritchard need have no doubts as to the truth.'</su>
+          <su lang="ru">Так что мисс Инстоу и мистер Притчард могут забыть о своих подозрениях как о дурном сне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="158">
+        <sentence>
+          <su lang="en">'Now isn't that nice?' cried Miss Marple.</su>
+          <su lang="ru">— Ну разве не замечательно?! — воскликнула мисс Марпл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I don't mean about the new murder, of course.</su>
+          <su lang="ru">— Я, конечно, не про убийство.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That's very sad, and shows how much wickedness there is in the world, and that if once you give way which reminds me I must finish my little conversation with Dr Lloyd about the village nurse.'</su>
+          <su lang="ru"> Это-то как раз очень грустно. Сразу вспоминаешь, как всё-таки много зла в этом мире! И стоит хоть раз поддаться искушению… Пожалуй, я всё-таки поговорю с доктором Ллойдом о его медсестре.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>
