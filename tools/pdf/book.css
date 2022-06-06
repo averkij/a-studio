@@ -1,0 +1,571 @@
+/* Add your custom fonts here */
+@font-face {
+  font-family: Josefin Sans;
+  src: url("./fonts/JosefinSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: PT Serif;
+  font-weight: normal;
+  src: url("./fonts/PTSerif-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: Noto Sans SC;
+  font-weight: normal;
+  src: url("./fonts/NotoSansSC-Medium.otf");
+}
+
+@font-face {
+  font-family: Noto Sans JP;
+  font-weight: normal;
+  src: url("./fonts/NotoSansJP-Medium.otf");
+}
+
+@font-face {
+  font-family: Ma Shan Zheng;
+  font-weight: normal;
+  src: url("./fonts/MaShanZheng-Regular.ttf") format('truetype');
+}
+
+.font-zh {
+  font-family: 'Noto Sans SC' !important;
+}
+
+.font-zh-title {
+  font-family: 'Ma Shan Zheng' !important;
+}
+
+.font-jp {
+  font-family: 'Noto Sans JP' !important;
+}
+
+.font-jp-title {
+  font-family: 'Noto Sans JP' !important;
+}
+
+/* A4 format */
+@page {
+  margin: 1cm 1cm 2cm 1cm;
+  size: 210mm 297mm;
+}
+
+@page :left {
+  @bottom-left {
+    content: counter(page);
+    position: absolute;
+    z-index: -1;
+  }
+
+  @bottom-right {
+    content: string(heading);
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@page :right {
+  @bottom-left {
+    content: string(heading);
+    position: absolute;
+    z-index: -1;
+  }
+
+  @bottom-right {
+    content: counter(page);
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@page full {
+  @bottom-right {
+    content: none;
+  }
+
+  @bottom-left {
+    content: none;
+  }
+
+  background: black;
+  margin: 0;
+}
+
+@page :blank {
+  @bottom-right {
+    content: none;
+  }
+
+  @bottom-left {
+    content: none;
+  }
+}
+
+@page clean {
+  @bottom-right {
+    content: none;
+  }
+
+  @bottom-left {
+    content: none;
+  }
+}
+
+html {
+  counter-reset: h1-counter 1 h2-counter;
+  font-family: 'PT Serif';
+  font-size: 10pt;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  line-height: 2;
+  text-align: justify;
+}
+
+img {
+  display: block;
+  margin: 2em auto;
+  max-width: 70%;
+}
+
+h2 {
+  color: black;
+  counter-increment: h2-counter;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8em;
+  justify-content: flex-start;
+  margin: 0;
+  string-set: heading content();
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/* h2::before { */
+/* content: " "counter(h2-counter, upper-roman) " "; */
+/* display: block; */
+/* font-size: 1.2rem; */
+/* font-weight: normal; */
+/* line-height: 1; */
+/* margin-bottom: 20px; */
+/* } */
+
+section {
+  break-after: always;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+aside figure {
+  flex: none;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+aside img {
+  border: 0.4mm solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+  max-width: 14mm;
+}
+
+.character {
+  break-after: avoid;
+  margin: auto;
+  max-width: 14mm;
+}
+
+#authors {
+  font-family: 'Josefin Sans';
+  padding-top: 16em;
+  padding-left: 1em;
+  page: clean;
+  text-align: center;
+}
+
+#authors img {
+  display: block;
+  margin: auto;
+  width: 26%;
+}
+
+#authors p {
+  font-size: 2.2em;
+  margin: 2em 0 1em;
+  text-align: center;
+}
+
+#authors dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#authors dt {
+  display: block;
+  font-size: 0.8em;
+  line-height: 2rem;
+  width: 100%;
+}
+
+#authors dd {
+  margin: 0 0.5em;
+  padding: 0;
+}
+
+.contents {
+  page: clean;
+}
+
+.contents p {
+  font-size: 2em;
+}
+
+.contents ul {
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.contents li {
+  display: block;
+}
+
+.contents a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contents a::before {
+  content: target-counter(attr(href), h2-counter) '. 'target-text(attr(href));
+}
+
+.contents a::after {
+  content: target-counter(attr(href), page);
+  float: right;
+}
+
+.hidden {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.outro {
+  border-radius: 50% 50% 0 0 / 15mm 15mm 0 0;
+  display: block;
+  height: 90mm;
+  left: -30mm;
+  max-width: none;
+  object-fit: cover;
+  position: absolute;
+  top: 120mm;
+  width: 168mm;
+  z-index: -1;
+}
+
+.fullpage img {
+  bottom: 0;
+  height: 297mm;
+  left: 0;
+  margin: 0;
+  max-width: none;
+  object-fit: cover;
+  page: full;
+  position: absolute;
+  width: 210mm;
+  z-index: 1;
+}
+
+.fullpage:last-child {
+  break-before: left;
+}
+
+.title {
+  padding-top: 6em;
+  padding-left: 1em;
+  page: clean;
+  text-align: center;
+}
+
+.title .book-title {
+  font-size: 4em;
+  margin: 2em 0 1em;
+  text-align: center;
+}
+
+.title .book-author {
+  font-size: 2em;
+  margin: 2em 0 1em;
+  text-align: center;
+}
+
+/* Lingtrain styles */
+
+.par {
+  padding: 15px 10px;
+  /* text-indent: 10px; */
+}
+
+
+.cont {
+  margin: 0 150px;
+}
+
+.dt {
+  display: table;
+}
+
+.dt-row {
+  display: table-row;
+}
+
+
+.dt-row:nth-child(even):not(.header)>.dt-cell:not(.divider) {
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dt-cell {
+  display: table-cell;
+  /* width: 50% !important; */
+  /* word-break: break-word; */
+}
+
+.dt-w1 {
+  width: 50% !important;
+}
+
+.dt-w2 {
+  width: 50% !important;
+}
+
+.dt-cell-colspan {
+  display: table-caption;
+}
+
+.divider {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.divider-img {
+  width: 50px;
+  height: 50px;
+}
+
+.flag-img {
+  height: 50px;
+  width: 50px;
+  padding: 0 10px 0 0;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.s {
+  padding: 0 3px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lt-quote-text {
+  font-style: italic;
+  text-align: right;
+  font-size: 0.9em;
+}
+
+.lt-quote-name {
+  text-align: right;
+  font-size: 0.8em;
+}
+
+.lt-image {
+  max-height: 300px;
+  max-width: 800px;
+}
+
+.lt-title {
+  font-size: 52px;
+  text-align: center;
+}
+
+.lt-author {
+  font-size: 40px;
+  text-align: center;
+}
+
+.lt-footer {
+  padding: 20px 0;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+  color: white;
+  background: cornflowerblue;
+}
+
+.lt-header {
+  padding: 20px 0;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  background: cornflowerblue;
+}
+
+.sub-h2 {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 1;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sub-h2::after {
+  content: "•";
+  display: block;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 1;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.default-title-1 {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+.default-title-2 {
+  font-size: 1.1em;
+  margin: 1em 0 2.0em;
+  text-align: center;
+}
+
+/* ruby */
+
+r {
+  display: inline-block;
+  text-align: center !important;
+  margin: 4px -1px 0 -2px !important;
+  padding: 0 !important;
+  word-wrap: normal;
+  vertical-align: bottom !important;
+}
+
+r rp {
+  display: none;
+}
+
+r c,
+r f {
+  display: block;
+  text-align: center !important;
+  vertical-align: bottom !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+r f {
+  display: table-header-group;
+  font-size: 0.45em;
+  line-height: 1.5em;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+r c {
+  display: table-row-group;
+  font-size: 1.05em;
+  margin: 0 !important;
+  padding: 0 !important;
+  /* background: white; */
+}
+
+
+/* colors */
+
+.s.s0 {
+  background: #cfefd7;
+  color: black;
+}
+
+.s.s1 {
+  background: #fadce2;
+  color: black;
+}
+
+.s.s2 {
+  background: #cce7eb;
+  color: black;
+}
+
+.s.s3 {
+  background: #fefbd6;
+  color: black;
+}
+
+/* colors for Chinese Japanese text */
+/* .sf.s0 r c {
+  background: #cfefd7;
+  color: black;
+}
+
+.sf.s1 r c {
+  background: #fadce2;
+  color: black;
+}
+
+.sf.s2 r c {
+  background: #cce7eb;
+  color: black;
+}
+
+.sf.s3 r c {
+  background: #fefbd6;
+  color: black;
+} */
+
+/* colors for Chinese Japanese tips */
+.sf.s0 r f {
+  background: #cfefd7;
+  color: black;
+}
+
+.sf.s1 r f {
+  background: #fadce2;
+  color: black;
+}
+
+.sf.s2 r f {
+  background: #cce7eb;
+  color: black;
+}
+
+.sf.s3 r f {
+  background: #fefbd6;
+  color: black;
+}
