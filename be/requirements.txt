@@ -12,8 +12,8 @@ jinja2==2.11.2; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2
 joblib==0.16.0; python_version >= '3.6'
 markupsafe==1.1.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 nltk==3.5
-numpy==1.19.1
-packaging==20.4; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
+numpy==1.21.0
+packaging==21.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 pyparsing==2.4.7; python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'
 razdel==0.5.0
 regex==2020.7.14
@@ -24,13 +24,14 @@ scipy==1.5.2
 sentencepiece==0.1.91
 six==1.15.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'
 threadpoolctl==2.1.0; python_version >= '3.5'
-tokenizers==0.10.3
+tokenizers==0.12.1
 tqdm==4.48.2; python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'
-transformers==4.8.2
+transformers==4.16.1
 urllib3==1.25.10; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'
 werkzeug==1.0.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'
 xmltodict==0.12.0
 beautifulsoup4==4.9.3
+lxml==4.6.3
 
 #seaborn
 cycler==0.10.0
@@ -48,3 +49,7 @@ dateparser==1.0.0
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch==1.9.0+cpu
 sentence-transformers==2.0.0
+
+#furigana
+pypinyin==0.46.0
+pykakasi==2.2.1
