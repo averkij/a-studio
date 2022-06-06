@@ -4,7 +4,7 @@ WORKDIR /app
 
 #install dependencies
 COPY ./fe/package.json ./
-RUN npm install
+RUN npm install --force
 
 #main fe logic (docker optimization)
 COPY ./fe ./
