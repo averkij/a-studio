@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220526T135614Z</creationdate>
+    <paragraphs>34</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>113</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>113</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">O. Henry</s>
+      <s lang="ru">О. Генри</s>
+    </author>
+    <title>
+      <s lang="en">Transients In Arcadia</s>
+      <s lang="ru">В Аркадии проездом</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">There is a hotel on Broadway that has escaped discovery by the summer-resort promoters.</su>
+          <su lang="ru">На Бродвее есть отель, которого еще не успели обнаружить любители летних курортов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is deep and wide and cool.</su>
+          <su lang="ru">Он обширен и прохладен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Its rooms are finished in dark oak of a low temperature.</su>
+          <su lang="ru">Номера его отделаны темным дубом, холодным даже в полуденный зной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Home-made breezes and deep-green shrubbery give it the delights without the inconveniences of the Adirondacks.</su>
+          <su lang="ru">Ветерки домашнего изготовления и темно-зеленые живые изгороди дарят ему все прелести Адирондакских гор без присущих им неудобств.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One can mount its broad staircases or glide dreamily upward in its aerial elevators, attended by guides in brass buttons, with a serene joy that Alpine climbers have never attained.</su>
+          <su lang="ru">Ни одному альпинисту не дано изведать той безмятежной радости, какую испытывает человек, когда он взбирается по его широким лестницам или под бдительным оком опытного проводника с грудью, усаженной медными пуговицами, мечтательно уносится ввысь в одном из лифтов, точно в кабинке фуникулера.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There is a chef in its kitchen who will prepare for you brook trout better than the White Mountains ever served, sea food that would turn Old Point Comfort — "by Gad, sah!" — green with envy, and Maine venison that would melt the official heart of a game warden.</su>
+          <su lang="ru">Здешний повар готовит такую форель, какой вам не попробовать даже в Белых горах Невады, его омары и другие дары моря заставят позеленеть от зависти «Олд-Пойнт-Комфорт» («Да будь я проклят, сэр!»), а оленина из штата Мэн могла бы смягчить и чиновничье сердце старшего лесничего.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">A few have found out this oasis in the July desert of Manhattan.</su>
+          <su lang="ru">Этот оазис в пустыне июльского Манхэттена известен лишь избранным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">During that month you will see the hotel's reduced array of guests scattered luxuriously about in the cool twilight of — its lofty dining-room, gazing at one another across the snowy waste of unoccupied tables, silently congratulatory.</su>
+          <su lang="ru">И в течение июля немногочисленные гости отеля блаженствуют в прохладном сумраке величественного обеденного зала и созерцают друг друга через белоснежные пространства незанятых столиков, безмолвно радуясь своему уединению.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">Superfluous, watchful, pneumatically moving waiters hover near, supplying every want before it is expressed.</su>
+          <su lang="ru">Избыточный рай внимательных официантов на резиновом ходу спешит исполнить их малейшее желание еще до того, как оно будет высказано.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The temperature is perpetual April.</su>
+          <su lang="ru">Температура воздуха остается неизменно апрельской.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The ceiling is painted in water colors to counterfeit a summer sky across which delicate clouds drift and do not vanish as those of nature do to our regret.</su>
+          <su lang="ru">На потолке в нежных акварельных тонах изображено летнее небо, и по нему плывут прелестные облачка, которые, в отличие от настоящих, не огорчают нас своим безвозвратным исчезновением.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">The pleasing, distant roar of Broadway is transformed in the imagination of the happy guests to the noise of a waterfall filling the woods with its restful sound.</su>
+          <su lang="ru">Приятный отдаленный рев Бродвея в воображении счастливых гостей преображается в баюкающий рокот водопада под сенью леса.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At every strange footstep the guests turn an anxious ear, fearful lest their retreat be discovered and invaded by the restless pleasure-seekers who are forever hounding nature to her deepest lairs.</su>
+          <su lang="ru">Они тревожно прислушиваются к незнакомым шагам, томясь опасением, что их приют обнаружен и сейчас в него вторгнутся те беспокойные искатели удовольствий, что без устали выслеживают нетронутую природу в самых сокровенных ее убежищах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">Thus in the depopulated caravansary the little band of connoisseurs jealously bide themselves during the heated season, enjoying to the uttermost the delights of mountain and seashore that art and skill have gathered and served to them.</su>
+          <su lang="ru">Вот так каждый жаркий сезон горстка истинных знатоков ревниво прячется от посторонних глаз в опустевшем караван-сарае, сполна наслаждаясь прелестями гор и морского побережья, которые сервируют им здесь искусство и усердие.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">In this July came to the hotel one whose card that she sent to the clerk for her name to be registered read "Mme.</su>
+          <su lang="ru">В июле нынешнего года отель одарила своим присутствием «мадам Элоиза дАрси Бомон», как значилось на карточке, которую она послала портье для регистрации.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">Heloise D'Arcy Beaumont."</su>
+          <su lang="ru">Мадам Элоиза отвечала самым строгим требованиям отеля «Лотос».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Madame Beaumont was a guest such as the Hotel Lotus loved.</su>
+          <su lang="ru">Ей был присущ тонкий аристократизм, смягченный и оттененный истинной любезностью, которая тотчас превратила всех служащих отеля в ее рабов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She possessed the fine air of the elite, tempered and sweetened by a cordial graciousness that made the hotel employees her slaves.</su>
+          <su lang="ru">Когда она звонила, коридорные дрались за честь явиться к ней в номер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Bell-boys fought for the honor of answering her ring; the clerks, but for the question of ownership, would have deeded to her the hotel and its contents; the other guests regarded her as the final touch of feminine exclusiveness and beauty that rendered the entourage perfect.</su>
+          <su lang="ru">Только законы, охраняющие частную собственность, мешали портье признать ее единовластной владелицей отеля и всего, что в нем находилось. Для гостей же в ней воплотился тот завершающий штрих женственности, избранности и красоты, которого только не хватало отелю для полного совершенства.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">This super-excellent guest rarely left the hotel.</su>
+          <su lang="ru">Эта сверхидеальная гостья редко покидала отель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Her habits were consonant with the customs of the discriminating patrons of the Hotel Lotus.</su>
+          <su lang="ru">Ее привычки удивительно гармонировали с традициями взыскательных клиентов «Лотоса».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">To enjoy that delectable hostelry one must forego the city as though it were leagues away.</su>
+          <su lang="ru">Чтобы вполне насладиться благами этой изумительной гостиницы, необходимо игнорировать город, словно он находится от нее в десятках и десятках миль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">By night a brief excursion to the nearby roofs is in order; but during the torrid day one remains in the umbrageous fastnesses of the Lotus as a trout hangs poised in the pellucid sanctuaries of his favorite pool.</su>
+          <su lang="ru">Хороший тон разрешает краткое посещение соседнего увеселительного сада под покровом вечерней мглы. Но в дневную жару принято оставаться в тенистых пределах «Лотоса»— так форель неподвижно повисает под хрустальными сводами своей излюбленной заводи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">Though alone in the Hotel Lotus, Madame Beaumont preserved the state of a queen whose loneliness was of position only.</su>
+          <su lang="ru">Мадам Бомон держалась в отеле «Лотос» особняком, но ее одиночество было одиночеством королевы — всего лишь прерогативой высокого сана.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She breakfasted at ten, a cool, sweet, leisurely, delicate being who glowed softly in the dimness like a jasmine flower in the dusk.</su>
+          <su lang="ru">Она завтракала в десять— грациозное, томное, хрупкое создание, казалось, излучавшее в полутьме столового зала прохладный серебристый свет, словно цветок жасмина в сумерках.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">But at dinner was Madame's glory at its height.</su>
+          <su lang="ru">Но особенно великолепна была мадам Бомон за обедом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She wore a gown as beautiful and immaterial as the mist from an unseen cataract in a mountain gorge.</su>
+          <su lang="ru">Ее платье было чарующим и эфирным, как перламутровая дымка над горным ущельем, где низвергается невидимый водопад.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The nomenclature of this gown is beyond the guess of the scribe.</su>
+          <su lang="ru">Из чего было сшито это платье, автор сказать не берется.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Always pale-red roses reposed against its lace-garnished front.</su>
+          <su lang="ru">К его отделанному кружевом корсажу неизменно бывали приколоты бледно-красные розы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was a gown that the head-waiter viewed with respect and met at the door.</su>
+          <su lang="ru">Такие платья метрдотель почтительно встречает у самых дверей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You thought of Paris when you saw it, and maybe of mysterious countesses, and certainly of Versailles and rapiers and Mrs. Fiske and rouge-et-noir.</su>
+          <su lang="ru">При взгляде на него вашему воображению невольно рисовался Париж, а может быть, таинственные графини, и уж во всяком случае — Версаль, шпаги, миссис Фиск и рулетка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was an untraceable rumor in the Hotel Lotus that Madame was a cosmopolite, and that she was pulling with her slender white bands certain strings between the nations in the favor of Russia.</su>
+          <su lang="ru">В отеле «Лотос» неведомо как возник слух, что мадам Бомон принадлежит к космополитическим кругам и что ее тонкие белые пальцы дергают некие международные нити в пользу России.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Being a citizeness of the world's smoothest roads it was small wonder that she was quick to recognize in the refined purlieus of the Hotel Lotus the most desirable spot in America for a restful sojourn during the heat of midsummer.</su>
+          <su lang="ru">Так надо ли удивляться, что, привыкнув к самым ровным и гладким путям мира, эта его гражданка сумела по достоинству оценить утонченную элегантность отеля «Лотос», лучшего места во всей Америке для спокойного отдыха в летнюю жару.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">On the third day of Madame Beaumont's residence in the hotel a young man entered and registered himself as a guest.</su>
+          <su lang="ru">На третий день пребывания мадам Бомон в отеле туда явился и снял номер некий молодой человек.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His clothing — to speak of his points in approved order — was quietly in the mode; his features good and regular; his expression that of a poised and sophisticated man of the world.</su>
+          <su lang="ru">Его костюм (если перечислять достоинства вновь прибывшего в положенном порядке) был неброско модным, черты лица — красивыми и правильными, а их выражение — как раз таким, какое подобает человеку, привыкшему вращаться в высшем свете.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He informed the clerk that he would remain three or four days, inquired concerning the sailing of European steamships, and sank into the blissful inanition of the nonpareil hotel with the contented air of a traveller in his favorite inn.</su>
+          <su lang="ru">Он сообщил портье, что намерен пробыть тут дня три-четыре, спросил расписание пароходов, отплывающих в Европу, и погрузился в сладостную нирвану несравненного отеля с удовлетворенным видом путешественника, который добрался до любимой придорожной харчевни.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">The young man — not to question the veracity of the register — was Harold Farrington.</su>
+          <su lang="ru">Звали молодого человека — если не подвергать сомнению правдивость регистрационной книги — Гарольд Фаррингтон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He drifted into the exclusive and calm current of life in the Lotus so tactfully and silently that not a ripple alarmed his fellow-seekers after rest.</su>
+          <su lang="ru">Он вступил в медлительное струение жизни отеля «Лотос» столь тактично и бесшумно, что ни единый всплеск не потревожил слуха тех, кто, подобно ему, искал там тихого отдохновения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He ate in the Lotus and of its patronym, and was lulled into blissful peace with the other fortunate mariners.</su>
+          <su lang="ru">Он вкусил от творений шеф-повара и от цветка, который дал отелю его название, и, подобно остальным счастливым мореходам, предался баюкающей власти мирного покоя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In one day he acquired his table and his waiter and the fear lest the panting chasers after repose that kept Broadway warm should pounce upon and destroy this contiguous but covert haven.</su>
+          <su lang="ru">Всего за день он обзавелся собственным столиком, собственным официантом и опасениями, что пыхтящие орды любителей отдыха, от которых обливается потом Бродвей, ринутся в этот географически столь близкий, хотя и укромный приют, неся ему погибель.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">After dinner on the next day after the arrival of Harold Farrington Madame Beaumont dropped her handkerchief in passing out.</su>
+          <su lang="ru">Мистер Фаррингтон жил в отеле второй день, когда мадам Бомон, выходя из зала после обеда, уронила носовой платок.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mr. Farrington recovered and returned it without the effusiveness of a seeker after acquaintance.</su>
+          <su lang="ru">Мистер Фаррингтон поднял платок и вручил его мадам Бомон без тех экспансивных излияний, которые сопровождают попытку завязать знакомство.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">Perhaps there was a mystic freemasonry between the discriminating guests of the Lotus.</su>
+          <su lang="ru">Быть может, избранников, собравшихся под кровом отеля «Лотос», связывало некое мистическое сродство душ.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Perhaps they were drawn one to another by the fact of their common good fortune in discovering the acme of summer resorts in a Broadway hotel.</su>
+          <su lang="ru">А может быть, ощущение общности возникло из сознания, что фортуна равно улыбнулась им, приведя их в этот бродвейский курорт курортов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Words delicate in courtesy and tentative in departure from formality passed between the two.</su>
+          <su lang="ru">Мадам Бомон и мистер Фаррингтон обменялись словами, исполненными изысканной любезности и чуть заметного намека на возможность пренебречь сухими требованиями этикета.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And, as if in the expedient atmosphere of a real summer resort, an acquaintance grew, flowered and fructified on the spot as does the mystic plant of the conjuror.</su>
+          <su lang="ru">И как бы овеянное непринужденной атмосферой настоящего летнего курорта, знакомство это дало ростки, расцвело и принесло плоды в единый миг, точно апельсинное деревце при взмахе волшебной палочки в руках фокусника.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For a few moments they stood on a balcony upon which the corridor ended, and tossed the feathery ball of conversation.</su>
+          <su lang="ru">Они вышли на балкон, которым завершался коридор, и несколько минут перебрасывались воланом светской беседы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">"One tires of the old resorts," said Madame Beaumont, with a faint but sweet smile. "What is the use to fly to the mountains or the seashore to escape noise and dust when the very people that make both follow us there?"</su>
+          <su lang="ru">— Все эти старые курорты так надоедают,— сказала мадам Бомон со слабой, но прелестной улыбкой.— Какой смысл бежать в горы или на берег моря от шума и пыли, если люди, которые их поднимают, следуют за нами и туда?</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">"Even on the ocean," remarked Farrington, sadly, "the Philistines be upon you. The most exclusive steamers are getting to be scarcely more than ferry boats.</su>
+          <su lang="ru">— Даже океан уже больше не служит убежищем от плебеев,— печально изрек Фаррингтон.— Теперь даже самый фешенебельный пароход трудно отличить от парома.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Heaven help us when the summer resorter discovers that the Lotus is further away from Broadway than Thousand Islands or Mackinac."</su>
+          <su lang="ru">Да смилуется над нами небо, когда гиены летнего отдыха обнаружат, что «Лотос» находится куда дальше от Бродвея, чем Тысяча островов и Макинак.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">"I hope our secret will be safe for a week, anyhow," said Madame, with a sigh and a smile. "I do not know where I would go if they should descend upon the dear Lotus.</su>
+          <su lang="ru">— Надеюсь, наша тайна останется неприкосновенной еще неделю,— заметила мадам Бомон со вздохом и улыбкой.— Право, не представляю, где я могла бы укрыться, если бы они наводнили милый «Лотос».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I know of but one place so delightful in summer, and that is the castle of Count Polinski, in the Ural Mountains."</su>
+          <su lang="ru">Мне известно лишь одно место, столь же восхитительное летом,— замок графа Палинского среди Уральских гор.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">"I hear that Baden-Baden and Cannes are almost deserted this season," said Farrington. "Year by year the old resorts fall in disrepute.</su>
+          <su lang="ru">— Говорят, Баден-Баден и Канн в этом сезоне совсем обезлюдели,— сказал Фаррингтон.— Из года в год старые курорты все больше приходят в запустение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Perhaps many others, like ourselves, are seeking out the quiet nooks that are overlooked by the majority."</su>
+          <su lang="ru">Быть может, не мы одни ищем тихие приюты, неизвестные толпе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">"I promise myself three days more of this delicious rest," said Madame Beaumont. "On Monday the Cedric sails."</su>
+          <su lang="ru">— Я могу предаваться этому восхитительному отдыху еще три дня,— сказала мадам Бомон.—«Седрик» отплывает в понедельник.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">Harold Farrington's eyes proclaimed his regret.</su>
+          <su lang="ru">Глаза Гарольда Фаррингтона выразили всю глубину его сожаления.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">"I too must leave on Monday," he said, "but I do not go abroad."</su>
+          <su lang="ru">— Я также должен отбыть в понедельник,—сказал он.— Но не за границу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">Madame Beaumont shrugged one round shoulder in a foreign gesture.</su>
+          <su lang="ru">Мадам Бомон повела круглым плечом на иностранный манер.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">"One cannot bide here forever, charming though it may be.</su>
+          <su lang="ru">— Скрываться здесь вечно, увы, нельзя, хоть это и восхитительно!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The chateau has been in preparation for me longer than a month.</su>
+          <su lang="ru">Уже более месяца как chateau [замок (фр.)], заново отделанный, ждет меня.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Those house parties that one must give — what a nuisance!</su>
+          <su lang="ru">Устраивать загородные приемы — как это скучно!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But I shall never forget my week in the Hotel Lotus."</su>
+          <su lang="ru">Но я никогда не забуду этой недели в отеле «Лотос».</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">"Nor shall I," said Farrington in a low voice, and I shall never forgive the Cedric."</su>
+          <su lang="ru">— И я никогда не забуду,— сказал Фаррингтон вполголоса,— как никогда не прощу «Седрику».</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">On Sunday evening, three days afterward, the two sat at a little table on the same balcony.</su>
+          <su lang="ru">Вечером в воскресенье, три дня спустя, они сидели за маленьким столиком на том же балконе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A discreet waiter brought ices and small glasses of claret cup.</su>
+          <su lang="ru">Вышколенный официант, поставив перед ними мороженое и два бокала с крюшоном, тактично удалился.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">Madame Beaumont wore the same beautiful evening gown that she had worn each day at dinner. She seemed thoughtful.</su>
+          <su lang="ru">На мадам Бомон было то же чудесное вечернее платье, которое она ежедневно надевала к обеду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Near her hand on the table lay a small chatelaine purse.</su>
+          <su lang="ru">На столике рядом с ней лежал изящный кошелек с цепочкой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After she had eaten her ice she opened the purse and took out a one-dollar bill.</su>
+          <su lang="ru">Доев мороженое, она открыла кошелек и вынула бумажный доллар.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">"Mr. Farrington," she said, with the smile that had won the Hotel Lotus, "I want to tell you something.</su>
+          <su lang="ru">— Мистер Фаррингтон,— сказала она с той самой улыбкой, которая покорила отель «Лотос»,— мне надо вам кое-что рассказать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm going to leave before breakfast in the morning, because I've got to go back to my work.</su>
+          <su lang="ru">Утром я уеду еще до завтрака, потому что мне пора возвращаться на работу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm behind the hosiery counter at Casey's Mammoth Store, and my vacation's up at eight o'clock tomorrow.</su>
+          <su lang="ru">Я работаю в универсальном магазине Кейси, в чулочном отделе, и мой отпуск кончается завтра в восемь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That paper-dollar is the last cent I'll see till I draw my eight dollars salary next Saturday night.</su>
+          <su lang="ru">Этот доллар — все, что у меня осталось до следующей субботы. А получу я тогда восемь долларов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You're a real gentleman, and you've been good to me, and I wanted to tell you before I went.</su>
+          <su lang="ru">Вы настоящий джентльмен и были со мной таким хорошим, что я решила на прощанье рассказать вам правду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've been saving up out of my wages for a year just for this vacation.</su>
+          <su lang="ru">Я целый год во всем себя урезывала, чтобы скопить деньги на этот отпуск.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I wanted to spend one week like a lady if I never do another one.</su>
+          <su lang="ru">Мне хотелось хоть один раз недельку пожить как знатная леди.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I wanted to get up when I please instead of having to crawl out at seven every morning; and I wanted to live on the best and be waited on and ring bells for things just like rich folks do.</su>
+          <su lang="ru">Чтобы вставать, когда я пожелаю, а не вскакивать с постели каждый божий день в семь утра. И чтоб все было самым лучшим, и чтоб меня обслуживали, а я бы только звонила в звонок, как богатые дамы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now I've done it, and I've had the happiest time I ever expect to have in my life.</su>
+          <su lang="ru">Ну вот я и пожила так, и, наверное, такой счастливой недели у меня больше в жизни не будет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm going back to my work and my little hall bedroom satisfied for another year.</su>
+          <su lang="ru">Теперь я вернусь на работу и в свою комнатушку, но этой радости мне на год хватит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I wanted to tell you about it, Mr. Farrington, because I — I thought you kind of liked me, and I — I liked you.</su>
+          <su lang="ru">А я вам решила сказать все потому, мистер Фаррингтон, что я... что мне показалось, будто я вам нравлюсь, а вы... вы мне тоже нравитесь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But, oh, I couldn't help deceiving you up till now, for it was all just like a fairy tale to me.</su>
+          <su lang="ru">Наверное, надо сразу было сказать вам все начистоту, только я ведь жила точно в сказке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So I talked about Europe and the things I've read about in other countries, and made you think I was a great lady.</su>
+          <su lang="ru">Ну вот я и разговаривала про Европу и о том, о чем читала в книжках про разные страны, и делала перед вами вид, будто я графиня какая-нибудь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"This dress I've got on — it's the only one I have that's fit to wear — I bought from O'Dowd &amp; Levinsky on the installment plan."</su>
+          <su lang="ru">А это платье — другого приличного у меня и нет — я купила у ОДоуда и Лавинского в рассрочку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Seventy-five dollars is the price, and it was made to measure.</su>
+          <su lang="ru">Стоит оно семьдесят пять долларов и сшито по мерке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I paid $10 down, and they're to collect $1 a week till it's paid for.</su>
+          <su lang="ru">Я внесла наличными десять, а теперь буду отдавать им по доллару в неделю, пока не расплачусь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That'll be about all I have to say, Mr. Farrington, except that my name is Mamie Siviter instead of Madame Beaumont, and I thank you for your attentions.</su>
+          <su lang="ru">Вот и все, мистер Фаррингтон, кроме того только, что зовут меня не мадам Бомон, а Мэйми Сайвитер, и позвольте поблагодарить вас за ваше внимание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This dollar will pay the installment due on the dress to-morrow.</su>
+          <su lang="ru">Этот доллар пойдет завтра в первый взнос за платье.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I guess I'll go up to my room now."</su>
+          <su lang="ru">А теперь я, пожалуй, вернусь к себе в номер.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">Harold Farrington listened to the recital of the Lotus's loveliest guest with an impassive countenance.</su>
+          <su lang="ru">Гарольд Фаррингтон слушал исповедь лучшего украшения отеля «Лотос», но лицо его оставалось непроницаемым.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When she had concluded he drew a small book like a checkbook from his coat pocket.</su>
+          <su lang="ru">Когда девушка умолкла, он вытащил из кармана небольшую книжку, похожую на чековую.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He wrote upon a blank form in this with a stub of pencil, tore out the leaf, tossed it over to his companion and took up the paper dollar.</su>
+          <su lang="ru">Огрызком карандаша он что-то нацарапал на бланке, оторвал листок, придвинул его своей собеседнице и взял доллар.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">"I've got to go to work, too, in the morning," he said, "and I might as well begin now.</su>
+          <su lang="ru">— Мне тоже с утра на работу,—сказал он,—так можно начать и сейчас.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There's a receipt for the dollar instalment.</su>
+          <su lang="ru">Вот квитанция за взнос в один доллар.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've been a collector for O'Dowd &amp; Levinsky for three years.</su>
+          <su lang="ru">Я четвертый год работаю у ОДоуда и Лавинского сборщиком платежей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Funny, ain't it, that you and me both had the same idea about spending our vacation?</su>
+          <su lang="ru">А интересно, что мы с вами одинаково придумали, как провести отпуск, верно?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've always wanted to put up at a swell hotel, and I saved up out of my twenty per, and did it.</su>
+          <su lang="ru">Я давно прицеливался пожить в шикарном отеле, ну и откладывал из своих двадцати процентов комиссионных.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Say, Mame, how about a trip to Coney Saturday night on the boat — what?"</su>
+          <su lang="ru">Послушайте, Мэйми, а не прокатиться ли нам вечерком в субботу на Кони-Айленд? На пароходе?</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">The face of the pseudo Madame Heloise D'Arcy Beaumont beamed.</su>
+          <su lang="ru">Лицо лжемадам Элоизы дАрси Бомон просияло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">"Oh, you bet I'll go, Mr. Farrington.</su>
+          <su lang="ru">— Ну конечно, мистер Фаррингтон!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The store closes at twelve on Saturdays.</su>
+          <su lang="ru">По субботам магазин закрывается в двенадцать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I guess Coney'll be all right even if we did spend a week with the swells."</su>
+          <su lang="ru">Кони-Айленд — это тоже ничего, хоть мы и прожили неделю со всякой знатью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">Below the balcony the sweltering city growled and buzzed in the July night.</su>
+          <su lang="ru">Под балконом в духоте июльского вечера рычал и гремел изнывающий город.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Inside the Hotel Lotus the tempered, cool shadows reigned, and the solicitous waiter single-footed near the low windows, ready at a nod to serve Madame and her escort.</su>
+          <su lang="ru">Внутри отеля «Лотос» царил приятный прохладный сумрак, и услужливый официант неспешно прогуливался за стеклянной дверью, готовый по кивку выполнить любой заказ мадам Бомон и ее кавалера.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">At the door of the elevator Farrington took his leave, and Madame Beaumont made her last ascent.</su>
+          <su lang="ru">Фаррингтон распрощался с мадам Бомон у лифта, и она последний раз вознеслась в свой номер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But before they reached the noiseless cage be said: "Just forget that 'Harold Farrington,' will you?</su>
+          <su lang="ru">Но еще раньше, когда они подходили к бесшумной кабине, он сказал: — А про «Гарольда Фаррингтона» забудьте, ладно?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">McManus is the name — James McManus.</su>
+          <su lang="ru">Моя фамилия Мак-Манус, Джеймс Мак-Манус.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Some call me Jimmy."</su>
+          <su lang="ru">Некоторые называют меня Джимми.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">"Good-night, Jimmy," said Madame.</su>
+          <su lang="ru">— Спокойной ночи, Джимми,— сказала мадам Бомон.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

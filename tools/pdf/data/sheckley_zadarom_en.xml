@@ -1,0 +1,2115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220605T090812Z</creationdate>
+    <paragraphs>177</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>463</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>444</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Robert Sheckley</s>
+      <s lang="ru">Роберт Шекли</s>
+    </author>
+    <title>
+      <s lang="en">Something For Nothing</s>
+      <s lang="ru">Кое-что задаром</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">But had he heard a voice?</su>
+          <su lang="ru">Он как будто услышал чей-то голос.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He couldn’t be sure.</su>
+          <su lang="ru"> Но, может быть, ему просто почудилось?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Reconstructing it a moment later, Joe Collins knew he had been lying on his bed, too tired even to take his waterlogged shoes off the blanket. He had been staring at the network of cracks in the muddy yellow ceiling, watching water drip slowly and mournfully through.</su>
+          <su lang="ru">Стараясь припомнить, как всё это произошло, Джо Коллинз знал только, что он лежал на постели, слишком усталый, чтобы снять с одеяла ноги в насквозь промокших башмаках, и не отрываясь смотрел на расползшуюся по грязному жёлтому потолку паутину трещин — следил, как сквозь трещины медленно, тоскливо, капля за каплей просачивается вода.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">It must have happened then.</su>
+          <su lang="ru">Вот тогда, по-видимому, это и произошло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Collins caught a glimpse of metal beside his bed.</su>
+          <su lang="ru">Коллинзу показалось, будто что-то металлическое поблёскивает возле его кровати.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He sat up.</su>
+          <su lang="ru">Он приподнялся и сел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was a machine on the floor, where no machine had been.</su>
+          <su lang="ru">На полу стояла какая-то машина — там, где раньше никакой машины не было.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">In that first moment of surprise, Collins thought he heard a very distant voice say, "There!</su>
+          <su lang="ru">И когда Коллинз уставился на неё в изумлении, где-то далеко-далеко незнакомый голос произнёс: «Ну вот!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That does it!"</su>
+          <su lang="ru">Это уже всё!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He couldn’t be sure of the voice.</su>
+          <su lang="ru">А может быть, это ему и послышалось.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But the machine was undeniably there.</su>
+          <su lang="ru">Но машина, несомненно, стояла перед ним на полу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">Collins knelt to examine it.</su>
+          <su lang="ru">Коллинз опустился на колени, чтобы её обследовать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The machine was about three feet square and it was humming softly.</su>
+          <su lang="ru">Машина была похожа на куб — фута три в длину, в ширину и в высоту — и издавала негромкое жужжание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The crackle-grey surface was featureless, except for a red button in one corner and a brass plate in the centre.</su>
+          <su lang="ru">Серая зернистая поверхность её была совершенно одинакова со всех сторон, только в одном углу помещалась большая красная кнопка, а в центре — бронзовая дощечка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The plate said, CLASS-A UTILIZER, SERIES AA-1256432.</su>
+          <su lang="ru">На дощечке было выгравировано: «Утилизатор класса А, серия АА-1256432».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And underneath, WARNING! THIS MACHINE SHOULD BE USED ONLY BY CLASS-A RATINGS!</su>
+          <su lang="ru">А ниже стояло: «Этой машиной можно пользоваться только по классу А».</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">That was all.</su>
+          <su lang="ru">Вот и всё.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">There were no knobs, dials, switches or any of the other attachments Collins associated with machines.</su>
+          <su lang="ru">Никаких циферблатов, рычагов, выключателей — словом, никаких приспособлений, которые, по мнению Коллинза, должна иметь каждая машина.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Just the brass plate, the red button and the hum.</su>
+          <su lang="ru">Просто бронзовая дощечка, красная кнопка и жужжание.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">"Where did you come from?" Collins asked.</su>
+          <su lang="ru">— Откуда ты взялась? — спросил Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">The Class-A Utilizer continued to hum.</su>
+          <su lang="ru">Утилизатор класса А продолжал жужжать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He hadn’t really expected an answer.</su>
+          <su lang="ru">Коллинз, собственно говоря, и не ждал ответа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sitting on the edge of his bed, he stared thoughtfully at the Utilizer.</su>
+          <su lang="ru">Сидя на краю постели, он задумчиво рассматривал Утилизатор.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The question now was — what to do with it?</su>
+          <su lang="ru">Теперь вопрос сводился к следующему: что с ним делать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">He touched the red button warily, aware of his lack of experience with machines that fell from nowhere.</su>
+          <su lang="ru">Коллинз осторожно коснулся красной кнопки, прекрасно отдавая себе отчёт в том, что у него нет никакого опыта обращения с машинами, которые «падают с неба».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When he turned it on, would the floor open up?</su>
+          <su lang="ru">Что будет, если нажать эту кнопку? Провалится пол?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Would little green men drop from the ceiling?</su>
+          <su lang="ru">Или маленькие зелёные человечки прыгнут в комнату через потолок?</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">But he had slightly less than nothing to lose.</su>
+          <su lang="ru">Но чем он рискует?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He pressed the button lightly.</su>
+          <su lang="ru">Он легонько нажал на кнопку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">Nothing happened.</su>
+          <su lang="ru">Ничего не произошло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">"All right — do something," Collins said, feeling definitely let down.</su>
+          <su lang="ru">— Ну что ж, сделай что-нибудь, — сказал Коллинз, чувствуя себя несколько подавленным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">The Utilizer only continued to hum softly.</su>
+          <su lang="ru">Утилизатор продолжал всё так же тихонько жужжать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">Well, he could always pawn it.</su>
+          <su lang="ru">Ладно, во всяком случае, машину всегда можно заложить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Honest Charlie would give him at least a dollar for the metal.</su>
+          <su lang="ru">Честный Чарли даст ему не меньше доллара за один металл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He tried to lift the Utilizer.</su>
+          <su lang="ru">Коллинз попробовал приподнять Утилизатор.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It wouldn’t lift.</su>
+          <su lang="ru">Он не приподнимался.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He tried again, exerting all his strength, and succeeded in raising one corner an inch from the floor.</su>
+          <su lang="ru">Коллинз попробовал снова, поднатужился что было мочи, и ему удалось на дюйм-полтора приподнять над полом один угол машины.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He released it and sat down on the bed, breathing heavily.</su>
+          <su lang="ru">Он выпустил машину и, тяжело дыша, присел на кровать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">"You should have sent a couple of men to help me," Collins told the Utilizer.</su>
+          <su lang="ru">— Тебе бы следовало призвать мне на помощь парочку дюжих ребят, — сказал Коллинз Утилизатору.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Immediately, the hum grew louder and the machine started to vibrate.</su>
+          <su lang="ru">Жужжание тотчас стало значительно громче, и машина даже начала вибрировать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">Collins watched, but still nothing happened.</su>
+          <su lang="ru">Коллинз ждал, но по-прежнему ничего не происходило.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On a hunch, he reached out and stabbed the red button.</su>
+          <su lang="ru">Словно по какому-то наитию, он протянул руку и ткнул пальцем в красную кнопку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">Immediately, two bulky men appeared, dressed in rough work-clothes.</su>
+          <su lang="ru">Двое здоровенных мужчин в грубых рабочих комбинезонах тотчас возникли перед ним.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They looked at the Utilizer appraisingly.</su>
+          <su lang="ru">Они окинули Утилизатор оценивающим взглядом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One of them said, "Thank God, it’s the small model.</su>
+          <su lang="ru">Один из них сказал: — Слава тебе господи, это не самая большая модель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The big ones is brutes to get a grip on."</su>
+          <su lang="ru">За те, огромные, никак не ухватишься.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">The other man said, "It beats the marble quarry, don’t it?"</su>
+          <su lang="ru">Второй ответил: — Всё же это будет полегче, чем ковырять мрамор в каменоломне, как ты считаешь?</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">They looked at Collins, who stared back.</su>
+          <su lang="ru">Они уставились на Коллинза, который уставился на них.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Finally the first man said, "Okay, Mac, we ain’t got all day.</su>
+          <su lang="ru">Наконец первый сказал:</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">Where you want it?"</su>
+          <su lang="ru">— Ладно, приятель, мы не можем прохлаждаться тут целый день.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Who are you?"</su>
+          <su lang="ru">Куда тащить Утилизатор?</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">Collins managed to croak.</su>
+          <su lang="ru">— Кто вы такие? — прохрипел наконец Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">"The moving men.</su>
+          <su lang="ru">— Такелажники.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Do we look like the Vanizaggi Sisters?"</su>
+          <su lang="ru">Разве мы похожи на сестёр Ванзагги?</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">"But where do you come from?" Collins asked. "And why?"</su>
+          <su lang="ru">— Но откуда вы взялись? — спросил Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">"We come from the Powha Minnile Movers, Incorporated," the man said.</su>
+          <su lang="ru">— Мы от такелажной фирмы «Поуха минайл», — сказал один.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"And we came because you wanted movers, that’s why.</su>
+          <su lang="ru">— Пришли, потому что ты требовал такелажников.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now, where you want it?"</su>
+          <su lang="ru">Ну, куда тебе её?</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">"Go away," Collins said.</su>
+          <su lang="ru">— Уходите, — сказал Коллинз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I’ll call for you later."</su>
+          <su lang="ru">— Я вас потом позову.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">The moving men shrugged their shoulders and vanished.</su>
+          <su lang="ru">Такелажники пожали плечами и исчезли.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For several minutes, Collins stared at the spot where they had been.</su>
+          <su lang="ru">Коллинз минуты две смотрел туда, где они только что стояли.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then he stared at the Class-A Utilizer, which was humming softly again.</su>
+          <su lang="ru">Затем перевёл взгляд на Утилизатор класса А, который теперь снова мирно жужжал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">Utilizer?</su>
+          <su lang="ru">Утилизатор?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He could give it a better name.</su>
+          <su lang="ru">Он мог бы придумать для машины название и получше.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A Wishing Machine.</su>
+          <su lang="ru">Исполнительница Желаний, например.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">Collins was not particularly shocked.</su>
+          <su lang="ru">Нельзя сказать, чтобы Коллинз был уж очень потрясён.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When the miraculous occurs, only dull, workaday mentalities are unable to accept it.</su>
+          <su lang="ru">Когда происходит что-нибудь сверхъестественное, только тупые, умственно ограниченные люди не в состоянии этого принять.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Collins was certainly not one of those.</su>
+          <su lang="ru">Коллинз, несомненно, был не из их числа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had an excellent background for acceptance.</su>
+          <su lang="ru">Он был блестяще подготовлен к восприятию чуда.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">Most of his life had been spent wishing, hoping, praying that something marvellous would happen to him.</su>
+          <su lang="ru">Почти всю жизнь он мечтал, надеялся, молил судьбу, чтобы с ним случилось что-нибудь необычайное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In high school, he had dreamed of waking up some morning with an ability to know his homework without the tedious necessity of studying it.</su>
+          <su lang="ru">В школьные годы он мечтал, как проснётся однажды утром и обнаружит, что скучная необходимость учить уроки отпала, так как всё выучилось само собой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In the army, he had wished for some witch or jinn to change his orders, putting him in charge of the day room, instead of forcing him to do close order drill like everyone else.</su>
+          <su lang="ru">В армии он мечтал, что появятся какие-нибудь феи или джинны, подменят его наряд, и, вместо того чтобы маршировать в строю, он окажется дежурным по казарме.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">Out of the army, Collins had avoided work, for which he was psychologically unsuited.</su>
+          <su lang="ru">Демобилизовавшись, Коллинз долго отлынивал от работы, так как не чувствовал себя психологически подготовленным к ней.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had drifted around, hoping that some fabulously wealthy person would be induced to change his will, leaving him Everything.</su>
+          <su lang="ru">Он плыл по воле волн и снова мечтал, что какой-нибудь сказочно богатый человек возымеет желание изменить свою последнюю волю и оставит всё ему.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had never really expected anything to happen.</su>
+          <su lang="ru">По правде говоря, он, конечно, не ожидал, что какое-нибудь такое чудо может и в самом деле произойди.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But he was prepared when it did.</su>
+          <su lang="ru">Но когда оно всё-таки произошло, он уже был к нему подготовлен.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">"I’d like a thousand dollars in small unmarked bills," Collins said cautiously.</su>
+          <su lang="ru">— Я бы хотел иметь тысячу долларов мелкими бумажками с незарегистрированными номерами, — боязливо произнёс Коллинз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When the hum grew louder, he pressed the button.</su>
+          <su lang="ru">Когда жужжание усилилось, он нажал кнопку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In front of him appeared a large mound of soiled singles, five and ten dollar bills.</su>
+          <su lang="ru">Большая куча грязных пяти — и десятидолларовых бумажек выросла перед ним.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were not crisp, but they certainly were money.</su>
+          <su lang="ru">Это не были новенькие, шуршащие банкноты, но это, бесспорно, были деньги.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">Collins threw a handful in the air and watched it settle beautifully to the floor. He lay on his bed and began making plans.</su>
+          <su lang="ru">Коллинз подбросил вверх целую пригоршню бумажек и смотрел, как они, красиво кружась, медленно опускаются на пол. Потом снова улёгся на постель и принялся строить планы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">First, he would get the machine out of New York — upstate, perhaps — some place where he wouldn’t be bothered by nosy neighbours.</su>
+          <su lang="ru">Прежде всего надо вывезти машину из Нью-Йорка — куда-нибудь на север штата, в тихое местечко, где любопытные соседи не будут совать к нему свой нос.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The income tax would be tricky on this sort of thing.</su>
+          <su lang="ru">При таких обстоятельствах, как у него, подоходный налог может стать довольно деликатной проблемой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Perhaps, after he got organised, he should go to Central America, or …</su>
+          <su lang="ru">А впоследствии, когда всё наладится, можно будет перебраться в центральные штаты или…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was a suspicious noise in the room.</su>
+          <su lang="ru">В комнате послышался какой-то подозрительный шум.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">Collins leaped to his feet.</su>
+          <su lang="ru">Коллинз вскочил на ноги.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A hole was opening in the wall, and someone was forcing his way through.</su>
+          <su lang="ru">В стене образовалось отверстие, и кто-то с шумом ломился в эту дыру.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">"Hey, I didn’t ask you anything!"</su>
+          <su lang="ru">— Эй!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Collins told the machine.</su>
+          <su lang="ru">Я у тебя ничего не просил! — крикнул Коллинз машине.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">The hole grew larger, and a large, red-faced man was half-way through, pushing angrily at the hole.</su>
+          <su lang="ru">Отверстие в стене расширялось. Показался грузный краснолицый, мужчина, который сердито старался пропихнуться в комнату и уже наполовину вылез из стены.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">At that moment, Collins remembered that machines usually have owners.</su>
+          <su lang="ru">Коллинз внезапно сообразил, что все машины, как правило, кому-нибудь принадлежат.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Anyone who owned a wishing machine wouldn’t take kindly to having it gone.</su>
+          <su lang="ru">Любому владельцу Исполнитель Исполнительницы Желаний не понравится, если машина пропадёт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He would go to any lengths to recover it. Probably, he wouldn’t stop short of – "Protect me!"</su>
+          <su lang="ru">И он пойдёт на всё, чтобы вернуть её себе, Он может не остановиться даже перед…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Collins shouted at the Utilizer, and stabbed the red button.</su>
+          <su lang="ru">— Защити меня! — крикнул Коллинз Утилизатору и вонзил палец в красную кнопку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">A small, bald man in loud pyjamas appeared, yawning sleepily.</su>
+          <su lang="ru">Зевая, явно спросонок, появился маленький лысый человечек в яркой пижаме.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">"Sanisa Leek, Temporal Wall Protection Service," he said, rubbing his eyes.</su>
+          <su lang="ru">— Временная служба охраны стен «Саниса Лиик», — сказал он, протирая глаза.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I’m Leek.</su>
+          <su lang="ru">— Я — Лиик.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What can I do for you?"</su>
+          <su lang="ru">Чем могу быть вам полезен?</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">"Get him out of here!" Collins screamed.</su>
+          <su lang="ru">— Уберите его отсюда! — взвизгнул Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">The red-faced man, waving his arms wildly, was almost through the hole.</su>
+          <su lang="ru">Краснолицый, дико размахивая руками, уже почти совсем вылез из стены.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Leek found a bit of bright metal in his pyjamas pocket.</su>
+          <su lang="ru">Лиик вынул из кармана пижамы кусочек блестящего металла.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The red-faced man shouted, "Wait!</su>
+          <su lang="ru">Краснолицый закричал: — Постой!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You don’t understand!</su>
+          <su lang="ru">Ты не понимаешь!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That man —" Leek pointed his piece of metal.</su>
+          <su lang="ru">Этот малый… Лиик направил на него свой кусочек металла.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The red-faced man screamed and vanished.</su>
+          <su lang="ru">Краснолицый взвизгнул и исчез.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In another moment the hole had vanished too.</su>
+          <su lang="ru">Почти тотчас отверстие в стене тоже пропало.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">"Did you kill him?" Collins asked.</su>
+          <su lang="ru">— Вы убили его? — спросил Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">"Of course not," Leek said, putting away the bit of metal.</su>
+          <su lang="ru">— Разумеется, нет, — ответил Лиик, пряча в карман кусочек металла.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I just veered him back through his glommatch.</su>
+          <su lang="ru">— Я просто повернул его вокруг оси.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He won’t try that way again."</su>
+          <su lang="ru">Тут он больше не полезет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">"You mean he’ll try some other way?" Collins asked.</su>
+          <su lang="ru">— Вы хотите сказать, что он будет искать другие пути? — спросил Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">"It’s possible," Leek said.</su>
+          <su lang="ru">— Не исключено, — сказал Лиик.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"He could attempt a micro-transfer, or even an animation."</su>
+          <su lang="ru">— Он может испробовать микротрансформацию или даже одушевление.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He looked sharply at Collins.</su>
+          <su lang="ru">— Лиик пристально, испытующе поглядел на Коллинза.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"This is your Utilizer, isn’t it?"</su>
+          <su lang="ru">— А это ваш Утилизатор?</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">"Of course," Collins said, starting to perspire.</su>
+          <su lang="ru">— Ну, конечно, — сказал Коллинз, покрываясь испариной.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">"And you’re an A-rating?"</su>
+          <su lang="ru"> — А вы по классу А?</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">"Naturally," Collins told him.</su>
+          <su lang="ru"> — А то как же? — сказал Коллинз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"If I wasn’t, what would I be doing with a Utilizer?"</su>
+          <su lang="ru"> — Иначе на что бы мне эта машина?</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">"No offence," Leek said drowsily, "just being friendly."</su>
+          <su lang="ru">— Не обижайтесь, — сонно произнёс Лиик. — Это я по-дружески.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He shook his head slowly.</su>
+          <su lang="ru">— Он медленно покачал головой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"How you A’s get around!</su>
+          <su lang="ru">— И куда только вашего брата по классу А не заносит?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I suppose you’ve come back here to do a history book?"</su>
+          <su lang="ru">Зачем вы сюда вернулись? Верно, пишете какой-нибудь исторический роман?</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">Collins just smiled enigmatically.</su>
+          <su lang="ru">Коллинз только загадочно улыбнулся в ответ.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">"I’ll be on my way," Leek said, yawning copiously.</su>
+          <su lang="ru">— Ну, мне надо спешить дальше, — сказал Лиик, зевая во весь рот.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"On the go, night and day.</su>
+          <su lang="ru">— День и ночь на ногах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’d be better off in a quarry."</su>
+          <su lang="ru">В каменоломне было куда лучше.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">And he vanished in the middle of a yawn.</su>
+          <su lang="ru">И он исчез, не закончив нового зевка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="en">Rain was still beating against the ceiling.</su>
+          <su lang="ru">Дождь всё ещё шёл, а с потолка капало.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Across the airshaft, the snoring continued, undisturbed.</su>
+          <su lang="ru">Из вентиляционной шахты доносилось чьё-то мирное похрапывание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Collins was alone again, with the machine.</su>
+          <su lang="ru">Коллинз снова был один на один со своей машиной.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">And with a thousand dollars in small bills scattered around the floor.</su>
+          <su lang="ru">И с тысячью долларов в мелках бумажках, разлетевшихся по всему полу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He patted the Utilizer affectionately.</su>
+          <su lang="ru">Он нежно похлопал Утилизатор.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Those A-ratings had it pretty good.</su>
+          <su lang="ru">Эти самые — по классу А — неплохо его сработали.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Want something? Just ask for it and press a button.</su>
+          <su lang="ru">Захотелось чего-нибудь — достаточно произвести вслух и нажать кнопку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Undoubtedly, the real owner missed it.</su>
+          <su lang="ru">Понятно, что настоящий владелец тоскует по ней.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">Leek had said that the man might try to get in some other way.</su>
+          <su lang="ru">Лиик сказал, что, быть может, краснолицый будет пытаться завладеть ею другим путём.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What way?</su>
+          <su lang="ru">А каким?</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">What did it matter?</su>
+          <su lang="ru">Да не всё ли равно?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Collins gathered up the bills, whistling softly.</su>
+          <su lang="ru">Тихонько насвистывая, Коллинз стал собирать деньги.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As long as he had the wishing machine, he could take care of himself.</su>
+          <su lang="ru">Пока у него эта машина, он себя в обиду не даст.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">The next few days marked a great change in Collins’s fortunes.</su>
+          <su lang="ru">В последующие несколько дней в образе жизни Коллинза произошла резкая перемена.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">With the aid of the Powha Minnile Movers he took the Utilizer to upstate New York.</su>
+          <su lang="ru">С помощью такелажников фирмы «Поуха минайл» он переправил Утилизатор на север.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There, he bought a medium-sized mountain in a neglected corner of the Adirondacks. Once the papers were in his hands, he walked to the centre of his property, several miles from the highway.</su>
+          <su lang="ru">Там он купил небольшую гору в пустынной части Аднрондакского горного массива и, получив купчую на руки, углубился в свои владения на несколько миль от шоссе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The two movers, sweating profusely, lugged the Utilizer behind him, cursing monotonously as they broke through the dense underbrush.</su>
+          <su lang="ru">Двое такелажников, обливаясь потом, тащили Утилизатор и однообразно бранились, когда приходилось продираться сквозь заросли.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">"Set it down here and scram," Collins said.</su>
+          <su lang="ru">— Поставьте его здесь и убирайтесь, — сказал Коллинз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The last few days had done a lot for his confidence.</su>
+          <su lang="ru">За последние дни его уверенность в себе чрезвычайно возросла.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">The moving men sighed wearily and vanished.</su>
+          <su lang="ru">Такелажники устало вздохнули и испарились.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Collins looked around.</su>
+          <su lang="ru">Коллинз огляделся по сторонам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On all sides, as far as he could see, was closely spaced forest of birch and pine.</su>
+          <su lang="ru">Кругом, насколько хватало глаз, стояли густые сосновые в берёзовые леса.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The air was sweet and damp.</su>
+          <su lang="ru">Воздух был влажен и душист.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Birds were chirping merrily in the treetops, and an occasional squirrel darted by.</su>
+          <su lang="ru">В верхушках деревьев весело щебетали птицы. Порой среди ветвей мелькала белка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">Nature!</su>
+          <su lang="ru">Природа!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had always loved nature.</su>
+          <su lang="ru">Коллинз всегда любил природу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This would be the perfect spot to build a large, impressive house with a swimming pool, tennis courts and, possibly, a small airport.</su>
+          <su lang="ru">Вот отличное место для постройки просторного внушительного дома с плавательным бассейном, теннисным кортом и, быть может, маленьким аэродромом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="en">"I want a house," Collins stated firmly, and pushed the red button.</su>
+          <su lang="ru">— Я хочу дом, — твёрдо проговорил Коллинз и нажал красную кнопку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="en">A man in a neat grey business suit and pince-nez appeared.</su>
+          <su lang="ru">Появился человек в аккуратном деловом сером костюме и в пенсне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="en">"Yes, sir," he said, squinting at the trees, "but you really must be more specific.</su>
+          <su lang="ru">— Конечно, сэр, — сказал он, косясь прищуренным глазом на деревья, — но вам всё-таки следует несколько подробнее развить свою мысль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Do you want something classic, like a bungalow, ranch, split-level, mansion, castle or palace?</su>
+          <su lang="ru">Хотите ли вы что-нибудь в классическом стиле вроде бунгало, ранчо, усадебного дома, загородного особняка, замка, дворца?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Or primitive, like an igloo or hut?</su>
+          <su lang="ru">Или что-нибудь примитивное, на манер шалаша или иглу?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Since you are an A, you could have something up-to-the-minute, like a semi face, an Extended New or a Sunken Miniature."</su>
+          <su lang="ru">По классу А вы можете построить себе и что-нибудь ультрасовременное, например дом с полуфасадом, или здание в духе Обтекаемой Протяжённости, или дворец в стиле Миниатюрной Пещеры.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="en">"Huh?" Collins said.</su>
+          <su lang="ru">— Как вы оказали? — переспросил Коллинз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I don’t know.</su>
+          <su lang="ru">— Я не знаю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What would you suggest?"</su>
+          <su lang="ru">А что бы вы посоветовали?</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="en">"Small mansion," the man said promptly.</su>
+          <su lang="ru">— Небольшой загородный особняк, — не задумываясь ответил агент.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"They usually start with that."</su>
+          <su lang="ru">— Они, как правило, всегда начинают с этого.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="en">"They do?"</su>
+          <su lang="ru">— Неужели?</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="en">"Oh, yes.</su>
+          <su lang="ru">— О, да.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Later, they move to a warm climate and build a palace."</su>
+          <su lang="ru">А потом перебираются в более тёплый климат и строят себе дворцы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="en">Collins wanted to ask more questions, but he decided against it.</su>
+          <su lang="ru">Коллинз хотел спросить ещё что-то, но передумал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Everything was going smoothly.</su>
+          <su lang="ru">Всё шло как по маслу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">These people thought he was an A, and the true owner of the Utilizer.</su>
+          <su lang="ru">Эти люди считали, что он — класс А и настоящий владелец Утилизатора.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was no sense in disenchanting them.</su>
+          <su lang="ru">Не было никакого смысла разочаровывать их.</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="en">"You take care of it all," he told the man.</su>
+          <su lang="ru">— Позаботьтесь, чтоб всё было в порядке, — сказал он.</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence>
+          <su lang="en">"Yes, sir," the man said.</su>
+          <su lang="ru">— Конечно, сэр, — сказал тот.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I usually do."</su>
+          <su lang="ru">— Это моя обязанность.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="en">The rest of the day, Collins reclined on a couch and drank iced beverages while the Maxima Olph Construction Company materialised equipment and put up his house.</su>
+          <su lang="ru">Остаток дня Коллинз провёл, возлежа на кушетке и потягивая ледяной напиток, в то время как строительная контора «Максимо олф» материализовала необходимые строительные материалы и возводила дом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="en">It was a low-slung affair of some twenty rooms, which Collins considered quite modest under the circumstances.</su>
+          <su lang="ru">Получилось длинное приземистое сооружение из двадцати комнат, показавшееся Коллинзу в его изменившихся обстоятельствах крайне скромным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was built only of the best materials, from a design of Mig of Degma, interior by Towige, a Mula swimming pool and formal gardens by Vierien.</su>
+          <su lang="ru">Дом был построен из наилучших материалов по проекту знаменитого Мига из Дегмы; интерьер был выполнен Тоуиджем; при доме имелись муловский плавательный бассейн и английский парк, разбитый по эскизу Виериена.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="en">By evening, it was completed, and the small army of workmen packed up their equipment and vanished.</su>
+          <su lang="ru">К вечеру всё было закончено, и небольшая строительная бригада сложила свои инструменты и испарилась.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="en">Collins allowed his chef to prepare a light supper for him.</su>
+          <su lang="ru">Коллинз повелел своему повару приготовить лёгкий ужин.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Afterward, he sat in his large, cool living-room to think the whole thing over.</su>
+          <su lang="ru">Потом он уселся с сигарой в просторной прохладной гостиной и стал перебирать в уме недавние события.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In front of him, humming gently, sat the Utilizer.</su>
+          <su lang="ru">Напротив него на полу, мелодично жужжа, стоял Утилизатор.</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="en">Collins lighted a cheroot and sniffed the aroma. First of all, he rejected any supernatural explanations.</su>
+          <su lang="ru">Прежде всего Коллинз решительно отверг всякие сверхъестественные объяснения случившегося.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There were no demons or devils involved in this.</su>
+          <su lang="ru">Разные там духи или демоны были тут совершенно ни при чём.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His house had been built by ordinary human beings, who swore and laughed and cursed like human beings.</su>
+          <su lang="ru">Его дом выстроили самые обыкновенные человеческие существа, которые смеялись, божились, сквернословили, как всякие люди.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer was simply a scientific gadget, which worked on principles he didn’t understand or care to understand.</su>
+          <su lang="ru">Утилизатор был просто хитроумным научным изобретением, механизм которого был ему неизвестен и ознакомиться с которым он не стремился.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="en">Could it have come from another planet?</su>
+          <su lang="ru">Мог ли Утилизатор попасть к нему с другой планеты?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Not likely.</su>
+          <su lang="ru">Непохоже.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They wouldn’t have learned English just for him.</su>
+          <su lang="ru">Едва ли там стали бы ради него изучать английский язык.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="en">The Utilizer must have come from the Earth’s future.</su>
+          <su lang="ru">Утилизатор, по-видимому, попал к нему из Будущего.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But how?</su>
+          <su lang="ru">Но как?</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence>
+          <su lang="en">Collins leaned back and puffed his cheroot.</su>
+          <su lang="ru">Коллинз откинулся на спинку кресла и задымил сигарой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Accidents will happen, he reminded himself.</su>
+          <su lang="ru">Мало ли что бывает, сказал он себе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why couldn’t the Utilizer have just slipped into the past?</su>
+          <su lang="ru">Разве Утилизатор не мог просто провалиться в Прошлое?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After all, it could create something from nothing, and that was much more complicated.</su>
+          <su lang="ru">Может же он создавать всякие штуки из ничего, а ведь это куда труднее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="en">What a wonderful future it must be, he thought.</su>
+          <su lang="ru">Как же, должно быть, прекрасно это Будущее, думал Коллинз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Wishing machines!</su>
+          <su lang="ru">Машины — исполнительницы желаний!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">How marvellously civilised!</su>
+          <su lang="ru">Какие достижения цивилизации!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All a person had to do was think of something.</su>
+          <su lang="ru">Всё, что от вас требуется, — это только пожелать себе чего-нибудь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Presto!</su>
+          <su lang="ru">Просто!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There it was.</su>
+          <su lang="ru">Вот, пожалуйста!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In time, perhaps, they’d eliminate the red button.</su>
+          <su lang="ru">Со временем они, вероятно, упразднят и красную кнопку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then there’d be no manual labour involved.</su>
+          <su lang="ru">Тогда всё будет происходить без малейшей затраты мускульной энергии.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="en">Of course, he’d have to watch his step.</su>
+          <su lang="ru">Конечно, он должен быть очень осторожен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was still the owner — and the rest of the A’s. They would try to take the machine from him.</su>
+          <su lang="ru">Ведь всё ещё существуют законный владелец машины и остальные представители класса А. Они будут пытаться отнять у него машину.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Probably, they were a hereditary clique …</su>
+          <su lang="ru">Возможно, это фамильная реликвия…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A movement caught the edge of his eye and he looked up.</su>
+          <su lang="ru">Краем глаза он уловил какое-то движение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer was quivering like a leaf in a gale.</su>
+          <su lang="ru">Утилизатор дрожал, словно сухой лист на ветру.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="en">Collins walked up to it, frowning blackly.</su>
+          <su lang="ru">Мрачно нахмурясь, Коллинз подошёл к нему.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A faint mist of steam surrounded the trembling Utilizer.</su>
+          <su lang="ru">Лёгкая дымка пара обволакивала вибрирующий Утилизатор.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It seemed to be overheating.</su>
+          <su lang="ru">Было похоже, что он перегрелся.</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="en">Could he have overworked it?</su>
+          <su lang="ru">Неужели он дал ему слишком большую нагрузку?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Perhaps a bucket of water …</su>
+          <su lang="ru">Может быть, ушат холодной воды…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then he noticed that the Utilizer was perceptibly smaller.</su>
+          <su lang="ru">Тут ему бросилось в глаза, что Утилизатор заметно поубавился в размерах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was no more than two feet square and shrinking before his eyes.</su>
+          <su lang="ru">Теперь каждое из его трех измерений не превышало двух футов, и он продолжал уменьшаться прямо-таки на глазах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence>
+          <su lang="en">The owner!</su>
+          <su lang="ru">Владелец?!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Or perhaps the A’s!</su>
+          <su lang="ru">Или, может быть, эти — из класса А?!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This must be the micro-transfer that Leek had talked about.</su>
+          <su lang="ru">Вероятно, это и есть микротрансформацая, о которой говорил Лиик.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If he didn’t do something quickly, Collins knew, his wishing machine would dwindle to nothingness and disappear.</su>
+          <su lang="ru">Если тотчас чего-нибудь не предпринять, сообразил Коллинз, его Исполнитель Желаний станет совсем невидим.</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="en">"Leek Protection Services," Collins snapped.</su>
+          <su lang="ru">— Охранная служба «Лиик»! — выкрикнул Коллинз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He punched the button and withdrew his hand quickly.</su>
+          <su lang="ru">Он надавил на кнопку и поспешно отдёрнул руку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The machine was very hot.</su>
+          <su lang="ru">Машина сильно накалилась.</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="en">Leek appeared in a corner of the room, wearing slacks and a sports shirt, and carrying a golf club.</su>
+          <su lang="ru">Лиик, в гольфах, спортивной рубашке и с клюшкой в руках появился в углу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="en">"Must I be disturbed every time I —"</su>
+          <su lang="ru">— Неужели каждый раз, как только я…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Do something!" Collins shouted, pointing to the Utilizer, which was now only a foot square and glowing a dull red.</su>
+          <su lang="ru">— Сделай что-нибудь! — воскликнул Коллинз, указывая на Утилизатор, который стал уже в фут высотой и раскалился докрасна.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="en">"Nothing I can do," Leek said.</su>
+          <su lang="ru">— Ничего я не могу сделать, — сказал Лиик.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Temporal wall is all I’m licensed for.</su>
+          <su lang="ru">— У меня патент только на возведение временных Стен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You want the microcontrol people."</su>
+          <su lang="ru">Вам нужно обратиться в Микроконтроль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He hefted his golf club and was gone.</su>
+          <su lang="ru">— Он помахал ему своей клюшкой — и был таков.</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence>
+          <su lang="en">"Microcontrol," Collins said, and reached for the button.</su>
+          <su lang="ru">— Микроконтроль! — заорал Коллинз и потянулся к кнопке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He withdrew his hand hastily.</su>
+          <su lang="ru">Но тут же отдёрнул руку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer was only about four inches on a side now and glowing a hot cherry red.</su>
+          <su lang="ru">Кубик Утилизатора не превышал теперь четырех дюймов. Он стал вишнёво-красным и весь светился.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He could barely see the button, which was the size of a pin.</su>
+          <su lang="ru">Кнопка, уменьшившаяся до размеров булавочной головки, была почти неразличима.</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence>
+          <su lang="en">Collins whirled around, grabbed a cushion and punched down.</su>
+          <su lang="ru">Коллинз обернулся, схватил подушку, навалился на машину и надавил кнопку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence>
+          <su lang="en">A girl with horn-rimmed glasses appeared, note-book in hand, pencil poised.</su>
+          <su lang="ru">Появилась девушка в роговых очках, с блокнотом в руке и карандашом, наделённым на блокнот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="95">
+        <sentence>
+          <su lang="en">"With whom did you wish to make an appointment?" she asked sedately.</su>
+          <su lang="ru">— Кого вы хотите пригласить? — невозмутимо спросила она.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence>
+          <su lang="en">"Get me help fast!" Collins roared, watching his precious Utilizer grow smaller and smaller.</su>
+          <su lang="ru">— Скорей, помогите мне! — завопил Коллинз, с ужасом глядя, как его бесценный Утилизатор делается всё меньше и меньше.</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence>
+          <su lang="en">"Mr. Vergon is out to lunch," the girl said, biting her pencil thoughtfully.</su>
+          <su lang="ru">— Мистера Вергона нет на месте, он обедает, — сказала девушка, задумчиво покусывая карандаш.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"He’s de-zoned himself.</su>
+          <su lang="ru">— Он объявил себя вне предела досягаемости.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can’t reach him."</su>
+          <su lang="ru">Я не могу его вызвать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence>
+          <su lang="en">"Who can you reach?"</su>
+          <su lang="ru">— А кого вы можете вызвать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence>
+          <su lang="en">She consulted her note-book.</su>
+          <su lang="ru">Она заглянула в блокнот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="100">
+        <sentence>
+          <su lang="en">"Mr. Vis is in the Dieg Continuum and Mr. Elgis is doing field work in Paleolithic Europe.</su>
+          <su lang="ru">— Мистер Вис сейчас в Прошедшем Сослагательном, а мистер Илгис возводит оборонительные сооружения в Палеолетической Европе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If you’re really in a rush, maybe you’d better call Transferpoint Control.</su>
+          <su lang="ru">Если вы очень спешите, может быть, вам лучше обратиться в Транзит-Контроль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They’re a smaller outfit, but —"</su>
+          <su lang="ru">Это небольшая фирма, но они…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Transferpoint Control.</su>
+          <su lang="ru">— Транзит-Контроль!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Okay — scram."</su>
+          <su lang="ru">Ладно, исчезни!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He turned his full attention to the Utilizer and stabbed down on it with the scorched pillow.</su>
+          <su lang="ru">— Коллинз сосредоточил всё своё внимание на Утилизаторе и придавил его дымящейся подушкой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nothing happened.</su>
+          <su lang="ru">Ничего не последовало.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer was barely half an inch square, and Collins realised that the cushion hadn’t been able to depress the almost invisible button.</su>
+          <su lang="ru">Утилизатор был теперь едва ли больше кубического дюйма, и Коллинз понял, что сквозь подушку ему не добраться до ставшей почти невидимой кнопки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence>
+          <su lang="en">For a moment Collins considered letting the Utilizer go.</su>
+          <su lang="ru">У него мелькнула было мысль махнуть рукой на Утилизатор.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Maybe this was the time.</su>
+          <su lang="ru">Может быть, уже пора.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He could sell the house, the furnishings, and still be pretty well off …</su>
+          <su lang="ru">Можно продать дом, обстановку, получится довольно кругленькая сумма…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No!</su>
+          <su lang="ru">Нет!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He hadn’t wished for anything important yet!</su>
+          <su lang="ru">Он ещё не успел пожелать себе ничего по настоящему значительного!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No one was going to take it from him without a struggle.</su>
+          <su lang="ru">И не откажется от этой возможности без борьбы!</su>
+        </sentence>
+      </p>
+      <p type="text" id="102">
+        <sentence>
+          <su lang="en">He forced himself to keep his eyes open as he stabbed the white-hot button with a rigid forefinger.</su>
+          <su lang="ru">Стараясь не зажмуривать глаза, он ткнул в раскалённую добела кнопку негнущимся указательным пальцем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="103">
+        <sentence>
+          <su lang="en">A thin, shabbily dressed old man appeared, holding something that looked like a gaily coloured Easter egg.</su>
+          <su lang="ru">Появился тощий старик в потрёпанной одежде.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He threw it down. The egg burst and an orange smoke billowed out and was sucked into the infinitesimal Utilizer.</su>
+          <su lang="ru">В руке у него было нечто вроде ярко расписанного пасхального яйца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A great billow of smoke went up, almost choking Collins. Then the Utilizer’s shape started to form again.</su>
+          <su lang="ru">Он бросил его на пол. Яйцо раскололось, из него с рёвом вырвался оранжевый дым, и микроскопический Утилизатор мгновенно всосал этот дым в себя, после чего тяжёлые плотные клубы дыма взмыли вверх, едва не задушив Коллинза, а Утилизатор начал принимать свою прежнюю форму.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Soon, it was normal size and apparently undamaged.</su>
+          <su lang="ru">Вскоре он достиг нормальной величины и, казалось, нисколько не был повреждён.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The old man nodded curtly.</su>
+          <su lang="ru">Старик отрывисто кивнул.</su>
+        </sentence>
+      </p>
+      <p type="text" id="104">
+        <sentence>
+          <su lang="en">"We’re not fancy," he said, "but we’re reliable." He nodded again and disappeared.</su>
+          <su lang="ru">— Мы работаем дедовскими методами, но зато на совесть — сказал он, снова кивнул и исчез.</su>
+        </sentence>
+      </p>
+      <p type="text" id="105">
+        <sentence>
+          <su lang="en">Collins thought he could hear a distant shout of anger.</su>
+          <su lang="ru">И опять Коллинзу показалось, что откуда-то издалека до него донёсся чей-то сердитый возглас.</su>
+        </sentence>
+      </p>
+      <p type="text" id="106">
+        <sentence>
+          <su lang="en">Shakily, he sat down on the floor in front of the machine.</su>
+          <su lang="ru">Потрясённый, обессиленный, он опустился на пол перед машиной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His hand was throbbing painfully.</su>
+          <su lang="ru">Обожжённый палец жгло и дёргало.</su>
+        </sentence>
+      </p>
+      <p type="text" id="107">
+        <sentence>
+          <su lang="en">"Fix me up," he muttered through dry lips, and punched the button with his good hand.</su>
+          <su lang="ru">— Вылечи меня, — пробормотал он пересохшими губами и надавил кнопку здоровой рукой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="108">
+        <sentence>
+          <su lang="en">The Utilizer hummed louder for a moment, then was silent.</su>
+          <su lang="ru">Утилизатор зажужжал громче, а потом умолк совсем.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The pain left his scorched finger and, looking down, Collins saw that there was no sign of a burn — not even scar tissue to mark where it had been.</su>
+          <su lang="ru">Боль в пальце утихла, Коллинз взглянул на него и увидел, что от ожога не осталось и следа — даже ни малейшего рубца.</su>
+        </sentence>
+      </p>
+      <p type="text" id="109">
+        <sentence>
+          <su lang="en">Collins poured himself a long shot of brandy and went directly to bed.</su>
+          <su lang="ru">Коллинз налил себе основательную порцию коньяка и, не медля ни минуты, лёг в постель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That night, he dreamed he was being chased by a gigantic letter A, but he didn’t remember it in the morning.</su>
+          <su lang="ru">В эту ночь ему приснилось, что за ним гонится гигантская буква А, но, пробудившись, он забыл свой сон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="110">
+        <sentence>
+          <su lang="en">Within a week, Collins found that building his mansion in the woods had been precisely the wrong thing to do.</su>
+          <su lang="ru">Прошла неделя, и Коллинз убедился, что поступил крайне опрометчиво, построив себе дом в лесу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had to hire a platoon of guards to keep away sightseers, and hunters insisted on camping in his formal gardens.</su>
+          <su lang="ru">Чтобы спастись от зевак, ему пришлось потребовать целый взвод солдат для охраны, а охотники стремились во что бы то ни стало расположиться в его английском парке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="111">
+        <sentence>
+          <su lang="en">Also, the Bureau of Internal Revenue began to take a lively interest in his affairs.</su>
+          <su lang="ru">К тому же Департамент государственных сборов начал проявлять живой интерес к его доходам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="112">
+        <sentence>
+          <su lang="en">But, above all, Collins discovered that he wasn’t so fond of nature after all.</su>
+          <su lang="ru">А главное, Коллинз сделал открытие, что он не так уж обожает природу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Birds and squirrels were all very well, but they hardly ranked as conversationalists.</su>
+          <su lang="ru">Птички и белочки — всё это, конечно, чрезвычайно мило, но с ними ведь особенно не разговоришься.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Trees, though quite ornamental, made poor drinking companions.</su>
+          <su lang="ru">А деревья, хоть и очень красивы, никак не годятся в собутыльники.</su>
+        </sentence>
+      </p>
+      <p type="text" id="113">
+        <sentence>
+          <su lang="en">Collins decided he was a city boy at heart.</su>
+          <su lang="ru">Коллинз решил, что он в душе человек городской.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Therefore, with the aid of the Powha Minnile Movers, the Maxima Olph Construction Corporation, the Jagton Instantaneous Travel Bureau and a great deal of money placed in the proper hands, Collins moved to a small Central American republic.</su>
+          <su lang="ru">Поэтому с помощью такелажников «Поуха минайл», строительной конторы «Максимо олф», Бюро мгновенных путешествий «Ягтон» и крупных денежных сумм, вручённых кому следует, Коллинз перебрался в маленькую республику в центральной части Американского континента.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There, since the climate was warmer and income tax non-existent, he built a large, airy, ostentatious palace. It came equipped with the usual accessories — horses, dogs, peacocks, servants, maintenance men, guards, musicians, bevies of dancing girls and everything else a palace should have.</su>
+          <su lang="ru">И поскольку климат здесь был теплее, а подоходного налога не существовало вовсе, он построил себе большой, крикливо-роскошный дворец, снабжённый всеми необходимыми аксессуарами, кондиционерами, конюшней, псарней, павлинами, слугами, механиками, сторожами, музыкантами, балетной труппой — словом, всем тем, чем должен располагать каждый дворец.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Collins spent two weeks just exploring the place.</su>
+          <su lang="ru">Коллинзу потребовалось две недели, чтобы ознакомиться со своим новым жильём.</su>
+        </sentence>
+      </p>
+      <p type="text" id="114">
+        <sentence>
+          <su lang="en">Everything went along nicely for a while.</su>
+          <su lang="ru">До поры до времени всё шло хорошо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="115">
+        <sentence>
+          <su lang="en">One morning Collins approached the Utilizer, with the vague intention of asking for a sports car, or possibly a small herd of pedigreed cattle.</su>
+          <su lang="ru">Как-то утром Коллинз подошёл к Утилизатору, думая, не попросить ли ему спортивный автомобиль или небольшое стадо племенного скота.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He bent over the grey machine, reached for the red button …</su>
+          <su lang="ru">Он наклонился к серой машине, протянул руку к красной кнопке…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And the Utilizer backed away from him.</su>
+          <su lang="ru">И Утилизатор отпрянул от него в сторону.</su>
+        </sentence>
+      </p>
+      <p type="text" id="116">
+        <sentence>
+          <su lang="en">For a moment, Collins thought he was seeing things, and he almost decided to stop drinking champagne before breakfast.</su>
+          <su lang="ru">В первую секунду Коллинзу показалось, что у него начинаются галлюцинации, и даже мелькнула мысль бросить пить шампанское перед завтраком.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He took a step forward and reached for the red button.</su>
+          <su lang="ru">Он шагнул вперёд и потянулся к красной кнопке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer sidestepped him neatly and trotted out of the room.</su>
+          <su lang="ru">Утилизатор ловко выскользнул из-под его руки и рысцой выбежал из комнаты.</su>
+        </sentence>
+      </p>
+      <p type="text" id="117">
+        <sentence>
+          <su lang="en">Collins sprinted after it, cursing the owner and the A’s. This was probably the animation that Leek had spoken about — somehow, the owner had managed to imbue the machine with mobility.</su>
+          <su lang="ru">Коллинз во весь дух припустил за ним, проклиная владельца и весь класс А. По-видимому, это было то самое одушевление, о котором говорил Лиик: владельцу каким-то способом удалось придать машине подвижность.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It didn’t matter.</su>
+          <su lang="ru">Но нечего ломать над этим голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All he had to do was catch up, punch the button and ask for the Animation Control people.</su>
+          <su lang="ru">Нужно только поскорее догнать машину, нажать кнопку и вызвать ребят из Контроля одушевления.</su>
+        </sentence>
+      </p>
+      <p type="text" id="118">
+        <sentence>
+          <su lang="en">The Utilizer raced down a hall, Collins close behind.</su>
+          <su lang="ru">Утилизатор нёсся через зал Коллинз бежал за нам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">An under-butler, polishing a solid gold doorknob, stared open-mouthed.</su>
+          <su lang="ru">Младший дворецкий, начищавший массивную дверную ручку из литого золота, застыл на месте, разинув рот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="119">
+        <sentence>
+          <su lang="en">"Stop it!" Collins shouted.</su>
+          <su lang="ru">— Остановите её! — крикнул Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="120">
+        <sentence>
+          <su lang="en">The under-butler moved clumsily into the Utilizer’s path.</su>
+          <su lang="ru">Младший дворецкий неуклюже шагнул вперёд, преграждая Утилизатору путь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The machine dodged him gracefully and sprinted towards the main door.</su>
+          <su lang="ru">Машина, грациозно вильнув в сторону, обошла дворецкого и стрелой помчалась к выходу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="121">
+        <sentence>
+          <su lang="en">Collins pushed a switch and the door slammed shut.</su>
+          <su lang="ru">Коллинз успел подскочить к рубильнику, и дверь с треском захлопнулась.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer gathered momentum and went right through it.</su>
+          <su lang="ru">Утилизатор взял разгон и прошёл сквозь запертую дверь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Once in the open, it tripped over a garden hose, regained its balance and headed towards the open countryside.</su>
+          <su lang="ru">Очутившись снаружи, он споткнулся о садовый шланг, но быстро восстановил равновесие и устремился за ограду в поле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="122">
+        <sentence>
+          <su lang="en">Collins raced after it.</su>
+          <su lang="ru">Коллинз мчался за ним.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If he could just get a little closer …</su>
+          <su lang="ru">Если б только подобраться к нему поближе…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer suddenly leaped into the air.</su>
+          <su lang="ru">Утилизатор внезапно прыгнул вверх.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It hung there for a long moment, then fell to the ground.</su>
+          <su lang="ru">Несколько секунд он висел в воздухе, а потом упал на землю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Collins sprang at the button.</su>
+          <su lang="ru">Коллинз ринулся к кнопке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer rolled out of his way, took a short run and leaped again.</su>
+          <su lang="ru">Утилизатор увернулся, разбежался и снова подпрыгнул.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For a moment, it hung twenty feet above his head — drifted a few feet straight up, stopped twisted wildly and fell.</su>
+          <su lang="ru">Он висел футах в двадцати над головой Коллинза. Потом взлетел по прямой ещё выше, остановился, бешено завертелся волчком и снова упал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="123">
+        <sentence>
+          <su lang="en">Collins was afraid that, on a third jump, it would keep going up.</su>
+          <su lang="ru">Коллинз испугался: вдруг Утилизатор подпрыгнет в третий раз, совсем уйдёт вверх и не вернётся.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When it drifted unwillingly back to the ground, he was ready.</su>
+          <su lang="ru">Когда Утилизатор приземлился, Коллинз был начеку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He feinted, then stabbed at the button.</su>
+          <su lang="ru">Он сделал ложный выпад и, изловчившись, нажал кнопку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer couldn’t duck fast enough.</su>
+          <su lang="ru">Утилизатор не успел увернуться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="124">
+        <sentence>
+          <su lang="en">"Animation Control!" Collins roared triumphantly.</su>
+          <su lang="ru">— Контроль одушевления! — торжествующе выкрикнул Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="125">
+        <sentence>
+          <su lang="en">There was a small explosion, and the Utilizer settled down docilely.</su>
+          <su lang="ru">Раздался слабый звук взрыва, и Утилизатор послушно замер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was no hint of animation left in it.</su>
+          <su lang="ru">От одушевления не осталось и следа.</su>
+        </sentence>
+      </p>
+      <p type="text" id="126">
+        <sentence>
+          <su lang="en">Collins wiped his forehead and sat on the machine.</su>
+          <su lang="ru">Коллинз вытер вспотевший лоб и сел на машину.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Closer and closer.</su>
+          <su lang="ru">Враги всё ближе и ближе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He’d better do some big wishing now, while he still had the chance.</su>
+          <su lang="ru">Надо поскорее, пока ещё есть возможность, пожелать что-нибудь пограндиознее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="127">
+        <sentence>
+          <su lang="en">In rapid succession, he asked for five million dollars, three functioning oil wells, a motion-picture studio, perfect health, twenty-five more dancing girls, immortality, a sports car and a herd of pedigreed cattle.</su>
+          <su lang="ru">Быстро, одно за другим, он попросил себе пять миллионов долларов, три функционирующих нефтяных скважины, киностудию, безукоризненное здоровье, двадцать пять танцовщиц, бессмертие, спортивный автомобиль и стадо племенного скота.</su>
+        </sentence>
+      </p>
+      <p type="text" id="128">
+        <sentence>
+          <su lang="en">He thought he heard someone snicker.</su>
+          <su lang="ru">Ему показалось, что кто-то хихикнул.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He looked around.</su>
+          <su lang="ru">Коллинз поглядел по сторонам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No one was there.</su>
+          <su lang="ru">Кругом не было ни души.</su>
+        </sentence>
+      </p>
+      <p type="text" id="129">
+        <sentence>
+          <su lang="en">When he turned back, the Utilizer had vanished.</su>
+          <su lang="ru">Когда он снова обернулся, Утилизатор исчез.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He just stared.</su>
+          <su lang="ru">Коллинз глядел во все глаза.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And, in another moment, he vanished.</su>
+          <su lang="ru">А в следующее мгновение исчез и сам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="130">
+        <sentence>
+          <su lang="en">When he opened his eyes, Collins found himself standing in front of a desk. On the other side was the large, red-faced man who had originally tried to break into his room.</su>
+          <su lang="ru">Когда он открыл глаза, то обнаружил, что стоит перед столом, за которым сидит уже знакомый ему краснолицый мужчина.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The man didn’t appear angry.</su>
+          <su lang="ru">Он не казался сердитым.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Rather, he appeared resigned, even melancholy.</su>
+          <su lang="ru">Вид у него был скорее умиротворённый и даже меланхоличный.</su>
+        </sentence>
+      </p>
+      <p type="text" id="131">
+        <sentence>
+          <su lang="en">Collins stood for a moment in silence, sorry that the whole thing was over.</su>
+          <su lang="ru">С минуту Коллинз стоял молча, ему было жаль, что всё кончилось.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The owner and the A’s had finally caught him.</su>
+          <su lang="ru">Владелец и класс А в конце концов поймали его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But it had been glorious while it lasted.</su>
+          <su lang="ru">Но всё-таки это было великолепно!</su>
+        </sentence>
+      </p>
+      <p type="text" id="132">
+        <sentence>
+          <su lang="en">"Well," Collins said directly, "you’ve got your machine back. Now, what else do you want?"</su>
+          <su lang="ru">— Ну, — сказал наконец Коллинз, — вы получили обратно свою машину, что же вам ещё от меня нужно?</su>
+        </sentence>
+      </p>
+      <p type="text" id="133">
+        <sentence>
+          <su lang="en">"My machine?" the red-faced man said, looking up incredulously.</su>
+          <su lang="ru">— Мою машину? — повторил краснолицый, с недоверием глядя на Коллинза.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"It’s not my machine, sir.</su>
+          <su lang="ru">— Это не моя машина, сэр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Not at all."</su>
+          <su lang="ru">Отнюдь не моя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="134">
+        <sentence>
+          <su lang="en">Collins stared at him.</su>
+          <su lang="ru">Коллинз в изумлении воззрился на него.</su>
+        </sentence>
+      </p>
+      <p type="text" id="135">
+        <sentence>
+          <su lang="en">"Don’t try to kid me, mister.</su>
+          <su lang="ru">— Не пытайтесь обдурить меня, мистер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You A-ratings want to protect your monopoly, don’t you?"</su>
+          <su lang="ru">Вы — класс А — хотите сохранить за собой монополию, разве не так?</su>
+        </sentence>
+      </p>
+      <p type="text" id="136">
+        <sentence>
+          <su lang="en">The red-faced man put down his paper.</su>
+          <su lang="ru">Краснолицый отложил в сторону бумагу, которую он просматривал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="137">
+        <sentence>
+          <su lang="en">"Mr. Collins," he said stiffly, "my name is Flign.</su>
+          <su lang="ru">— Мистер Коллинз, — сказал он твёрдо, — меня зовут Флайн.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I am an agent for the Citizens Protective Union, a non-profit organisation, whose aim is to protect individuals such as yourself from errors of judgement."</su>
+          <su lang="ru">Я агент Союза охраны граждан. Это чисто благотворительная, лишённая всяких коммерческих задач организация, и, единственная цель, которую она преследует, — защищать лиц, подобных вам, от заблуждений, которые могут встретиться на их жизненном пути.</su>
+        </sentence>
+      </p>
+      <p type="text" id="138">
+        <sentence>
+          <su lang="en">"You mean you’re not one of the A’s?"</su>
+          <su lang="ru">— Вы хотите сказать, что не принадлежите к классу А?</su>
+        </sentence>
+      </p>
+      <p type="text" id="139">
+        <sentence>
+          <su lang="en">"You are labouring under a misapprehension, sir," Flign said with quiet dignity.</su>
+          <su lang="ru">— Вы пребываете в глубочайшем заблуждении, сэр, — спокойно и с достоинством произнёс Флайн.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"The A-rating does not represent a social group, as you seem to believe.</su>
+          <su lang="ru">— Класс А — это не общественно-социальная категория, как вы, по-видимому, полагаете.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is merely a credit rating."</su>
+          <su lang="ru">Это всего-навсего форма кредита.</su>
+        </sentence>
+      </p>
+      <p type="text" id="140">
+        <sentence>
+          <su lang="en">"A what?" Collins asked slowly.</su>
+          <su lang="ru">— Форма чего? — оторопело спросил Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="141">
+        <sentence>
+          <su lang="en">"A credit rating." Flign glanced at his watch.</su>
+          <su lang="ru">— Форма кредита, — Флайн поглядел на часы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"We haven’t much time, so I’ll make this as brief as possible.</su>
+          <su lang="ru">— Времени у нас мало, и я постараюсь быть кратким.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Ours is a decentralised age, Mr. Collins.</su>
+          <su lang="ru">Мы живём в эпоху децентрализации, мистер Коллинз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Our businesses, industries and services are scattered through an appreciable portion of space and time.</su>
+          <su lang="ru">Наша промышленность, торговля и административные учреждения довольно сильно разобщены во времени и пространстве.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The utilization corporation is an essential link.</su>
+          <su lang="ru">Акционерное общество «Утилизатор» является весьма важным связующим звеном.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It provides for the transfer of goods and services from point to point.</su>
+          <su lang="ru">Оно занимается перемещением благ цивилизации с одного места на другое и прочими услугами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Do you understand?"</su>
+          <su lang="ru">Вам понятно?</su>
+        </sentence>
+      </p>
+      <p type="text" id="142">
+        <sentence>
+          <su lang="en">Collins nodded.</su>
+          <su lang="ru">Коллинз кивнул.</su>
+        </sentence>
+      </p>
+      <p type="text" id="143">
+        <sentence>
+          <su lang="en">"Credit is, of course, an automatic privilege.</su>
+          <su lang="ru">— Кредит, разумеется, предоставляется автоматически.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But, eventually, everything must be paid for."</su>
+          <su lang="ru">Но рано или поздно всё должно быть оплачено.</su>
+        </sentence>
+      </p>
+      <p type="text" id="144">
+        <sentence>
+          <su lang="en">Collins didn’t like the sound of that.</su>
+          <su lang="ru">Это уже звучало как-то неприятно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pay?</su>
+          <su lang="ru">Оплачено?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This place wasn’t as civilised as he had thought.</su>
+          <su lang="ru">По-видимому, это всё-таки не такое высокоцивилизованное общество, как ему сначала показалось.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No one had mentioned paying.</su>
+          <su lang="ru">Ведь никто ни словом не обмолвился про плату.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why did they bring it up now?</su>
+          <su lang="ru">Почему же они заговорили о ней теперь?</su>
+        </sentence>
+      </p>
+      <p type="text" id="145">
+        <sentence>
+          <su lang="en">"Why didn’t someone stop me?" he asked desperately.</su>
+          <su lang="ru">— Отчего никто не остановил меня? — растерянно спросил он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"They must have known I didn’t have a proper rating."</su>
+          <su lang="ru">— Они же должны были знать, что я некредитоспособен.</su>
+        </sentence>
+      </p>
+      <p type="text" id="146">
+        <sentence>
+          <su lang="en">Flign shook his head.</su>
+          <su lang="ru">Флайн покачал головой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="147">
+        <sentence>
+          <su lang="en">"The credit ratings are suggestions, not laws.</su>
+          <su lang="ru">— Кредитоспособность — вещь добровольная. Она не устанавливается законом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In a civilised world, an individual has the right to his own decisions.</su>
+          <su lang="ru">В цивилизованном мире всякой личности предоставлено право решать самой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’m very sorry, sir."</su>
+          <su lang="ru">Я очень сожалею, сэр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He glanced at his watch again and handed Collins the paper he had been reading.</su>
+          <su lang="ru">— Он поглядел на часы и протянул Коллинзу бумагу, которую просматривал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Would you just glance at this bill and tell me whether it’s in order?"</su>
+          <su lang="ru">— Прошу вас взглянуть на этот счёт и сказать, всё ли здесь в порядке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="148">
+        <sentence>
+          <su lang="en">Collins took the paper and read:</su>
+          <su lang="ru">Коллинз взял бумагу и прочёл:</su>
+        </sentence>
+      </p>
+      <p type="text" id="149">
+        <sentence>
+          <su lang="en">One Palace, with Accessories ………… Cr.</su>
+          <su lang="ru">Один дворец с оборудованием 450000000 кр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="150">
+        <sentence>
+          <su lang="en">45,000,000 Services of Maxima Olph Movers…..…….</su>
+          <su lang="ru">Услуги такелажников фирмы «Поуха минайл», а также фирмы «Максимо олф» 111000 кр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="151">
+        <sentence>
+          <su lang="en">111,000 122 Dancing Girls………………</su>
+          <su lang="ru">Сто двадцать две танцовщицы 122000000 кр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="152">
+        <sentence>
+          <su lang="en">122,000,000 Perfect Health……………………</su>
+          <su lang="ru">Безукоризненное здоровье 888234031 кр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="153">
+        <sentence>
+          <su lang="en">888,234,031 He scanned the rest of the list quickly.</su>
+          <su lang="ru">Коллинз быстро пробежал глазами весь счёт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The total came to slightly better than eighteen billion Credits.</su>
+          <su lang="ru">Общая сумма слегка превышала восемнадцать биллионов кредитов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="154">
+        <sentence>
+          <su lang="en">"Wait a minute!" Collins shouted.</su>
+          <su lang="ru">— Позвольте! — воскликнул Коллинз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I can’t be held to this!</su>
+          <su lang="ru">— Вы не можете требовать с меня столько.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilizer just dropped into my room by accident!"</su>
+          <su lang="ru">Утилизатор свалился ко мне в комнату неизвестно откуда, просто по ошибке!</su>
+        </sentence>
+      </p>
+      <p type="text" id="155">
+        <sentence>
+          <su lang="en">"That’s the very fact I’m going to bring to their attention," Flign said.</su>
+          <su lang="ru">— Я как раз собираюсь обратить их внимание на это обстоятельство, — сказал Флайн.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Who knows?</su>
+          <su lang="ru">— Как знать?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Perhaps they will be reasonable.</su>
+          <su lang="ru">Быть может, они будут благоразумны.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It does no harm to try."</su>
+          <su lang="ru">Во всяком случае, попытаемся, хуже не будет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="156">
+        <sentence>
+          <su lang="en">Collins felt the room sway.</su>
+          <su lang="ru">Всё закачалось у Коллинза перед глазами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Flign’s face began to melt before him.</su>
+          <su lang="ru">Лицо Флайна начало расплываться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="157">
+        <sentence>
+          <su lang="en">"Time’s up," Flign said.</su>
+          <su lang="ru">— Время истекло, — сказал Флайн.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Good luck."</su>
+          <su lang="ru">— Желаю удачи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="158">
+        <sentence>
+          <su lang="en">Collins closed his eyes.</su>
+          <su lang="ru">Коллинз закрыл глаза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="159">
+        <sentence>
+          <su lang="en">When he opened them again, he was standing on a bleak plain, facing a range of stubby mountains.</su>
+          <su lang="ru">Когда он открыл их снова, перед ним расстилалась унылая равнина, опоясанная скалистой горной грядой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A cold wind lashed his face and the sky was the colour of steel.</su>
+          <su lang="ru">Ледяной ветер, налетая порывами, стегал по лицу, небо было серо-стальным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="160">
+        <sentence>
+          <su lang="en">A raggedly dressed man was standing beside him.</su>
+          <su lang="ru">Какой-то оборванный человек стоял рядом с ним.</su>
+        </sentence>
+      </p>
+      <p type="text" id="161">
+        <sentence>
+          <su lang="en">"Here," the man said and handed Collins a pick.</su>
+          <su lang="ru">— Держи, — сказал он и протянул Коллинзу кирку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="162">
+        <sentence>
+          <su lang="en">"What’s this?"</su>
+          <su lang="ru">— Что это такое?</su>
+        </sentence>
+      </p>
+      <p type="text" id="163">
+        <sentence>
+          <su lang="en">"This is a pick," the man said patiently.</su>
+          <su lang="ru">— Кирка, — терпеливо разъяснил человек.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"And over there is a quarry, where you and I and a number of others will cut marble."</su>
+          <su lang="ru">— А вон там — каменоломня, где мы с тобой вместе с остальными будем добывать мрамор.</su>
+        </sentence>
+      </p>
+      <p type="text" id="164">
+        <sentence>
+          <su lang="en">"Marble?"</su>
+          <su lang="ru">— Мрамор?</su>
+        </sentence>
+      </p>
+      <p type="text" id="165">
+        <sentence>
+          <su lang="en">"Sure.</su>
+          <su lang="ru">— Ну да.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There’s always some idiot who wants a palace," the man said with a wry grin.</su>
+          <su lang="ru">Всегда найдётся какой-нибудь идиот, которому нужен мраморный дворец, — с кривой усмешкой ответил человек.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"You can call me Jang.</su>
+          <su lang="ru">— Можешь звать меня Янг.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We’ll be together for some time."</su>
+          <su lang="ru">Нам некоторое время придётся поработать на пару.</su>
+        </sentence>
+      </p>
+      <p type="text" id="166">
+        <sentence>
+          <su lang="en">Collins blinked stupidly.</su>
+          <su lang="ru">Коллинз тупо поглядел на него:</su>
+        </sentence>
+      </p>
+      <p type="text" id="167">
+        <sentence>
+          <su lang="en">"How long?"</su>
+          <su lang="ru">— А как долго?</su>
+        </sentence>
+      </p>
+      <p type="text" id="168">
+        <sentence>
+          <su lang="en">"You work it out," Jang said.</su>
+          <su lang="ru">— Подсчитай сам, — сказал Янг.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"The rate is fifty credits a month until your debt is paid off."</su>
+          <su lang="ru">— Расценки здесь — пять-десять кредитов в месяц, и тебе будут их начислять, пока ты не покроешь свой долг.</su>
+        </sentence>
+      </p>
+      <p type="text" id="169">
+        <sentence>
+          <su lang="en">The pick dropped from Collins’s hand.</su>
+          <su lang="ru">Кирка выпала у Коллинза из рук.</su>
+        </sentence>
+      </p>
+      <p type="text" id="170">
+        <sentence>
+          <su lang="en">They couldn’t do this to him!</su>
+          <su lang="ru">Они не могут этого сделать!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Utilization Corporation must realise its mistake by now!</su>
+          <su lang="ru">Акционерное общество «Утилизатор» должно понять свою ошибку!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They had been at fault, letting the machine slip into the past.</su>
+          <su lang="ru">Это же их вина, что машина провалилась в Прошлое.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Didn’t they realise that?</su>
+          <su lang="ru">Не могут же они этого не знать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="171">
+        <sentence>
+          <su lang="en">"It’s all a mistake!" Collins said.</su>
+          <su lang="ru">— Всё это — сплошная ошибка! — сказал Коллинз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="172">
+        <sentence>
+          <su lang="en">"No mistake," Jang said.</su>
+          <su lang="ru">— Никакая не ошибка, — возразил Яиг.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"They’re very short of labour.</su>
+          <su lang="ru">— У них большой недостаток в рабочей силе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Have to go recruiting all over for it.</su>
+          <su lang="ru">Набирают где попало.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Come on.</su>
+          <su lang="ru">Ну, пошли.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After the first thousand years you won’t mind it."</su>
+          <su lang="ru">Первую тысячу лет трудно, а потом привыкаешь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="173">
+        <sentence>
+          <su lang="en">Collins started to follow Jang towards the quarry. He stopped.</su>
+          <su lang="ru">Коллинз двинулся следом за Янгом, потом остановился.</su>
+        </sentence>
+      </p>
+      <p type="text" id="174">
+        <sentence>
+          <su lang="en">"The first thousand years?</su>
+          <su lang="ru">— Первую тысячу лет?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I won’t live that long!"</su>
+          <su lang="ru">Я столько не проживу!</su>
+        </sentence>
+      </p>
+      <p type="text" id="175">
+        <sentence>
+          <su lang="en">"Sure you will," Jang assured him.</su>
+          <su lang="ru">— Проживёшь! — заверил его Янг.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"You got immortality, didn’t you?"</su>
+          <su lang="ru">— Ты же получил бессмертие.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Yes, he had.</su>
+          <su lang="ru">Разве забыл?</su>
+        </sentence>
+      </p>
+      <p type="text" id="176">
+        <sentence>
+          <su lang="en">He had wished for it, just before they took back the machine.</su>
+          <su lang="ru">Он получил бессмертие как раз в ту минуту, когда они отняли у него машину.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Or had they taken back the machine after he wished for it?</su>
+          <su lang="ru">А может быть, они взяли её потом?</su>
+        </sentence>
+      </p>
+      <p type="text" id="177">
+        <sentence>
+          <su lang="en">Collins remembered something.</su>
+          <su lang="ru">Вдруг Коллинз что-то припомнил.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Strange, but he didn’t remember seeing immortality on the bill Flign had shown him.</su>
+          <su lang="ru">Странно, в том счёте, который предъявил ему Флайн, бессмертия как будто вовсе не стояло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="178">
+        <sentence>
+          <su lang="en">"How much did they charge me for immortality?" he asked.</su>
+          <su lang="ru">— А сколько они насчитали мне за бессмертие? — спросил он.</su>
+        </sentence>
+      </p>
+      <p type="text" id="179">
+        <sentence>
+          <su lang="en">Jang looked at him and laughed.</su>
+          <su lang="ru">Янг поглядел на него и рассмеялся.</su>
+        </sentence>
+      </p>
+      <p type="text" id="180">
+        <sentence>
+          <su lang="en">"Don’t be naïve, pal.</su>
+          <su lang="ru">— Не прикидывайся простачком, приятель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You should have it figured out by now."</su>
+          <su lang="ru">Пора бы уж тебе кой-что сообразить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He led Collins towards the quarry.</su>
+          <su lang="ru">— Он подтолкнул Коллинза к каменоломне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="181">
+        <sentence>
+          <su lang="en">"Naturally, they give that away for nothing."</su>
+          <su lang="ru">— Ясное дело, этим-то они награждают задаром.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

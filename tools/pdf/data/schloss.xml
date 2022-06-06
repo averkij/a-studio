@@ -1,0 +1,1299 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220604T101406Z</creationdate>
+    <paragraphs>59</paragraphs>
+    <langs>
+      <lang id="de">
+        <sentences>298</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>302</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="de">Franz Kafka</s>
+      <s lang="ru">Франц Кафка</s>
+    </author>
+    <title>
+      <s lang="de">Das Schloss</s>
+      <s lang="ru">Замок</s>
+    </title>
+    <contents>
+      <s lang="de">Inhalt</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="de"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="de">Es war spät abends, als K. ankam.</su>
+          <su lang="ru">К. прибыл поздно вечером.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das Dorf lag in tiefem Schnee.</su>
+          <su lang="ru">Деревня тонула в глубоком снегу.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Vom Schloßberg war nichts zu sehen, Nebel und Finsternis umgaben ihn, auch nicht der schwächste Lichtschein deutete das große Schloß an.</su>
+          <su lang="ru">Замковой горы не было видно. Туман и тьма закрывали ее, и огромный Замок не давал о себе знать ни малейшим проблеском света.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Lange stand K. auf der Holzbrücke, die von der Landstraße zum Dorf führte, und blickte in die scheinbare Leere empor.</su>
+          <su lang="ru">Долго стоял К. на деревянном мосту, который вел с проезжей дороги в Деревню, и смотрел в кажущуюся пустоту.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="de">Dann ging er, ein Nachtlager suchen; im Wirtshaus war man noch wach, der Wirt hatte zwar kein Zimmer zu vermieten, aber er wollte, von dem späten Gast äußerst überrascht und verwirrt, K. in der Wirtsstube auf einem Strohsack schlafen lassen.</su>
+          <su lang="ru">Потом он отправился искать ночлег. На постоялом дворе еще не спали, и хотя комнат хозяин не сдавал, он так растерялся и смутился приходом позднего гостя, что разрешил К. взять соломенный тюфяк и лечь в общей комнате.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">K. war damit einverstanden.</su>
+          <su lang="ru">К. охотно согласился.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Einige Bauern waren noch beim Bier, aber er wollte sich mit niemandem unterhalten, holte selbst den Strohsack vom Dachboden und legte sich in der Nähe des Ofens hin.</su>
+          <su lang="ru">Несколько крестьян еще допивали пиво, но К. ни с кем не захотел разговаривать, сам стащил тюфяк с чердака и улегся у печки.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Warm war es, die Bauern waren still, ein wenig prüfte er sie noch mit den müden Augen, dann schlief er ein.</su>
+          <su lang="ru">Было очень тепло, крестьяне не шумели, и, окинув их еще раз усталым взглядом, К. заснул.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="de">Aber kurze Zeit darauf wurde er schon geweckt.</su>
+          <su lang="ru">Но вскоре его разбудили.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ein junger Mann, städtisch angezogen, mit schauspielerhaftem Gesicht, die Augen schmal, die Augenbrauen stark, stand mit dem Wirt neben ihm.</su>
+          <su lang="ru">Молодой человек с лицом актера — узкие глаза, густые брови — стоял над ним рядом с хозяином.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Bauern waren auch noch da, einige hatten ihre Sessel herumgedreht, um besser zu sehen und zu hören.</su>
+          <su lang="ru">Крестьяне еще не разошлись, некоторые из них повернули стулья так, чтобы лучше видеть и слышать.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der junge Mensch entschuldigte sich sehr höflich, K. geweckt zu haben, stellte sich als Sohn des Schloßkastellans vor und sagte dann: "Dieses Dorf ist Besitz des Schlosses, wer hier wohnt oder übernachtet, wohnt oder übernachtet gewissermaßen im Schloß.</su>
+          <su lang="ru">Молодой человек очень вежливо попросил прощения за то, что разбудил К., представился — сын кастеляна Замка — и затем сказал: "Эта Деревня принадлежит Замку, и тот, кто здесь живет или ночует, фактически живет и ночует в Замке.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Niemand darf das ohne gräfliche Erlaubnis.</su>
+          <su lang="ru">А без разрешения графа это никому не дозволяется.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sie aber haben eine solche Erlaubnis nicht oder haben sie wenigstens nicht vorgezeigt."</su>
+          <su lang="ru">У вас такого разрешения нет, по крайней мере вы его не предъявили".</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="de">K. hatte sich halb aufgerichtet, hatte die Haare zurechtgestrichen, blickte die Leute von unten her an und sagte: "In welches Dorf habe ich mich verirrt?</su>
+          <su lang="ru">К. привстал, пригладил волосы, взглянул на этих людей снизу вверх и сказал: "В какую это Деревню я попал?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ist denn hier ein Schloß?"</su>
+          <su lang="ru">Разве здесь есть Замок?"</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="de">"Allerdings", sagte der junge Mann langsam, während hier und dort einer den Kopf über K. schüttelte, "das Schloß des Herrn Grafen Westwest."</su>
+          <su lang="ru">"Разумеется, — медленно проговорил молодой человек, а некоторые окружающие поглядели на К. и покачали головами. — Здесь находится Замок графа Вествеста".</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="de">"Und man muß die Erlaubnis zum Übernachten haben?" fragte K., als wolle er sich davon überzeugen, ob er die früheren Mitteilungen nicht vielleicht geträumt hätte.</su>
+          <su lang="ru">"Значит, надо получить разрешение на ночевку?" — переспросил К., словно желая убедиться, что ему эти слова не приснились.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="de">"Die Erlaubnis muß man haben", war die Antwort, und es lag darin ein großer Spott für K., als der junge Mann mit ausgestrecktem Arm den Wirt und die Gäste fragte: "Oder muß man etwa die Erlaubnis nicht haben?"</su>
+          <su lang="ru">"Разрешение надо получить обязательно, — ответил ему молодой человек и с явной насмешкой над К., разведя руками, спросил хозяина и посетителей: — Разве можно без разрешения?"</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="de">"Dann werde ich mir also die Erlaubnis holen müssen", sagte K. gähnend und schob die Decke von sich, als wolle er aufstehen.</su>
+          <su lang="ru">"Что же, придется мне достать разрешение", — сказал К., зевнув и откинув одеяло, словно собирался встать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="de">"Ja von wem denn?" fragte der junge Mann.</su>
+          <su lang="ru">"У кого же?" — спросил молодой человек.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="de">"Vom Herrn Grafen", sagte K., "es wird nichts anderes übrigbleiben."</su>
+          <su lang="ru">"У господина графа, — сказал К., — что же еще остается делать?"</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="de">"Jetzt um Mitternacht die Erlaubnis vom Herrn Grafen holen?" rief der junge Mann und trat einen Schritt zurück.</su>
+          <su lang="ru">"Сейчас, в полночь, брать разрешение у господина графа?" — воскликнул молодой человек, отступая на шаг.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="de">"Ist das nicht möglich?" fragte K. gleichmütig. "Warum haben Sie mich also geweckt?"</su>
+          <su lang="ru">"А разве нельзя? — равнодушно спросил К. — Зачем же тогда вы меня разбудили?"</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="de">Nun geriet aber der junge Mann außer sich.</su>
+          <su lang="ru">Но тут молодой человек совсем вышел из себя.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Landstreichermanieren!" rief er.</su>
+          <su lang="ru">"Привыкли бродяжничать? — крикнул он.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Ich verlange Respekt vor der gräflichen Behörde!</su>
+          <su lang="ru">— Я требую уважения к графским служащим.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich habe Sie deshalb geweckt, um Ihnen mitzuteilen, daß Sie sofort das gräfliche Gebiet verlassen müssen."</su>
+          <su lang="ru">А разбудил я вас, чтобы вам сообщить, что вы должны немедленно покинуть владения графа".</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="de">"Genug der Komödie", sagte K. auffallend leise, legte sich nieder und zog die Decke über sich.</su>
+          <su lang="ru">"Но довольно ломать комедию, — нарочито тихим голосом сказал К., ложась и натягивая на себя одеяло.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Sie gehen, junger Mann, ein wenig zu weit, und ich werde morgen noch auf Ihr Benehmen zurückkommen.</su>
+          <su lang="ru">— Вы слишком много себе позволяете, молодой человек, и завтра мы еще поговорим о вашем поведении.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Wirt und die Herren dort sind Zeugen, soweit ich überhaupt Zeugen brauche.</su>
+          <su lang="ru">И хозяин, и все эти господа могут все подтвердить, если вообще понадобится подтверждение.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sonst aber lassen Sie es sich gesagt sein, daß ich der Landvermesser bin, den der Graf hat kommen lassen.</su>
+          <su lang="ru">А я только могу вам доложить, что я тот землемер, которого граф вызвал к себе.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Meine Gehilfen mit den Apparaten kommen morgen im Wagen nach.</su>
+          <su lang="ru">Мои помощники со всеми приборами подъедут завтра.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich wollte mir den Marsch durch den Schnee nicht entgehen lassen, bin aber leider einigemal vom Weg abgeirrt und deshalb erst so spät angekommen.</su>
+          <su lang="ru">А мне захотелось пройтись по снегу, но, к сожалению, я несколько раз сбивался с дороги и потому попал сюда так поздно.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Daß es jetzt zu spät war, im Schloß mich zu melden, wußte ich schon aus eigenem, noch vor Ihrer Belehrung.</su>
+          <su lang="ru">Я знал и сам, без ваших наставлений, что сейчас не время являться в Замок.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Deshalb habe ich mich auch mit diesem Nachtlager hier begnügt, das zu stören Sie die - gelinde gesagt - Unhöflichkeit hatten.</su>
+          <su lang="ru">Оттого я и удовольствовался этим ночлегом, который вы, мягко выражаясь, нарушили так невежливо.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Damit sind meine Erklärungen beendet.</su>
+          <su lang="ru">На этом мои объяснения кончены.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Gute Nacht, meine Herren."</su>
+          <su lang="ru">Спокойной ночи, господа!"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und K. drehte sich zum Ofen hin.</su>
+          <su lang="ru">И К. повернулся к печке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="de">"Landvermesser?" hörte er noch hinter seinem Rücken zögernd fragen, dann war allgemeine Stille.</su>
+          <su lang="ru">"Землемер?" — услышал он чей-то робкий вопрос за спиной, потом настала тишина.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber der junge Mann faßte sich bald und sagte zum Wirt in einem Ton, der genug gedämpft war, um als Rücksichtnahme auf K.s Schlaf zu gelten, und laut genug, um ihm verständlich zu sein: "Ich werde telefonisch anfragen."</su>
+          <su lang="ru">Но молодой человек тут же овладел собой и сказал хозяину голосом достаточно сдержанным, чтобы подчеркнуть уважение к засыпающему К., но все же достаточно громким, чтобы тот услыхал: "Я справлюсь по телефону".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wie, auch ein Telefon war in diesem Dorfwirtshaus?</su>
+          <su lang="ru">Значит, на этом постоялом дворе есть даже телефон?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Man war vorzüglich eingerichtet.</su>
+          <su lang="ru">Превосходно устроились.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Im einzelnen überraschte es K., im ganzen hatte er es freilich erwartet.</su>
+          <su lang="ru">Хотя кое-что и удивляло К., он, в общем, принял все как должное.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Es zeigte sich, daß das Telefon fast über seinem Kopf angebracht war, in seiner Verschlafenheit hatte er es übersehen.</su>
+          <su lang="ru">Выяснилось, что телефон висел прямо над его головой, но спросонья он его не заметил.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wenn nun der junge Mann telefonieren mußte, dann konnte er beim besten Willen K.s Schlaf nicht schonen, es handelte sich nur darum, ob K. ihn telefonieren lassen sollte, er beschloß, es zuzulassen.</su>
+          <su lang="ru">И если молодой человек станет звонить, то, как он ни старайся, сон К. обязательно будет нарушен, разве что К. не позволит ему звонить. Однако К. решил не мешать ему.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Dann hatte es aber freilich auch keinen Sinn, den Schlafenden zu spielen, und er kehrte deshalb in die Rückenlage zurück.</su>
+          <su lang="ru">Но тогда не было смысла притворяться спящим, и К. снова повернулся на спину.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="de">Er sah die Bauern scheu zusammenrücken und sich besprechen, die Ankunft eines Landvermessers war nichts Geringes.</su>
+          <su lang="ru">Он увидел, что крестьяне робко сбились в кучку и переговариваются; видно, приезд землемера — дело немаловажное.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Tür der Küche hatte sich geöffnet, türfüllend stand dort die mächtige Gestalt der Wirtin, auf den Fußspitzen näherte sich ihr der Wirt, um ihr zu berichten.</su>
+          <su lang="ru">Двери кухни распахнулись, весь дверной проем заняла мощная фигура хозяйки, и хозяин, подойдя к ней на цыпочках, стал что-то объяснять.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und nun begann das Telefongespräch.</su>
+          <su lang="ru">И тут начался телефонный разговор.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Kastellan schlief, aber ein Unterkastellan, einer der Unterkastellane, ein Herr Fritz, war da.</su>
+          <su lang="ru">Сам кастелян спал, но помощник кастеляна, вернее, один из его помощников, господин Фриц, оказался на месте.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der junge Mann, der sich als Schwarzer vorstellte, erzählte, wie er K. gefunden, einen Mann in den Dreißigern, recht zerlumpt, auf einem Strohsack ruhig schlafend, mit einem winzigen Rucksack als Kopfkissen, einen Knotenstock in Reichweite.</su>
+          <su lang="ru">Молодой человек, назвавший себя Шварцером, рассказал, что он обнаружил некоего К., человека лет тридцати, весьма плохо одетого, который преспокойно спал на соломенном тюфяке, положив под голову вместо подушки рюкзак, а рядом с собой — суковатую палку.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Nun sei er ihm natürlich verdächtig gewesen, und da der Wirt offenbar seine Pflicht vernachlässigt hatte, sei es seine, Schwarzers, Pflicht gewesen, der Sache auf den Grund zu gehen. Das Gewecktwerden, das Verhör, die pflichtgemäße Androhung der Verweisung aus der Grafschaft habe K. sehr ungnädig aufgenommen, wie es sich schließlich gezeigt habe, vielleicht mit Recht, denn er behaupte, ein vom Herrn Grafen bestellter Landvermesser zu sein.</su>
+          <su lang="ru">Конечно, это вызвало подозрение, и так как хозяин явно пренебрег своими обязанностями, то он, Шварцер, счел своим долгом вникнуть в его дело как следует, но К. весьма неприязненно отнесся к тому, что его разбудили, допросили и пригрозили выгнать из владений графа, хотя, может быть, рассердился он по праву, так как утверждает, что он землемер, которого вызвал сам граф.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Natürlich sei es zumindest formale Pflicht, die Behauptung nachzuprüfen, und Schwarzer bitte deshalb Herrn Fritz, sich in der Zentralkanzlei zu erkundigen, ob ein Landvermesser dieser Art wirklich erwartet werde, und die Antwort gleich zu telefonieren.</su>
+          <su lang="ru">Разумеется, необходимо, хотя бы для соблюдения формальностей, проверить это заявление, поэтому Шварцер просит господина Фрица справиться в Центральной канцелярии, действительно ли там ожидают землемера, и немедленно сообщить результат по телефону.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="de">Dann war es still, Fritz erkundigte sich drüben, und hier wartete man auf die Antwort.</su>
+          <su lang="ru">Стало совсем тихо; Фриц наводил справки, а тут ждали ответа.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">K. blieb wie bisher, drehte sich nicht einmal um, schien gar nicht neugierig, sah vor sich hin.</su>
+          <su lang="ru">К. лежал неподвижно, он даже не повернулся и, не проявляя никакого интереса, уставился в одну точку.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Erzählung Schwarzers in ihrer Mischung von Bosheit und Vorsicht gab ihm eine Vorstellung von der gewissermaßen diplomatischen Bildung, über die im Schloß selbst kleine Leute wie Schwarzer leicht verfügten.</su>
+          <su lang="ru">Недоброжелательный и вместе с тем осторожный доклад Шварцера говорил о некоторой дипломатической подготовке, которую в Замке, очевидно, проходят даже самые незначительные люди, вроде Шварцера.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und auch an Fleiß ließen sie es dort nicht fehlen; die Zentralkanzlei hatte Nachtdienst.</su>
+          <su lang="ru">Да и работали там, как видно, на совесть, раз Централь-пая канцелярия была открыта и ночью.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und gab offenbar sehr schnell Antwort, denn schon klingelte Fritz.</su>
+          <su lang="ru">И справки выдавали, как видно, сразу: Фриц позвонил тут же.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Dieser Bericht schien allerdings sehr kurz, denn sofort warf Schwarzer wütend den Hörer hin.</su>
+          <su lang="ru">Ответ был, как видно, весьма короткий, и Шварцер злобно бросил трубку.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Ich habe es ja gesagt!" schrie er.</su>
+          <su lang="ru">"Как я и говорил! — закричал он.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Keine Spur von Landvermesser, ein gemeiner, lügnerischer Landstreicher, wahrscheinlich aber Ärgeres."</su>
+          <su lang="ru">— Никакой он не землемер, просто гнусный враль и бродяга, а может, и похуже".</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="de">Einen Augenblick dachte K., alle, Schwarzer, Bauern, Wirt und Wirtin, würden sich auf ihn stürzen.</su>
+          <su lang="ru">В первую минуту К. подумал, что все — и крестьяне, и Шварцер, и хозяин с хозяйкой — бросятся на него.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Um wenigstens dem ersten Ansturm auszuweichen, verkroch er sich ganz unter die Decke.</su>
+          <su lang="ru">Он нырнул под одеяло — хотя бы укрыться от первого наскока.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Da läutete das Telefon nochmals, und, wie es K. schien, besonders stark.</su>
+          <su lang="ru">Но тут снова зазвонил телефон, как показалось К., особенно громко.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er steckte langsam den Kopf wieder hervor.</su>
+          <su lang="ru">Он осторожно высунул голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Obwohl es unwahrscheinlich war, daß es wieder K. betraf, stockten alle, und Schwarzer kehrte zum Apparat zurück.</su>
+          <su lang="ru">И хотя казалось маловероятным, что звонок касается К., но все остановились, а Шварцер подошел к аппарату.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er hörte dort eine längere Erklärung ab und sagte dann leise: "Ein Irrtum also?</su>
+          <su lang="ru">Он выслушал длинное объяснение и тихо проговорил: "Значит, ошибка?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das ist mir recht unangenehm.</su>
+          <su lang="ru">Мне очень неприятно.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Bürochef selbst hat telefoniert?</su>
+          <su lang="ru">Как, звонил сам начальник Канцелярии?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sonderbar, sonderbar.</su>
+          <su lang="ru">Странно, странно.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wie soll ich es dem Herrn Landvermesser erklären?"</su>
+          <su lang="ru">Что же мне сказать господину землемеру?"</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="de">K. horchte auf.</su>
+          <su lang="ru">К. насторожился.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das Schloß hatte ihn also zum Landvermesser ernannt.</su>
+          <su lang="ru">Значит, Замок утвердил за ним звание землемера.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das war einerseits ungünstig für ihn, denn es zeigte, daß man im Schloß alles Nötige über ihn wußte, die Kräfteverhältnisse abgewogen hatte und den Kampf lächelnd aufnahm.</su>
+          <su lang="ru">С одной стороны, это было ему невыгодно, так как означало, что в Замке о нем знают все что надо и, учитывая соотношение сил, шутя принимают вызов к борьбе.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Es war aber andererseits auch günstig, denn es bewies, seiner Meinung nach, daß man ihn unterschätzte und daß er mehr Freiheit haben würde, als er hätte von vornherein hoffen dürfen.</su>
+          <su lang="ru">Но с другой стороны, в этом была и своя выгода: по его мнению, это доказывало, что его недооценивают и, следовательно, он будет пользоваться большей свободой, чем предполагал.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und wenn man glaubte, durch diese geistig gewiß überlegene Anerkennung seiner Landvermesserschaft ihn dauernd in Schrecken halten zu können, so täuschte man sich; es überschauerte ihn leicht, das war aber alles.</su>
+          <su lang="ru">А если они считают, что этим своим безусловно высокомерным признанием его звания они смогут держать его в постоянном страхе, то тут они ошибаются: ему стало немного жутко, вот и все.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="de">Dem sich schüchtern nähernden Schwarzer winkte K. ab; ins Zimmer des Wirtes zu übersiedeln, wozu man ihn drängte, weigerte er sich, nahm nur vom Wirt einen Schlaftrunk an, von der Wirtin ein Waschbecken mit Seife und Handtuch und mußte gar nicht erst verlangen, daß der Saal geleert wurde, denn alles drängte mit abgewendeten Gesichtern hinaus, um nicht etwa morgen von ihm erkannt zu werden.</su>
+          <su lang="ru">К. отмахнулся от Шварцера, когда тот робко попытался подойти к нему, отказался, несмотря на уговоры, перейти в комнату хозяев, только принял из рук хозяина стакан питья, а от хозяйки — таз для умывания и мыло с полотенцем; ему даже не пришлось просить очистить зал, так как все уже теснились у выхода, отворачиваясь от К., чтобы он утром никого не узнал.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Lampe wurde ausgelöscht, und er hatte endlich Ruhe.</su>
+          <su lang="ru">Лампу погасили, и наконец его оставили в покое.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er schlief tief, kaum ein-, zweimal von vorüberhuschenden Ratten flüchtig gestört, bis zum Morgen.</su>
+          <su lang="ru">Он уснул глубоким сном и, хотя его раза два будили шмыгавшие мимо крысы, проспал до самого утра.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="de">Nach dem Frühstück, das, wie überhaupt K.s ganze Verpflegung, nach Angabe des Wirts vom Schloß bezahlt werden sollte, wollte er gleich ins Dorf gehen.</su>
+          <su lang="ru">После завтрака — и еду, и пребывание К. в гостинице должен был, по словам хозяина, оплатить Замок — К. собрался идти в Деревню.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber da der Wirt, mit dem er bisher in Erinnerung an sein gestriges Benehmen nur das Notwendigste gesprochen hatte, mit stummer Bitte sich immerfort um ihn herumdrehte, erbarmte er sich seiner und ließ ihn für ein Weilchen bei sich niedersetzen.</su>
+          <su lang="ru">Но так как хозяин, с которым он, памятуя его вчерашнее поведение, говорил только по необходимости, все время молча, с умоляющим видом, вертелся около него, К. сжалился над ним и разрешил ему присесть рядом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="de">"Ich kenne den Grafen noch nicht", sagte K., "er soll gute Arbeit gut bezahlen, ist das wahr?</su>
+          <su lang="ru">"С графом я еще незнаком, — сказал он, — говорят, он за хорошую работу хорошо и платит, верно?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wenn man, wie ich, so weit von Frau und Kind reist, dann will man auch etwas heimbringen."</su>
+          <su lang="ru">Когда уедешь, как я, далеко от семьи, хочется привезти домой побольше".</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="de">"In dieser Hinsicht muß sich der Herr keine Sorge machen, über schlechte Bezahlung hört man keine Klage."</su>
+          <su lang="ru">"Об этом пусть господин не беспокоится, на плохую оплату здесь еще никто не жаловался".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Nun", sagte K., "ich gehöre ja nicht zu den Schüchternen und kann auch einem Grafen meine Meinung sagen, aber in Frieden mit den Herren fertig zu werden ist natürlich weit besser."</su>
+          <su lang="ru">"Да я и не робкого десятка, — сказал К., — могу настоять на своем и перед графом, но, конечно, куда лучше поладить миром с этим господином".</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="de">Der Wirt saß K. gegenüber am Rand der Fensterbank, bequemer wagte er sich nicht zu setzen, und sah K. die ganze Zeit über mit großen, braunen, ängstlichen Augen an.</su>
+          <su lang="ru">Хозяин примостился напротив К. на самом краешке подоконника — усесться поудобнее он не решался — и не сводил с К. больших карих испуганных глаз.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Zuerst hatte er sich an K. herangedrängt, und nun schien es, als wolle er am liebsten weglaufen.</su>
+          <su lang="ru">И хотя перед этим он сам все время ходил около К., но теперь, как видно, ему не терпелось сбежать.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Fürchtete er, über den Grafen ausgefragt zu werden?</su>
+          <su lang="ru">Боялся он, что ли, расспросов про графа?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Fürchtete er die Unzuverlässigkeit des "Herrn", für den er K. hielt?</su>
+          <su lang="ru">Или боялся, что "господин", которого он видел в К., — человек ненадежный?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">K. mußte ihn ablenken.</su>
+          <su lang="ru">К. решил его отвлечь.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er blickte auf die Uhr und sagte: "Nun werden bald meine Gehilfen kommen, wirst du sie hier unterbringen können?"</su>
+          <su lang="ru">Взглянув на часы, он сказал: "Скоро подъедут и мои помощники, сможешь ли ты пристроить их тут?"</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="de">"Gewiß, Herr", sagte er, "werden sie aber nicht mit dir im Schlosse wohnen?"</su>
+          <su lang="ru">"Конечно, сударь, но разве они не будут жить вместе с тобой в Замке?"</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="de">Verzichtete er so leicht und gern auf die Gäste und auf K. besonders, den er unbedingt ins Schloß verwies?</su>
+          <su lang="ru">Неужели он так легко и охотно отказывается от постояльцев, и от К. в особенности, считая, что тот непременно будет жить в Замке?</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="de">"Das ist noch nicht sicher", sagte K., "erst muß ich erfahren, was für eine Arbeit man für mich hat.</su>
+          <su lang="ru">"Это не обязательно, — сказал К., — сначала надо узнать, какую мне дадут работу.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sollte ich zum Beispiel hier unten arbeiten, dann wird es auch vernünftiger sein, hier unten zu wohnen.</su>
+          <su lang="ru">Если, к примеру, придется работать тут, внизу, то и жить внизу будет удобнее.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Auch fürchte ich, daß mir das Leben oben im Schlosse nicht zusagen würde.</su>
+          <su lang="ru">К тому же я боюсь, что жизнь в Замке окажется не по мне.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich will immer frei sein."</su>
+          <su lang="ru">Хочу всегда чувствовать себя свободно".</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="de">"Du kennst das Schloß nicht", sagte der Wirt leise.</su>
+          <su lang="ru">"Не знаешь ты Замка", — тихо сказал хозяин.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="de">"Freilich", sagte K., "man soll nicht verfrüht urteilen.</su>
+          <su lang="ru">"Конечно, — сказал К., — заранее судить не стоит.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Vorläufig weiß ich ja vom Schloß nichts weiter, als daß man es dort versteht, sich den richtigen Landvermesser auszusuchen.</su>
+          <su lang="ru">О Замке я покамест знаю только то, что там умеют подобрать для себя хороших землемеров.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Vielleicht gibt es dort noch andere Vorzüge."</su>
+          <su lang="ru">Но, возможно, там есть и другие преимущества".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und er stand auf, um den unruhig seine Lippen beißenden Wirt von sich zu befreien.</su>
+          <su lang="ru">И К. встал, чтобы освободить от своего присутствия хозяина, беспокойно кусавшего губы.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Leicht war das Vertrauen dieses Mannes nicht zu gewinnen.</su>
+          <su lang="ru">Не так-то легко было завоевать доверие этого человека.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="de">Im Fortgehen fiel K. an der Wand ein dunkles Porträt in einem dunklen Rahmen auf.</su>
+          <su lang="ru">Выходя, К. обратил внимание на темный портрет в темной раме, висевший на стене.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Schon von seinem Lager aus hatte er es bemerkt, hatte aber in der Entfernung die Einzelheiten nicht unterschieden und geglaubt, das eigentliche Bild sei aus dem Rahmen fortgenommen und nur ein schwarzer Rückendeckel sei zu sehen.</su>
+          <su lang="ru">Он заметил его и раньше, со своего тюфяка, но издали не разглядел как следует и подумал, что картина была вынута из рамы и осталась только черная доска.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber es war doch ein Bild, wie sich jetzt zeigte, das Brustbild eines etwa fünfzigjährigen Mannes.</su>
+          <su lang="ru">Но теперь он увидел, что это был портрет, поясной портрет мужчины лет пятидесяти.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Den Kopf hielt er so tief auf die Brust gesenkt, daß man kaum etwas von den Augen sah, entscheidend für die Senkung schien die hohe, lastende Stirn und die starke, hinabgekrümmte Nase.</su>
+          <su lang="ru">Его голова была опущена так низко, что глаз почти не было видно и четко выделялся только высокий выпуклый лоб да крупный крючковатый нос.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Vollbart, infolge der Kopfhaltung am Kinn eingedrückt, stand weiter unten ab.</su>
+          <su lang="ru">Широкая борода, прижатая наклоном головы, резко выдавалась вперед.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die linke Hand lag gespreizt in den vollen Haaren, konnte aber den Kopf nicht mehr heben.</su>
+          <su lang="ru">Левая рука была запущена в густые волосы, но поднять голову кверху никак не могла.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Wer ist das?" fragte K. "Der Graf?" K. stand vor dem Bild und blickte sich gar nicht nach dem Wirt um.</su>
+          <su lang="ru">"Кто такой? — спросил К. — Граф?"</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="de">"Nein", sagte der Wirt, "der Kastellan."</su>
+          <su lang="ru">"Нет, — сказал хозяин, — это кастелян".</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="de">- "Einen schönen Kastellan haben sie im Schloß, das ist wahr", sagte K., "schade, daß er einen so mißratenen Sohn hat."</su>
+          <su lang="ru">"Красивый у них в Замке кастелян, сразу видно, — сказал К., — жаль только, что сын у него неудачный".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Nein", sagte der Wirt, zog K. ein wenig zu sich herunter und flüsterte ihm ins Ohr: "Schwarzer hat gestern übertrieben, sein Vater ist nur ein Unterkastellan und sogar einer der letzten."</su>
+          <su lang="ru">"Нет, — сказал хозяин, притянул к себе К. и зашептал ему в ухо: — Шварцер вчера наговорил лишнего, его отец всего лишь помощник кастеляна, да и то из самых низших".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">In diesem Augenblick kam der Wirt K. wie ein Kind vor.</su>
+          <su lang="ru">К. показалось, что в эту минуту хозяин стал похож на ребенка.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Der Lump!" sagte K. lachend, aber der Wirt lachte nicht mit, sondern sagte: "Auch sein Vater ist mächtig."</su>
+          <su lang="ru">"Каков негодяй!" — засмеялся К., но хозяину было, очевидно, не до смеха. "Его отец тоже человек могущественный!" — сказал он.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Geh!" sagte K. "Du hältst jeden für mächtig.</su>
+          <su lang="ru">"Брось! — сказал К. — Ты всех считаешь могущественными.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Mich etwa auch?"</su>
+          <su lang="ru">Наверно, и меня тоже?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Dich", sagte er schüchtern, aber ernsthaft, "halte ich nicht für mächtig."</su>
+          <su lang="ru">"Тебя? — сказал тот робко, но решительно. — Нет, тебя я могущественным не считаю".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Du verstehst also doch recht gut zu beobachten", sagte K., "mächtig bin ich nämlich, im Vertrauen gesagt, wirklich nicht.</su>
+          <su lang="ru">"Однако ты неплохо все подмечаешь, — сказал К. — Откровенно говоря, никакого могущества у меня действительно нет.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und habe infolgedessen vor den Mächtigen wahrscheinlich nicht weniger Respekt als du, nur bin ich nicht so aufrichtig wie du und will es nicht immer eingestehen."</su>
+          <su lang="ru">Должно быть, оттого я не меньше тебя уважаю всякую власть, только я не так откровенен, как ты, и не всегда желаю в этом сознаваться".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und K. klopfte dem Wirt, um ihn zu trösten und sich geneigter zu machen, leicht auf die Wange.</su>
+          <su lang="ru">И К. слегка похлопал хозяина по щеке — хотелось и утешить его, и снискать больше доверия к себе.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Nun lächelte er doch ein wenig.</su>
+          <su lang="ru">Тот смущенно улыбнулся.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er war wirklich ein Junge mit seinem weichen, fast bartlosen Gesicht.</su>
+          <su lang="ru">Он и вправду был похож на мальчишку — лицо мягкое, почти безбородое.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wie war er zu seiner breiten, ältlichen Frau gekommen, die man nebenan hinter einem Guckfenster, weit die Ellenbogen vom Leib, in der Küche hantieren sah?</su>
+          <su lang="ru">И как это ему досталась такая толстая, немолодая жена — через оконце в стене было видно, как она, широко расставив локти, хозяйничает на кухне.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">K. wollte aber jetzt nicht mehr weiter in ihn dringen, das endlich bewirkte Lächeln nicht verjagen.</su>
+          <su lang="ru">Но К. не хотел сейчас расспрашивать хозяина, боясь прогнать эту улыбку, вызванную с таким трудом.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er gab ihm also nur noch einen Wink, ihm die Tür zu öffnen, und trat in den schönen Wintermorgen hinaus.</su>
+          <su lang="ru">Он только кивком попросил открыть ему двери и вышел в погожее зимнее утро.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="de">Nun sah er oben das Schloß deutlich umrissen in der klaren Luft und noch verdeutlicht durch den alle Formen nachbildenden, in dünner Schicht überall liegenden Schnee.</su>
+          <su lang="ru">Теперь весь Замок ясно вырисовывался в прозрачном воздухе, и от тонкого снежного покрова, целиком одевавшего его, все формы и линии выступали еще отчетливее.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Übrigens schien oben auf dem Berg viel weniger Schnee zu sein als hier im Dorf, wo sich K. nicht weniger mühsam vorwärts brachte als gestern auf der Landstraße.</su>
+          <su lang="ru">Вообще же там, на горе, снега как будто было меньше, чем тут, в Деревне, где К. пробирался с не меньшим трудом, чем вчера по дороге.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Hier reichte der Schnee bis zu den Fenstern der Hütten und lastete gleich wieder auf dem niedrigen Dach, aber oben auf dem Berg ragte alles frei und leicht empor, wenigstens schien es so von hier aus.</su>
+          <su lang="ru">Тут снег подступал к самым окнам избушек, навстречу тяжело нависали с низких крыш сугробы, а там, на горе, все высилось свободно и легко — так по крайней мере казалось снизу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="de">Im ganzen entsprach das Schloß, wie es sich hier von der Ferne zeigte, K.s Erwartungen. Es war weder eine alte Ritterburg noch ein neuer Prunkbau, sondern eine ausgedehnte Anlage, die aus wenigen zweistöckigen, aber aus vielen eng aneinander stehenden niedrigen Bauten bestand; hätte man nicht gewußt, daß es ein Schloß sei, hätte man es für ein Städtchen halten können.</su>
+          <su lang="ru">Весь Замок, каким он виделся издалека, вполне соответствовал ожиданиям К. Это была и не старинная рыцарская крепость, и не роскошный новый дворец, а целый ряд строений, состоящий из нескольких двухэтажных и множества тесно прижавшихся друг к другу низких зданий, и, если бы не знать, что это Замок, можно было бы принять его за городок.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Nur einen Turm sah K., ob er zu einem Wohngebäude oder einer Kirche gehörte, war nicht zu erkennen.</su>
+          <su lang="ru">К. увидел только одну башню, то ли над жилым помещением, то ли над церковью — разобрать было нельзя.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Schwärme von Krähen umkreisten ihn.</su>
+          <su lang="ru">Стаи ворон кружились над башней.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="de">Die Augen auf das Schloß gerichtet, ging K. weiter, nichts sonst kümmerte ihn.</su>
+          <su lang="ru">К. шел вперед, не сводя глаз с Замка, — ничто другое его не интересовало.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber im Näherkommen enttäuschte ihn das Schloß, es war doch nur ein recht elendes Städtchen, aus Dorfhäusern zusammengetragen, ausgezeichnet nur dadurch, daß vielleicht alles aus Stein gebaut war; aber der Anstrich war längst abgefallen, und der Stein schien abzubröckeln.</su>
+          <su lang="ru">Но чем ближе он подходил, тем больше разочаровывал его Замок, уже казавшийся просто жалким городком, чьи домишки отличались от изб только тем, что были построены из камня, да и то штукатурка на них давно отлепилась, а каменная кладка явно крошилась.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Flüchtig erinnerte sich K. an sein Heimatstädtchen; es stand diesem angeblichen Schlosse kaum nach.</su>
+          <su lang="ru">Мельком припомнил К. свой родной городок; он был ничуть не хуже этого так называемого Замка.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wäre es K. nur auf die Besichtigung angekommen, dann wäre es schade um die lange Wanderschaft gewesen und er hätte vernünftiger gehandelt, wieder einmal die alte Heimat zu besuchen, wo er schon so lange nicht gewesen war.</su>
+          <su lang="ru">Если бы К. приехал лишь для его осмотра, то жалко было бы проделанного пути, и куда умнее было бы снова навестить далекий родной край, где он так давно не бывал.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und er verglich in Gedanken den Kirchturm der Heimat mit dem Turm dort oben.</su>
+          <su lang="ru">И К. мысленно сравнил церковную башню родного города с этой башней наверху.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Jener Turm, bestimmt, ohne Zögern geradewegs nach oben sich verjüngend, breitdachig, abschließend mit roten Ziegeln, ein irdisches Gebäude - was können wir anderes bauen? - aber mit höherem Ziel als die niedrige Häusermenge und mit klarerem Ausdruck, als ihn der trübe Werktag hat.</su>
+          <su lang="ru">Та башня четкая, бестрепетно идущая кверху, с широкой кровлей, крытой красной черепицей, вся земная — разве можем мы строить иначе? — но устремленная выше, чем приземистые домишки, более праздничная, чем их тусклые будни.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="de">Der Turm hier oben - es war der einzig sichtbare -, der Turm eines Wohnhauses, wie es sich jetzt zeigte, vielleicht des Hauptschlosses, war ein einförmiger Rundbau, zum Teil gnädig von Efeu verdeckt, mit kleinen Fenstern, die jetzt in der Sonne aufstrahlten - etwas Irrsinniges hatte das -, und einem söllerartigen Abschluß, dessen Mauerzinnen unsicher, unregelmäßig, brüchig, wie von ängstlicher oder nachlässiger Kinderhand gezeichnet, sich in den blauen Himmel zackten.</su>
+          <su lang="ru">А эта башня наверху — единственная, какую он заметил, башня жилого дома, как теперь оказалось, а быть может, и главная башня Замка — представляла собой однообразное круглое строение, кое-где словно из жалости прикрытое плющом, с маленькими окнами, посверкивающими сейчас на солнце — в этом было что-то безумное — и с выступающим карнизом, чьи зубцы, неустойчивые, неровные и ломкие, словно нарисованные пугливой или небрежной детской рукой, врезались в синее небо.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Es war, wie wenn ein trübseliger Hausbewohner, der gerechterweise im entlegensten Zimmer des Hauses sich hätte eingesperrt halten sollen, das Dach durchbrochen und sich erhoben hätte, um sich der Welt zu zeigen.</su>
+          <su lang="ru">Казалось, будто какой-то унылый жилец, которому лучше всего было бы запереться в самом дальнем углу дома, вдруг пробил крышу и высунулся наружу, чтобы показаться всему свету.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="de">Wieder stand K. still, als hätte er im Stillestehen mehr Kraft des Urteils.</su>
+          <su lang="ru">К. снова остановился, как будто так, не на ходу, ему было легче судить о том, что он видел.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber er wurde gestört.</su>
+          <su lang="ru">Но ему помешали.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Hinter der Dorfkirche, bei der er stehengeblieben war - es war eigentlich nur eine Kapelle, scheunenartig erweitert, um die Gemeinde aufnehmen zu können -, war die Schule.</su>
+          <su lang="ru">За сельской церковью, где он остановился, — в сущности, это была, скорее, часовня с пристройкой вроде амбара, где можно было вместить всех прихожан, — стояла школа.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ein niedriges, langes Gebäude, merkwürdig den Charakter des Provisorischen und des sehr Alten vereinigend, lag es hinter einem umgitterten Garten, der jetzt ein Schneefeld war.</su>
+          <su lang="ru">Длинный низкий дом — странное сочетание чего-то наспех сколоченного и вместе с тем древнего — стоял в саду, обнесенном решеткой и утонувшем в снегу.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Eben kamen die Kinder mit dem Lehrer heraus.</su>
+          <su lang="ru">Оттуда как раз выходили дети с учителем.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">In einem dichten Haufen umgaben sie den Lehrer, aller Augen blickten auf ihn, unaufhörlich schwatzten sie von allen Seiten, K. verstand ihr schnelles Sprechen gar nicht.</su>
+          <su lang="ru">Окружив его тесной толпой и глядя ему в глаза, ребята без умолку болтали наперебой, и К. ничего не понимал в их быстрой речи.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Lehrer, ein junger, kleiner, schmalschulteriger Mensch, aber ohne daß es lächerlich wurde, sehr aufrecht, hatte K. schon von der Ferne ins Auge gefaßt, allerdings war außer seiner Gruppe K. der einzige Mensch weit und breit.</su>
+          <su lang="ru">Учитель, маленький, узкоплечий человечек, держался очень прямо, но не производил смешного впечатления. Он уже издали заметил К. — впрочем, никого, кроме его учеников и К., вокруг не было.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">K., als Fremder, grüßte zuerst, gar einen so befehlshaberischen kleinen Mann.</su>
+          <su lang="ru">Как приезжий, К. поздоровался первым, к тому же у маленького учителя был весьма внушительный вид.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="de">"Guten Tag, Herr Lehrer", sagte er. Mit einem Schlag verstummten die Kinder, diese plötzliche Stille als Vorbereitung für seine Worte mochte wohl dem Lehrer gefallen.</su>
+          <su lang="ru">"Добрый день, господин учитель", — сказал К. Словно по команде, дети сразу замолчали, и эта внезапная тишина в ожидании его слов как-то расположила учителя.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Ihr sehet das Schloß an?" fragte er sanftmütiger, als K. erwartet hatte, aber in einem Tone, als billige er nicht das, was K. tue. "Ja", sagte K., "ich bin hier fremd, erst seit gestern abend im Ort."</su>
+          <su lang="ru">"Рассматриваете Замок?" — спросил он мягче, чем ожидал К., однако таким тоном, словно он не одобрял поведения К. "Да, — сказал К. — Я приезжий, только со вчерашнего вечера тут".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Das Schloß gefällt Euch nicht?" fragte der Lehrer schnell.</su>
+          <su lang="ru">"Вам Замок не нравится?" — быстро спросил учитель.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Wie?" fragte K. zurück, ein wenig verblüfft, und wiederholte in milderer Form die Frage: "Ob mir das Schloß gefällt?</su>
+          <su lang="ru">"Как вы сказали? — переспросил К. немного растерянно и повторил вопрос учителя, смягчив его: — Нравится ли мне Замок?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Warum nehmt Ihr an, daß es mir nicht gefällt?"</su>
+          <su lang="ru">А почему вы решили, что он мне не понравится?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Keinem Fremden gefällt es", sagte der Lehrer.</su>
+          <su lang="ru">"Никому из приезжих не нравится", — сказал учитель.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Um hier nichts Unwillkommenes zu sagen, wendete K. das Gespräch und fragte: "Sie kennen wohl den Grafen?"</su>
+          <su lang="ru">И К., чтобы не сказать лишнего, перевел разговор и спросил: "Вы, наверно, знаете графа?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Nein", sagte der Lehrer und wollte sich abwenden. K. gab aber nicht nach und fragte nochmals: "Wie? Sie kennen den Grafen nicht?"</su>
+          <su lang="ru">"Нет", — ответил учитель и хотел отойти, но К. не уступал и повторил вопрос: "Как, вы не знаете графа?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Wie sollte ich ihn kennen?" sagte der Lehrer leise und fügte laut auf französisch hinzu: "Nehmen Sie Rücksicht auf die Anwesenheit unschuldiger Kinder."</su>
+          <su lang="ru">"Откуда мне его знать? — тихо сказал учитель и добавил громко по-французски: — Будьте осторожней в присутствии невинных детей".</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="de">K. holte daraus das Recht zu fragen: "Könnte ich Sie, Herr Lehrer, einmal besuchen?</su>
+          <su lang="ru">К. решил, что после этих слов ему можно спросить: "Вы разрешите как-нибудь зайти к вам, господин учитель?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich bleibe längere Zeit hier und fühle mich schon jetzt ein wenig verlassen; zu den Bauern gehöre ich nicht und ins Schloß wohl auch nicht."</su>
+          <su lang="ru">Я приехал сюда надолго и уже чувствую себя несколько одиноким; с крестьянами у меня мало общего, и с Замком, очевидно, тоже".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Zwischen den Bauern und dem Schloß ist kein großer Unterschied", sagte der Lehrer.</su>
+          <su lang="ru">"Между Замком и крестьянами особой разницы нет", — сказал учитель.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Mag sein", sagte K., "das ändert an meiner Lage nichts.</su>
+          <su lang="ru">"Возможно, — согласился К. — Но в моем положении это ничего не меняет.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Könnte ich Sie einmal besuchen?"</su>
+          <su lang="ru">Можно мне как-нибудь зайти к вам?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Ich wohne in der Schwanengasse beim Fleischhauer."</su>
+          <su lang="ru">"Я живу на Шваненгассе, у мясника", — сказал учитель.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das war nun zwar mehr eine Adressenangabe als eine Einladung, dennoch sagte K.: "Gut, ich werde kommen."</su>
+          <su lang="ru">И хотя он скорее просто сообщил свой адрес, чем пригласил к себе, но К. все же сказал: "Хорошо, я приду".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Lehrer nickte und zog mit den gleich wieder losschreienden Kinderhaufen weiter.</su>
+          <su lang="ru">Учитель кивнул головой и отошел, а дети сразу загалдели.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sie verschwanden bald in einem jäh abfallenden Gäßchen.</su>
+          <su lang="ru">Вскоре они скрылись в круто спускавшемся переулке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="de">K. aber war zerstreut, durch das Gespräch verärgert.</su>
+          <su lang="ru">К. не мог сосредоточиться — его расстроил этот разговор.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Zum erstenmal seit seinem Kommen fühlte er wirkliche Müdigkeit.</su>
+          <su lang="ru">Впервые после приезда он почувствовал настоящую усталость.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der weite Weg hierher schien ihn ursprünglich gar nicht angegriffen zu haben, wie war er durch die Tage gewandert, ruhig, Schritt für Schritt!</su>
+          <su lang="ru">Дальняя дорога его совсем не утомила, он шел себе и шел, изо дня в день, спокойно, шаг за шагом.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- Jetzt aber zeigten sich doch die Folgen der übergroßen Anstrengung, zur Unzeit freilich.</su>
+          <su lang="ru">А сейчас сказывались последствия сильнейшего переутомления — и очень некстати.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Es zog ihn unwiderstehlich hin, neue Bekanntschaften zu suchen, aber jede neue Bekanntschaft verstärkte die Müdigkeit.</su>
+          <su lang="ru">Его неудержимо тянуло к новым знакомствам, но каждая новая встреча усугубляла усталость.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wenn er sich in seinem heutigen Zustand zwang, seinen Spaziergang wenigstens bis zum Eingang des Schlosses auszudehnen, war übergenug getan.</su>
+          <su lang="ru">Нет, будет вполне достаточно, если он в своем теперешнем состоянии заставит себя прогуляться хотя бы до входа в Замок.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="de">So ging er wieder vorwärts, aber es war ein langer Weg.</su>
+          <su lang="ru">Он снова зашагал вперед, но дорога была длинной.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Straße nämlich, die Hauptstraße des Dorfes, führte nicht zum Schloßberg, sie führte nur nahe heran, dann aber, wie absichtlich, bog sie ab, und wenn sie sich auch vom Schloß nicht entfernte, so kam sie ihm doch auch nicht näher.</su>
+          <su lang="ru">Оказалось, что улица — главная улица Деревни — вела не к замковой горе, а только приближалась к ней, но потом, словно нарочно, сворачивала вбок и, не удаляясь от Замка, все же к нему и не приближалась.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Immer erwartete K., daß nun endlich die Straße zum Schloß einlenken müsse und nur, weil er es erwartete, ging er weiter; offenbar infolge seiner Müdigkeit zögerte er, die Straße zu verlassen, auch staunte er über die Länge des Dorfes, das kein Ende nahm, immer wieder die kleinen Häuschen und vereisten Fensterscheiben und Schnee und Menschenleere - endlich riß er sich los von dieser festhaltenden Straße, ein schmales Gäßchen nahm ihn auf, noch tieferer Schnee, das Herausziehen der einsinkenden Füße war eine schwere Arbeit, Schweiß brach ihm aus, plötzlich stand er still und konnte nicht mehr weiter.</su>
+          <su lang="ru">К. все время ждал, что наконец дорога повернет к Замку, и только из-за этого шел дальше, от усталости он явно боялся сбиться с пути, да к тому же его удивляла величина Деревни: она тянулась без конца — все те же маленькие домишки, заиндевевшие окна, и снег, и безлюдье, — тут он внезапно оторвался от цепко державшей его дороги, и его принял узкий переулочек, где снег лежал еще глубже и только с трудом можно было вытаскивать вязнувшие ноги. Пот выступил на лбу у К., и он остановился в изнеможении.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="de">Nun, er war ja nicht verlassen, rechts und links standen Bauernhütten.</su>
+          <su lang="ru">Да, но ведь он был не один, справа и слева стояли крестьянские избы.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er machte einen Schneeball und warf ihn gegen ein Fenster.</su>
+          <su lang="ru">Он слепил снежок и бросил его в окошко.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Gleich öffnete sich die Türe - die erste sich öffnende Türe während des ganzen Dorfweges - und ein alter Bauer, in brauner Pelzjoppe, den Kopf seitwärts geneigt, freundlich und schwach, stand dort.</su>
+          <su lang="ru">Тотчас же отворилась дверь — первая открывшаяся дверь за всю дорогу по Деревне, — и старый крестьянин в коричневом кожухе, приветливо и робко склонив голову к плечу, вышел ему навстречу.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Darf ich ein wenig zu Euch kommen?" sagte K., "ich bin sehr müde."</su>
+          <su lang="ru">"Можно мне ненадолго зайти к вам? — сказал К. —Я очень устал".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er hörte gar nicht, was der Alte sagte, dankbar nahm er es an, daß ihm ein Brett entgegengeschoben wurde, das ihn gleich aus dem Schnee rettete, und mit ein paar Schritten stand er in der Stube.</su>
+          <su lang="ru">Он не расслышал, что ответил старик, но с благодарностью увидел, что тот подложил доску, чтобы он мог выбраться из глубокого снега, и, шагнув по ней, К. очутился в горнице.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="de">Eine große Stube im Dämmerlicht.</su>
+          <su lang="ru">Большая сумрачная комната.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der von draußen Kommende sah zuerst gar nichts.</su>
+          <su lang="ru">Войдя со свету, сразу ничего нельзя было увидеть.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">K. taumelte gegen einen Waschtrog, eine Frauenhand hielt ihn zurück.</su>
+          <su lang="ru">К. наткнулся на корыто, женская рука отвела его.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aus einer Ecke kam viel Kindergeschrei.</su>
+          <su lang="ru">В одном углу громко кричали дети.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aus einer anderen Ecke wälzte sich Rauch und machte aus dem Halblicht Finsternis.</su>
+          <su lang="ru">Из другого валил густой пар, от которого полутьма сгущалась в полную темноту.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">K. stand wie in Wolken.</su>
+          <su lang="ru">К. стоял, словно окутанный облаками.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Er ist ja betrunken", sagte jemand.</su>
+          <su lang="ru">"Да он пьян", — сказал кто-то.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Wer seid Ihr?" rief eine herrische Stimme und wohl zu dem Alten gewendet: "Warum hast du ihn hereingelassen?</su>
+          <su lang="ru">"Вы кто такой? — властно крикнул чей-то голос и, обращаясь, как видно, к старику, добавил: — Зачем ты его впустил?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Kann man alles hereinlassen, was auf den Gassen herumschleicht?"</su>
+          <su lang="ru">Всех, что ли, впускать, кто шляется по дороге?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Ich bin der gräfliche Landvermessen", sagte K. und suchte sich so vor den noch immer Unsichtbaren zu verantworten.</su>
+          <su lang="ru">"Я графский землемер", — сказал К., как бы пытаясь оправдаться перед тем, кого он все еще не видел.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Ach, es ist der Landvermesser", sagte eine weibliche Stimme, und nun folgte eine vollkommene Stille.</su>
+          <su lang="ru">"Ах, это землемер", — сказал женский голос, и сразу наступила полнейшая тишина.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Ihr kennt mich?" fragte K. "Gewiß", sagte noch kurz die gleiche Stimme.</su>
+          <su lang="ru">"Вы меня знаете?" — спросил К. "Конечно", — коротко бросил тот же голос.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Daß man K. kannte, schien ihn nicht zu empfehlen.</su>
+          <su lang="ru">Но то, что они знали К., как видно, не шло ему на пользу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="de">Endlich verflüchtigte sich ein wenig der Rauch, und K. konnte sich langsam zurechtfinden.</su>
+          <su lang="ru">Наконец пар немного рассеялся, и К. стал постепенно присматриваться.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Es schien ein allgemeiner Waschtag zu sein.</su>
+          <su lang="ru">Очевидно, у них был банный день.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">In der Nähe der Türe wurde Wäsche gewaschen.</su>
+          <su lang="ru">У дверей стирали.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Rauch war aber aus der anderen Ecke gekommen, wo in einem Holzschaff, so groß, wie K. noch nie eines gesehen hatte - es hatte etwa den Umfang von zwei Betten -, in dampfendem Wasser zwei Männer badeten.</su>
+          <su lang="ru">Но пар шел из другого угла, где в огромной деревянной лохани — таких К. не видел, она была величиной с двуспальную кровать — в горячей воде мылись двое мужчин.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber noch überraschender, ohne daß man genau wußte, worin das Überraschende bestand, war die rechte Ecke.</su>
+          <su lang="ru">Но еще неожиданнее — хотя трудно было сказать, в чем заключалась эта неожиданность, — оказалось то, что виднелось в правом углу.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aus einer großen Lücke, der einzigen in der Stubenrückwand, kam dort, wohl vom Hof her, bleiches Schneelicht und gab dem Kleid einer Frau, die tief in der Ecke in einem hohen Lehnstuhl müde fast lag, einen Schein wie von Seide.</su>
+          <su lang="ru">Из большого окна — единственного в задней стене горницы — со двора падал бледный нежный свет, придавая шелковистый отблеск платью женщины, устало полулежавшей в высоком кресле.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sie trug einen Säugling an der Brust.</su>
+          <su lang="ru">К ее груди прильнул младенец.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Um sie herum spielten ein paar Kinder, Bauernkinder, wie zu sehen war, sie aber schien nicht zu ihnen zu gehören, freilich, Krankheit und Müdigkeit macht auch Bauern fein.</su>
+          <su lang="ru">Около нее играли дети, явно крестьянские ребята, но она как будто была не из этой среды. Правда, от болезни и усталости даже крестьянские лица становятся утонченней.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="de">"Setzt Euch!" sagte der eine der Männer, ein Vollbärtiger, überdies mit einem Schnauzbart, unter dem er den Mund schnaufend immer offenhielt, zeigte, komisch anzusehen, mit der Hand über den Rand des Kübels auf eine Truhe hin und bespritzte dabei K. mit warmem Wasser das ganze Gesicht.</su>
+          <su lang="ru">"Садитесь!" — сказал один из мужчин, круглобородый, да еще с нависшими усами — он все время отдувал их с губ, пыхтя и разевая рот, — и, нелепым жестом выбросив руку из лохани, он указал К. на сундук, обдав ему все лицо теплой водой.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Auf der Truhe saß schon, vor sich hin dämmernd, der Alte, der K. eingelassen hatte. K. war dankbar, sich endlich setzen zu dürfen.</su>
+          <su lang="ru">На сундуке в сумрачном раздумье уже сидел старик, впустивший К., и К. обрадовался, что наконец можно сесть.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Nun kümmerte sich niemand mehr um ihn.</su>
+          <su lang="ru">Больше на него никто не обращал внимания.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Frau beim Waschtrog, blond, in jugendlicher Fülle, sang leise bei der Arbeit, die Männer im Bad stampften und drehten sich, die Kinder wollten sich ihnen nähern, wurden aber durch mächtige Wasserspritzer, die auch K. nicht verschonten, immer wieder zurückgetrieben, die Frau im Lehnstuhl lag wie leblos, nicht einmal auf das Kind an ihrer Brust blickte sie hinab, sondern unbestimmt in die Höhe.</su>
+          <su lang="ru">Молодая женщина, стиравшая у корыта, светловолосая, в расцвете молодости, тихо напевала, мужчины крутились и вертелись в лохани; ребята все время лезли к ним, но их отгоняли, свирепо брызгая в них водой, попадавшей и на К.; женщина в кресле замерла, как неживая, и смотрела не на младенца у груди, а куда-то вверх.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="de">K. hatte sie wohl lange angesehen, dieses sich nicht verändernde schöne, traurige Bild, dann aber mußte er eingeschlafen sein, denn als er, von einer lauten Stimme gerufen, aufschreckte, lag sein Kopf an der Schulter des Alten neben ihm.</su>
+          <su lang="ru">Верно, К. долго глядел на эту неподвижную, грустную и прекрасную картину, но потом, должно быть, заснул, потому что, встрепенувшись от громкого окрика, он почувствовал, что лежит головой на плече у старика, сидевшего рядом.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Männer hatten ihr Bad beendet, in dem sich jetzt die Kinder, von der blonden Frau beaufsichtigt, herumtrieben, und standen angezogen vor K. Es zeigte sich, daß der schreierische Vollbärtige der Geringere von den zweien war.</su>
+          <su lang="ru">Мужчины уже вымылись и стояли одетые около К., а в лохани теперь плескались ребята под присмотром белокурой женщины. Выяснилось, что крикливый бородач не самый главный из двоих.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der andere nämlich, nicht größer als der Vollbärtige und mit viel geringerem Bart, war ein stiller, langsam denkender Mann von breiter Gestalt, auch das Gesicht breit, den Kopf hielt er gesenkt.</su>
+          <su lang="ru">Второй, хоть и ростом не выше и с гораздо менее густой бородой, оказался тихим, медлительным, широкоплечим человеком со скуластым лицом; он стоял опустив голову.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="de">"Herr Landvermesser", sagte er, "hier könnt Ihr nicht bleiben.</su>
+          <su lang="ru">"Господин землемер, — сказал он, — вам тут оставаться нельзя.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Verzeiht die Unhöflichkeit."</su>
+          <su lang="ru">Простите за невежливость".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Ich wollte auch nicht bleiben", sagte K., "nur ein wenig mich ausruhen.</su>
+          <su lang="ru">"Я и не думал оставаться, — сказал К. — Хотел только передохнуть немного.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das ist geschehen, und nun gehe ich."</su>
+          <su lang="ru">Теперь отдохнул и могу уйти".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Ihr wundert Euch wahrscheinlich über die geringe Gastfreundlichkeit", sagte der Mann, "aber Gastfreundlichkeit ist bei uns nicht Sitte, wir brauchen keine Gäste."</su>
+          <su lang="ru">"Наверно, вас удивляет негостеприимство, — сказал тот, — но гостеприимство у нас не в обычае, нам гостей не надо".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ein wenig erfrischt vom Schlaf, ein wenig hellhöriger als früher, freute sich K. über die offenen Worte.</su>
+          <su lang="ru">Освеженный недолгим сном и снова сосредоточившись, К. обрадовался откровенным словам.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er bewegte sich freier, stützte seinen Stock einmal hier, einmal dort auf, näherte sich der Frau im Lehnstuhl, war übrigens auch der körperlich Größte im Zimmer.</su>
+          <su lang="ru">Он двигался свободнее, прошелся, опираясь на свою палку, взад и вперед, даже подошел к женщине в кресле, ощущая, что он ростом выше всех остальных.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="de">"Gewiß", sagte K., "wozu brauchtet ihr Gäste.</su>
+          <su lang="ru">"Правильно, — сказал К. — Зачем вам гости?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber hier und da braucht man doch einen, zum Beispiel mich, den Landvermesser."</su>
+          <su lang="ru">Но изредка человек может и понадобиться, например землемер, такой, как я".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Das weiß ich nicht", sagte der Mann langsam, "hat man Euch gerufen, so braucht man Euch wahrscheinlich, das ist wohl eine Ausnahme, wir aber, wir kleinen Leute, halten uns an die Regel, das könnt Ihr uns nicht verdenken."</su>
+          <su lang="ru">"Мне это неизвестно, — медленно сказал тот. — Если вас вызвали, значит, вы понадобились; наверно, это исключение, но мы, мы люди маленькие, живем по закону, вам за это на нас обижаться не следует".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Nein, nein", sagte K., "ich habe Euch nur zu danken, Euch und allen hier."</su>
+          <su lang="ru">"Нет, нет, — сказал К. — Я вам только благодарен, и вам лично, и всем присутствующим".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und unerwartet für jedermann kehrte sich K. förmlich in einem Sprunge um und stand vor der Frau.</su>
+          <su lang="ru">И неожиданно для всех К. буквально подпрыгнул на месте, перевернулся и очутился перед женщиной в кресле.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aus müden, blauen Augen blickte sie K. an, ein seidenes, durchsichtiges Kopftuch reichte ihr bis in die Mitte der Stirn hinab, der Säugling schlief an ihrer Brust.</su>
+          <su lang="ru">Усталые голубые глаза поднялись на него. Прозрачный шелковый платочек до половины прикрывал лоб, младенец спал у нее на груди.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Wer bist du?" fragte K. Wegwerfend - es war undeutlich, ob die Verächtlichkeit K. oder ihrer eigenen Antwort galt - sagte sie: "Ein Mädchen aus dem Schloß."</su>
+          <su lang="ru">"Кто ты?" — спросил К., и с пренебрежением к самому ли К. или к своим словам она бросила: "Я служанка из Замка".</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="de">Das alles hatte nur einen Augenblick gedauert, schon hatte K. rechts und links einen der Männer und wurde, als gäbe es kein anderes Verständigungsmittel, schweigend, aber mit aller Kraft zur Tür gezogen.</su>
+          <su lang="ru">Но не прошло и секунды, как слева и справа К. схватили двое мужчин и молча, словно другого способа объясниться не было, с силой потащили его к дверям.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Alte freute sich über irgend etwas dabei und klatschte in die Hände.</su>
+          <su lang="ru">Старик чему-то вдруг обрадовался и захлопал в ладоши.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Auch die Wäscherin lachte bei den plötzlich wie toll lärmenden Kindern.</su>
+          <su lang="ru">И прачка засмеялась вместе с загалдевшими вдруг ребятами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="de">K. aber stand bald auf der Gasse, die Männer beaufsichtigten ihn von der Schwelle aus.</su>
+          <su lang="ru">К. так и остался стоять на улице, мужчины следили за ним с порога.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Es fiel wieder Schnee; trotzdem schien es ein wenig heller zu sein.</su>
+          <su lang="ru">Снова пошел снег, но как будто стал светлее.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Vollbärtige rief ungeduldig: "Wohin wollt Ihr gehen?</su>
+          <su lang="ru">"Куда вы пойдете? — нетерпеливо крикнул круглобородый.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Hier führt es zum Schloß, hier zum Dorf."</su>
+          <su lang="ru">— Туда — путь к Замку, сюда — в Деревню".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ihm antwortete K. nicht, aber zu dem anderen, der ihm trotz seiner Überlegenheit der Umgänglichere schien, sagte er: "Wer seid Ihr?</su>
+          <su lang="ru">Но К. спросил не у него, а у того, второго, который, несмотря на свою замкнутость, казался ему обходительнее: "Кто вы такие?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wem habe ich für den Aufenthalt zu danken?"</su>
+          <su lang="ru">Кого мне благодарить за отдых?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Ich bin der Gerbermeister Lasemann", war die Antwort, "zu danken habt Ihr aber niemandem."</su>
+          <su lang="ru">"Я дубильщик Лаземан, — ответил тот. — А благодарить вам никого не надо".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Gut", sagte K., "vielleicht werden wir noch zusammenkommen."</su>
+          <su lang="ru">"Прекрасно, — сказал К. — Надеюсь, мы еще встретимся".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Ich glaube nicht", sagte der Mann.</su>
+          <su lang="ru">"Вряд ли", — сказал мужчина.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">In diesem Augenblick rief der Vollbärtige mit erhobener Hand: "Guten Tag, Artur, guten Tag, Jeremias!"</su>
+          <su lang="ru">И в эту минуту круглобородый, подняв руку, закричал: "Здорово, Артур, здорово, Иеремия!"</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="de">K. wandte sich um, es zeigten sich in diesem Dorf also doch noch Menschen auf der Gasse!</su>
+          <su lang="ru">К. обернулся: значит, в этой Деревне все же люди выходили на улицу!</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aus der Richtung vom Schlosse her kamen zwei junge Männer von mittlerer Größe, beide sehr schlank, in engen Kleidern, auch im Gesicht einander sehr ähnlich.</su>
+          <su lang="ru">По дороге от Замка шли два молодых человека среднего роста, оба очень стройные, в облегающих костюмах и даже лицом очень похожие.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Gesichtsfarbe war ein dunkles Braun, von dem ein Spitzbart in seiner besonderen Schwärze dennoch abstach.</su>
+          <su lang="ru">Цвет лица у них был смуглый, а острые бородки такой черноты, что выделялись даже на смуглых лицах.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sie gingen bei diesen Straßenverhältnissen erstaunlich schnell, warfen im Takt die schlanken Beine.</su>
+          <su lang="ru">Несмотря на трудную дорогу, они шли удивительно быстро, выбрасывая в такт стройные ноги.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Was habt ihr?" rief der Vollbärtige. Man konnte sich nur rufend mit ihnen verständigen, so schnell gingen sie und hielten nicht ein.</su>
+          <su lang="ru">"Вы зачем сюда?" — крикнул бородач.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Geschäfte!" riefen sie lachend zurück.</su>
+          <su lang="ru">"Дела!" — смеясь, крикнули те.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Wo?"</su>
+          <su lang="ru">"Где?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Im Wirtshaus."</su>
+          <su lang="ru">"На постоялом дворе!"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Dorthin gehe auch ich!" schrie K. auf einmal mehr als alle anderen, er hatte großes Verlangen, von den zweien mitgenommen zu werden; ihre Bekanntschaft schien ihm zwar nicht sehr ergiebig, aber gute, aufmunternde Wegbegleiter waren sie offenbar.</su>
+          <su lang="ru">"И мне туда!" — закричал К. громче всех, ему ужасно захотелось, чтобы эти двое взяли его с собой. И хотя знакомство с ними ничего особенного не сулило, но они наверняка были бы славными, бодрыми спутниками.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sie hörten K.s Worte, nickten jedoch nur und waren schon vorüber.</su>
+          <su lang="ru">Они услышали слова К., но только кивнули ему и сразу исчезли вдали.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="de">K. stand noch immer im Schnee, hatte wenig Lust, den Fuß aus dem Schnee zu heben, um ihn ein Stückchen weiter in die Tiefe zu senken; der Gerbermeister und sein Genosse, zufrieden damit, K. endgültig hinausgeschafft zu haben, schoben sich langsam, immer nach K. zurückblickend, durch die nur wenig geöffnete Tür ins Haus, und K. war mit dem ihn einhüllenden Schnee allein.</su>
+          <su lang="ru">К. все еще стоял в снегу, у него не было охоты вытаскивать оттуда ногу, чтобы тут же погрузить ее в сугроб; дубильщик с товарищем, довольные тем, что окончательно избавились от К., медленно протискивались в дом сквозь неплотно прикрытую дверь, то и дело оглядываясь на К., и К. наконец остался один в глубоком снегу.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Gelegenheit zu einer kleinen Verzweiflung", fiel ihm ein, "wenn ich nur zufällig, nicht absichtlich hier stünde."</su>
+          <su lang="ru">"Пожалуй, была бы причина слегка расстроиться, — подумал К., — если бы я сюда попал случайно, а не нарочно".</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="de">Da öffnete sich in der Hütte linker Hand ein winziges Fenster; geschlossen hatte es tiefblau ausgesehen, vielleicht im Widerschein des Schnees, und war so winzig, daß, als es jetzt geöffnet war, nicht das ganze Gesicht des Hinausschauenden zu sehen war, sondern nur die Augen, alte, braune Augen.</su>
+          <su lang="ru">Вдруг с левой стороны домишка открылось крохотное оконце; оно казалось темно-синим, пока было закрыто, — очевидно, при отблеске снега — и было таким крошечным, что сейчас в нем виднелось не все лицо того, кто выглядывал, а только глаза — стариковские карие глаза.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Dort steht er", hörte K. eine zittrige Frauenstimme sagen.</su>
+          <su lang="ru">"Вон он стоит", — услышал К. дрожащий женский голос.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Es ist der Landvermesser", sagte eine Männerstimme.</su>
+          <su lang="ru">"Это землемер, — сказал мужской голос.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Dann trat der Mann zum Fenster und fragte nicht unfreundlich, aber doch so, als sei ihm daran gelegen, daß auf der Straße vor seinem Haus alles in Ordnung sei: "Auf wen wartet Ihr?"</su>
+          <su lang="ru">Потом мужчина подошел к окошку и добавил без враждебности, но все же так, словно был озабочен, как бы не нарушился порядок перед его домом: — Кого вы ждете?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Auf einen Schlitten, der mich mitnimmt", sagte K. "Hier kommt kein Schlitten", sagte der Mann, "hier ist kein Verkehr."</su>
+          <su lang="ru">"Жду, пока какие-нибудь сани меня не захватят", — сказал К. "Тут сани не проезжают, — сказал мужчина, — тут дорога не проезжая".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Es ist doch die Straße, die zum Schloß führt", wendete K. ein.</su>
+          <su lang="ru">"Но ведь это дорога в Замок?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Trotzdem, trotzdem", sagte der Mann mit einer gewissen Unerbittlichkeit, "hier ist kein Verkehr."</su>
+          <su lang="ru">"@И все же тут дорога не проезжая", — повторил мужчина с какой-то настойчивостью.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Dann schwiegen beide.</su>
+          <su lang="ru">Оба замолчали.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber der Mann überlegte offenbar etwas, denn das Fenster, aus dem Rauch strömte, hielt er noch immer offen.</su>
+          <su lang="ru">Но мужчина, очевидно, что-то решал, потому что не захлопывал оконца, оттуда шел дымок.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Ein schlechter Weg", sagte K., um ihm nachzuhelfen.</su>
+          <su lang="ru">"Дорога скверная", — сказал К., поддерживая разговор.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="de">Er aber sagte nur: "Ja freilich."</su>
+          <su lang="ru">Но тот только сказал: "Да, конечно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="de">Nach einem Weilchen sagte er aber doch: "Wenn Ihr wollt, fahre ich Euch mit meinem Schlitten."</su>
+          <su lang="ru">— Помолчав, он все же добавил: — Если хотите, я вас довезу на санках".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Tut das, bitte", sagte K. erfreut, "wieviel verlangt Ihr dafür?"</su>
+          <su lang="ru">"Пожалуйста, довезите! — обрадовался К. — Сколько вы с меня возьмете?"</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="de">- "Nichts", sagte der Mann.</su>
+          <su lang="ru">"Ничего", — сказал мужчина.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">K. wunderte sich sehr.</su>
+          <su lang="ru">К. очень удивился.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Ihr seid doch der Landvermesser", sagte der Mann erklärend, "und gehört zum Schloß.</su>
+          <su lang="ru">"Вы ведь землемер, — объяснил мужчина, — вы имеете отношение к Замку.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wohin wollt Ihr denn fahren?"</su>
+          <su lang="ru">Куда же вы хотите ехать?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">- "Ins Schloß", sagte K. schnell. "Dann fahre ich nicht", sagte der Mann sofort.</su>
+          <su lang="ru">"В Замок", — ответил К. "Тогда я не поеду", — сразу сказал мужчина.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Ich gehöre doch zum Schloß", sagte K., des Mannes eigene Worte wiederholend.</su>
+          <su lang="ru">"Но я же имею отношение к Замку", — сказал К., повторяя слова мужчины.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Mag sein", sagte der Mann abweisend.</su>
+          <su lang="ru">"Возможно", — уклончиво сказал тот.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Dann fahrt mich also zum Wirtshaus", sagte K. "Gut", sagte der Mann, "ich komme gleich mit dem Schlitten."</su>
+          <su lang="ru">"Тогда отвезите меня на постоялый двор", — сказал К. "Хорошо, — сказал мужчина, — сейчас выведу сани".</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das Ganze machte nicht den Eindruck besonderer Freundlichkeit, sondern eher den einer Art sehr eigensüchtigen, ängstlichen, fast pedantischen Bestrebens, K. von dem Platz vor dem Hause wegzuschaffen.</su>
+          <su lang="ru">Видно, тут дело было не в особой любезности, а, скорее, в эгоистичном, тревожном, почти педантическом стремлении поскорее убрать К. с улицы перед домом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="de">Das Hoftor öffnete sich, und ein kleiner Schlitten für leichte Lasten, ganz flach, ohne irgendwelchen Sitz, von einem schwachen Pferdchen gezogen, kam hervor, dahinter der Mann, gebückt, schwach, hinkend, mit magerem, rotem, verschnupftem Gesicht, das besonders klein erschien durch einen fest um den Kopf gewickelten Wollschal.</su>
+          <su lang="ru">Открылись ворота, и выехали маленькие санки для легких грузов, совершенно плоские, без всякого сиденья, запряженные тощей лошаденкой, за ними шел согнувшись малорослый хромой человечек с изможденным, красным, слезящимся лицом, которое казалось совсем крошечным в складках толстого шерстяного платка, накрученного на голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der Mann war sichtlich krank und nur, um K. wegbefördern zu können, war er doch hervorgekommen. K. erwähnte etwas Derartiges, aber der Mann winkte ab.</su>
+          <su lang="ru">Человечек был явно болен и, очевидно, вышел на улицу только для того, чтобы отвезти К. Так К. ему и сказал, но тот отмахнулся.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Nur daß er der Fuhrmann Gerstäcker war, erfuhr K., und daß er diesen unbequemen Schlitten genommen habe, weil er gerade bereitstand und das Hervorziehen eines anderen zuviel Zeit gebraucht hätte.</su>
+          <su lang="ru">К. услышал только, что он возница Герстекер и взял эти неудобные санки потому, что они стояли наготове, а выводить другие было бы слишком долго.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Setzt Euch", sagte er und zeigte mit der Peitsche hinten auf den Schlitten.</su>
+          <su lang="ru">"Садитесь", — сказал он, ткнув кнутом в задок саней.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Ich werde mich neben Euch setzen", sagte K. "Ich werde gehen", sagte Gerstäcker.</su>
+          <su lang="ru">"Я сяду с вами рядом", — ответил К. "А я пешком", — сказал Герстекер.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Warum denn?" fragte K. "Ich werde gehen", wiederholte Gerstäcker und bekam einen Hustenanfall, der ihn so schüttelte, daß er die Beine in den Schnee stemmen und mit den Händen den Schlittenrand halten mußte.</su>
+          <su lang="ru">"Почему?" — спросил К. "Я пешком", — повторил Герстекер, и вдруг его так стал колотить кашель, что пришлось упереться ногами в снег, а руками — в край санок, чтобы не упасть.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">K. sagte nichts weiter, setzte sich hinten auf den Schlitten, der Husten beruhigte sich langsam und sie fuhren.</su>
+          <su lang="ru">К., ничего не говоря, сел в санки сзади, кашель постепенно утих, и они тронулись.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="de">Das Schloß dort oben, merkwürdig dunkel schon, das K. heute noch zu erreichen gehofft hatte, entfernte sich wieder.</su>
+          <su lang="ru">Замок наверху, странно потемневший, куда К. сегодня и не надеялся добраться, отдалялся все больше и больше.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Als sollte ihm aber doch noch zum vorläufigen Abschied ein Zeichen gegeben werden, erklang dort ein Glockenton, fröhlich beschwingt eine Glocke, die wenigstens einen Augenblick lang das Herz erbeben ließ, so, als drohe ihm - denn auch schmerzlich war der Klang - die Erfüllung dessen, wonach es sich unsicher sehnte.</su>
+          <su lang="ru">И, словно подавая знак и ненадолго прощаясь, оттуда прозвучал колокол, радостно и окрыленно, и от этого колокольного звона на миг вздрогнуло сердце, словно в боязни — ведь и тоской звенел колокол, — а вдруг исполнится то, к чему так робко оно стремилось.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber bald verstummte diese große Glocke und wurde von einem schwachen, eintönigen Glöckchen abgelöst, vielleicht noch oben, vielleicht aber schon im Dorfe.</su>
+          <su lang="ru">Но большой колокол вскоре умолк, его сменил слабый однотонный колокольчик, то ли оттуда сверху, то ли уже из Деревни.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Dieses Geklingel paßte freilich besser zu der langsamen Fahrt und dem jämmerlichen, aber unerbittlichen Fuhrmann.</su>
+          <su lang="ru">И этот перезвон как-то лучше подходил к медленному скольжению саней и унылому, но безжалостному вознице.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="de">"Du", rief K. plötzlich - sie waren schon in der Nähe der Kirche, der Weg ins Wirtshaus nicht mehr weit, K. durfte schon etwas wagen -, "ich wundere mich sehr, daß du auf deine eigene Verantwortung mich herumzufahren wagst, darfst du denn das?"</su>
+          <su lang="ru">"Слушай! — крикнул вдруг К.; они уже подъезжали к церкви, постоялый двор был недалеко, и К. немного осмелел. — Я все удивляюсь, что ты под свою ответственность решаешься меня везти, разве тебе это разрешено?"</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Gerstäcker kümmerte sich nicht darum und schritt ruhig weiter neben dem Pferdchen.</su>
+          <su lang="ru">Но Герстекер не обратил никакого внимания и спокойно шагал рядом с лошаденкой.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"He!" rief K., ballte etwas Schnee vom Schlitten zusammen und traf Gerstäcker damit voll ins Ohr.</su>
+          <su lang="ru">"Эй!" — крикнул К. и, собрав в санях горсть снега, угодил снежком прямо в ухо Герстекеру.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Nun blieb dieser stehen und drehte sich um; als ihn K. aber nun so nahe bei sich sah - der Schlitten hatte sich noch ein wenig weitergeschoben -, diese gebückte, gewissermaßen mißhandelte Gestalt, das rote müde, schmale Gesicht mit irgendwie verschiedenen Wangen, die eine flach, die andere eingefallen, den offenen, aufhorchenden Mund, in dem nur ein paar vereinzelte Zähne waren, mußte er das, was er früher aus Bosheit gesagt hatte, jetzt aus Mitleid wiederholen, ob Gerstäcker nicht dafür, daß er K. transportierte, gestraft werden könne.</su>
+          <su lang="ru">Тот остановился и обернулся назад; и когда К. увидел его так близко перед собой — санки проползли только шаг, — увидел эту согнутую, чем-то искалеченную фигуру, воспаленное, усталое, худое лицо с какими-то разными щеками — одна плоская, другая запавшая, — полуоткрытый растерянный рот, где торчало всего несколько зубов, он повторил ехидный вопрос уже с состраданием: не достанется ли Герстекеру за то, что он отвез К.?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">"Was willst du?" fragte Gerstäcker verständnislos, erwartete aber auch keine weitere Erklärung, rief dem Pferdchen zu, und sie fuhren wieder.</su>
+          <su lang="ru">"Чего тебе надо?" — непонятливо спросил Герстекер и, не ожидая объяснений, крикнул на лошаденку, и они поехали дальше.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>
