@@ -1,4 +1,4 @@
-# Lingtrain Alignment Studio
+# Lingtrain Studio
 
 ![asd](/img/title.jpg)
 
