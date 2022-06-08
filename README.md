@@ -16,7 +16,7 @@ Lingtrain Studio is the ML based app for accurate texts alignment on different l
 -  [Lingtrain Aligner. Приложение для создания параллельных книг, которое вас удивит](https://habr.com/ru/post/564944/)
 -  [Сам себе Гутенберг. Делаем параллельные книги](https://habr.com/ru/post/557664/)
 
-##🧬 Models
+## 🧬 Models
 
 Automated alignment process relies on the sentence embeddings models. Embeddings are multidimensional vectors of a special kind which are used to calculate a distance between the sentences. You can also plug your own model using the interface described in models directory. Supported languages list depend on the selected backend model.
 
