@@ -2,14 +2,21 @@
 
 ![asd](/img/title.jpg)
 
-## Intro
+## 💡 Intro
 
-Lingtrain Alignment Studio is the ML based app for accurate texts alignment on different languages.
+Lingtrain Studio is the ML based app for accurate texts alignment on different languages.
 
 - Extracts parallel corpora from two texts.
 - Makes the formatted parallel book from it with sentence highlightning.
 
-## Models
+## ⚡ Articles
+
+-  [How to create bilingual books. Part 2. Lingtrain Alignment Studio](https://medium.com/@averoo/how-to-create-bilingual-books-part-2-lingtrain-alignment-studio-ffa56c9c07a6)
+-  [How to make a parallel texts for language learning. Part 1. Python and Colab version](https://medium.com/@averoo/how-to-make-a-parallel-book-for-language-learning-part-1-python-and-colab-version-cff09e379d8c)
+-  [Lingtrain Aligner. Приложение для создания параллельных книг, которое вас удивит](https://habr.com/ru/post/564944/)
+-  [Сам себе Гутенберг. Делаем параллельные книги](https://habr.com/ru/post/557664/)
+
+##🧬 Models
 
 Automated alignment process relies on the sentence embeddings models. Embeddings are multidimensional vectors of a special kind which are used to calculate a distance between the sentences. You can also plug your own model using the interface described in models directory. Supported languages list depend on the selected backend model.
 
@@ -24,7 +31,7 @@ Automated alignment process relies on the sentence embeddings models. Embeddings
   - supports 100+ languages
   - full list of supported languages can be found [here](https://arxiv.org/abs/2007.01852)
 
-## Running on local machine
+## 💻 Running on local machine
 
 You can run the application on your computer using docker.
 
@@ -33,9 +40,8 @@ You can run the application on your computer using docker.
 2. Images configured to run locally are available on Docker Hub.
 
 3. Run the following commads in your console:
-    - <code>docker pull lingtrain/aligner:v6</code>
-    - <code>docker run -v C:\app\data:/app/data -v C:\app\img:/app/static/img -p 80:80 lingtrain/aligner:v6</code>
-    - Use lingtrain/aligner:v6-labse for LaBSE version (109 languages).
+    - <code>docker pull lingtrain/studio:v7.2</code>
+    - <code>docker run -v C:\app\data:/app/data -v C:\app\img:/app/static/img -p 80:80 lingtrain/studio:v7.2</code>
 
 4. App will be available in your browser on the <code>localhost</code> address.
 
@@ -44,7 +50,7 @@ You can run the application on your computer using docker.
     - Rebuild the docker container
     - Start it with changed -p parameter (e.g. -p 8081:80)
 
-## Running in development mode
+## 🔨 Running in development mode
 
 Clone this repo on your machine.
 
@@ -69,11 +75,11 @@ SPA. Vue + vuex + vuetify. UI for managing alignment process using BE and a tool
 
 <code>npm run serve</code>
 
-## Feedback
+## ✉️ Feedback
 
 You can crate an issue or send me a message in telegram: @averkij
 
-## License
+## 🔑 License
 
 This work is licensed under a [Attribution-NonCommercial-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/) license. See LICENSE.
 
