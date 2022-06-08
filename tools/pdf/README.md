@@ -1,6 +1,6 @@
 ## Make your beautiful PDF book
 
-Look at [this book](./result/agata.pdf).
+Look at [this book](./examples/schloss.pdf).
 
 You can make something like it by yourself!
 
