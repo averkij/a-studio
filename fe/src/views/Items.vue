@@ -183,8 +183,8 @@
                 </v-card-title>
               </div>
               <v-divider></v-divider>
-              <!-- <v-img :src="`${API_URL}/static/img/${username}/${processingMeta.meta.align_guid}.best_${batch_id}.png`"
-                :lazy-src="`${API_URL}/static/proc_img_stub.jpg`">
+              <!-- <v-img :src="`${API_URL}static/img/${username}/${processingMeta.meta.align_guid}.best_${batch_id}.png`"
+                :lazy-src="`${API_URL}static/proc_img_stub.jpg`">
                 <template v-slot:placeholder>
                   <v-row class="fill-height ma-0" align="center" justify="center">
                     <v-progress-circular indeterminate color="green"></v-progress-circular>
@@ -619,7 +619,7 @@
     },
     methods: {
       getImgUrl(batch_id) {
-        return `${API_URL}/static/img/${this.username}/${this.processingMeta.meta.align_guid}.best_${batch_id}.png?rnd=${Math.random()}`;
+        return `${API_URL}static/img/${this.username}/${this.processingMeta.meta.align_guid}.best_${batch_id}.png?rnd=${Math.random()}`;
       },
       prepareUsedToLines() {
         let foo = new Set();

@@ -189,7 +189,7 @@ export default {
   }),
   methods: {
     getFlagImgPath(code) {
-      return `${API_URL}/static/flags/flag-${code}-h.svg`;
+      return `${API_URL}static/flags/flag-${code}-h.svg`;
     },
     changeLangFrom(code) {
       this.$router.push({

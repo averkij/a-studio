@@ -1181,7 +1181,7 @@ export default {
       });
     },
     getImgUrl(batch_id) {
-      return `${API_URL}/static/img/${this.username}/${this.processingMeta.meta.align_guid}.best_${batch_id}.png?rnd=${this.cacheKey}`;
+      return `${API_URL}static/img/${this.username}/${this.processingMeta.meta.align_guid}.best_${batch_id}.png?rnd=${this.cacheKey}`;
     },
     prepareUsedToLines() {
       let foo = new Set();
