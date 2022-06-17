@@ -8,6 +8,9 @@ RUN npm install --force
 
 #main fe logic (docker optimization)
 COPY ./frontend ./
+#copy release config
+COPY ./release/config.js ./frontend/src/common
+
 RUN npm run build
 
 #-------------------------- prod stage ----------------------
@@ -28,7 +31,9 @@ RUN pip install -r /app/requirements_aligner.txt
 RUN mkdir /app/static /app/static/flags
 COPY ./frontend/src/assets/flags /app/static/flags
 
-#main fe logic (docker optimization)
+#BE app (docker optimization)
 COPY ./backend /app
+#copy release config
+COPY ./release/config.py /app
 
 COPY --from=build-stage /app/dist /app/static
