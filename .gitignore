@@ -1,12 +1,16 @@
-be/**/*.pyc
+backend/**/*.pyc
 .vscode/.ropeproject/objectdb
 .vscode/.ropeproject/config.py
-be/models/sentence_transformers.bin
-be/models/labse.bin
-be/models/sentence_transformers_xlm_100.bin
-be/models/sentence_transformers-v2.bin
+backend/models/sentence_transformers.bin
+backend/models/labse.bin
+backend/models/sentence_transformers_xlm_100.bin
+backend/models/sentence_transformers-v2.bin
 docs/source/_build
-be/data
-be/data_old
-be/_data
-be/static/img
+backend/data
+backend/data_old
+backend/_data
+backend/_models
+backend/__data
+backend/static/img
+# **/covers
+**/node_modules
