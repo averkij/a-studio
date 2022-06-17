@@ -1,4 +1,4 @@
-export const API_URL = "http://localhost";
+export const API_URL = "/";
 export const DEFAULT_BATCHSIZE = 200;
 export const DEFAULT_VARIANTS_WINDOW_FROM = 20;
 export const DEFAULT_VARIANTS_WINDOW_TO = 20;
