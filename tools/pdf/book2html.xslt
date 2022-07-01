@@ -6,8 +6,7 @@
 	<xsl:variable name="showColors" select="$SHOW_COLORS()"/>
 	<xsl:variable name="numColors">4</xsl:variable>
 	<xsl:variable name="cjkTips" select="$CJK_TIPS()"/>
-
-	<xsl:variable name="layoutType">1</xsl:variable>
+	<xsl:variable name="layoutType">$LAYOUT_TYPE</xsl:variable>
 
 	<!-- main  -->
 	<xsl:template match="/book">

@@ -26,8 +26,9 @@ data="./book.xml"
 output_path="./result.pdf"
 show_colors="false"
 cjk_tips="false"
+layout_type="0"
 
-while getopts hi:s:x:p:o:ct opt; do
+while getopts hi:s:x:p:o:l:ct opt; do
     case $opt in
         h)  show_help
             exit 0
@@ -45,6 +46,8 @@ while getopts hi:s:x:p:o:ct opt; do
         t)  cjk_tips="true"
             ;;
         c)  show_colors="true"
+            ;;
+        l)  layout_type=$OPTARG
             ;;
         *)  show_help >&2
             exit 1
@@ -76,7 +79,7 @@ img=$(echo "$cover" | sed 's/\//\\\//g')
 
 echo "Replacing parameters in xslt..."
 
-sed -e "s/\$COVER_IMG/$img/; s/\$SHOW_COLORS/$show_colors/; s/\$CJK_TIPS/$cjk_tips/" $xslt > _temp.xslt
+sed -e "s/\$COVER_IMG/$img/; s/\$SHOW_COLORS/$show_colors/; s/\$CJK_TIPS/$cjk_tips/; s/\$LAYOUT_TYPE/$layout_type/" $xslt > _temp.xslt
 
 echo "Generating html file $html..."
 
