@@ -4,7 +4,9 @@ import VueAxios from "vue-axios";
 import {
   API_URL
 } from "@/common/config";
-import { ErrorHelper } from "@/store/items.module"
+import {
+  ErrorHelper
+} from "@/store/items.module"
 
 const ApiService = {
   init() {
@@ -116,13 +118,16 @@ export const ItemsService = {
       `${params.username}/alignment/marks/${params.alignId}/edit`,
       form
     );
-  },  
+  },
   downloadSplitted(params) {
     return ApiService.get(
       "items",
       `${params.username}/splitted/${params.langCode}/${params.fileId}/download`
     ).then((response) => {
-      const url = window.URL.createObjectURL(new Blob([response.data],{encoding:"UTF-8",type:"text/plain;charset=UTF-8"}));
+      const url = window.URL.createObjectURL(new Blob([response.data], {
+        encoding: "UTF-8",
+        type: "text/plain;charset=UTF-8"
+      }));
       const link = document.createElement('a');
       link.href = url;
       if (!params.openInBrowser) {
@@ -137,7 +142,10 @@ export const ItemsService = {
       "items",
       `${params.username}/splitted/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}`
     ).then((response) => {
-      const url = window.URL.createObjectURL(new Blob([response.data],{encoding:"UTF-8",type:"text/plain;charset=UTF-8"}));
+      const url = window.URL.createObjectURL(new Blob([response.data], {
+        encoding: "UTF-8",
+        type: "text/plain;charset=UTF-8"
+      }));
       const link = document.createElement('a');
       link.href = url;
       if (!params.openInBrowser) {
@@ -151,6 +159,7 @@ export const ItemsService = {
     let form = new FormData();
     form.append("paragraphs", params.paragraphs);
     form.append("direction", params.direction);
+    form.append("left_lang", params.leftLang);
     return ApiService.post(
       "items",
       `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}/${params.format}`,
@@ -182,14 +191,14 @@ export const ItemsService = {
       link.click();
     }, (error) => {
       let code = ErrorHelper.getErrorCode(error)
-        if (code == '400') {
-          alert('There are cells without IDs in your alignment.')
-        } else {
-          alert(error)
-        }
-        console.log(error);
+      if (code == '400') {
+        alert('There are cells without IDs in your alignment.')
+      } else {
+        alert(error)
+      }
+      console.log(error);
     });
-  },  
+  },
   getBookPreview(params) {
     let form = new FormData();
     form.append("par_direction", params.parStructureDirection);
@@ -303,8 +312,7 @@ export const ItemsService = {
         `${params.username}/alignment/align/next`,
         form
       );
-    }
-    else {
+    } else {
       return ApiService.post(
         "items",
         `${params.username}/alignment/align`,

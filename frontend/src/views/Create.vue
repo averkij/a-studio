@@ -815,6 +815,7 @@ export default {
         langCodeDownload: langCode,
         paragraphs: paragraphs,
         direction: direction,
+        leftLang: this.bookLeftLang,
         format: "txt",
       });
     },
@@ -826,6 +827,7 @@ export default {
         langCodeFrom: this.langCodeFrom,
         langCodeTo: this.langCodeTo,
         langCodeDownload: this.langCodeFrom,
+        leftLang: this.bookLeftLang,
         format: format,
         direction: direction,
       });
