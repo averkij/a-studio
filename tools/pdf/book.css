@@ -314,9 +314,15 @@ aside img {
 
 .par {
   padding: 15px 10px;
-  /* text-indent: 10px; */
 }
 
+.ident0 {
+  text-indent: 0px;
+}
+
+.ident1 {
+  text-indent: 20px;
+}
 
 .cont {
   margin: 0 150px;
@@ -454,18 +460,18 @@ aside img {
 }
 
 .default-title-1 {
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin: 0;
   text-align: center;
 }
 
 .default-title-2 {
-  font-size: 1.1em;
+  font-size: 1.3em;
   margin: 1em 0 2.0em;
   text-align: center;
 }
 
-/* ruby */
+/* ruby for furigana */
 
 r {
   display: inline-block;
@@ -568,4 +574,19 @@ r c {
 .sf.s3 r f {
   background: #fefbd6;
   color: black;
+}
+
+/* one column layout styling */
+
+.lang1 {
+  font-size: 12pt;
+}
+
+.lang2 {
+  font-size: 9pt;
+  /* background-color: #f5f5f5; */
+  border-radius: 0px;
+  border-left: 1px solid #555;
+  padding: 10px 20px;
+  margin: 0 10px;
 }

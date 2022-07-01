@@ -7,6 +7,8 @@
 	<xsl:variable name="numColors">4</xsl:variable>
 	<xsl:variable name="cjkTips" select="$CJK_TIPS()"/>
 
+	<xsl:variable name="layoutType">1</xsl:variable>
+
 	<!-- main  -->
 	<xsl:template match="/book">
 		<html>
@@ -136,15 +138,39 @@
 	<!-- Generic paragraph -->
 	<xsl:template match="p[@type='text']">
 		<xsl:variable name="p" select="." />
-		<div class='dt-row'>
-			<xsl:for-each select="/book/head/langs/lang/@id">
-				<div>
-					<xsl:attribute name="class" select="concat('par dt-cell',' dt-w', position() )" />
-
-					<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
-				</div>
-			</xsl:for-each>
-		</div>
+		<!-- Two columns layout -->
+		<xsl:if test="$layoutType = 0">
+			<div class='dt-row'>
+				<xsl:for-each select="/book/head/langs/lang/@id">
+					<div>
+						<xsl:attribute name="class" select="concat('par dt-cell',' dt-w', position() )" />
+						<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
+					</div>
+				</xsl:for-each>
+			</div>
+		</xsl:if>
+		<!-- One column layout -->
+		<xsl:if test="$layoutType = 1">
+			<div class=''>
+				<xsl:for-each select="/book/head/langs/lang/@id">
+					<div>
+						<xsl:attribute name="class" select="concat('par',' lang', position() )" />
+						<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
+					</div>
+				</xsl:for-each>
+			</div>
+		</xsl:if>
+		<!-- One column subscript layout -->
+		<xsl:if test="$layoutType = 2">
+			<div class='dt-row'>
+				<xsl:for-each select="/book/head/langs/lang/@id">
+					<div>
+						<xsl:attribute name="class" select="concat('par dt-cell',' dt-w', position() )" />
+						<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
+					</div>
+				</xsl:for-each>
+			</div>
+		</xsl:if>
 	</xsl:template>
 
 	<!-- Sentence inside the paragraph cell -->
