@@ -37,8 +37,8 @@ layout_type="0"
 text_indent="0"
 text_align="left"
 margin_h="20"
-font_size_left="12"
-font_size_right="12"
+font_size_left="10"
+font_size_right="10"
 
 while getopts hi:s:x:p:o:t:cfl:r:m:dj opt; do
     case $opt in
@@ -102,7 +102,7 @@ img=$(echo "$cover" | sed 's/\//\\\//g')
 echo "Replacing parameters in xslt..."
 
 sed -e "s/\$COVER_IMG/$img/; s/\$SHOW_COLORS/$show_colors/; s/\$CJK_TIPS/$cjk_tips/; s/\$LAYOUT_TYPE/$layout_type/" $xslt > _temp.xslt
-sed -e "s/\$TEXT_ALIGN/$text_align/; s/\$TEXT_INDENT/$text_indent/; " $css > _temp.css
+sed -e "s/\$TEXT_ALIGN/$text_align/; s/\$TEXT_INDENT/$text_indent/; s/\$FONT_SIZE_LEFT/$font_size_left/; s/\$FONT_SIZE_RIGHT/$font_size_right/; " $css > _temp.css
 
 echo "Generating html file $html..."
 

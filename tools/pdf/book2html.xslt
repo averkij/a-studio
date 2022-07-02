@@ -142,7 +142,7 @@
 			<div class='dt-row'>
 				<xsl:for-each select="/book/head/langs/lang/@id">
 					<div>
-						<xsl:attribute name="class" select="concat('par dt-cell',' dt-w', position() )" />
+						<xsl:attribute name="class" select="concat('par dt-cell',' dt-w', position(), ' fs', position() )" />
 						<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
 					</div>
 				</xsl:for-each>
@@ -153,7 +153,7 @@
 			<div class=''>
 				<xsl:for-each select="/book/head/langs/lang/@id">
 					<div>
-						<xsl:attribute name="class" select="concat('par',' l1-lang', position() )" />
+						<xsl:attribute name="class" select="concat('par',' l1-lang', position(), ' fs', position() )" />
 						<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
 					</div>
 				</xsl:for-each>

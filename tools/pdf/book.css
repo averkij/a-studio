@@ -570,15 +570,25 @@ r c {
   color: black;
 }
 
+/* font sizes */
+
+.fs1 {
+  font-size: $FONT_SIZE_LEFTpt;
+}
+
+.fs2 {
+  font-size: $FONT_SIZE_RIGHTpt;
+}
+
 /* one column layout styling */
 
 .l1-lang1 {
-  font-size: 12pt;
+  /* font-size: 12pt; */
 }
 
 .l1-lang2 {
-  font-size: 9pt;
-  /* background-color: #f5f5f5; */
+  background-color: #f5f5f5;
+  color: #555;
   border-radius: 0px;
   border-left: 1px solid #555;
   padding: 10px 20px;
