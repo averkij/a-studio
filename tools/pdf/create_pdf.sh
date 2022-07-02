@@ -36,7 +36,8 @@ layout_type="0"
 
 text_indent="0"
 text_align="left"
-margin_h="20"
+margin_l_mm="10"
+margin_r_mm="10"
 font_size_left="10"
 font_size_right="10"
 
@@ -61,7 +62,8 @@ while getopts hi:s:x:p:o:t:cfl:r:m:dj opt; do
             ;;
         t)  layout_type=$OPTARG
             ;;
-        m)  margin_h=$OPTARG
+        m)  margin_l_mm=$OPTARG
+            margin_r_mm=$OPTARG
             ;;
         l)  font_size_left=$OPTARG
             ;;
@@ -102,7 +104,7 @@ img=$(echo "$cover" | sed 's/\//\\\//g')
 echo "Replacing parameters in xslt..."
 
 sed -e "s/\$COVER_IMG/$img/; s/\$SHOW_COLORS/$show_colors/; s/\$CJK_TIPS/$cjk_tips/; s/\$LAYOUT_TYPE/$layout_type/" $xslt > _temp.xslt
-sed -e "s/\$TEXT_ALIGN/$text_align/; s/\$TEXT_INDENT/$text_indent/; s/\$FONT_SIZE_LEFT/$font_size_left/; s/\$FONT_SIZE_RIGHT/$font_size_right/; " $css > _temp.css
+sed -e "s/\$TEXT_ALIGN/$text_align/; s/\$TEXT_INDENT/$text_indent/; s/\$FONT_SIZE_LEFT/$font_size_left/; s/\$FONT_SIZE_RIGHT/$font_size_right/; s/\$LEFT_MARGIN/$margin_l_mm/; s/\$RIGHT_MARGIN/$margin_r_mm/;" $css > _temp.css
 
 echo "Generating html file $html..."
 

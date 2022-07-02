@@ -46,7 +46,7 @@
 
 /* A4 format */
 @page {
-  margin: 1cm 1cm 2cm 1cm;
+  margin: 10mm $LEFT_MARGINmm 20mm $RIGHT_MARGINmm;
   size: 210mm 297mm;
 }
 
@@ -587,11 +587,12 @@ r c {
 }
 
 .l1-lang2 {
-  background-color: #f5f5f5;
-  color: #555;
+  /* background-color: #fafafa; */
+  color: #333;
   border-radius: 0px;
-  border-left: 1px solid #555;
+  border-left: 2px solid #aaa;
   padding: 10px 20px;
   margin: 0 10px;
+  /* font-style: italic; */
 }
 
