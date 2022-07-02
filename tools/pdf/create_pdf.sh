@@ -7,13 +7,19 @@ Parameters:
 -----------------------------------------------------------------------------------------------------
     -h                          Display this help and exit.
     -i  [INPUT]                 XML file exported from Lingtrain Studio.
+    -o  [OUTPUT]                Output PDF file.
     -x  [./book2html.xslt]      XSLT transformation file, which will transform XML input data to HTML
     -s  [./book.css]            CSS style file.
     -p  [./covers/default.jpg]  Image (3/4 ratio), which will be used as book cover.
                                 (!) Image Path should be relative to XML input data path.
     -c  [false]                 Add color highlighting.
-    -t  [false]                 Add furigana-style tips for Chinese and Japanese texts.
-    -o  [OUTPUT]                Output PDF file.
+    -f  [false]                 Add furigana-style tips for Chinese and Japanese texts.
+    -t  [0]                     Layout type.
+    -d  [false]                 Indentation
+    -j  [false]                 Justify text.
+    -m  []
+    -l  []
+    -r  []
 -----------------------------------------------------------------------------------------------------
 EOF
 }
@@ -28,7 +34,13 @@ show_colors="false"
 cjk_tips="false"
 layout_type="0"
 
-while getopts hi:s:x:p:o:l:ct opt; do
+text_indent="0"
+text_align="left"
+margin_h="20"
+font_size_left="12"
+font_size_right="12"
+
+while getopts hi:s:x:p:o:t:cfl:r:m:dj opt; do
     case $opt in
         h)  show_help
             exit 0
@@ -43,11 +55,21 @@ while getopts hi:s:x:p:o:l:ct opt; do
             ;;
         o)  output_path=$OPTARG
             ;;
-        t)  cjk_tips="true"
+        f)  cjk_tips="true"
             ;;
         c)  show_colors="true"
             ;;
-        l)  layout_type=$OPTARG
+        t)  layout_type=$OPTARG
+            ;;
+        m)  margin_h=$OPTARG
+            ;;
+        l)  font_size_left=$OPTARG
+            ;;
+        r)  font_size_right=$OPTARG
+            ;;
+        d)  text_indent="30"
+            ;;
+        j)  text_align="justify"
             ;;
         *)  show_help >&2
             exit 1
@@ -80,6 +102,7 @@ img=$(echo "$cover" | sed 's/\//\\\//g')
 echo "Replacing parameters in xslt..."
 
 sed -e "s/\$COVER_IMG/$img/; s/\$SHOW_COLORS/$show_colors/; s/\$CJK_TIPS/$cjk_tips/; s/\$LAYOUT_TYPE/$layout_type/" $xslt > _temp.xslt
+sed -e "s/\$TEXT_ALIGN/$text_align/; s/\$TEXT_INDENT/$text_indent/; " $css > _temp.css
 
 echo "Generating html file $html..."
 
@@ -87,11 +110,12 @@ saxonb-xslt -s:$data -xsl:_temp.xslt -o:$html
 
 echo "Creating PDF $output_path..."
 
-weasyprint -s $css $html $output_path
+weasyprint -s _temp.css $html $output_path
 
 echo "Removing temp files..."
 
-rm $html
+# rm $html
 # rm _temp.xslt
+# rm _temp.css
 
 echo "Done."

@@ -3,9 +3,9 @@
 	<xsl:output method="html" indent="yes" xslt:indent-amount="2" xmlns:xslt="http://xml.apache.org/xalan" />
 
 	<!-- parameters -->
-	<xsl:variable name="showColors" select="$SHOW_COLORS()"/>
+	<xsl:variable name="showColors" select="$SHOW_COLORS()" />
 	<xsl:variable name="numColors">4</xsl:variable>
-	<xsl:variable name="cjkTips" select="$CJK_TIPS()"/>
+	<xsl:variable name="cjkTips" select="$CJK_TIPS()" />
 	<xsl:variable name="layoutType">$LAYOUT_TYPE</xsl:variable>
 
 	<!-- main  -->
@@ -113,7 +113,7 @@
 			<xsl:apply-templates select="$sect/p" />
 		</section>
 	</xsl:template>
-	
+
 	<!-- Default section -->
 	<xsl:template match="section[@type='default']">
 		<xsl:variable name="sect" select="." />
@@ -153,7 +153,7 @@
 			<div class=''>
 				<xsl:for-each select="/book/head/langs/lang/@id">
 					<div>
-						<xsl:attribute name="class" select="concat('par',' lang', position() )" />
+						<xsl:attribute name="class" select="concat('par',' l1-lang', position() )" />
 						<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
 					</div>
 				</xsl:for-each>
@@ -161,16 +161,53 @@
 		</xsl:if>
 		<!-- One column subscript layout -->
 		<xsl:if test="$layoutType = 2">
-			<div class='dt-row'>
-				<xsl:for-each select="/book/head/langs/lang/@id">
-					<div>
-						<xsl:attribute name="class" select="concat('par dt-cell',' dt-w', position() )" />
-						<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
-					</div>
-				</xsl:for-each>
+			<div class=''>
+				<div class="par">
+					<xsl:apply-templates select="$p/sentence" />
+				</div>
 			</div>
 		</xsl:if>
 	</xsl:template>
+
+	<!-- Sentence pair for layout 2 (subscript) -->
+	<!-- <xsl:template match="sentence">
+		<xsl:variable name="s" select="." />
+		<xsl:variable name="scount">
+			<xsl:number count="sentence" />
+		</xsl:variable>
+		<xsl:variable name="highlight">s
+			<xsl:value-of select="(($scount - 1) mod $numColors)" />
+		</xsl:variable>
+		<r>
+			<xsl:for-each select="$s/su">
+				<xsl:variable name="suc">
+					<xsl:number count="su" />
+				</xsl:variable>
+				<xsl:if test="($suc mod 2) = 0">
+					<c>
+						<xsl:if test="$showColors">
+							<xsl:attribute name="class">s
+								<xsl:value-of select="$highlight" />
+							</xsl:attribute>
+						</xsl:if>
+						<xsl:value-of select="." />
+						<xsl:text> </xsl:text>
+					</c>
+				</xsl:if>
+				<xsl:if test="($scount mod 2) = 1">
+					<f>
+						<xsl:if test="$showColors">
+							<xsl:attribute name="class">s
+								<xsl:value-of select="$highlight" />
+							</xsl:attribute>
+						</xsl:if>
+						<xsl:value-of select="." />
+						<xsl:text> </xsl:text>
+					</f>
+				</xsl:if>
+			</xsl:for-each>
+		</r>
+	</xsl:template> -->
 
 	<!-- Sentence inside the paragraph cell -->
 	<xsl:template match="su">
@@ -194,7 +231,7 @@
 			</xsl:if>
 		</span>
 	</xsl:template>
-	
+
 	<!-- Header -->
 	<xsl:template match="p[matches(@type,'h\d')]">
 		<xsl:variable name="level">
