@@ -56,24 +56,31 @@ Clone this repo on your machine.
 
 ### Backend
 
-Flask/uwsgi backend REST API service. It's pretty simple and contains all the alignment logic.
+Flask/uwsgi backend REST API service. It contains all the alignment logic.
 
-<code>cd /be</code>
-<code>python main.py</code>
+- Go to the backend directory
+  - <code>cd /backend</code>
+
+- Install the requirements
+  - <code>pip install -r requirements.txt</code>
+
+- Run the backend application
+  - <code>python main.py</code>
 
 ### Frontend
 
 SPA. Vue + vuex + vuetify. UI for managing alignment process using BE and a tool for translators to edit processing documents.
 
-<code>cd /fe</code>
+- Go to the backend directory
+  - <code>cd /frontend</code>
 
-#### Setup
+- Install the requirements
+  - <code>npm install -f</code>
 
-<code>npm install</code>
+- Compile and run with hot-reloads for development
+  - <code>npm run serve</code>
 
-#### Compile and run with hot-reloads for development
-
-<code>npm run serve</code>
+Application will be available on <code>localhost:8080</code>
 
 ## ✉️ Feedback
 
