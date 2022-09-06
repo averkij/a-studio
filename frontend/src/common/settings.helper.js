@@ -19,6 +19,9 @@ export const SettingsHelper = {
     },
 }
 
+export const CANDIDATES_SORTING_NEAREST = 'nearest'
+export const CANDIDATES_SORTING_SIMILAR = 'similar'
+
 const defaultClientSettings = {
     showProxyTo: true,
     showAllTo: false,
@@ -27,6 +30,3 @@ const defaultClientSettings = {
     splittedPanelPageCount: 20,
     isMarksInRow: false
 }
-
-export const CANDIDATES_SORTING_NEAREST = 'nearest'
-export const CANDIDATES_SORTING_SIMILAR = 'similar'
