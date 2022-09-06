@@ -9,7 +9,7 @@ RUN npm install --force
 #main fe logic (docker optimization)
 COPY ./frontend ./
 #copy release config
-COPY ./release/config.js ./frontend/src/common
+COPY ./release/config.js ./src/common
 
 RUN npm run build
 
