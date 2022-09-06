@@ -1174,6 +1174,7 @@ def download_processsing(username, lang_from, lang_to, align_guid, lang, file_fo
 
     paragraphs = request.form.get("paragraphs", False)
     pars_direction = request.form.get("direction", "to")
+    left_lang = request.form.get("left_lang", lang_from)
 
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     download_folder = os.path.join(con.UPLOAD_FOLDER, username, con.DOWNLOAD_FOLDER)
@@ -1197,12 +1198,17 @@ def download_processsing(username, lang_from, lang_to, align_guid, lang, file_fo
         except:
             return abort(404)
 
+    if left_lang == "from":
+        lang_order = [lang_from, lang_to]
+    else:
+        lang_order = [lang_to, lang_from]
+
     if file_format == con.FORMAT_TMX:
         saver.save_tmx(db_path, download_file, lang_from, lang_to)
     if file_format == con.FORMAT_XML:
-        saver.save_xml(db_path, download_file, lang_from, lang_to, pars_direction)
+        saver.save_xml(db_path, download_file, lang_order, pars_direction)
     if file_format == con.FORMAT_JSON:
-        saver.save_json(db_path, download_file, lang_from, lang_to, pars_direction)
+        saver.save_json(db_path, download_file, lang_order, pars_direction)
     elif file_format == con.FORMAT_PLAIN:
         saver.save_plain_text(db_path, download_file, direction)
 
