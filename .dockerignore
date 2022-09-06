@@ -3,9 +3,10 @@
 **/static
 **/_data
 
-**/_sentence_transformers-v2.bin
-
+**/sentence_transformers-v2.bin
 **/sentence_transformers.bin
 **/sentence_transformers_xlm_100.bin
+**/rubert-tiny.bin
 **/labse.bin
-**/use_multilingual_models_saved
+
+**/_models
