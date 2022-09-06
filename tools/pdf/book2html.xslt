@@ -161,7 +161,7 @@
 		</xsl:if>
 		<!-- One column subscript layout -->
 		<xsl:if test="$layoutType = 2">
-			<div class=''>
+			<div class='scont'>
 				<div class="par">
 					<xsl:apply-templates select="$p/sentence" />
 				</div>
@@ -169,52 +169,13 @@
 		</xsl:if>
 	</xsl:template>
 
-	<!-- Sentence pair for layout 2 (subscript) -->
-	<!-- <xsl:template match="sentence">
-		<xsl:variable name="s" select="." />
-		<xsl:variable name="scount">
-			<xsl:number count="sentence" />
-		</xsl:variable>
-		<xsl:variable name="highlight">s
-			<xsl:value-of select="(($scount - 1) mod $numColors)" />
-		</xsl:variable>
-		<r>
-			<xsl:for-each select="$s/su">
-				<xsl:variable name="suc">
-					<xsl:number count="su" />
-				</xsl:variable>
-				<xsl:if test="($suc mod 2) = 0">
-					<c>
-						<xsl:if test="$showColors">
-							<xsl:attribute name="class">s
-								<xsl:value-of select="$highlight" />
-							</xsl:attribute>
-						</xsl:if>
-						<xsl:value-of select="." />
-						<xsl:text> </xsl:text>
-					</c>
-				</xsl:if>
-				<xsl:if test="($scount mod 2) = 1">
-					<f>
-						<xsl:if test="$showColors">
-							<xsl:attribute name="class">s
-								<xsl:value-of select="$highlight" />
-							</xsl:attribute>
-						</xsl:if>
-						<xsl:value-of select="." />
-						<xsl:text> </xsl:text>
-					</f>
-				</xsl:if>
-			</xsl:for-each>
-		</r>
-	</xsl:template> -->
-
-	<!-- Sentence inside the paragraph cell -->
+	<!-- Layout 0 and 1 -->
 	<xsl:template match="su">
+  		<xsl:variable name="sent_id" select="../@id"/>
 		<xsl:variable name="scount">
 			<xsl:number count="sentence"/>
 		</xsl:variable>
-		<xsl:variable name="highlight">s<xsl:value-of select="(($scount - 1) mod $numColors)"/></xsl:variable>
+		<xsl:variable name="highlight">s<xsl:value-of select="($sent_id mod $numColors)"/></xsl:variable>
 		<span>
 			<xsl:if test="(($cjkTips) and ((./@lang = 'zh') or (./@lang = 'jp')))">
 				<xsl:if test="$showColors">
@@ -230,6 +191,44 @@
 				<xsl:text> </xsl:text>
 			</xsl:if>
 		</span>
+	</xsl:template>
+
+	<!-- Layout 2 (subscript) -->
+	<xsl:template match="sentence">
+		<xsl:variable name="s" select="." />
+		<xsl:variable name="scount">
+			<xsl:number count="sentence" />
+		</xsl:variable>
+		<xsl:variable name="highlight">s
+			<xsl:value-of select="(($scount - 1) mod $numColors)" />
+		</xsl:variable>
+		<div class="u1">
+			<xsl:for-each select="$s/su">
+				<xsl:variable name="suc">
+					<xsl:number count="su" />
+				</xsl:variable>
+				<xsl:if test="($suc mod 2) = 1">
+					<xsl:if test="$showColors">
+						<xsl:attribute name="class">s<xsl:value-of select="$highlight" /></xsl:attribute>
+					</xsl:if>
+					<span>
+						<span class="mark"></span>
+						<xsl:value-of select="." />
+						<xsl:text> </xsl:text>
+					</span>
+				</xsl:if>
+				<xsl:if test="($suc mod 2) = 0">
+					<xsl:if test="$showColors">
+						<xsl:attribute name="class">s<xsl:value-of select="$highlight" /></xsl:attribute>
+					</xsl:if>
+					<span class="sub">
+						<xsl:attribute name="id" select="concat('sub', $scount)"/>
+						<xsl:value-of select="." />
+						<xsl:text> </xsl:text>
+					</span>
+				</xsl:if>
+			</xsl:for-each>
+		</div>
 	</xsl:template>
 
 	<!-- Header -->

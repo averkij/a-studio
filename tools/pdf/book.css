@@ -460,7 +460,7 @@ aside img {
 }
 
 .default-title-2 {
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin: 1em 0 2.0em;
   text-align: center;
 }
@@ -587,10 +587,10 @@ r c {
 }
 
 .l1-lang2 {
-  /* background-color: #fafafa; */
-  color: #333;
-  border-radius: 0px;
-  border-left: 2px solid #aaa;
+  background-color: #f7f7f7;
+  color: #111;
+  border-radius: 5px;
+  /* border-left: 2px solid #aaa; */
   padding: 10px 20px;
   margin: 0 10px;
   /* font-style: italic; */

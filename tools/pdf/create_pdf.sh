@@ -14,12 +14,12 @@ Parameters:
                                 (!) Image Path should be relative to XML input data path.
     -c  [false]                 Add color highlighting.
     -f  [false]                 Add furigana-style tips for Chinese and Japanese texts.
-    -t  [0]                     Layout type.
-    -d  [false]                 Indentation
+    -t  [0]                     Layout type. 0 is for two cols, 1 is for one.
+    -d  [false]                 Apply indentation for paragraphs.
     -j  [false]                 Justify text.
-    -m  []
-    -l  []
-    -r  []
+    -m  [10]                    Horizontal page margins in mm.
+    -l  [10]                    Left text font size in pt.
+    -r  [10]                    Right text font size in pt.
 -----------------------------------------------------------------------------------------------------
 EOF
 }
@@ -93,6 +93,12 @@ Book parameters:
     - Cover image:          $cover (path is relative to input file).
     - Color highlighting:   $show_colors
     - Tips (zh, jp langs):  $cjk_tips
+    - Layout type:          $layout_type
+    - Indentation:          $text_indent px
+    - Text alignment:       $text_align
+    - Horizontal margins:   $margin_l_mm mm
+    - Left text font size:  $font_size_left
+    - Right text font size: $font_size_right
 -----------------------------------------------------------------------------------------------------
 EOF
 
@@ -116,8 +122,8 @@ weasyprint -s _temp.css $html $output_path
 
 echo "Removing temp files..."
 
-# rm $html
-# rm _temp.xslt
-# rm _temp.css
+rm $html
+rm _temp.xslt
+rm _temp.css
 
 echo "Done."
