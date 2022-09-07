@@ -91,31 +91,30 @@ def clean_img_user_foler(username, align_guid):
             os.remove(img)
 
 
-def create_folders(username, lang_code):
+def create_folders(username, lang):
     """Create folders for a new user"""
     if username and lang:
         pathlib.Path(os.path.join(con.STATIC_FOLDER, con.IMG_FOLDER, username)).mkdir(
             parents=True, exist_ok=True
         )
-        for lang in [lang_code, f"{lang_code}2"]:
-            pathlib.Path(
-                os.path.join(con.UPLOAD_FOLDER, username, con.RAW_FOLDER, lang)
-            ).mkdir(parents=True, exist_ok=True)
-            pathlib.Path(
-                os.path.join(con.UPLOAD_FOLDER, username, con.SPLITTED_FOLDER, lang)
-            ).mkdir(parents=True, exist_ok=True)
-            pathlib.Path(
-                os.path.join(con.UPLOAD_FOLDER, username, con.PROXY_FOLDER, lang)
-            ).mkdir(parents=True, exist_ok=True)
-            pathlib.Path(
-                os.path.join(con.UPLOAD_FOLDER, username, con.NGRAM_FOLDER, lang)
-            ).mkdir(parents=True, exist_ok=True)
-            pathlib.Path(
-                os.path.join(con.UPLOAD_FOLDER, username, con.PROCESSING_FOLDER, lang)
-            ).mkdir(parents=True, exist_ok=True)
-            pathlib.Path(
-                os.path.join(con.UPLOAD_FOLDER, username, con.DONE_FOLDER, lang)
-            ).mkdir(parents=True, exist_ok=True)
+        pathlib.Path(
+            os.path.join(con.UPLOAD_FOLDER, username, con.RAW_FOLDER, lang)
+        ).mkdir(parents=True, exist_ok=True)
+        pathlib.Path(
+            os.path.join(con.UPLOAD_FOLDER, username, con.SPLITTED_FOLDER, lang)
+        ).mkdir(parents=True, exist_ok=True)
+        pathlib.Path(
+            os.path.join(con.UPLOAD_FOLDER, username, con.PROXY_FOLDER, lang)
+        ).mkdir(parents=True, exist_ok=True)
+        pathlib.Path(
+            os.path.join(con.UPLOAD_FOLDER, username, con.NGRAM_FOLDER, lang)
+        ).mkdir(parents=True, exist_ok=True)
+        pathlib.Path(
+            os.path.join(con.UPLOAD_FOLDER, username, con.PROCESSING_FOLDER, lang)
+        ).mkdir(parents=True, exist_ok=True)
+        pathlib.Path(
+            os.path.join(con.UPLOAD_FOLDER, username, con.DONE_FOLDER, lang)
+        ).mkdir(parents=True, exist_ok=True)
 
 
 def get_texts_length(db_path):
