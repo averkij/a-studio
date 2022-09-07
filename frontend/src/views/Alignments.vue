@@ -29,6 +29,7 @@
             :info="LANGUAGES[langCodeFrom]"
             :items="items"
             :isLoading="isLoading"
+            :side="'left'"
           >
           </RawPanel>
         </v-col>
@@ -42,6 +43,7 @@
             :info="LANGUAGES[langCodeTo]"
             :items="items"
             :isLoading="isLoading"
+            :side="'right'"
           >
           </RawPanel>
         </v-col>
@@ -76,6 +78,7 @@
           :info="LANGUAGES[langCodeFrom]"
           :splitted="splitted"
           :selected="selected"
+          :side="'left'"
         >
         </InfoPanel>
       </v-col>
@@ -84,6 +87,7 @@
           :info="LANGUAGES[langCodeTo]"
           :splitted="splitted"
           :selected="selected"
+          :side="'right'"
         >
         </InfoPanel>
       </v-col>
@@ -95,7 +99,7 @@
       colored-border
       color="blue"
       elevation="2"
-      v-if="!selected[langCodeFrom] || !selected[langCodeTo]"
+      v-if="!selected['left'][langCodeFrom] || !selected['right'][langCodeTo]"
       class="mt-5"
     >
       Please, select two items in the Documents section.
@@ -500,7 +504,9 @@
           </v-btn>
           <v-btn
             v-else
-            v-show="selected[langCodeFrom] && selected[langCodeTo]"
+            v-show="
+              selected['left'][langCodeFrom] && selected['right'][langCodeTo]
+            "
             class="error mt-4 btn-min-w"
             @click="stopAlignment()"
           >
@@ -801,9 +807,9 @@
             @downloadSplitted="downloadSplitted"
             @uploadProxyFile="uploadProxyFile"
             :info="LANGUAGES[langCodeFrom]"
-            :splitted="splitted"
             :isLoading="isLoading"
             :showUploadProxyBtn="true"
+            :direction="'from'"
           >
           </ProxyPanel>
         </v-col>
@@ -814,9 +820,9 @@
             @downloadSplitted="downloadSplitted"
             @uploadProxyFile="uploadProxyFile"
             :info="LANGUAGES[langCodeTo]"
-            :splitted="splitted"
             :isLoading="isLoading"
             :showUploadProxyBtn="true"
+            :direction="'to'"
           >
           </ProxyPanel>
         </v-col>
@@ -1073,11 +1079,11 @@ export default {
       PROC_DONE,
       files: LanguageHelper.initGeneralVars(),
       proxyFiles: LanguageHelper.initGeneralVars(),
-      selected: LanguageHelper.initGeneralVars(),
+      selected: LanguageHelper.initGeneralVars2Sides(),
       selectedProcessing: null,
       selectedProcessingId: null,
       currentlyProcessingId: null,
-      selectedIds: LanguageHelper.initGeneralVars(),
+      selectedIds: LanguageHelper.initGeneralVars2Sides(),
       isLoading: {
         upload: LanguageHelper.initGeneralBools(),
         uploadProxy: LanguageHelper.initGeneralBools(),
@@ -1168,7 +1174,7 @@ export default {
         alert("There are no conflicts.");
       }
     },
-    downloadSplitted(langCode, openInBrowser) {
+    downloadSplitted(langCode, openInBrowser, direction) {
       this.$store.dispatch(DOWNLOAD_SPLITTED, {
         alignId: this.selectedProcessingId,
         fileName: this.selectedProcessingId + ".txt",
@@ -1178,6 +1184,7 @@ export default {
         langCodeDownload: langCode,
         fromDb: true,
         openInBrowser,
+        direction,
       });
     },
     getImgUrl(batch_id) {
@@ -1276,8 +1283,8 @@ export default {
       this.$store
         .dispatch(CREATE_ALIGNMENT, {
           username: this.$route.params.username,
-          idFrom: this.selectedIds[this.langCodeFrom],
-          idTo: this.selectedIds[this.langCodeTo],
+          idFrom: this.selectedIds["left"][this.langCodeFrom],
+          idTo: this.selectedIds["right"][this.langCodeTo],
           name: name,
         })
         .then(() => {
@@ -1453,13 +1460,14 @@ export default {
     onProxyFileChange(file, langCode) {
       this.proxyFiles[langCode] = file;
     },
-    onPreviewPageChange(page, langCode) {
+    onPreviewPageChange(page, langCode, side) {
       this.$store.dispatch(GET_SPLITTED, {
         username: this.$route.params.username,
         langCode,
-        fileId: this.selectedIds[langCode],
+        fileId: this.selectedIds[side][langCode],
         linesCount: 10,
         page: page,
+        side,
       });
     },
     onProcessingPageChange(page) {
@@ -1536,15 +1544,16 @@ export default {
           callback(RESULT_ERROR);
         });
     },
-    selectAndLoadPreview(langCode, name, fileId) {
-      this.selected[langCode] = name;
-      this.selectedIds[langCode] = fileId;
+    selectAndLoadPreview(langCode, name, fileId, side) {
+      this.selected[side][langCode] = name;
+      this.selectedIds[side][langCode] = fileId;
       this.$store.dispatch(GET_SPLITTED, {
         username: this.$route.params.username,
         langCode,
         fileId,
         linesCount: 10,
         page: 1,
+        side,
       });
     },
     showNextConflict() {
@@ -1870,12 +1879,13 @@ export default {
       }
       return this.itemsProcessing[langCode].length != 0;
     },
-    selectFirstDocument(langCode) {
+    selectFirstDocument(langCode, side) {
       if (this.itemsNotEmpty(langCode)) {
         this.selectAndLoadPreview(
           langCode,
           this.items[langCode][0].name,
-          this.items[langCode][0].guid
+          this.items[langCode][0].guid,
+          side
         );
       } else {
         let data = { items: {}, meta: {} };
@@ -1884,8 +1894,9 @@ export default {
         this.$store.commit(SET_SPLITTED, {
           data,
           langCode,
+          side,
         });
-        this.selected[langCode] = null;
+        this.selected[side][langCode] = null;
       }
     },
     selectFirstProcessingDocument() {
@@ -1938,7 +1949,7 @@ export default {
           langCode: this.langCodeFrom,
         })
         .then(() => {
-          this.selectFirstDocument(this.langCodeFrom);
+          this.selectFirstDocument(this.langCodeFrom, "left");
         });
       this.$store
         .dispatch(FETCH_ITEMS, {
@@ -1946,7 +1957,7 @@ export default {
           langCode: this.langCodeTo,
         })
         .then(() => {
-          this.selectFirstDocument(this.langCodeTo);
+          this.selectFirstDocument(this.langCodeTo, "right");
         });
       this.$store
         .dispatch(FETCH_ITEMS_PROCESSING, {
@@ -2101,8 +2112,8 @@ export default {
         this.langCodeFrom
       ].filter(
         (x) =>
-          x.guid_from == this.selectedIds[this.langCodeFrom] &&
-          x.guid_to == this.selectedIds[this.langCodeTo]
+          x.guid_from == this.selectedIds["left"][this.langCodeFrom] &&
+          x.guid_to == this.selectedIds["right"][this.langCodeTo]
       );
       if (selected_progress_item.length > 0) {
         return true;

@@ -1,14 +1,16 @@
 <template>
   <div>
     <v-card class="mt-0">
-      <v-card-title> {{LANGUAGES[info.langCode].name}} side </v-card-title>
+      <v-card-title>
+        {{ LANGUAGES[info.langCode].name }} side ({{ direction }})
+      </v-card-title>
       <v-card-text>
         <ol>
-          <li>Download or open the text. </li>
+          <li>Download or open the text.</li>
           <li>Translate it.</li>
           <li>Upload translation back using the form below.</li>
         </ol>
-        </v-card-text>
+      </v-card-text>
       <v-card-actions>
         <v-file-input
           outlined
@@ -43,16 +45,14 @@
 </template>
 
 <script>
-import {
-  LANGUAGES,
-} from "@/common/language.helper";
+import { LANGUAGES } from "@/common/language.helper";
 export default {
   name: "ProxyPanel",
-  props: ["info", "selected", "isLoading", "showUploadProxyBtn"],
+  props: ["info", "selected", "isLoading", "showUploadProxyBtn", "direction"],
   data() {
     return {
       LANGUAGES,
-      showUploadProxyPanel: false
+      showUploadProxyPanel: false,
     };
   },
   methods: {
@@ -63,8 +63,8 @@ export default {
       this.$emit("uploadProxyFile", langCode);
     },
     downloadSplitted(langCode, openInBrowser) {
-      this.$emit("downloadSplitted", langCode, openInBrowser);
+      this.$emit("downloadSplitted", langCode, openInBrowser, this.direction);
     },
-  }
+  },
 };
 </script>
