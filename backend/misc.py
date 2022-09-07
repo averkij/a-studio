@@ -29,18 +29,30 @@ def get_files_list_with_path(folder, mask="*.txt"):
 def get_processing_list_with_state(username, lang_from, lang_to):
     """Get processing docs list with states"""
     res = []
-    for guid, name, guid_from, guid_to, state_code, done_batches, total_batches, proxy_from_loaded, proxy_to_loaded in user_db_helper.get_alignments_list(username, lang_from, lang_to):
-        res.append({
-            "guid": guid,
-            "name": name,
-            "guid_from": guid_from,
-            "guid_to": guid_to,
-            "state": (state_code, total_batches, done_batches),
-            "proxy_from_loaded": proxy_from_loaded,
-            "proxy_to_loaded": proxy_to_loaded
-            # "imgs": get_files_list(os.path.join(con.STATIC_FOLDER, con.IMG_FOLDER, username), mask=f"{guid}.best_*.png"),
-            # "sim_grades": get_sim_grades(file)
-        })
+    for (
+        guid,
+        name,
+        guid_from,
+        guid_to,
+        state_code,
+        done_batches,
+        total_batches,
+        proxy_from_loaded,
+        proxy_to_loaded,
+    ) in user_db_helper.get_alignments_list(username, lang_from, lang_to):
+        res.append(
+            {
+                "guid": guid,
+                "name": name,
+                "guid_from": guid_from,
+                "guid_to": guid_to,
+                "state": (state_code, total_batches, done_batches),
+                "proxy_from_loaded": proxy_from_loaded,
+                "proxy_to_loaded": proxy_to_loaded
+                # "imgs": get_files_list(os.path.join(con.STATIC_FOLDER, con.IMG_FOLDER, username), mask=f"{guid}.best_*.png"),
+                # "sim_grades": get_sim_grades(file)
+            }
+        )
     return res
 
 
@@ -48,11 +60,17 @@ def get_raw_files(username, lang_code):
     """Get uploaded raw files list"""
     res = []
     for file, guid, _ in user_db_helper.get_documents_list(username, lang_code):
-        res.append({
-            "name": file,
-            "guid": guid,
-            "has_proxy": os.path.isfile(os.path.join(con.UPLOAD_FOLDER, username, con.PROXY_FOLDER, lang_code, file))
-        })
+        res.append(
+            {
+                "name": file,
+                "guid": guid,
+                "has_proxy": os.path.isfile(
+                    os.path.join(
+                        con.UPLOAD_FOLDER, username, con.PROXY_FOLDER, lang_code, file
+                    )
+                ),
+            }
+        )
     return res
 
 
@@ -64,30 +82,40 @@ def get_sim_grades(processing_file):
 
 def clean_img_user_foler(username, align_guid):
     """Clean user folder with images"""
-    imgs = get_files_list_with_path(os.path.join(
-        con.STATIC_FOLDER, con.IMG_FOLDER, username), mask=f"{align_guid}.best_*.png")
+    imgs = get_files_list_with_path(
+        os.path.join(con.STATIC_FOLDER, con.IMG_FOLDER, username),
+        mask=f"{align_guid}.best_*.png",
+    )
     for img in imgs:
         if os.path.isfile(img):
             os.remove(img)
 
 
-def create_folders(username, lang):
+def create_folders(username, lang_code):
     """Create folders for a new user"""
     if username and lang:
         pathlib.Path(os.path.join(con.STATIC_FOLDER, con.IMG_FOLDER, username)).mkdir(
-            parents=True, exist_ok=True)
-        pathlib.Path(os.path.join(con.UPLOAD_FOLDER, username,
-                                  con.RAW_FOLDER, lang)).mkdir(parents=True, exist_ok=True)
-        pathlib.Path(os.path.join(con.UPLOAD_FOLDER, username,
-                                  con.SPLITTED_FOLDER, lang)).mkdir(parents=True, exist_ok=True)
-        pathlib.Path(os.path.join(con.UPLOAD_FOLDER, username,
-                                  con.PROXY_FOLDER, lang)).mkdir(parents=True, exist_ok=True)
-        pathlib.Path(os.path.join(con.UPLOAD_FOLDER, username,
-                                  con.NGRAM_FOLDER, lang)).mkdir(parents=True, exist_ok=True)
-        pathlib.Path(os.path.join(con.UPLOAD_FOLDER, username,
-                                  con.PROCESSING_FOLDER, lang)).mkdir(parents=True, exist_ok=True)
-        pathlib.Path(os.path.join(con.UPLOAD_FOLDER, username,
-                                  con.DONE_FOLDER, lang)).mkdir(parents=True, exist_ok=True)
+            parents=True, exist_ok=True
+        )
+        for lang in [lang_code, f"{lang_code}2"]:
+            pathlib.Path(
+                os.path.join(con.UPLOAD_FOLDER, username, con.RAW_FOLDER, lang)
+            ).mkdir(parents=True, exist_ok=True)
+            pathlib.Path(
+                os.path.join(con.UPLOAD_FOLDER, username, con.SPLITTED_FOLDER, lang)
+            ).mkdir(parents=True, exist_ok=True)
+            pathlib.Path(
+                os.path.join(con.UPLOAD_FOLDER, username, con.PROXY_FOLDER, lang)
+            ).mkdir(parents=True, exist_ok=True)
+            pathlib.Path(
+                os.path.join(con.UPLOAD_FOLDER, username, con.NGRAM_FOLDER, lang)
+            ).mkdir(parents=True, exist_ok=True)
+            pathlib.Path(
+                os.path.join(con.UPLOAD_FOLDER, username, con.PROCESSING_FOLDER, lang)
+            ).mkdir(parents=True, exist_ok=True)
+            pathlib.Path(
+                os.path.join(con.UPLOAD_FOLDER, username, con.DONE_FOLDER, lang)
+            ).mkdir(parents=True, exist_ok=True)
 
 
 def get_texts_length(db_path):
@@ -96,26 +124,30 @@ def get_texts_length(db_path):
 
     with sqlite3.connect(db_path) as db:
         cur = db.execute(
-            '''SELECT
+            """SELECT
                 (select count(*) as len1 from splitted_from),
                 (select count(*) as len2 from splitted_to)
-            '''
+            """
         )
-        res = (cur.fetchone())
+        res = cur.fetchone()
     return res
 
 
 def get_filename(username, guid):
     """Get filename by id"""
-    filename = [x[0] for x in user_db_helper.get_documents_list(
-        username) if x[1] == guid]
+    filename = [
+        x[0] for x in user_db_helper.get_documents_list(username) if x[1] == guid
+    ]
     return filename[0] if filename else None
 
 
 def get_fileinfo(username, guid):
     """Get file info by id"""
-    filename = [(x[0], x[2]) for x in user_db_helper.get_documents_list(
-        username) if x[1] == guid]
+    filename = [
+        (x[0], x[2])
+        for x in user_db_helper.get_documents_list(username)
+        if x[1] == guid
+    ]
     return filename[0] if filename else None
 
 
@@ -126,9 +158,8 @@ def check_folder(folder):
 
 def check_file(folder, files, file_id):
     """Check if file exists"""
-    if len(files) < file_id+1:
-        logging.debug(
-            f"Document with id={file_id} not found. folder: {folder}")
+    if len(files) < file_id + 1:
+        logging.debug(f"Document with id={file_id} not found. folder: {folder}")
         return False
     processing_file = os.path.join(folder, files[file_id])
     if not os.path.isfile(processing_file):
@@ -141,11 +172,13 @@ def get_batch(iter1, iter2, iter3, n):
     """Get batch"""
     l1 = len(iter1)
     l3 = len(iter3)
-    k = int(round(n * l3/l1))
+    k = int(round(n * l3 / l1))
     kdx = 0 - k
     for ndx in range(0, l1, n):
         kdx += k
-        yield iter1[ndx:min(ndx + n, l1)], iter2[kdx:min(kdx + k, l3)], iter3[kdx:min(kdx + k, l3)]
+        yield iter1[ndx : min(ndx + n, l1)], iter2[kdx : min(kdx + k, l3)], iter3[
+            kdx : min(kdx + k, l3)
+        ]
 
 
 def try_parse_int(value):
@@ -168,21 +201,27 @@ def parse_json_array(json_str):
 
 def configure_logging(level=logging.INFO):
     """"Configure logging module"""
-    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-    simplefilter(action='ignore', category=FutureWarning)
+    os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+    simplefilter(action="ignore", category=FutureWarning)
     # logging.basicConfig(level=level, filename='app.log', filemode='a', format='%(asctime)s [%(levelname)s] - %(process)d: %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-    logging.basicConfig(stream=sys.stdout, level=level, filemode='a',
-                        format='%(asctime)s [%(levelname)s] - %(process)d: %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-    logging.getLogger('matplotlib.font_manager').disabled = True
+    logging.basicConfig(
+        stream=sys.stdout,
+        level=level,
+        filemode="a",
+        format="%(asctime)s [%(levelname)s] - %(process)d: %(message)s",
+        datefmt="%d-%b-%y %H:%M:%S",
+    )
+    logging.getLogger("matplotlib.font_manager").disabled = True
 
 
 def lazy_property(func):
     """"Lazy initialization attribute"""
-    attr_name = '_lazy_' + func.__name__
+    attr_name = "_lazy_" + func.__name__
 
     @property
     def _lazy_property(self):
         if not hasattr(self, attr_name):
             setattr(self, attr_name, func(self))
         return getattr(self, attr_name)
+
     return _lazy_property
