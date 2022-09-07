@@ -76,7 +76,7 @@ import ConfirmDeleteDialog from "@/components/ConfirmDeleteDialog";
 
 export default {
   name: "RawPanel",
-  props: ["info", "isLoading", "items", "uploadEnabled"],
+  props: ["info", "isLoading", "items", "uploadEnabled", "side"],
   data() {
     return {
       hover_index: -1,
@@ -86,16 +86,22 @@ export default {
   },
   methods: {
     confirmDelete() {
-      this.$emit("performDelete", this.currentItem, this.info.langCode);
+      this.$emit(
+        "performDelete",
+        this.currentItem,
+        this.info.langCode,
+        this.side
+      );
     },
     onFileChange(event, langCode) {
+      console.log("onFileChange");
       this.$emit("onFileChange", event, langCode);
     },
     uploadFile(langCode) {
-      this.$emit("uploadFile", langCode);
+      this.$emit("uploadFile", langCode, this.side);
     },
     selectAndLoadPreview(langCode, item, id) {
-      this.$emit("selectAndLoadPreview", langCode, item, id);
+      this.$emit("selectAndLoadPreview", langCode, item, id, this.side);
     },
   },
   computed: {},

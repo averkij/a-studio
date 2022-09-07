@@ -76,7 +76,10 @@ const initialState = {
   conflictFlowTo: [],
   contents: [],
   conflicts: {},
-  conflictDetails: {"from": [], "to": []},
+  conflictDetails: {
+    "from": [],
+    "to": []
+  },
   bookPreview: "",
   linePositionInIndex: -1,
 };
@@ -112,8 +115,7 @@ export const actions = {
   // params {file, username, langCode}
   async [UPLOAD_FILES](context, params) {
     await ItemsService.upload(params).then(
-      function () {
-      },
+      function () {},
       function (error) {
         alert('File already exists')
         console.log(error);
@@ -159,7 +161,8 @@ export const actions = {
     } = await ItemsService.getSplitted(params);
     context.commit(SET_SPLITTED, {
       data: data,
-      langCode: params.langCode
+      langCode: params.langCode,
+      side: params.side
     });
     return;
   },
@@ -169,7 +172,8 @@ export const actions = {
     } = await ItemsService.getMarks(params);
     context.commit(SET_MARKS, {
       data: data,
-      langCode: params.langCode
+      langCode: params.langCode,
+      side: params.side
     });
     return;
   },
@@ -183,25 +187,22 @@ export const actions = {
     return;
   },
   async [EDIT_ALIGNMENT_MARK](context, params) {
-    await ItemsService.editAlignmentMark(params).then(() => {
-    },
-    () => {
-      console.log("alignment mark edit error")
-    });
+    await ItemsService.editAlignmentMark(params).then(() => {},
+      () => {
+        console.log("alignment mark edit error")
+      });
   },
   async [ADD_ALIGNMENT_MARK](context, params) {
-    await ItemsService.addAlignmentMark(params).then(() => {
-    },
-    () => {
-      console.log("alignment mark add error")
-    });
+    await ItemsService.addAlignmentMark(params).then(() => {},
+      () => {
+        console.log("alignment mark add error")
+      });
   },
   async [BULK_ADD_ALIGNMENT_MARK](context, params) {
-    await ItemsService.bulkAddAlignmentMark(params).then(() => {
-    },
-    () => {
-      console.log("alignment mark bulk add error")
-    });
+    await ItemsService.bulkAddAlignmentMark(params).then(() => {},
+      () => {
+        console.log("alignment mark bulk add error")
+      });
   },
   async [GET_DOC_INDEX](context, params) {
     await ItemsService.getDocIndex(params).then(
@@ -325,53 +326,46 @@ export const actions = {
     return;
   },
   async [EDIT_PROCESSING_MARK_UNUSED](context, params) {
-    await ItemsService.editProcessingMarkUnused(params).then(() => {
-    },
-    () => {
-      console.log("mark as unused error")
-    });
+    await ItemsService.editProcessingMarkUnused(params).then(() => {},
+      () => {
+        console.log("mark as unused error")
+      });
   },
   async [ALIGN_SPLITTED](context, params) {
-    await ItemsService.startAlignment(params).then(() => {
-    },
-    () => {
-      console.log("alignment error")
-    });
+    await ItemsService.startAlignment(params).then(() => {},
+      () => {
+        console.log("alignment error")
+      });
   },
   async [UPDATE_VISUALIZATION](context, params) {
-    await ItemsService.updateVisualization(params).then(() => {
-    },
-    () => {
-      console.log("update visualization error")
-    });
+    await ItemsService.updateVisualization(params).then(() => {},
+      () => {
+        console.log("update visualization error")
+      });
   },
   async [RESOLVE_CONFLICTS](context, params) {
-    await ItemsService.resolveConflicts(params).then(() => {
-    },
-    () => {
-      console.log("resolve conflicts error")
-    });
+    await ItemsService.resolveConflicts(params).then(() => {},
+      () => {
+        console.log("resolve conflicts error")
+      });
   },
   async [CREATE_ALIGNMENT](context, params) {
-    await ItemsService.createAlignment(params).then(() => {
-    },
-    () => {
-      console.log("alignment creation error")
-    });
+    await ItemsService.createAlignment(params).then(() => {},
+      () => {
+        console.log("alignment creation error")
+      });
   },
   async [DELETE_ALIGNMENT](context, params) {
-    await ItemsService.deleteAlignment(params).then(() => {
-    },
-    () => {
-      console.log("alignment deletion error")
-    });
+    await ItemsService.deleteAlignment(params).then(() => {},
+      () => {
+        console.log("alignment deletion error")
+      });
   },
   async [DELETE_DOCUMENT](context, params) {
-    await ItemsService.deleteDocument(params).then(() => {
-    },
-    () => {
-      console.log("document deletion error")
-    });
+    await ItemsService.deleteDocument(params).then(() => {},
+      () => {
+        console.log("document deletion error")
+      });
   },
   async [GET_CONTENTS](context, params) {
     await ItemsService.getContents(params).then(
@@ -395,15 +389,15 @@ export const mutations = {
   },
   [SET_SPLITTED](state, params) {
     if (params.data.items[params.langCode]) {
-      state.splitted[params.langCode].lines = params.data.items[params.langCode];
+      state.splitted[params.side][params.langCode].lines = params.data.items[params.langCode];
     }
     if (params.data.meta[params.langCode]) {
-      state.splitted[params.langCode].meta = params.data.meta[params.langCode];
+      state.splitted[params.side][params.langCode].meta = params.data.meta[params.langCode];
     }
   },
   [SET_MARKS](state, params) {
     console.log("SET_MARKS", params)
-    state.marks[params.langCode] = params.data.items;
+    state.marks[params.side][params.langCode] = params.data.items;
   },
   [SET_ALIGNMENT_MARKS](state, params) {
     console.log("SET_ALIGNMENT_MARKS", params)
@@ -498,7 +492,7 @@ const getters = {
 
 export const ErrorHelper = {
   getErrorCode(line) {
-    if (line) {      
+    if (line) {
       let match = String(line).match(/^.*\s([\d]+)$/i)
       if (match && match.length > 1) {
         return match[1]

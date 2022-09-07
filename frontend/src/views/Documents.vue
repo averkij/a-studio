@@ -19,6 +19,7 @@
             :items="items"
             :isLoading="isLoading"
             :uploadEnabled="true"
+            :side="'left'"
           >
           </RawPanel>
         </v-col>
@@ -32,6 +33,7 @@
             :items="items"
             :isLoading="isLoading"
             :uploadEnabled="true"
+            :side="'right'"
           >
           </RawPanel>
         </v-col>
@@ -89,6 +91,7 @@
           :splitted="splitted"
           :selected="selected"
           :isLoading="isLoading"
+          :side="'left'"
         >
         </SplittedPanel>
       </v-col>
@@ -100,6 +103,7 @@
           :splitted="splitted"
           :selected="selected"
           :isLoading="isLoading"
+          :side="'right'"
         >
         </SplittedPanel>
       </v-col>
@@ -122,7 +126,8 @@
     <v-alert
       v-if="
         !marks ||
-        (marks[langCodeFrom].length == 0 && marks[langCodeTo].length == 0)
+        (marks['left'][langCodeFrom].length == 0 &&
+          marks['right'][langCodeTo].length == 0)
       "
       type="info"
       border="left"
@@ -153,7 +158,7 @@
         <v-row>
           <v-col cols="12" sm="6">
             <v-card>
-              <div v-for="(mark, i) in marks[langCodeFrom]" :key="i">
+              <div v-for="(mark, i) in marks['left'][langCodeFrom]" :key="i">
                 <MarkItem :mark="mark" :id="i" :showParId="false"></MarkItem>
                 <v-divider />
               </div>
@@ -161,7 +166,7 @@
           </v-col>
           <v-col cols="12" sm="6">
             <v-card>
-              <div v-for="(mark, i) in marks[langCodeTo]" :key="i">
+              <div v-for="(mark, i) in marks['right'][langCodeTo]" :key="i">
                 <MarkItem :mark="mark" :id="i" :showParId="false"></MarkItem>
                 <v-divider />
               </div>
@@ -210,8 +215,8 @@ export default {
       API_URL,
       files: LanguageHelper.initGeneralVars(),
       proxyFiles: LanguageHelper.initGeneralVars(),
-      selected: LanguageHelper.initGeneralVars(),
-      selectedIds: LanguageHelper.initGeneralVars(),
+      selected: LanguageHelper.initGeneralVars2Sides(),
+      selectedIds: LanguageHelper.initGeneralVars2Sides(),
       splittedPanelPageCount: SettingsHelper.getSplittedPanelPageCount(),
       isLoading: {
         upload: LanguageHelper.initGeneralBools(),
@@ -236,32 +241,35 @@ export default {
     onProxyFileChange(file, langCode) {
       this.proxyFiles[langCode] = file;
     },
-    selectAndLoadPreview(langCode, name, fileId) {
-      this.selected[langCode] = name;
-      this.selectedIds[langCode] = fileId;
+    selectAndLoadPreview(langCode, name, fileId, side) {
+      this.selected[side][langCode] = name;
+      this.selectedIds[side][langCode] = fileId;
       this.$store.dispatch(GET_SPLITTED, {
         username: this.$route.params.username,
         langCode,
         fileId,
         linesCount: this.splittedPanelPageCount,
         page: 1,
+        side,
       });
       this.$store.dispatch(GET_FILE_MARKS, {
         username: this.$route.params.username,
         langCode,
-        fileId: this.selectedIds[langCode],
+        fileId: this.selectedIds[side][langCode],
+        side,
       });
     },
-    onPreviewPageChange(page, langCode) {
+    onPreviewPageChange(page, langCode, side) {
       this.$store.dispatch(GET_SPLITTED, {
         username: this.$route.params.username,
         langCode,
-        fileId: this.selectedIds[langCode],
+        fileId: this.selectedIds[side][langCode],
         linesCount: this.splittedPanelPageCount,
         page: page,
+        side,
       });
     },
-    uploadFile(langCode) {
+    uploadFile(langCode, side) {
       this.isLoading.upload[langCode] = true;
       this.$store
         .dispatch(UPLOAD_FILES, {
@@ -276,7 +284,7 @@ export default {
               langCode: langCode,
             })
             .then(() => {
-              this.selectFirstDocument(langCode);
+              this.selectFirstDocument(langCode, side);
               this.isLoading.upload[langCode] = false;
             });
         });
@@ -288,12 +296,13 @@ export default {
       }
       return this.items[langCode].length != 0;
     },
-    selectFirstDocument(langCode) {
+    selectFirstDocument(langCode, side) {
       if (this.itemsNotEmpty(langCode)) {
         this.selectAndLoadPreview(
           langCode,
           this.items[langCode][0].name,
-          this.items[langCode][0].guid
+          this.items[langCode][0].guid,
+          side
         );
       } else {
         let data = { items: {}, meta: {} };
@@ -303,7 +312,7 @@ export default {
           data,
           langCode,
         });
-        this.selected[langCode] = null;
+        this.selected[side][langCode] = null;
         this.$store.commit(SET_MARKS, {
           data: { items: [] },
           langCode: this.langCodeFrom,
@@ -321,7 +330,7 @@ export default {
           langCode: this.langCodeFrom,
         })
         .then(() => {
-          this.selectFirstDocument(this.langCodeFrom);
+          this.selectFirstDocument(this.langCodeFrom, "left");
         });
       this.$store
         .dispatch(FETCH_ITEMS, {
@@ -329,13 +338,13 @@ export default {
           langCode: this.langCodeTo,
         })
         .then(() => {
-          this.selectFirstDocument(this.langCodeTo);
+          this.selectFirstDocument(this.langCodeTo, "right");
         });
     },
-    downloadSplitted(langCode, openInBrowser) {
+    downloadSplitted(langCode, openInBrowser, side) {
       this.$store.dispatch(DOWNLOAD_SPLITTED, {
-        fileId: this.selectedIds[langCode],
-        fileName: this.selected[langCode],
+        fileId: this.selectedIds[side][langCode],
+        fileName: this.selected[side][langCode],
         username: this.$route.params.username,
         langCode,
         fromDb: false,
@@ -343,7 +352,7 @@ export default {
       });
     },
     //deletion
-    performDeleteRawFile(item, langCode) {
+    performDeleteRawFile(item, langCode, side) {
       this.$store
         .dispatch(DELETE_DOCUMENT, {
           username: this.$route.params.username,
@@ -358,14 +367,14 @@ export default {
               langCode: langCode,
             })
             .then(() => {
-              this.selectFirstDocument(langCode);
+              this.selectFirstDocument(langCode, side);
             });
         });
     },
     setSplittedPanelPageCount(pageCount) {
       this.splittedPanelPageCount = pageCount;
-      this.onPreviewPageChange(1, this.langCodeFrom);
-      this.onPreviewPageChange(1, this.langCodeTo);
+      this.onPreviewPageChange(1, this.langCodeFrom, "left");
+      this.onPreviewPageChange(1, this.langCodeTo, "right");
     },
   },
   mounted() {
@@ -408,7 +417,10 @@ export default {
       "processingMeta",
     ]),
     mergedMarks() {
-      let res = Helper.mergeMarks(this.marks[this.langCodeFrom], this.marks[this.langCodeTo])
+      let res = Helper.mergeMarks(
+        this.marks["left"][this.langCodeFrom],
+        this.marks["right"][this.langCodeTo]
+      );
       return res;
     },
     username() {
@@ -448,19 +460,6 @@ export default {
         return "realy?";
       }
       return (this.downloadThreshold / 100).toFixed(2);
-    },
-    processingExists() {
-      let selected_progress_item = this.itemsProcessing[
-        this.langCodeFrom
-      ].filter(
-        (x) =>
-          x.guid_from == this.selectedIds[this.langCodeFrom] &&
-          x.guid_to == this.selectedIds[this.langCodeTo]
-      );
-      if (selected_progress_item.length > 0) {
-        return true;
-      }
-      return false;
     },
     corporaSizeRelative() {
       return 5;

@@ -114,9 +114,16 @@ export const LanguageHelper = {
         return res;
     },
     initSplitted() {
-        let res = {}
+        let res = {
+            'left': {},
+            'right': {}
+        }
         Object.keys(LANGUAGES).forEach(x => {
-            res[x] = {
+            res['left'][x] = {
+                lines: [],
+                meta: {}
+            };
+            res['right'][x] = {
                 lines: [],
                 meta: {}
             };
@@ -124,9 +131,13 @@ export const LanguageHelper = {
         return res;
     },
     initMarks() {
-        let res = {}
+        let res = {
+            'left': {},
+            'right': {}
+        }
         Object.keys(LANGUAGES).forEach(x => {
-            res[x] = [];
+            res['left'][x] = [];
+            res['right'][x] = [];
         })
         return res;
     },
@@ -140,6 +151,17 @@ export const LanguageHelper = {
         let res = {}
         Object.keys(LANGUAGES).forEach(x => {
             res[x] = null;
+        })
+        return res;
+    },
+    initGeneralVars2Sides() {
+        let res = {
+            'left': {},
+            'right': {}
+        }
+        Object.keys(LANGUAGES).forEach(x => {
+            res['left'][x] = null;
+            res['right'][x] = null;
         })
         return res;
     },

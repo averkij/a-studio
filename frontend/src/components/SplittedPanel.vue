@@ -9,8 +9,8 @@
       elevation="2"
       v-if="
         !splitted |
-          !splitted[info.langCode] |
-          (splitted[info.langCode].lines.length == 0)
+          !splitted[side][info.langCode] |
+          (splitted[side][info.langCode].lines.length == 0)
       "
     >
       Select file to preview.
@@ -22,24 +22,24 @@
         </v-card-title>
         <v-card-text
           >{{
-            splitted[info.langCode].meta.lines_count | separator
+            splitted[side][info.langCode].meta.lines_count | separator
           }}
           lines</v-card-text
         >
       </div>
       <v-divider></v-divider>
-      <div v-for="(line, i) in splitted[info.langCode].lines" :key="i">
+      <div v-for="(line, i) in splitted[side][info.langCode].lines" :key="i">
         <PreviewItem :item="line"></PreviewItem>
         <v-divider></v-divider>
       </div>
       <div class="text-center pa-3">
         <v-pagination
-          v-model="splitted[info.langCode].meta.page"
-          :length="splitted[info.langCode].meta.total_pages"
+          v-model="splitted[side][info.langCode].meta.page"
+          :length="splitted[side][info.langCode].meta.total_pages"
           total-visible="7"
           @input="
             onPreviewPageChange(
-              splitted[info.langCode].meta.page,
+              splitted[side][info.langCode].meta.page,
               info.langCode
             )
           "
@@ -61,17 +61,17 @@
 import PreviewItem from "@/components/PreviewItem";
 export default {
   name: "SplittedPanel",
-  props: ["info", "splitted", "selected", "isLoading"],
+  props: ["info", "splitted", "selected", "isLoading", "side"],
   methods: {
     onPreviewPageChange(page, langCode) {
-      this.$emit("onPreviewPageChange", page, langCode);
+      this.$emit("onPreviewPageChange", page, langCode, this.side);
     },
     downloadSplitted(langCode, openInBrowser) {
-      this.$emit("downloadSplitted", langCode, openInBrowser);
+      this.$emit("downloadSplitted", langCode, openInBrowser, this.side);
     },
   },
   components: {
     PreviewItem,
-  }
+  },
 };
 </script>
