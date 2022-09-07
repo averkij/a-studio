@@ -1122,13 +1122,15 @@ def edit_processing(username, lang_from, lang_to, align_guid):
 
 
 @app.route(
-    "/items/<username>/splitted/<lang_from>/<lang_to>/<align_guid>/download/<lang>",
+    "/items/<username>/splitted/<lang_from>/<lang_to>/<align_guid>/download/<lang>/<direction>",
     methods=["GET"],
 )
-def download_splitted_from_db(username, lang_from, lang_to, align_guid, lang):
+def download_splitted_from_db(
+    username, lang_from, lang_to, align_guid, lang, direction
+):
     """Download splitted document file"""
     logging.info(
-        f"[{username}]. Downloading {lang} align_guid:{align_guid} splitted document."
+        f"[{username}]. Downloading {lang} ({direction} side) align_guid:{align_guid} splitted document."
     )
     db_folder = os.path.join(
         con.UPLOAD_FOLDER, username, con.DB_FOLDER, lang_from, lang_to
@@ -1141,10 +1143,10 @@ def download_splitted_from_db(username, lang_from, lang_to, align_guid, lang):
     download_folder = os.path.join(con.UPLOAD_FOLDER, username, con.DOWNLOAD_FOLDER)
     misc.check_folder(download_folder)
     download_file = os.path.join(
-        download_folder, "{0}_{1}_{2}.txt".format(align_guid, lang, timestamp)
+        download_folder, "{0}_{1}_{2}_{3}.txt".format(align_guid, lang, direction, timestamp)
     )
 
-    if lang == lang_from:
+    if direction == "from":
         lines = aligner.get_splitted_from(db_path)
     else:
         lines = aligner.get_splitted_to(db_path)

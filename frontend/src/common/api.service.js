@@ -140,7 +140,7 @@ export const ItemsService = {
   downloadSplittedFromDb(params) {
     return ApiService.get(
       "items",
-      `${params.username}/splitted/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}`
+      `${params.username}/splitted/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}/${params.direction}`
     ).then((response) => {
       const url = window.URL.createObjectURL(new Blob([response.data], {
         encoding: "UTF-8",
