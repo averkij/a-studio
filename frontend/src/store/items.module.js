@@ -117,7 +117,7 @@ export const actions = {
     await ItemsService.upload(params).then(
       function () {},
       function (error) {
-        alert('File already exists')
+        alert('Upload error.')
         console.log(error);
         return;
       }

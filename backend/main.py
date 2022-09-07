@@ -57,6 +57,7 @@ def items(username, lang):
             file = request.files[lang]
             upload_folder = con.RAW_FOLDER
             filename = file.filename
+            direction = request.form.get("direction", "from")
 
             if request.form["type"] != "proxy" and user_db_helper.file_exists(
                 username, lang, filename
@@ -79,7 +80,7 @@ def items(username, lang):
                 )
                 db_path = os.path.join(db_folder, f"{align_guid}.db")
                 upload_folder = con.PROXY_FOLDER
-                filename = filename_from if lang == lang_from else filename_to
+                filename = filename_from if direction == "from" else filename_to
             else:
                 user_db_helper.register_file(username, lang, filename)
 
@@ -103,8 +104,6 @@ def items(username, lang):
                 logging.info(
                     f"[{username}]. Update proxy. {upload_path} into {db_path} database."
                 )
-                direction = "from" if lang == lang_from else "to"
-
                 aligner.load_proxy(db_path, upload_path, direction)
                 user_db_helper.update_alignment_proxy_loaded(
                     username, align_guid, direction
@@ -1143,7 +1142,8 @@ def download_splitted_from_db(
     download_folder = os.path.join(con.UPLOAD_FOLDER, username, con.DOWNLOAD_FOLDER)
     misc.check_folder(download_folder)
     download_file = os.path.join(
-        download_folder, "{0}_{1}_{2}_{3}.txt".format(align_guid, lang, direction, timestamp)
+        download_folder,
+        "{0}_{1}_{2}_{3}.txt".format(align_guid, lang, direction, timestamp),
     )
 
     if direction == "from":

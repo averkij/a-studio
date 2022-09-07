@@ -22,8 +22,6 @@
         <v-col cols="12" sm="6">
           <RawPanel
             v-if="items[langCodeFrom].length > 0"
-            @uploadFile="uploadFile"
-            @onFileChange="onFileChange"
             @selectAndLoadPreview="selectAndLoadPreview"
             @performDelete="performDeleteRawFile"
             :info="LANGUAGES[langCodeFrom]"
@@ -36,8 +34,6 @@
         <v-col cols="12" sm="6">
           <RawPanel
             v-if="items[langCodeFrom].length > 0"
-            @uploadFile="uploadFile"
-            @onFileChange="onFileChange"
             @selectAndLoadPreview="selectAndLoadPreview"
             @performDelete="performDeleteRawFile"
             :info="LANGUAGES[langCodeTo]"
@@ -809,6 +805,7 @@
             :info="LANGUAGES[langCodeFrom]"
             :isLoading="isLoading"
             :showUploadProxyBtn="true"
+            :side="'left'"
             :direction="'from'"
           >
           </ProxyPanel>
@@ -822,6 +819,7 @@
             :info="LANGUAGES[langCodeTo]"
             :isLoading="isLoading"
             :showUploadProxyBtn="true"
+            :side="'right'"
             :direction="'to'"
           >
           </ProxyPanel>
@@ -1078,7 +1076,7 @@ export default {
       PROC_ERROR,
       PROC_DONE,
       files: LanguageHelper.initGeneralVars(),
-      proxyFiles: LanguageHelper.initGeneralVars(),
+      proxyFiles: LanguageHelper.initGeneralVars2Sides(),
       selected: LanguageHelper.initGeneralVars2Sides(),
       selectedProcessing: null,
       selectedProcessingId: null,
@@ -1454,11 +1452,8 @@ export default {
         alignId: this.currentlyProcessingId,
       });
     },
-    onFileChange(file, langCode) {
-      this.files[langCode] = file;
-    },
-    onProxyFileChange(file, langCode) {
-      this.proxyFiles[langCode] = file;
+    onProxyFileChange(file, langCode, side) {
+      this.proxyFiles[side][langCode] = file;
     },
     onPreviewPageChange(page, langCode, side) {
       this.$store.dispatch(GET_SPLITTED, {
@@ -1482,35 +1477,16 @@ export default {
         page: num,
       });
     },
-    uploadFile(langCode) {
-      this.isLoading.upload[langCode] = true;
-      this.$store
-        .dispatch(UPLOAD_FILES, {
-          file: this.files[langCode],
-          username: this.$route.params.username,
-          langCode,
-        })
-        .then(() => {
-          this.$store
-            .dispatch(FETCH_ITEMS, {
-              username: this.$route.params.username,
-              langCode: langCode,
-            })
-            .then(() => {
-              this.selectFirstDocument(langCode);
-              this.isLoading.upload[langCode] = false;
-            });
-        });
-    },
-    uploadProxyFile(langCode) {
+    uploadProxyFile(langCode, side, direction) {
       this.isLoading.uploadProxy[langCode] = true;
       this.$store
         .dispatch(UPLOAD_FILES, {
           alignId: this.selectedProcessingId,
-          file: this.proxyFiles[langCode],
+          file: this.proxyFiles[side][langCode],
           username: this.$route.params.username,
           langCode,
           isProxy: true,
+          direction,
         })
         .then(() => {
           this.isLoading.uploadProxy[langCode] = false;

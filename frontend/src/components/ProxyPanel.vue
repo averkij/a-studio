@@ -48,7 +48,14 @@
 import { LANGUAGES } from "@/common/language.helper";
 export default {
   name: "ProxyPanel",
-  props: ["info", "selected", "isLoading", "showUploadProxyBtn", "direction"],
+  props: [
+    "info",
+    "selected",
+    "isLoading",
+    "showUploadProxyBtn",
+    "side",
+    "direction",
+  ],
   data() {
     return {
       LANGUAGES,
@@ -57,10 +64,10 @@ export default {
   },
   methods: {
     onProxyFileChange(event, langCode) {
-      this.$emit("onProxyFileChange", event, langCode);
+      this.$emit("onProxyFileChange", event, langCode, this.side);
     },
     uploadProxyFile(langCode) {
-      this.$emit("uploadProxyFile", langCode);
+      this.$emit("uploadProxyFile", langCode, this.side, this.direction);
     },
     downloadSplitted(langCode, openInBrowser) {
       this.$emit("downloadSplitted", langCode, openInBrowser, this.direction);
