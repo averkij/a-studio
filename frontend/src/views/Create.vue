@@ -311,45 +311,49 @@
             </v-col>
           </v-row>
         </div>
-        <v-row>
-          <v-col class="text-right">
-            <v-btn
-              class="mt-4 btn-min-w"
-              @click="showAddMarksAsTextDialog = true"
-            >
-              Add images
-            </v-btn>
-            <v-btn
-              class="primary mt-4 ml-3 btn-min-w"
-              @click="showAddMarkDialog = true"
-            >
-              Add new mark
-            </v-btn>
-          </v-col>
-          <AddMarkDialog
-            v-model="showAddMarkDialog"
-            :langFrom="LANGUAGES[langCodeFrom].name"
-            :langTo="LANGUAGES[langCodeTo].name"
-            @addMark="addMark"
-          />
-          <AddMarksAsTextDialog
-            v-model="showAddMarksAsTextDialog"
-            :langFrom="LANGUAGES[langCodeFrom].name"
-            :langTo="LANGUAGES[langCodeTo].name"
-            @addMark="addMarksAsText"
-          />
-          <ConfirmDeleteMarkDialog
-            v-model="showConfirmDeleteMarkDialog"
-            @confirmDelete="performDeleteMark"
-          />
-        </v-row>
       </div>
 
-      <div v-else>
-        <v-btn class="mt-9 btn-min-w" @click="showAlignmentMarks = true">
+      <v-row>
+        <v-btn
+          v-show="
+            alignmentMarks &&
+            (alignmentMarks[langCodeFrom].length > 0 ||
+              alignmentMarks[langCodeTo].length > 0) &&
+            !showAlignmentMarks
+          "
+          class="mt-4 ml-3 btn-min-w"
+          @click="showAlignmentMarks = true"
+        >
           Show marks
         </v-btn>
-      </div>
+        <v-spacer></v-spacer>
+        <v-btn class="mt-4 btn-min-w" @click="showAddMarksAsTextDialog = true">
+          Add images
+        </v-btn>
+        <v-btn
+          class="primary mt-4 ml-3 mr-3 btn-min-w"
+          @click="showAddMarkDialog = true"
+        >
+          Add new mark
+        </v-btn>
+      </v-row>
+
+      <AddMarkDialog
+        v-model="showAddMarkDialog"
+        :langFrom="LANGUAGES[langCodeFrom].name"
+        :langTo="LANGUAGES[langCodeTo].name"
+        @addMark="addMark"
+      />
+      <AddMarksAsTextDialog
+        v-model="showAddMarksAsTextDialog"
+        :langFrom="LANGUAGES[langCodeFrom].name"
+        :langTo="LANGUAGES[langCodeTo].name"
+        @addMark="addMarksAsText"
+      />
+      <ConfirmDeleteMarkDialog
+        v-model="showConfirmDeleteMarkDialog"
+        @confirmDelete="performDeleteMark"
+      />
 
       <!-- PROCESSING DOCUMENTS LIST BLOCK -->
       <v-row>
