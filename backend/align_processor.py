@@ -253,13 +253,15 @@ class AlignmentProcessor:
         for w in workers:
             w.start()
 
-    def resolve_batch_wrapper(self, batch_id, batch_amount):
+    def resolve_batch_wrapper(
+        self, batch_id, batch_amount, handle_start, handle_finish
+    ):
         """Resolve conflicts wrapper"""
         logging.info(f"Conflicts resolving started for {self.db_path}.")
         try:
             # conflicts resolving strategy
             steps = 3
-            print("resolving conflicts strategy 1. batch_id:", batch_id)
+            print("Resolving conflicts strategy 1. batch_id:", batch_id)
 
             for i in range(steps):
                 min_chain_length = 2 + i
@@ -297,7 +299,7 @@ class AlignmentProcessor:
                     parameters=parameters,
                 )
 
-            print("resolving conflicts strategy 2. batch_id:", batch_id)
+            print("Resolving conflicts strategy 2. batch_id:", batch_id)
 
             min_chain_length = 2
             max_conflicts_len = 25
@@ -307,6 +309,53 @@ class AlignmentProcessor:
                 min_chain_length=min_chain_length,
                 max_conflicts_len=max_conflicts_len,
                 batch_id=batch_id,
+            )
+            resolver.resolve_all_conflicts(
+                self.db_path,
+                conflicts,
+                self.model_name,
+                show_logs=False,
+                use_proxy_from=self.use_proxy_from,
+                use_proxy_to=self.use_proxy_to,
+            )
+
+            if batch_id == -1:
+                parameters = {
+                    "batch_amount": batch_amount,
+                    "min_chain_length": min_chain_length,
+                    "max_conflicts_len": max_conflicts_len,
+                }
+            else:
+                parameters = {
+                    "min_chain_length": min_chain_length,
+                    "max_conflicts_len": max_conflicts_len,
+                }
+            aligner.update_history(
+                self.db_path,
+                [batch_id],
+                la_con.OPERATION_RESOLVE,
+                parameters=parameters,
+            )
+
+            print(
+                "Resolving conflicts strategy 3 [Handling edges]. batch_id:",
+                batch_id,
+                "handle start:",
+                handle_start,
+                "handle_finish",
+                handle_finish,
+            )
+
+            min_chain_length = 2
+            max_conflicts_len = 25
+
+            conflicts, _ = resolver.get_all_conflicts(
+                self.db_path,
+                min_chain_length=min_chain_length,
+                max_conflicts_len=max_conflicts_len,
+                batch_id=batch_id,
+                handle_start=handle_start,
+                handle_finish=handle_finish,
             )
             resolver.resolve_all_conflicts(
                 self.db_path,
