@@ -258,15 +258,17 @@ export const ItemsService = {
     );
   },
   getConflicts(params) {
+    let mode = this.getEdgeHandlingMode(params)
     return ApiService.get(
       "items",
-      `${params.username}/alignment/conflicts/${params.alignId}`
+      `${params.username}/alignment/conflicts/${params.alignId}/${mode}`
     );
   },
   getConflictDetails(params) {
+    let mode = this.getEdgeHandlingMode(params)
     return ApiService.get(
       "items",
-      `${params.username}/alignment/conflicts/${params.alignId}/show/${params.conflictId}`
+      `${params.username}/alignment/conflicts/${params.alignId}/show/${params.conflictId}/${mode}`
     );
   },
   getDocIndex(params) {
@@ -351,6 +353,8 @@ export const ItemsService = {
     form.append("batch_ids", JSON.stringify(params.batchIds));
     form.append("use_proxy_from", params.useProxyFrom);
     form.append("use_proxy_to", params.useProxyTo);
+    form.append("handle_start", params.handleStart);
+    form.append("handle_finish", params.handleFinish);
     return ApiService.post(
       "items",
       `${params.username}/alignment/resolve`,
@@ -410,5 +414,16 @@ export const ItemsService = {
       "items",
       `contents`
     );
+  },
+  getEdgeHandlingMode(params) {
+    let mode = "none"
+    if (params.handleStart && params.handleFinish) {
+      mode = "both"
+    } else if (params.handleStart) {
+      mode = "start"
+    } else if (params.handleFinish) {
+      mode = "finish"
+    }
+    return mode
   }
 };

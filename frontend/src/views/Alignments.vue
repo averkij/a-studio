@@ -515,9 +515,28 @@
       <div class="text-h5 mt-5 font-weight-bold">Conflicts</div>
 
       <div class="mt-5">
-        <div class="font-weight-bold">
-          {{ conflictsAmount() }} conflicts found
-        </div>
+        <v-row>
+          <div class="ml-3 font-weight-bold">
+            {{ conflictsAmount() }} conflicts found
+          </div>
+          <v-spacer></v-spacer>
+          <div class="mr-3">
+            <v-checkbox
+              :disabled="!selectedProcessing.state[2]"
+              class="pa-0 ma-0 pl-5 d-inline-block"
+              v-model="handleStartConflict"
+              label="Handle start"
+            ></v-checkbox>
+            <v-checkbox
+              :disabled="
+                selectedProcessing.state[1] != selectedProcessing.state[2]
+              "
+              class="pa-0 ma-0 pl-5 d-inline-block"
+              v-model="handleFinishConflict"
+              label="Handle finish"
+            ></v-checkbox>
+          </div>
+        </v-row>
       </div>
 
       <div class="text-center" v-if="isLoading.resolve || isLoading.conflicts">
@@ -1141,6 +1160,9 @@ export default {
       selectedProcessingTotalBatches: 0,
       useProxyFrom: false,
       useProxyTo: false,
+
+      handleStartConflict: false,
+      handleFinishConflict: false,
     };
   },
   methods: {
@@ -1372,6 +1394,8 @@ export default {
           resolveAll: "",
           useProxyFrom: this.useProxyFrom,
           useProxyTo: this.useProxyTo,
+          handleStart: this.handleStartConflict,
+          handleFinish: this.handleFinishConflict,
         })
         .then(() => {
           console.log("fetchItemsProcessingTimer set");
@@ -1550,6 +1574,8 @@ export default {
           username: this.$route.params.username,
           alignId: this.selectedProcessingId,
           conflictId: conflictId,
+          handleStart: this.handleStartConflict,
+          handleFinish: this.handleFinishConflict,
         })
         .then(() => {
           this.isLoading.conflicts = false;
@@ -1605,6 +1631,8 @@ export default {
         .dispatch(GET_CONFLICTS, {
           username: this.$route.params.username,
           alignId: this.selectedProcessingId,
+          handleStart: this.handleStartConflict,
+          handleFinish: this.handleFinishConflict,
         })
         .then(() => {
           this.currConflictId = 0;
@@ -1614,6 +1642,8 @@ export default {
                 username: this.$route.params.username,
                 alignId: this.selectedProcessingId,
                 conflictId: 0,
+                handleStart: this.handleStartConflict,
+                handleFinish: this.handleFinishConflict,
               })
               .then(() => {
                 this.isLoading.conflicts = false;
@@ -1629,6 +1659,8 @@ export default {
         .dispatch(GET_CONFLICTS, {
           username: this.$route.params.username,
           alignId: this.selectedProcessingId,
+          handleStart: this.handleStartConflict,
+          handleFinish: this.handleFinishConflict,
         })
         .then(() => {
           this.currConflictId = 0;
@@ -1637,6 +1669,8 @@ export default {
               .dispatch(GET_CONFLICT_DETAILS, {
                 username: this.$route.params.username,
                 alignId: this.selectedProcessingId,
+                handleStart: this.handleStartConflict,
+                handleFinish: this.handleFinishConflict,
                 conflictId: 0,
               })
               .then(() => {
