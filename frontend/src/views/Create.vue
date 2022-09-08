@@ -532,22 +532,24 @@
             <v-col cols="12" sm="6">
               <DownloadPanel
                 @downloadFile="downloadProcessing"
-                :title="'corpora'"
+                :title="'corpora (from)'"
                 :info="LANGUAGES[langCodeFrom]"
                 :isLoading="isLoading"
                 :paragraphs="false"
                 :lineItemName="'sentence'"
+                :side="'from'"
               >
               </DownloadPanel>
             </v-col>
             <v-col cols="12" sm="6">
               <DownloadPanel
                 @downloadFile="downloadProcessing"
-                :title="'corpora'"
+                :title="'corpora (to)'"
                 :info="LANGUAGES[langCodeTo]"
                 :isLoading="isLoading"
                 :paragraphs="false"
                 :lineItemName="'sentence'"
+                :side="'to'"
               >
               </DownloadPanel>
             </v-col>
@@ -562,6 +564,7 @@
                 :direction="parStructureDirection"
                 :paragraphs="true"
                 :lineItemName="'paragraph'"
+                :side="'from'"
               >
               </DownloadPanel>
             </v-col>
@@ -574,6 +577,7 @@
                 :direction="parStructureDirection"
                 :paragraphs="true"
                 :lineItemName="'paragraph'"
+                :side="'to'"
               >
               </DownloadPanel>
             </v-col>
@@ -653,12 +657,9 @@ export default {
       PROC_ERROR,
       PROC_DONE,
       files: LanguageHelper.initGeneralVars(),
-      proxyFiles: LanguageHelper.initGeneralVars(),
-      selected: LanguageHelper.initGeneralVars(),
       selectedProcessing: null,
       selectedProcessingId: null,
       currentlyProcessingId: null,
-      selectedIds: LanguageHelper.initGeneralVars(),
       isLoading: {
         download: LanguageHelper.initGeneralBools(),
         processing: false,
@@ -805,7 +806,7 @@ export default {
         style: this.bookStyle,
       });
     },
-    downloadProcessing(langCode, paragraphs, direction) {
+    downloadProcessing(langCode, paragraphs, direction, side) {
       this.$store.dispatch(DOWNLOAD_PROCESSING, {
         alignId: this.selectedProcessingId,
         fileName: this.selectedProcessingId + ".txt",
@@ -815,6 +816,7 @@ export default {
         langCodeDownload: langCode,
         paragraphs: paragraphs,
         direction: direction,
+        side: side,
         leftLang: this.bookLeftLang,
         format: "txt",
       });
@@ -1093,19 +1095,6 @@ export default {
         return "realy?";
       }
       return (this.downloadThreshold / 100).toFixed(2);
-    },
-    processingExists() {
-      let selected_progress_item = this.itemsProcessing[
-        this.langCodeFrom
-      ].filter(
-        (x) =>
-          x.guid_from == this.selectedIds[this.langCodeFrom] &&
-          x.guid_to == this.selectedIds[this.langCodeTo]
-      );
-      if (selected_progress_item.length > 0) {
-        return true;
-      }
-      return false;
     },
     corporaSizeRelative() {
       return 5;

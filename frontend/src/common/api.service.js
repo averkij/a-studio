@@ -163,7 +163,7 @@ export const ItemsService = {
     form.append("left_lang", params.leftLang);
     return ApiService.post(
       "items",
-      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}/${params.format}`,
+      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}/${params.side}/${params.format}`,
       form
     ).then((response) => {
       const url = window.URL.createObjectURL(new Blob([response.data]));

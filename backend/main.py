@@ -1159,13 +1159,15 @@ def download_splitted_from_db(
 
 
 @app.route(
-    "/items/<username>/processing/<lang_from>/<lang_to>/<align_guid>/download/<lang>/<file_format>",
+    "/items/<username>/processing/<lang_from>/<lang_to>/<align_guid>/download/<lang>/<side>/<file_format>",
     methods=["POST"],
 )
-def download_processsing(username, lang_from, lang_to, align_guid, lang, file_format):
+def download_processsing(
+    username, lang_from, lang_to, align_guid, lang, side, file_format
+):
     """Download processsing document"""
     logging.info(
-        f"[{username}]. Downloading {lang_from}-{lang_to} {align_guid} {lang} result document."
+        f"[{username}]. Downloading {lang_from}-{lang_to} {align_guid} {lang} {side} result document."
     )
     db_folder = os.path.join(
         con.UPLOAD_FOLDER, username, con.DB_FOLDER, lang_from, lang_to
@@ -1176,34 +1178,33 @@ def download_processsing(username, lang_from, lang_to, align_guid, lang, file_fo
 
     paragraphs = request.form.get("paragraphs", False)
     pars_direction = request.form.get("direction", "to")
-    left_lang = request.form.get("left_lang", lang_from)
+    left_side = request.form.get("left_lang", con.TYPE_FROM)
 
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     download_folder = os.path.join(con.UPLOAD_FOLDER, username, con.DOWNLOAD_FOLDER)
     misc.check_folder(download_folder)
     download_file = os.path.join(
         download_folder,
-        "{0}_{1}_{2}.{3}".format(align_guid, lang, timestamp, file_format),
+        "{0}_{1}_{2}_{3}.{4}".format(align_guid, lang, side, timestamp, file_format),
     )
 
     logging.debug(f"[{username}]. Preparing file for downloading {download_file}.")
 
-    direction = "from"
-    if not lang == lang_from:
-        direction = "to"
+    if not side:
+        side = "from"
 
     if paragraphs == "true":
         try:
             paragraphs, _, _, _ = reader.get_paragraphs(db_path, pars_direction)
-            saver.save_paragraphs(paragraphs, lang, download_file)
+            saver.save_paragraphs(paragraphs, side, download_file)
             return send_file(download_file, as_attachment=True)
         except:
             return abort(404)
 
-    if left_lang == "from":
-        lang_order = [lang_from, lang_to]
+    if left_side == "from":
+        lang_order = [con.TYPE_FROM, con.TYPE_TO]
     else:
-        lang_order = [lang_to, lang_from]
+        lang_order = [con.TYPE_TO, con.TYPE_FROM]
 
     if file_format == con.FORMAT_TMX:
         saver.save_tmx(db_path, download_file, lang_from, lang_to)
@@ -1212,7 +1213,7 @@ def download_processsing(username, lang_from, lang_to, align_guid, lang, file_fo
     if file_format == con.FORMAT_JSON:
         saver.save_json(db_path, download_file, lang_order, pars_direction)
     elif file_format == con.FORMAT_PLAIN:
-        saver.save_plain_text(db_path, download_file, direction)
+        saver.save_plain_text(db_path, download_file, side)
 
     logging.debug(f"[{username}]. File {download_file} prepared. Sent to user.")
     return send_file(download_file, as_attachment=True)
@@ -1263,7 +1264,7 @@ def get_book_preview(username, lang_from, lang_to, align_guid):
     )
     db_path = os.path.join(db_folder, f"{align_guid}.db")
     direction = request.form.get("par_direction", con.TYPE_TO)
-    left_lang = request.form.get("left_lang", lang_from)
+    left_side = request.form.get("left_lang", con.TYPE_FROM)
     style = request.form.get("style", "none")
 
     if not os.path.isfile(db_path):
@@ -1278,10 +1279,10 @@ def get_book_preview(username, lang_from, lang_to, align_guid):
         db_path=db_path, direction=direction, par_amount=par_amount
     )
 
-    if left_lang == "from":
-        lang_order = [lang_from, lang_to]
+    if left_side == "from":
+        lang_order = [con.TYPE_FROM, con.TYPE_TO]
     else:
-        lang_order = [lang_to, lang_from]
+        lang_order = [con.TYPE_TO, con.TYPE_FROM]
 
     res_html = reader.create_polybook_preview(
         lang_ordered=lang_order,
@@ -1307,7 +1308,7 @@ def download_book(username, lang_from, lang_to, align_guid):
     )
     db_path = os.path.join(db_folder, f"{align_guid}.db")
     direction = request.form.get("par_direction", con.TYPE_TO)
-    left_lang = request.form.get("left_lang", lang_from)
+    left_side = request.form.get("left_lang", con.TYPE_FROM)
     style = request.form.get("style", "none")
 
     if not os.path.isfile(db_path):
@@ -1320,10 +1321,10 @@ def download_book(username, lang_from, lang_to, align_guid):
         db_path, direction
     )
 
-    if left_lang == "from":
-        lang_order = [lang_from, lang_to]
+    if left_side == "from":
+        lang_order = [con.TYPE_FROM, con.TYPE_TO]
     else:
-        lang_order = [lang_to, lang_from]
+        lang_order = [con.TYPE_TO, con.TYPE_FROM]
 
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     download_folder = os.path.join(con.UPLOAD_FOLDER, username, con.DOWNLOAD_FOLDER)
