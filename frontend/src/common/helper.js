@@ -52,6 +52,13 @@ export const Helper = {
 
 export const BOOK_STYLES = ["simple", "pastel_fill", "pastel_start"]
 export const MARK_NAMES_DICT = [{
+        name: "Author",
+        type: "author"
+    },
+    {
+        name: "Title",
+        type: "title"
+    }, {
         name: "Image",
         type: "image"
     },
@@ -71,7 +78,7 @@ export const MARK_NAMES_DICT = [{
     {
         name: "Quote author",
         type: "qname"
-    },
+    }
 ]
 
 //for marks grouping, order is important here

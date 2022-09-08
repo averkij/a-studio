@@ -24,11 +24,12 @@
           <v-card flat>
             <v-card-text class="mt-0 pa-0">
               <v-select
-              v-model="markItem"
-              :items="markTypes"
-              item-text="name"
-              item-value="type"
-              label="Type"></v-select>
+                v-model="markItem"
+                :items="markTypes"
+                item-text="name"
+                item-value="type"
+                label="Type"
+              ></v-select>
               <v-text-field
                 label="Paragraph"
                 type="number"
@@ -111,14 +112,21 @@ export default {
       valueFrom: "",
       valueTo: "",
       parId: "",
-      markItem: MARK_NAMES_DICT[0].type
+      markItem: MARK_NAMES_DICT[0].type,
     };
   },
   methods: {
     addMark() {
       if (this.valueFrom != "" && this.valueTo != "" && this.parId != "") {
         this.show = false;
-        this.$emit("addMark", this.markItem, this.valueFrom, this.valueTo, this.parId - 1, this.parId - 1);
+        this.$emit(
+          "addMark",
+          this.markItem,
+          this.valueFrom,
+          this.valueTo,
+          Math.max(this.parId - 1, 0),
+          Math.max(this.parId - 1, 0)
+        );
       } else {
         alert("Please, fill the whole form");
       }
