@@ -730,8 +730,10 @@ def align_next_batch(username):
     return con.EMPTY_LINES
 
 
-@app.route("/items/<username>/alignment/conflicts/<align_guid>", methods=["GET"])
-def get_alignment_conflicts(username, align_guid):
+@app.route(
+    "/items/<username>/alignment/conflicts/<align_guid>/<handle_edges>", methods=["GET"]
+)
+def get_alignment_conflicts(username, align_guid, handle_edges):
     """Get alignment conflicts"""
     (
         name,
@@ -751,8 +753,19 @@ def get_alignment_conflicts(username, align_guid):
     if not os.path.isfile(db_path):
         abort(404)
 
+    handle_start, handle_finish = False, False
+    if handle_edges == "start" or handle_edges == "both":
+        handle_start = True
+    if handle_edges == "finish" or handle_edges == "both":
+        handle_finish = True
+
     conflicts, rest = resolver.get_all_conflicts(
-        db_path, min_chain_length=2, max_conflicts_len=20, batch_id=-1
+        db_path,
+        min_chain_length=2,
+        max_conflicts_len=20,
+        batch_id=-1,
+        handle_start=handle_start,
+        handle_finish=handle_finish,
     )
     stat1 = resolver.get_statistics(conflicts, print_stat=False)
     stat2 = resolver.get_statistics(rest, print_stat=False)
@@ -763,9 +776,10 @@ def get_alignment_conflicts(username, align_guid):
 
 
 @app.route(
-    "/items/<username>/alignment/conflicts/<align_guid>/show/<int:id>", methods=["GET"]
+    "/items/<username>/alignment/conflicts/<align_guid>/show/<int:id>/<handle_edges>",
+    methods=["GET"],
 )
-def show_alignment_conflict(username, align_guid, id):
+def show_alignment_conflict(username, align_guid, id, handle_edges):
     """Get alignment conflict details"""
     (
         name,
@@ -785,8 +799,19 @@ def show_alignment_conflict(username, align_guid, id):
     if not os.path.isfile(db_path):
         abort(404)
 
+    handle_start, handle_finish = False, False
+    if handle_edges == "start" or handle_edges == "both":
+        handle_start = True
+    if handle_edges == "finish" or handle_edges == "both":
+        handle_finish = True
+
     conflicts, rest = resolver.get_all_conflicts(
-        db_path, min_chain_length=2, max_conflicts_len=20, batch_id=-1
+        db_path,
+        min_chain_length=2,
+        max_conflicts_len=20,
+        batch_id=-1,
+        handle_start=handle_start,
+        handle_finish=handle_finish,
     )
     conflicts.extend(rest)
     if not conflicts:
@@ -821,9 +846,8 @@ def resolve_conflicts(username):
     user_db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
     use_proxy_from = True if request.form.get("use_proxy_from", "") == "true" else False
     use_proxy_to = True if request.form.get("use_proxy_to", "") == "true" else False
-
-    print("use_proxy_from", use_proxy_from)
-    print("use_proxy_to", use_proxy_to)
+    handle_start = True if request.form.get("handle_start", "") == "true" else False
+    handle_finish = True if request.form.get("handle_finish", "") == "true" else False
 
     # exit if batch ids is empty
     batch_ids = [x for x in batch_ids if x < total_batches][:total_batches]
@@ -857,7 +881,12 @@ def resolve_conflicts(username):
         use_proxy_from=use_proxy_from,
         use_proxy_to=use_proxy_to,
     )
-    proc.add_tasks([(batch_id, total_batches) for batch_id in batch_ids])
+    proc.add_tasks(
+        [
+            (batch_id, total_batches, handle_start, handle_finish)
+            for batch_id in batch_ids
+        ]
+    )
     proc.start_resolve()
 
     return ("", 200)
