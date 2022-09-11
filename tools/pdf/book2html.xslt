@@ -94,7 +94,7 @@
 	<xsl:template match="section[@type='h2']">
 		<xsl:variable name="sect" select="." />
 		<xsl:variable name="section_id">
-			<xsl:number count="section" />
+			<xsl:number count="section[@type='h2']" />
 		</xsl:variable>
 		<section class="part">
 			<xsl:attribute name="id">
@@ -114,7 +114,7 @@
 		</section>
 	</xsl:template>
 
-	<!-- Default section -->
+	<!-- Default section (section before the first part or chapter) -->
 	<xsl:template match="section[@type='default']">
 		<xsl:variable name="sect" select="." />
 		<xsl:variable name="section_id">
