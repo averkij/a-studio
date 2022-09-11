@@ -188,7 +188,8 @@
 					<xsl:attribute name="class">s <xsl:value-of select="$highlight"/></xsl:attribute>
 				</xsl:if>
 				<xsl:value-of select="." />
-				<xsl:text> </xsl:text>
+				<!-- DIRTY HACK. Fixes line breaks for consecutive one word spans. -->
+				<xsl:text> ‎</xsl:text>
 			</xsl:if>
 		</span>
 	</xsl:template>
