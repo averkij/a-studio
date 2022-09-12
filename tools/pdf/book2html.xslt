@@ -51,17 +51,21 @@
 			</p>
 		</section>
 
-		<xsl:if test="/book/body/section[@type='h2']">
+		<!-- Contents -->
+		<xsl:if test="/book/body/section[@type='h1' or @type='h2' or @type='h3' or @type='h4' or @type='h5']">
 			<section>
-				<xsl:attribute name="class" select="concat('contents font-', head/title/s[1]/@lang)" />
+				<xsl:attribute name="class" select="concat('contents font-', head/title/s[1]/@lang)" />				
+				<xsl:variable name="level">
+					<xsl:value-of select="@type" />
+				</xsl:variable>
 				<p>
 					<xsl:value-of select="head/contents/s[1]" />
 				</p>
 				<ul>
-					<xsl:for-each select="/book/body/section[@type='h2']">
+					<xsl:for-each select="/book/body/section[@type='h1' or @type='h2' or @type='h3' or @type='h4' or @type='h5']">
 						<li>
 							<a>
-								<xsl:attribute name="href" select="concat('#part-', position(), '-h2')" />
+								<xsl:attribute name="href" select="concat('#part-', position())" />
 							</a>
 						</li>
 					</xsl:for-each>
@@ -74,10 +78,10 @@
 					<xsl:value-of select="head/contents/s[2]" />
 				</p>
 				<ul>
-					<xsl:for-each select="/book/body/section[@type='h2']">
+					<xsl:for-each select="/book/body/section[@type='h1' or @type='h2' or @type='h3' or @type='h4' or @type='h5']">
 						<li>
 							<a>
-								<xsl:attribute name="href" select="concat('#hpart-', position(), '-h2')" />
+								<xsl:attribute name="href" select="concat('#hpart-', position())" />
 							</a>
 						</li>
 					</xsl:for-each>
@@ -91,22 +95,26 @@
 	</xsl:template>
 
 	<!-- Section -->
-	<xsl:template match="section[@type='h2']">
+	<xsl:template match="section[@type='h1' or @type='h2' or @type='h3' or @type='h4' or @type='h5']">
 		<xsl:variable name="sect" select="." />
 		<xsl:variable name="section_id">
-			<xsl:number count="section[@type='h2']" />
+			<xsl:number count="section[@type='h1' or @type='h2' or @type='h3' or @type='h4' or @type='h5']" />
 		</xsl:variable>
-		<section class="part">
+		<xsl:variable name="level">
+			<xsl:value-of select="@type" />
+		</xsl:variable>
+		<section>
+			<xsl:attribute name="class" select="concat('part-', @type)" />
 			<xsl:attribute name="id">
 				<xsl:value-of select="$section_id" />
 			</xsl:attribute>
 
 			<h2>
-				<xsl:attribute name="id" select="concat('part-', $section_id, '-h2')" />
+				<xsl:attribute name="id" select="concat('part-', $section_id)" />
 				<xsl:value-of select="$sect/header/su[1]" />
 			</h2>
 			<div class="sub-h2">
-				<xsl:attribute name="id" select="concat('hpart-', $section_id, '-h2')" />
+				<xsl:attribute name="id" select="concat('hpart-', $section_id)" />
 				<xsl:value-of select="$sect/header/su[2]" />
 			</div>
 
@@ -120,7 +128,7 @@
 		<xsl:variable name="section_id">
 			<xsl:number count="section" />
 		</xsl:variable>
-		<section class="part">
+		<section class="part-default">
 			<xsl:attribute name="id">
 				<xsl:value-of select="$section_id" />
 			</xsl:attribute>
@@ -188,7 +196,7 @@
 					<xsl:attribute name="class">s <xsl:value-of select="$highlight"/></xsl:attribute>
 				</xsl:if>
 				<xsl:value-of select="." />
-				<!-- DIRTY HACK. Fixes line breaks for consecutive one word spans. -->
+				<!-- DIRTY HACK. Fixes line breaks for consecutive one word spans (weasyprint issue). -->
 				<xsl:text> ‎</xsl:text>
 			</xsl:if>
 		</span>

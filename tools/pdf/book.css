@@ -142,8 +142,9 @@ h2 {
   margin: 0;
   string-set: heading content();
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  font-family: sans-serif;
 }
 
 /* h2::before { */
@@ -155,7 +156,7 @@ h2 {
 /* margin-bottom: 20px; */
 /* } */
 
-section {
+section:not(.part-h1):not(.part-h3):not(.part-h4):not(.part-h5):not(.part-default) {
   break-after: always;
 }
 
@@ -246,7 +247,8 @@ aside img {
 }
 
 .contents a::before {
-  content: target-counter(attr(href), h2-counter) '. 'target-text(attr(href));
+  /* content: target-counter(attr(href), h2-counter) '. 'target-text(attr(href)); */
+  content: target-text(attr(href));
 }
 
 .contents a::after {
@@ -339,7 +341,7 @@ aside img {
 .dt-cell {
   display: table-cell;
   /* width: 50% !important; */
-  /* word-break: break-word; */
+   /* word-break: break-all; */
 }
 
 .dt-w1 {
@@ -385,14 +387,17 @@ aside img {
 }
 
 .lt-quote-text {
-  font-style: italic;
+  font-style:italic;
   text-align: right;
   font-size: 0.9em;
+  margin-top: -20px;
 }
 
 .lt-quote-name {
   text-align: right;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  font-style: italic;
 }
 
 .lt-image {
@@ -441,9 +446,10 @@ aside img {
   margin: 0;
   margin-bottom: 30px;
   text-align: center;
+  font-family: sans-serif;
 }
 
-.sub-h2::after {
+/* .sub-h2::after {
   content: "•";
   display: block;
   font-size: 1.2rem;
@@ -451,18 +457,23 @@ aside img {
   line-height: 1;
   margin-top: 50px;
   margin-bottom: 10px;
-}
+} */
+
+
 
 .default-title-1 {
-  font-size: 1.7em;
-  margin: 0;
+  font-size: 2.2em;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 1.5em;
   text-align: center;
 }
 
 .default-title-2 {
-  font-size: 1.5em;
-  margin: 1em 0 2.0em;
+  font-size: 2.0em;
+  margin: 1em 0 3.0em;
   text-align: center;
+  font-family: sans-serif;
 }
 
 /* ruby for furigana */
