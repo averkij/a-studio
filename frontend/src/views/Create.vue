@@ -508,7 +508,7 @@
                 <v-card-text>Book in html format.</v-card-text>
                 <v-divider class="mt-10"></v-divider>
                 <v-card-actions>
-                  <v-btn class="mt-5" @click="downloadBook()"
+                  <v-btn @click="downloadBook()"
                     ><v-icon left color="grey">mdi-download</v-icon
                     >Download</v-btn
                   >
@@ -524,7 +524,7 @@
                 <v-card-text>Aligned corpora in TMX format.</v-card-text>
                 <v-divider class="mt-10"></v-divider>
                 <v-card-actions>
-                  <v-btn class="mt-5" @click="downloadProcessingData('tmx')"
+                  <v-btn @click="downloadProcessingData('tmx')"
                     ><v-icon left color="grey">mdi-download</v-icon
                     >Download</v-btn
                   >
@@ -595,6 +595,22 @@
                 :direction="parStructureDirection"
               >
               </DownloadDataPanel>
+            </v-col>
+            <v-col cols="12" sm="6">
+              <v-card>
+                <div class="blue lighten-5">
+                  <v-card-title>💿 Database</v-card-title>
+                </div>
+                <v-divider></v-divider>
+                <v-card-text>Download alignment database.</v-card-text>
+                <v-divider class="mt-10"></v-divider>
+                <v-card-actions>
+                  <v-btn @click="downloadProcessingData('lt', null, true)"
+                    ><v-icon left color="grey">mdi-download</v-icon
+                    >Download</v-btn
+                  >
+                </v-card-actions>
+              </v-card>
             </v-col>
           </v-row>
         </div>
@@ -825,7 +841,7 @@ export default {
         format: "txt",
       });
     },
-    downloadProcessingData(format, direction) {
+    downloadProcessingData(format, direction, isBinary = false) {
       this.$store.dispatch(DOWNLOAD_PROCESSING, {
         alignId: this.selectedProcessingId,
         fileName: this.selectedProcessingId + "." + format,
@@ -836,6 +852,8 @@ export default {
         leftLang: this.bookLeftLang,
         format: format,
         direction: direction,
+        side: "left",
+        isBinary: isBinary,
       });
     },
     selectProcessing(item, alignId) {

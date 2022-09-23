@@ -419,6 +419,10 @@ def create_alignment(username):
         lines_to,
         lines_proxy_from,
         lines_proxy_to,
+        file_from,
+        id_from,
+        file_to,
+        id_to,
     )
 
     len_from, _ = misc.get_texts_length(db_path)
@@ -1237,14 +1241,17 @@ def download_processsing(
 
     if file_format == con.FORMAT_TMX:
         saver.save_tmx(db_path, download_file, lang_from, lang_to)
-    if file_format == con.FORMAT_XML:
+    elif file_format == con.FORMAT_XML:
         saver.save_xml(db_path, download_file, lang_order, pars_direction)
-    if file_format == con.FORMAT_JSON:
+    elif file_format == con.FORMAT_JSON:
         saver.save_json(db_path, download_file, lang_order, pars_direction)
     elif file_format == con.FORMAT_PLAIN:
         saver.save_plain_text(db_path, download_file, side)
+    elif file_format == con.FORMAT_DB:
+        download_file = db_path
 
     logging.debug(f"[{username}]. File {download_file} prepared. Sent to user.")
+
     return send_file(download_file, as_attachment=True)
 
 

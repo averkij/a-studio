@@ -15,6 +15,7 @@ FORMAT_PLAIN = "txt"
 FORMAT_TMX = "tmx"
 FORMAT_XML = "xml"
 FORMAT_JSON = "json"
+FORMAT_DB = "lt"
 TYPE_FROM = "from"
 TYPE_TO = "to"
 

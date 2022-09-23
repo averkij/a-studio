@@ -30,8 +30,18 @@ const ApiService = {
       throw new Error(`ApiService ${error}`);
     });
   },
-  post(resource, slug, params) {
-    return Vue.axios.post(`${resource}/${slug}`, params).catch(error => {
+  post(resource, slug, params, isBinary) {
+    let config = {}
+    if (isBinary) {
+      config = {
+        responseType: 'blob'
+      }
+    }
+    return Vue.axios.post(
+      `${resource}/${slug}`,
+      params,
+      config
+    ).catch(error => {
       throw new Error(`ApiService ${error}`);
     });
   },
@@ -164,7 +174,8 @@ export const ItemsService = {
     return ApiService.post(
       "items",
       `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.alignId}/download/${params.langCodeDownload}/${params.side}/${params.format}`,
-      form
+      form,
+      params.isBinary
     ).then((response) => {
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement('a');
