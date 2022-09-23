@@ -310,7 +310,25 @@
             <!-- candidates animation -->
             <!-- <v-expand-transition> -->
             <!-- <v-slide-y-transition group hide-on-leave> -->
-            <div v-show="showLines">
+            <div class="parent-candidates-cont" v-show="showLines">
+              <div
+                class="cell-cand-action-panel"
+                :class="[
+                  { 'c-red': panelColor == 'red' },
+                  { 'c-green': panelColor == 'green' },
+                  { 'c-blue': panelColor == 'blue' },
+                ]"
+              >
+                <div class="cell-edit-button" @click="shiftCandidatesUp('to')">
+                  <v-icon>mdi-arrow-up-bold-circle</v-icon>
+                </div>
+                <div
+                  class="cell-edit-button"
+                  @click="shiftCandidatesDown('to')"
+                >
+                  <v-icon>mdi-arrow-down-bold-circle</v-icon>
+                </div>
+              </div>
               <div class="candidates-cont" v-for="(t, i) in trans" :key="i">
                 <v-divider></v-divider>
                 <div class="d-table fill-height fill-width">
@@ -415,16 +433,19 @@ export default {
       transFrom: [],
       editedFromText: "",
       editedToText: "",
+      shiftFrom: 0,
+      shiftTo: 0,
     };
   },
   methods: {
-    getCandidates(textType) {
+    getCandidates(textType, shift) {
       this.$emit(
         "getCandidates",
         this.item.index_id,
         textType,
         0,
-        40,
+        10,
+        shift,
         (res, data) => {
           if (res == RESULT_OK) {
             if (textType == "from") {
@@ -578,7 +599,8 @@ export default {
           this.showLinesFrom = true;
         }
         if (this.transFrom.length == 0 && this.showLinesFrom) {
-          this.getCandidates(textType);
+          this.shiftFrom = 0;
+          this.getCandidates(textType, this.shiftFrom);
         }
       } else if (textType == "to") {
         if (!forceOpen) {
@@ -587,8 +609,27 @@ export default {
           this.showLines = true;
         }
         if (this.trans.length == 0 && this.showLines) {
-          this.getCandidates(textType);
+          this.shiftTo = 0;
+          this.getCandidates(textType, this.shiftTo);
         }
+      }
+    },
+    shiftCandidatesUp(textType) {
+      if (textType == "from") {
+        this.shiftFrom -= 10;
+        this.getCandidates(textType, this.shiftFrom);
+      } else if (textType == "to") {
+        this.shiftTo -= 10;
+        this.getCandidates(textType, this.shiftTo);
+      }
+    },
+    shiftCandidatesDown(textType) {
+      if (textType == "from") {
+        this.shiftFrom += 10;
+        this.getCandidates(textType, this.shiftFrom);
+      } else if (textType == "to") {
+        this.shiftTo += 10;
+        this.getCandidates(textType, this.shiftTo);
       }
     },
     isLineIdToSelected(id) {

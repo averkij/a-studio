@@ -43,6 +43,8 @@
     background: rgba(100, 100, 100, 0.1);
 }
 
+/* CELL EDIT MENU */
+
 .cell-edit-index-cont:hover > .cell-edit-action-panel {
     display: block;
 }
@@ -89,6 +91,22 @@
 
 .cell-edit-button:hover {
     background: #eaeaea;
+}
+
+/* CELL CANDIDATES MENU */
+
+.parent-candidates-cont:hover > .cell-cand-action-panel {
+    display: block;
+}
+
+.cell-cand-action-panel {
+    position: absolute;
+    margin: 0 auto;
+    width: 40px;
+    height: 100px;
+    display: none;
+    left: 100%;
+    background-color: transparent;
 }
 
 .btn-min-w {

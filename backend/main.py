@@ -1056,7 +1056,7 @@ def get_splitted_to_by_ids(username, lang_from, lang_to, align_guid):
 
 
 @app.route(
-    "/items/<username>/processing/<lang_from>/<lang_to>/<align_guid>/candidates/<text_type>/<int:index_id>/<int:count_before>/<int:count_after>",
+    "/items/<username>/processing/<lang_from>/<lang_to>/<align_guid>/candidates/<text_type>/<int:index_id>/<int:count_before>/<int:count_after>/<int(signed=True):shift>",
     methods=["GET"],
 )
 def get_processing_candidates(
@@ -1068,6 +1068,7 @@ def get_processing_candidates(
     index_id,
     count_before,
     count_after,
+    shift
 ):
     """Get splitted lines by some interval"""
     if text_type not in (con.TYPE_FROM, con.TYPE_TO):
@@ -1102,10 +1103,10 @@ def get_processing_candidates(
     else:
         line_id = line_ids[0]
 
-    id_from = line_id - count_before
-    id_to = line_id + count_after
+    id_from = line_id - count_before + shift
+    id_to = line_id + count_after + shift
 
-    candidates = editor_helper.get_candidates_page(db_path, text_type, id_from, id_to)
+    candidates = editor_helper.get_candidates_page(db_path, text_type, max(0,id_from), max(id_to, 10))
 
     return {"items": candidates}
 

@@ -265,7 +265,7 @@ export const ItemsService = {
   getCandidates(params) {
     return ApiService.get(
       "items",
-      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.fileId}/candidates/${params.textType}/${params.indexId}/${params.countBefore}/${params.countAfter}`
+      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.fileId}/candidates/${params.textType}/${params.indexId}/${params.countBefore}/${params.countAfter}/${params.shift}`
     );
   },
   getConflicts(params) {

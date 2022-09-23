@@ -449,7 +449,7 @@
         elevation="2"
         v-if="customAlignmentSettings"
       >
-        Alignment settings was changed. Batches to align: from
+        Alignment settings were changed. Batches to align: from
         <span class="font-weight-bold">{{
           customAlignmentSettings.start + 1
         }}</span>
@@ -1525,7 +1525,7 @@ export default {
             });
         });
     },
-    getCandidates(indexId, textType, countBefore, countAfter, callback) {
+    getCandidates(indexId, textType, countBefore, countAfter, shift, callback) {
       this.$store
         .dispatch(GET_CANDIDATES, {
           username: this.$route.params.username,
@@ -1536,6 +1536,7 @@ export default {
           textType: textType,
           countBefore: countBefore,
           countAfter: countAfter,
+          shift: shift,
         })
         .then(function (response) {
           callback(RESULT_OK, response.data);
