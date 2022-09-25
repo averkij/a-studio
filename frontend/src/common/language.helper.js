@@ -59,6 +59,11 @@ export const LANGUAGES = {
         name: "Polish",
         icon: "🍬"
     },
+    'bu': {
+        langCode: "bu",
+        name: "Belorussian",
+        icon: "🌼"
+    },
     'uk': {
         langCode: "uk",
         name: "Ukrainian",
