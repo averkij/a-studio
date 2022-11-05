@@ -173,7 +173,6 @@ import Footer from "@/components/Footer";
 import { LANGUAGES } from "@/common/language.helper";
 import { DEFAULT_FROM, DEFAULT_TO } from "@/common/language.helper";
 import { API_URL } from "@/common/config";
-5;
 
 export default {
   name: "App",
@@ -202,10 +201,7 @@ export default {
       });
     },
     goToGithub() {
-      window.open(
-        "https://github.com/averkij/a-studio",
-        "_blank"
-      );
+      window.open("https://github.com/averkij/a-studio", "_blank");
     },
     openContents() {
       this.$router.push({
