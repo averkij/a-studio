@@ -66,6 +66,19 @@
         >
           <v-icon left color="grey">mdi-cloud-upload</v-icon>Upload
         </v-btn>
+        <v-spacer></v-spacer>
+        <span
+          @click.stop.prevent="toggleAdditionalPreprocessing()"
+          style="cursor: pointer"
+          >Clean text</span
+        >
+        <v-checkbox
+          hide-details
+          color="blue"
+          class="ma-1 pa-0"
+          v-model="useAdditionalPreprocessing"
+          @click.stop.prevent="toggleAdditionalPreprocessing()"
+        ></v-checkbox>
       </v-card-actions>
     </div>
   </v-card>
@@ -76,7 +89,14 @@ import ConfirmDeleteDialog from "@/components/ConfirmDeleteDialog";
 
 export default {
   name: "RawPanel",
-  props: ["info", "isLoading", "items", "uploadEnabled", "side"],
+  props: [
+    "info",
+    "isLoading",
+    "items",
+    "uploadEnabled",
+    "side",
+    "useAdditionalPreprocessing",
+  ],
   data() {
     return {
       hover_index: -1,
@@ -102,6 +122,10 @@ export default {
     },
     selectAndLoadPreview(langCode, item, id) {
       this.$emit("selectAndLoadPreview", langCode, item, id, this.side);
+    },
+    toggleAdditionalPreprocessing() {
+      this.useAdditionalPreprocessing = !this.useAdditionalPreprocessing;
+      this.$emit("setAdditionalPreprocessing", this.useAdditionalPreprocessing);
     },
   },
   computed: {},

@@ -58,6 +58,11 @@ def items(username, lang):
             upload_folder = con.RAW_FOLDER
             filename = file.filename
             direction = request.form.get("direction", "from")
+            clean_text = request.form.get("clean_text", False)
+            if clean_text == "true":
+                clean_text = True
+            else:
+                clean_text = False
 
             if request.form["type"] != "proxy" and user_db_helper.file_exists(
                 username, lang, filename
@@ -98,7 +103,7 @@ def items(username, lang):
                     con.UPLOAD_FOLDER, username, con.SPLITTED_FOLDER, lang, filename
                 )
                 splitter.split_by_sentences_and_save(
-                    raw_path, splitted_path, lang, handle_marks=True
+                    raw_path, splitted_path, lang, handle_marks=True, clean_text=clean_text
                 )
             elif request.form["type"] == "proxy":
                 logging.info(

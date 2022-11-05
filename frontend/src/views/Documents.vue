@@ -15,11 +15,13 @@
             @onFileChange="onFileChange"
             @selectAndLoadPreview="selectAndLoadPreview"
             @performDelete="performDeleteRawFile"
+            @setAdditionalPreprocessing="setAdditionalPreprocessingFrom"
             :info="LANGUAGES[langCodeFrom]"
             :items="items"
             :isLoading="isLoading"
             :uploadEnabled="true"
             :side="'left'"
+            :useAdditionalPreprocessing="useAdditionalPreprocessingFrom"
           >
           </RawPanel>
         </v-col>
@@ -29,11 +31,13 @@
             @onFileChange="onFileChange"
             @selectAndLoadPreview="selectAndLoadPreview"
             @performDelete="performDeleteRawFile"
+            @setAdditionalPreprocessing="setAdditionalPreprocessingTo"
             :info="LANGUAGES[langCodeTo]"
             :items="items"
             :isLoading="isLoading"
             :uploadEnabled="true"
             :side="'right'"
+            :useAdditionalPreprocessing="useAdditionalPreprocessingTo"
           >
           </RawPanel>
         </v-col>
@@ -227,6 +231,10 @@ export default {
         processingMeta: false,
       },
       isMarksInRow: SettingsHelper.getIsMarksInRow(),
+      useAdditionalPreprocessingFrom:
+        SettingsHelper.getUseAdditionalPreprocessingFrom(),
+      useAdditionalPreprocessingTo:
+        SettingsHelper.getUseAdditionalPreprocessingTo(),
     };
   },
   methods: {
@@ -276,6 +284,10 @@ export default {
           file: this.files[langCode],
           username: this.$route.params.username,
           langCode,
+          useAdditionalPreprocessing:
+            side == "left"
+              ? this.useAdditionalPreprocessingFrom
+              : this.useAdditionalPreprocessingTo,
         })
         .then(() => {
           this.$store
@@ -375,6 +387,14 @@ export default {
       this.splittedPanelPageCount = pageCount;
       this.onPreviewPageChange(1, this.langCodeFrom, "left");
       this.onPreviewPageChange(1, this.langCodeTo, "right");
+    },
+    setAdditionalPreprocessingFrom(value) {
+      this.useAdditionalPreprocessingFrom = value;
+      localStorage.useAdditionalPreprocessingFrom = value;
+    },
+    setAdditionalPreprocessingTo(value) {
+      this.useAdditionalPreprocessingTo = value;
+      localStorage.useAdditionalPreprocessingTo = value;
     },
   },
   mounted() {
