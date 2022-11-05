@@ -17,6 +17,20 @@ export const SettingsHelper = {
     getIsMarksInRow() {
         return localStorage.isMarksInRow ? localStorage.isMarksInRow : defaultClientSettings.isMarksInRow;
     },
+    getUseAdditionalPreprocessingFrom() {
+        if (localStorage.useAdditionalPreprocessingFrom && localStorage.useAdditionalPreprocessingFrom == "true") {
+            return true;
+        } else {
+            return false;
+        }
+    },
+    getUseAdditionalPreprocessingTo() {
+        if (localStorage.useAdditionalPreprocessingTo && localStorage.useAdditionalPreprocessingTo == "true") {
+            return true;
+        } else {
+            return false;
+        }
+    },
 }
 
 export const CANDIDATES_SORTING_NEAREST = 'nearest'
@@ -28,5 +42,7 @@ const defaultClientSettings = {
     showAllFrom: false,
     candidatesSorting: CANDIDATES_SORTING_NEAREST,
     splittedPanelPageCount: 20,
-    isMarksInRow: false
+    isMarksInRow: false,
+    useAdditionalPreprocessingFrom: true,
+    useAdditionalPreprocessingTo: true
 }

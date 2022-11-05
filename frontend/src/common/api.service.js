@@ -89,6 +89,7 @@ export const ItemsService = {
     form.append("type", params.isProxy ? "proxy" : "raw");
     form.append("align_guid", params.alignId);
     form.append("direction", params.direction);
+    form.append("clean_text", params.useAdditionalPreprocessing);
     return ApiService.post("items",
       `${params.username}/raw/${params.langCode}`,
       form);
