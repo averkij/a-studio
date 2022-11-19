@@ -67,9 +67,7 @@
           <v-icon left color="grey">mdi-cloud-upload</v-icon>Upload
         </v-btn>
         <v-spacer></v-spacer>
-        <span
-          @click.stop.prevent="toggleAdditionalPreprocessing()"
-          style="cursor: pointer"
+        <span @click="toggleAdditionalPreprocessing()" style="cursor: pointer"
           >Clean text</span
         >
         <v-checkbox
@@ -77,7 +75,7 @@
           color="blue"
           class="ma-1 pa-0"
           v-model="useAdditionalPreprocessing"
-          @click.stop.prevent="toggleAdditionalPreprocessing()"
+          @click.native.prevent.stop.capture="toggleAdditionalPreprocessing()"
         ></v-checkbox>
       </v-card-actions>
     </div>
