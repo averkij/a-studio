@@ -146,11 +146,31 @@
     >
       There are no previously aligned documents yet.
     </v-alert>
+
+    <!-- ALIGNMENTS -->
     <div v-else class="mt-5">
       <div class="text-h5 mt-10 font-weight-bold">Alignments</div>
       <v-card class="mt-6">
         <div class="green lighten-5" dark>
-          <v-card-title>Alignments</v-card-title>
+          <v-card-title
+            >Alignments
+            <v-spacer></v-spacer>
+            <input
+              ref="alignmentFileInput"
+              @change="onAlignmentFileChange"
+              accept=".lt"
+              type="file"
+              hidden
+            />
+            <v-btn
+              icon
+              @click="$refs.alignmentFileInput.click()"
+              :disabled="isLoading.uploadAlignmentFile"
+              :loading="isLoading.uploadAlignmentFile"
+            >
+              <v-icon>mdi-plus</v-icon>
+            </v-btn>
+          </v-card-title>
           <v-card-text
             >List of previosly aligned documents [{{ langCodeFrom }}-{{
               langCodeTo
@@ -1094,7 +1114,6 @@ export default {
       PROC_IN_PROGRESS_DONE,
       PROC_ERROR,
       PROC_DONE,
-      files: LanguageHelper.initGeneralVars(),
       proxyFiles: LanguageHelper.initGeneralVars2Sides(),
       selected: LanguageHelper.initGeneralVars2Sides(),
       selectedProcessing: null,
@@ -1109,6 +1128,7 @@ export default {
         processing: false,
         processingMeta: false,
         conflicts: false,
+        uploadAlignmentFile: false,
       },
       triggerCollapseEditItem: false,
       triggerExpandEditItem: false,
@@ -1514,6 +1534,29 @@ export default {
         })
         .then(() => {
           this.isLoading.uploadProxy[langCode] = false;
+          this.$store
+            .dispatch(FETCH_ITEMS_PROCESSING, {
+              username: this.$route.params.username,
+              langCodeFrom: this.langCodeFrom,
+              langCodeTo: this.langCodeTo,
+            })
+            .then(() => {
+              this.refreshCurrentlyProcessingDocument();
+            });
+        });
+    },
+    onAlignmentFileChange(event) {
+      this.isLoading.uploadAlignmentFile = true;
+      this.$store
+        .dispatch(UPLOAD_FILES, {
+          file: event.target.files[0],
+          username: this.$route.params.username,
+          isAlignment: true,
+          langCode: this.langCodeFrom,
+        })
+        .then(() => {
+          this.isLoading.uploadAlignmentFile = false;
+          event.target.value = "";
           this.$store
             .dispatch(FETCH_ITEMS_PROCESSING, {
               username: this.$route.params.username,

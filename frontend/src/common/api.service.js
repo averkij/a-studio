@@ -84,9 +84,23 @@ export const ItemsService = {
       alert("File is too big (> 5MB)");
       return Promise.resolve();
     }
+
+    let fileType = "raw";
+    if (params.isProxy) {
+      fileType = "proxy";
+    }
+    if (params.isAlignment) {
+      fileType = "alignment";
+    }
+
     let form = new FormData();
-    form.append(params.langCode, params.file);
-    form.append("type", params.isProxy ? "proxy" : "raw");
+    if (fileType == "alignment") {
+      form.append("alignmentFile", params.file);
+    } else {
+      form.append(params.langCode, params.file);
+    }
+
+    form.append("type", fileType);
     form.append("align_guid", params.alignId);
     form.append("direction", params.direction);
     form.append("clean_text", params.useAdditionalPreprocessing);
