@@ -4,6 +4,11 @@ import os
 import pathlib
 import sqlite3
 import uuid
+import shutil
+from lingtrain_aligner import helper as aligner_helper
+from lingtrain_aligner import vis_helper
+import misc
+import config
 
 import constants as con
 
@@ -111,7 +116,7 @@ def init_user_db(username):
             db.execute(
                 "create table alignments(id integer primary key, guid text, guid_from text, guid_to text, lang_from text, lang_to text, \
                     name text, state integer, curr_batches integer, total_batches integer, deleted integer default 0 NOT NULL, \
-                    proxy_from_loaded integer default 0 NOT NULL, proxy_to_loaded integer default 0 NOT NULL)"
+                    proxy_from_loaded integer default 0 NOT NULL, proxy_to_loaded integer default 0 NOT NULL, uploaded default 0)"
             )
             db.execute("create table version(id integer primary key, version text)")
             # tracking the alignment progress
@@ -123,12 +128,13 @@ def init_user_db(username):
             )
 
 
-def update_alignment_progress(db, align_guid, batch_id):
+def update_alignment_progress(db_path, align_guid, batch_id):
     """Update batch IDs in order to detect current alignment progress on UI"""
-    db.execute(
-        "insert or ignore into alignment_progress(guid, batch_id) values (?, ?)",
-        (align_guid, batch_id),
-    )
+    with sqlite3.connect(db_path) as db:
+        db.execute(
+            "insert or ignore into alignment_progress(guid, batch_id) values (?, ?)",
+            (align_guid, batch_id),
+        )
 
 
 def alignment_exists(username, guid_from, guid_to):
@@ -151,12 +157,20 @@ def alignment_guid_exists(username, guid):
 
 
 def register_alignment(
-    username, lang_from, lang_to, guid, guid_from, guid_to, name, total_batches
+    username,
+    lang_from,
+    lang_to,
+    guid,
+    guid_from,
+    guid_to,
+    name,
+    total_batches,
+    force=False,
 ):
     """Register new alignment in user.db and main.db"""
     main_db_path = os.path.join(con.UPLOAD_FOLDER, con.MAIN_DB_NAME)
     user_db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
-    if not alignment_exists(username, guid_from, guid_to):
+    if not alignment_exists(username, guid_from, guid_to) or force:
         with sqlite3.connect(main_db_path) as main_db:
             main_db.execute(
                 "insert into global_alignments(guid, username, lang_from, lang_to, name, state, insert_ts, deleted) values (:guid, :username, :lang_from, :lang_to, :name, 2, :insert_ts, 0) ",
@@ -229,10 +243,11 @@ def file_exists_by_guid(username, guid):
         return bool(cur.fetchone())
 
 
-def register_file(username, lang, name):
+def register_file(username, lang, name, guid=None):
     """Register new file in database"""
     db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
-    guid = uuid.uuid4().hex
+    if not guid:
+        guid = uuid.uuid4().hex
     with sqlite3.connect(db_path) as db:
         db.execute(
             "insert into documents(guid, lang, name) values (:guid, :lang, :name) ",
@@ -337,16 +352,115 @@ def get_alignments_list(username, lang_from, lang_to):
         return res
 
 
-def process_uploaded_alignment(filepath, username):
+def get_version(db_path):
+    """Get user database version"""
+    with sqlite3.connect(db_path) as db:
+        res = db.execute(f"select v.version from version v").fetchone()
+    return res[0]
+
+
+def set_alignment_uploaded(username, align_guid):
+    db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
+    with sqlite3.connect(db_path) as db:
+        db.execute(
+            "update alignments set uploaded=1 where guid=:guid",
+            {"guid": align_guid},
+        )
+
+
+def process_uploaded_alignment(align_db_path, username):
+    """Check and register alignment database from Lingtrain file"""
     try:
-        with sqlite3.connect(filepath) as db:
-            res = db.execute(
-                """select
-                    l.key, l.val
-                from languages l"""
-            ).fetchall()
-            lang_from = res[0][1]
-            lang_to = res[1][1]
+        alignment_version = aligner_helper.get_version(align_db_path)  # 6.2+
+
+        user_db_version = get_version(align_db_path)  # 5.1+
+        user_db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
+
+        db_name = os.path.basename(align_db_path)
+        align_guid = db_name.split(".")[0]
+        lang_from, lang_to = aligner_helper.get_lang_codes(align_db_path)
+
+        if float(alignment_version) < 6.2:
+            name_from, name_to, guid_from, guid_to = (
+                f"from_{lang_from}",
+                f"to_{lang_to}",
+                "no_guid",
+                "no_guid",
+            )
+            alignment_name = f"[{name_from}]-[{name_to}"
+        else:
+            name_from, name_to, guid_from, guid_to = aligner_helper.get_files_info(
+                align_db_path
+            )
+            alignment_name = aligner_helper.get_name(align_db_path)
+
+        batches_info = aligner_helper.get_batches_info(align_db_path)
+        batch_ids = [x[0] for x in batches_info]
+
+        batch_size = config.DEFAULT_BATCHSIZE
+        len_from, _ = misc.get_texts_length(align_db_path)
+        is_last = len_from % batch_size > 0
+        total_batches = (
+            len_from // batch_size + 1 if is_last else len_from // batch_size
+        )
+        curr_batches = len(batch_ids)
+
+        # alignments table and main_db
+        register_alignment(
+            username,
+            lang_from,
+            lang_to,
+            align_guid,
+            guid_from,
+            guid_to,
+            f"Uploaded: {alignment_name}",
+            total_batches=total_batches,
+            force=True,
+        )
+
+        # alignment_progress table
+        for batch_id in batch_ids:
+            update_alignment_progress(user_db_path, align_guid, batch_id)
+
+        # alignments table
+        if curr_batches == total_batches:
+            state = con.PROC_DONE
+        else:
+            state = con.PROC_IN_PROGRESS_DONE
+        increment_alignment_state(user_db_path, align_guid, state)
+
+        # documents table
+        # register_file(username, lang_from, name_from, guid_from)
+        # register_file(username, lang_to, name_to, guid_to)
+
+        # move alignment
+        new_path = os.path.join(
+            con.UPLOAD_FOLDER, username, con.DB_FOLDER, lang_from, lang_to, db_name
+        )
+        misc.check_folder(os.path.dirname(new_path))
+
+        if float(user_db_version) >= 5.1:
+            set_alignment_uploaded(username, align_guid)
+
+        print("moving to", new_path)
+        shutil.move(align_db_path, new_path)
+
+        # recalculate images
+        img_path = os.path.join(
+            con.STATIC_FOLDER, con.IMG_FOLDER, username, f"{align_guid}.best.png"
+        )
+        for batch_id, _, _, _ in batches_info:
+            vis_helper.visualize_alignment_by_db(
+                new_path,
+                img_path,
+                lang_name_from=lang_from,
+                lang_name_to=lang_to,
+                batch_ids=[batch_id],
+                transparent_bg=True,
+                show_info=config.VIS_BATCH_INFO,
+                show_regression=config.VIS_REGRESSION,
+            )
+
     except Exception as e:
         error_text = f"Error while reading uploaded alignment: {str(e)}"
         print(error_text)
