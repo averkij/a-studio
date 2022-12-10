@@ -122,6 +122,37 @@
       </v-alert>
     </div>
 
+    <!-- UPLOAD ALIGNMENT -->
+    <div class="text-h5 mt-10 font-weight-bold">Upload alignment</div>
+
+    <v-alert
+      type="info"
+      border="left"
+      colored-border
+      color="blue"
+      class="mt-6"
+      elevation="2"
+    >
+      Here you can upload alignment in Lingtrain format (*.lt).
+    </v-alert>
+
+    <div class="mt-6">
+      <input
+        ref="alignmentFileInput"
+        @change="onAlignmentFileChange"
+        accept=".lt"
+        type="file"
+        hidden
+      />
+      <v-btn
+        @click="$refs.alignmentFileInput.click()"
+        :disabled="isLoading.uploadAlignmentFile"
+        :loading="isLoading.uploadAlignmentFile"
+      >
+        Upload alignment
+      </v-btn>
+    </div>
+
     <!-- <v-alert type="info" border="left" colored-border color="blue" class="mt-6" elevation="2"
       v-if="!itemsProcessing || !itemsProcessing[langCodeFrom] || (itemsProcessing[langCodeFrom].length == 0)">
       There are no previously aligned documents yet.
@@ -152,25 +183,7 @@
       <div class="text-h5 mt-10 font-weight-bold">Alignments</div>
       <v-card class="mt-6">
         <div class="green lighten-5" dark>
-          <v-card-title
-            >Alignments
-            <v-spacer></v-spacer>
-            <input
-              ref="alignmentFileInput"
-              @change="onAlignmentFileChange"
-              accept=".lt"
-              type="file"
-              hidden
-            />
-            <v-btn
-              icon
-              @click="$refs.alignmentFileInput.click()"
-              :disabled="isLoading.uploadAlignmentFile"
-              :loading="isLoading.uploadAlignmentFile"
-            >
-              <v-icon>mdi-plus</v-icon>
-            </v-btn>
-          </v-card-title>
+          <v-card-title>Alignments</v-card-title>
           <v-card-text
             >List of previosly aligned documents [{{ langCodeFrom }}-{{
               langCodeTo
@@ -1557,15 +1570,7 @@ export default {
         .then(() => {
           this.isLoading.uploadAlignmentFile = false;
           event.target.value = "";
-          this.$store
-            .dispatch(FETCH_ITEMS_PROCESSING, {
-              username: this.$route.params.username,
-              langCodeFrom: this.langCodeFrom,
-              langCodeTo: this.langCodeTo,
-            })
-            .then(() => {
-              this.refreshCurrentlyProcessingDocument();
-            });
+          this.fetchAll();
         });
     },
     getCandidates(indexId, textType, countBefore, countAfter, shift, callback) {
