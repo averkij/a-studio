@@ -113,10 +113,9 @@ class AlignmentProcessor:
 
             if result_code == con.PROC_DONE:
                 result.append((batch_number, texts_from, texts_to, shift, window))
-                with sqlite3.connect(self.user_db_path) as user_db:
-                    user_db_helper.update_alignment_progress(
-                        user_db, self.align_guid, batch_number
-                    )
+                user_db_helper.update_alignment_progress(
+                    self.user_db_path, self.align_guid, batch_number
+                )
                 user_db_helper.increment_alignment_state(
                     self.user_db_path, self.align_guid, con.PROC_IN_PROGRESS
                 )
@@ -185,15 +184,15 @@ class AlignmentProcessor:
             w.start()
 
         # local
-        align_handler = Process(
-            target=self.handle_result, args=(self.queue_out,), daemon=True
-        )
-        align_handler.start()
+        # align_handler = Process(
+        #     target=self.handle_result, args=(self.queue_out,), daemon=True
+        # )
+        # align_handler.start()
 
         # docker
-        # align_handler = Process(target=self.handle_result, args=(self.queue_out,))
-        # align_handler.start()
-        # align_handler.join()
+        align_handler = Process(target=self.handle_result, args=(self.queue_out,))
+        align_handler.start()
+        align_handler.join()
 
     def process_batch_wrapper(
         self,
@@ -302,7 +301,7 @@ class AlignmentProcessor:
             print("Resolving conflicts strategy 2. batch_id:", batch_id)
 
             min_chain_length = 2
-            max_conflicts_len = 25
+            max_conflicts_len = 26
 
             conflicts, _ = resolver.get_all_conflicts(
                 self.db_path,
@@ -426,7 +425,7 @@ class AlignmentProcessor:
             )
             if curr_batches == total_batches:
                 user_db_helper.update_alignment_state(
-                    self.user_db_path, self.align_guid, con.DONE_FOLDER
+                    self.user_db_path, self.align_guid, con.PROC_DONE
                 )
             else:
                 user_db_helper.update_alignment_state(
