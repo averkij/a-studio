@@ -58,7 +58,7 @@ def items(username, lang):
             file = request.files["alignmentFile"]
             filename = file.filename
             align_guid = uuid.uuid4().hex
-            temp_folder = os.path.join(con.UPLOAD_FOLDER, con.TEMP_FOLDER, username)
+            temp_folder = os.path.join(con.UPLOAD_FOLDER, username, con.TEMP_FOLDER)
             misc.check_folder(temp_folder)
             alignment_path = os.path.join(temp_folder, f"{align_guid}.db")
             file.save(alignment_path)
@@ -446,6 +446,7 @@ def create_alignment(username):
         id_from,
         file_to,
         id_to,
+        name
     )
 
     len_from, _ = misc.get_texts_length(db_path)
