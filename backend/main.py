@@ -53,7 +53,21 @@ def items(username, lang):
     misc.create_folders(username, lang)
     # load documents
     if request.method == "POST":
-        if lang in request.files:
+
+        if request.form["type"] == "alignment":
+            file = request.files["alignmentFile"]
+            filename = file.filename
+            align_guid = uuid.uuid4().hex
+            temp_folder = os.path.join(con.UPLOAD_FOLDER, con.TEMP_FOLDER, username)
+            misc.check_folder(temp_folder)
+            alignment_path = os.path.join(temp_folder, f"{align_guid}.db")
+            file.save(alignment_path)
+
+            res = user_db_helper.process_uploaded_alignment(alignment_path, username)
+
+            return res
+
+        elif lang in request.files:
             file = request.files[lang]
             upload_folder = con.RAW_FOLDER
             filename = file.filename
@@ -103,7 +117,11 @@ def items(username, lang):
                     con.UPLOAD_FOLDER, username, con.SPLITTED_FOLDER, lang, filename
                 )
                 splitter.split_by_sentences_and_save(
-                    raw_path, splitted_path, lang, handle_marks=True, clean_text=clean_text
+                    raw_path,
+                    splitted_path,
+                    lang,
+                    handle_marks=True,
+                    clean_text=clean_text,
                 )
             elif request.form["type"] == "proxy":
                 logging.info(
@@ -1073,7 +1091,7 @@ def get_processing_candidates(
     index_id,
     count_before,
     count_after,
-    shift
+    shift,
 ):
     """Get splitted lines by some interval"""
     if text_type not in (con.TYPE_FROM, con.TYPE_TO):
@@ -1111,7 +1129,9 @@ def get_processing_candidates(
     id_from = line_id - count_before + shift
     id_to = line_id + count_after + shift
 
-    candidates = editor_helper.get_candidates_page(db_path, text_type, max(0,id_from), max(id_to, 10))
+    candidates = editor_helper.get_candidates_page(
+        db_path, text_type, max(0, id_from), max(id_to, 10)
+    )
 
     return {"items": candidates}
 
