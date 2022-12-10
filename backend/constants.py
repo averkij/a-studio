@@ -23,7 +23,7 @@ TYPE_TO = "to"
 USER_DB_NAME = "user.db"
 MAIN_DB_NAME = "main.db"
 
-USER_DB_VERSION = "5.0"
+USER_DB_VERSION = "5.1"
 MAIN_DB_VERSION = "5.1"
 
 PROC_INIT = 0
