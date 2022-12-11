@@ -1,0 +1,9 @@
+**/node_modules
+**/dist
+**/static
+**/_data
+
+# **/sentence_transformers-v2.bin
+**/labse.bin
+
+**/_models
