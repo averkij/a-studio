@@ -756,7 +756,6 @@
               <v-icon>mdi-translate</v-icon>
               <v-switch
                 color="green"
-                value="true"
                 v-model="showProxyTo"
                 class="mx-2"
               ></v-switch>
@@ -958,13 +957,7 @@
                           {{ conflictSplittedFrom[line].t }}
                           <div
                             v-if="conflictSplittedFrom[line].p"
-                            class="
-                              mt-3
-                              proxy-to-subtitles
-                              grey
-                              lighten-3
-                              font-weight-medium
-                            "
+                            class="mt-3 proxy-to-subtitles grey lighten-3 font-weight-medium"
                           >
                             {{ conflictSplittedFrom[line].p }}
                           </div>
@@ -1019,13 +1012,7 @@
                           {{ conflictSplittedTo[line].t }}
                           <div
                             v-if="conflictSplittedTo[line].p"
-                            class="
-                              mt-3
-                              proxy-to-subtitles
-                              grey
-                              lighten-3
-                              font-weight-medium
-                            "
+                            class="mt-3 proxy-to-subtitles grey lighten-3 font-weight-medium"
                           >
                             {{ conflictSplittedTo[line].p }}
                           </div>
@@ -2103,7 +2090,7 @@ export default {
   },
   watch: {
     showProxyTo(value) {
-      localStorage.showProxyTo = value;
+      localStorage.showProxyTo = value ? "true" : "false";
     },
     showAllTo(value) {
       localStorage.showAllTo = value ? true : false;

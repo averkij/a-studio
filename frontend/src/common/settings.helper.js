@@ -5,7 +5,11 @@ import {
 
 export const SettingsHelper = {
     getShowProxyTo() {
-        return localStorage.showProxyTo ? localStorage.showProxyTo : defaultClientSettings.showProxyTo;
+        if (localStorage.showProxyTo && localStorage.showProxyTo == "true") {
+            return true;
+        } else {
+            return false;
+        }
     },
     getShowAllTo() {
         return localStorage.showAllTo ? localStorage.showAllTo : defaultClientSettings.showAllTo;

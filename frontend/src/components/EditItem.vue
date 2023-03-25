@@ -31,14 +31,7 @@
             ]"
           >
             <div
-              class="
-                fill-height
-                d-flex
-                cell-edit-index-cont
-                fix-height
-                flex-column
-                justify-space-between
-              "
+              class="fill-height d-flex cell-edit-index-cont fix-height flex-column justify-space-between"
             >
               <div class="pa-2 font-weight-medium line-num">
                 {{ lineIdFrom }}
@@ -95,14 +88,8 @@
 
                   <!-- PROXY TRANSLATION TEXT -->
                   <div
-                    v-if="showProxyTo == 'true'"
-                    class="
-                      mt-3
-                      proxy-to-subtitles
-                      grey
-                      lighten-3
-                      font-weight-medium
-                    "
+                    v-if="showProxyTo"
+                    class="mt-3 proxy-to-subtitles grey lighten-3 font-weight-medium"
                   >
                     {{ getProxyFromTexts() }}
                   </div>
@@ -130,24 +117,10 @@
                 <div class="d-table fill-height fill-width">
                   <!-- left candidates line id column -->
                   <div
-                    class="
-                      d-table-cell
-                      lighten-5
-                      grey
-                      text-center
-                      font-weight-medium
-                      cell-edit-index
-                    "
+                    class="d-table-cell lighten-5 grey text-center font-weight-medium cell-edit-index"
                   >
                     <div
-                      class="
-                        fill-height
-                        lighten-5
-                        d-flex
-                        flex-column
-                        justify-space-between
-                        cell-edit-index-cont
-                      "
+                      class="fill-height lighten-5 d-flex flex-column justify-space-between cell-edit-index-cont"
                     >
                       <div class="pa-2 font-weight-medium line-num">
                         {{ t.id }}
@@ -180,7 +153,7 @@
                   >
                     {{ t.text }}
                     <div
-                      v-if="showProxyTo == 'true' && t.proxy"
+                      v-if="showProxyTo && t.proxy"
                       class="mt-4 proxy-to-cand-subtitles font-weight-medium"
                     >
                       {{ t.proxy }}
@@ -213,14 +186,7 @@
             ]"
           >
             <div
-              class="
-                fill-height
-                d-flex
-                cell-edit-index-cont
-                fix-height
-                flex-column
-                justify-space-between
-              "
+              class="fill-height d-flex cell-edit-index-cont fix-height flex-column justify-space-between"
             >
               <div class="pa-2 font-weight-medium line-num">
                 {{ lineIdTo }}
@@ -278,14 +244,8 @@
 
                   <!-- PROXY TRANSLATION TEXT -->
                   <div
-                    v-if="showProxyTo == 'true'"
-                    class="
-                      mt-3
-                      proxy-to-subtitles
-                      grey
-                      lighten-3
-                      font-weight-medium
-                    "
+                    v-if="showProxyTo"
+                    class="mt-3 proxy-to-subtitles grey lighten-3 font-weight-medium"
                   >
                     {{ getProxyToTexts() }}
                   </div>
@@ -334,24 +294,10 @@
                 <div class="d-table fill-height fill-width">
                   <!-- right candidates line id column -->
                   <div
-                    class="
-                      d-table-cell
-                      lighten-5
-                      grey
-                      text-center
-                      font-weight-medium
-                      cell-edit-index
-                    "
+                    class="d-table-cell lighten-5 grey text-center font-weight-medium cell-edit-index"
                   >
                     <div
-                      class="
-                        fill-height
-                        lighten-5
-                        d-flex
-                        flex-column
-                        justify-space-between
-                        cell-edit-index-cont
-                      "
+                      class="fill-height lighten-5 d-flex flex-column justify-space-between cell-edit-index-cont"
                     >
                       <div class="pa-2 font-weight-medium line-num">
                         {{ t.id }}
@@ -383,7 +329,7 @@
                   >
                     {{ t.text }}
                     <div
-                      v-if="showProxyTo == 'true' && t.proxy"
+                      v-if="showProxyTo && t.proxy"
                       class="mt-4 proxy-to-cand-subtitles font-weight-medium"
                     >
                       {{ t.proxy }}
