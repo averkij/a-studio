@@ -1,3 +1,8 @@
+import {
+    DEFAULT_FROM,
+    DEFAULT_TO
+} from "@/common/language.helper";
+
 export const SettingsHelper = {
     getShowProxyTo() {
         return localStorage.showProxyTo ? localStorage.showProxyTo : defaultClientSettings.showProxyTo;
@@ -31,6 +36,12 @@ export const SettingsHelper = {
             return false;
         }
     },
+    getLastLanguageFrom() {
+        return localStorage.lastLanguageFrom ? localStorage.lastLanguageFrom : defaultClientSettings.lastLanguageFrom;
+    },
+    getLastLanguageTo() {
+        return localStorage.lastLanguageTo ? localStorage.lastLanguageTo : defaultClientSettings.lastLanguageTo;
+    }
 }
 
 export const CANDIDATES_SORTING_NEAREST = 'nearest'
@@ -44,5 +55,7 @@ const defaultClientSettings = {
     splittedPanelPageCount: 20,
     isMarksInRow: false,
     useAdditionalPreprocessingFrom: true,
-    useAdditionalPreprocessingTo: true
+    useAdditionalPreprocessingTo: true,
+    lastLanguageFrom: DEFAULT_FROM,
+    lastLanguageTo: DEFAULT_TO
 }
