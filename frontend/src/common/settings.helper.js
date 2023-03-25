@@ -41,6 +41,12 @@ export const SettingsHelper = {
     },
     getLastLanguageTo() {
         return localStorage.lastLanguageTo ? localStorage.lastLanguageTo : defaultClientSettings.lastLanguageTo;
+    },
+    setLastLanguageFrom(value) {
+        localStorage.lastLanguageFrom = value;
+    },
+    setLastLanguageTo(value) {
+        localStorage.lastLanguageTo = value;
     }
 }
 

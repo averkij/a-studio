@@ -1,11 +1,13 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import { DEFAULT_FROM, DEFAULT_TO } from "@/common/language.helper";
+import {
+  SettingsHelper
+} from "@/common/settings.helper";
+
 
 Vue.use(VueRouter);
 
-const routes = [
-  {
+const routes = [{
     path: "/",
     name: "home",
     component: () => import("@/views/Login")
@@ -24,11 +26,11 @@ const routes = [
   },
   {
     path: "/user/:username",
-    redirect: `/user/:username/docs/${DEFAULT_FROM}/${DEFAULT_TO}`
+    redirect: `/user/:username/docs/${SettingsHelper.getLastLanguageFrom()}/${SettingsHelper.getLastLanguageTo()}`
   },
   {
     path: "/user/:username/docs",
-    redirect: `/user/:username/docs/${DEFAULT_FROM}/${DEFAULT_TO}`
+    redirect: `/user/:username/docs/${SettingsHelper.getLastLanguageFrom()}/${SettingsHelper.getLastLanguageTo()}`
   },
   //alignments
   {
@@ -38,7 +40,7 @@ const routes = [
   },
   {
     path: "/user/:username/align",
-    redirect: `/user/:username/align/${DEFAULT_FROM}/${DEFAULT_TO}`
+    redirect: `/user/:username/align/${SettingsHelper.getLastLanguageFrom()}/${SettingsHelper.getLastLanguageTo()}`
   },
   //creation
   {
@@ -48,7 +50,7 @@ const routes = [
   },
   {
     path: "/user/:username/create",
-    redirect: `/user/:username/create/${DEFAULT_FROM}/${DEFAULT_TO}`
+    redirect: `/user/:username/create/${SettingsHelper.getLastLanguageFrom()}/${SettingsHelper.getLastLanguageTo()}`
   },
   //#contents
   {

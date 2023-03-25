@@ -171,8 +171,8 @@
 <script>
 import Footer from "@/components/Footer";
 import { LANGUAGES } from "@/common/language.helper";
-import { DEFAULT_FROM, DEFAULT_TO } from "@/common/language.helper";
 import { API_URL } from "@/common/config";
+import { SettingsHelper } from "./common/settings.helper";
 
 export default {
   name: "App",
@@ -191,11 +191,13 @@ export default {
       return `${API_URL}static/flags/flag-${code}-h.svg`;
     },
     changeLangFrom(code) {
+      SettingsHelper.setLastLanguageFrom(code);
       this.$router.push({
         path: `/user/${this.$route.params.username}/${this.$route.name}/${code}/${this.langCodeTo}`,
       });
     },
     changeLangTo(code) {
+      SettingsHelper.setLastLanguageTo(code);
       this.$router.push({
         path: `/user/${this.$route.params.username}/${this.$route.name}/${this.langCodeFrom}/${code}`,
       });
@@ -215,14 +217,14 @@ export default {
       if (this.LANGUAGES[langCode]) {
         return langCode;
       }
-      return DEFAULT_FROM;
+      return SettingsHelper.getLastLanguageFrom();
     },
     langCodeTo() {
       let langCode = this.$route.params.to;
       if (this.LANGUAGES[langCode]) {
         return langCode;
       }
-      return DEFAULT_TO;
+      return SettingsHelper.getLastLanguageTo();
     },
     showLanguageBar() {
       if (
