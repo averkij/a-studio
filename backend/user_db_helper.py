@@ -380,14 +380,14 @@ def process_uploaded_alignment(align_db_path, username):
         align_guid = db_name.split(".")[0]
         lang_from, lang_to = aligner_helper.get_lang_codes(align_db_path)
 
-        if float(alignment_version) < 6.2:
+        if float(alignment_version) <= 6.2:
             name_from, name_to, guid_from, guid_to = (
                 f"from_{lang_from}",
                 f"to_{lang_to}",
                 "no_guid",
                 "no_guid",
             )
-            alignment_name = f"[{name_from}]-[{name_to}"
+            alignment_name = f"[{name_from}]-[{name_to}]"
         else:
             name_from, name_to, guid_from, guid_to = aligner_helper.get_files_info(
                 align_db_path
