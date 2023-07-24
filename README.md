@@ -71,7 +71,7 @@ Flask/uwsgi backend REST API service. It contains all the alignment logic.
 
 SPA. Vue + vuex + vuetify. UI for managing alignment process using BE and a tool for translators to edit processing documents.
 
-- Go to the backend directory
+- Go to the frontend directory
   - <code>cd /frontend</code>
 
 - Install the requirements
