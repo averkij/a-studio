@@ -43,6 +43,18 @@
     background: rgba(100, 100, 100, 0.1);
 }
 
+/* CONFLICT DETAILS LIST */
+
+.d-table-cell.conflict-id:hover {
+    background: #E3F2FD !important;
+    cursor: pointer;
+}
+
+.d-table-cell.conflict-id.c-blue {
+    background: #E3F2FD !important;
+}
+
+
 /* CELL EDIT MENU */
 
 .cell-edit-index-cont:hover > .cell-edit-action-panel {
@@ -69,15 +81,15 @@
 }
 
 .cell-edit-action-panel.c-green {
-    background: #E8F5E9;
+    background: #E8F5E9 !important;
 }
 
 .cell-edit-action-panel.c-red {
-    background: #FFEBEE;
+    background: #FFEBEE !important;
 }
 
 .cell-edit-action-panel.c-blue {
-    background: #E3F2FD ;
+    background: #E3F2FD !important;
 }
 
 .cell-edit-button {

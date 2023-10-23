@@ -418,6 +418,8 @@ export const ItemsService = {
     form.append("candidate_text", params.candidateText);
     form.append("batch_id", params.batchId);
     form.append("batch_index_id", params.batchIndexId);
+    form.append("line_id_from", params.lineIdFrom);
+    form.append("line_id_to", params.lineIdTo);
 
     return ApiService.post(
       "items",
