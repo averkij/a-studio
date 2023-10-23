@@ -53,7 +53,6 @@ def items(username, lang):
     misc.create_folders(username, lang)
     # load documents
     if request.method == "POST":
-
         if request.form["type"] == "alignment":
             file = request.files["alignmentFile"]
             filename = file.filename
@@ -446,7 +445,7 @@ def create_alignment(username):
         id_from,
         file_to,
         id_to,
-        name
+        name,
     )
 
     len_from, _ = misc.get_texts_length(db_path)
@@ -764,12 +763,12 @@ def align_next_batch(username):
 def get_alignment_conflicts(username, align_guid, handle_edges):
     """Get alignment conflicts"""
     (
-        name,
+        _,
         guid_from,
         guid_to,
-        state,
-        curr_batches,
-        total_batches,
+        _,
+        _,
+        _,
     ) = user_db_helper.get_alignment_info(username, align_guid)
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
     _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
@@ -1159,8 +1158,10 @@ def edit_processing(username, lang_from, lang_to, align_guid):
     candidate_text = request.form.get("candidate_text", "")
     batch_id, _ = misc.try_parse_int(request.form.get("batch_id", -1))
     batch_index_id, _ = misc.try_parse_int(request.form.get("batch_index_id", -1))
+    line_id_from, _ = misc.try_parse_int(request.form.get("line_id_from", -1))
+    line_id_to, _ = misc.try_parse_int(request.form.get("line_id_to", -1))
 
-    # print("OPERATION:", operation, "text_type:", text_type)
+    print("OPERATION:", operation, "text_type:", text_type)
 
     if index_id_is_int:
         editor.edit_doc(
@@ -1173,6 +1174,8 @@ def edit_processing(username, lang_from, lang_to, align_guid):
             candidate_text,
             batch_id,
             batch_index_id,
+            line_id_from,
+            line_id_to,
             text_type,
         )
     else:
