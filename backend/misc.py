@@ -199,7 +199,7 @@ def parse_json_array(json_str):
 
 
 def configure_logging(level=logging.INFO):
-    """"Configure logging module"""
+    """ "Configure logging module"""
     os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
     simplefilter(action="ignore", category=FutureWarning)
     # logging.basicConfig(level=level, filename='app.log', filemode='a', format='%(asctime)s [%(levelname)s] - %(process)d: %(message)s', datefmt='%d-%b-%y %H:%M:%S')
@@ -214,7 +214,7 @@ def configure_logging(level=logging.INFO):
 
 
 def lazy_property(func):
-    """"Lazy initialization attribute"""
+    """ "Lazy initialization attribute"""
     attr_name = "_lazy_" + func.__name__
 
     @property
