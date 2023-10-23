@@ -595,16 +595,74 @@
         <v-row class="mt-2">
           <v-col> Conflict {{ currConflictId + 1 }}: </v-col>
         </v-row>
-        <v-row>
+
+        <!-- CONFLICTS HELPER. SPLIT CONFLICT. -->
+        <v-row v-if="selectedConflictDetailsLineIdFrom != null" class="mt-0">
+          <v-col>
+            <v-alert
+              type="info"
+              border="left"
+              colored-border
+              color="info"
+              class="mt-2"
+              elevation="2"
+            >
+              To split conflict in <i>appropriate</i>
+              place select line on the left and right sides and use "Split
+              conflict" button. Suggested pairs will be aligned together and
+              conflict will be splitted.
+            </v-alert>
+          </v-col>
+        </v-row>
+
+        <v-row v-if="selectedConflictDetailsLineIdFrom != null">
+          <div class="d-inline-block pa-2 pl-3">
+            <div
+              class="d-inline-block mr-4"
+              v-if="selectedConflictDetailsLineIdFrom != null"
+            >
+              <b>Left line:</b> {{ selectedConflictDetailsLineIdFrom }}
+            </div>
+            <div
+              class="d-inline-block"
+              v-if="selectedConflictDetailsLineIdTo != null"
+            >
+              <b>Right line:</b> {{ selectedConflictDetailsLineIdTo }}
+            </div>
+          </div>
+          <v-spacer></v-spacer>
+          <v-btn
+            class="success mr-3 btn-min-w"
+            :disabled="
+              selectedConflictDetailsLineIdFrom == null ||
+              selectedConflictDetailsLineIdTo == null
+            "
+            @click="showSplitConflictDialog = true"
+          >
+            Split conflict
+          </v-btn>
+          <SplitConflictDialog
+            v-model="showSplitConflictDialog"
+            @splitConflict="splitConflict"
+            :linesFrom="selectedConflictDetailsLinePairFrom"
+            :linesTo="selectedConflictDetailsLinePairTo"
+          />
+        </v-row>
+
+        <v-row class="mt-4">
           <v-col cols="12" sm="6">
             <v-card>
-              <div v-for="(d, i) in conflictDetails.from" :key="i">
+              <div v-for="(d, id, i) in conflictDetails.from" :key="i">
                 <div class="d-table fill-height">
                   <div
-                    class="d-table-cell grey lighten-4 pa-2 text-center"
+                    class="d-table-cell grey lighten-4 pa-2 text-center conflict-id"
                     style="min-width: 45px"
+                    :class="[
+                      { 'c-blue': selectedConflictDetailsLineIdFrom == id },
+                    ]"
+                    @click="selectConflictDetailsLineIdFrom(id)"
                   >
-                    {{ i }}
+                    {{ id }}
                   </div>
                   <v-divider class="d-table-cell" vertical></v-divider>
                   <div class="d-table-cell pa-2">
@@ -617,13 +675,17 @@
           </v-col>
           <v-col cols="12" sm="6">
             <v-card>
-              <div v-for="(d, i) in conflictDetails.to" :key="i">
+              <div v-for="(d, id, i) in conflictDetails.to" :key="i">
                 <div class="d-table fill-height">
                   <div
-                    class="d-table-cell grey lighten-4 pa-2 text-center"
+                    class="d-table-cell grey lighten-4 pa-2 text-center conflict-id"
                     style="min-width: 45px"
+                    :class="[
+                      { 'c-blue': selectedConflictDetailsLineIdTo == id },
+                    ]"
+                    @click="selectConflictDetailsLineIdTo(id)"
                   >
-                    {{ i }}
+                    {{ id }}
                   </div>
                   <v-divider class="d-table-cell" vertical></v-divider>
                   <div class="d-table-cell pa-2">
@@ -1045,6 +1107,7 @@ import CreateAlignmentDialog from "@/components/CreateAlignmentDialog";
 import RecalculateBatchDialog from "@/components/RecalculateBatchDialog";
 import ConfirmDeleteDialog from "@/components/ConfirmDeleteDialog";
 import CustomAlignmentSettingsDialog from "@/components/CustomAlignmentSettingsDialog";
+import SplitConflictDialog from "@/components/SplitConflictDialog";
 import { mapGetters } from "vuex";
 import { DEFAULT_BATCHSIZE, TEST_LIMIT, API_URL } from "@/common/config";
 import {
@@ -1068,6 +1131,7 @@ import {
   EDIT_DELETE_LINE,
   EDIT_CLEAR_LINE,
   EDIT_LINE,
+  EDIT_TRY_SET_LINE_IDS,
   ADD_EMPTY_LINE_BEFORE,
   ADD_EMPTY_LINE_AFTER,
 } from "@/common/constants";
@@ -1146,6 +1210,7 @@ export default {
       showRecalculateBatchDialog: false,
       showConfirmDeleteAlignmentDialog: false,
       showCustomAlignmentSettingsDialog: false,
+      showSplitConflictDialog: false,
 
       //conflicts
       unusedFromLines: [],
@@ -1154,6 +1219,10 @@ export default {
       usedToLinesSet: new Set(),
       usedToLinesFlow: [],
       currConflictId: 0,
+      selectedConflictDetailsLineIdFrom: null,
+      selectedConflictDetailsLineIdTo: null,
+      selectedConflictDetailsLinePairFrom: [],
+      selectedConflictDetailsLinePairTo: [],
 
       hoverAlignmentIndex: -1,
       hoveredAlignmentItem: { name: "" },
@@ -1597,12 +1666,14 @@ export default {
         this.currConflictId += 1;
         this.showConflict(this.currConflictId);
       }
+      this.resetSelectedConflictDetailsLineIds();
     },
     showPrevConflict() {
       if (this.currConflictId > 0) {
         this.currConflictId -= 1;
         this.showConflict(this.currConflictId);
       }
+      this.resetSelectedConflictDetailsLineIds();
     },
     showConflict(conflictId) {
       this.$store
@@ -1615,7 +1686,60 @@ export default {
         })
         .then(() => {
           this.isLoading.conflicts = false;
+          this.resetSelectedConflictDetailsLineIds();
         });
+    },
+    selectConflictDetailsLineIdFrom(id) {
+      let ids = Object.keys(this.conflictDetails.from);
+
+      // if (ids.length < 10) {
+      //   console.log(
+      //     "Minimum conflict length for conflict helper mode should be greater than 10."
+      //   );
+      //   return;
+      // }
+
+      if (ids[0] == id || ids[ids.length - 1] == id) {
+        alert("Splitting of a conflict is allowed only in the middle.");
+        return;
+      }
+
+      let currId = parseInt(id, 10);
+      let nextId = currId + 1;
+      let sent1 = this.conflictDetails.from[currId];
+      let sent2 = this.conflictDetails.from[nextId];
+
+      this.selectedConflictDetailsLineIdFrom = id;
+      this.selectedConflictDetailsLinePairFrom = [currId, nextId, sent1, sent2];
+    },
+    selectConflictDetailsLineIdTo(id) {
+      let ids = Object.keys(this.conflictDetails.to);
+
+      // if (ids.length < 10) {
+      //   console.log(
+      //     "Minimum conflict length for conflict helper mode should be greater than 10."
+      //   );
+      //   return;
+      // }
+
+      if (ids[0] == id || ids[ids.length - 1] == id) {
+        alert("Splitting of a conflict is allowed only in the middle.");
+        return;
+      }
+
+      let currId = parseInt(id, 10);
+      let nextId = currId + 1;
+      let sent1 = this.conflictDetails.to[currId];
+      let sent2 = this.conflictDetails.to[nextId];
+
+      this.selectedConflictDetailsLineIdTo = id;
+      this.selectedConflictDetailsLinePairTo = [currId, nextId, sent1, sent2];
+    },
+    resetSelectedConflictDetailsLineIds() {
+      this.selectedConflictDetailsLineIdFrom = null;
+      this.selectedConflictDetailsLineIdTo = null;
+      this.selectedConflictDetailsLinePairFrom = [];
+      this.selectedConflictDetailsLinePairTo = [];
     },
     selectProcessing(item, fileId) {
       // if (fileId == this.selectedProcessingId) {
@@ -1726,6 +1850,27 @@ export default {
         linesCount: 10,
         page: this.processing.meta.page,
       });
+    },
+    splitConflict(lineIdFrom, lineIdTo) {
+      this.$store
+        .dispatch(EDIT_PROCESSING, {
+          username: this.$route.params.username,
+          fileId: this.selectedProcessingId,
+          langCodeFrom: this.langCodeFrom,
+          langCodeTo: this.langCodeTo,
+          indexId: 0,
+          batchId: 0,
+          batchIndexId: 0,
+          lineIdFrom: lineIdFrom,
+          lineIdTo: lineIdTo,
+          text_type: "to",
+          operation: EDIT_TRY_SET_LINE_IDS,
+        })
+        .then(() => {
+          this.refreshConflicts();
+          this.refreshProcessingPage();
+          this.resetSelectedConflictDetailsLineIds();
+        });
     },
     editAddCandidateEnd(
       indexId,
@@ -2177,6 +2322,7 @@ export default {
     RecalculateBatchDialog,
     ConfirmDeleteDialog,
     CustomAlignmentSettingsDialog,
+    SplitConflictDialog,
   },
 };
 </script>
