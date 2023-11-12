@@ -146,7 +146,8 @@ def edit_doc(
 
             for bid, batch in enumerate(index):
                 for id, line_info in enumerate(batch):
-                    if line_info[0] == line_id_from:
+                    actual_ids = misc.parse_json_array(line_info[1])
+                    if len(actual_ids) == 1 and actual_ids[0] == line_id_from:
                         lines_to_edit.append(
                             {
                                 "batch_id": bid,
@@ -155,7 +156,7 @@ def edit_doc(
                                 "update_to": line_id_to,
                             }
                         )
-                    elif line_info[0] == line_id_from + 1:
+                    elif len(actual_ids) == 1 and actual_ids[0] == line_id_from + 1:
                         lines_to_edit.append(
                             {
                                 "batch_id": bid,
@@ -164,6 +165,12 @@ def edit_doc(
                                 "update_to": line_id_to + 1,
                             }
                         )
+                    if len(lines_to_edit) == 2:
+                        break
+                # break outer loop on inner break condition
+                else:
+                    continue
+                break
 
             print("Trying to split conflict:", lines_to_edit)
             if len(lines_to_edit) < 2:
