@@ -82,6 +82,7 @@ def edit_doc(
                 db_path, text_type, processing_target_id
             )[0]
             text_to_update = text_to_edit + text
+            text_to_update = text_to_update.strip()
 
             processing_text_ids = misc.parse_json_array(
                 index[target_batch_id][target_index_id][direction]
