@@ -303,12 +303,24 @@ class AlignmentProcessor:
             min_chain_length = 2
             max_conflicts_len = 26
 
-            conflicts, _ = resolver.get_all_conflicts(
+            conflicts, rest_conflicts = resolver.get_all_conflicts(
                 self.db_path,
                 min_chain_length=min_chain_length,
                 max_conflicts_len=max_conflicts_len,
                 batch_id=batch_id,
             )
+
+            logging.info("Handling negative length conflicts.")
+            resolver.correct_conflicts(
+                self.db_path,
+                rest_conflicts,
+                batch_id=batch_id,
+                min_chain_length=min_chain_length,
+                max_conflicts_len=max_conflicts_len,
+                handle_start=handle_start,
+                handle_finish=handle_finish,
+            )
+
             resolver.resolve_all_conflicts(
                 self.db_path,
                 conflicts,
@@ -346,7 +358,7 @@ class AlignmentProcessor:
             )
 
             min_chain_length = 2
-            max_conflicts_len = 25
+            max_conflicts_len = 26
 
             conflicts, _ = resolver.get_all_conflicts(
                 self.db_path,
