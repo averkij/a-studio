@@ -1,1 +1,1 @@
-lingtrain-aligner==0.8.7
+lingtrain-aligner==0.9.3
