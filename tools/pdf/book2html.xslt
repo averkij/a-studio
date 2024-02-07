@@ -167,14 +167,25 @@
 				</xsl:for-each>
 			</div>
 		</xsl:if>
-		<!-- One column subscript layout -->
+		<!-- One language per page -->
 		<xsl:if test="$layoutType = 2">
+			<div class=''>
+				<xsl:for-each select="/book/head/langs/lang/@id">
+					<div>
+						<xsl:attribute name="class" select="concat('par',' l1-lang', position(), ' fs', position() )" />
+						<xsl:apply-templates select="$p/sentence/su[@lang = current()]" />
+					</div>
+				</xsl:for-each>
+			</div>
+		</xsl:if>
+		<!-- One column subscript layout -->
+		<!--  <xsl:if test="$layoutType = 3">
 			<div class='scont'>
 				<div class="par">
 					<xsl:apply-templates select="$p/sentence" />
 				</div>
 			</div>
-		</xsl:if>
+		</xsl:if> -->
 	</xsl:template>
 
 	<!-- Layout 0 and 1 -->
@@ -202,7 +213,32 @@
 		</span>
 	</xsl:template>
 
-	<!-- Layout 2 (subscript) -->
+	<!-- Layout 2 -->
+	<xsl:template match="su">
+  		<xsl:variable name="sent_id" select="../@id"/>
+		<xsl:variable name="scount">
+			<xsl:number count="sentence"/>
+		</xsl:variable>
+		<xsl:variable name="highlight">s<xsl:value-of select="($sent_id mod $numColors)"/></xsl:variable>
+		<span>
+			<xsl:if test="(($cjkTips) and ((./@lang = 'zh') or (./@lang = 'jp')))">
+				<xsl:if test="$showColors">
+					<xsl:attribute name="class">sf <xsl:value-of select="$highlight"/></xsl:attribute>
+				</xsl:if>
+				<xsl:copy-of select=".//r" />
+			</xsl:if>
+			<xsl:if test="(not($cjkTips) or ((./@lang != 'zh') and (./@lang != 'jp')))">
+				<xsl:if test="$showColors">
+					<xsl:attribute name="class">s <xsl:value-of select="$highlight"/></xsl:attribute>
+				</xsl:if>
+				<xsl:value-of select="." />
+				<!-- DIRTY HACK. Fixes line breaks for consecutive one word spans (weasyprint issue). -->
+				<xsl:text> ‎</xsl:text>
+			</xsl:if>
+		</span>
+	</xsl:template>
+
+	<!-- Layout 3 (subscript) -->
 	<xsl:template match="sentence">
 		<xsl:variable name="s" select="." />
 		<xsl:variable name="scount">
