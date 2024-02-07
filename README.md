@@ -7,7 +7,7 @@
 Lingtrain Studio is the ML based app for accurate texts alignment on different languages.
 
 - Extracts parallel corpora from two texts.
-- Makes the formatted parallel book from it with sentence highlightning.
+- Makes the formatted parallel book from it with sentence highlighting.
 
 ## ⚡ Articles
 
@@ -18,7 +18,7 @@ Lingtrain Studio is the ML based app for accurate texts alignment on different l
 
 ## 🧬 Models
 
-Automated alignment process relies on the sentence embeddings models. Embeddings are multidimensional vectors of a special kind which are used to calculate a distance between the sentences. You can also plug your own model using the interface described in models directory. Supported languages list depend on the selected backend model.
+Automated alignment process relies on the sentence embeddings models. Embeddings are multidimensional vectors of a special kind which are used to calculate a distance between the sentences. You can also plug your own model using the interface described in models directory. Supported languages list depends on the selected backend model.
 
 - **distiluse-base-multilingual-cased-v2**
   - more reliable and fast
@@ -39,7 +39,7 @@ You can run the application on your computer using docker.
 
 2. Images configured to run locally are available on Docker Hub.
 
-3. Run the following commads in your console:
+3. Run the following commands in your console:
     - <code>docker pull lingtrain/studio:v7.2</code>
     - <code>docker run -v C:\app\data:/app/data -v C:\app\img:/app/static/img -p 80:80 lingtrain/studio:v7.2</code>
 
@@ -84,7 +84,7 @@ Application will be available on <code>localhost:8080</code>
 
 ## ✉️ Feedback
 
-You can crate an issue or send me a message in telegram: @averkij
+You can create an issue or send me a message in telegram: @averkij
 
 ## 🔑 License
 
