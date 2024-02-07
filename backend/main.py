@@ -31,8 +31,6 @@ from lingtrain_aligner import (
 misc.configure_logging()
 
 
-# from mlflow import log_metric
-
 app = Flask(__name__)
 CORS(app)
 
@@ -636,7 +634,7 @@ def start_alignment(username):
         lang_from,
         lang_to,
         align_guid,
-        model_name=config.MODEL,
+        model_name=misc.get_model_name(),
         embed_batch_size=config.EMBED_BATCH_SIZE,
         normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
         operation=la_con.OPERATION_CALCULATE_CUSTOM,
@@ -742,7 +740,7 @@ def align_next_batch(username):
         lang_from,
         lang_to,
         align_guid,
-        model_name=config.MODEL,
+        model_name=misc.get_model_name(),
         embed_batch_size=config.EMBED_BATCH_SIZE,
         normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
         operation=la_con.OPERATION_CALCULATE_CUSTOM,
@@ -898,7 +896,7 @@ def resolve_conflicts(username):
         lang_from,
         lang_to,
         align_guid,
-        model_name=config.MODEL,
+        model_name=misc.get_model_name(),
         embed_batch_size=config.EMBED_BATCH_SIZE,
         normalize_embeddings=config.NORMALIZE_EMBEDDINGS,
         mode="resolve",

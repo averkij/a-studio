@@ -8,6 +8,7 @@ import pathlib
 import pickle
 import sqlite3
 import sys
+import config
 from warnings import simplefilter
 
 import constants as con
@@ -48,7 +49,7 @@ def get_processing_list_with_state(username, lang_from, lang_to):
                 "guid_to": guid_to,
                 "state": (state_code, total_batches, done_batches),
                 "proxy_from_loaded": proxy_from_loaded,
-                "proxy_to_loaded": proxy_to_loaded
+                "proxy_to_loaded": proxy_to_loaded,
                 # "imgs": get_files_list(os.path.join(con.STATIC_FOLDER, con.IMG_FOLDER, username), mask=f"{guid}.best_*.png"),
                 # "sim_grades": get_sim_grades(file)
             }
@@ -199,7 +200,7 @@ def parse_json_array(json_str):
 
 
 def configure_logging(level=logging.INFO):
-    """ "Configure logging module"""
+    """Configure logging module"""
     os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
     simplefilter(action="ignore", category=FutureWarning)
     # logging.basicConfig(level=level, filename='app.log', filemode='a', format='%(asctime)s [%(levelname)s] - %(process)d: %(message)s', datefmt='%d-%b-%y %H:%M:%S')
@@ -214,7 +215,7 @@ def configure_logging(level=logging.INFO):
 
 
 def lazy_property(func):
-    """ "Lazy initialization attribute"""
+    """Lazy initialization attribute"""
     attr_name = "_lazy_" + func.__name__
 
     @property
@@ -224,3 +225,11 @@ def lazy_property(func):
         return getattr(self, attr_name)
 
     return _lazy_property
+
+
+def get_model_name():
+    if "MODEL_NAME" in os.environ:
+        logging.info(f"Detected MODEL_NAME in envs: {os.environ['MODEL_NAME']}")
+        return os.environ["MODEL_NAME"]
+
+    return config.MODEL
