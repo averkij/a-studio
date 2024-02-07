@@ -1,0 +1,1281 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220611T142153Z</creationdate>
+    <paragraphs>90</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>286</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>272</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Robert Sheckley</s>
+      <s lang="ru">Роберт Шекли</s>
+    </author>
+    <title>
+      <s lang="en">THE GUN WITHOUT A BANG</s>
+      <s lang="ru">Пушка, которая не бабахает</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">Did A TWIG SNAP? DIXON LOOKED BACK and thought he saw a dark shape melt into the underbrush.</su>
+          <su lang="ru"> Диксону показалось, что хрустнула ветка. Он обернулся и успел краешком глаза заметить скользнувшую под кустом черную тень.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Instantly he froze, staring back through the green-boled trees.</su>
+          <su lang="ru">Он замер на месте, вглядываясь в заросли.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was a complete and expectant silence.</su>
+          <su lang="ru">Стояла полная тишина.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Far overhead, a carrion bird balanced on an updraft, surveying the sunburned landscape, waiting, hoping.</su>
+          <su lang="ru">Высоко над головой какая-то птица вроде стервятника парила в восходящих потоках воздуха, что-то высматривая внизу, что-то ожидая.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">Then Dixon heard a low, impatient cough from the underbrush.</su>
+          <su lang="ru">И тут Диксон услышал в кустах тихое нетерпеливое рычание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now he knew he was being followed.</su>
+          <su lang="ru">Теперь он точно знал — звери крадутся за ним.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Before, it had only been an assumption.</su>
+          <su lang="ru">До сих пор это было только предположением.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But those vague, half-seen shapes had been real.</su>
+          <su lang="ru">Но смутные, едва заметные тени рассеяли его сомнения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They had left him alone on his trek to the signal station, watching, deciding.</su>
+          <su lang="ru">По дороге на радиостанцию они его не тронули — только в нерешительности следовали за ним.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now they were ready to try something.</su>
+          <su lang="ru">А теперь готовы действовать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">He removed the Weapon from its holster, checked the safeties, reholstered it and continued walking.</su>
+          <su lang="ru">Он вынул из кобуры дезинтегратор, проверил предохранитель, снова засунул оружие в кобуру и зашагал дальше.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">He heard another cough.</su>
+          <su lang="ru">В кустах опять послышалось рычание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Something was patiently trailing him, probably waiting until he left the bush and entered the forest.</su>
+          <su lang="ru">Кто-то терпеливо преследовал его, вероятно, ожидая, когда он минует заросли кустарника и войдет в лес.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon grinned to himself.</su>
+          <su lang="ru">Диксон ухмыльнулся про себя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">Nothing could hurt him.</su>
+          <su lang="ru">Никакой зверь ему не страшен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had the Weapon.</su>
+          <su lang="ru">У него есть дезинтегратор.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">Without it, he would never have ventured so far from his spaceship.</su>
+          <su lang="ru">Если бы не это, Диксон ни за что не решился бы отойти так далеко от корабля.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One simply didn’t wander around on an alien planet.</su>
+          <su lang="ru">Никто не может позволить себе просто так разгуливать по чужой планете.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But Dixon could.</su>
+          <su lang="ru">Но Диксон мог.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On his hip was the weapon to end all weapons, absolute insurance against anything that walked or crawled or flew or swam.</su>
+          <su lang="ru">У него на поясе болталось оружие, с которым не могло сравниться никакое другое, — абсолютная защита от всего, что только может ходить, ползать, летать или плавать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">It was the last word in handguns, the ultimate in personal armament.</su>
+          <su lang="ru">Это был самый совершенный пистолет, последнее слово техники в области личного оружия.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">It was the Weapon.</su>
+          <su lang="ru">Это был дезинтегратор.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">He looked back again.</su>
+          <su lang="ru">Диксон снова оглянулся.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There were three beasts, less than fifty yards behind him.</su>
+          <su lang="ru">Меньше чем в полусотне метров позади показались три хищника.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">From that distance, they resembled dogs or hyenas.</su>
+          <su lang="ru">Издали они напоминали собак или гиен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They coughed at him and moved slowly forward.</su>
+          <su lang="ru">Они зарычали и медленно двинулись вперед.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">He touched the Weapon, but decided against using it immediately.</su>
+          <su lang="ru">Он взялся за дезинтегратор, но решил пока не пускать его в ход.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There would be plenty of time when they came closer.</su>
+          <su lang="ru">Успеется — пусть подойдут поближе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">Alfred Dixon was a short man, very broad in the chest and shoulders.</su>
+          <su lang="ru">Альфред Диксон был небольшого роста, с широченными плечами и грудью.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His hair was streaky blond, and he had a blond mustache which curled up at the ends. This mustache gave his tanned face a frank, ferocious appearance.</su>
+          <su lang="ru">У него были светлые волосы и светлые с закрученными кончиками усы — они придавали его загорелому лицу свирепое выражение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">His natural habitat was Terra’s bars and taverns.</su>
+          <su lang="ru">Его любимое местонахождение — земные бары и таверны.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There, dressed in stained khakis, he could order drinks in a loud, belligerent voice, and pierce his fellow drinkers with narrow gunmetal-blue eyes.</su>
+          <su lang="ru">Там он, одетый в видавший виды походный костюм, мог громким, воинственным голосом заказывать себе выпивку и пронзать собутыльников взглядом прищуренных глаз цвета вороненой оружейной стали.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He enjoyed explaining to the drinkers, in a somewhat contemptuous tone, the difference between a Sykes needler and a Colt three-point, between the Martian horned adleper and the Venusian scom, and just what to do when a Rannarean horntank is charging you in thick brush, and how to beat off an attack of winged glitterflits.</su>
+          <su lang="ru">Ему доставляло удовольствие снисходительно растолковывать пьяницам разницу между лучевым ружьем Сайкса и тройным кольтом или между адлепером с Марса и венерианским скомом и наставлять их, что следует делать, когда на тебя в густом лесу кидается рогатый танк с Раннара, или как отбиться от крылатых блестянок.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">Some men considered Dixon all bluff, but they were careful not to call it.</su>
+          <su lang="ru">Некоторые считали Диксона трепачом, но избегали высказывать это вслух.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Others thought he was a good man in spite of his inflated opinion of himself.</su>
+          <su lang="ru">Другие относились к нему хорошо, несмотря на его непомерное самомнение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was just overconfident, they explained.</su>
+          <su lang="ru">«Он просто слишком самоуверен, — объясняли они.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Death or mutilation would correct this flaw.</su>
+          <su lang="ru">— Это дело поправимое — стоит ему только погибнуть или покалечиться».</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">Dixon was a great believer in personal armament.</su>
+          <su lang="ru">Диксон свято верил в силу личного оружия.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">To his way of thinking, the winning of the American West was simply a contest between bow and arrow and Colt .44.</su>
+          <su lang="ru">По его твердому убеждению, покорение Дикого Запада в Америке представляло собой не что иное, как состязание между луком и кольтом 44-го калибра.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Africa?</su>
+          <su lang="ru">Африка?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The spear against the rifle.</su>
+          <su lang="ru">Копье против винтовки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mars?</su>
+          <su lang="ru">Марс?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Colt three-point against the spinknife.</su>
+          <su lang="ru">Тройной кольт против метательного ножа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">H-bombs smeared cities, but individual men with small arms took the territory.</su>
+          <su lang="ru">Водородная бомба может испепелить города, но занимать вражескую территорию приходится людям, вооруженным винтовками и пистолетами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why look for fuzzy economic, philosophical or political reasons when everything was so simple?</su>
+          <su lang="ru">Зачем измышлять какие-то непонятные экономические, философские или политические объяснения, когда все так просто?</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">He had, of course, utter confidence in the Weapon.</su>
+          <su lang="ru">И на дезинтегратор он, конечно, полагался целиком и полностью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">Glancing back, he saw that half a dozen doglike creatures had joined the original three.</su>
+          <su lang="ru">Оглянувшись, Диксон заметил, что к трем хищникам прибавилось еще с полдюжины.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were walking in the open now, tongues lolling out, slowly closing the distance.</su>
+          <su lang="ru">Они уже перестали прятаться и понемногу приближались, высунув языки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">Dixon decided to hold fire just a little longer.</su>
+          <su lang="ru">Он решил еще немного подождать, прежде чем открывать стрельбу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The shock effect would be that much greater.</su>
+          <su lang="ru">Чем ближе они подойдут, тем сильнее будет впечатление.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">He had held many jobs in his time – explorer, hunter, prospector, asteroider.</su>
+          <su lang="ru">В свое время Диксон сменил немало профессий: был геодезистом, охотником, геологом, работал на астероидах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Fortune seemed to elude him.</su>
+          <su lang="ru">И всегда ему не везло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The other man always stumbled across the lost city, shot the rare beast, found the ore-bearing stream.</su>
+          <su lang="ru">Другие вечно натыкались на заброшенные древние города, подстреливали редких зверей, находили рудные залежи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He accepted his fate cheerfully.</su>
+          <su lang="ru">Но он не унывал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Damned poor luck, but what can you do?</su>
+          <su lang="ru">Не везет, что поделаешь?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now he was a radioman, checking the automatic signal stations on a dozen unoccupied worlds.</su>
+          <su lang="ru">Теперь он работал радистом — обслуживал десяток радиомаяков на незаселенных планетах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">But more important, he was giving the ultimate handgun its first test in the field.</su>
+          <su lang="ru">А главное — ему было поручено провести первое полевое испытание самого совершенного личного оружия.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The gun’s inventors hoped the Weapon would become standard.</su>
+          <su lang="ru">Изобретатели надеялись, что оно завоюет всеобщее признание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon hoped he would become standard with it.</su>
+          <su lang="ru">На всеобщее признание надеялся и Диксон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">He had reached the edge of the rain forest.</su>
+          <su lang="ru">Он приблизился к опушке тропического леса.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His ship lay about two miles ahead in a little clearing.</su>
+          <su lang="ru">Корабль, на котором он прилетел, стоял в лесу, милях в двух от опушки, на небольшой поляне.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As he entered the forest’s gloomy shade, he heard the excited squeaking of arboreals.’</su>
+          <su lang="ru">Войдя в лес, Диксон услышал возбужденный писк древолазов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were colored orange and blue, and they watched him intently from the treetops.</su>
+          <su lang="ru">Эти небольшие оранжевые и голубые существа внимательно следили за ним сверху.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">It was definitely an African sort of place, Dixon decided.</su>
+          <su lang="ru">«Похоже на Африку, — подумал Диксон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He hoped he would encounter some big game, get a decent trophy head or two.</su>
+          <su lang="ru">— Хорошо бы повстречать какую-нибудь крупную дичь. Привезти с собой в виде трофея две-три страшных головы с рогами…»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Behind him, the wild dogs had approached to twenty yards.</su>
+          <su lang="ru">Дикие собаки уже приблизились метров до двадцати.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were gray and brown, the size of terriers, with a hyena’s jaws.</su>
+          <su lang="ru">Это были животные величиной с терьера, серо-бурого цвета, с челюстями как у гиены.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Some of them had moved into the underbrush, racing ahead to cut him off.</su>
+          <su lang="ru">Часть их побежала через кусты, чтобы отрезать ему путь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">It was time to show the Weapon.</su>
+          <su lang="ru">Пора было продемонстрировать дезинтегратор.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">Dixon unholstered it.</su>
+          <su lang="ru">Диксон вынул его из кобуры.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Weapon was pistol-shaped and quite heavy. It also balanced poorly.</su>
+          <su lang="ru">Оружие имело форму пистолета и было довольно тяжелым да к тому же еще и плохо сбалансированным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The inventors had promised to reduce the weight and improve the heft in subsequent models.</su>
+          <su lang="ru">Изобретатели обещали в следующих моделях уменьшить вес и сделать дезинтегратор более прикладистым.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But Dixon liked it just the way it was.</su>
+          <su lang="ru">Но Диксону он нравился именно таким.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He admired it for a moment, then clicked off the safeties and adjusted for single shot.</su>
+          <su lang="ru">Он сдвинул предохранитель и поставил кнопку на одиночную стрельбу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">The pack came loping toward him, coughing and snarling.</su>
+          <su lang="ru">Стая с лаем и рычанием кинулась на него.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon took casual aim and fired.</su>
+          <su lang="ru">Диксон небрежно прицелился и выстрелил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">The Weapon hummed faintly.</su>
+          <su lang="ru">Дезинтегратор издал едва слышное гудение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Ahead, for a distance of a hundred yards, a section of forest simply vanished.</su>
+          <su lang="ru">Впереди, в радиусе сотни метров, часть леса тут же исчезла.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">Dixon had fired the first disintegrator.</su>
+          <su lang="ru">Это был первый выстрел из первого дезинтегратора.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">From a muzzle aperture of less than an inch, the beam had fanned out to a maximum diameter of twelve feet.</su>
+          <su lang="ru">Луч из его дула веером расходился до четырехметровой ширины.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A conic section, waist high and a hundred yards long, appeared in the forest.</su>
+          <su lang="ru">В гуще леса на высоте пояса появилось конической формы пустое пространство длиной в сотню метров.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Within it, nothing remained. Trees, insects, plants, shrubs, wild dogs, butterflies, all were gone.</su>
+          <su lang="ru">В нем не осталось ничего — исчезли деревья, насекомые, трава, кустарник, дикие собаки, бабочки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Overhanging boughs caught in the blast area looked as though they had been sheared by a giant razor.</su>
+          <su lang="ru">Свисавшие сверху ветки, которые задел луч, были срезаны, будто гигантской бритвой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">Dixon estimated he had caught at least seven of the wild dogs in the blast.</su>
+          <su lang="ru">Диксон прикинул, что истребил по меньшей мере семь собак.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Seven beasts with a half-second burst!</su>
+          <su lang="ru">Семь животных за полсекунды?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No problems of deflection or trajectory, as with a missi1e gun. No need to reload, for the Weapon had a power span of eighteen duty-hours.</su>
+          <su lang="ru">И не надо думать об упреждении, как при стрельбе из обычного пистолета: не надо беспокоиться о боеприпасах — запаса энергии в дезинтеграторе хватит на восемнадцать часов работы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The perfect weapon!</su>
+          <su lang="ru">Идеальное оружие!</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">He turned and walked on, reholstering the heavy gun.</su>
+          <su lang="ru">Он отвернулся и пошел дальше, сунув дезинтегратор в кобуру.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">There was silence. The forest creatures were considering the new experience.</su>
+          <su lang="ru">Наступила тишина: лесные обитатели осваивались с новым явлением.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In a few moments, they recovered from their surprise.</su>
+          <su lang="ru">Но уже через несколько мгновений их удивление бесследно прошло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Blue and orange arboreals swung through the trees above him.</su>
+          <su lang="ru">Голубые и оранжевые древолазы вновь закачались на ветках у него над головой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Overhead, the carrion bird soared low, and other black-winged birds came out of the distant sky to join it.</su>
+          <su lang="ru">Стервятник в небе опустился пониже, и откуда-то издали появилось еще несколько чернокрылых птиц.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And the wild dogs coughed in the underbrush.</su>
+          <su lang="ru">А в кустах снова послышалось рычание диких собак.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">They hadn’t given up yet.</su>
+          <su lang="ru">Они все еще не отказались от преследования.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon could hear them in 4he deep foliage on either side of him, moving rapidly, staying out of sight.</su>
+          <su lang="ru">Диксон слышал, как они перебегали в зарослях по обе стороны от него, скрытые листвой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">He drew the Weapon, wondering if they would dare try again.</su>
+          <su lang="ru">Он снова вытащил дезинтегратор. Неужели они осмелятся попробовать еще раз?</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">They dared.</su>
+          <su lang="ru">Они осмелились.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">A spotted greyhound burst from a shrub just behind him.</su>
+          <su lang="ru">За самой его спиной из-за кустов выскочила пятнистая серая собака.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The 'gun hummed.</su>
+          <su lang="ru">Дезинтегратор загудел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The dog vanished in midleap, and the trees shivered slightly as air clapped into the sudden vacuum.</su>
+          <su lang="ru">Собака исчезла на лету во время прыжка — вокруг только ветром шевельнуло листья, когда воздух ворвался в возникший вакуум.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">Another dog charged and Dixon disintegrated it, frowning slightly.</su>
+          <su lang="ru">Еще одна собака бросилась на Диксона, и он, слегка нахмурившись, уничтожил ее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">These beasts couldn’t be considered stupid.</su>
+          <su lang="ru">Нельзя сказать, чтобы эти звери были такие уж глупые.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why didn’t they learn the obvious lesson – that it was impossible to come against him and his Weapon?</su>
+          <su lang="ru">Почему же они никак не поймут, что против него, против его оружия они бессильны?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Creatures all over the Galaxy had quickly learned to be wary of an armed man.</su>
+          <su lang="ru">По всей Галактике живые существа быстро научились остерегаться вооруженного человека.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why not these?</su>
+          <su lang="ru">А эти?</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">Without warning, three dogs leaped from different directions.</su>
+          <su lang="ru">Еще три собаки прыгнули на него с разных сторон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon clicked tp automatic and mowed them down like a man swinging a scythe.</su>
+          <su lang="ru">Диксон переключил дезинтегратор на автоматическую стрельбу и скосил их одним движением руки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dust whirled and sparkled, filling the vacuum.</su>
+          <su lang="ru">Взлетела пыль — воздух заполнил вакуум.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">He listened intently.</su>
+          <su lang="ru">Он прислушался.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The forest seemed filled with low coughing sounds.</su>
+          <su lang="ru">Рычание раздавалось по всему лесу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Other packs were coming to join in the kill.</su>
+          <su lang="ru">Новые и новые стаи сбегались, чтобы урвать кусок добычи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">Why didn’t they learn?</su>
+          <su lang="ru">Почему они не боятся?</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">It suddenly burst upon him.</su>
+          <su lang="ru">И вдруг его осенило.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They didn’t learn, he thought, because the lesson was too subtle!</su>
+          <su lang="ru">Они не видят, чего нужно бояться!</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">The Weapon – disintegrating silently, quickly, cleanly.</su>
+          <su lang="ru">Дезинтегратор уничтожает их быстро, аккуратно, тихо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Most of the dogs he hit simply vanished. There were no yelps of agony, no roars or howls or screams.</su>
+          <su lang="ru">Попавшие под луч собаки чаще всего просто исчезают — они не визжат в агонии, не воют, не рычат.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">And above all, there was no loud boom to startle them, no smell of cordite, no click of a new shell levered in....</su>
+          <su lang="ru">А главное — не слышно громкого выстрела, которого они могли бы испугаться, не пахнет порохом, не щелкает затвор, досылая новый патрон…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon thought, Maybe they aren’t smart enough to know this is a killing weapon.</su>
+          <su lang="ru">«Наверное, у них просто не хватает ума сообразить, что эта штука смертельна, — подумал Диксон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Maybe they haven’t figured out what’s going on.</su>
+          <su lang="ru">— Они просто не понимают, что происходит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Maybe they think I’m defenseless.</su>
+          <su lang="ru">Они думают, что я беззащитен».</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">He walked more rapidly through the dim forest.</su>
+          <su lang="ru">Он зашагал быстрее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">He was in no	danger, he reminded himself.</su>
+          <su lang="ru">«Никакой опасности нет, — напомнил он сам себе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Just because they couldn’t realize it was a killing weapon didn’t alter the fact that it was.</su>
+          <su lang="ru">— Пусть они не понимают, что это смертельное оружие, — от этого оно не становится менее смертельным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Still, he would insist on a noisemaker in the new models.</su>
+          <su lang="ru">Но все равно нужно будет сказать, чтобы в новые модели добавили какое-нибудь шумовое устройство.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It shouldn’t be difficult.</su>
+          <su lang="ru">Наверное, это будет нетрудно».</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">And the sound would be reassuring. The arboreals were gaining confidence now, swinging down almost to the level of his head, their fangs bared.</su>
+          <su lang="ru">Теперь осмелели и древолазы — они, оскалив зубы, раскачивались почти на уровне его головы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Probably carnivorous, Dixon decided. With the Weapon on automatic, he slashed great cuts in the treetops.</su>
+          <su lang="ru">«Наверное, тоже хищники», — решил Диксон и, переставив кнопку на автоматический огонь, прорезал огромные бреши в кронах деревьев.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">The arboreals fled, screaming at him.</su>
+          <su lang="ru">Древолазы с воплями скрылись.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Leaves and small branches rained down.</su>
+          <su lang="ru">На землю посыпались листья и ветки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Even the dogs were momentarily cowed, edging away from the falling debris.</su>
+          <su lang="ru">Даже собаки на мгновение отступили.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">Dixon grinned to himself – just before he was flattened.</su>
+          <su lang="ru">Диксон ухмыльнулся — и в тот же момент распластался на земле, придавленный огромным суком, который луч дезинтегратора перерезал у основания.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A big bough, severed from its tree, had caught him across the left shoulder as it fell.</su>
+          <su lang="ru">Удар пришелся по левому плечу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">The Weapon was knocked from his hand. It landed ten feet away, still on automatic, disintegrating shrubs a few yards from him.</su>
+          <su lang="ru">Дезинтегратор вылетел из руки Диксона и упал метрах в трех, продолжая уничтожать ближайшие кусты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He dragged himself from under the bough and dived for the Weapon. An arboreal got to it first.</su>
+          <su lang="ru">Диксон выполз из-под сука и бросился к оружию, но его уже схватил один из древолазов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">Dixon threw himself face down on the ground.</su>
+          <su lang="ru">Диксон ничком бросился на землю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The arboreal, screaming in triumph, whirled the disintegrator around its head.</su>
+          <su lang="ru">Животное с торжествующими воплями размахивало дезинтегратором.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Giant trees, cut through, went crashing to the forest floor. The air was dark with falling twigs and leaves, and the ground was eut into trenches.</su>
+          <su lang="ru">На землю валились огромные деревья, в воздухе потемнело от падающих листьев и ветвей, землю избороздили рытвины.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A sweep of the disintegrator knifed through the tree next to Dixon, and chopped the ground a few inches from his feet.</su>
+          <su lang="ru">Луч дезинтегратора прорезал ствол дерева, у которого только что стоял Диксон, и взрыл землю у самых его ног.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He jumped away, and the next sweep narrowly missed his head.</su>
+          <su lang="ru">Диксон отскочил в сторону, и луч едва миновал его голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had given up hope.</su>
+          <su lang="ru">Диксон пришел в отчаяние.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But then the arboreal became curious.</su>
+          <su lang="ru">Но тут древолаза одолело любопытство.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Chattering gaily, it turned the Weapon around and tried to look into the muzzle.</su>
+          <su lang="ru">Весело тараторя, животное повернуло дезинтегратор дулом к себе и попыталось заглянуть в отверстие.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">The animal’s head vanished – silently.</su>
+          <su lang="ru">Голова животного беззвучно исчезла.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">Dixon saw his chance. He ran forward, leaping a trench, and recovering the disintegrator before another arboreal could play with it.</su>
+          <su lang="ru">Диксон тут же перескочил рытвину, схватил дезинтегратор, прежде чем им смогли завладеть другие древолазы, и тут же выключил автомат.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">He turned it off automatic.</su>
+          <su lang="ru">Несколько собак вернулись.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Several dogs had returned.</su>
+          <su lang="ru">Они стояли поблизости и внимательно следили за ним.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were watching him closely, Dixon didn’t dare fire yet.</su>
+          <su lang="ru">Стрелять Диксон не стал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His hands were shaking so badly, there was more risk to himself than to the dogs.</su>
+          <su lang="ru">У него так тряслись руки, что это было бы опасно не столько для собак, сколько для него самого.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He turned and stumbled in the direction of the ship.</su>
+          <su lang="ru">Он повернулся и заковылял к кораблю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">The dogs followed.</su>
+          <su lang="ru">Собаки последовали за ним.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">Dixon quickly recovered his nerve.</su>
+          <su lang="ru">Через некоторое время Диксон пришел в себя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He looked at the glittering Weapon in his hand.</su>
+          <su lang="ru">Он посмотрел на сверкающий дезинтегратор, который держал в руке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had considerably more respect for it now, and more than a little fear.</su>
+          <su lang="ru">Теперь он испытывал к этому оружию куда большее уважение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Much more fear than the dogs had.</su>
+          <su lang="ru">И изрядно его опасался. Во всяком случае больше, чем собаки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Apparently they didn’t associate the forest damage with the disintegrator.</su>
+          <su lang="ru">Те, очевидно, никак не связывали с дезинтегратором разрушения, произведенные в лесу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It must have seemed like a sudden, violent storm to them.</su>
+          <su lang="ru">Все это показалось им внезапно налетевшей бурей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">But the storm was over. It was hunting time again.</su>
+          <su lang="ru">А теперь буря прошла, и можно возобновить охоту.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">He was in thick brush now, firing ahead to clear a path.</su>
+          <su lang="ru">Диксон шел через густой кустарник, прожигая себе дорогу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The dogs were on either side, keeping pace.</su>
+          <su lang="ru">Собаки по обе стороны не отставали от него.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He fired continually into the foliage, occasionally getting a dog.</su>
+          <su lang="ru">Время от времени то одна, то другая попадали под луч.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There were several dozen of them, pressing him closely.</su>
+          <su lang="ru">Но их было несколько десятков, и они приближались.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="en">Damn it, Dixon thought, aren’t they counting their losses?</su>
+          <su lang="ru">«Черт возьми, — подумал Диксон, — почему они не подсчитывают свои потери?»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then he realized they probably didn’t know how to count.</su>
+          <su lang="ru">Но тут же сообразил, что вряд ли они вообще умеют считать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">He struggled on, not far from the spaceship.</su>
+          <su lang="ru">Он пробивался вперед.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A heavy log lay in his path.</su>
+          <su lang="ru">До корабля было уже совсем недалеко.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He stepped over it. The log came angrily to life and opened enormous jaws directly under his legs.</su>
+          <su lang="ru">Диксон занес ногу, чтобы переступить через лежащее на пути бревно, — и тут бревно ожило и злобно распахнуло огромную пасть под самыми его ногами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">He fired blindly, holding the trigger down for three seconds and narrowly missing his own feet.</su>
+          <su lang="ru">Он нажал на спуск и не отпускал его целых три секунды, чуть не задев собственные ноги.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The creature vanished.</su>
+          <su lang="ru">Существо исчезло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon gulped, swayed, and slid feet-first into the pit he had just dug.</su>
+          <su lang="ru">Диксон всхлипнул, покачнулся и съехал в яму, которую только что разверз сам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">He landed heavily, wrenching his left ankle.</su>
+          <su lang="ru">Он тяжело упал на дно, подвернув левую ступню.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The dogs ringed the pit, snapping and snarling at him.</su>
+          <su lang="ru">Собаки окружили яму, щелкая зубами и не отрывая от него глаз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">Steady, Dixon told himself.</su>
+          <su lang="ru">«Спокойно», — сказал себе Диксон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He cleared the beasts from the pit’s rim with two bursts, and tried to climb out.</su>
+          <su lang="ru">Двумя выстрелами он очистил края ямы от хищников и попытался выбраться наружу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The sides of the pit were too steep and had been fused into glass.</su>
+          <su lang="ru">Но у ямы были слишком крутые стены, и к тому же они оплавились, превратившись в стекло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">Frantically he tried again and again, recklessly expending his strength.</su>
+          <su lang="ru">В панике он снова и снова, не жалея сил, бросался на гладкую поверхность.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then he stopped and forced himself to think.</su>
+          <su lang="ru">Потом остановился и заставил себя подумать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Weapon had got him into this hole; the Weapon could get him out.</su>
+          <su lang="ru">В эту яму он попал из-за дезинтегратора; пусть дезинтегратор его отсюда и извлекает.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This time he cut a shallow ramp out of the pit, and limped painfully out.</su>
+          <su lang="ru">Нажав на спуск, он прорезал пологий откос и, преодолевая боль в ноге, выполз наружу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His left ankle could hardly bear weight.</su>
+          <su lang="ru">На левую ногу он с трудом мог ступить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Even worse was the pain in his shoulder.</su>
+          <su lang="ru">Еще сильнее болело левое плечо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That bough 'must have broken it, he decided. Using a branch as a crutch, Dixon limped on.</su>
+          <su lang="ru">«Этот сук, наверное, сломал мне ключицу», — подумал Диксон и заковылял дальше, опираясь на ветку, как на костыль.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">Several times the dogs attacked.</su>
+          <su lang="ru">Собаки несколько раз бросались на него.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He disintegrated them, and the gun grew increasingly heavy in his right hand.</su>
+          <su lang="ru">Он расстреливал их, но дезинтегратор в руке становился все тяжелее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The carrion birds came down to pick at the neatly slashed carcasses.</su>
+          <su lang="ru">Стервятники опустились на землю и уселись на аккуратно разрезанные лучом трупы собак.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon felt darkness crawl around the edges of his vision.</su>
+          <su lang="ru">Глаза Диксона время от времени застилало тьмой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He fought it back. He must not faint now, while the dogs were around him.</su>
+          <su lang="ru">Он старался взять себя в руки — нельзя терять сознание, когда вокруг собаки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">The ship was in sight.</su>
+          <su lang="ru">Корабль был уже виден.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He broke into a clumsy run, and fell immediately.</su>
+          <su lang="ru">Диксон неуклюже побежал и тут же упал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Some of the dogs were on him.</su>
+          <su lang="ru">Несколько собак вцепились в него.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="en">He fired, cutting them in two and removing half an inch from his right boot, almost down to the toe.</su>
+          <su lang="ru">Он выстрелом рассек их на части, срезав полдюйма собственного сапога в непосредственной близости от большого пальца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He struggled to his feet and went on.</su>
+          <su lang="ru">Шатаясь, он поднялся на ноги и двинулся дальше.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="en">Quite a weapon, he thought.</su>
+          <su lang="ru">«Вот это оружие, — подумал он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dangerous to anyone, including the wielder.</su>
+          <su lang="ru">— Смертельно опасное для всех, включая стрелка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He wished he had the inventor in his sights.</su>
+          <su lang="ru">Изобретателя бы сюда!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Imagine inventing a gun without a bang!</su>
+          <su lang="ru">Надо же быть таким идиотом — построить пушку, которая не бабахает!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He reached the ship.</su>
+          <su lang="ru">Наконец он добрался до корабля.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The dogs ringed him as he fumbled with the air-lock.</su>
+          <su lang="ru">Пока возился с люком воздушного шлюза, собаки окружили его плотным кольцом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon disintegrated the closest two and stumbled inside.</su>
+          <su lang="ru">Двух, которые подскочили ближе всех, Диксон уничтожил и ввалился внутрь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dark-ness was crawling around his vision again and he could feel nausea rising thickly in his throat.</su>
+          <su lang="ru">В глазах у него снова потемнело, к горлу подступил комок.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">With his last strength, he swung the airlock shut and sat down. Safe at last!</su>
+          <su lang="ru">Из последних сил он захлопнул люк и сел на пол. Спасен!</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="en">Then he heard the low cough.</su>
+          <su lang="ru">И тут он услышал тихое рычание.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="en">He had shut one of the dogs inside with him.</su>
+          <su lang="ru">Одна из собак проникла внутрь вместе с ним.</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="en">His arm felt too weak to lift the heavy Weapon, but slowly he swung it up.</su>
+          <su lang="ru">У него уже, казалось, не было сил удержать тяжелый дезинтегратор, но он все же медленно поднял руку с оружием.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The dog, barely visible in the dimly lighted ship, leaped at him.</su>
+          <su lang="ru">Собака, еле различимая в полумраке корабля, кинулась на него.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="en">For a terrifying instant, Dixon thought he couldn’t squeeze the trigger. The dog was at his throat.</su>
+          <su lang="ru">Диксон похолодел от ужаса: он почувствовал, что у него недостает сил нажать на спуск.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Reflex must have clenched his hand.</su>
+          <su lang="ru">Его спасло непроизвольное движение сжавшихся пальцев.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="en">The dog yelped once and was silent.</su>
+          <su lang="ru">Собака взвизгнула и умолкла.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon blacked out.</su>
+          <su lang="ru">Диксон потерял сознание.</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="en">When he recovered consciousness, he lay for a long time, just savoring the glorious sensation of being alive.</su>
+          <su lang="ru">Придя в себя, он долго лежал, наслаждаясь одним радостным сознанием того, что жив.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was going to rest for a few minutes.</su>
+          <su lang="ru">Он решил немного отдохнуть.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then he was getting out of here, away from alien planets, back to a Terran bar.</su>
+          <su lang="ru">Потом он смоется отсюда, пошлет к черту все чужие планеты и приземлится в первом же попавшемся баре.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was going to get roaring drunk.</su>
+          <su lang="ru">Вот когда он как следует напьется!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then he was going to find that inventor and ram the Weapon down the man’s throat, crossways.</su>
+          <su lang="ru">А потом разыщет этого изобретателя и вобьет ему в глотку дезинтегратор. Поперек.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Only a homicidal maniac would invent a gun without a bang.</su>
+          <su lang="ru">Изобрести пушку, которая не бабахает, мог только маньяк-убийца!</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="en">But that would come later.</su>
+          <su lang="ru">Но это потом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Right now it was a pleasure just to be alive, to lie in the sunlight, enjoying the...</su>
+          <su lang="ru">А пока — какое наслаждение быть живым, лежать на солнышке, всем телом чувствуя…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sunlight?</su>
+          <su lang="ru">Солнышко?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Inside a spaceship?</su>
+          <su lang="ru">Внутри корабля?</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence>
+          <su lang="en">He sat up.</su>
+          <su lang="ru">Он сел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At his feet lay the tail and one leg of the dog.</su>
+          <su lang="ru">У его ног валялась одна собачья лапа и хвост.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Beyond it there was an interesting zigzag slashed through the side of the spaceship. It was about three inches wide and four feet long.</su>
+          <su lang="ru">А перед ним в корпусе корабля зияло зигзагообразное отверстие шириной сантиметров в восемь, тянувшееся больше чем на метр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sunlight filtered through it.</su>
+          <su lang="ru">Сквозь отверстие светило солнце.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Outside, four dogs were sitting on their haunches, peering in.</su>
+          <su lang="ru">А снаружи в щель внимательно смотрели четыре собаки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="en">He had cut through his spaceship while killing the last dog.</su>
+          <su lang="ru">Убивая последнюю собаку, он прорезал корпус своего собственного корабля.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="en">Then he saw other slashes in the ship.</su>
+          <su lang="ru">Теперь он увидел еще несколько брешей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Where had they come from?</su>
+          <su lang="ru">А откуда взялись они?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Oh, yes, when he was fighting his way back to the ship.</su>
+          <su lang="ru">Ах да, это, наверное, когда он пробивался к кораблю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That last hundred yards.</su>
+          <su lang="ru">Последняя стометровка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A few shots must have touched the spaceship.</su>
+          <su lang="ru">Несколько выстрелов, вероятно, задели корабль.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="en">He stood up and examined the cuts.</su>
+          <su lang="ru">Диксон поднялся и начал внимательно разглядывать повреждения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A neat job, he thought, with the calm that sometimes accompanies hysteria.</su>
+          <su lang="ru">«Чистая работа, — подумал он с равнодушием отчаяния.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Yes, sir, very neat indeed.</su>
+          <su lang="ru">— Это точно, уж такая чистая работа, что чище некуда».</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="en">Here were the severed control cables.</su>
+          <su lang="ru">Вот перерезанные кабели управления.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That was where the radio had been.</su>
+          <su lang="ru">Вот тут было радио.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Over there he had managed to nick the oxygen and water tanks in a single burst, which was good shooting by anybody’s standards.</su>
+          <su lang="ru">А здесь он ухитрился одним выстрелом угодить сразу в кислородные баллоны и в цистерну с водой — вот это меткость!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And here – yes, he’d done it, all right.</su>
+          <su lang="ru">А вот… да, конечно, только этого еще и не хватало.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A really clever hook shot had cut the fuel lines.</su>
+          <su lang="ru">Самый удачный выстрел — он перебил топливную магистраль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And the fuel had all run out in obedience to the law of gravity and formed a pool around the ship and sunk into the ground.</su>
+          <su lang="ru">Все горючее, согласно закону тяготения, вытекло наружу — под кораблем стояла лужа, которая понемногу впитывалась в землю…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Not bad for a guy who wasn’t even trying, Dixon thought crazily.</su>
+          <su lang="ru">«Неплохо для первого раза, — пришла ему в голову безумная мысль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Couldn’t have done better with a blowtorch.</su>
+          <su lang="ru">— Даже газовым резаком лучше не сработать».</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="en">As a matter of fact, he couldn’t have done it with a blowtorch.</su>
+          <su lang="ru">Впрочем, газовым резаком он тут ничего бы не сделал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Spaceship hulls were too tough.</su>
+          <su lang="ru">Корпус космического корабля резаком не взять.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But not too tough for the good old little old sure-fire never-miss Weapon....</su>
+          <su lang="ru">А вот старым, добрым, верным, надежным дезинтегратором…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A year later, when Dixon still hadn’t reported, a ship was sent out.</su>
+          <su lang="ru">Год спустя, так и не дождавшись от Диксона никакого сообщения, Земля послала за ним корабль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were to give him decent burial, if any remains could be found, and bring back the prototype disintegrator, if that could be found.</su>
+          <su lang="ru">Экипажу было приказано устроить подобающие случаю похороны, если удастся разыскать останки, и привезти обратно опытный образец дезинтегратора.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="en">The recovery ship touched down near Dixon’s ship, and the crew examined the slashed and gutted hull with interest.</su>
+          <su lang="ru">Спасательный корабль приземлился рядом с кораблем Диксона, и его экипаж принялся с большим интересом разглядывать изрезанный и выпотрошенный корпус.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="en">"Some guys," said the engineer, "don’t know how to handle a gun."</su>
+          <su lang="ru">— Есть же люди, которым нельзя давать в руки оружие, — сказал механик.</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence>
+          <su lang="en">"I’ll say," said the chief pilot.</su>
+          <su lang="ru">— Вот это да! — удивился пилот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="en">They heard a banging noise from the direction of the rain forest.</su>
+          <su lang="ru">Из леса донесся какой-то стук.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They hurried over and found that Dixon was not dead.</su>
+          <su lang="ru">Они поспешили туда и обнаружили, что Диксон жив.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was very much alive, and singing as he worked.</su>
+          <su lang="ru">Он работал, горланя песню.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="en">He had constructed a wooden shack and planted a vegetable garden around it.</su>
+          <su lang="ru">За год Диксон построил деревянную хижину и посадил вокруг овощи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Surrounding the garden was a palisade.</su>
+          <su lang="ru">Огород был окружен частоколом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dixon was hammering in a new sapling to replace a rotten one when the men came up.</su>
+          <su lang="ru">Когда спасатели подошли, Диксон заколачивал в землю новый кол взамен сгнившего.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="en">Quite predictably, one of the men cried, "You’re alive!"</su>
+          <su lang="ru">— Ты жив? — вскричал кто-то.</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="en">"Damned right," Dixon said.</su>
+          <su lang="ru">— Точно, — отозвался Диксон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Touch and go for a while before I got the palisade built.</su>
+          <su lang="ru">— Правда, дело было плохо, пока я не построил этот частокол.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nasty brutes, those dogs, But I taught them a little respect."</su>
+          <su lang="ru">Сволочи эти собаки. Но я их проучил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence>
+          <su lang="en">Dixon grinned and touched a bow that leaned against the palisade within easy reach.</su>
+          <su lang="ru">Он ухмыльнулся и показал на прислоненный к частоколу лук.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It had been cut from a piece of seasoned, springy wood, and beside it was a quiver full of arrows.</su>
+          <su lang="ru">Он был вырезан из упругого, крепкого дерева, а рядом колчан, полный стрел.</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="en">"They learned respect," Dixon said, "after they saw a few of their pals running around with a shaft through their flanks."</su>
+          <su lang="ru">— Научились остерегаться, — сказал Диксон, — когда увидели, как их приятели кувыркаются со стрелой в боку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="en">"But the Weapon –" the chief pilot asked.</su>
+          <su lang="ru">— А дезинтегратор?.. — начал пилот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="en">"Ah, the Weapon!" exclaimed Dixon, with a mad, merry light in his eyes.</su>
+          <su lang="ru">— А, дезинтегратор! — воскликнул Диксон с веселым огоньком в глазах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Couldn’t have survived without it."</su>
+          <su lang="ru">— Не знаю, что бы я делал без него.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="en">He turned back to his work.</su>
+          <su lang="ru">Он продолжал свою работу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was hammering the sapling into place with the heavy, flat butt of the Weapon.</su>
+          <su lang="ru"> Кол быстро уходил в землю под ударами увесистой плоской рукоятки дезинтегратора.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

@@ -1,0 +1,1913 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220615T124235Z</creationdate>
+    <paragraphs>190</paragraphs>
+    <langs>
+      <lang id="it">
+        <sentences>379</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>405</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="it">Gianni Rodari</s>
+      <s lang="ru">Джанни Родари</s>
+    </author>
+    <title>
+      <s lang="it">Gli affari del signor Gatto</s>
+      <s lang="ru">Подарочные мышки</s>
+    </title>
+    <contents>
+      <s lang="it">Sommario</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="it"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="it">Una volta un gatto si mise in testa di diventare ricco.</su>
+          <su lang="ru">Однажды кот задумал разбогатеть.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Egli aveva tre zii e li andò a trovare, l'uno dopo l'altro, per farsi dare qualche buon consiglio.</su>
+          <su lang="ru">У него было трое дядюшек, и он решил отправиться к ним за советом, как это лучше сделать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="it">— Potresti fare il ladro, — disse lo zio Primo, — per arricchire senza fatica non c'è sistema piú sicuro.</su>
+          <su lang="ru">— Надо стать вором, — сказал ему дядя Первый. — Нет лучшего способа разбогатеть без особого труда.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="it">— Sono troppo onesto, per quel mestiere.</su>
+          <su lang="ru">— Я слишком честен для этого, — ответил кот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="it">— E che fa?</su>
+          <su lang="ru">— Ну и что?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tra i ladri ci sono molte persone oneste e tra le persone oneste ci sono molti ladri.</su>
+          <su lang="ru"> Среди воров немало честных людей, а среди честных сколько угодно воров.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Il conto torna e di notte tutti i gatti sono bigi.</su>
+          <su lang="ru"> Так на так не получается. К тому же ночью все кошки серы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="it">— Ci penserò, - disse il gatto.</su>
+          <su lang="ru">— Ну я подумаю, — ответил кот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="it">— Potresti fare il cantante, — disse lo zio Secondo, — per diventare ricchi e famosi senza fatica, non c'è sistema piú facile.</su>
+          <su lang="ru">— Можно стать певцом, — сказал ему дядя Второй. — Нет лучшего способа разбогатеть и прославиться без всякого труда.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="it">— Ma ho una brutta voce.</su>
+          <su lang="ru">— Но у меня нет голоса.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="it">— E che fa?</su>
+          <su lang="ru">— Ну и что?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Molti cantanti hanno una voce da cani e diventano ricchi come pescicani.</su>
+          <su lang="ru">Многие певцы поют, как петухи, но все равно превращаются в богатых акул.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ah, ah, buona questa!</su>
+          <su lang="ru">Надо же, как я удачно выразился!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Aspetta che me la scrivo.</su>
+          <su lang="ru">Постой, я запишу эту мудрую мысль.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Allora, hai deciso?</su>
+          <su lang="ru">Ну так что, решил?</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="it">— Ci penserò, - disse il gatto.</su>
+          <su lang="ru">— Я подумаю, — ответил кот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="it">Lo zio Terzo gli disse: — Mettiti in commercio.</su>
+          <su lang="ru">Дядя Третий сказал: — Займись торговлей.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Apri una bella bottega e la gente farà la fila per portarti i suoi quattrini.</su>
+          <su lang="ru">Открой какую-нибудь милую лавочку, и люди будут выстраиваться в очередь, чтобы принести тебе свои деньги.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="it">— E che cosa potrei vendere?</su>
+          <su lang="ru">— А чем бы стоило торговать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="it">— Pianoforti, frigoriferi, locomotive…</su>
+          <su lang="ru">— Роялями, холодильниками, электровозами…</su>
+        </sentence>
+        <sentence>
+          <su lang="it">— Sono troppo pesanti.</su>
+          <su lang="ru">— Слишком громоздкие вещи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="it">— Guanti per signora.</su>
+          <su lang="ru">— Ну тогда дамскими перчатками.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="it">— Ma allora perdo tutti i clienti maschi.</su>
+          <su lang="ru">— Но в таком случае я потеряю половину покупателей — мужчин.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="it">— Fa' cosí: apri una tabaccheria a Capri.</su>
+          <su lang="ru">— Сделай так: открой табачную лавку на Капри.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Magnifica isola.</su>
+          <su lang="ru">Великолепный остров.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tempo buono tutto l'anno.</su>
+          <su lang="ru">Круглый год прекрасная погода.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ci vanno molti forestieri e tutti comprano almeno una cartolina e il francobollo per spedirla.</su>
+          <su lang="ru">Туда приезжает множество туристов, и каждый покупает хотя бы одну открытку и марку, чтобы отправить ее родным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="it">— Ci penserò, - disse il gatto.</su>
+          <su lang="ru">— Ладно, подумаю, — ответил кот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="it">Ci pensò sette giorni e finalmente decise di mettere su un bel negozio di generi alimentari.</su>
+          <su lang="ru">Он думал целую неделю и наконец решил открыть небольшой продовольственный магазин.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Prese in affitto un locale al piano terreno di un palazzo di nuova costruzione, ci sistemò il banco, gli scaffali, la cassa e la cassiera.</su>
+          <su lang="ru">Снял подходящее помещение на первом этаже нового здания, разместил там шкафы, прилавки, кассу и усадил за нее кассиршу.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Poi, per risparmiare la spesa del pittore, dipinse lui stesso l'insegna:</su>
+          <su lang="ru">А затем, чтобы не тратиться на художника, сам нарисовал вывеску: «Подарочные мышки (Новый консервный деликатес)».</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="it">Si vendono topi in scatola — Che bellezza, — disse la cassiera, che era una gattina al suo primo impiego.</su>
+          <su lang="ru">— Какая прелесть! — сказала кассирша. Это была совсем молоденькая кошечка, впервые поступившая на службу.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Topi in scatola.</su>
+          <su lang="ru">— Подарочные мышки!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Questa sí che è un'idea geniale.</su>
+          <su lang="ru">Гениальная мысль!</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="it">— Se non fosse stata geniale, — precisò il gatto, — non sarebbe venuta a me.</su>
+          <su lang="ru">— Если б она не была гениальной, — уточнил кот, — она не пришла бы мне в голову.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="it">Su un cartello più piccolo, il gatto scrisse: Diamo gratis l'apriscatole a chi compra tre scatolette La cassiera trovò che il suo principale aveva una bellissima scrittura.</su>
+          <su lang="ru">На другой вывеске, поменьше, кот написал: «Тот, кто купит сразу три банки, в награду получит бесплатно консервный нож».</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="it">— Io sono fatto cosí, - disse il gatto.</su>
+          <su lang="ru">Кассирша нашла, что у ее хозяина прекрасный почерк.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="it">- So scrivere soltanto alla perfezione.</su>
+          <su lang="ru">— Так уж я устроен, — ответил кот, — пишу только прекрасно.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Non riuscirei a fare un errore nemmeno se mi schiacciassero la coda.</su>
+          <su lang="ru">Я бы не смог ошибиться, даже если б мне прищемили хвост.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="it">— Però, - disse la cassiera, — le scatolette dove sono?</su>
+          <su lang="ru">— Однако, — заметила кассирша, — где же эти консервы?</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="it">— Verranno, verranno.</su>
+          <su lang="ru">— Будут.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Roma non è stata fabbricata in un giorno.</su>
+          <su lang="ru">Всему свое время. И Рим не сразу строился.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="it">— E se entra gente per fare la spesa, come mi debbo regolare?</su>
+          <su lang="ru">— А если придут покупатели, что мне делать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="it">— Raccoglierà le prenotazioni su questo foglio.</su>
+          <su lang="ru">— Записать их заказы вот на этом листе.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Si faccia dare anche l'indirizzo e avverta che si eseguono consegne a domicilio.</su>
+          <su lang="ru">Пусть оставят адреса. Мы будем доставлять товар на дом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="it">— Signor gatto, — disse la cassiera, — ce l'ha già il fattorino per le consegne?</su>
+          <su lang="ru">— Синьор кот, — спросила кассирша, — а рассыльного вы уже нашли?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Perché io, col suo permesso, avrei un fratello…</su>
+          <su lang="ru">Я потому спрашиваю, что, если не возражаете, мой брат мог бы…</su>
+        </sentence>
+        <sentence>
+          <su lang="it">— Lo faccia venire una settimana in prova.</su>
+          <su lang="ru">— Пусть придет и поработает недельку. Посмотрим, годится ли.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Il suo salario sarà di due scatolette al giorno.</su>
+          <su lang="ru">Оплата — две банки в день.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="it">— E il mio?</su>
+          <su lang="ru">— А мне сколько?</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="it">— A lei ne darò tre.</su>
+          <su lang="ru">— Вам — три.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="it">— Con l'apriscatole?</su>
+          <su lang="ru">— С консервным ножом?</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="it">— Riceverà un apriscatole a Natale, uno a Pasqua e uno il giorno del mio compleanno.</su>
+          <su lang="ru">— Консервный нож вы будете получать на Новый год, в День национального праздника, а также в день моего рождения.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="it">La cassiera trovò che il suo principale era molto generoso.</su>
+          <su lang="ru">Кассирша нашла, что ее хозяин очень щедр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="it">Il giorno dopo arrivarono le scatolette.</su>
+          <su lang="ru">На следующий день были получены консервные банки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="it">— Signor gatto, — disse la cassiera, — sono tutte vuote.</su>
+          <su lang="ru">— Синьор кот, — сказала кассирша, — но ведь они пустые.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="it">— Sono come dovevano essere.</su>
+          <su lang="ru">— Так и должно быть.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ai topi ci penserò io.</su>
+          <su lang="ru">О мышках позабочусь я сам.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Intanto lei attaccherà sulle scatole le etichette.</su>
+          <su lang="ru">А вы пока наклейте на банки этикетки.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Si faccia aiutare da suo fratello.</su>
+          <su lang="ru">И пусть вам поможет ваш брат.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="it">Il fratello della cassiera era un gattino di pochi mesi e si divertiva un mondo a correre in giro per il negozio con la testa ficcata in una scatoletta.</su>
+          <su lang="ru">Брат кассирши был совсем маленьким трехмесячным котенком. У него было прекрасное настроение, и он носился по магазину, засунув голову в банку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="it">— Buono, buono, — disse il signor gatto, — altrimenti ti do la multa.</su>
+          <su lang="ru">— Ну-ка, веди себя получше, — сказал синьор кот, — не то я запишу тебе штраф.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="it">Le etichette erano di carta lucida, variopinte.</su>
+          <su lang="ru">Этикетки были яркие и блестящие.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Su ognuna di esse si vedeva un topo che strizzava l'occhio e sotto si leggeva: Topi in scatola Qualità Superiore Attenzione ai buoni punto Diffidate delle imitazioni — Come! — disse la cassiera.</su>
+          <su lang="ru">На каждой была нарисована мышка, подмигивающая одним глазом, и внизу такая надпись: «Подарочные мышки. Высший сорт. Следите за сроком годности. Остерегайтесь подделок». — Как? — изумилась кассирша.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Non ci sono ancora i topi in scatola e ci sono già le imitazioni?</su>
+          <su lang="ru">— Банки еще пустые, а уже есть подделки?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">E che cosa ci mettono?</su>
+          <su lang="ru">А что же в них?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Talpe, criceti?</su>
+          <su lang="ru">Кроты, хомяки…</su>
+        </sentence>
+        <sentence>
+          <su lang="it">— Si capisce che per ora le imitazioni non ci sono, — spiegò il signor gatto, — ma ci saranno quando il commercio sarà ben avviato.</su>
+          <su lang="ru">— Разумеется, подделок пока еще нет, — объяснил синьор кот, — но, когда торговля пойдет полным ходом, они непременно появятся.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Se poi non ci saranno, questa scritta starà benissimo ugualmente.</su>
+          <su lang="ru">А если и не появятся, то такая надпись все равно не помешает.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">La clientela penserà: guarda, guarda, fanno anche le imitazioni; allora dev'essere una merce super.</su>
+          <su lang="ru">Покупатели будут думать: вот как, если эти консервы даже подделывают, значит, они очень хорошие!</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="it">— E sarà davvero super?</su>
+          <su lang="ru">— А они и в самом деле будут очень хорошие?</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="it">— Sarà extra.</su>
+          <su lang="ru">— Великолепные!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Una cannonata.</su>
+          <su lang="ru">Экстра-класс!</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="it">La cassiera sospirò.</su>
+          <su lang="ru">Кассирша вздохнула.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Com'era intelligente il suo principale!</su>
+          <su lang="ru">Как умен ее хозяин!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Aveva veramente il bernoccolo degli affari.</su>
+          <su lang="ru">У него определенно исключительные способности к торговле.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Per giunta, non era ancora sposato.</su>
+          <su lang="ru">К тому же он еще не женат.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="it">Il fratello della cassiera si era incollato un'etichetta al naso e non riusciva a staccarla.</su>
+          <su lang="ru">Брат кассирши наклеил этикетку себе на нос и теперь не мог отодрать ее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="it">— Stupidello, — disse la cassiera severamente.</su>
+          <su lang="ru">— Глупец! — строго сказала кассирша.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Vuoi farti licenziare il primo giorno?</su>
+          <su lang="ru">— Хочешь, чтобы тебя уволили в первый же день?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Abbia pazienza, signor gatto, non sa ancora che cosa vuol dire guadagnarsi il topo in scatola.</su>
+          <su lang="ru">А ведь ты еще не знаешь, что значит заработать банку «Подарочных мышек»!</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="it">— Mi raccomando a lei, — disse il signor gatto; — stia attenta al negozio.</su>
+          <su lang="ru">— Прошу вас, — сказал синьор кот, — присмотрите за магазином.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Io vado in cerca della materia prima.</su>
+          <su lang="ru">А я отправлюсь на поиски сырья.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="it">La cassiera lo segui con uno sguardo languido mentre si allontanava.</su>
+          <su lang="ru">Кассирша проводила его томным взглядом.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Essa trovava che il suo principale era veramente un bel gatto, con dei baffi da vero commerciante di successo.</su>
+          <su lang="ru">Она находила, что ее хозяин очень красив и усы у него, как у настоящего преуспевающего коммерсанта.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Che portamento elegante!</su>
+          <su lang="ru">Так элегантен!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Che occhi autorevoli!</su>
+          <su lang="ru">И какой властный взгляд!</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="it">«Un commerciante, — pensò, - non è proprio un commendatore, ma quasi.</su>
+          <su lang="ru">«Коммерсант, — подумала она, — это, конечно, не генерал, но почти.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">E poi a me i commendatori non piacciono, perché di solito sono già sposati».</su>
+          <su lang="ru">А мне к тому же генералы не нравятся, потому что они, как правило, все женаты».</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="it">Il signor gatto trovò il primo topo in cantina, rintanato dietro un mucchio di carbone.</su>
+          <su lang="ru">На следующий день кот нашел в подвале первую мышку. Она пряталась там за кучей угля.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="it">— Buongiorno, — disse il gatto.</su>
+          <su lang="ru">— Добрый день, — сказал кот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="it">— Non so, — rispose il topo.</su>
+          <su lang="ru">— Не знаю, — ответила мышка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="it">— Che maniera è questa di rispondere, scusi?</su>
+          <su lang="ru">— Ну что это за ответ, любезная?</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="it">— Non so se sarà un buongiorno oppure no. Di solito i gatti non mi portano fortuna.</su>
+          <su lang="ru">— А я не знаю, будет ли день добрым. Обычно коты не приносят мне счастья.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="it">— Sarà una giornata magnifica, — assicurò il gatto; — anzi, una giornata storica.</su>
+          <su lang="ru">— Это будет великолепный день, — заверил кот, — больше того — исторический!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Lei avrà l'onore di essere il primo topo in scatola del pianeta.</su>
+          <su lang="ru">Вы будете иметь честь стать первой подарочной мышкой на планете.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Le pare poco?</su>
+          <su lang="ru">Разве этого мало?</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="it">— Non so, — ripeté il topo.</su>
+          <su lang="ru">— Не знаю, — ответила мышка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="it">— Lei non sa mai niente, — fece il gatto irritato.</su>
+          <su lang="ru">— Вы никогда ничего не знаете, — рассердился кот.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Su, faccia un saltino; entri in questa bella scatoletta colorata e vedrà.</su>
+          <su lang="ru">— Ну-ка сделайте маленький прыжок, заберитесь в эту красивую, нарядную баночку и увидите.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="it">— Che cosa vedrò?</su>
+          <su lang="ru">— Что увижу?</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="it">— Vedrà che ho ragione io.</su>
+          <su lang="ru">— Увидите, что я прав!</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="it">— A me piace di piú vedere i cartoni animati.</su>
+          <su lang="ru">— Я бы предпочла посмотреть мультфильм.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">A proposito mi viene in mente che alla Tv ne stanno per trasmettere uno.</su>
+          <su lang="ru">Кстати, я вспомнила, он как раз сейчас начнется.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tanti saluti.</su>
+          <su lang="ru">Всего доброго!</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="it">Il topo si ritirò nella sua tana e, per quanto il gatto pregasse e supplicasse, non mise fuori piú nemmeno la punta della coda.</su>
+          <su lang="ru">Мышка шмыгнула в свою норку и, сколько кот ни просил и ни умолял ее, не высунула наружу даже кончик хвоста.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="it">Il secondo topo stava in solaio e il suo buco era dietro il baule.</su>
+          <su lang="ru">Вторая мышка, которую нашел кот, жила на чердаке, и ее норка была за старым чемоданом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="it">— Lei è fortunato, — gridò il signor gatto di lontano, appena lo vide.</su>
+          <su lang="ru">— Вам повезло, — издали крикнул синьор кот, едва увидел ее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="it">— Non so, — disse il topo.</su>
+          <su lang="ru">— Не знаю, — ответила мышка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="it">— Non vale, — si arrabbiò il gatto.</su>
+          <su lang="ru">— Плохо, — рассердился кот.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Questa risposta me l'ha già data un suo collega, giú in cantina.</su>
+          <su lang="ru">— Такой ответ я уже слышал от одной вашей подружки, что живет там, в подвале.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Cerchi qualcos'altro.</su>
+          <su lang="ru">Придумайте что-нибудь другое.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="it">— Prima mi dica perché sono fortunato.</su>
+          <su lang="ru">— Сначала скажите, в чем же мне повезло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="it">— Ma perché la mia ditta ha scelto proprio lei per inaugurare il suo commercio di topi in scatola.</su>
+          <su lang="ru">— Да в том, что моя фирма выбрала именно вас для открытия торговли «Подарочными мышками».</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="it">— Se mi tocca fare un discorso, non mi piace.</su>
+          <su lang="ru">— Если мне надо выступить с речью, то я не согласна.</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="it">— Nessun discorso: deve soltanto entrare in questa bellissima scatoletta.</su>
+          <su lang="ru">— Никаких речей. Вам нужно только войти вот в эту красивую баночку.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Sarà venduto al giusto prezzo e verrà apprezzato come si merita.</su>
+          <su lang="ru">Затем вас продадут по нормальной цене и оценят по достоинству.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="it">— Che bello!</su>
+          <su lang="ru">— Прекрасно!</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="it">— Vero?</su>
+          <su lang="ru">— В самом деле?</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="it">— Peccato che io non possa accettare.</su>
+          <su lang="ru">— Жаль, но я не могу принять ваше предложение.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Guardi che approvo l'idea e non sono insensibile all'eleganza dell'etichetta.</su>
+          <su lang="ru">Мне нравится идея, и я не могу не оценить мастерство, с каким выполнена этикетка.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Purtroppo sono in partenza per le ferie; ho già il biglietto per Palermo.</su>
+          <su lang="ru">Только сейчас я собираюсь в отпуск, у меня уже есть билет в Палермо.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Non vorrei offendere le ferrovie dello Stato, mandando all'aria il viaggio. Le spedirò una cartolina.</su>
+          <su lang="ru">Не могу же я обидеть государственную железную дорогу и отложить поездку.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Stia bene e mi saluti sua moglie.</su>
+          <su lang="ru">Всего доброго, и привет жене!</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="it">— Non sono sposato! — urlò il gatto, fuori di sé.</su>
+          <su lang="ru">— Я не женат! — выходя из себя, заорал кот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence>
+          <su lang="it">— Fa niente: me la saluterà quando si sposa.</su>
+          <su lang="ru">— Неважно. Передадите, когда женитесь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="it">Il terzo topo prendeva il fresco in un prato di periferia, ma teneva la coda infilata nella tana e, attaccato alla coda, c'era suo cugino, pronto a tirarlo giú al primo segnale di pericolo.</su>
+          <su lang="ru">Третья мышка наслаждалась свежим воздухом на полянке, на краю города, но хвостик свой опустила в норку, и его держал там ее кузен, готовый по первому же сигналу втянуть ее обратно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="it">— Come sta? — domandò il gatto.</su>
+          <su lang="ru">— Как поживаете? — спросил кот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="it">— Sto e non sto, — rispose il topo.</su>
+          <su lang="ru">— Да как вам сказать… — ответила мышка.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Se sta qui lei, è difficile che ci resti anch'io per molto.</su>
+          <su lang="ru">— В вашем присутствии я обычно чувствую себя неважно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="it">— Sempre sospettosi, voi topi, — disse il signor gatto.</su>
+          <su lang="ru">— Уж очень вы, мышки, пугливы, — сказал синьор кот.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- E io che ero venuto qui con le migliori intenzioni…</su>
+          <su lang="ru">— А ведь я пришел сюда с наилучшими намерениями…</su>
+        </sentence>
+        <sentence>
+          <su lang="it">— Migliori per chi?</su>
+          <su lang="ru">— Наилучшими для кого?</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="it">— Ma per lei, s'intende!</su>
+          <su lang="ru">— Для вас, разумеется!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Sa cosa ho pensato?</su>
+          <su lang="ru">Знаете, что я думаю?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Che lei sarebbe un socio ideale per il mio negozio di generi alimentari.</su>
+          <su lang="ru">Что вы будете отличным компаньоном в моей торговле продовольственными товарами.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ci sta?</su>
+          <su lang="ru">Вас устраивает?</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="it">— Dove?</su>
+          <su lang="ru">— Что именно?</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="it">— In questa scatola.</su>
+          <su lang="ru">— Вот эта баночка.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Guardi che bella.</su>
+          <su lang="ru">Смотрите, какая красивая!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Commerceremo in topi in scatola.</su>
+          <su lang="ru">Будем торговать «Подарочными мышками»!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Io farò la maggior parte del lavoro, perché m'incaricherò delle vendite.</su>
+          <su lang="ru">Я возьму на себя большую часть работы, так как займусь продажей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence>
+          <su lang="it">— Bravo.</su>
+          <su lang="ru">— Недурно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="it">— Grazie.</su>
+          <su lang="ru">— Спасибо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="it">— Bravo.</su>
+          <su lang="ru">— Недурно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="it">— Grazie.</su>
+          <su lang="ru">— Спасибо.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ma perché me l'ha detto due volte?</su>
+          <su lang="ru">Но почему вы дважды повторили это?</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="it">— Una volta per l'orecchio destro e una volta per l'orecchio sinistro.</su>
+          <su lang="ru">— Один раз для правого уха, другой раз — для левого.</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence>
+          <su lang="it">— Allora, andiamo?</su>
+          <su lang="ru">— Ну так пошли?</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="it">— No.</su>
+          <su lang="ru">— Нет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="it">— Perché no?</su>
+          <su lang="ru">— Почему нет?</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="it">— Perché debbo accompagnare mia nonna a fare un giro in giostra.</su>
+          <su lang="ru">— Потому что мне надо навестить мою бабушку и покатать ее на карусели.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="it">— Ecco, — strepitò il signor gatto, — ecco come siete voi topi.</su>
+          <su lang="ru">— Вот! — вскипел синьор кот. — Вот все вы, мыши, такие!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Non ve ne importa nulla del commercio; non muovete un dito per incrementare le vendite e per far circolare il denaro come si deve.</su>
+          <su lang="ru">Вам нет никакого дела до торговли! Вы пальцем не пошевельнете для ее развития, для подъема экономики и укрепления финансов.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">E avete anche delle nonne un po' matte, che pensano ancora ad andare in giostra.</su>
+          <su lang="ru">И вдобавок у вас еще какие-то сумасшедшие бабушки — они еще способны кататься на карусели!</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence>
+          <su lang="it">— Sicuro, e sull'altalena.</su>
+          <su lang="ru">— Ну да, и на качелях тоже.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">E lei lasci stare mia nonna, che è simpatica proprio perché è mezza matta.</su>
+          <su lang="ru">И вы лучше оставьте мою бабушку в покое. Она потому и славная такая, что почти сумасшедшая.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tanti saluti a lei e tanti saluti ai suoi gattini.</su>
+          <su lang="ru">Всего доброго, и привет вашим детям!</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence>
+          <su lang="it">— Non ho figli!</su>
+          <su lang="ru">— Но у меня нет детей!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Non sono sposato!</su>
+          <su lang="ru">Я не женат.</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence>
+          <su lang="it">— Allora si sposi e mi mandi i confetti.</su>
+          <su lang="ru">— Так женитесь и пришлите мне свадебных конфет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="95">
+        <sentence>
+          <su lang="it">Il topo diede il segnale e suo cugino, con uno strattone alla coda, lo tirò giù nella tana cosí in fretta che il gatto ebbe l'impressione si fosse disfatto nell'aria, come una bolla di sapone: adesso c'è, adesso non c'è piú.</su>
+          <su lang="ru">Мышка дала сигнал, и ее кузен, с силой дернув за хвост, так быстро утянул ее в норку, что коту показалось, будто она растаяла в воздухе, словно мыльный шарик, — только что была и уже нет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence>
+          <su lang="it">— Ottimi affari, signor gatto, — miagolò la cassiera, nel veder tornare il suo principale.</su>
+          <su lang="ru">— Дела идут прекрасно, синьор кот, — промяукала кассирша, встретив хозяина.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Abbiamo già avuto centodiciassette prenotazioni.</su>
+          <su lang="ru">— Мы получили уже 117 заказов.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">La contessa De Felinis ha ordinato duecento scatolette.</su>
+          <su lang="ru">Графиня де Фелинис заказала двести банок.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ho fatto il conto che dobbiamo darle anche sessantasei apriscatole e mezzo.</su>
+          <su lang="ru">Я подсчитала, и получилось, что мы должны дать ей также 66 с половиной консервных ножей.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Il mezzo apriscatole glielo do dalla parte della punta o dalla parte del manico?</su>
+          <su lang="ru">А какую половину ножа нужно дать ей — ту, что с лезвием, или ту, что с ручкой?</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence>
+          <su lang="it">Il signor gatto borbottò tra i baffi qualcosa di poco chiaro.</su>
+          <su lang="ru">Синьор кот проворчал себе в усы что-то невнятное.</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence>
+          <su lang="it">— Osservi come ha lavorato bene mio fratello, — riprese la cassiera.</su>
+          <su lang="ru">— Посмотрите, как хорошо поработал мой брат, — снова заговорила кассирша.</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence>
+          <su lang="it">Il gattino fattorino aveva disposto nella vetrina le scatole a forma di piramide.</su>
+          <su lang="ru">Котенок-рассыльный уложил банки в витрине в виде пирамиды.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Alcune, per la verità, le aveva messe a rovescio, perché non sapeva leggere le parole dell'etichetta.</su>
+          <su lang="ru">Некоторые он, правда, перевернул, потому что не умел читать.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ma la soddisfazione del lavoro compiuto brillava sui suoi giovani baffi.</su>
+          <su lang="ru">Но радость от проделанной работы сверкала в его молодых усах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence>
+          <su lang="it">Il signor gatto disse: — Bene, bene.</su>
+          <su lang="ru">Синьор кот сказал: — Ладно, ладно.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Per oggi basta cosí.</su>
+          <su lang="ru">На сегодня хватит.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Andate pure a casa.</su>
+          <su lang="ru">Идите домой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="102">
+        <sentence>
+          <su lang="it">— Ha trovato dei buoni topi, signor gatto? — domandò la cassiera, lisciandosi la pelliccia, come fanno tutte le cassiere prima di uscire.</su>
+          <su lang="ru">— Нашли хороших мышек, синьор кот? — поинтересовалась кассирша, поглаживая свою шубку, как это делают все кассирши, уходя домой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="103">
+        <sentence>
+          <su lang="it">— Ho detto basta.</su>
+          <su lang="ru">— Я сказал — хватит!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Vi pago per lavorare, non per fare domande.</su>
+          <su lang="ru">Я плачу вам за работу, а не за расспросы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="104">
+        <sentence>
+          <su lang="it">La cassiera e il fratellino capirono che non era il caso di insistere con i punti interrogativi e se la filarono con la coda bassa.</su>
+          <su lang="ru">Кассирша и ее братец поняли, что разговор окончен, и удалились, опустив хвосты.</su>
+        </sentence>
+      </p>
+      <p type="text" id="105">
+        <sentence>
+          <su lang="it">Il signor gatto, chiuso il negozio, tornò a chiedere consiglio allo zio Terzo.</su>
+          <su lang="ru">Синьор кот запер магазин и снова пошел за советом к Третьему дядюшке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="106">
+        <sentence>
+          <su lang="it">— Caro zio, cosí e cosí: i topi non vogliono assolutamente saperne di entrare nelle scatole e domani debbo consegnare un'importante ordinazione alla contessa De Felinis.</su>
+          <su lang="ru">— Дорогой дядюшка, так, мол, и так. Мышки ни за что не хотят забираться в банки, а завтра я должен доставить графине де Фелинис важный заказ.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Che fare?</su>
+          <su lang="ru">Что делать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="107">
+        <sentence>
+          <su lang="it">— Figliolo caro, — disse il gatto zio, — hai dimenticato la propaganda.</su>
+          <su lang="ru">— Дитя мое, — сказал дядюшка коту, — ты забыл о рекламе.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Lo sai o non lo sai che la réclame è l'anima del commercio?</su>
+          <su lang="ru">Разве ты не знаешь, что реклама — двигатель торговли?</su>
+        </sentence>
+      </p>
+      <p type="text" id="108">
+        <sentence>
+          <su lang="it">— Altroché se lo so: ho perfino promesso l'apriscatole e i buoni punto.</su>
+          <su lang="ru">— Конечно, знаю. Я даже пообещал покупателям консервные ножи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="109">
+        <sentence>
+          <su lang="it">— Questa propaganda va bene per chi deve comprare i topi in scatola, ma non va bene per i topi.</su>
+          <su lang="ru">— Такая реклама хороша для покупателей, но совершенно не годится для мышей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="110">
+        <sentence>
+          <su lang="it">— Certo, se do l'apriscatole anche a loro, scappano fuori dalla scatola…</su>
+          <su lang="ru">— Но если я им тоже дам консервные ножи, они откроют банки и разбегутся…</su>
+        </sentence>
+        <sentence>
+          <su lang="it">— La miglior propaganda per i topi è il formaggio.</su>
+          <su lang="ru">— Лучшая реклама для мышей — это сыр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="111">
+        <sentence>
+          <su lang="it">— Grana o groviera?</su>
+          <su lang="ru">— Швейцарский или пармезанский?</su>
+        </sentence>
+      </p>
+      <p type="text" id="112">
+        <sentence>
+          <su lang="it">— Grana, groviera o pecorino fa lo stesso, purché ci possano scavare delle gallerie.</su>
+          <su lang="ru">— Швейцарский, пармезанский, пошехонский — какой угодно, лишь бы они могли делать в нем дырки.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Anche il caciocavallo è buono.</su>
+          <su lang="ru">Даже твердокаменный качкавал сойдет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="113">
+        <sentence>
+          <su lang="it">— Basta cosí, - esclamò il signor gatto.</su>
+          <su lang="ru">— Хорошо! — воскликнул синьор кот.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Ho capito al volo.</su>
+          <su lang="ru">— Я все понял!</su>
+        </sentence>
+      </p>
+      <p type="text" id="114">
+        <sentence>
+          <su lang="it">— Hai la testa fina, tu, — approvò lo zio Terzo.</su>
+          <su lang="ru">— У тебя толковая готова! — похвалил его дядя Третий.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Del resto nella nostra famiglia crescono solo teste fine.</su>
+          <su lang="ru">— Впрочем, в нашей семье только такими все и растут.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tuo nonno aveva sempre contemporaneamente due case, ciascuna con la cuccia, la scodella del latte e il piattino della ciccia.</su>
+          <su lang="ru">У твоего деда, например, всегда было два дома, и в каждом на кухне — миска для молока и блюдце с мясом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="115">
+        <sentence>
+          <su lang="it">— Come faceva?</su>
+          <su lang="ru">— Каким образом?</su>
+        </sentence>
+      </p>
+      <p type="text" id="116">
+        <sentence>
+          <su lang="it">— Di giorno abitava in casa di una guardia notturna.</su>
+          <su lang="ru">— Днем он жил у ночного сторожа.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Di sera, e fino alla mattina dopo, abitava in casa di una maestra.</su>
+          <su lang="ru">А вечером и ночью — у учительницы.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Quando la maestra usciva per andare a scuola, fingeva d'accompagnarla e andava in casa della guardia.</su>
+          <su lang="ru">Когда она уходила в школу, он притворялся, будто провожает ее, и шел к сторожу.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Quando la guardia usciva per andare al lavoro, l'accompagnava un pezzetto e tornava in casa della maestra.</su>
+          <su lang="ru">А когда сторож уходил на работу, провожал его тоже и возвращался к учительнице.</su>
+        </sentence>
+      </p>
+      <p type="text" id="117">
+        <sentence>
+          <su lang="it">— Straordinario.</su>
+          <su lang="ru">— Потрясающе!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">E come si chiamava?</su>
+          <su lang="ru">А как звали деда?</su>
+        </sentence>
+      </p>
+      <p type="text" id="118">
+        <sentence>
+          <su lang="it">— A casa della maestra si chiamava Piumino; a casa della guardia notturna si chiamava Napoleone.</su>
+          <su lang="ru">— В доме учительницы — Пушок, а у ночного сторожа он был Наполеоном.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Noi lo chiamavamo Moltiplicato Due.</su>
+          <su lang="ru">Мы его звали Умноженный-На-Два.</su>
+        </sentence>
+      </p>
+      <p type="text" id="119">
+        <sentence>
+          <su lang="it">Il signor gatto comprò una grossa forma di parmigiano, la portò in cantina e la mise davanti alla tana del topo, in modo da chiudere il buco.</su>
+          <su lang="ru">Синьор кот купил большой круг пармезанского сыра, отнес его в подвал и закрыл им вход в норку.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Il topo, se voleva uscire, doveva passare attraverso il formaggio.</su>
+          <su lang="ru">Чтобы выбраться наружу, мышке надо было прогрызть сыр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="120">
+        <sentence>
+          <su lang="it">— Io mi terrò qui pronto con la scatola, — ridacchiava il gatto, - e appena il topo sbuca fuori dal formaggio, zaff, dentro; trik trak, chiuso il coperchio, e via, a bottega.</su>
+          <su lang="ru">— А я поставлю здесь банку наготове, — посмеивался кот, — и как только она выскочит из сыра, тут же — прыг! — и окажется в банке.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Sniff!</su>
+          <su lang="ru">А я — хлоп! — и закрою ее крышкой.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Sniff!</su>
+          <su lang="ru">И отнесу в магазин!</su>
+        </sentence>
+      </p>
+      <p type="text" id="121">
+        <sentence>
+          <su lang="it">Le cose, fino a un certo punto, andarono secondo le sue previsioni.</su>
+          <su lang="ru">Поначалу все шло, как он задумал.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Il topo, per uscire dalla sua tana, dovette entrare nel parmigiano, scavando una galleria.</su>
+          <su lang="ru">Мышка, чтобы вылезти из норки, забралась в сыр, проделав в нем ход.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Questo lavoro non gli dispiaceva per niente, perché il parmigiano era reggiano, garantito e stagionato.</su>
+          <su lang="ru">Эта работа была ей вполне по душе, потому что сыр был вкусный, выдержанный и ароматный, высшего сорта.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Sua moglie gli diede una mano e rosicchiò la sua parte.</su>
+          <su lang="ru">Мышкин муж тоже немного потрудился над ним.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">I loro sette figli si divertirono un mondo a scavare piccole gallerie, adatte alla loro età, in tutte le direzioni. Digerivano il formaggio senza la minima difficoltà.</su>
+          <su lang="ru">А семеро мышиных ребятишек вовсю забавлялись, делая разные боковые ходы и переходы во всех направлениях.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ingrassavano a vista d'occhio.</su>
+          <su lang="ru">Они прекрасно усваивали этот продукт и толстели прямо на глазах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="122">
+        <sentence>
+          <su lang="it">Il topo, senza smettere di mangiare, rifletteva.</su>
+          <su lang="ru">Мышка, не переставая грызть сыр, размышляла.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Fare due cose per volta non era fatica per lui, perché era un topo intelligente.</su>
+          <su lang="ru">Делать сразу два дела не составляло для нее труда, потому что это была умная мышка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="123">
+        <sentence>
+          <su lang="it">«A questo mondo, — egli pensava, — nessuno ti regala una forma di formaggio senza chiederti qualcosa in cambio. una brutta cosa, ma bisogna tenerne conto.</su>
+          <su lang="ru">«В этом мире, — думала она, — никто не станет дарить тебе круг сыра просто так, ничего не попросив взамен. Очевидно, этот сыр поставлен тут не случайно.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">E prima di tutto bisogna sapere chi mi ha messo il parmigiano sulla porta di casa».</su>
+          <su lang="ru">И прежде всего надо разузнать, кто положил его на порог моего дома».</su>
+        </sentence>
+      </p>
+      <p type="text" id="124">
+        <sentence>
+          <su lang="it">Per saperlo, fece un buchetto piccolissimo nella crosta e vide il signor gatto con la scatola in una zampa e il coperchio nell'altra.</su>
+          <su lang="ru">Чтобы узнать это, она сделала совсем крохотную дырочку в корке и увидела синьора кота, притаившегося с банкой наготове.</su>
+        </sentence>
+      </p>
+      <p type="text" id="125">
+        <sentence>
+          <su lang="it">— Buongiorno, — disse il topo.</su>
+          <su lang="ru">— Добрый день, — сказала мышка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="126">
+        <sentence>
+          <su lang="it">Il signor gatto senti la vocina che usciva dalla forma, ma non vide nulla e nessuno.</su>
+          <su lang="ru">Синьор кот услышал тонкий голосок, доносившийся из сыра, но ничего не увидел.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tuttavia, per non parere maleducato, rispose al saluto. Tanto piú che aveva riconosciuto la voce del topo.</su>
+          <su lang="ru">И все же из вежливости ответил на приветствие, Тем более что узнал мышкин голос.</su>
+        </sentence>
+      </p>
+      <p type="text" id="127">
+        <sentence>
+          <su lang="it">— Buongiorno anche a lei.</su>
+          <su lang="ru">— Добрый день!</su>
+        </sentence>
+      </p>
+      <p type="text" id="128">
+        <sentence>
+          <su lang="it">— Che cosa fa di bello?</su>
+          <su lang="ru">— Что вы тут делаете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="129">
+        <sentence>
+          <su lang="it">— Non lo vede?</su>
+          <su lang="ru">— Не видите?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Faccio la pubblicità alle mie scatolette.</su>
+          <su lang="ru">Рекламирую свою продукцию.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Che cosa gliene pare?</su>
+          <su lang="ru">Что вы об этом скажете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="130">
+        <sentence>
+          <su lang="it">— Il formaggio è di ottima qualità.</su>
+          <su lang="ru">— Сыр прекрасный!</su>
+        </sentence>
+      </p>
+      <p type="text" id="131">
+        <sentence>
+          <su lang="it">— Ha visto?</su>
+          <su lang="ru">— Вот видите.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Dunque, ragioni: se il formaggio è buono, le scatolette saranno anche meglio.</su>
+          <su lang="ru">А теперь согласитесь — если хорош сыр, то «Подарочные мышки» будут еще лучше.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Si vuole accomodare?</su>
+          <su lang="ru">Не хотите ли расположиться в этой баночке?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">L'aiuto ad uscire?</su>
+          <su lang="ru">Помочь вам войти?</su>
+        </sentence>
+      </p>
+      <p type="text" id="132">
+        <sentence>
+          <su lang="it">— Per carità, non si disturbi.</su>
+          <su lang="ru">— Нет, ради бога не беспокойтесь!</su>
+        </sentence>
+      </p>
+      <p type="text" id="133">
+        <sentence>
+          <su lang="it">— Anzi, è un piacere per me…</su>
+          <su lang="ru">— Ну что вы, я рад помочь вам!</su>
+        </sentence>
+      </p>
+      <p type="text" id="134">
+        <sentence>
+          <su lang="it">— No, grazie.</su>
+          <su lang="ru">— Нет, благодарю.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Di uscire non mi va.</su>
+          <su lang="ru">Я не собираюсь выходить.</su>
+        </sentence>
+      </p>
+      <p type="text" id="135">
+        <sentence>
+          <su lang="it">Il signor gatto si arrabbiò da non dire.</su>
+          <su lang="ru">Синьор кот рассердился так, что и не передать:</su>
+        </sentence>
+      </p>
+      <p type="text" id="136">
+        <sentence>
+          <su lang="it">— Ecco come siete, voi topi.</su>
+          <su lang="ru">— Вот вы какие, мыши!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Il formaggio ve lo pappate, ma non volete dare niente in cambio.</su>
+          <su lang="ru">Сыр едите, а взамен ничего не хотите дать!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Questo non è leale.</su>
+          <su lang="ru">Разве так поступают?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">In commercio bisogna agire correttamente: io ti do una cosa a te, tu mi dài una cosa a me.</su>
+          <su lang="ru">В торговле нужно быть корректным: я тебе даю одно, а ты мне — другое.</su>
+        </sentence>
+      </p>
+      <p type="text" id="137">
+        <sentence>
+          <su lang="it">— Va bene.</su>
+          <su lang="ru">— Хорошо.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Le lascerò la crosta, cosí siamo pari.</su>
+          <su lang="ru">Я оставлю вам корку. И мы в расчете.</su>
+        </sentence>
+      </p>
+      <p type="text" id="138">
+        <sentence>
+          <su lang="it">— La denuncerò per truffa, furto e impertinenza.</su>
+          <su lang="ru">— Я подам на вас в суд за обман!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Dovrà rispondere delle sue azioni in tribunale.</su>
+          <su lang="ru">Вы мне ответите!</su>
+        </sentence>
+      </p>
+      <p type="text" id="140">
+        <sentence>
+          <su lang="it">— Sí, il giorno del mai!</su>
+          <su lang="ru">— Согласна. В тот день, который никогда не наступит. — Нет!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">— Oggi stesso, invece!</su>
+          <su lang="ru">Сегодня же!</su>
+        </sentence>
+      </p>
+      <p type="text" id="141">
+        <sentence>
+          <su lang="it">Cosí dicendo, il gatto afferrò la forma e la fece rotolare verso la porta della cantina, indifferente agli squittii di terrore dei sette topolini che si sentivano sbatacchiare da tutte le parti.</su>
+          <su lang="ru">И, говоря так, кот схватил сыр и покатил его к дверям, не обращая внимания на испуганный писк семерых мышат, которые перекатывались внутри.</su>
+        </sentence>
+      </p>
+      <p type="text" id="142">
+        <sentence>
+          <su lang="it">— Niente paura, — raccomandò il topo alla famiglia.</su>
+          <su lang="ru">— Не бойтесь, — успокоила их мышка.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Questo formaggio non sarà né la nostra trappola né la nostra prigione: sarà la nostra fortezza.</su>
+          <su lang="ru">— Этот сыр не будет для нас ни ловушкой, ни тюрьмой. Он станет нашей крепостью.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Voglio vedere chi riuscirà a tirarci fuori di qui.</su>
+          <su lang="ru">Хотела бы я посмотреть, кому удастся вытащить нас отсюда.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Calma, sangue freddo e musica classica.</su>
+          <su lang="ru">Спокойствие, хладнокровие и классическая музыка.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Per tenerci su, canteremo il nostro inno.</su>
+          <su lang="ru">Для бодрости духа споем наш гимн.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ed egli stesso diede l'esempio, intonando la prima strofa:</su>
+          <su lang="ru">— И тут же затянула первую строфу:</su>
+        </sentence>
+      </p>
+      <p type="text" id="143">
+        <sentence>
+          <su lang="it">— Viva i topi nel formaggio,@ viva i topi di coraggio!</su>
+          <su lang="ru">Да славятся мышки в сыре, Самые храбрые в мире!</su>
+        </sentence>
+      </p>
+      <p type="text" id="144">
+        <sentence>
+          <su lang="it">La moglie del topo uní la sua voce a quella del marito e uno dopo l'altro anche i sette topolini la smisero di piagnucolare e cominciarono a cantare:</su>
+          <su lang="ru">Муж мышки присоединил к ней свой голос, а затем и семеро мышат перестали плакать и тоже запели:</su>
+        </sentence>
+      </p>
+      <p type="text" id="145">
+        <sentence>
+          <su lang="it">— Viva il cacio pecorino,@ il groviera e lo stracchino!</su>
+          <su lang="ru">Да славится на весь мир Наш пармезанский сыр!</su>
+        </sentence>
+      </p>
+      <p type="text" id="146">
+        <sentence>
+          <su lang="it">Il signor gatto, sempre facendo rotolare la forma come una ruota d'automobile, usci dalla cantina e si avviò verso il tribunale.</su>
+          <su lang="ru">Синьор кот выкатил круг сыра, словно автомобильную шину, из подвала и направился в суд.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">La gente si voltava a guardare e a sentire.</su>
+          <su lang="ru">Люди оборачивались и с удивлением смотрели на него.</su>
+        </sentence>
+      </p>
+      <p type="text" id="147">
+        <sentence>
+          <su lang="it">— Strano, un formaggio che canta.</su>
+          <su lang="ru">— Как странно — поющий сыр!</su>
+        </sentence>
+      </p>
+      <p type="text" id="148">
+        <sentence>
+          <su lang="it">— Per forza: è parmigiano.</su>
+          <su lang="ru">— Чего же удивляться — это же пармезанский.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">A Parma amano moltissimo l'opera lirica.</su>
+          <su lang="ru">А в Парме, как известно, все очень любят оперную музыку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="149">
+        <sentence>
+          <su lang="it">— Le inventano tutte.</su>
+          <su lang="ru">— Да, они, конечно, мастера делать сыр.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Meno una.</su>
+          <su lang="ru">Только до одного не могут додуматься.</su>
+        </sentence>
+      </p>
+      <p type="text" id="150">
+        <sentence>
+          <su lang="it">— Quale?</su>
+          <su lang="ru">— До чего же?</su>
+        </sentence>
+      </p>
+      <p type="text" id="151">
+        <sentence>
+          <su lang="it">— La maniera di mangiare senza lavorare.</su>
+          <su lang="ru">— Как есть, не работая.</su>
+        </sentence>
+      </p>
+      <p type="text" id="152">
+        <sentence>
+          <su lang="it">— Ignorante!</su>
+          <su lang="ru">— Этого только ты, чудак, не знаешь!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Di persone che non lavorano e mangiano lo stesso ce n'è piú di sette.</su>
+          <su lang="ru">А людей, которые не работают, но едят, сколько угодно!</su>
+        </sentence>
+      </p>
+      <p type="text" id="153">
+        <sentence>
+          <su lang="it">Il gatto spinse il formaggio davanti al banco del giudice e domandò giustizia:</su>
+          <su lang="ru">Кот прикатил сыр к судье и потребовал разбирательства:</su>
+        </sentence>
+      </p>
+      <p type="text" id="154">
+        <sentence>
+          <su lang="it">— Eccellenza, i topi mi hanno rubato il formaggio!</su>
+          <su lang="ru">— Ваша милость, мышки украли у меня сыр!</su>
+        </sentence>
+      </p>
+      <p type="text" id="155">
+        <sentence>
+          <su lang="it">— Veramente, — osservò il giudice, — si direbbe che sia stato il formaggio a rubare i topi.</su>
+          <su lang="ru">— Было бы правильнее сказать, — заметил судья, — что сыр украл мышей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="156">
+        <sentence>
+          <su lang="it">— cosí, è cosí! - squittì il topo, affacciandosi alla bocca della galleria.</su>
+          <su lang="ru">— Вот именно! Вот именно! — пропищала мышка, выглядывая из дырки в сыре.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Si tratta di sequestro di persona, eccellenza!</su>
+          <su lang="ru">— Нас захватили в плен, ваша милость.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Nove persone in tutto!</su>
+          <su lang="ru">Нас девять человек!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Sette minori di quattordici anni!</su>
+          <su lang="ru">В том числе дети младше четырнадцати лет!</su>
+        </sentence>
+      </p>
+      <p type="text" id="157">
+        <sentence>
+          <su lang="it">— Il formaggio l'avete pappato, però, - ruggí il signor gatto.</su>
+          <su lang="ru">— Но вы же съели почти весь мой сыр! — закричал синьор кот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="158">
+        <sentence>
+          <su lang="it">— L'abbiamo mangiato perché ci era stato offerto.</su>
+          <su lang="ru">— Мы его ели, потому что нам его предложили.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Era un formaggio pubblicitario e reclamistico.</su>
+          <su lang="ru">Это был рекламный сыр.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Omaggio della ditta.</su>
+          <su lang="ru">Подарок фирмы, так сказать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="159">
+        <sentence>
+          <su lang="it">— vero? — domandò il giudice.</su>
+          <su lang="ru">— Это верно? — спросил судья.</su>
+        </sentence>
+      </p>
+      <p type="text" id="160">
+        <sentence>
+          <su lang="it">— Purtroppo, — dovette ammettere il signor gatto.</su>
+          <su lang="ru">— К сожалению, — должен был признать синьор кот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="161">
+        <sentence>
+          <su lang="it">— Allora ne mangio un pezzo anch'io, — disse il giudice.</su>
+          <su lang="ru">— Тогда я тоже его попробую, — сказал судья.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Apprezzo la buona pubblicità e adoro Carosello.</su>
+          <su lang="ru">— Я уважаю рекламу и люблю рекламные передачи по телевидению.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Dopo di che ordino che i topi siano muniti di salvacondotto e possano tornare alla loro abitazione sotto scorta e senza pericolo.</su>
+          <su lang="ru">А потом я прикажу выдать мышкам охранный пропуск, чтобы они могли спокойно вернуться домой.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Il signor gatto pagherà le spese del processo.</su>
+          <su lang="ru">Синьор кот оплатит судебные издержки.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Bang!</su>
+          <su lang="ru">Все!</su>
+        </sentence>
+      </p>
+      <p type="text" id="162">
+        <sentence>
+          <su lang="it">Con un colpo di martello il giudice pose fine all'udienza e si leccò i baffi.</su>
+          <su lang="ru">Ударом молотка судья положил конец судебному разбирательству и облизал усы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="163">
+        <sentence>
+          <su lang="it">I topi furono riaccompagnati a casa e per tutta la strada non cessarono un momento di cantare l'inno, che era stato musicato da un loro antenato di nome Giovanni Sebastiano.</su>
+          <su lang="ru">Мышек проводили домой, и они всю дорогу распевали свой гимн, который был написан их предком по имени Иоганн Себастьян.</su>
+        </sentence>
+      </p>
+      <p type="text" id="164">
+        <sentence>
+          <su lang="it">Il signor gatto tornò invece al negozio, dove la cassiera gli corse incontro giubilando:</su>
+          <su lang="ru">А синьор кот вернулся в свой магазин, где кассирша с радостью бросилась ему навстречу:</su>
+        </sentence>
+      </p>
+      <p type="text" id="165">
+        <sentence>
+          <su lang="it">— La marchesa De Sorianis ha ordinato settecentoquindici scatolette.</su>
+          <su lang="ru">— Маркиза де Сорианис заказала 715 баночек!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Le vuole per stasera alle otto meno venti.</su>
+          <su lang="ru">Они нужны ей сегодня без двадцати восемь.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ho calcolato che mio fratello dovrà fare sette viaggi per eseguire questa consegna.</su>
+          <su lang="ru">Я подсчитала, что моему брату, чтобы доставить весь товар, придется съездить к ней семь раз!</su>
+        </sentence>
+      </p>
+      <p type="text" id="166">
+        <sentence>
+          <su lang="it">— Sono bravo? — domandò il gattino fattorino.</su>
+          <su lang="ru">— Разве я не молодец? — спросил котенок-рассыльный.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Merito un aumento di stipendio?</su>
+          <su lang="ru">— Разве я не заслуживаю повышения зарплаты?</su>
+        </sentence>
+      </p>
+      <p type="text" id="167">
+        <sentence>
+          <su lang="it">Il signor gatto, senza dire parola, si arrampicò sul banco a meditare.</su>
+          <su lang="ru">Синьор кот, не говоря ни слова, уселся на прилавок и задумался.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">«Ecco, — egli pensava, — la riconoscenza del pubblico.</su>
+          <su lang="ru">«Вот, — вздохнул он, — благодарность публики.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tu ti sacrifichi, apri un negozio nuovo, compri le scatolette, incolli le etichette, assumi del personale, ti dài da fare nell'interesse della clientela.</su>
+          <su lang="ru">Ты выкладываешься, открываешь новый магазин, покупаешь банки, наклеиваешь на них этикетки, нанимаешь людей, заботишься об интересах покупателей, и что получается?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">E che cosa ne ottieni?</su>
+          <su lang="ru">Ничего.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ci rimetti il formaggio e le spese del processo.</su>
+          <su lang="ru">Только расходы на сыр и судебные издержки!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tutto perché i topi si rifiutano di capire i vantaggi del commercio e non tengono nel minimo conto i problemi dell'alimentazione».</su>
+          <su lang="ru">И все потому, что мыши не хотят понять условия торговли и совершенно не интересуются проблемами питания.</su>
+        </sentence>
+      </p>
+      <p type="text" id="168">
+        <sentence>
+          <su lang="it">«la fine del mondo, — pensava il signor gatto, leccandosi distrattamente una zampa che odorava ancora di parmigiano.</su>
+          <su lang="ru">Конец света! — думал синьор кот, машинально облизывая лапу, все еще пахнущую пармезанским сыром.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- Non vale la pena di fare del bene al prossimo.</su>
+          <su lang="ru">— Вот и делай после этого добро ближнему.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ai topi, poi!»</su>
+          <su lang="ru">Особенно мышам!</su>
+        </sentence>
+      </p>
+      <p type="text" id="169">
+        <sentence>
+          <su lang="it">«I topi, — pensava il signor gatto, abbandonandosi alla piú cupa tristezza e lasciando spenzolare dal banco la coda come una bandiera a mezz'asta in un giorno di lutto nazionale, — hanno una vita meschina e senza gloria.</su>
+          <su lang="ru">«Мыши, — размышлял синьор кот, вконец расстроенный, и хвост его свисал с прилавка, словно приспущенный в день траура флаг, — живут жалкой, бесславной жизнью.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Io voglio dar loro un avvenire migliore, metterli in vetrina, sotto gli occhi di tutti.</su>
+          <su lang="ru">Я готов обеспечить им хорошее будущее, выставить их в витрине на всеобщее обозрение.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Io procuro loro, a mie spese, scatole di latta solide e ben sigillate, con suvvi (dico suvvi, e scusate se è poco!) etichette dipinte da un primario artista, nelle quali i topi sono perfino piú belli di quanto non siano in realtà.</su>
+          <su lang="ru">Я предлагаю им — за свой счет — прочные жестяные, хорошо закрытые банки, с красивыми этикетками работы первоклассных художников. На них мышки выглядят даже лучше, чем в действительности.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Io offro l'apriscatole, i buoni punto, stabilisco un prezzo alla portata di tutte le borse.</su>
+          <su lang="ru">Я предлагаю в награду покупателям консервные ножи, устанавливаю вполне доступную всем цену.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ed ecco il risultato.</su>
+          <su lang="ru">И вот результат.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Essi mi oppongono il piú cieco sabotaggio e corrompono il giudice con il parmigiano per ottenere la mia condanna.</su>
+          <su lang="ru">Они саботируют мое предложение и, подкупая судью пармезанским сыром, восстанавливают его против меня.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Non c'è piú onestà a questo mondo.</su>
+          <su lang="ru">Нет справедливости на этом свете!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Non c'è piú religione.</su>
+          <su lang="ru">Нет ничего святого!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tanto varrebbe che io mi mettessi a fare il bandito».</su>
+          <su lang="ru">Лучше бы я стал бандитом!»</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Per un momento il signor gatto accarezzò quest'idea.</su>
+          <su lang="ru">И синьор кот на минуту представил себе, как бы это выглядело.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Si vedeva già bandito, brigante e pirata.</su>
+          <su lang="ru">Вот он — бандит, разбойник и пират.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Con una benda nera sull'occhio sinistro.</su>
+          <su lang="ru">С черной повязкой на левом глазу.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Sulla coda, una bandiera nera con la testa da morto e le ossa incrociate.</su>
+          <su lang="ru">На хвосте черный флаг с черепом и скрещенными костями.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Il suo motto: «Dove si posano le mie zampe, non crescono più topi».</su>
+          <su lang="ru">Его девиз: «Там, куда ступают мои лапы, мыши не растут».</su>
+        </sentence>
+      </p>
+      <p type="text" id="170">
+        <sentence>
+          <su lang="it">Vedeva già i grossi titoli dei giornali che esaltavano le sue imprese: Il terrore delle cantine ha colpito ancora! Un milione di topi a chi cattura il bandito gatto!</su>
+          <su lang="ru">Он уже видел огромные заголовки в газетах, восхищенно рассказывающие о его подвигах: «Снова нападение Грозы Подвалов!», «Миллион мышей в награду тому, кто поймает Кота-бандита!», «Дрожат все хвосты в городе!»</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Tutte le code della città tremano — Signor gatto, — disse in quel momento la cassiera, — che cosa debbo fare con la contessa De Felinis e la marchesa De Sorianis?</su>
+          <su lang="ru">— Синьор кот, — спросила в этот момент кассирша, — что мне делать с графиней де Фелинис и маркизой де Сорианис?</su>
+        </sentence>
+      </p>
+      <p type="text" id="171">
+        <sentence>
+          <su lang="it">— Signor gatto, — disse il fratello della cassiera, — per le consegne a domicilio adopero il mio triciclo o la ditta mi fornisce un furgoncino?</su>
+          <su lang="ru">— Синьор кот, — поинтересовался брат кассирши, — для доставки товаров на дом мне взять мой трехколесный велосипед или фирма предоставит фургончик?</su>
+        </sentence>
+      </p>
+      <p type="text" id="172">
+        <sentence>
+          <su lang="it">— Signor gatto, — disse ancora la cassiera, — è venuto quello delle tasse.</su>
+          <su lang="ru">— Синьор кот, — снова заговорила кассирша, — приходил налоговый инспектор.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Ha guardato nella cassa; ha visto che non c'era un soldo e ha detto che tornerà domani, anche se piove.</su>
+          <su lang="ru">Он посмотрел в кассу, увидел, что там нет ни одного сольдо, и сказал, что вернется завтра, даже если будет идти дождь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="173">
+        <sentence>
+          <su lang="it">— Signor gatto, — disse il fratello della cassiera, — visto che per oggi non c'è piú niente da fare, posso andare a giocare al pallone con i miei amici?</su>
+          <su lang="ru">— Синьор кот, — продолжал брат кассирши, — раз уж сегодня тут нечего делать, можно я пойду играть с друзьями в футбол?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Io sono il portiere della squadra, sa.</su>
+          <su lang="ru">Знаете, я ведь стою на воротах.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Paro i calci di rigore con la coda.</su>
+          <su lang="ru">Беру самые трудные мячи.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Forse l'anno venturo giocherò nella Pro-Forlimpopoli.</su>
+          <su lang="ru">И, может быть, в будущем году стану играть в национальной сборной.</su>
+        </sentence>
+      </p>
+      <p type="text" id="174">
+        <sentence>
+          <su lang="it">Il signor gatto si scosse.</su>
+          <su lang="ru">Синьор кот вздохнул.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Quante responsabilità!</su>
+          <su lang="ru">Какая ответственность!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">La merce, la clientela, la cassiera, le tasse, il fattorino, la Pro-Forlimpopoli…</su>
+          <su lang="ru">Товар, покупатели, кассирша, налоги, рассыльный, национальная сборная…</su>
+        </sentence>
+        <sentence>
+          <su lang="it">— Amici miei, — disse il signor gatto con decisione, — si volta pagina.</su>
+          <su lang="ru">— Друзья мои, — решительно сказал кот, — перевернем страницу.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Il commercio dei topi in scatola non attacca.</su>
+          <su lang="ru">Торговля «подарочными мышками» закончена.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Forse il progetto era troppo in anticipo sui tempi.</su>
+          <su lang="ru">Наверное, эта идея родилась несколько преждевременно.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Non sempre le idee geniali vengono subito comprese ed apprezzate.</su>
+          <su lang="ru">Люди не всегда сразу оценивают гениальные идеи.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Anche Galileo Galilei, quando disse che la terra girava intorno al sole, dovette subire non poche persecuzioni.</su>
+          <su lang="ru">Галилео Галилей, сказав, что Земля вертится вокруг Солнца, тоже вынужден был пережить немало неприятностей.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">E non parliamo di Cristoforo Colombo, quando voleva scoprire l'America e nessuno gli voleva dare le tre caravelle.</su>
+          <su lang="ru">Я уж не говорю про Христофора Колумба, который хотел открыть Америку, и никто не давал ему для этого трех каравелл.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Di me giudicheranno i posteri.</su>
+          <su lang="ru">Обо мне будут судить потомки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="175">
+        <sentence>
+          <su lang="it">— Sí? - disse la cassiera, che pendeva dalle sue labbra, in adorazione.</su>
+          <su lang="ru">— Да, — пропела кассирша, тая от восторга.</su>
+        </sentence>
+      </p>
+      <p type="text" id="176">
+        <sentence>
+          <su lang="it">— Ho deciso.</su>
+          <su lang="ru">— Я принял решение.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Basta con i topi in scatola.</su>
+          <su lang="ru">С подарочными мышками покончено.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Venderò veleno per i topi.</su>
+          <su lang="ru">Теперь я буду продавать яд против мышей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="177">
+        <sentence>
+          <su lang="it">— Che idea formidabile! — sospirò la cassiera.</su>
+          <su lang="ru">— Какая потрясающая мысль! — вздохнула кассирша.</su>
+        </sentence>
+      </p>
+      <p type="text" id="178">
+        <sentence>
+          <su lang="it">— Se non fosse stata un'idea formidabile, — disse il signor gatto, — non sarebbe venuta a me.</su>
+          <su lang="ru">— Если б она не была потрясающей, — сказал синьор кот, — она не пришла бы мне в голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Con il veleno per topi faremo ottimi affari.</su>
+          <su lang="ru">Начнем торговать ядом против мышей, и дела у нас пойдут отлично.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Per queste cose io ho il bernoccolo.</su>
+          <su lang="ru">В этом вопросе я дока.</su>
+        </sentence>
+      </p>
+      <p type="text" id="179">
+        <sentence>
+          <su lang="it">— Che bravo che è lei! — miagolò la cassiera.</su>
+          <su lang="ru">— Какой же вы молодец! — промяукала кассирша.</su>
+        </sentence>
+      </p>
+      <p type="text" id="180">
+        <sentence>
+          <su lang="it">— Si faranno ancora consegne a domicilio? — domandò il fattorino.</su>
+          <su lang="ru">— И тоже будем доставлять товар на дом?</su>
+        </sentence>
+      </p>
+      <p type="text" id="181">
+        <sentence>
+          <su lang="it">— Si faranno.</su>
+          <su lang="ru">— Будем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="182">
+        <sentence>
+          <su lang="it">— E come verremo pagati?</su>
+          <su lang="ru">— А как вы будете нам платить?</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Non con il veleno, spero.</su>
+          <su lang="ru">Надеюсь, не мышиным ядом?</su>
+        </sentence>
+      </p>
+      <p type="text" id="183">
+        <sentence>
+          <su lang="it">— Vi pagherò in contanti.</su>
+          <su lang="ru">— Буду платить наличными.</su>
+        </sentence>
+      </p>
+      <p type="text" id="184">
+        <sentence>
+          <su lang="it">— Allora dovrò imparare a contare, — disse il fattorino.</su>
+          <su lang="ru">— Тогда мне придется научиться считать, — вздохнул рассыльный.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">- E ora posso andare a giocare al pallone?</su>
+          <su lang="ru">— А пока я могу идти играть в футбол?</su>
+        </sentence>
+      </p>
+      <p type="text" id="185">
+        <sentence>
+          <su lang="it">— Vai pure, — disse il signor gatto, generosamente.</su>
+          <su lang="ru">— Иди, иди! — великодушно разрешил кот.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">E, tolto dalla vetrina il vecchio cartello, ne scrisse subito uno nuovo che diceva: Veleno per topi di qualità superiore in ogni scatola buoni punto diamo gratis una scatola a chi compra tre scatolette — Che bella calligrafia! — ammirò la cassiera.</su>
+          <su lang="ru">И, сняв с витрины старую вывеску, тут же написал новую, которая гласила: «Яд для мышей, высшего качества. Тот, кто купит сразу три банки, в награду бесплатно получит четвертую».</su>
+        </sentence>
+      </p>
+      <p type="text" id="186">
+        <sentence>
+          <su lang="it">— Questo è niente, — disse il signor gatto.</su>
+          <su lang="ru">— Какой прекрасный почерк! — восхитилась кассирша.</su>
+        </sentence>
+      </p>
+      <p type="text" id="187">
+        <sentence>
+          <su lang="it">- Quando scrivo a macchina faccio anche di meglio.</su>
+          <su lang="ru">— Это еще что, — ответил синьор кот, — когда я пишу на пишущей машинке, у меня еще лучше выходит.</su>
+        </sentence>
+      </p>
+      <p type="text" id="188">
+        <sentence>
+          <su lang="it">— Lei è piú bravo ancora di se stesso, — disse la gatta.</su>
+          <su lang="ru">— Вы превосходите самого себя, — сказала кошка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="189">
+        <sentence>
+          <su lang="it">— Cosa vuole, io sono un tipo cosí.</su>
+          <su lang="ru">— Что поделаешь, таким уж я уродился.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Si figuri che quando vado in macchina riesco continuamente a sorpassarmi.</su>
+          <su lang="ru">Представляете, когда я веду машину, то мне удается обогнать даже самого себя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="190">
+        <sentence>
+          <su lang="it">— Straordinario!</su>
+          <su lang="ru">— Потрясающе!</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Lo racconterò alla mia mamma.</su>
+          <su lang="ru">Я расскажу об этом моей маме.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Lo sa che vuol sempre sentir parlare di lei?</su>
+          <su lang="ru">А знаете, что она все время расспрашивает о вас?</su>
+        </sentence>
+      </p>
+      <p type="text" id="191">
+        <sentence>
+          <su lang="it">Il signor gatto non disse se lo sapeva o no.</su>
+          <su lang="ru">Синьор кот не сказал, знает он это или нет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="192">
+        <sentence>
+          <su lang="it">Alla fine, però, dovette sicuramente venirlo a sapere.</su>
+          <su lang="ru">Но в конце концов все-таки узнал.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Difatti, il signor gatto e la gattina si sposarono e vissero felici e contenti, litigando dalla mattina alla sera.</su>
+          <su lang="ru">И в самом деле, кот и кошка поженились и жили счастливо и дружно, ссорясь с утра и до вечера.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Si graffiavano il naso, si tiravano le scatole del veleno sul groppone, si rincorrevano brandendo minacciosamente l'apriscatole.</su>
+          <su lang="ru">Они царапали друг другу носы, швырялись банками с ядом, набрасывались друг на друга с консервными ножами.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">I topi, a quello spettacolo, si divertivano tanto, e anche di piú.</su>
+          <su lang="ru">Мышки немало развлекались, глядя на этот спектакль.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Anzi, uno di loro, si fece la tana proprio nel negozio e molti amici, parenti e conoscenti andavano a fargli visita solo per poter assistere ai litigi della bella e gentile famigliuola.</su>
+          <su lang="ru">Больше того, одна из них устроила свою норку прямо в магазине, и ее друзья, родственники и знакомые приходили к ней в гости только для того, чтобы посмотреть на семейный скандал этой милой и чудесной супружеской пары.</su>
+        </sentence>
+      </p>
+      <p type="text" id="193">
+        <sentence>
+          <su lang="it">Il topo faceva pagare dieci lire per ogni guardatina.</su>
+          <su lang="ru">За каждый такой «просмотр» мышка брала с гостей по десять лир.</su>
+        </sentence>
+      </p>
+      <p type="text" id="194">
+        <sentence>
+          <su lang="it">Tutti dicevano che era caro.</su>
+          <su lang="ru">Все говорили, что это дорого.</su>
+        </sentence>
+        <sentence>
+          <su lang="it">Però pagavano e guardavano.</su>
+          <su lang="ru">Но платили и смотрели.</su>
+        </sentence>
+      </p>
+      <p type="text" id="195">
+        <sentence>
+          <su lang="it">Il topo diventò tanto ricco che cambiò nome e si fece chiamare Barone.</su>
+          <su lang="ru">Мышка стала такой богатой, что поменяла имя и стала называться баронессой.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

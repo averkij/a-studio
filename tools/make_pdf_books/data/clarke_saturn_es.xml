@@ -1,0 +1,1189 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220624T133617Z</creationdate>
+    <paragraphs>94</paragraphs>
+    <langs>
+      <lang id="es">
+        <sentences>246</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>301</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="es">Arthur C. Clarke</s>
+      <s lang="ru">Артур Чарльз Кларк</s>
+    </author>
+    <title>
+      <s lang="es">Sale Saturno</s>
+      <s lang="ru">Восход Сатурна</s>
+    </title>
+    <contents>
+      <s lang="es">Tabla de contenido</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="es"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="es">Sí, esto es exacto.</su>
+          <su lang="ru">Да, это правда.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Conocí a Morris Perlman cuando yo tenía veintiocho años.</su>
+          <su lang="ru">С Моррисом Перлманом я познакомился, когда мне было двадцать восемь.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">En aquellos días conocí a miles de personas, de presidentes para abajo.</su>
+          <su lang="ru">Впрочем, тогда я общался с тысячами людей, от президентов и ниже.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="es">Cuando volvimos de Saturno, todo el mundo deseaba vernos, y la mitad de los tripulantes empezaron a dar conferencias.</su>
+          <su lang="ru">Когда мы вернулись с Сатурна, нас заваливали приглашениями. Наверное, половина экипажа отправилась в поездку с лекциями.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">A mí siempre me ha gustado hablar (no digan que no lo saben), pero algunos colegas míos dijeron que preferirían irse a Plutón que enfrentarse con otro auditorio.</su>
+          <su lang="ru">Что касается меня, то я всегда любил поболтать, и не говорите мне, будто этого не заметили. Зато некоторые из моих коллег скорее полетели бы на Плутон, чем еще раз предстали бы перед публикой.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y algunos lo hicieron.</su>
+          <su lang="ru">В итоге кое-кто так и поступил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="es">Yo recorrí el oeste medio, y la primera vez que tropecé con el señor Perlman (nadie lo llamaba jamás de otro modo, y ciertamente jamás «Morris») fue en Chicago.</su>
+          <su lang="ru">Мой путь пролегал через Средний Запад. В Чикаго я впервые встретился с мистером Перлманом. Никто не называл его иначе, и уж точно не по имени.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="es">La agencia siempre me alojaba en hoteles buenos, aunque no lujosos.</su>
+          <su lang="ru">Агентство всегда снимало для меня достаточно приличный, хотя и не слишком роскошный отель.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y esto me convenía, pues me gustaba estar en lugares donde pudiera entrar y salir a mis anchas sin encontrar a un grupo de atildados caballeros, y donde vestir a mi antojo sin tener la impresión de haber caído en una trampa.</su>
+          <su lang="ru">Меня это вполне устраивало. Я любил останавливаться в таких местах, откуда мог в любое время уйти и когда угодно вернуться, не проходя через строй швейцаров в ливреях, одеваться как угодно, лишь бы оставаться в рамках приличия и не чувствовать себя последним бродягой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="es">Veo que sonríen; bien, a la sazón era sólo un chiquillo, y desde entonces han cambiado las cosas.</su>
+          <su lang="ru">Вижу, вы улыбаетесь, но тогда я был молод. С тех пор многое изменилось.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="es">Ya hace mucho tiempo, pero debió de ser en una conferencia dada en la Universidad.</su>
+          <su lang="ru">Прошло уже немало лет, но, если не ошибаюсь, я читал лекции в Чикагском университете.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y recuerdo que me sentí defraudado porque no pudieron enseñarme el lugar donde Fermi inició la construcción del primer ciclotrón, pues dijeron que habían derribado el edificio cuarenta años atrás, y sólo una placa indicaba el sitio.</su>
+          <su lang="ru">Во всяком случае, помню, что был весьма разочарован, поскольку никто не сумел показать мне, где Ферми запустил первый атомный реактор.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">La estuve contemplando algún tiempo, pensando en todo lo ocurrido desde aquel lejano día de 1942.</su>
+          <su lang="ru">Я узнал лишь, что здание разобрали сорок лет назад, а местонахождение первого реактора обозначено скромной табличкой, и ненадолго остановился перед ней, размышляя обо всем том, что случилось, начиная с того давнего дня в тысяча девятьсот сорок втором году.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="es">Por un lado, yo había nacido; y la fuerza atómica me había llevado a Saturno y de vuelta a la Tierra.</su>
+          <su lang="ru">Во-первых, родился я, во-вторых, атомная энергия доставила меня на Сатурн и обратно.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Probablemente, esto era algo que Fermi y Compañía no habían previsto cuando construyeron aquel primitivo modelo de grafito y uranio.</su>
+          <su lang="ru">Вряд ли это мог предвидеть Ферми и его сотрудники, когда они строили примитивную сетку из урана и графита.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="es">Estaba desayunando en la cafetería cuando un individuo de mediana edad, no muy corpulento, se dejó caer en el asiento al otro lado de la mesa.</su>
+          <su lang="ru">Я завтракал в кафе отеля, когда к моему столику подсел худощавый мужчина средних лет.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">—Buenos días —me saludó cortésmente, y al reconocerme lanzó un respingo de sorpresa.</su>
+          <su lang="ru">Он вежливо поклонился и тут же издал удивленный возглас, узнав меня.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">(Naturalmente, aquel encuentro era planeado, pero entonces yo lo ignoraba.)</su>
+          <su lang="ru">Естественно, эту встречу, якобы случайную, он запланировал заранее, но тогда я еще не имел о том никакого понятия.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="es">—¡Es un placer! —exclamó—.</su>
+          <su lang="ru">— Какой приятный сюрприз! — сказал этот человек.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Oí su conferencia de anoche.</su>
+          <su lang="ru">— Я вчера был на вашей лекции и жутко вам завидую!</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="es">¡Cómo le envidio!</su>
+          <su lang="ru">Ответом ему была слегка вымученная улыбка.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Forcé una sonrisa; a la hora del desayuno no soy muy sociable y había aprendido a ponerme en guardia contra los chiflados, los molestos y los entusiastas que parecían considerarme como su presa personal.</su>
+          <su lang="ru">Я не слишком разговорчив за завтраком, к тому же опыт научил меня остерегаться маньяков, докучливых собеседников и энтузиастов, которым казалось, будто они охотятся на вполне законную добычу.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">El señor Perlman, no obstante, no era molesto..., aunque sí un entusiasta, y supongo que también un chiflado.</su>
+          <su lang="ru">Однако мистер Перлман вовсе не был докучливым собеседником, хотя наверняка являлся энтузиастом. Вряд ли я слишком преувеличил бы, назвав его маньяком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="es">Era como cualquier hombre de negocios próspero, y supuse que se alojaba en el hotel.</su>
+          <su lang="ru">Он выглядел как любой довольно состоятельный бизнесмен, и я принял его за постояльца отеля.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">El hecho de que hubiera asistido a mi conferencia no era sorprendente, ya que ésta fue popular, abierta al público y profusamente anunciada por la prensa y la radio.</su>
+          <su lang="ru">Меня вовсе не удивило, что он пришел на мою лекцию, поскольку она была доступна для широкой публики и предварялась рекламой в прессе и по радио.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="es">—Desde niño —empezó mi compañero de ocasión—, Saturno me fascina. Sé exactamente cuándo y cómo empezó esto.</su>
+          <su lang="ru">— С самого детства меня приводил в восхищение Сатурн, — начал мой непрошеный собеседник — Точно помню, когда и как все началось.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Debía contar yo diez años de edad cuando vi uno de esos maravillosos cuadros de Chesley Bonestell, mostrando el planeta como se vería desde sus nueve lunas.</su>
+          <su lang="ru">Мне было лет десять, когда я увидел великолепные картины Чесли Боунстелла, изображавшие Сатурн, как бы видимый с его девяти спутников.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Supongo que usted conoce esos cuadros.</su>
+          <su lang="ru">Вам ведь наверняка знакомы эти полотна?</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="es">—Naturalmente —asentí—.</su>
+          <su lang="ru">— Конечно, — ответил я.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Aunque tienen una antigüedad de medio siglo, nadie ha logrado superarlos.</su>
+          <su lang="ru">— Этим творениям больше пятидесяти лет, но никто до сих пор не смог с ними сравниться.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Teníamos un par a bordo del Endeavour, clavados en el cuadro de mandos.</su>
+          <su lang="ru">На борту нашего корабля «Эндевор» было несколько его картин.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">A menudo los miraba para compararlos con la realidad.</su>
+          <su lang="ru">Мне часто доводилось смотреть на них и тут же сравнивать с реальностью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="es">—Entonces ya sabe lo que sentía yo en los años cincuenta.</su>
+          <su lang="ru">— Поэтому вы прекрасно должны понимать, что меня занимало в пятидесятые годы.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Estar sentado horas y horas, tratando de captar el hecho de que aquel increíble objeto, con sus anillos circundantes a su alrededor, no era el sueño de un artista sino que existía realmente..., que, en efecto, era un mundo diez veces mayor que la Tierra.</su>
+          <su lang="ru">Я часами сидел и пытался осознать, что удивительный объект, вокруг которого вращаются серебристые кольца, существует на самом деле. Это не только плод воображения художника, но и реальная планета, которая к тому же в десять раз больше Земли.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">»En aquella época no me imaginaba que pudiera verlo por mí mismo, y daba por descontado que sólo los astrónomos con sus gigantescos telescopios podían ver tales cosas.</su>
+          <su lang="ru">Тогда мне даже не приходило в голову, что я мог бы увидеть это чудо собственными глазами. Я был уверен в том, что лишь астрономы со своими мощными телескопами способны насладиться подобным зрелищем.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Hice otro descubrimiento a los quince años... un descubrimiento tan excitante que apenas podía creerlo.</su>
+          <su lang="ru">Но позднее, когда мне было лет пятнадцать, я совершил очередное открытие, причем столь удивительное, что сам едва в это поверил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="es">—¿Cuál? —pregunté.</su>
+          <su lang="ru">— Какое же? — спросил я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="es">Empezaba ya a reconciliarme con la idea de compartir mi desayuno; mi compañero parecía un individuo inofensivo, y su entusiasmo resultaba pegadizo.</su>
+          <su lang="ru">Общество за завтраком мне уже не мешало. Сосед оказался человеком неопасным, а его неподдельный энтузиазм вызывал симпатию.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="es">—Descubrí que cualquier tonto podía construir un telescopio de alto poder en su cocina, con unos cuantos dólares y un par de semanas de trabajo.</su>
+          <su lang="ru">— Я обнаружил, что любой дурак может собрать у себя на кухне мощный телескоп всего за несколько долларов, поработав пару недель.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Fue una revelación; como millares de niños, pedí prestado un ejemplar de Construyendo un telescopio casero, de Ingalls, en la biblioteca pública y empecé a trabajar.</su>
+          <su lang="ru">Для меня это стало откровением. Как и тысячи других мальчишек, я взял в библиотеке «Постройку любительского телескопа» Инголлса и принялся за дело.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Dígame, ¿ha construido usted algún telescopio?</su>
+          <su lang="ru">Скажите, вы сами когда-нибудь собирали свой собственный телескоп?</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="es">—No; soy ingeniero, no astrónomo.</su>
+          <su lang="ru">— Нет, я инженер, а не астроном.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No sabría ni cómo empezar.</su>
+          <su lang="ru">Я и понятия не имел бы, с чего начать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="es">—Es muy sencillo, si uno sigue las reglas.</su>
+          <su lang="ru">— Работа крайне проста, если действовать в соответствии с инструкцией.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Se cogen dos discos de cristal, de unos tres centímetros de espesor.</su>
+          <su lang="ru">Сперва нужно достать два стеклянных круга толщиной примерно два с половиной сантиметра.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Yo compré los míos por cincuenta centavos en una tienda de lámparas; eran cristales de ojos de buey, fuera de uso porque estaban astillados por los bordes.</su>
+          <su lang="ru">За пятьдесят центов я купил у портового торговца стекла от иллюминаторов с выщербленными краями.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Luego, se pega un disco a algo firme, a una superficie lisa.</su>
+          <su lang="ru">Потом один круг нужно закрепить на плоской твердой поверхности.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Yo usé un barril viejo, sostenido por un extremo.</su>
+          <su lang="ru">Для этого я использовал бочку, поставленную вертикально.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="es">»Luego hay que comprar polvo de esmeril de diversos grados, empezando por el más grueso, para acabar con el más fino.</su>
+          <su lang="ru">После этого нужно купить наждачного порошка разного качества, от крупнозернистого до мельчайшего.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Se coloca un poco del polvo más grueso entre los dos discos y se empieza a frotar con el de arriba atrás y adelante con pases regulares. Al mismo tiempo, hay que hacer rodar el disco.</su>
+          <su lang="ru">Щепотка самого грубого кладется между двумя кругами, после чего ты начинаешь тереть верхним туда-сюда, медленно перемещаясь вокруг неподвижной подставки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="es">«¿Comprende lo que ocurre?</su>
+          <su lang="ru">Знаете, что при этом происходит?</su>
+        </sentence>
+        <sentence>
+          <su lang="es">El disco superior se ahueca por la acción del polvo de esmeril.</su>
+          <su lang="ru">Благодаря воздействию наждачного порошка в верхнем круге образуется углубление.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y al rodar, obtiene una forma cóncava, una superficie esférica.</su>
+          <su lang="ru">Простыми движениями вы создаете вогнутую поверхность линзы.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">De cuando en cuando hay que pasar a un polvo de grado más fino, y efectuar pruebas ópticas para comprobar la curvatura.</su>
+          <su lang="ru">Время от времени нужно заменять порошок на более мелкий и проделывать простые оптические проверки, чтобы убедиться в том, что достигнута соответствующая кривизна.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="es">«Más tarde, se deja el esmeril y se pasa al pulido, hasta que la superficie quede tan lisa y pulimentada que uno apenas cree lo que ve.</su>
+          <su lang="ru">На последнем этапе вместо наждака используется полировальный крокус. Наконец поверхность становится совершенно гладкой. Даже трудно поверить, что это работа ваших собственных рук.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Sólo queda otra cosa, aunque sea muy nimia.</su>
+          <su lang="ru">Остается всего один шаг, но вовсе не самый легкий.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Hay que platear el espejo para convertirlo en un buen reflector.</su>
+          <su lang="ru">Нужно еще посеребрить зеркало и получить таким вот образом хороший рефлектор.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Esto significa emplear algunos productos químicos, y hacer exactamente lo que ordena el libro.</su>
+          <su lang="ru">Достаточно купить в аптеке химикалии, перечисленные в инструкции, и поступать в точности так, как написано в книге.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="es">»Aún recuerdo el deleite que experimenté cuando el plateado empezó a extenderse como algo mágico por la superficie de mi espejito.</su>
+          <su lang="ru">Я до сих пор помню, как, затаив дыхание, вглядывался в тонкий слой серебра, покрывавший поверхность моего маленького зеркала.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No era perfecto, pero estaba bastante bien y no lo habría cambiado por ninguno de Monte Palomar.</su>
+          <su lang="ru">Оно было отнюдь не идеальным, но не столь уж плохим. Я не променял бы его ни на какое чудо с Маунт-Паломар.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="es">»Lo fijé a un extremo de una tabla de madera, pues no era necesario un tubo de telescopio, aunque coloqué medio metro de cartulina en torno al espejo para impedir la difuminación de la luz.</su>
+          <su lang="ru">Мне пришлось закрепить зеркало на конце доски. Тубус не потребовался. Я просто обернул вокруг зеркала два слоя картона, чтобы на него не падал лишний свет.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Como ocular utilicé una pequeña lupa que encontré en una chatarrería por unos centavos.</su>
+          <su lang="ru">Окуляром стало маленькое увеличительное стекло, купленное в лавке старьевщика за несколько центов.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">En conjunto, el telescopio sólo me costó unos cinco dólares..., aunque, siendo un chiquillo, para mí era una buena cantidad.</su>
+          <su lang="ru">В сумме весь телескоп обошелся не больше чем в пять долларов, хотя в то время и это для меня было немало.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="es">»A la sazón vivíamos en un hotel de segunda categoría que poseía mi familia en la Tercera Avenida.</su>
+          <su lang="ru">Тогда мы жили на Третьей авеню в обветшалой гостинице, принадлежавшей моей семье.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Cuando ensamblé el telescopio subí al tejado y lo probé, instalándolo entre la selva de antenas de televisión que en aquella época cubría todos los edificios.</su>
+          <su lang="ru">Собрав телескоп, я тут же отправился испытать его на крышу, в джунгли телевизионных антенн, усеивавших тогда каждый дом.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Tardé bastante en tener alineados el ocular y el espejo, pero no cometí errores y el aparato funcionó.</su>
+          <su lang="ru">Мне пришлось слегка повозиться, чтобы расположить зеркало и окуляр на одной линии, но я не допустил ни единой ошибки. Все работало как надо.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Probablemente, como instrumento óptico resultaba muy feo, al fin y al cabo era mi primer ensayo, pero ampliaba unas cincuenta veces los objetos, por lo que apenas logré aguardar la llegada de la noche para estudiar las estrellas.</su>
+          <su lang="ru">Мой оптический прибор был крайне примитивен — все-таки лишь первая попытка! — но все же он увеличивал в пятьдесят раз. Я не мог дождаться захода солнца, чтобы испытать его на звездном небе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="es">»Miré en el calendario y supe que Saturno estaría alto en el este después de ponerse el Sol.</su>
+          <su lang="ru">Я сверился с альманахом и выяснил, что Сатурн поздним вечером должен находиться высоко на востоке.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Tan pronto como obscureció subí de nuevo al tejado con mi aparato de cristal y madera apoyado entre dos chimeneas.</su>
+          <su lang="ru">Как только стемнело, я уже был снова на крыше, где меня ждала убогая конструкция из дерева и стекла, торчавшая между двумя дымовыми трубами.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Estábamos a fines de otoño, pero no sentía el frío, puesto que el firmamento estaba cuajado de estrellas... y todas eran mías.</su>
+          <su lang="ru">Стояла поздняя осень, но я даже не чувствовал холода, ибо небо искрилось звездами, и все они теперь принадлежали мне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="es">»Tardé algún tiempo en enfocar el aparato lo mejor posible, utilizando la primera estrella que apareció en mi campo visual.</su>
+          <su lang="ru">Я потратил немало времени на то, чтобы как можно точнее навести телескоп на резкость, глядя на первую звезду, оказавшуюся в поле зрения.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Luego, empecé a buscar Saturno y pronto descubrí lo difícil que es localizar algo con un telescopio reflector mal montado.</su>
+          <su lang="ru">Затем я начал искать Сатурн и быстро убедился, насколько сложно что-либо увидеть в зеркальный телескоп, смонтированный совсем не качественно.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Por fin, el planeta pasó por mi campo visual, moví el instrumento unos centímetros a este lado y al otro... y lo enfoqué sobre Saturno.</su>
+          <su lang="ru">Но уже вскоре планета мелькнула в поле зрения. Я начал осторожно поворачивать телескоп во все стороны и наконец поймал ее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="es">»Era pequeño, pero la vista resultó perfecta.</su>
+          <su lang="ru">Сатурн был крошечным, но великолепным.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Creo que estuve varios segundos sin respiración; apenas daba crédito a mis ojos.</su>
+          <su lang="ru">Наверное, почти минуту я не дышал, не в силах поверить собственным глазам.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Después de los grabados, lo veía en la realidad.</su>
+          <su lang="ru">До сих пор я знал его лишь по картинкам, а теперь наблюдал в реальности.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Era como un juguete colgado en el espacio, con los anillos ligeramente abiertos e inclinados hacia mí.</su>
+          <su lang="ru">Он напоминал игрушку, висящую в пространстве, с кольцами, слегка наклоненными в мою сторону.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="es">Aun ahora, cuarenta años después, recuerdo haber pensado: "¡Parece artificial... como un adorno de un árbol de Navidad!"</su>
+          <su lang="ru">Даже теперь, через сорок лет, я помню, что тогда подумал: «Он выглядит совершенно искусственным, совсем как шарик с рождественской елки!»</su>
+        </sentence>
+        <sentence>
+          <su lang="es">A su izquierda sólo había una estrella brillante, y comprendí que era Titán.</su>
+          <su lang="ru">Левее сияла яркая звезда, в которой я узнал Титан.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="es">Calló, y por un instante compartimos el mismo pensamiento.</su>
+          <su lang="ru">Перлман замолчал, и несколько мгновений мы наверняка думали об одном и том же.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Para los dos, Titán no era solamente la mayor luna de Saturno, un punto luminoso sólo conocido de los astrónomos.</su>
+          <su lang="ru">Для нас обоих Титан был не только самым большим спутником Сатурна, светящейся точкой, известной только астрономам.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Era el mundo ferozmente hostil sobre el que había aterrizado el Endeavour, el lugar donde tres de mis compañeros de viaje estaban en tumbas solitarias, más lejos de su patria que cualquier otro ser humano muerta hasta entonces.</su>
+          <su lang="ru">Он оказался безжалостно враждебным миром, где совершил посадку «Эндевор». Там, намного дальше от своих домов, чем когда-либо покоились человеческие останки, в одиноких могилах лежали трое моих товарищей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="es">—Ignoro cuánto tiempo lo estuve mirando, aguzando la vista y moviendo el telescopio a medida que Saturno se elevaba por encima de la ciudad.</su>
+          <su lang="ru">— Не знаю, как долго я смотрел, напрягая зрение и перемещая телескоп по небу резкими скачками вслед за Сатурном, поднимающимся над городом.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Se hallaba a mil quinientos millones de kilómetros de Nueva York, pero Nueva York lo alcanzaba conmigo.</su>
+          <su lang="ru">От Нью-Йорка меня отделяли почти два миллиарда километров, но вскоре он вновь о себе напомнил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="es">»Ya le hablé de nuestro hotel; pertenecía a mi madre, pero mi padre lo regentaba...... no muy bien.</su>
+          <su lang="ru">Я уже говорил вам про нашу гостиницу. Она принадлежала моей матери, но дела вел отец, впрочем, не лучшим образом.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Llevaba años perdiendo dinero, y durante toda mi niñez hubo continuas crisis financieras.</su>
+          <su lang="ru">Этот бизнес уже много лет не приносил дохода. Мое детство было отмечено постоянными финансовыми кризисами.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No quiero censurar a mi padre por la bebida, ya que debía estar medio loco por sus preocupaciones.</su>
+          <su lang="ru">Я не виню отца за то, что он много пил, вероятно постоянно сходя с ума от беспокойства.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y yo había olvidado que debía ayudar al empleado de la recepción...</su>
+          <su lang="ru">А я совсем забыл, что должен был помогать портье за стойкой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="es">»De modo que papá me buscó, sumamente inquieto, sin saber nada de mis ensueños.</su>
+          <su lang="ru">Отец искал меня по всему дому.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y me encontró mirando las estrellas en el tejado.</su>
+          <su lang="ru">Он был занят своими проблемами, ничего не знал о моих мечтах и нашел сына на крыше.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="es">»No era malo... ni podía entender el estudio, la paciencia y el trabajo que se llevaba mi telescopio, ni las maravillas que me había mostrado en el corto tiempo que me serví de él; pero toda mi vida recordaré la rotura de mi primero y último espejo cuando fue aplastado contra el suelo.</su>
+          <su lang="ru">Папаша не являлся жестоким человеком, но не сумел понять ни того, скольких усилий и терпения стоил мне мой маленький телескоп, ни радости, которую я получил в те короткие мгновения, когда он выполнил свою задачу. Я не питаю ненависти к отцу, но до конца жизни не забуду того пронзительного звона, когда мое первое и последнее зеркало разлетелось вдребезги, — закончил Перлман.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="es">No sabía qué decir.</su>
+          <su lang="ru">Что я мог сказать?</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Mi inicial resentimiento por aquella interrupción de mi desayuno se había trocado en curiosidad.</su>
+          <su lang="ru">Мое первоначальное раздражение, вызванное появлением незваного гостя, сменилось любопытством.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Presentía que en aquel relato había mucho más de lo que había escuchado; y aún observé algo más.</su>
+          <su lang="ru">К тому же мне казалось, что в этой истории кроется нечто намного большее, чем я услышал.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">La camarera nos trataba con una deferencia exagerada... y sólo una mínima parte de la misma iba dedicada a mí.</su>
+          <su lang="ru">Удивляло меня лишь одно. Официантка бросала на нас почтительные взгляды, из которых лишь малая часть предназначалась мне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="es">Mi compañero jugueteaba con el azucarero mientras yo esperaba en silenciosa simpatía.</su>
+          <su lang="ru">Новый знакомый вертел в руках сахарницу, а я с молчаливым сочувствием ждал продолжения.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Por entonces, experimentaba ya la sensación de que existía un lazo entre nosotros, aunque sin saber exactamente cuál.</su>
+          <su lang="ru">Мне начало казаться, будто нас связывает нечто общее, хотя и непонятное.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="es">—No volví a construir ningún otro telescopio —continúo—.</su>
+          <su lang="ru">— Новый телескоп я так и не построил, — сказал он.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Aparte del espejo, se había roto algo más... algo en mi corazón.</su>
+          <su lang="ru">— Разбилось не только зеркало, но и кое-что еще в моей душе.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Por otra parte, tenía mucho trabajo.</su>
+          <su lang="ru">Впрочем, у меня все равно не было на это времени.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Mi vida estaba trastornada por dos hechos.</su>
+          <su lang="ru">Два события поставили мою жизнь с ног на голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Papá nos había abandonado, dejándome como cabeza de familia.</su>
+          <su lang="ru">Отец ушел от нас, и я стал исполнять обязанности главы семьи.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y habían quitado el Elevado de la Tercera Avenida.</su>
+          <su lang="ru">Вскоре разобрали электричку на Третьей авеню.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="es">Debió observar mi extrañeza porque sonrió.</su>
+          <su lang="ru">Он наверняка заметил мой вопросительный взгляд, поскольку тут же улыбнулся.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="es">—Oh, claro, usted lo ignora.</su>
+          <su lang="ru">— Ну да, откуда вам знать?</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Cuando yo era un niño, había un Metro elevado que pasaba por la Tercera Avenida, entre los edificios, con un ruido terrible, ensuciándolo todo; aquella Avenida era un conjunto de bares, tiendas de préstamo y hoteles baratos... como el nuestro.</su>
+          <su lang="ru">Так вот, когда я еще был мальчишкой, посреди Третьей авеню шла эстакада городской электрички. Окрестности тонули в грязи и шуме, Третья авеню состояла из сплошных трущоб, среди которых ютились забегаловки, ломбарды и дешевые гостиницы вроде нашей.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Todo cambió con la desaparición del Elevado; los solares aumentaron de valor y de repente todos ganamos dinero.</su>
+          <su lang="ru">Все изменилось, как только убрали эстакаду. Цены земельных участков пошли вверх, и мы внезапно разбогатели.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Papá no tardó en volver, pero ya era tarde; yo regentaba el negocio.</su>
+          <su lang="ru">Папаша не замедлил вернуться к нам, но было уже слишком поздно.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Poco después empecé a extenderme por la ciudad... y después por la nación.</su>
+          <su lang="ru">Делами занимался я, вскоре начал приобретать все больше недвижимости в городе, а потом и по всей стране.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Ya no era un soñador, y le cedí a papá uno de mis hoteles más pequeños, donde no podía causar muchos perjuicios.</su>
+          <su lang="ru">Во мне уже не оставалось ничего от бывшего мечтателя, смотревшего на звезды. Я отдал отцу одну из своих небольших гостиниц, где он не мог причинить особого вреда.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="es">»Han pasado cuarenta años desde que contemplé Saturno, pero no he olvidado aquella visión, y anoche, sus fotografías volvieron a traerlo a mi memoria.</su>
+          <su lang="ru">Я смотрел на Сатурн сорок лет назад, но не забыл того краткого мгновения, а фотографии, показанные на вашей вчерашней лекции, вновь оживили старые воспоминания.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Bien, sólo quería hacerle presente mi agradecimiento.</su>
+          <su lang="ru">Мне лишь хотелось бы выразить вам свою благодарность.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="es">Hurgó en su cartera y exhibió una tarjeta.</su>
+          <su lang="ru">Он покопался в бумажнике и достал визитную карточку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="es">—Espero que me visite cuando vuelva por aquí; y puede estar seguro de que si da otra conferencia asistiré sin falta.</su>
+          <su lang="ru">— Надеюсь, вы дадите мне знать, когда снова будете в Чикаго. Можете рассчитывать на мое присутствие на каждой вашей лекции.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Buena suerte... y espero no haberle molestado demasiado.</su>
+          <su lang="ru">Удачи вам! Прошу прощения, что отнял у вас столько времени.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="es">Se marchó, casi antes de que pudiera decirle adiós.</su>
+          <su lang="ru">Он ушел, прежде чем я успел сказать хоть слово.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Miré la tarjeta, me la metí en el bolsillo y terminé de desayunar pensativamente.</su>
+          <su lang="ru">Я бросил взгляд на визитку, спрятал ее в карман и в задумчивости завершил завтрак.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="es">Cuando firmé la nota al salir de la cafetería, pregunté:</su>
+          <su lang="ru">Подписывая чек на выходе из кафе, я мимоходом спросил:</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="es">—¿Quién era el caballero que estuvo a mi mesa?</su>
+          <su lang="ru">— Кто этот человек, который присел за мой столик?</su>
+        </sentence>
+        <sentence>
+          <su lang="es">¿El jefe?</su>
+          <su lang="ru">Ваш босс?</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="es">La cajera me miró como si yo fuese un retrasado mental.</su>
+          <su lang="ru">Кассирша посмотрела на меня как на умственно отсталого.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="es">—Supongo que puede llamarle así, señor —contestó—.</su>
+          <su lang="ru">— Можно назвать его и так, — ответила она.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Es el propietario de este hotel, aunque nunca lo habíamos visto por aquí.</su>
+          <su lang="ru">— Конечно, он владелец этого отеля, но своим присутствием удостоил нас впервые.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Siempre para en el Ambassador, cuando está en Chicago.</su>
+          <su lang="ru">Каждый раз, приезжая в Чикаго, он останавливается в «Амбассадоре».</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="es">—¿Y posee esto? —indagué sin gran ironía, puesto que ya adivinaba la respuesta.</su>
+          <su lang="ru">— Который тоже наверняка принадлежит ему, — сказал я без особой иронии, поскольку догадывался, каким будет ответ.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="es">—Pues sí...</su>
+          <su lang="ru">— Да, это так.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y también —acto seguido enumeró una larga lista de hoteles, incluyendo dos de los mejores de Nueva York.</su>
+          <su lang="ru">Кроме того… — Она на одном дыхании перечислила ряд названий, в том числе и двух крупнейших отелей в Нью-Йорке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="es">Me quedé impresionado y algo divertido, ya que era obvio que el señor Perlman había tenido la intención deliberada de conocerme.</su>
+          <su lang="ru">Услышанное меня впечатлило, но при этом еще и слегка позабавило. Я не сомневался в том, что мистер Перлман явился ко мне в отель исключительно ради того, чтобы со мной встретиться.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Aunque de un modo bastante retorcido; naturalmente, a la sazón yo no estaba al corriente de su notable timidez y retraimiento.</su>
+          <su lang="ru">Он выбрал воистину кружной путь.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Desde el principio, nunca se mostró tímido conmigo.</su>
+          <su lang="ru">В то время я еще не знал, что этот человек известен своей скрытностью.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Luego, durante cinco años no volví a verle.</su>
+          <su lang="ru">Со мной же он был откровенен с самого начала.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="es">(¿O debo mencionar que cuando pedí la cuenta del hotel me respondieron que no debía nada?)</su>
+          <su lang="ru">Да, стоит добавить, что когда я попросил счет, мне ответили, что с меня ничего не причитается.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="es">En aquellos cinco años realicé mi segundo viaje.</su>
+          <su lang="ru">Потом я забыл о нем на пять лет и за этот срок успел принять участие во второй экспедиции.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="es">Esta vez sabíamos lo que nos aguardaba, no íbamos a enfrentarnos con algo completamente desconocido.</su>
+          <su lang="ru">На этот раз мы уже знали, чего ожидать, и не отправлялись в полную неизвестность.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No hubo inquietudes por el combustible, puesto que todo el que podíamos necesitar se hallaba ya en Titán; sólo teníamos que bombear la atmósfera de metano en nuestros tanques y todo saldría bien.</su>
+          <su lang="ru">Исчезли проблемы с топливом, поскольку на Титане нас ждали неограниченные запасы. Достаточно было закачать в резервуары его метановую атмосферу, что было предусмотрено в наших планах.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Uno tras otro, visitamos los nueve satélites; y luego, fuimos hacia los anillos...</su>
+          <su lang="ru">Мы побывали по очереди на всех девяти спутниках, затем влетели внутрь колец.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="es">El peligro era escaso, si bien se trataba de una experiencia enervante.</su>
+          <su lang="ru">Опасность была минимальной, но нам пришлось немало понервничать.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">El sistema de anillos es muy tenue, con sólo unos treinta kilómetros de espesor.</su>
+          <su lang="ru">Система колец крайне тонка, ее ширина составляет всего около тридцати километров.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Descendimos hacia él lentamente, con suma prudencia, tras haber armonizado con su ritmo de giro a fin de movernos exactamente a la misma velocidad. Fue como subir a un tiovivo de doscientos cincuenta mil kilómetros de diámetro...</su>
+          <su lang="ru">Мы входили туда медленно и осторожно, двигались в точности со скоростью вращения, будто вскочили на карусель диаметром почти в триста тысяч километров.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Sin embargo, era un tiovivo fantasmagórico, porque los anillos no son sólidos y es posible mirar a su través.</su>
+          <su lang="ru">Причем этот аттракцион оказался адским, ибо кольца не состоят из твердой материи и просматриваются насквозь.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">En realidad, desde muy cerca son invisibles; los billones de partículas individuales que los forman se hallan tan espaciadas que lo único que se distingue en su proximidad son ocasionales grupos que van lentamente a la deriva.</su>
+          <su lang="ru">Вблизи же они почти невидимы. Их основу составляют миллиарды частиц, столь разреженных, что лишь с близкого расстояния то и дело видны медленно проплывающие глыбы.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Únicamente al mirar a lo lejos, esos innumerables fragmentos se funden en una capa continua, como una tormenta de granizo abatiéndose constantemente sobre Saturno.</su>
+          <su lang="ru">Издали кажется, будто бесчисленные частицы сливаются в сплошную полосу, словно вокруг Сатурна бушует вечная гроза с градом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="es">Esta frase no es mía, pero es buena.</su>
+          <su lang="ru">Не я придумал подобное сравнение, но оно более чем удачно.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Puesto que cuando introducimos un pequeño fragmento de anillo en la nave, se fundió a los pocos segundos, convirtiéndose en un charco de agua sucia.</su>
+          <su lang="ru">Когда мы поместили первый кусочек кольца в воздушный шлюз, он через несколько минут растаял, оставив после себя лишь лужу мутной воды.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Algunas personas opinan que estropea la magia saber que los anillos (o el noventa por ciento de ellos) se componen de hielo ordinario.</su>
+          <su lang="ru">Некоторые считают, будто магия колец рассеивается, стоит лишь узнать, что они как минимум на девяносто процентов состоят из самого обычного льда.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero ésta es una actitud estúpida; resultarían lo mismo de maravillosos, igualmente bellísimos, si fuesen de diamante.</su>
+          <su lang="ru">На мой взгляд, это глупо. Такие чудеса остаются столь же удивительными и прекрасными, как если бы были созданы из алмазов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="es">Cuando regresé a la Tierra, en el primer año del nuevo siglo, emprendí otra gira de conferencias... más breve, ya que tenía familia y quería estar con ella lo más posible.</su>
+          <su lang="ru">Я вернулся на Землю в первом году нового столетия и отправился в очередной тур с лекциями, на этот раз короткий, поскольку у меня уже была семья, которой мне хотелось посвятить каждую свободную минуту.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Esta vez encontré al señor Perlman en Nueva York, cuando di una conferencia en la Universidad de Columbia, para presentar nuestra película: Explorando Saturno.</su>
+          <su lang="ru">С мистером Перлманом я встретился во второй раз в Нью-Йорке, где читал лекцию и показывал наш фильм «Завоевание Сатурна» в Колумбийском университете.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">(Un título engañoso, puesto que lo más cerca que habíamos estado del planeta eran unos treinta mil kilómetros.</su>
+          <su lang="ru">Его название слегка вводит в заблуждение. На самом деле от планеты в ближайшей точке нас отделяло около тридцати тысяч километров.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Nadie soñaba en aquella época que los hombres descenderían al torbellino que en Saturno es lo más semejante a una superficie planetaria.)</su>
+          <su lang="ru">Тогда никто не мог даже мечтать, что человек доберется до этой бурлящей ледяной каши, которую представляет собой поверхность Сатурна.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="es">El señor Perlman me aguardaba después de la conferencia; no le reconocí, porque desde nuestra primera entrevista yo había conocido a un millón de personas.</su>
+          <su lang="ru">Мистер Перлман ждал меня после лекции. Я его не узнал. Со времени нашей встречи у меня был почти миллион других знакомств.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero cuando se presentó me acordé de todo con tanta claridad que comprendí que me había causado una profunda impresión.</su>
+          <su lang="ru">Однако когда он представился, ко мне сразу же вернулись воспоминания, видимо слишком глубоко врезавшиеся в память.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="es">No sé cómo me apartó del gentío; aunque le desagradaban las aglomeraciones de gente, poseía una habilidad extraordinaria para dominar a cualquier grupo cuando lo juzgaba necesario... y después marcharse antes de que sus víctimas intuyesen lo sucedido.</su>
+          <su lang="ru">Ему удалось каким-то образом выдернуть меня из толпы. Он не любил общаться с большими группами людей, но обладал удивительным даром доминирования над любым сборищем, если ему это казалось необходимым. Этот человек умел и незаметно исчезать, прежде чем его жертвы успевали сообразить, что произошло.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Aunque le vi en acción docenas de veces, nunca supe cómo lo hacía.</su>
+          <su lang="ru">Я видел его в действии десятки раз, но до сих пор не знаю, как это у него получалось.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="es">Bien, media hora más tarde estábamos gozando de una excelente cena en un restaurante exclusivo (suyo, naturalmente).</su>
+          <su lang="ru">Так или иначе, полчаса спустя мы сидели за обедом в роскошном ресторане, естественно принадлежавшем ему.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Fue una comida maravillosa, especialmente después del pollo y helado de la gira de conferencias; pero tuve que pagarla a buen precio. Metafóricamente, claro está.</su>
+          <su lang="ru">Еда была превосходной, особенно после жареной курицы и мороженого, которыми мне приходилось питаться во время моего лекционного тура, но за нее мне пришлось заплатить, естественно, в переносном смысле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="es">Todas las fotos y los datos recogidos en las dos expediciones a Saturno estaban ya al alcance de todo el mundo, en centenares de reportajes, libros y artículos.</su>
+          <su lang="ru">Все факты и фотографии, собранные во время двух наших экспедиций к Сатурну, были уже доступны любому человеку в сотнях отчетов, книг и популярных статей.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">El señor Perlman había leído todo el material que no era técnico; pero deseaba algo diferente.</su>
+          <su lang="ru">Мистер Перлман, несомненно, прочитал всю литературу на эту тему, не требовавшую специальных знаний. От меня же он ожидал чего-то совсем иного.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Aun entonces, consideré que su interés se debía al hecho de ser un hombre solitario, ya maduro, que intentaba revivir un sueño perdido en su juventud.</su>
+          <su lang="ru">Даже тогда я снисходительно относился к такому интересу, считал его причудой пожилого одинокого человека, которому хотелось воскресить несбывшуюся мечту юности.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Estaba acertado, pero esto era sólo una fracción de la verdad.</su>
+          <su lang="ru">Пусть я не ошибался, но это был лишь крошечный фрагмент всей картины.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="es">Deseaba conocer algo que ningún reportaje o artículo había dado.</su>
+          <su lang="ru">Его интересовало то, чего нельзя было найти в отчетах и статьях.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="es">Quería saber cuál era la sensación al despertarse por la mañana y divisar aquel globo enorme y dorado con sus anillos neblinosos dominando el cielo.</su>
+          <su lang="ru">«Что чувствует человек, открывая утром глаза и видя огромный золотой шар, окутанный мчащимися полосами туч и безраздельно господствующий на небе?</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y los anillos en sí..., ¿qué impacto causaban en la mente humana, cuando estaban tan cerca que llenaban el cielo de un extremo a otro?</su>
+          <su lang="ru">А сами кольца?.. О чем вы думали, когда они были столь близко, что заполняли небо от края до края?» — спрашивал он.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="es">—Usted necesita un poeta, no un ingeniero —dije—.</su>
+          <su lang="ru">«Вам нужен поэт, а не инженер», — отвечал я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="es">Pero le diré una cosa; por mucho que se contemple Saturno, por mucho que se vuele entre sus satélites, uno nunca acaba de creerlo.</su>
+          <su lang="ru">Знаю лишь одно. Сколько бы ты ни смотрел на Сатурн и ни летал от одного спутника к другому, все равно невозможно поверить до конца, что это явь.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Frecuentemente, uno piensa: «Todo es un sueño..., una cosa que no puede ser real.»</su>
+          <su lang="ru">Никак не удается отогнать мысль о том, что это лишь сон, такого не может быть на самом деле.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y uno acude al mirador más próximo... y se queda sin respiración.</su>
+          <su lang="ru">Но стоит взглянуть в ближайший иллюминатор, и ты все так же видишь величественную картину, от которой захватывает дух. Должен заметить, что близкое расстояние — это еще не все.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">«Porque hay que recordar que, aparte de nuestra proximidad, nosotros podíamos distinguir los anillos desde ángulos y posiciones imposibles desde la Tierra, donde siempre se les ve vueltos hacia el Sol.</su>
+          <su lang="ru">Мы имели возможность наблюдать кольца с таких сторон и под такими углами, какие невозможно представить себе с Земли, откуда они всегда видны обращенными к Солнцу.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Podíamos trasladarnos a su sombra, desde donde ya no relucen como la plata, sino que forman como una neblina resplandeciente, como un puente de humo a través de las estrellas.</su>
+          <su lang="ru">Мы влетали в их тень, и тогда они уже не блестели как серебро, а превращались в бледный туман, дымный мост, переброшенный между звездами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="es">»Y casi constantemente veíamos la sombra de Saturno a través de toda la extensión de los anillos, eclipsándolos tan por completo que parecía como si les hubieran arrancado un enorme bocado.</su>
+          <su lang="ru">Чаще всего мы видели тень Сатурна, падавшую на всю ширину колец, так что казалось, будто кто-то отгрыз от них солидный кусок.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">También podía considerarse de otro modo: en el lado del planeta iluminado por el Sol, siempre se veía la sombra de los anillos corriendo como una franja polvorienta y paralela al ecuador, no muy lejos del mismo.</su>
+          <su lang="ru">Порой бывало и наоборот. На дневную сторону планеты падала тень колец и окружала ее полосой сумерек, тянувшейся недалеко от экватора параллельно ему.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">»Por encima de todo, aunque esto sólo lo hicimos algunas veces, podíamos elevarnos más arriba de los polos del planeta y contemplar el maravilloso sistema que estaba desplegado ante nosotros.</su>
+          <su lang="ru">Кроме того, хотя мы делали так лишь несколько раз, можно было подняться над одним из полюсов планеты и окинуть взглядом всю огромную систему, простиравшуюся под нами словно карта.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Luego, podíamos ver cómo, en vez de los cuatro anillos visibles desde la Tierra, había al menos una docena, fundiéndose unos en otros.</su>
+          <su lang="ru">Тогда были видны не четыре кольца, различимых с Земли, но как минимум двенадцать отдельных, хотя и сливавшихся друг с другом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="es">Al divisar esta maravilla, el comandante de la nave hizo una observación que nunca olvidaré:</su>
+          <su lang="ru">При виде этой картины наш капитан произнес фразу, которая накрепко засела у меня в памяти: «Именно здесь ангелы хранят свои нимбы».</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="es">»—Este lugar —y en sus palabras no había el menor rastro de sarcasmo— es donde los ángeles han aparcado sus halos.</su>
+          <su lang="ru">Так он сказал, и в его словах не было ни следа легкомыслия.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="es">Todo esto y mucho más le conté al señor Perlman en aquel pequeño, pero sumamente costoso restaurante situado al sur del Central Park.</su>
+          <su lang="ru">Все это и много еще чего я рассказал мистеру Перлману, сидя в небольшом, но невероятно дорогом ресторане в двух шагах к югу от Центрального парка.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Cuando terminé pareció muy complacido, aunque permaneció callado unos minutos.</su>
+          <su lang="ru">Когда я закончил, вид у него был настолько довольный, что в течение нескольких минут он не произнес ни слова.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="es">Luego, de forma tan casual como si preguntase a qué hora sale un tren, preguntó:</su>
+          <su lang="ru">Потом этот человек совершенно неожиданно спросил как ни в чем не бывало, словно уточняя время отхода поезда с ближайшей станции:</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="es">—¿Cuál sería el mejor satélite para fundar una estación turística?</su>
+          <su lang="ru">— Какой из спутников лучше всего подходит для строительства туристического центра?</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="es">Cuando comprendí el significado de la pregunta estuve a punto de ahogarme con mi coñac centenario.</su>
+          <su lang="ru">Когда до меня дошел смысл его вопроса, я едва не подавился столетним коньяком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="es">—Oiga, señor Perlman —contesté con paciencia y cortesía (al fin y al cabo, la comida había sido deliciosa)—, sabe tan bien como yo que Saturno está a mil quinientos millones de kilómetros de la Tierra, aproximadamente; a muchos más cuando ambos planetas se hallan en oposición con respecto al Sol.</su>
+          <su lang="ru">Но все-таки мистер Перлман угостил меня великолепным обедом, поэтому я ответил очень спокойным и вежливым тоном: — Прошу прощения, но вы же прекрасно понимаете, что расстояние от Земли до Сатурна составляет свыше полутора миллиардов километров и даже больше, когда планеты находятся по разные стороны от Солнца.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Alguien calculó que el viaje de ida y vuelta costaría siete millones y medio de dólares por barba... y, créame, ni en el Endeavour I ni en el II hay billetes de tercera.</su>
+          <su lang="ru">Кто-то подсчитал, что наши билеты туда и обратно стоили в среднем по семь с половиной миллионов долларов на человека. Можете мне поверить, ни на «Эндеворе-I», ни на «Эндеворе-II» не было кают первого класса.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Además, por mucho dinero que posea, nadie adquirirá un billete para ir a Saturno.</su>
+          <su lang="ru">Но даже при всем при этом никто ни за какие деньги не сможет устроить себе экскурсию на Сатурн.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Sólo los científicos y las tripulaciones espaciales irán allí, al menos durante mucho tiempo.</su>
+          <su lang="ru">В обозримом будущем туда станут летать только ученые и космические экипажи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="es">Comprendí que mis palabras no le causaban efecto; se limitó a sonreír, como si estuviese enterado de un secreto ignorado por mí.</su>
+          <su lang="ru">Я видел, что мои слова не производят на него ни малейшего впечатления. Он лишь улыбнулся, словно скрывал тайну, известную ему одному, и ответил:</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="es">—Lo que usted dice es verdad ahora —repuso—, pero yo he estudiado la historia.</su>
+          <su lang="ru">— То, что вы говорите, сейчас, конечно, правда.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y comprendo a la gente...</su>
+          <su lang="ru">Но я интересовался историей и хорошо знаю людей.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Claro, es mi oficio.</su>
+          <su lang="ru">Это моя профессия.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Bien, permítame recordarle algunos hechos.</su>
+          <su lang="ru">Позвольте напомнить вам несколько фактов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="es">»Hace dos o tres siglos, casi todos los grandes centros turísticos, los bellos lugares, se hallaban tan lejos de la civilización como hoy día Saturno lo está de nosotros.</su>
+          <su lang="ru">Два или три столетия назад все известные нам туристические центры и райские места на Земле были столь же далеки от цивилизации, как сегодня Сатурн.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">¿Qué sabía, por ejemplo, Napoleón, del Gran Cañón, las cataratas del Victoria en África, Hawai, el Monte Everest?</su>
+          <su lang="ru">Что мог знать, скажем, Наполеон о Большом каньоне, водопаде Виктория, Гавайях, горе Эверест?</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y piense en el Polo Sur...</su>
+          <su lang="ru">Или, допустим, Южный полюс.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Cuando mi padre era niño llegó allí la primera expedición... y ahora, hace ya años, hay un gran hotel.</su>
+          <su lang="ru">Впервые человек добрался туда, когда мой отец был ребенком, но в день вашего рождения там уже стоял отель.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="es">»Todo empieza de nuevo.</su>
+          <su lang="ru">Подобное повторяется постоянно.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Usted sólo puede apreciar los problemas y las dificultades, porque está demasiado cerca de ellos.</su>
+          <su lang="ru">Вы видите лишь сложности и проблемы, они вам чересчур близки.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero los hombres los vencerán, como hicieron siempre.</su>
+          <su lang="ru">Но человек все равно преодолеет любые препятствия точно так же, как это бывало в прошлом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="es">»Donde hay algo nuevo o extraño, la gente quiere conocerlo.</su>
+          <su lang="ru">Где бы люди ни обнаружили нечто загадочное, прекрасное, неисследованное, они обязательно захотят увидеть его воочию.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Los anillos de Saturno son el mayor espectáculo del universo conocido; siempre lo he creído, y usted ha acabado de convencerme.</su>
+          <su lang="ru">Кольца Сатурна — самое великолепное природное явление Вселенной, известной нам. Я считал так с самого начала, а вы лишь утвердили меня в этом убеждении.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Hoy día cuesta una fortuna llegar allá, y los que vayan ponen sus vidas en peligro.</su>
+          <su lang="ru">Добраться до них сейчас стоит астрономических сумм, а экипажи кораблей рискуют собственной жизнью.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Lo mismo hicieron los primeros hombres que volaron... y actualmente hay en el aire millones de pasajeros cada segundo del día y de la noche.</su>
+          <su lang="ru">То же самое происходило на заре авиации. Теперь в любую секунду дня и ночи самолетами путешествуют миллионы пассажиров.</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence>
+          <su lang="es">»Lo mismo ocurrirá con el espacio.</su>
+          <su lang="ru">Так же будет и в космосе.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No sucederá en diez años ni tal vez en veinte.</su>
+          <su lang="ru">Может, не через десять лет, даже не через двадцать.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero recuerde que sólo tardaron veinticinco años en iniciar los vuelos comerciales a la Luna.</su>
+          <su lang="ru">Но не стоит забывать, что прошло всего четверть века с тех пор, как начались пассажирские рейсы на Луну.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No creo que con Saturno tarden tanto...</su>
+          <su lang="ru">Не думаю, что так уж долго придется ждать регулярных полетов до Сатурна.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="es">»Yo ya no viviré para verlo..., pero cuando suceda, quiero que la gente me recuerde.</su>
+          <su lang="ru">Я уже не успею этого увидеть, но хотел бы, чтобы люди помнили обо мне, когда исполнится мое предсказание.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">De modo que..., ¿dónde podría construir?</su>
+          <su lang="ru">Итак, где нам следует начать строительство? — закончил мистер Перлман.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="es">Seguía pensando que estaba loco, pero al menos empezaba a comprender su objetivo.</su>
+          <su lang="ru">Я продолжал считать его безвредным сумасшедшим, но уже начинал понимать суть навязчивой идеи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="es">Y no había ningún mal en seguirle la corriente, de modo que medité el caso.</su>
+          <su lang="ru">У меня не было никаких причин портить ему хорошее настроение, так что я подошел к делу вполне серьезно и ответил:</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="es">—Mimas está muy cerca —reflexioné—, lo mismo que Enceladus y Tetis...</su>
+          <su lang="ru">— Мимас слишком близко. Энцелада и Тетис тоже.</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence>
+          <su lang="es">—No me importa confesar que esos nombres resultaban difíciles después de tanto coñac—.</su>
+          <su lang="ru">Мне не стыдно признаться в том, что после хорошей дозы коньяка язык у меня слегка заплетался, когда я произносил эти названия.</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="es">Saturno llena el cielo, y parece que se vaya a desplomar sobre uno.</su>
+          <su lang="ru">— Сатурн там целиком заполняет небо. Создается впечатление, будто он падает вам на голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Además, no son bastante sólidos, sólo son grandes bolas de nieve.</su>
+          <su lang="ru">Кроме того, эти спутники не имеют твердой поверхности. Это огромные снежные шары.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Dione y Rhea son mejores, y desde ambos satélites la vista es magnífica.</su>
+          <su lang="ru">Диона и Рея лучше. С обоих открывается прекрасный вид.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero todas estas lunas interiores son muy pequeñas; incluso Rhea sólo tiene mil doscientos kilómetros de diámetro, y las otras son menores.</su>
+          <su lang="ru">Но все внутренние спутники слишком малы. Даже Рея имеет в поперечнике всего около полутора тысяч километров, а остальные значительно меньше.</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="es">»Creo que no hay donde escoger; tendría que ser en Titán.</su>
+          <su lang="ru">Собственно, раздумывать не о чем. Лучше всего, конечно же, Титан.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Es el satélite más terrestre, es un poco mayor que nuestra Luna, y casi tan grande como Marte.</su>
+          <su lang="ru">Он обладает вполне приличными размерами, крупнее нашей Луны, почти такой же, как Марс.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">También posee una gravedad razonable, casi un quinto de la terrestre, de forma que los huéspedes no flotarían constantemente.</su>
+          <su lang="ru">На нем также приемлемая сила тяжести, примерно одна пятая земной, так что ваши гости не будут плавать где попало.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y además sería un buen punto para repostar el combustible a causa de su atmósfera de metano, factor de importancia en sus cálculos.</su>
+          <su lang="ru">Он всегда останется главным источником топлива благодаря метановой атмосфере, что вам следует учесть в своих планах.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Toda nave con destino a Saturno tendrá que recalar allí.</su>
+          <su lang="ru">Каждый корабль, летающий на Сатурн, должен совершать там посадку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="es">—¿Y las lunas exteriores?</su>
+          <su lang="ru">— А внешние спутники?</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="es">—Oh Hiperión, Yapeto y Foebe están demasiado lejos.</su>
+          <su lang="ru">— Нет. Гиперион, Япет и Феба слишком далеко.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Hay que aguzar la vista para divisar los anillos desde Foebe.</su>
+          <su lang="ru">Нужно основательно напрячь зрение, чтобы вообще разглядеть кольца с Фебы!</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Olvídese de ellas.</su>
+          <su lang="ru">Не о чем и говорить.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y quédese con el viejo Titán.</su>
+          <su lang="ru">Советую остановиться на добром старом Титане.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Aunque la temperatura sea de doscientos grados bajo cero y la nieve amoniacal no resulte práctica para el deporte del esquí, es el único satélite con posibilidades.</su>
+          <su lang="ru">Несмотря на то что температура там составляет двести градусов ниже нуля, а аммиачный снег не слишком подходит для катания на лыжах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence>
+          <su lang="es">Me escuchó con suma atención, y si pensó que me estaba burlando de sus ideas anticientíficas y nada prácticas, no lo demostró.</su>
+          <su lang="ru">Он внимательно меня выслушал, и даже если считал, что я просто издеваюсь над его любительскими псевдонаучными идеями, то ничем не дал этого понять.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Poco después nos separamos (no recuerdo nada más de aquella comida), y al menos transcurrieron quince años antes de volver a encontrarnos.</su>
+          <su lang="ru">Я больше ничего не помню из нашей беседы. Вскоре мы распрощались и встретились снова, наверное, только лет через пятнадцать.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">En todo aquel tiempo no me necesitó, al parecer; pero cuando tuvo precisión de mí, me llamó.</su>
+          <su lang="ru">Видимо, все это время он во мне не нуждался, но в конце концов я ему для чего-то понадобился, поскольку он позвонил сам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence>
+          <su lang="es">Ahora sé lo que esperaba; su visión fue mucho más clara que la mía.</su>
+          <su lang="ru">Теперь я понимаю, чего ждал мистер Перлман. В своих пророчествах он оказался куда дальновиднее меня.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No pudo adivinar, claro está, que el cohete tendría una vida más efímera que el barco a vapor, y que se extinguiría antes de un siglo de su nacimiento..., pero sabía que se inventaría algo mejor, y creo que fue él quien financió los primeros ensayos de Saunderson sobre el Impulso Paragravital.</su>
+          <su lang="ru">Естественно, этот человек не мог предполагать, что ракету ждет та же судьба, что и паровую машину в течение неполного столетия. Однако он знал, что должно появиться что-то новое, и, вероятно, финансировал первые работы Сондерсона над парагравитационным двигателем.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero hasta que empezaron a construir las plantas de fusión no se logró calentar doscientos kilómetros cuadrados de un mundo tan helado como Plutón, y fue entonces cuando me llamó.</su>
+          <su lang="ru">Но бизнесмен решил снова со мной встретиться лишь тогда, когда началось строительство термоядерных электростанций, которые могли успешно обогреть сотню квадратных километров столь холодной планеты, как Плутон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence>
+          <su lang="es">Era entonces un hombre riquísimo, moribundo.</su>
+          <su lang="ru">Он был уже очень стар и стоял одной ногой в могиле.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Me contaron cuál era su fortuna y apenas pude creerlo. No lo creí, en efecto, hasta que me enseñó los elaborados planes y los bellísimos modelos que sus expertos habían preparado con tan lamentable falta de publicidad.</su>
+          <su lang="ru">Мне рассказали о том, насколько он богат, и я с трудом мог этому поверить, пока собственными глазами не увидел детально разработанные планы и великолепные модели, над которыми без лишней огласки трудилась целая команда специалистов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence>
+          <su lang="es">Estaba sentado en un sillón de ruedas, como una momia arrugada, estudiando mi rostro mientras yo examinaba los modelos y sus copias.</su>
+          <su lang="ru">Мистер Перлман сидел в инвалидной коляске, был похож на иссохшую мумию и не отводил взгляда от моего лица, пока я знакомился с моделями и схемами. Наконец он сказал:</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence>
+          <su lang="es">—Capitán —murmuró—, tengo un empleo para usted...</su>
+          <su lang="ru">— Капитан, у меня есть для вас работа…</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y aquí estoy.</su>
+          <su lang="ru">Так я оказался здесь.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Es como gobernar una nave espacial, claro..., pues muchos de los problemas técnicos son idénticos.</su>
+          <su lang="ru">Мое занятие, естественно, ничем не отличается от командования космическим кораблем — большинство технических проблем те же самые.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y a la sazón era ya demasiado viejo para mandar una nave, de modo que, como es natural, le estoy muy agradecido al señor Perlman.</su>
+          <su lang="ru">Сейчас я был бы уже слишком стар для того, чтобы оставаться капитаном корабля, так что крайне благодарен мистеру Перлману.</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence>
+          <su lang="es">Ahora suena el gong.</su>
+          <su lang="ru">Уже слышен гонг.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Si las damas están dispuestas, sugiero que bajemos al comedor a través del Salón de Observación.</su>
+          <su lang="ru">Если дамы готовы, то я предлагаю пройти на обед через обзорную галерею.</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence>
+          <su lang="es">Aun al cabo de tantos años, me sigue gustando contemplar la salida de Saturno... y esta noche estará casi en su fase llena.</su>
+          <su lang="ru">Даже после стольких лет мне до сих пор нравится наблюдать восход Сатурна, а сегодня вечером он почти полный.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

@@ -1,0 +1,1419 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220613T182001Z</creationdate>
+    <paragraphs>131</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>319</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>290</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Robert Sheckley</s>
+      <s lang="ru">Роберт Шекли</s>
+    </author>
+    <title>
+      <s lang="en">The Last Weapon</s>
+      <s lang="ru">Абсолютное оружие</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">Edsel was in a murderous mood.</su>
+          <su lang="ru"> Эдселю хотелось кого-нибудь убить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He, Parke, and Faxon had spent three weeks in this part of the deadlands, breaking into every mound they came across, not finding anything, and moving on to the next.</su>
+          <su lang="ru">Вот уже три недели работал он с Парком и Факсоном в этой мертвой пустыне. Они раскапывали каждый курган, попадавшийся им на пути, ничего не находили и шли дальше.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The swift Martian summer was passing, and each day became a little colder.</su>
+          <su lang="ru">Короткое марсианское лето близилось к концу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Each day Edsel’s nerves, uncertain at the best of times, had frayed a little more.</su>
+          <su lang="ru">С каждым днем становилось все холоднее, с каждым днем нервы у Эдселя, и в лучшие времена не очень-то крепкие, понемногу сдавали.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Little Faxon was cheerful, dreaming of all the money they would make when they found the weapons, and Parke plodded silently along, apparently made of iron, not saying a word unless he was spoken to.</su>
+          <su lang="ru">Коротышка Факсон был весел — он мечтал о куче денег, которые они получат, когда найдут оружие, а Парк молча тащился за ними, словно железный, и не произносил ни слова, если к нему не обращались.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">But Edsel had reached his limit.</su>
+          <su lang="ru">Эдсель был на пределе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They had broken into another mound, and again there had been no sign of the lost Martian weapons.</su>
+          <su lang="ru">Они раскопали еще один курган и опять не нашли ничего похожего на затерянное оружие марсиан.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The watery sun seemed to be glaring at him, and the stars were visible in an impossibly blue sky.</su>
+          <su lang="ru">Водянистое солнце таращилось на них, на невероятно голубом небе были видны крупные звезды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The afternoon cold, seeped into Edsel’s insulated suit, stiffening his joints, knotting his big muscles.</su>
+          <su lang="ru">Сквозь утепленный скафандр Эдселя начал просачиваться вечерний холодок, леденя суставы и сковывая мышцы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">Quite suddenly, Edsel decided to kill Parke.</su>
+          <su lang="ru">Внезапно Эдселя охватило желание убить Парка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had disliked the silent man since they had formed the partnership on Earth.</su>
+          <su lang="ru">Этот молчаливый человек был ему не по душе еще с того времени, когда они организовали партнерство на Земле.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He disliked him even more than he despised Faxon.</su>
+          <su lang="ru">Он ненавидел его больше, чем презирал Факсона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">Edsel stopped.</su>
+          <su lang="ru">Эдсель остановился.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">"Do you know where we’re going?" he asked Parke, his voice ominously low.</su>
+          <su lang="ru">— Ты знаешь, куда нам надо идти? — спросил он Парка зловеще низким голосом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">Parke shrugged his slender shoulders negligently.</su>
+          <su lang="ru">Парк только пожал плечами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His pale, hollow face showed no trace of expression.</su>
+          <su lang="ru">На его бледном, худом лице ничего не отразилось.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">"Do you?" Edsel asked.</su>
+          <su lang="ru">— Куда мы идем, тебя спрашивают? — повторил Эдсель.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">Parke shrugged again.</su>
+          <su lang="ru">Парк опять молча пожал плечами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">A bullet in the head, Edsel decided, reaching for his gun.</su>
+          <su lang="ru">— Пулю ему в голову, — решил Эдсель и потянулся за пистолетом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">"Wait!" Faxon pleaded, coming up between them. "Don’t fly off, Edsel.</su>
+          <su lang="ru">— Подожди, Эдсель, — умоляющим тоном сказал Факсон, становясь между ними, — не выходи из себя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Just think of all the money we can make when we find the weapons!"</su>
+          <su lang="ru">Ты только подумай о том, сколько мы загребем денег, если найдем оружие!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The little man’s eyes glowed at the thought.</su>
+          <su lang="ru">— От этой мысли глаза маленького человечка загорелись.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"They’re right around here somewhere, Edsel.</su>
+          <su lang="ru">— Оно где-то здесь, Эдсель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The next mound, maybe."</su>
+          <su lang="ru">Может быть, в соседнем кургане.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">Edsel hesitated, glaring at Parke.</su>
+          <su lang="ru">Эдсель заколебался, пристально поглядел на Парка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Right now he wanted to kill, more than anything else in the world.</su>
+          <su lang="ru">В этот миг больше всего на свете ему хотелось убивать, убивать, убивать…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If he had known it was like this, when they formed the company on Earth . . .</su>
+          <su lang="ru">Знай он там, на Земле, что все получится именно так!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It had seemed so easy, then.</su>
+          <su lang="ru">Тогда все казалось легким.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had the plaque, the one which told where a cache of the fabulous lost Martian weapons were.</su>
+          <su lang="ru">У него был свиток, а в свитке… сведения о том, где спрятан склад легендарного оружия марсиан.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Parke was able to read the Martian script, and Faxon could finance the expedition.</su>
+          <su lang="ru">Парк умел читать по-марсиански, а Факсон дал деньги для экспедиции.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So, he had figured all they’d have to do would be to land on Mars and walk up to the mound where the stuff was hidden.</su>
+          <su lang="ru">Эдсель думал, что им только нужно долететь до Марса и пройти несколько шагов до места, где хранится оружие.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">Edsel had never been off Earth before.</su>
+          <su lang="ru">До этого Эдсель еще ни разу не покидал Земли.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He hadn’t counted on the weeks of freezing, starving on concentrated rations, always dizzy from breathing thin, tired air circulating through a replenisher.</su>
+          <su lang="ru">Он не рассчитывал, что ему придется пробыть на Марсе так долго, замерзать от леденящего ветра, голодать, питаясь безвкусными концентратами, всегда испытывать головокружение от разреженного скудного воздуха, проходящего через обогатитель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He hadn’t thought about the sore, aching muscles you get, dragging your way through the thick Martian brush.</su>
+          <su lang="ru">Он не думал тогда о натруженных мышцах, ноющих оттого, что все время надо продираться сквозь густые марсианские заросли.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">All he had thought about was the price a government— any government—would pay for those legendary weapons.</su>
+          <su lang="ru">Он думал только о том, какую цену заплатит ему правительство, любое правительство, за это легендарное оружие.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">"I’m sorry," Edsel said, making up his mind suddenly. "This place gets me.</su>
+          <su lang="ru">— Извините меня, — сказал Эдсель, внезапно сообразив что-то, — это место действует мне на нервы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sorry I blew up, Parke.</su>
+          <su lang="ru">Прости, Парк, что я сорвался.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Lead on."</su>
+          <su lang="ru">Веди дальше.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">Parke nodded, and started again.</su>
+          <su lang="ru">Парк молча кивнул и пошел вперед.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Faxon breathed a sigh of relief, and followed Parke.</su>
+          <su lang="ru">Факсон вздохнул с облегчением и двинулся за Парком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">After all, Edsel thought. I can kill them anytime.</su>
+          <su lang="ru">«В конце концов, — рассуждал про себя Эдсель, — убить их я могу в любое время».</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">* * * * They found the correct mound in mid-afternoon, just as Edsel’s patience was wearing thin again.</su>
+          <su lang="ru">Они нашли курган к вечеру, как раз тогда, когда терпение Эдселя подходило к концу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was a strange, massive affair, just as the script had said.</su>
+          <su lang="ru">Это было странное, массивное сооружение, выглядевшее точно так, как написано в свитке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Under a few inches of dirt was metal.</su>
+          <su lang="ru">На металлических стенках осел толстый слой пыли.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The men scraped and found a door.</su>
+          <su lang="ru">Они нашли дверь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">"Here, I’ll blast it open," Edsel said, drawing his revolver.</su>
+          <su lang="ru">— Дайте-ка я ее высажу, — сказал Эдсель и начал вытаскивать пистолет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">Parke pushed him aside, turned the handle and opened the door.</su>
+          <su lang="ru">Парк оттеснил его и, повернув ручку, открыл дверь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">Inside was a tremendous room. And there, row upon gleaming row, were the legendary lost weapons of Mars, the missing artifacts of Martian civilization.</su>
+          <su lang="ru">Они вошли в огромную комнату, где грудами лежало сверкающее легендарное марсианское оружие, остатки марсианской цивилизации.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">The three men stood for a moment, just looking.</su>
+          <su lang="ru">Люди стояли и молча смотрели по сторонам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Here was the treasure that men had almost given up looking for.</su>
+          <su lang="ru">Перед ними лежало сокровище, от поисков которого все уже давно отказались.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Since man had landed on Mars, the ruins of great cities had been explored.</su>
+          <su lang="ru">С того времени, когда человек высадился на Марсе, развалины великих городов были тщательно изучены.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Scattered across the plains were ruined vehicles, artforms, tools, everything indicating the ghost of a titanic civilization, a thousand years beyond Earth’s.</su>
+          <su lang="ru">По всей равнине лежали сломанные машины, боевые колесницы, инструменты, приборы — все говорило о титанической цивилизации, на тысячи лет опередившей земную.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Patiently deciphered scripts had told of the great wars ravaging the surface of Mars.</su>
+          <su lang="ru">Кропотливо расшифрованные письмена рассказали о жестоких войнах, бушевавших на этой планете.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The scripts stopped too soon, though, because nothing told what had happened to the Martians.</su>
+          <su lang="ru">Однако в них не говорилось, что произошло с марсианами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There hadn’t been an intelligent being on Mars for several thousand years. Somehow, all animal life on the planet had been obliterated.</su>
+          <su lang="ru">Уже несколько тысячелетий на Марсе не было ни одного разумного существа, не осталось даже животных.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">And, apparently, the Martians had taken their weapons with them.</su>
+          <su lang="ru">Казалось, свое оружие марсиане забрали с собой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">These lost weapons, Edsel knew, were worth their weight in radium.</su>
+          <su lang="ru">Эдсель знал, что это оружие ценилось на вес чистого радия.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There just wasn’t anything like them.</su>
+          <su lang="ru">Равного не было во всем мире.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">The men went inside.</su>
+          <su lang="ru">Они сделали несколько шагов в глубь комнаты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Edsel picked up the first thing his hand reached.</su>
+          <su lang="ru">Эдсель поднял первое, что ему попалось под руку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It looked like a .45, only bigger.</su>
+          <su lang="ru">Похоже на пистолет 45-го калибра, только крупнее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He went to the door and pointed the weapon at a shrub on the plain.</su>
+          <su lang="ru">Он подошел к раскрытой двери и направил оружие на росший неподалеку куст.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">"Don’t fire it," Faxon said, as Edsel took aim.</su>
+          <su lang="ru">— Не стреляй! — испуганно крикнул Факсон, когда Эдсель прицелился.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"It might backfire or something.</su>
+          <su lang="ru">— Оно может взорваться или еще что-нибудь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Let the government men fire them, after we sell."</su>
+          <su lang="ru">Пусть им занимаются специалисты, когда мы все это продадим.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">Edsel squeezed the trigger.</su>
+          <su lang="ru">Эдсель нажал на спусковой рычаг.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The shrub, seventy-five feet away, erupted in a bright red flash.</su>
+          <su lang="ru">Куст, росший в семидесяти пяти футах от входа, исчез в ярко-красной вспышке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">"Not bad," Edsel said, patting the gun. He put it down and reached for another.</su>
+          <su lang="ru">— Неплохо, — заметил Эдсель, ласково погладил пистолет и, положив его на место, взял следующий.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">"Please, Edsel," Faxon said, squinting nervously at him. "There’s no need to try them out.</su>
+          <su lang="ru">— Ну хватит, Эдсель, — умоляюще сказал Факсон, — нет смысла испытывать здесь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You might set off an atomic bomb or something."</su>
+          <su lang="ru">Можно вызвать атомную реакцию или еще что-нибудь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">"Shut up," Edsel said, examining the weapon for a firing stud.</su>
+          <su lang="ru">— Заткнись, — бросил Эдсель, рассматривая спусковой механизм нового пистолета.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">"Don’t shoot any more," Faxon pleaded.</su>
+          <su lang="ru">— Не стреляй больше, — продолжал просить Факсон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He looked to Parke for support, but the silent man was watching Edsel.</su>
+          <su lang="ru">Он умоляюще поглядел на Парка, ища его поддержки, но тот молча смотрел на Эдселя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">"You know, something in this place might have been responsible for the destruction of the Martian race.</su>
+          <su lang="ru">— Ведь что-то из того, что здесь лежит, возможно, уничтожило всю марсианскую расу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You wouldn’t want to set it off again, would you?"</su>
+          <su lang="ru">Ты снова хочешь заварить кашу, — продолжал Факсон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">Edsel watched a spot on the plain glow with heat as he fired at it.</su>
+          <su lang="ru">Эдсель опят выстрелил и с удовольствием смотрел, как вдали плавился кусок пустыни.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">"Good stuff."</su>
+          <su lang="ru">— Хороша штучка!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He picked up another, rod-shaped instrument.</su>
+          <su lang="ru">— Он поднял еще что-то, по форме напоминающее длинный жезл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The cold was forgotten.</su>
+          <su lang="ru">Холода он больше не чувствовал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Edsel was perfectly happy now, playing with all the shiny things.</su>
+          <su lang="ru">Эдсель забавлялся этими блестящими штучками и был в прекрасном настроении.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">"Let’s get started," Faxon said, moving toward the door.</su>
+          <su lang="ru">— Пора собираться, — сказал Факсон, направляясь к двери.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">"Started?</su>
+          <su lang="ru">— Собираться?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Where?" Edsel demanded.</su>
+          <su lang="ru">Куда? — медленно спросил его Эдсель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He picked up another glittering weapon, curved to fit his wrist and hand.</su>
+          <su lang="ru">Он поднял сверкающий инструмент с изогнутой рукояткой, удобно умещавшийся в ладони.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">"Back to the port," Faxon said. "Back to sell this stuff, like we planned.</su>
+          <su lang="ru">— Назад, в космопорт, — ответил Факсон. — домой, продавать всю эту амуницию, как мы и собирались.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I figure we can ask just about any price, any price at all.</su>
+          <su lang="ru">Уверен, что мы можем запросить любую цену.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A government would give billions for weapons like these."</su>
+          <su lang="ru">За такое оружие любое правительство даст миллионы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">"I’ve changed my mind," Edsel said.</su>
+          <su lang="ru">— А я передумал, — задумчиво протянул Эдсель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Out of the corner of his eye he was watching Parke.</su>
+          <su lang="ru">Краем глаза он наблюдал за Парком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">The slender man was walking between the stacks of weapons, but so far he hadn’t touched any.</su>
+          <su lang="ru">Тот ходил между грудами оружия, но ни к чему не прикасался.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">"Now listen," Faxon said, glaring at Edsel. "I financed this expedition.</su>
+          <su lang="ru">— Послушай-ка, парень, — злобно сказал Факсон, глядя Эдселю в глаза, — в конце концов я финансировал экспедицию.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We planned on selling the stuff.</su>
+          <su lang="ru">Мы же собирались продать это барахло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I have a right to —well, perhaps not."</su>
+          <su lang="ru">Я ведь тоже имею право… То есть нет, я не то хотел сказать…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The untried weapon was pointed squarely at his stomach.</su>
+          <su lang="ru">— Еще не испробованный пистолет был нацелен ему прямо в живот.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"What are you going to do?" he asked, trying not to look at the gun.</su>
+          <su lang="ru">— Ты что задумал? — пробормотал он, стараясь не смотреть на странный блестящий предмет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">"To hell with selling it," Edsel said, leaning against the cave wall where he could also watch Parke.</su>
+          <su lang="ru">— Ни черта я не собираюсь продавать, — заявил Эдсель. Он стоял, прислонившись к стенке так, чтобы видеть обоих.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I figure I can use this stuff myself."</su>
+          <su lang="ru">— Я ведь и сам могу использовать эти штуки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">He grinned broadly, still watching both men.</su>
+          <su lang="ru">Он широко ухмыльнулся, не переставая наблюдать за обоими партнерами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">"I can outfit some of the boys back home.</su>
+          <su lang="ru">— Дома я раздам оружие своим ребятам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">With the stuff that’s here, we can knock over one of those little governments in Central America easy.</su>
+          <su lang="ru">С ними мы запросто скинем какое-нибудь правительство в Южной Америке и продержимся, сколько захотим.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">I figure, we could hold it forever."</su>
+          <su lang="ru">— Ну, хорошо, — упавшим голосом сказал Факсон, не спуская глаз с направленного на него пистолета.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Well," Faxon said, watching the gun, "I don’t want to be a party to that sort of thing.</su>
+          <su lang="ru">— Только я не желаю участвовать в этом деле.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Just count me out."</su>
+          <su lang="ru">На меня не рассчитывай.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">"All right," Edsel said.</su>
+          <su lang="ru">— Пожалуйста, — ответил Эдсель.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">"Don’t worry about me talking," Faxon said quickly. "I won’t.</su>
+          <su lang="ru">— Ты только ничего не думай, я не собираюсь об этом болтать, — быстро проговорил Факсон, — я не буду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I just don’t want to be in on any shooting or killing.</su>
+          <su lang="ru">Просто не хочется стрелять и убивать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So I think I’ll go back."</su>
+          <su lang="ru">Так что я лучше пойду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">"Sure," Edsel said.</su>
+          <su lang="ru">— Конечно, — сказал Эдсель.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">Parke was standing to one side, examining his fingernails.</su>
+          <su lang="ru">Парк стоял в стороне, внимательно рассматривая свои ногти.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">"If you get that kingdom set up, I’ll come down," Faxon said, grinning weakly.</su>
+          <su lang="ru">— Если ты устроишь себе королевство, я к тебе приеду в гости, — сказал Факсон, делая слабую попытку улыбнуться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Maybe you can make me a duke or something."</su>
+          <su lang="ru">— Может быть, сделаешь меня герцогом или еще кем-нибудь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">"I think I can arrange that."</su>
+          <su lang="ru">— Может быть.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">"Swell. Good luck."</su>
+          <su lang="ru">— Ну и отлично.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Faxon waved his hand and started to walk away.</su>
+          <su lang="ru">Желаю тебе удачи, — Факсон помахал ему рукой и пошел к двери.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">Edsel let him get twenty feet, then aimed the new weapon and pressed the stud.</su>
+          <su lang="ru">Эдсель дал ему пройти шагов двадцать, затем поднял оружие и нажал на кнопку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The gun didn’t make any noise; there was no flash, but Faxon’s arm was neatly severed.</su>
+          <su lang="ru">Звука не последовало, вспышки тоже, но у Факсона правая рука была отсечена начисто.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Quickly, Edsel pressed the stud again and swung the gun down on Faxon.</su>
+          <su lang="ru">Эдсель быстро нажал кнопку еще раз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The little man was chopped in half, and the ground on either side of him was slashed, also.</su>
+          <su lang="ru">Маленького человечка рассекло надвое. Справа и слева от него на земле остались глубокие борозды.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">Edsel turned, realizing suddenly that he had left his back exposed to Parke.</su>
+          <su lang="ru">Эдсель вдруг сообразил, что все это время он стоял спиной к Парку, и круто повернулся.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All the man had to do was pick up the nearest gun and blaze away.</su>
+          <su lang="ru">Парк мог бы схватить ближайший пистолет и разнести его на куски.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But Parke was just standing there, his arms folded over his chest.</su>
+          <su lang="ru">Но Парк спокойно стоял на месте, скрестив руки на груди.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">"That beam will probably cut through anything," Parke said. "Very useful."</su>
+          <su lang="ru">— Этот луч пройдет сквозь что угодно, — спокойно заметил Парк, — полезная игрушка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">* * * * Edsel had a wonderful half hour, running back and forth to the door with different weapons.</su>
+          <su lang="ru">Полчаса Эдсель с удовольствием таскал к двери то одно, то другое оружие.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Parke made no move to touch anything, but watched with interest.</su>
+          <su lang="ru">Парк к нему даже не притрагивался, с интересом наблюдая за Эдселем.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The ancient Martian arms were as good as new, apparently unaffected by their thousands of years of disuse.</su>
+          <su lang="ru">Древнее оружие марсиан было как новенькое; на нем не сказались тысячи лет бездействия.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There were many blasting weapons, of various designs and capabilities.</su>
+          <su lang="ru">В комнате было много оружия разного типа, разной конструкции и мощности.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then heat and radiation guns, marvelously compact things. There were weapons which would freeze, and weapons which would burn; others which would crumble, cut, coagulate, paralyze, and any of the other ways of snuffing out life.</su>
+          <su lang="ru">Изумительно компактные тепловые и радиационные автоматы, оружие, мгновенно замораживающее, и оружие сжигающее, оружие, умеющее рушить, резать, коагулировать, парализовать и другими способами убивать все живое.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">"Let’s try this one," Parke said.</su>
+          <su lang="ru">— Давай-ка попробуем это, — сказал Парк.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="en">Edsel, who had been on the verge of testing an interesting-looking three-barreled rifle, stopped.</su>
+          <su lang="ru">Эдсель, собиравшийся испытать интересное трехствольное ружье, остановился.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">"I’m busy," he said.</su>
+          <su lang="ru">— Я занят, не видишь, что ли?</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">"Stop playing with those toys.</su>
+          <su lang="ru">— Перестань возиться с этими игрушками.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Let’s have a look at some real stuff."</su>
+          <su lang="ru">Давай займемся серьезным делом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">Parke was standing near a squat black machine on wheels.</su>
+          <su lang="ru">Парк остановился перед низкой черной платформой на колесах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Together they tugged it outside.</su>
+          <su lang="ru">Вдвоем они выкатили ее наружу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Parke watched while Edsel moved the controls.</su>
+          <su lang="ru">Парк стоял рядом и наблюдал, как Эдсель поворачивал рычажки на пульте управления.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A faint hum started, deep in the machine. Then a blue haze formed around it.</su>
+          <su lang="ru">Из глубины машины раздалось негромкое гудение, затем ее окутал голубоватый туман.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The haze spread as Edsel manipulated the controls, until it surrounded the two men.</su>
+          <su lang="ru">Облако тумана росло по мере того, как Эдсель поворачивал рычажок, и накрыло обоих людей, образовав нечто вроде правильного полушария.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">"Try a blaster on it," Parke said.</su>
+          <su lang="ru">— Попробуй-ка пробить ее из бластера, — сказал Парк.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">Edsel picked up one of the explosive pistols and fired.</su>
+          <su lang="ru">Эдсель выстрелил в окружающую их голубую стену.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The charge was absorbed by the haze.</su>
+          <su lang="ru">Заряд был полностью поглощен голубой стеной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Quickly he tested three others. They couldn’t pierce the blue glow.</su>
+          <su lang="ru">Эдсель испробовал на ней еще три разных пистолета, но они тоже не могли пробить голубоватую прозрачную стену.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">"I believe," Parke said softly, "this will stop an atomic bomb.</su>
+          <su lang="ru">— Сдается мне, — тихо произнес Парк, — что такая стена выдержит и взрыв атомной бомбы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This is a force-field."</su>
+          <su lang="ru">Это, видимо, мощное силовое поле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">Edsel turned it off and they went back inside.</su>
+          <su lang="ru">Эдсель выключил машину, и они вернулись в комнату с оружием.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was growing dark in the cave as the sun neared the horizon.</su>
+          <su lang="ru">Солнце приближалось к горизонту, и в комнате становилось все темнее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="en">"You know," Edsel said, "You’re a pretty good guy, Parke.</su>
+          <su lang="ru">— А знаешь что? — сказал вдруг Эдсель. — Ты неплохой парень, Парк.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You’re O.K."</su>
+          <su lang="ru">Парень что надо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="en">"Thanks," Parke said, looking over the mass of weapons.</su>
+          <su lang="ru">— Спасибо, — ответил Парк, рассматривая кучу оружия.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="en">"You don’t mind my cutting down Faxon, do you?</su>
+          <su lang="ru">— Ты не сердишься, что я разделался с Факсоном, а?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was going straight to the government."</su>
+          <su lang="ru">Он ведь собирался донести на нас правительству.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="en">"On the contrary. I approve."</su>
+          <su lang="ru">— Наоборот, я одобряю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="en">"Swell.</su>
+          <su lang="ru">— Уверен, что ты парень что надо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I figure you must be O.K. You could have killed me when I was killing Faxon."</su>
+          <su lang="ru">Ты бы мог меня убить, когда я стрелял в Факсона.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Edsel didn’t add that it was what he would have done.</su>
+          <su lang="ru">— Эдсель умолчал о том, что на месте Парка он так бы и поступил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="en">Parke shrugged his shoulders.</su>
+          <su lang="ru">Парк пожал плечами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="en">"How would you like to work on this kingdom deal with me?" Edsel asked, grinning.</su>
+          <su lang="ru">— А как тебе идея насчет королевства со мной на пару? — спросил Эдсель, расплывшись в улыбке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I think we could swing it.</su>
+          <su lang="ru">— Я думаю, мы это дело провернем.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Get ourselves a nice place, plenty of girls, lots of laughs.</su>
+          <su lang="ru">Найдем себе приличную страну, будет уйма девочек, развлечений.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What do you think?"</su>
+          <su lang="ru">Ты как насчет этого?</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="en">"Sure," Parke said. "Count me in."</su>
+          <su lang="ru">— Я за, — ответил Парк, — считай меня в своей команде.</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="en">Edsel slapped him on the shoulder, and they went through the ranks of weapons.</su>
+          <su lang="ru">Эдсель похлопал его по плечу, и они пошли дальше вдоль рядов с оружием.</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence>
+          <su lang="en">"All these are pretty obvious," Parke said, as they reached the end of the room. "Variations on the others."</su>
+          <su lang="ru">— С этим все довольно ясно, — продолжал Парк, — варианты того, что мы уже видели.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="en">At the end of the room was a door.</su>
+          <su lang="ru">В углу комнаты они заметили дверь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There were letters in Martian script engraved on it.</su>
+          <su lang="ru">На ней виднелась надпись на марсианском языке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="en">"What’s that stuff say?" Edsel asked.</su>
+          <su lang="ru">— Что тут написано? — спросил Эдсель.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="en">"Something about ‘final weapons,’" Parke told him, squinting at the delicate tracery. "A warning to stay out."</su>
+          <su lang="ru">— Что-то насчет абсолютного оружия, — ответил Парк, разглядывая тщательно выписанные буквы чужого языка, — предупреждают, чтобы не входили.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="en">He opened the door.</su>
+          <su lang="ru">Парк открыл дверь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Both men started to step inside, then recoiled suddenly.</su>
+          <su lang="ru">Они хотели войти, но от неожиданности отпрянули назад.</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="en">Inside was a chamber, fully three times the size of the room they had just left. And filling the great room, as far as they could see, were soldiers.</su>
+          <su lang="ru">За дверью был зал, раза в три больше, чем комната с оружием, и вдоль всех стен, заполняя его, стояли солдаты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Gorgeously dressed, fully armed, the soldiers were motionless, statue-like.</su>
+          <su lang="ru">Роскошно одетые, вооруженные до зубов, солдаты стояли неподвижно, словно статуи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were not alive.</su>
+          <su lang="ru">Они не проявляли никаких признаков жизни.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="en">There was a table by the door, and on it were three things. First there was a sphere about the size of a man’s fist, with a calibrated dial set in it. Beside that was a shining helmet. And next was a small, black box with Martian script on it.</su>
+          <su lang="ru">У входа стоял стол, а на нем было три предмета: шар размером с кулак, с нанесенными на нем делениями, рядом — блестящий шлем, а за ним — небольшая черная шкатулка с марсианскими буквами на крышке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="en">"Is it a burial place?" Edsel whispered, looking with awe at the strong unearthly faces of the Martian soldiery.</su>
+          <su lang="ru">— Это что — усыпальница? — прошептал Эдсель, с благоговением глядя на резко очерченные неземные лица марсианских воинов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence>
+          <su lang="en">Parke, behind him, didn’t answer.</su>
+          <su lang="ru">Парк, стоявший позади него, не ответил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="en">Edsel walked to the table and picked up the sphere.</su>
+          <su lang="ru">Эдсель подошел к столу и взял в руки шар.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Carefully he turned the dial a single notch.</su>
+          <su lang="ru">Осторожно он повернул стрелку на одно деление.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="en">"What do you think it’s supposed to do?"</su>
+          <su lang="ru">— Как ты думаешь, что они должны делать? — спросил он Парка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He asked Parke.</su>
+          <su lang="ru">— Ты думаешь…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Do you think—" Both men gasped, and moved back.</su>
+          <su lang="ru">Оба они вздрогнули и попятились.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="en">The lines of fighting men had moved.</su>
+          <su lang="ru">По рядам солдат прокатилось движение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Men in ranks swayed, then came back to attention. But they no longer held the rigid posture of death.</su>
+          <su lang="ru">Они качнулись и застыли в позе «смирно».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The ancient fighting men were alive.</su>
+          <su lang="ru">Древние воины ожили.</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="en">One of them, in an amazing uniform of purple and silver, came forward and bowed to Edsel.</su>
+          <su lang="ru">Один из них, одетый в пурпурную с серебром форму, вышел вперед и поклонился Эдселю:</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence>
+          <su lang="en">"Sir, your troops are ready."</su>
+          <su lang="ru">— Господин, ваши войска готовы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="en">Edsel was too amazed to speak.</su>
+          <su lang="ru">Эдсель от изумления не мог найти слов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="en">"How can you live after thousands of years?" Parke asked.</su>
+          <su lang="ru">— Как вам удалось остаться живыми столько лет? — спросил Парк.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Are you Martians?"</su>
+          <su lang="ru">— Вы марсиане?</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="en">"We are the servants of the Martians," the soldier said.</su>
+          <su lang="ru">— Мы слуги марсиан.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="en">Parke noticed that the soldier’s lips hadn’t moved.</su>
+          <su lang="ru">Парк обратил внимание на то, что, когда солдат говорил, губы его не шевелились.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The man was telepathic.</su>
+          <su lang="ru">Марсианские солдаты были телепатами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence>
+          <su lang="en">"Sir, we are Synthetics."</su>
+          <su lang="ru">— Мы Синтеты, господин.</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence>
+          <su lang="en">"Whom do you obey?"</su>
+          <su lang="ru">— Кому вы подчиняетесь?</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence>
+          <su lang="en">Parke asked. "The Activator, sir." The Synthetic was speaking directly to Edsel, looking at the sphere in his hand.</su>
+          <su lang="ru">— Активатору, господин, — Синтет говорил, обращаясь непосредственно к Эдселю, глядя на прозрачный шар в его руках.</su>
+        </sentence>
+      </p>
+      <p type="text" id="95">
+        <sentence>
+          <su lang="en">"We require no food or sleep, sir.</su>
+          <su lang="ru">— Мы не нуждаемся в пище или сне, господин.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Our only desire is to serve you, and to fight."</su>
+          <su lang="ru">Наше единственное желание — служить вам и сражаться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence>
+          <su lang="en">The soldiers in the ranks nodded approvingly.</su>
+          <su lang="ru">Солдаты кивнули в знак одобрения.</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence>
+          <su lang="en">"Lead us into battle, sir!"</su>
+          <su lang="ru">— Веди нас в бой, господин…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I sure will!" Edsel said, finally regaining his senses.</su>
+          <su lang="ru">— Можете не беспокоиться, — сказал Эдсель, придя наконец в себя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I’ll show you boys some fighting, you can bank on that!"</su>
+          <su lang="ru">— Я вам, ребята, покажу, что такое настоящий бой, будьте уверены.</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence>
+          <su lang="en">The soldiers cheered him, solemnly, three times.</su>
+          <su lang="ru">Солдаты торжественно трижды прокричали приветствие.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Edsel grinned, looking at Parke.</su>
+          <su lang="ru">Эдсель ухмыльнулся, оглянувшись на Парка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence>
+          <su lang="en">"What do the rest of these numbers do?" Edsel asked.</su>
+          <su lang="ru">— А что обозначают остальные деления на циферблате? — спросил Эдсель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But the soldier was silent.</su>
+          <su lang="ru">Но солдат молчал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The question was evidently beyond his built-in knowledge.</su>
+          <su lang="ru">Видимо, вопрос не был предусмотрен введенной в него программой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="100">
+        <sentence>
+          <su lang="en">"It might activate other Synthetics," Parke said.</su>
+          <su lang="ru">— Может быть, они активируют других Синтетов, — сказал Парк.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"There are probably more chambers underground."</su>
+          <su lang="ru">— Наверное, внизу есть еще залы с солдатами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence>
+          <su lang="en">"Brother!" Edsel shouted.</su>
+          <su lang="ru">— И вы еще спрашиваете, поведу ли я вас в бой?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Will I lead you into battle!"</su>
+          <su lang="ru">Еще как поведу!</su>
+        </sentence>
+      </p>
+      <p type="text" id="102">
+        <sentence>
+          <su lang="en">Again the soldiers cheered, three solemn cheers.</su>
+          <su lang="ru">Солдаты еще раз торжественно прокричали приветствие.</su>
+        </sentence>
+      </p>
+      <p type="text" id="103">
+        <sentence>
+          <su lang="en">"Put them to sleep and let’s make some plans," Parke said.</su>
+          <su lang="ru">— Усыпи их и давай продумаем план действий, — сказал Парк.</su>
+        </sentence>
+      </p>
+      <p type="text" id="104">
+        <sentence>
+          <su lang="en">Dazed, Edsel turned the switch back.</su>
+          <su lang="ru">Эдсель, все еще ошеломленный, повернул рычаг назад.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The soldiers froze again into immobility.</su>
+          <su lang="ru">Солдаты замерли, словно превратившись в статуи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="105">
+        <sentence>
+          <su lang="en">"Come on outside."</su>
+          <su lang="ru">— Пойдем назад.</su>
+        </sentence>
+      </p>
+      <p type="text" id="106">
+        <sentence>
+          <su lang="en">"Right."</su>
+          <su lang="ru">— Ты, пожалуй, прав.</su>
+        </sentence>
+      </p>
+      <p type="text" id="107">
+        <sentence>
+          <su lang="en">"And bring that stuff with you."</su>
+          <su lang="ru">— И захвати с собой все это, — сказал Парк, показывая на стол.</su>
+        </sentence>
+      </p>
+      <p type="text" id="108">
+        <sentence>
+          <su lang="en">Edsel picked up the shining helmet and the black box and followed Parke outside.</su>
+          <su lang="ru">Эдсель взял блестящий шлем и черный ящик и вышел наружу вслед за Парком.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The sun had almost disappeared now, and there were black shadows over the red land.</su>
+          <su lang="ru">Солнце почти скрылось за горизонтом, и над красной пустыней протянулись черные длинные тени.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was bitterly cold, but neither man noticed.</su>
+          <su lang="ru">Было очень холодно, но они этого не чувствовали.</su>
+        </sentence>
+      </p>
+      <p type="text" id="109">
+        <sentence>
+          <su lang="en">"Did you hear what they said, Parke?</su>
+          <su lang="ru">— Ты слышал, Парк, что они говорили?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Did you hear it?</su>
+          <su lang="ru">Слышал?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They said I was their leader!</su>
+          <su lang="ru">Они сказали, что я их вождь!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">With men like those—" He laughed at the sky.</su>
+          <su lang="ru">С такими солдатами… — он засмеялся.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">With those soldiers, those weapons, nothing could stop him.</su>
+          <su lang="ru">С такими солдатами, с таким оружием его ничто не сможет остановить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He’d really stock his land—prettiest girls in the world, and would he have a time!</su>
+          <su lang="ru">Да уж он выберет себе королевство.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I’m a general!"</su>
+          <su lang="ru">Самые красивые девочки в мире, ну и повеселится же он…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Edsel shouted, and slipped the helmet over his head.</su>
+          <su lang="ru">— Я генерал! — крикнул Эдсель и надел шлем на голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"How do I look, Parke?</su>
+          <su lang="ru">— Как, идет мне, Парк?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Don’t I look like a—" He stopped.</su>
+          <su lang="ru">Похож я… Он замолчал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was hearing a voice in his ears, whispering, muttering.</su>
+          <su lang="ru">Ему послышалось, будто кто-то что-то шепчет, бормочет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What was it saying?</su>
+          <su lang="ru">Что это?</su>
+        </sentence>
+      </p>
+      <p type="text" id="110">
+        <sentence>
+          <su lang="en">". . . damned idiot, with his little dream of a kingdom.</su>
+          <su lang="ru">«…проклятый дурак. Тоже придумал королевство!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Power like this is for a man of genius, a man who can remake history.</su>
+          <su lang="ru">Такая власть — это для гениального человека, человека, который способен переделать историю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Myself!"</su>
+          <su lang="ru">Для меня!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Who’s talking?</su>
+          <su lang="ru">— Кто это говорит?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That’s you, isn’t it Parke?"</su>
+          <su lang="ru">Ты, Парк?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Edsel realized, suddenly, that the helmet allowed him to listen in on thoughts.</su>
+          <su lang="ru">А? — Эдсель внезапно понял, что с помощью шлема он мог слышать чужие мысли, но у него уже не осталось времени осознать, какое это было бы оружие для правителя мира.</su>
+        </sentence>
+      </p>
+      <p type="text" id="111">
+        <sentence>
+          <su lang="en">He didn’t have time to consider what a weapon this would be for a ruler.</su>
+          <su lang="ru">Парк аккуратно прострелил ему голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Parke shot him neatly through the back with a gun he had been holding all the time.</su>
+          <su lang="ru">Все это время пистолет был у него в руке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="112">
+        <sentence>
+          <su lang="en">"What an idiot," Parke told himself, slipping the helmet on his head.</su>
+          <su lang="ru">«Что за идиот! — подумал про себя Парк, надевая шлем.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"A kingdom!</su>
+          <su lang="ru">— Королевство!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All the power in the world, and he dreamed of a little kingdom!".</su>
+          <su lang="ru">Тут вся власть в мире, а он мечтает о каком-то вшивом королевстве».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He glanced back at the cave.</su>
+          <su lang="ru">Он обернулся и посмотрел на пещеру.</su>
+        </sentence>
+      </p>
+      <p type="text" id="113">
+        <sentence>
+          <su lang="en">"With those troops—the force-field—and the weapons— I can take over the world."</su>
+          <su lang="ru">«С такими солдатами, силовым полем и всем оружием я завоюю весь мир».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He said it coldly, knowing it was a fact.</su>
+          <su lang="ru">Он думал об этом спокойно, зная, что так оно и будет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="114">
+        <sentence>
+          <su lang="en">He turned to go back to the cave, to activate the Synthetics, but stopped first to pick up the little black box Edsel had carried.</su>
+          <su lang="ru">Он собрался было назад, чтобы активировать Синтетов, но остановился и поднял маленькую черную шкатулку, выпавшую из рук Эдселя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="115">
+        <sentence>
+          <su lang="en">Engraved on it, in flowing Martian script, was, "The Last Weapon."</su>
+          <su lang="ru">На ее крышке стремительным марсианским письмом было выгравировано: «Абсолютное оружие».</su>
+        </sentence>
+      </p>
+      <p type="text" id="116">
+        <sentence>
+          <su lang="en">I wonder what it could be, Parke asked himself.</su>
+          <su lang="ru">«Что бы это могло означать?» — подумал Парк.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had let Edsel live long enough to try out all the others; no use chancing a misfire himself.</su>
+          <su lang="ru">Он позволил Эдселю прожить ровно столько, чтобы испытать оружие. Нет смысла рисковать лишний раз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was too bad he hadn’t lived long enough to try out this one, too.</su>
+          <su lang="ru">Жаль, что он не успел испытать и этого.</su>
+        </sentence>
+      </p>
+      <p type="text" id="117">
+        <sentence>
+          <su lang="en">Of course, I really don’t need it, he told himself.</su>
+          <su lang="ru">Впрочем, и не нужно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had plenty.</su>
+          <su lang="ru">У него и так хватает всякого оружия.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But this might make the job a lot easier, a lot safer.</su>
+          <su lang="ru">Но вот это, последнее, может облегчить задачу, сделать ее гораздо более безопасной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Whatever it was, it was bound to be good.</su>
+          <su lang="ru">Что бы там ни было, это ему, несомненно, поможет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="118">
+        <sentence>
+          <su lang="en">Well, he told himself, let’s see what the Martians considered their last weapon.</su>
+          <su lang="ru">— Ну, — сказал он самому себе, — давай-ка посмотрим, что считают абсолютным оружием сами марсиане, — и открыл шкатулку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="119">
+        <sentence>
+          <su lang="en">He opened the box.</su>
+          <su lang="ru">Из нее пошел легкий пар.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A vapor drifted out, and Parke threw the box from him, thinking about poison gas.</su>
+          <su lang="ru">Парк отбросил шкатулку подальше, опасаясь, что там ядовитый газ.</su>
+        </sentence>
+      </p>
+      <p type="text" id="120">
+        <sentence>
+          <su lang="en">The vapor mounted, drifted haphazardly for a while, then began to coalesce.</su>
+          <su lang="ru">Пар пошел струей вверх и в стороны, затем начал сгущаться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It spread, grew, and took shape.</su>
+          <su lang="ru">Облако ширилось, росло и принимало какую-то определенную форму.</su>
+        </sentence>
+      </p>
+      <p type="text" id="121">
+        <sentence>
+          <su lang="en">In a few seconds, it was complete, hovering over the box.</su>
+          <su lang="ru">Через несколько секунд оно приняло законченный вид и застыло, возвышаясь над шкатулкой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It glimmered white in the dying light, and Parke saw that it was just a tremendous mouth, topped by a pair of unblinking eyes.</su>
+          <su lang="ru">Облако поблескивало металлическим отсветом в угасающем свете дня, и Парк увидел, что это огромный рот под двумя немигающими глазами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="122">
+        <sentence>
+          <su lang="en">"Ho ho," the mouth said.</su>
+          <su lang="ru">— Хо-хо? — сказал рот.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Protoplasm!"</su>
+          <su lang="ru">— Протоплазма!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It drifted to the body of Edsel.</su>
+          <su lang="ru">— Он потянулся к телу Эдселя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="123">
+        <sentence>
+          <su lang="en">Parke lifted a blaster and took careful aim.</su>
+          <su lang="ru">Парк поднял дезинтегратор и тщательно прицелился.</su>
+        </sentence>
+      </p>
+      <p type="text" id="124">
+        <sentence>
+          <su lang="en">"Quiet protoplasm," the thing said, nuzzling Edsel’s body. "I like quiet protoplasm."</su>
+          <su lang="ru">— Спокойная протоплазма, — сказало чудовище, пожирая тело Эдселя, — мне нравится спокойная протоплазма, — и чудовище заглотило тело Эдселя целиком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="125">
+        <sentence>
+          <su lang="en">It took down the body in a single gulp.</su>
+          <su lang="ru">Парк выстрелил.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Parke fired, blasting a ten-foot hole in the ground.</su>
+          <su lang="ru">Взрыв вырыл десятифутовую воронку в почве.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The giant mouth drifted out of it, chuckling.</su>
+          <su lang="ru">Из нее выплыл гигантский рот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="126">
+        <sentence>
+          <su lang="en">"It’s been so long," it said.</su>
+          <su lang="ru">— Долго же я ждал! — сказал рот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="127">
+        <sentence>
+          <su lang="en">Parke was clenching his nerves in a forged grip.</su>
+          <su lang="ru">Нервы у Парка сжались в тугой комок.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He refused to let himself become panicked.</su>
+          <su lang="ru">Он с трудом подавил в себе надвигающийся панический ужас.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Calmly he activated the force-field, forming a blue sphere around himself. Still chuckling, the thing drifted through the blue haze.</su>
+          <su lang="ru">Сдерживая себя, он не спеша включил силовое поле, и голубой шар окутал его.</su>
+        </sentence>
+      </p>
+      <p type="text" id="128">
+        <sentence>
+          <su lang="en">Parke picked up the weapon Edsel had used on Faxon, feeling the well-balanced piece swing up in his hand.</su>
+          <su lang="ru">Парк схватил пистолет, из которого Эдсель убил Факсона, и почувствовал, как удобно легла в его руку прикладистая рукоятка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He backed to one side of the force-field as the thing approached, and turned on the beam.</su>
+          <su lang="ru">Чудовище приближалось. Парк нажал на кнопку, и из дула вырвался прямой луч…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The thing kept coming.</su>
+          <su lang="ru">Оно продолжало приближаться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="129">
+        <sentence>
+          <su lang="en">"Die, die!"</su>
+          <su lang="ru">— Сгинь, исчезни! — завизжал Парк.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Parke screamed, his nerves breaking.</su>
+          <su lang="ru">Нервы у него начали рваться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="130">
+        <sentence>
+          <su lang="en">But the thing came on, grinning broadly.</su>
+          <su lang="ru">Оно приближалось с широкой ухмылкой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="131">
+        <sentence>
+          <su lang="en">"I like quiet protoplasm," the thing said as its gigantic mouth converged on Parke. "But I also like lively protoplasm."</su>
+          <su lang="ru">— Мне нравится спокойная протоплазма, — сказало Оно, и гигантский рот сомкнулся над Парком, — но мне нравится и активная протоплазма.</su>
+        </sentence>
+      </p>
+      <p type="text" id="132">
+        <sentence>
+          <su lang="en">It gulped once, then drifted out the other side of the field, looking anxiously around for the millions of units of protoplasm, as there had been in the old days.</su>
+          <su lang="ru">Оно глотнуло и затем выплыло сквозь другую стенку поля, оглядываясь по сторонам в поисках миллионов единиц протоплазмы, как бывало давным-давно.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

@@ -1,0 +1,1117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220526T153012Z</creationdate>
+    <paragraphs>1973</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>5492</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>6021</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Robert A. Heinlein</s>
+      <s lang="ru">Роберт Хайнлайн</s>
+    </author>
+    <title>
+      <s lang="en">Door Into Summer</s>
+      <s lang="ru">Дверь в лето</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="h2">
+      <header>
+        <su lang="en">Door Into Summer</su>
+        <su lang="ru">Дверь в лето</su>
+      </header>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">One winter shortly before the Six Weeks War my tomcat, Petronius the Arbiter, and I lived in an old farmhouse in Connecticut.</su>
+          <su lang="ru">Однажды зимой, незадолго до Шестинедельной войны, я со своим котом по имени Петроний жил на старой ферме в штате Коннектикут.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I doubt if it is there any longer, as it was near the edge of the blast area of the Manhattan near miss, and those old frame buildings burn like tissue paper.</su>
+          <su lang="ru">Вряд ли она сохранилась до наших дней — она стояла как раз на краю зоны атомного поражения (это когда немножко промахнулись по Манхэттену), а эти старые хибарки горят, как бумажные салфетки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Even if it is still standing it would not be a desirable rental because of the fall-out, but we liked it then, Pete and I. The lack of plumbing made the rent low and what had been the dining room had a good north light for my drafting board.</su>
+          <su lang="ru">Да если бы даже она и уцелела, я бы ее теперь не снял из-за повышенной радиации. Ну а тогда нам с Питом там нравилось. Канализации, правда, не было, поэтому сдавали ферму по дешевке. В комнате, что некогда называлась столовой, окна выходили на север, и свет для работы у чертежной доски был подходящий.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">The drawback was that the place had eleven doors to the outside.</su>
+          <su lang="ru">Дом имел один недостаток: в нем было одиннадцать дверей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">Twelve, if you counted Pete's door.</su>
+          <su lang="ru">А если считать и дверь для Пита — то все двенадцать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I always tried to arrange a door of his own for Pete-in this case a board fitted into a window in an unused bedroom and in which I had cut a cat strainer just wide enough for Pete's whiskers.</su>
+          <su lang="ru">Я всегда старался, чтобы у Пита была своя дверь. В данном случае дверью ему служила вставленная в окно нежилой спальни фанерка, в которой я выпилил отверстие такого размера, чтобы усы не застревали.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I have spent too much of my life opening doors for cats.</su>
+          <su lang="ru">Слишком уж много времени в своей жизни я потратил, открывая двери кошкам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I once calculated that, since the dawn of civilization, nine hundred and seventy-eight man-centuries have been used up that way.</su>
+          <su lang="ru">Однажды я даже вычислил, что за всю историю цивилизации человечество убило на это дело сто семьдесят восемь человеко-веков.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I could show you figures.</su>
+          <su lang="ru">Могу показать расчеты.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">Pete usually used his own door except when he could bully me into opening a people door for him, which he preferred.</su>
+          <su lang="ru">Обычно Пит пользовался своей дверью, кроме тех случаев, когда ему удавалось умяукать меня, чтобы я открыл ему человеческую дверь — их он любил больше.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But he would not use his door when there was snow on the ground.</su>
+          <su lang="ru">Однако он категорически отказывался пользоваться своей дверью, если на земле лежал снег.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">While still a kitten, all fluff and buzzes, Pete had worked out a simple philosophy. I was in charge of quarters, rations, and weather; he was in charge of everything else.</su>
+          <su lang="ru">Еще котенком Пит выработал очень простое правило: я отвечаю за жилье, питание и погоду; он — за все остальное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But he held me especially responsible for weather.</su>
+          <su lang="ru">Но в особенности, по его убеждению, я отвечал за погоду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">Connecticut winters are good only for Christmas cards; regularly that winter Pete would check his own door, refuse to go out it because of that unpleasant white stuff beyond it (he was no fool), then badger me to open a people door.</su>
+          <su lang="ru">Зима в Коннектикуте хороша только для рождественских открыток; а Пит в ту зиму регулярно подходил к «своей» двери, выглядывал наружу и — не дурак же он! — отказывался выходить на улицу из-за этой белой дряни под лапами. Потом он мучил и преследовал меня до тех пор, пока я не открывал ему «человечью» дверь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">He had a fixed conviction that at least one of them must lead into summer weather.</su>
+          <su lang="ru">Пит твердо верил, что хотя бы за одной из этих дверей его ждет хорошая летняя погода.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Each time this meant that I had to go around with him to each of eleven doors, held it open while he satisfied himself that it was winter out that way, too, then go on to the next door, while his criticisms of my mismanagement grew more bitter with each disappointment.</su>
+          <su lang="ru">Поэтому каждый раз мне приходилось терпеливо обходить с ним все одиннадцать дверей, открывая каждую, чтобы он мог убедиться, что и там — зима. С каждым следующим разочарованием кот все больше убеждался, что я со своими обязанностями не справляюсь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">Then he would stay indoors until hydraulic pressure utterly forced him outside.</su>
+          <su lang="ru">Потом он сидел дома и терпел до тех пор, пока «гидравлическое давление» буквально не выжимало его наружу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When he returned the ice in his pads would sound like little clogs on the wooden floor and he would glare at me and refuse to purr until he had chewed it all out... whereupon he would forgive me until the next time.</su>
+          <su lang="ru">А когда он возвращался назад, кусочки льда между подушечками на его лапах цокали по дощатому полу, словно деревянные башмачки. Он сердито смотрел в мою сторону и отказывался мурлыкать до тех пор, пока не вылижет весь лед на лапах, после чего все же прощал меня — до следующего раза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">But he never gave up his search for the Door into Summer.</su>
+          <su lang="ru">Но упорно продолжал искать Дверь в Лето.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">On 3 December, 1970, 1 was looking for it too.</su>
+          <su lang="ru">Третьего декабря тысяча девятьсот семидесятого года я тоже искал ее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My quest was about as hopeless as Pete's had been in a Connecticut January.</su>
+          <su lang="ru">Однако поиски мои были такими же безнадежными, как старания Пита в январском Коннектикуте.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">What little snow there was in southern California was kept on mountains for skiers, not in downtown Los Angeles-the stuff probably couldn't have pushed through the smog anyway.</su>
+          <su lang="ru">Та малость снега, что выпала в южной Калифорнии, лежала на склонах гор, на радость лыжникам, а не в Лос-Анджелесе — вряд ли снежинки вообще сумели бы пробиться через густой смог.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But the winter weather was in my heart.</su>
+          <su lang="ru">Но в моем сердце наступила зима.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">I was not in bad health (aside from a cumulative hangover), I was still on the right side of thirty by a few days, and I was far from being broke.</su>
+          <su lang="ru">Здоровье у меня было в порядке (если не брать в расчет хронического похмелья); я готовился отметить свой тридцатый день рождения; бедность мне не угрожала.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No police were looking for me, nor any husbands, nor any process servers; there was nothing wrong that a slight case of amnesia would not have cured.</su>
+          <su lang="ru">Меня никто не разыскивал: ни полиция, ни судебные исполнители, ни чужие мужья. В общем, ничего катастрофического, что не поддавалось бы лечению с помощью сеансов легкого забвения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But there was winter in my heart and I was looking for the door to summer.</su>
+          <su lang="ru">Но поселившаяся у меня в сердце зима гнала меня искать Дверь в Лето.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">If I sound like a man with an acute case of self-pity, you are correct.</su>
+          <su lang="ru">Если вам показалось, что мне было очень себя жалко, то вы правы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There must have been well over two billion people on this planet in worse shape than I was.</su>
+          <su lang="ru">Наверняка на белом свете было добрых два миллиарда людей, дела у которых обстояли хуже моего.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nevertheless, I was looking for the Door into Summer.</su>
+          <su lang="ru">И, тем не менее, именно я искал Дверь в Лето.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">Most of the ones I had checked lately had been swinging doors, like the pair in front of me then-the SANS SOUCI Bar Grill, the sign said.</su>
+          <su lang="ru">Большая часть дверей, которые мне удалось осмотреть во время поисков, открывалась в обе стороны, вроде тех, перед которыми я сейчас стоял. На вывеске над дверями значилось: гриль-бар «Сан-Суси».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I went in, picked a booth hallway back, placed the overnight bag I was carrying carefully on the seat, slid in by it, and waited for the waiter.</su>
+          <su lang="ru">Я вошел внутрь, выбрал кабинку в середине зала, осторожно поставил сумку на диванчик, сам сел рядом и стал ждать официанта.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">The overnight bag said, "Waarrrh?"</su>
+          <su lang="ru">Сумка потребовала голосом Пита: — А я у-у-у?!</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">I said, "Take it easy, Pete."</su>
+          <su lang="ru">— Спокойно, Пит, — сказал я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">"Naaow!"</su>
+          <su lang="ru">— Мя-а-а-у!</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">"Nonsense, you just went.</su>
+          <su lang="ru">— Глупости, ты только что ходил по этому делу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pipe down, the waiter is coming."</su>
+          <su lang="ru">Угомонись, официант идет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">Pete shut up.</su>
+          <su lang="ru">Кот притих.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I looked up as the waiter leaned over the table, and said to him, "A double shot of your bar Scotch, a glass of plain water, and a split of ginger ale."</su>
+          <su lang="ru">Я поднял глаза на склонившегося над столиком официанта и сказал:</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">The waiter looked upset.</su>
+          <su lang="ru">— Двойной виски, стакан воды и бутылку имбирного пива.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">"Ginger ale, sir?</su>
+          <su lang="ru">— Виски с пивом, сэр? — официант увял.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">With Scotch?'</su>
+          <su lang="ru">— У вас есть имбирное пиво?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Do you have it or don't you?"</su>
+          <su lang="ru">Или нет?</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">"Why, yes, of course.</su>
+          <su lang="ru">— Есть, конечно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But-"</su>
+          <su lang="ru">Но…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Then fetch it.</su>
+          <su lang="ru">— Тогда неси.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm not going to drink it;</su>
+          <su lang="ru">Я не буду его пить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I just want to sneer at it.</su>
+          <su lang="ru">Я только буду на него глядеть, скривившись.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And bring a saucer too."</su>
+          <su lang="ru">И еще принеси блюдечко.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">"As you say, sir." He polished the table top.</su>
+          <su lang="ru">— Как прикажете, сэр, — он протер стол.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"How about a small steak, sir?</su>
+          <su lang="ru">— А как насчет бифштекса, сэр?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Or the scallops are very good today."</su>
+          <su lang="ru">И устрицы сегодня тоже очень хороши.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">"Look, mate, I'll tip you for the scallops if you'll promise not to serve them.</su>
+          <su lang="ru">— Слушай, приятель, ты получишь свои чаевые и за устриц, если пообещаешь, что не станешь их подавать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All I need is what I ordered... and don't forget the saucer."</su>
+          <su lang="ru">Мне надо только то, что я заказал… и не забудь, пожалуйста, блюдечко.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">He shut up and went away.</su>
+          <su lang="ru">Он заткнулся и ушел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I told Pete again to take it easy, the Marines had landed.</su>
+          <su lang="ru">Я опять велел Питу сидеть тихо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The waiter returned, his pride appeased by carrying the split of ginger ale on the saucer.</su>
+          <su lang="ru">Официант вернулся, бутылку с пивом он нес на блюдце — должно быть, для самоутверждения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had him open it while I mixed the Scotch with the water.</su>
+          <su lang="ru">Я сказал ему, чтобы он откупорил бутылку, покуда я смешиваю виски с водой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">"Would you like another glass for the ginger ale, sir?"</su>
+          <su lang="ru">— Другой стакан, для имбирного, сэр?</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">"I'm a real buckaroo;</su>
+          <su lang="ru">— Я настоящий ковбой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I drink it out of the bottle."</su>
+          <su lang="ru">Я пью из горлышка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">He shut up and let me pay him and lip him, not forgetting a lip for the scallops.</su>
+          <su lang="ru">Он закрыл пасть и безропотно принял плату за выпивку и чаевые (устрицы, впрочем, он поставить в счет не позабыл).</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When he had gone I poured ginger ale into the saucer and tapped on the top of the overnight bag.</su>
+          <su lang="ru">Когда он отошел, я плеснул имбирного в блюдечко и постучал по сумке:</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">"Soup's on, Peter."</su>
+          <su lang="ru">— Пит! Кушать подано.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">It was unzipped;</su>
+          <su lang="ru">Сумка была не застегнута.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I never zipped it with him inside.</su>
+          <su lang="ru">Я никогда не застегиваю ее, если внутри сидит кот.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He spread It with his paws, poked his head out, looked around quickly, then levitated his forequarters and placed his front feet on the edge of the table.</su>
+          <su lang="ru">Он высунул голову, быстро огляделся и встал передними лапами на край стола.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I raised my glass and we looked at each other.</su>
+          <su lang="ru">Я поднял стакан и посмотрел на кота; кот — на меня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">"Here's to the female race, Pete-find `em and forget `em!"</su>
+          <su lang="ru">— Ну, за прекрасных дам, Пит. Чем больше их встречаешь, тем легче забываешь!</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">He nodded; it matched his own philosophy perfectly.</su>
+          <su lang="ru">Он кивнул. Это вполне соответствовало его убеждениям.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He bent his head daintily and started lapping up ginger ale.</su>
+          <su lang="ru">Изящно наклонившись, он начал лакать имбирный напиток.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"If you can, that is," I added, and took a deep swig.</su>
+          <su lang="ru">«Если, конечно, сумеешь забыть», — добавил я и глотнул из стакана.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pete did not answer.</su>
+          <su lang="ru">Пит не ответил.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Forgetting a female was no effort to him; he was the natural-born bachelor type.</su>
+          <su lang="ru">Для него забыть смазливую кошку труда не составляло: он был убежденный холостяк.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">Facing me through the window of the bar was a sign that kept changing.</su>
+          <su lang="ru">За окном бара, на стене дома напротив, назойливо мигала реклама.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">First it would read: WORK WHILE YOU SLEEP.</su>
+          <su lang="ru">Текст то и дело менялся: сперва светилось «РАБОТАЙТЕ ВО СНЕ!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then it would say: AND DREAM YOUR TROUBLES AWAY.</su>
+          <su lang="ru">Потом — «И СОН РЕШАЕТ ВСЕ ПРОБЛЕМЫ».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then it would flash in letters twice as big:</su>
+          <su lang="ru">И наконец, буквами вдвое большего размера:</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">MUTUAL ASSURANCE COMPANY I read all three several times without thinking about them.</su>
+          <su lang="ru">«МЬЮЧЕЛ ЭШШУРАНС КОМПАНИ». Я три раза механически прочел мелькающие буквы, не думая об их смысле.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I knew as much and as little about suspended animation as everybody else did.</su>
+          <su lang="ru">О коммерческом анабиозе я знал не больше и не меньше остальных.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had read a popular article or so when it was first announced and two or three times a week I'd get an insurance-company ad about it in the morning mail;</su>
+          <su lang="ru">Когда об этом деле объявили впервые, я прочел статейку-другую в научно-популярном журнале. Пару раз в неделю вместе с газетами в почтовый ящик совали и рекламный листок.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I usually chucked them without looking at them since they didn't seem to apply to me any more than lipstick ads did.</su>
+          <su lang="ru">Я выкидывал эти листки не читая: это касалось меня не больше, чем реклама губной помады.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">In the first place, until shortly before then, I could not have paid for cold sleep; it's expensive.</su>
+          <su lang="ru">Во-первых, до самого последнего времени я не смог бы себе этого позволить: Холодный Сон — штука дорогая.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In the second place, why should a man who was enjoying his work, was making money, expected to make more, was in love and about to be married, commit semi-suicide?</su>
+          <su lang="ru">А во-вторых, если человеку нравится его работа, идут хорошие деньги (а в перспективе маячит еще больше), если этот человек влюблен и собирается жениться, так с чего бы вдруг ему совершать это полусамоубийство?</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">If a man had an incurable disease and expected to die anyhow but thought the doctors a generation later might be able to cure him-and he could afford to pay for suspended animation while medical science caught up with what was wrong with him-then cold sleep was a logical bet.</su>
+          <su lang="ru">Вот если человек неизлечимо болен и ему все равно помирать, но он надеется, что через полвека врачи смогут его вылечить, и если он в состоянии оплатить Холодный Сон до тех пор, пока наука не разберется, что там у него не в порядке — что ж, тогда Холодный Сон — логичное решение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Or if his ambition was to make a trip to Mars and he thought that clipping one generation out of his personal movie film would enable him to buy a ticket, I supposed that was logical too-there had been a news story about a cafe-society couple who got married and went right straight from city hail to the sleep sanctuary of Western World Insurance Company with an announcement that they had left instructions not to be called until they could spend their honeymoon on an interplanetary liner although I had suspected that it was a publicity gag rigged by the insurance company and that they had ducked out the back door under assumed names.</su>
+          <su lang="ru">Или если он мечтает слетать на Марс и считает, что, вырезав лет пятьдесят из своего личного кино, он сумеет купить билет, это тоже логично. В газетах была заметка о каких-то двух чудиках, которые поженились и прямо из городской ратуши отправились в Хранилище Холодного Сна фирмы «Вестерн уорлд иншуранс компани». Там они объявили, что просят их не беспокоить до тех пор, пока они не смогут провести медовый месяц на межпланетном лайнере. Хотя я лично подозреваю, что все это — рекламный трюк страховой компании, а те двое смылись через заднюю дверь: ну, не верю я, что кто-то согласится провести первую брачную ночь, лежа рядышком, как мороженая макрель.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">Spending your wedding night cold as a frozen mackerel does not have the ring of truth in it.</su>
+          <su lang="ru">В плане денег дело тоже был соблазнительное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And there was the usual straightforward financial appeal, the one the insurance companies bore down on: "Work while you sleep."</su>
+          <su lang="ru">Одна из страховых компаний даже придумала рекламный лозунг: «Работайте во сне». Просто лежи себе, а твои денежки пусть растут, превращаясь в состояние.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Just hold still and let whatever you have saved grow into a fortune. if you are fifty-five and your retirement fund pays you two hundred a month, why not sleep away the years, wake up still fifty-five, and have it pay you a thousand a month?</su>
+          <su lang="ru">Если вам пятьдесят пять, а пенсия у вас — двести в месяц, почему бы и не поспать лет двадцать? Проснешься — тебе опять пятьдесят пять, а пенсия — уже по тысяче ежемесячно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">To say nothing of waking up in a bright new world which would probably promise you a much longer and healthier old age in which to enjoy the thousand a month?</su>
+          <su lang="ru">Не говоря уже о том, что проснешься-то в новом и прекрасном мире, где ты, возможно, проживешь дольше и будешь здоровее, а тысяча в месяц принесет тебе гораздо больше радости.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That one they really went to town on, each company proving with incontrovertible figures that its selection of stocks for its trust fund made more money faster than any of the others.</su>
+          <su lang="ru">На эту мысль нажимали все компании, и каждая, с цифрами в руках, неопровержимо доказывала, что ее акции позволяют делать больше (и быстрее!) денег, чем акции любой другой компании.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Work while you sleep!"</su>
+          <su lang="ru">«Делайте деньги во сне!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It had never appealed to me.</su>
+          <su lang="ru">Меня это не вдохновляло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I wasn't fifty-five, I didn't want to retire, and I hadn't seen anything wrong with 1970.</su>
+          <su lang="ru">До пятидесяти пяти мне было еще далеко. На пенсию я не собирался. Да и в семидесятом году я не видел ничего худого.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">Until recently, that is to say.</su>
+          <su lang="ru">Точнее сказать, не видел до недавнего времени.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now I was retired whether I liked it or not (I didn't); instead of being on my honeymoon I was sitting in a second-rate bar drinking Scotch purely for anesthesia; instead of a wife I had one much-scarred tomcat with a neurotic taste for ginger ale; and as for liking right now, I would have swapped it for a case of gin and then busted every bottle.</su>
+          <su lang="ru">Теперь же я, хочешь не хочешь, был вроде как на пенсии. Я, кстати, не хотел. Вместо свадебного путешествия я сидел во второразрядном баре и пил виски исключительно ради обезболивания души. Вместо жены у меня — ободранный кот, пристрастившийся к имбирному пиву. Что же касается того, нравится ли мне мое время, — я бы махнул его не глядя на ящик джина, да и то перебил бы все бутылки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">But I wasn't broke.</su>
+          <su lang="ru">Но вот уж банкротом я точно не был.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">I reached into my coat and took out an envelope, opened it.</su>
+          <su lang="ru">Я сунул руку в карман, достал конверт. Открыл его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It had two items in it.</su>
+          <su lang="ru">Там лежали две бумажки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One was a certified check for more money than I had ever had before at one time; the other was a stock certificate in Hired Girl, Inc.</su>
+          <su lang="ru">Первая — чек на сумму, которой я еще ни разу не держал в руках.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were both getting a little mussed;</su>
+          <su lang="ru">Вторая — акционерный сертификат фирмы «Золушка инкорпорейтед».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had been carrying them ever since they were handed to me.</su>
+          <su lang="ru">Обе немножко помялись: я ведь таскал конверт в кармане с тех пор, как мне его вручили.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">Why not?</su>
+          <su lang="ru">Так почему бы и нет?</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">Why not duck out and sleep my troubles away?</su>
+          <su lang="ru">Почему бы не сбежать и не переспать свои печали?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pleasanter than joining the Foreign Legion, less messy than suicide, and it would divorce me completely from the events and the people who had made my life go sour. So why not?</su>
+          <su lang="ru">Приятнее, чем поступить в Иностранный Легион; не так противно, как самоубийство, и это будет для меня полный развод — с людьми и событиями, испортившими мне жизнь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">I wasn't terribly interested in the chance to get rich.</su>
+          <su lang="ru">Возможность разбогатеть не слишком кружила мне голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Oh, I had read H. G. Wells's When The Sleeper Wakes, not only when the insurance companies started giving away free copies, but before that, when it was just another classic novel;</su>
+          <su lang="ru">Ну, я, конечно, читал «Когда спящий проснется» Г. Дж. Уэллса, когда это был еще просто обычный роман — еще до того, как страховые компании начали раздавать книгу бесплатно ради рекламы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I knew what compound interest and stock appreciation could do.</su>
+          <su lang="ru">Какие проценты могут набежать по смешанному вкладу, я представлял.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But I was not sure that I had enough money both to buy the Long Sleep and to set up a trust large enough to be worth while.</su>
+          <su lang="ru">Но я не был уверен, хватит ли у меня денег купить себе Долгий Сон и при этом положить в банк сумму, достаточно крупную, чтобы игра стоила свеч.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The other argument appealed to me more: go beddy-bye and wake up in a different world.</su>
+          <su lang="ru">Меня больше привлекало другое: ложишься баю-бай и просыпаешься в другом мире.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Maybe a lot better world, the way the insurance companies would have you believe... or maybe worse.</su>
+          <su lang="ru">Этот мир может оказаться гораздо лучше (по крайней мере, страховые фирмы очень стараются убедить в этом своих клиентов), а может быть, и хуже.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But certainly different.</su>
+          <su lang="ru">Но уж другой — наверняка!</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">I could make sure of one important difference: I could doze long enough to be certain that it was a world without Belle Darkin-or Miles Gentry, either, but Belle especially.</su>
+          <su lang="ru">Об одном существенном отличии того, другого мира от нынешнего я определенно мог позаботиться: я смогу проспать достаточно долго, чтобы проснуться в мире, где нет Беллы Даркин. И Майлса Джентри тоже. Но Беллы в особенности.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If Belle was dead and buried I could forget her, forget what she had done to me, cancel her out...nstead of gnawing my heart with the knowledge that she was only a few miles away.</su>
+          <su lang="ru">Если ее не будет на свете, то я смогу забыть ее, забыть, что она сделала со мной, вычеркнуть ее из памяти. Пока она жива, червячок воспоминаний будет постоянно точить мое сердце, напоминая о том, что она — всего в нескольких милях от меня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">Let's see, how long would that have to be?</su>
+          <su lang="ru">Так-так, посмотрим, сколько же лет на это нужно?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Belle was twenty-three-or claimed to be (I recalled that once she had seemed to let slip that she remembered Roosevelt as President).</su>
+          <su lang="ru">Белле двадцать три.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Well, in her twenties anyhow.</su>
+          <su lang="ru">Так, во всяком случае, она утверждает.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If I slept seventy years, she'd be an obituary.</su>
+          <su lang="ru">(Правда, однажды она проговорилась, что помнит, как Рузвельт был президентом.) Ну, тридцати-то ей еще нет, и если проспать семьдесят лет, то я еще смогу отыскать некролог.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Make it seventy-five and be safe.</su>
+          <su lang="ru">Семьдесят пять для верности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">Then I remembered the strides they were making in geriatrics; they were talking about a hundred and twenty years as an attainable "normal" life span.</su>
+          <su lang="ru">Тут я вспомнил об успехах гериатрии. О ста двадцати годах поговаривают как о «нормальной» продолжительности человеческой жизни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Maybe I would have to sleep a hundred years.</su>
+          <su lang="ru">Наверное, надо проспать сто лет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I wasn't certain that any insurance company offered that much.</su>
+          <su lang="ru">Только вряд ли найдется страховая компания, которая предлагает такой срок.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">Then I had a gently fiendish idea, inspired by the warm glow of Scotch.</su>
+          <su lang="ru">И тут, навеянная теплом от виски, мне в голову пришла злодейская мыслишка: вовсе не обязательно спать до тех пор, как Белла помрет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It wasn't necessary to sleep until Belie was dead; it was enough, more than enough, and just the fitting revenge on a female to be young when she was old.</su>
+          <su lang="ru">Вполне достаточно (более чем достаточно!) — и это прекрасная месть женщине — быть молодым, когда она состарится.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Just enough younger to rub her nose in it-say about thirty years.</su>
+          <su lang="ru">Скажем, лет на тридцать моложе. Этого хватит, чтобы достать ее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">I felt a paw, gentle as a snowflake, on my arm.</su>
+          <su lang="ru">Я почувствовал прикосновение легкой, как пушинка, лапы к своей руке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">"Mooorrre!" announced Pete.</su>
+          <su lang="ru">— Ма-а-а-ло! — объявил Пит.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">"Greedy gut," I told him, and poured him another saucer of ginger ale.</su>
+          <su lang="ru">— Ты проглот, — сказал я, подливая ему имбирного.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He thanked me with a polite wait, then started lapping it.</su>
+          <su lang="ru">Он терпеливо подождал и начал лакать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But he had interrupted my pleasantly nasty chain of thought.</su>
+          <su lang="ru">Но он нарушил стройную линию моих приятных размышлений.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What the devil could I do about Pete?</su>
+          <su lang="ru">В самом деле, куда к черту я дену Пита?</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">You can't give away a cat the way you can a dog; they won't stand for it.</su>
+          <su lang="ru">Ведь кота нельзя отдать другим людям, как собаку: это против кошачьей натуры.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sometimes they go with the house, but not in Pete's case; to him I had been the one stable thing in a changing world ever since he was taken from his mother nine years earlier...</su>
+          <su lang="ru">Иногда кот привыкает к дому, но к Питу это не относится: с тех пор как девять лет назад его забрали от его кошачьей мамы, единственной стабильной вещью в этом изменчивом мире стал для него я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had even managed to keep him near me in the Army and that takes real wangling.</su>
+          <su lang="ru">Даже в армии я умудрился держать его при себе, а уж там-то ради этого пришлось покрутиться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="en">He was in good health and likely to stay that way even though he was held together with scar tissue.</su>
+          <su lang="ru">Он был в добром здравии и, вероятно, болеть не собирался, хотя и держался весь на одних шрамах и рубцах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If he could just correct a tendency to lead with his right he would be winning battles and siring kittens for another five years at least.</su>
+          <su lang="ru">Если бы он отучился чуть что лезть в драку, то, наверное, еще лет пять исправно обеспечивал бы окрестных кошек котятами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">I could pay to have him kept in a kennel until he died (unthinkable!) or I could have him chloroformed (equally unthinkable)-or I could abandon him.</su>
+          <su lang="ru">Я бы мог заплатить, чтобы его держали в конуре до конца его дней, что совершенно немыслимо, или сдать ветеринару, чтобы его усыпили, что тоже совершенно немыслимо, или просто бросить его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That is what it boils down to with a cat: you either carry out the Chinese obligation you have assumed-or you abandon the poor thing, let him go wild, destroy its faith in the eternal rightness. The way Belle had destroyed mine.</su>
+          <su lang="ru">С кошками, в сущности, так: или ты несешь крест свой до конца, или бросаешь бедную тварь, и она дичает и теряет веру в высшую справедливость (именно таким образом Белла поступила со мной).</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">So, Danny Boy, you might as well forget it.</su>
+          <su lang="ru">Так что, дружище, можешь забыть об этом деле.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Your own life may have gone as sour as dill pickles; that did not excuse you in the slightest from your obligation to carry out your contract to this super-spoiled cat.</su>
+          <su lang="ru">Жизнь твоя пошла вкривь и вкось, но это ни в коей мере не освобождает тебя от твоих обязательств перед этим насквозь испорченным котом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">Just as I reached that philosophical truth Pete sneezed; the bubbles had gone up his nose.</su>
+          <su lang="ru">Когда я достиг этих философских истин, Пит чихнул: это газ шибанул ему в нос.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">"Gesundheit," I answered, "and quit trying to drink it so fast."</su>
+          <su lang="ru">— Gesundheit! — сказал я ему, — и не пей так быстро.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">Pete ignored me.</su>
+          <su lang="ru">Но Пит этот совет проигнорировал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His table manners averaged better than mine and he knew it.</su>
+          <su lang="ru">За столом он умел вести себя лучше, чем я, и знал это.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Our waiter had been hanging around the cash register, talking with the cashier.</su>
+          <su lang="ru">Наш официант ошивался у кассы, болтая с кассиром.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was the after-lunch slump and the only other customers were at the bar.</su>
+          <su lang="ru">Время ленча уже кончилось, и немногочисленные посетители сидели у стойки бара.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The waiter looked up when I said "Gesundheit," and spoke to the cashier.</su>
+          <su lang="ru">Когда я сказал «gesundheit!», официант взглянул в нашу сторону и что-то шепнул кассиру.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They both looked our way, then the cashier lifted the flap gate in the bar and headed toward us.</su>
+          <su lang="ru">Оба посмотрели на меня, потом кассир поднял крышку стойки и пошел к нам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I said quietly, "MPs, Pete."</su>
+          <su lang="ru">Я тихо сказал:</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">He glanced around and ducked down into the bag;</su>
+          <su lang="ru">— Полиция, Пит.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">I pushed the top together.</su>
+          <su lang="ru">Подойдя к столику, кассир огляделся и вдруг потянулся к сумке, но я сдвинул ее края плотнее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="en">The cashier came over and leaned on my table, giving the seats on both sides of the booth a quick double-O. "Sony, friend," he said flatly, "but you'll have to get that cat out of here."</su>
+          <su lang="ru">— Извини, приятель, — сказал он без выражения, — но кота придется отсюда убрать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="en">"What cat?"</su>
+          <su lang="ru">— Какого кота?</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="en">"The one you were feeding out of that saucer."</su>
+          <su lang="ru">— Которого ты кормил из этого блюдца.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="en">"I don't see any cat."</su>
+          <su lang="ru">— Не вижу тут никакого кота.</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="en">This time he bent down and looked under the table.</su>
+          <su lang="ru">Тут он нагнулся и заглянул под стол.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="en">"You've got him in that bag," he accused.</su>
+          <su lang="ru">— Он у тебя в этом мешке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="en">"Bag? Cat?" I said wonderingly.</su>
+          <su lang="ru">— Кот в мешке? — удивленно переспросил я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"My friend, I think you've come down with an acute figure of speech."</su>
+          <su lang="ru">— Друг мой, это что — в переносном смысле?</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="en">"Huh?</su>
+          <su lang="ru">— Чего?!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Don't give me any fancy language.</su>
+          <su lang="ru">Ты давай не умничай.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You've got a cat in that bag.</su>
+          <su lang="ru">У тебя в сумке кот.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Open it up."</su>
+          <su lang="ru">Ну-ка, открой!</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="en">"Do you have a search warrant?"</su>
+          <su lang="ru">— А ордер на обыск у тебя есть?</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence>
+          <su lang="en">"What?</su>
+          <su lang="ru">— Не болтай глупости.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Don't be silly."</su>
+          <su lang="ru">Ордер…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"You're the one talking silly, demanding to see the inside of my bag without a search warrant.</su>
+          <su lang="ru">— Это ты болтаешь глупости: требуешь показать, что у меня в сумке, без ордера на обыск.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Fourth Amendment-and the war has been over for years.</su>
+          <su lang="ru">Четвертая поправка к Конституции позволяет обыскивать без ордера только в военное время, а война уже давно кончилась.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now that we've settled that, please tell my waiter to make it the same all around-or fetch it yourself."</su>
+          <su lang="ru">Теперь, если с этим все ясно, скажи, пожалуйста, официанту, чтобы повторил все еще по разу. Или сам принеси.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="en">He looked pained.</su>
+          <su lang="ru">Лицо кассира приобрело страдальческое выражение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="en">"Brother, this isn't anything personal, but I've got a license to consider.</su>
+          <su lang="ru">— Дружище, я ничего не имею против тебя, но — я же беспокоюсь за свою лицензию.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">`No dogs, no cats-it says so right up there on the wall.</su>
+          <su lang="ru">Видишь табличку вон там, на стене? Там же сказано: с собаками и кошками нельзя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We aim to run a sanitary establishment."</su>
+          <su lang="ru">Мы стараемся содержать наше заведение в отличном санитарном состоянии.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="en">"Then your aim is poor."</su>
+          <su lang="ru">— Плохо стараетесь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I picked up my glass.</su>
+          <su lang="ru">— Я взял со стола свой стакан.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"See the lipstick marks?</su>
+          <su lang="ru">— Видишь следы губной помады?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You ought to be checking your dishwasher, not searching your customers."</su>
+          <su lang="ru">Так что лучше следи за своей судомойкой, а не за клиентами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="en">"I don't see no lipstick."</su>
+          <su lang="ru">— Не вижу я тут никакой помады!</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="en">"I wiped most of it off.</su>
+          <su lang="ru">— А я ее стер… в основном.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But let's take it down to the Board of Health and get the bacteria count checked."</su>
+          <su lang="ru">Ну, давай отвезем этот стакан в санитарную лабораторию, пусть там сосчитают бактерий.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="en">He sighed.</su>
+          <su lang="ru">Он вздохнул.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="en">"You got a badge?"</su>
+          <su lang="ru">— Ты что — инспектор?</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence>
+          <su lang="en">"No."</su>
+          <su lang="ru">— Нет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="en">"Then we're even.</su>
+          <su lang="ru">— Тогда квиты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't search your bag and you don't take me down to the Board of Health.</su>
+          <su lang="ru">Я не лезу в твою сумку, а ты не тащишь меня в санитарную службу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now if you want another drink, step up to the bar and have it... on the house.</su>
+          <su lang="ru">Так что, если хочешь выпить еще, ступай к стойке и пей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But not here."</su>
+          <su lang="ru">За счет заведения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He turned and headed up front. I shrugged.</su>
+          <su lang="ru">Но не здесь, не за столиком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="en">"We were just leaving anyhow."</su>
+          <su lang="ru">— Мы, собственно, собирались уходить.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="en">As I started to pass the cashier's desk on my way out he looked up.</su>
+          <su lang="ru">Когда, шагая к выходу, я поравнялся с кассой, он поднял голову.</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="en">"No hard feelings?"</su>
+          <su lang="ru">— Ты не обиделся?</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence>
+          <su lang="en">"Nope. But I was planning to bring my horse in here for a drink later.</su>
+          <su lang="ru">— Не-а. Просто я собирался на днях заглянуть сюда выпить со своей лошадью.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now I won't."</su>
+          <su lang="ru">Теперь не приду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="en">"Suit yourself. The ordinance doesn't say a word about horses.</su>
+          <su lang="ru">— Зря: в санитарных правилах про лошадей нет ни слова.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But just one more thing-does that cat really drink ginger ale?"</su>
+          <su lang="ru">Я вот хотел спросить тебя только об одном: твой кот правда пьет имбирное пиво?</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="en">"Fourth Amendment, remember?"</su>
+          <su lang="ru">— Ты про Четвертую поправку помнишь?</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="en">"I don't want to see the animal;</su>
+          <su lang="ru">— Я же не прошу показать мне кота.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I just want to know."</su>
+          <su lang="ru">Я просто хочу знать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="en">"Well," I admitted, "he prefers it with a dash of bitters, but he'll drink it straight if he has to."</su>
+          <su lang="ru">— Ну, вообще-то, — ухмыльнулся я, — он вообще-то предпочитает «ерша», но и неразбавленный тоже пьет, когда приходится.</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence>
+          <su lang="en">"It'll ruin his kidneys.</su>
+          <su lang="ru">— Почки испортит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Look here a moment, friend."</su>
+          <su lang="ru">Глянь вон туда, друг.</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence>
+          <su lang="en">"At what?"</su>
+          <su lang="ru">— Куда?</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence>
+          <su lang="en">"Lean back so that your head is close to where mine is.</su>
+          <su lang="ru">— Откинься назад, чтобы твоя голова оказалась рядом с моей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now look up at the ceiling over each booth... the mirrors up in the decorations.</su>
+          <su lang="ru">Теперь посмотри на потолок над кабинками. Видишь зеркала среди украшений?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I knew there was a cat there-because I saw it."</su>
+          <su lang="ru">Я знал, что там кот, потому что я видел его.</su>
+        </sentence>
+      </p>
+      <p type="text" id="95">
+        <sentence>
+          <su lang="en">I leaned back and looked.</su>
+          <su lang="ru">Я сделал, как он сказал, и взглянул.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The ceiling of the joint had a lot of junky decoration, including many mirrors;</su>
+          <su lang="ru">Потолок в забегаловке был весь разукрашен, в том числе и зеркалами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I saw now that a number of them, camouflaged by the design, were so angled as to permit the cashier to use them as periscopes without leaving his station.</su>
+          <su lang="ru">Теперь я увидел, что некоторые из них были наклонены под таким углом, что кассир мог смотреть в них, как в перископы, не покидая своего поста.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence>
+          <su lang="en">"We need that," he said apologetically.</su>
+          <su lang="ru">— Приходится, — сказал он извиняющимся тоном.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"You'd be shocked at what goes on in those booths... if we didn't keep an eye on `em.</su>
+          <su lang="ru">— Видел бы ты, что в этих кабинках творится… то есть творилось бы, если бы мы за ними не приглядывали.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's a sad world."</su>
+          <su lang="ru">Скверный это мир.</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence>
+          <su lang="en">"Amen, brother."</su>
+          <su lang="ru">— Аминь, брат.</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence>
+          <su lang="en">I went on out Once outside, I opened the bag and carried it by one handle;</su>
+          <su lang="ru">Я пошел к двери. Снаружи я открыл сумку и понес ее за одну ручку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pete stuck his head out.</su>
+          <su lang="ru">Пит высунул голову наружу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence>
+          <su lang="en">"You heard what the man said, Pete.</su>
+          <su lang="ru">— Слышал, что сказал этот тип?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">`It's a sad world.'</su>
+          <su lang="ru">«Это скверный мир».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Worse than sad when two friends can't have a quiet drink together without being spied on.</su>
+          <su lang="ru">Даже хуже, если два друга не могут спокойно выпить без того, чтобы за ними не шпионили.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That settles it."</su>
+          <su lang="ru">Так что решено.</su>
+        </sentence>
+      </p>
+      <p type="text" id="100">
+        <sentence>
+          <su lang="en">"Now?" asked Pete.</su>
+          <su lang="ru">— На-а-у? — спросил Пит.</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence>
+          <su lang="en">"If you say so.</su>
+          <su lang="ru">— Как скажешь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If we're going to do it, there's no point in stalling."</su>
+          <su lang="ru">Раз уж решили, чего тянуть?</su>
+        </sentence>
+      </p>
+      <p type="text" id="102">
+        <sentence>
+          <su lang="en">"Now!" Pete answered emphatically.</su>
+          <su lang="ru">— Мнау! — с энтузиазмом ответил Пит.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

@@ -1,0 +1,657 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220620T180333Z</creationdate>
+    <paragraphs>62</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>131</sentences>
+      </lang>
+      <lang id="xx">
+        <sentences>149</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Oscar Wilde</s>
+      <s lang="xx">Оскар Уайлд</s>
+    </author>
+    <title>
+      <s lang="en">The Nightingale and the Rose</s>
+      <s lang="xx">Салавей і ружа</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="xx">Table of contents</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="xx"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">"She said that she would dance with me if I brought her red roses," cried the young Student;</su>
+          <su lang="xx">- Яна сказала, што будзе танцаваць са мной, калі я прынясу ёй чырвоную ружу! - усклікнуў малады Студэнт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"but in all my garden there is no red rose."</su>
+          <su lang="xx">- Але ў маім садзе няма ніводнай чырвонай ружы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">From her nest in the holm-oak tree the Nightingale heard him, and she looked out through the leaves, and wondered.</su>
+          <su lang="xx">Са свайго гнязда на дубе гэта пачуў Салавей. Ён выглянуў з лістоты і прыслухаўся.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">"No red rose in all my garden!" he cried, and his beautiful eyes filled with tears.</su>
+          <su lang="xx">- Ніводнай чырвонай ружы ва ўсім маім садзе! - зноў усклікнуў Студэнт, і яго прыгожыя вочы напоўніліся слязьмі.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Ah, on what little things does happiness depend!</su>
+          <su lang="xx">- Ах, ад якой дробязі залежыць шчасце!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I have read all that the wise men have written, and all the secrets of philosophy are mine, yet for want of a red rose is my life made wretched."</su>
+          <su lang="xx">Я прачытаў усё, што напісана мудрымі людзьмі, я ведаю ўсе сакрэты філасофіі, але таму толькі, што ў мяне няма чырвонай ружы, маё жыццё будзе разбіта.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">"Here at last is a true lover," said the Nightingale.</su>
+          <su lang="xx">«Вось дзе нарэшце сапраўдны закаханы! - сказаў сам сабе Салавей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Night after night have I sung of him, though I knew him not: night after night have I told his story to the stars, and now I see him.</su>
+          <su lang="xx">- Ноч у ноч спяваў я пра яго, хоць і не ведаў яшчэ, ноч у ноч я расказваў аб ім зоркам, і вось цяпер бачу яго самога.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His hair is dark as the hyacinth-blossom, and his lips are red as the rose of his desire; but passion has made his face like pale ivory, and sorrow has set her seal upon his brow."</su>
+          <su lang="xx">Валасы ў яго цёмныя, што гіяцынт, вусны чырвоныя, што ружа, якую ён шукае; але каханне зрабіла яго твар бледным, як слановая косць, а пакуты надалі яму мужнасці».</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">"The Prince gives a ball to-morrow night," murmured the young Student, "and my love will be of the company.</su>
+          <su lang="xx">- Заўтра ўвечары ў Прынца баль, - шаптаў юнак, - і мая каханая будзе сярод гасцей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If I bring her a red rose she will dance with me till dawn.</su>
+          <su lang="xx">Калі я прынясу ёй чырвоную ружу, дык абдыму яе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If I bring her a red rose, I shall hold her in my arms, and she will lean her head upon my shoulder, and her hand will be clasped in mine.</su>
+          <su lang="xx">Яна схіліць галоўку мне на плячо, і мы будзем моцна трымацца за рукі.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But there is no red rose in my garden, so I shall sit lonely, and she will pass me by.</su>
+          <su lang="xx">Але ў маім садзе няма чырвонай ружы, і я, самотны, буду стаяць у кутку, а яна пройдзе міма.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She will have no heed of me, and my heart will break."</su>
+          <su lang="xx">Яна не заўважыць мяне, і маё сэрца гэтага не вытрымае.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">"Here indeed is the true lover," said the Nightingale.</su>
+          <su lang="xx">- Вось сапраўдны закаханы, - сказаў Салавей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"What I sing of, he suffers — what is joy to me, to him is pain.</su>
+          <su lang="xx">- Тое, пра што я толькі пяю, для яго боль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Surely Love is a wonderful thing.</su>
+          <su lang="xx">О так, каханне - гэта цуд.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is more precious than emeralds, and dearer than fine opals.</su>
+          <su lang="xx">Яно даражэйшае за смарагд, даражэйшае за цудоўны апал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pearls and pomegranates cannot buy it, nor is it set forth in the marketplace.</su>
+          <su lang="xx">Яго не купіш ні за гранат, ні за жэмчуг, яно не прадаецца на кірмашы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It may not be purchased of the merchants, nor can it be weighed out in the balance for gold."</su>
+          <su lang="xx">Яго не прыдбаеш у краме, не выменяеш на золата.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">"The musicians will sit in their gallery," said the young Student, "and play upon their stringed instruments, and my love will dance to the sound of the harp and the violin. She will dance so lightly that her feet will not touch the floor, and the courtiers in their gay dresses will throng round her.</su>
+          <su lang="xx">- На хорах будуць сядзець музыканты, - працягваў малады Студэнт, - і граць на арфах і скрыпках, а мая любая стане танцаваць з такой лёгкасцю, што яе ножкі будуць ледзьве дакранацца паркету. Вакол яе стоўпяцца прыдворныя ў бліскучым адзенні.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> But with me she will not dance, for I have no red rose to give her"; and he flung himself down on the grass, and buried his face in his hands, and wept.</su>
+          <su lang="xx">Але са мной яна танцаваць не будзе, бо ў мяне няма для яе чырвонай ружы. І ён упаў ніцма на траву, затуліў твар рукамі і зарыдаў.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">"Why is he weeping?" asked a little Green Lizard, as he ran past him with his tail in the air.</su>
+          <su lang="xx">- Чаго ён плача? - спытала маленькая зялёная Яшчарка, якая прапаўзала міма Студэнта, варушачы хвосцікам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">"Why, indeed?" said a Butterfly, who was fluttering about after a sunbeam.</su>
+          <su lang="xx">- Сапраўды чаго? - падхапіў Матылёк, што пырхаў паблізу ў сонечных промнях.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">"Why, indeed?" whispered a Daisy to his neighbour, in a soft, low voice.</su>
+          <su lang="xx">- Чаго ён? - пяшчотным шэптам пацікавілася Стакротка ў свайго суседа.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">"He is weeping for a red rose," said the Nightingale.</su>
+          <su lang="xx">- Ён плача праз чырвоную ружу, - адказаў Салавей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">"For a red rose?" they cried;</su>
+          <su lang="xx">- Праз чырвоную ружу? - здзівіліся ўсе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"how very ridiculous!" and the little Lizard, who was something of a cynic, laughed outright.</su>
+          <su lang="xx">- Ах, як смешна! А крыху цынічная маленькая Яшчарка проста засмяялася яму ў вочы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">But the Nightingale understood the secret of the Student’s sorrow, and she sat silent in the oak-tree, and thought about the mystery of Love.</su>
+          <su lang="xx">Адзін толькі Салавей разумеў Студэнтава гора. Ён моўчкі сядзеў на дубе і думаў пра таямніцы Кахання.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">Suddenly she spread her brown wings for flight, and soared into the air.</su>
+          <su lang="xx">Раптам ён распасцёр свае шэрыя крылцы і ўзвіўся ў паветра.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She passed through the grove like a shadow, and like a shadow she sailed across the garden.</su>
+          <su lang="xx">Як цень, ён праляцеў над гаем і, як цень, пранёсся над садам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">In the centre of the grass-plot was standing a beautiful Rose-tree, and when she saw it she flew over to it, and lit upon a spray.</su>
+          <su lang="xx">Пасярод паплаўца рос прыгожы Куст ружы. Салавей убачыў яго, падляцеў і апусціўся на галінку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">"Give me a red rose," she cried, "and I will sing you my sweetest song."</su>
+          <su lang="xx">- Дай мне чырвоную ружу, - папрасіў ён, - а я табе спяю сваю найлепшую песню.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">But the Tree shook its head.</su>
+          <su lang="xx">Але Куст зарыпеў галінамі.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">"My roses are white," it answered; "as white as the foam of the sea, and whiter than the snow upon the mountain.</su>
+          <su lang="xx">- Мае ружы белыя, - адказаў ён, - яны белыя, як марская пена, яны нават бялейшыя за снег на горных вяршынях.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But go to my brother who grows round the old sun-dial, and perhaps he will give you what you want."</su>
+          <su lang="xx">Ляці да майго брата, што расце каля старога пясочнага гадзінніка. Можа, ён цябе выручыць.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">So the Nightingale flew over to the Rose-tree that was growing round the old sun-dial.</su>
+          <su lang="xx">І паляцеў Салавей да Куста, што рос каля старога пясочнага гадзінніка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">"Give me a red rose," she cried, "and I will sing you my sweetest song."</su>
+          <su lang="xx">- Дай мне чырвоную ружу, а я табе спяю сваю найлепшую песню.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">But the Tree shook its head.</su>
+          <su lang="xx">Але і гэты Куст зарыпеў галінамі.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">"My roses are yellow," it answered; "as yellow as the hair of the mermaiden who sits upon an amber throne, and yellower than the daffodil that blooms in the meadow before the mower comes with his scythe.</su>
+          <su lang="xx">- Мае ружы жоўтыя, - адказаў ён, - яны жоўтыя, як валасы ў русалкі, што сядзіць на троне з бурштыну, яны нават жаўцейшыя за нарцыс, які цвіце на няскошаным поплаве.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But go to my brother who grows beneath the Student’s window, and perhaps he will give you what you want."</su>
+          <su lang="xx">Ляці да майго брата, што расце пад акном у Студэнта. Можа, ён цябе выручыць.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en"> So the Nightingale flew over to the Rose-tree that was growing beneath the Student’s window.</su>
+          <su lang="xx">І паляцеў Салавей да трэцяга Куста ружы, што рос пад акном у Студэнта.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en"> "Give me a red rose," she cried, "and I will sing you my sweetest song."</su>
+          <su lang="xx">- Дай мне чырвоную ружу, - пачаў упрошваць ён, - а я табе спяю сваю найлепшую песню.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en"> But the Tree shook its head.</su>
+          <su lang="xx">Але і трэці Куст зарыпеў галінамі.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en"> "My roses are red," it answered, "as red as the feet of the dove, and redder than the great fans of coral that wave and wave in the ocean-cavern.</su>
+          <su lang="xx">- Мае ружы чырвоныя, - адказаў ён, - яны чырвоныя, як лапкі ў голуба, яны чырванейшыя за вееры каралаў, што калышуцца ў пячорах на дне акіяна.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> But the winter has chilled my veins, and the frost has nipped my buds, and the storm has broken my branches, and I shall have no roses at all this year."</su>
+          <su lang="xx">Але ад зімовай сцюжы ў маіх жылах застыла кроў, мароз пабіў мае пупышкі, бура паламала галінкі, і сёлета ў мяне зусім не будзе ружаў.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en"> "One red rose is all I want," cried the Nightingale, "only one red rose!</su>
+          <su lang="xx">- Адну чырвоную ружу - больш мне не трэба! - упрошваў Салавей. - Толькі адну чырвоную ружу!</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> Is there no way by which I can get it?"</su>
+          <su lang="xx">Няўжо нічога няможна зрабіць?</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en"> "There is away," answered the Tree; "but it is so terrible that I dare not tell it to you."</su>
+          <su lang="xx">- Можна, - адказаў Куст, - але гэта так страшна, што я не асмельваюся сказаць табе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en"> "Tell it to me," said the Nightingale, "I am not afraid."</su>
+          <su lang="xx">- Гавары, - папрасіў Салавей, - я не баюся.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en"> "If you want a red rose," said the Tree, "you must build it out of music by moonlight, and stain it with your own heart’s-blood.</su>
+          <su lang="xx">- Калі ты хочаш, каб у цябе была чырвоная ружа, ты павінен стварыць яе, як засвеціць месяц, з гукаў сваіх песень і акрапіць крывёю свайго сэрца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> You must sing to me with your breast against a thorn. All night long you must sing to me, and the thorn must pierce your heart, and your life-blood must flow into my veins, and become mine."</su>
+          <su lang="xx">Ты павінен спяваць мне, прыціснуўшыся грудзьмі да майго шыпа, усю ноч навылёт, а тым часам твая жывая кроў перальецца ў мае жылы і стане маёй крывёю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">"Death is a great price to pay for a red rose," cried the Nightingale, "and Life is very dear to all.</su>
+          <su lang="xx">- Жыццё - дарагая цана за чырвоную ружу, - задуменна прамовіў Салавей, - яно любае кожнаму.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is pleasant to sit in the green wood, and to watch the Sun in his chariot of gold, and the Moon in her chariot of pearl.</su>
+          <su lang="xx">Вялікае шчасце, седзячы ў лесе, любавацца Сонцам у залатой калясніцы і Месяцам у калясніцы з жэмчугу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sweet is the scent of the hawthorn, and sweet are the bluebells that hide in the valley, and the heather that blows on the hill.</su>
+          <su lang="xx">Салодка пахне глог, цвітуць у далінах мілыя званочкі, растуць на ўзгорках верасы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Yet Love is better than Life, and what is the heart of a bird compared to the heart of a man?"</su>
+          <su lang="xx">Але Каханне даражэйшае за Жыццё, дый што значыць сэрца нейкай птушкі ў параўнанні з чалавечым?</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">So she spread her brown wings for flight, and soared into the air.</su>
+          <su lang="xx">І, узмахнуўшы шэрымі крылцамі, Салавей узвіўся ў паветра.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She swept over the garden like a shadow, and like a shadow she sailed through the grove.</su>
+          <su lang="xx">Як цень, ён праляцеў над садам і, як цень, пранёсся над гаем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">The young Student was still lying on the grass, where she had left him, and the tears were not yet dry in his beautiful eyes.</su>
+          <su lang="xx">Малады Студэнт усё яшчэ ляжаў на траве, там, дзе пакінуў яго Салавей, і слёзы яшчэ не высахлі на яго прыгожых вачах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">"Be happy," cried the Nightingale, "be happy; you shall have your red rose.</su>
+          <su lang="xx">- Радуйся! - усклікнуў Салавей. - Радуйся, будзе ў цябе чырвоная ружа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I will build it out of music by moonlight, and stain it with my own heart’s-blood.</su>
+          <su lang="xx">Я ствару яе, як засвеціць месяц, з гукаў сваіх песень і акраплю крывёю свайго сэрца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All that I ask of you in return is that you will be a true lover, for Love is wiser than Philosophy, though she is wise, and mightier than Power, though he is mighty.</su>
+          <su lang="xx">За гэта я хачу ад цябе толькі аднаго: будзь верны свайму Каханню, таму што якая б мудрая ні была Філасофія, Каханне мудрэйшае; якая б магутная ні была Ўлада, Каханне магутнейшае.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Flame-coloured are his wings, and coloured like flame is his body.</su>
+          <su lang="xx">Яго крылы чырвоныя, што полымя, полымем ахоплена і яно само.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His lips are sweet as honey, and his breath is like frankincense."</su>
+          <su lang="xx">Вусны ў яго салодкія, бы мёд, а дыханне падобнае да паху ладану.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">The Student looked up from the grass, and listened, but he could not understand what the Nightingale was saying to him, for he only knew the things that are written down in books.</su>
+          <su lang="xx">Студэнт узняў вочы і прыслухаўся да Салаўя, але нічога не зразумеў, бо ён ведаў толькі тое, пра што напісана ў кнігах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">But the Oak-tree understood, and felt sad, for he was very fond of the little Nightingale who had built her nest in his branches.</su>
+          <su lang="xx">А Дуб зразумеў і засмуціўся, таму што вельмі любіў свайго Салавейку, які звіў гаяздо ў яго галінах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">"Sing me one last song," he whispered; "I shall feel very lonely when you are gone."</su>
+          <su lang="xx">- Праспявай мне апошні раз, - прашаптаў ён, - мне будзе вельмі самотна без цябе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en"> So the Nightingale sang to the Oak-tree, and her voice was like water bubbling from a silver jar.</su>
+          <su lang="xx">І заспяваў Салавей Дубу, і голас яго быў падобны да цурчання вады, што ліецца з сярэбранага збана.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en"> When she had finished her song the Student got up, and pulled a note-book and a lead-pencil out of his pocket.</su>
+          <su lang="xx">Калі ён скончыў спяваць, Студэнт падняўся і выняў з кішэні запісную кніжку і аловак.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en"> "She has form," he said to himself, as he walked away through the grove — "that cannot be denied to her; but has she got feeling?</su>
+          <su lang="xx">«О так, у яго ёсць форма, - сказаў ён сам сабе, ідучы дадому, - што праўда, то праўда. Але ці ёсць у яго пачуцці?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I am afraid not.</su>
+          <su lang="xx">Баюся, што няма.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In fact, she is like most artists; she is all style, without any sincerity.</su>
+          <su lang="xx">Па сутнасці, ён такі самы, як і большасць артыстаў: уся ўвага скіравана на стыль, а шчырасці нестае.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She would not sacrifice herself for others.</su>
+          <su lang="xx">Ён ніколі не прынясе сябе каму-небудзь у ахвяру.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She thinks merely of music, and everybody knows that the arts are selfish.</su>
+          <su lang="xx">Ён думае толькі пра музыку, а кожны ведае, што мастацтва эгаістычнае.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> Still, it must be admitted that she has some beautiful notes in her voice.</su>
+          <su lang="xx">Аднак трэба прызнаць, што асобныя яго пошчакі даволі мілагучныя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> What a pity it is that they do not mean anything, or do any practical good."</su>
+          <su lang="xx">Адно шкада - яны не маюць ніякага сэнсу і пазбаўленыя карысці!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> And he went into his room, and lay down on his little pallet-bed, and began to think of his love; and, after a time, he fell asleep.</su>
+          <su lang="xx">І юнак пайшоў да сябе ў пакой, лёг на маленькі вузкі ложак і пачаў думаць пра сваё каханне. Хутка ён заснуў.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">And when the Moon shone in the heavens the Nightingale flew to the Rose-tree, and set her breast against the thorn.</su>
+          <su lang="xx">Калі на небе засвяціў Месяц, Салавей прыляцеў да Куста ружы і прыціснуўся да шыпа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> All night long she sang with her breast against the thorn, and the cold crystal Moon leaned down and listened.</su>
+          <su lang="xx">Так ён спяваў усю ноч, а халодны крыштальны Месяц схіліўся да яго і слухаў.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> All night long she sang, and the thorn went deeper and deeper into her breast, and her life-blood ebbed away from her.</su>
+          <su lang="xx">Усю ноч навылёт спяваў Салавей. І ўсё глыбей і глыбей упіваўся шып у яго сэрца, і з сэрца кропля за кропляй сачылася жывая кроў.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en"> She sang first of the birth of love in the heart of a boy and a girl.</su>
+          <su lang="xx">Спачатку Салавей спяваў пра тое, як нараджаецца каханне ў сэрцах хлопчыка і дзяўчынкі.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And on the top-most spray of the Rose-tree there blossomed a marvellous rose, petal following petal, as song followed song.</su>
+          <su lang="xx">І тады на самай верхняй галінцы Куста Чырвонай ружы пачала распускацца дзівосная кветка. З кожнай новай песняй з'яўляўся новы пялёстак.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> Pale was it, at first, as the mist that hangs over the river — pale as the feet of the morning, and silver as the wings of the dawn.</su>
+          <su lang="xx">Спярша ружа была бледная, як туман над ракой, бледная, як першыя крокі золку, серабрыстая, як крылы досвітку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> As the shadow of a rose in a mirror of silver, as the shadow of a rose in a water-pool, so was the rose that blossomed on the topmost spray of the Tree.</su>
+          <su lang="xx">Быццам адбітак ружы ў сярэбраным люстры, быццам адбітак ружы ў нерухомай вадзе сажалкі - вось якая была ружа, што расцвіла на верхняй галінцы Куста.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en"> But the Tree cried to the Nightingale to press closer against the thorn.</su>
+          <su lang="xx">І тады Куст зашалясцеў і сказаў Салаўю, каб ён яшчэ мацней прыціснуўся да шыпа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> "Press closer, little Nightingale," cried the Tree, "or the Day will come before the rose is finished."</su>
+          <su lang="xx">- Шчыльней цісніся да мяне, Салавейка, бо інакш дзень настане раней, чым запунсавее ружа!</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">So the Nightingale pressed closer against the thorn, and louder and louder grew her song, for she sang of the birth of passion in the soul of a man and a maid.</su>
+          <su lang="xx">Салавей яшчэ мацней прыціснуўся да шыпа, і галасней загучала яго песня, бо была тая песня пра нараджэнне кахання ў сэрцах юнака і дзяўчыны.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">And a delicate flush of pink came into the leaves of the rose, like the flush in the face of the bridegroom when he kisses the lips of the bride.</su>
+          <su lang="xx">І вось пялёсткі ружы зрабіліся пунсовыя, як твар у маладога, калі ён цалуе ў вусны сваю нявесту.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But the thorn had not yet reached her heart, so the rose’s heart remained white, for only a Nightingale’s heart’s-blood can crimson the heart of a rose.</su>
+          <su lang="xx">Але шып яшчэ не працяў сэрца птушкі, і Ружа заставалася белая, бо толькі жывая кроў Салаўя магла пафарбаваць сэрца Ружы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">And the Tree cried to the Nightingale to press closer against the thorn.</su>
+          <su lang="xx">Зноў Куст загадаў Салаўю, каб ён яшчэ мацней прыціснуўся да шыпа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Press closer, little Nightingale," cried the Tree, "or the Day will come before the rose is finished."</su>
+          <su lang="xx">- Прыцісніся з усяе сілы, Салавейка, бо інакш дзень настане раней, чым запунсавее ружа!</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">So the Nightingale pressed closer against the thorn, and the thorn touched her heart, and a fierce pang of pain shot through her.</su>
+          <su lang="xx">І Салавей прыціснуўся да шыпа яшчэ мацней, і джала нарэшце ўпілося ў яго сэрца. Яго захліснула хваля невыноснага болю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Bitter, bitter was the pain, and wilder and wilder grew her song, for she sang of the Love that is perfected by Death, of the Love that dies not in the tomb.</su>
+          <su lang="xx">Боль рабіўся нясцерпны, але песня гучала ўсё галасней і галасней, бо Салавей спяваў пра Каханне, якое знаходзіць дасканаласць у Смерці. Пра Каханне, якое не памірае і пасля смерці.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">And the marvellous rose became crimson, like the rose of the eastern sky.</su>
+          <su lang="xx">І стала дзівосная ружа пунсовая, як небасхіл на світанні.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Crimson was the girdle of petals, and crimson as a ruby was the heart.</su>
+          <su lang="xx">Пунсовы зрабіўся венчык, пунсовае, як рубін, зрабілася і яе сэрца.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">But the Nightingale’s voice grew fainter, and her little wings began to beat, and a film came over her eyes. Fainter and fainter grew her song, and she felt something choking her in her throat.</su>
+          <su lang="xx">А голас у Салаўя слабеў і слабеў, і вось затрымцелі маленькія крылцы, затуманіліся вочкі, і Салавей адчуў, як нешта калючае сціснула яму горла.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">Then she gave one last burst of music.</su>
+          <su lang="xx">Цяпер ён азваўся сваім апошнім пошчакам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The white Moon heard it, and she forgot the dawn, and lingered on in the sky.</su>
+          <su lang="xx">Бледны Месяц пачуў яго і, забыўшыся на світанне, застаўся на небе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The red rose heard it, and it trembled all over with ecstasy, and opened its petals to the cold morning air.</su>
+          <su lang="xx">Пачула яго і Чырвоная ружа і, затрапятаўшы ў адказ, распусцілася ўсімі пялёсткамі насустрач халаднаватаму ранішняму ветрыку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Echo bore it to her purple cavern in the hills, and woke the sleeping shepherds from their dreams.</su>
+          <su lang="xx">Рэха панесла гэты пошчак да сваёй барвовай пячоры ў гарах і разбудзіла пастухоў, якія там спалі.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It floated through the reeds of the river, and they carried its message to the sea.</su>
+          <su lang="xx">Ён пракаціўся над рачнымі чаратамі, і тыя аддалі гэтыя гукі мору.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">"Look, look!" cried the Tree, "the rose is finished now"; but the Nightingale made no answer, for she was lying dead in the long grass, with the thorn in her heart.</su>
+          <su lang="xx">- Глядзі, глядзі! - здзівіўся Куст. - Ружа зрабілася чырвоная. Але Салавей не адказаў. Ён ляжаў мёртвы ў высокай траве, і ў сэрцы ў яго быў шып.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">And at noon the Student opened his window and looked out.</su>
+          <su lang="xx">Апоўдні Студэнт расчыніў акно і выглянуў у сад.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">"Why, what a wonderful piece of luck!" he cried;</su>
+          <su lang="xx">- Ах, якое шчасце! - узрадаваўся ён.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"here is a red rose!</su>
+          <su lang="xx">- Дык тут жа ёсць чырвоная ружа!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I have never seen any rose like it in all my life.</su>
+          <su lang="xx">Ніколі ў жыцці я не бачыў такой чырвонай ружы!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is so beautiful that I am sure it has a long Latin name"; and he leaned down and plucked it.</su>
+          <su lang="xx">Яна, пэўна, мае якую-небудзь доўгую лацінскую назву. І, высунуўшыся з акна, юнак сашчыкнуў кветку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">Then he put on his hat, and ran up to the Professor’s house with the rose in his hand.</su>
+          <su lang="xx"> Ён зараз жа надзеў капялюш і пабег да Прафесара, трымаючы ружу ў руцэ.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">The daughter of the Professor was sitting in the doorway winding blue silk on a reel, and her little dog was lying at her feet.</su>
+          <su lang="xx">Дачка Прафесара сядзела ў дзвярах і намотвала на шпульку блакітныя ядвабныя ніткі. У яе ля ног ляжаў маленькі сабачка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="en">"You said that you would dance with me if I brought you a red rose," cried the Student.</su>
+          <su lang="xx">- Вы казалі, што будзеце танцаваць са мной, калі я прынясу вам чырвоную ружу, - нагадаў ёй Студэнт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Here is the reddest rose in all the world.</su>
+          <su lang="xx">- Вось самая чырвоная ружа на свеце.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You will wear it to-night next your heart, and as we dance together it will tell you how I love you."</su>
+          <su lang="xx">Прыкаліце яе ўвечары ля сэрца, і, калі мы будзем танцаваць, яна раскажа, як я вас кахаю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">But the girl frowned.</su>
+          <su lang="xx">Але дзяўчына не выказала радасці.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">"I am afraid it will not go with my dress," she answered;</su>
+          <su lang="xx">- Баюся, ружа не падыдзе да майго ўбрання, - адказала яна.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"and, besides, the Chamberlain’s nephew has sent me some real jewels, and everybody knows that jewels cost far more than flowers."</su>
+          <su lang="xx">- Апроч таго, пляменнік камергера прыслаў мне сапраўдныя брыльянты, а каму невядома, што яны значна даражэйшыя за кветкі!</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">"Well, upon my word, you are very ungrateful," said the Student angrily; and he threw the rose into the street, where it fell into the gutter, and a cart-wheel went over it.</su>
+          <su lang="xx">- Ах, якая вы няўдзячная! - гнеўна выпаліў Студэнт і са злосцю кінуў ружу на зямлю. Яна ўпала ў каляіну, і хутка па ёй праехалі коламі.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">"Ungrateful!" said the girl.</su>
+          <su lang="xx">- Ах, я няўдзячная?! - узлавалася дзяўчына.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I tell you what, you are very rude; and, after all, who are you?</su>
+          <su lang="xx">- Дык ведайце ж: вы - грубіян! І ўрэшце, хто вы такі?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Only a Student.</su>
+          <su lang="xx">Усяго толькі Студэнт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why, I don’t believe you have even got silver buckles to your shoes as the Chamberlain’s nephew has"; and she got up from her chair and went into the house.</su>
+          <su lang="xx">Сумняваюся, ці ёсць у вас такія сярэбраныя спражкі, як у пляменніка камергера! Яна ўсхапілася з крэсла і пабегла ў пакой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">"What I a silly thing Love is," said the Student as he walked away.</su>
+          <su lang="xx">«Якое гэта глупства - Каханне, - з горыччу разважаў Студэнт, ідучы дадому.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"It is not half as useful as Logic, for it does not prove anything, and it is always telling one of things that are not going to happen, and making one believe things that are not true.</su>
+          <su lang="xx">- У ім няма і паловы таго зместу, які ёсць у Логіцы; яно нічога не даказвае, а абяцае заўжды нязбытнае і прымушае верыць у прывід. Карацей кажучы, яно зусім непрактычнае.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In fact, it is quite unpractical, and, as in this age to be practical is everything, I shall go back to Philosophy and study Metaphysics."</su>
+          <su lang="xx">А паколькі ў наш век быць практычным - самае галоўнае, то вярнуся я лепш да Філасофіі і буду вывучаць Метафізіку».</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">So he returned to his room and pulled out a great dusty book, and began to read.</su>
+          <su lang="xx">І Студэнт пайшоў да сябе ў пакой, выцягнуў вялікую запыленую кнігу і пачаў чытаць.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

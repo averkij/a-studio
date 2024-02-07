@@ -1,0 +1,3327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220606T111850Z</creationdate>
+    <paragraphs>268</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>715</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>721</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Robert Sheckley</s>
+      <s lang="ru">Роберт Шекли</s>
+    </author>
+    <title>
+      <s lang="en">Shall We Have a Little Talk</s>
+      <s lang="ru">Потолкуем малость?</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="h2">
+      <header>
+        <su lang="en">1</su>
+        <su lang="ru">1</su>
+      </header>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">The landing was a piece of cake despite gravitational vagaries produced by two suns and six moons.</su>
+          <su lang="ru">Посадка прошла как по маслу, несмотря на капризы гравитации, причиной которых были два солнца и шесть лун.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Low-level cloud cover could have given him some trouble if Jackson had been coming in visually.</su>
+          <su lang="ru">Низкая облачность могла бы вызвать осложнения, если бы посадка была визуальной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But he considered that to be kid stuff.</su>
+          <su lang="ru">Но Джексон считал это ребячеством.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was better and safer to plug in the computer and lean back and enjoy the ride.</su>
+          <su lang="ru">Гораздо проще и безопасней было включить компьютер, откинуться в кресле и наслаждаться полетом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">The cloud cover broke up at two thousand feet.</su>
+          <su lang="ru">Облака расступились на высоте двух тысяч футов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson was able to confirm his earlier sighting: there was a city down there, just as sure as sure.</su>
+          <su lang="ru">Джексон смог убедиться в правильности данных предварительной разведки: внизу, вне всяких сомнений, был город.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">He was in one of the world's loneliest jobs; but his line of work, paradoxically enough, required an extremely gregarious man.</su>
+          <su lang="ru">Его работа была одной из немногих в мире работ для одиночек, но, как это ни парадоксально, для нее требовались крайне общительные люди.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Because of this built-in contradiction, Jackson was in the habit of talking to himself.</su>
+          <su lang="ru">Этим внутренним противоречием объяснялась привычка Джексона разговаривать с самим собой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Most of the men in his line of work did.</su>
+          <su lang="ru">Так делало большинство людей его профессии.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson would talk to anyone, human or alien, no matter what their size or shape or colour.</su>
+          <su lang="ru">Джексон готов был говорить со всеми, с людьми и инопланетянами, независимо от их размеров, формы и цвета.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">It was what he was paid to do, and what he had to do anyhow.</su>
+          <su lang="ru">За это ему платили, и это так или иначе было его естественной потребностью.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He talked when he was alone on the long interstellar runs, and he talked even more when he was with someone or something that would talk back.</su>
+          <su lang="ru">Он разговаривал в одиночестве во время долгих межзвездных полетов, и он разговаривал еще больше, когда рядом с ним был кто-нибудь или что-нибудь, что могло бы отвечать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He figured he was lucky to be paid for his compulsions.</su>
+          <su lang="ru">Он считал большой удачей, что за его любовь к общению ему еще и платят.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">'And not just paid, either,' he reminded himself.</su>
+          <su lang="ru">— И не просто платят, — напомнил он себе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Well paid, and with a bonus arrangement on top of that.</su>
+          <su lang="ru">— Хорошо платят, а ко всему прочему еще и премиальные.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And furthermore, this feels like my lucky planet.</su>
+          <su lang="ru">И еще я чувствую, что это моя счастливая планета.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I feel like I could get rich on this one - unless they kill me down there, of course.'</su>
+          <su lang="ru">Сдается мне, есть шанс разбогатеть на ней — если, конечно, меня там не убьют.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">The lonely flights between the planets and the imminence of death were the only disadvantages of this job; but if the work weren't hazardous and difficult, the pay wouldn't be so good.</su>
+          <su lang="ru">Единственными недостатками его работы были одиночество межпланетных перелетов и угроза смерти, но за это он и получал такие деньги.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">Would they kill him?</su>
+          <su lang="ru">Убьют ли они его?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You could never tell.</su>
+          <su lang="ru">Никогда не предскажешь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Alien life forms were unpredictable - just like humans, only more so.</su>
+          <su lang="ru">Поведение ино-планетян так же трудно предугадать, как и поступки людей, только еще труднее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">'But I don't think they'll kill me,' Jackson said.</su>
+          <su lang="ru">— Я все же думаю, что они меня не убьют, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I just feel downright lucky today.'</su>
+          <su lang="ru">— Я прямо-таки чувствую, что мне сегодня повезет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">This simple philosophy had sustained him for years, across the endless lonely miles of space, and in and out of ten, twelve, twenty planets.</su>
+          <su lang="ru">Эта простая философия была ему поддержкой многие годы, в одиночестве бесконечного пространства, на десяти, двенадцати, двадцати планетах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He saw no reason to change his outlook now.</su>
+          <su lang="ru">Он и на этот раз не видел причин отказываться от нее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">The ship landed.</su>
+          <su lang="ru">Корабль приземлился.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson switched the status controls to standby.</su>
+          <su lang="ru">Джексон переключил управление на режим готовности.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He checked the analyser for oxygen and trace-element content in the atmosphere, and took a quick survey of the local micro-organisms.</su>
+          <su lang="ru">Он проверил показания анализатора на содержание в атмосфере кислорода и других жизненно важных химических элементов и быстро просмотрел данные о местных микроорганизмах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The place was viable.</su>
+          <su lang="ru">Планета была пригодна для жизни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He leaned back in his chair and waited.</su>
+          <su lang="ru">Он откинулся в кресле и стал ждать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It didn't take long, of course, They - the locals, indigenes, autochthons, whatever you wanted to call them - came out of their city to look at the spaceship.</su>
+          <su lang="ru">Конечно же, долго ждать не пришлось. Они — местные жители, туземцы, аборигены (называйте их как хотите) — вышли из своего города посмотреть на корабль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And Jackson looked through the port at them.</su>
+          <su lang="ru">А Джексон сквозь иллюминатор смотрел на них.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">'Well now,' he said. 'Seems like the alien life forms in this neck of the woods are honest-to-Joe humanoids.</su>
+          <su lang="ru">— Ну что ж, — сказал он, — похоже, что на этой захолустной планете живут самые настоящие гуманоиды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That means a five-thousand-dollar bonus for old Uncle Jackson.'</su>
+          <su lang="ru">А это означает, что старый дядюшка Джексон получит премию в пять тысяч долларов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">The inhabitants of the city were bipedal monocephaloids.</su>
+          <su lang="ru">Жители города были двуногими моноцефалами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They had the appropriate number of fingers, noses, eyes, ears and mouths.</su>
+          <su lang="ru">У них было столько же пальцев, носов, глаз, ушей и ртов, сколько и у людей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Their skin was a flesh-coloured beige, their lips were a faded red, their hair was black, brown, or red.</su>
+          <su lang="ru">Их кожа была телесно-бежевой, губы — бледно-красными, а волосы — черными, каштановыми или рыжими.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">'Shucks, they're just like home folks!'</su>
+          <su lang="ru">— Черт возьми!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson said.</su>
+          <su lang="ru">Да они прямо как у нас на Земле! — воскликнул Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Hell, I ought to get an extra bonus for that.</su>
+          <su lang="ru">— Видит Бог, за это мне полагается дополнительная премия.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Humanoid-issimus, eh?'</su>
+          <su lang="ru">Самые что ни на есть гуманоиды!</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">The aliens wore clothes.</su>
+          <su lang="ru">Инопланетяне носили одежду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Some of them carried elaborately carved lengths of wood like swagger sticks.</su>
+          <su lang="ru">У некоторых было что-то вроде тросточек — палки с тонкой резьбой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The women decorated themselves with carved and enamelled ornaments.</su>
+          <su lang="ru">На женщинах — украшения с резьбой и эмалью.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At a flying guess, Jackson ranked them about equivalent to Late Bronze Age on Earth.</su>
+          <su lang="ru">Джексон сразу же определил, что они стоят приблизительно на том же уровне, что и люди позднего бронзового века на Земле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">The talked and gestured among themselves.</su>
+          <su lang="ru">Они разговаривали друг с другом и жестикулировали.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Their language was, of course, incomprehensible to Jackson; but that didn't matter.</su>
+          <su lang="ru">Конечно, Джексон их не понимал, но это не имело значения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The important thing was that they had a language and that their speech sounds could be produced by his vocal apparatus.</su>
+          <su lang="ru">Важно было то, что у них вообще был язык и что его голосовые органы могли воспроизводить звуки их речи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">'Not like on that heavy planet last year,' Jackson said.</su>
+          <su lang="ru">— Не то что в прошлом году на той тяжелой планете, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Those supersonic sons of bitches!</su>
+          <su lang="ru">— Эти сукины дети со своими ультразвуками!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had to wear special earphones and mike, and it was a hundred and ten in the shade.'</su>
+          <su lang="ru">Пришлось носить специальные наушники и микрофон, а в тени было за сорок.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">The aliens were waiting for him, and Jackson knew it.</su>
+          <su lang="ru">Инопланетяне ждали его, и Джексон это знал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That first moment of actual contact - it always was a nervous business.</su>
+          <su lang="ru">Первые мгновения непосредственного контакта всегда были самыми беспокойными.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">That's when they were most apt to let you have it.</su>
+          <su lang="ru">Именно тогда они, вероятнее всего, могли вас прикончить.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">Reluctantly he moved to the hatch, undogged it, rubbed his eyes, and cleared his throat.</su>
+          <su lang="ru">Он неохотно прошел к люку, отдраил его, протер глаза и откашлялся.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He managed to produce a smile.</su>
+          <su lang="ru">Ему удалось изобразить на лице улыбку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He told himself, 'Don't get sweaty; 'member, you're just a little old interstellar wanderer - kind of galactic vagabond - to extend the hand of friendship and all that jazz.</su>
+          <su lang="ru">Он сказал себе: «Не дрейфь, помни, что ты просто маленький старый межпланетный странник, что-то вроде галактического бродяги, который собрался протянуть им руку дружбы, и все такое прочее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You've just dropped in for a little talk, nothing more.</su>
+          <su lang="ru">Ты просто заглянул сюда, чтобы немножко потолковать, и больше ничего.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Keep on believing that, sweety, and the extraterrestrial Johns will believe right along with you.</su>
+          <su lang="ru">Продолжай верить этому, милок, и внеземные лопухи будут верить этому вместе с тобой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Remember Jackson's Law: all intelligent life forms share the divine faculty of gullibility; which means that the triple-tongued Thung of Orangus V can be conned out of his skin just as Joe Doakes of St Paul.'</su>
+          <su lang="ru">Помни закон Джексона: все формы разумной жизни обладают святым даром доверчивости; это означает, что трехъязыкого Танга с Орангуса V надуть так же просто, как Джо Доукса из Сен-Поля».</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">And so, wearing a brave, artificial little smile, Jackson swung the port open and stepped out to have a little talk.</su>
+          <su lang="ru">И так, с деланной храброй улыбочкой на лице, Джексон распахнул люк и вышел, чтобы немного потолковать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">'Well now, how y'all?' Jackson asked at once, just to hear the sound of his own voice.</su>
+          <su lang="ru">— Ну, как вы тут все поживаете? — сразу же спросил Джексон, просто чтобы услышать звук своего собственного голоса.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">The nearest aliens shrank away from him.</su>
+          <su lang="ru">Ближайшие инопланетяне отпрянули от него.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nearly all of them were frowning.</su>
+          <su lang="ru">Почти все хмурились.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Several of the younger ones carried bronze knives in a forearm scabbard.</su>
+          <su lang="ru">У некоторых, что помоложе, на предплечье висели ножны с бронзовыми клинками, и они схватились за рукояти.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">These were clumsy weapons, but as effective as anything ever invented.</su>
+          <su lang="ru">Это оружие было примитивным, но убивало не хуже современного.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">The aliens started to draw. 'Now take it easy,' Jackson said, keeping his voice light and unalarmed.</su>
+          <su lang="ru">— Ну, ну, не надо волноваться, — сказал Джексон, стараясь говорить весело и непринужденно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">They drew their knives and began to edge forward.</su>
+          <su lang="ru">Они выхватили ножи и начали медленно надвигаться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson stood his ground, waiting, ready to bolt through the hatch like a jet-propelled jackrabbit, hoping he could make it.</su>
+          <su lang="ru">Джексон не отступал, выжидая. Он готов был сигануть назад в люк не хуже реактивного зайца, надеясь на то, что это ему удастся.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">Then a third man (might as well call them 'men', Jackson decided) stepped in front of the belligerent two.</su>
+          <su lang="ru">Затем двум самым воинственным дорогу преградил какой-то человек (Джексон решил, что их вполне можно называть людьми).</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This one was older.</su>
+          <su lang="ru">Этот третий был постарше.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He spoke rapidly. He gestured.</su>
+          <su lang="ru">Он что-то быстро говорил, жестами указывая на ракету.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The two with the knives looked.</su>
+          <su lang="ru">Те двое, с ножами, глядели в ее сторону.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">'That's right,' Jackson said encouragingly.</su>
+          <su lang="ru">— Правильно, — одобрительно сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Take a good look.</su>
+          <su lang="ru">— Посмотрите хорошенько.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Heap big spaceship.</su>
+          <su lang="ru">Большой-большой космический корабль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Plenty strong medicine.</su>
+          <su lang="ru">Полно крепкой выпивки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Vehicle of great power, fabricated by a real advanced technology.</su>
+          <su lang="ru">Очень мощная ракета, построенная по последнему слову техники.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sort of makes you stop and think, doesn't it?'</su>
+          <su lang="ru">Вроде как заставляет остановиться и подумать, не так ли?</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">It did.</su>
+          <su lang="ru">И заставило.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">The aliens had stopped; and if not thinking, they were at least doing a great deal of talking.</su>
+          <su lang="ru">Инопланетяне остановились. Если они и не думали, то, по крайней мере, очень много говорили.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They pointed at the ship, then back at their city.</su>
+          <su lang="ru">Они показывали то на корабль, то на свой город.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">'You're getting the idea,' Jackson told them.</su>
+          <su lang="ru">— Кажется, начинаете соображать, — сказал им Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Power speaks a universal language, eh, cousins?'</su>
+          <su lang="ru">— Язык силы понятен всем, не так ли, родственнички?</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">He had been witness to many of these scenes on many different planets. He could nearly write their dialogue for them.</su>
+          <su lang="ru">Подобные сцены он уже не раз наблюдал на множестве других планет и мог наверняка сказать, что происходит.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">It usually went like this:</su>
+          <su lang="ru">Обычно действие разворачивалось так.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">Intruder lands in outlandish space vehicle, thereby eliciting (1) curiosity, (2) fear and (3) hostility.</su>
+          <su lang="ru">Незваный гость приземляется на диковинном космическом корабле, тем самым вызывая 1) любопытство, 2) страх и 3) враждебность.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After some minutes of awed contemplation, one autochthon usually says to his friend: 'Hey, that damned metal thing packs one hell of a lot of power.'</su>
+          <su lang="ru">После нескольких минут трепетного созерцания один из местных жителей обычно говорит своему дружку: — М-да! Эта проклятая железяка — чертовски мощная штука.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">'You're right, Herbie,' his friend Fred, the second autochthon, replies.</su>
+          <su lang="ru">— Ты прав, Герби, — отвечает его друг Фред, второй туземец.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">'You bet I'm right,' Herbie says.</su>
+          <su lang="ru">— Еще бы не прав, — говорит Герби.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'And hell, with that much power and technology and stuff, this son-of-a-gun could like enslave us.</su>
+          <su lang="ru">— Черт побери, с такой уймой мощной техники и всего прочего этому сукиному сыну ничего не стоит нас поработить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I mean he really could.'</su>
+          <su lang="ru">Я думаю, что он и в самом деле может это сделать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">'You've hit it, Herbie, that's just exactly what could happen.'</su>
+          <su lang="ru">— Ты попал в точку, Герби, точно так и может случиться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">'So what I say,' Herbie continues, 'I say, let's not take any risks.</su>
+          <su lang="ru">— Поэтому вот что я думаю, — продолжает Герби. — Давайте не будем испытывать судьбу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I mean, sure, he looks friendly enough, but he's just got too damned much power, and that's not right.</su>
+          <su lang="ru">Конечно же, вид-то у него вполне дружелюбный, но просто он слишком силен, а это мне не нравится.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And right now is the best chance we'll ever get to take him on account of he's just standing there waiting for like an ovation or something.</su>
+          <su lang="ru">И именно сейчас нам представляется самая подходящая возможность схватить его, потому что он просто стоит там и ждет, что ему будут аплодировать или еще что-нибудь в этом роде.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So let's put this bastard out of his misery, and then we can talk the whole thing over and see how it stacks up situationwise.'</su>
+          <su lang="ru">Так что давайте вытряхнем душу из этого ублюдка, а потом все обсудим и посмотрим, какая складывается ситуация.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">'By Jesus, I'm with you!' cries Fred.</su>
+          <su lang="ru">— Ей-богу, я — за! — восклицает Фред.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Others signify their assent.</su>
+          <su lang="ru">Другие высказывают свое одобрение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">'Good for you, lads,' cries Herbie.</su>
+          <su lang="ru">— Молодцы, ребята! — кричит Герби.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Let's wade in and take this alien joker like now!'</su>
+          <su lang="ru">— Давайте прямо сейчас накинемся на этого чужака и схватим его.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">So they start to make their move; but suddenly, at the last second, Old Doc, (the third autochthon) intervenes, saying, 'Hold it a minute, boys, we can't do it like that.</su>
+          <su lang="ru">Итак, они трогаются с места, но неожиданно, в последний момент, вмешивается Старый Док. Он говорит: — Погодите, ребята, так делать нельзя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For one thing, we got laws around here—'</su>
+          <su lang="ru">Прежде всего, у нас же есть законы…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'To hell with that,' says Fred (a born troublemaker and somewhat simple to boot).</su>
+          <su lang="ru">— Плевать я на них хотел, — говорит Фред (прирожденный смутьян, к тому же с некоторой придурью).</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">'—and aside from the laws, it would be just too damned dangerous for us.'</su>
+          <su lang="ru">— …и, не говоря уж о законах, это может просто представлять слишком большую опасность для вас.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">'Me 'n' Fred here ain't scared,' says valiant Herb.</su>
+          <su lang="ru">— Мы с Фредом не из пугливых, — говорит доблестный Герби.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Maybe you better go take in a movie or something, Doc.</su>
+          <su lang="ru">— Может, вам, Док, лучше сходить в кино или еще куда.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Us guys'll handle this.'</su>
+          <su lang="ru">А этим займутся настоящие парни.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">'I was not referring tc a short-range personal danger,' Old Doc says scornfully.</su>
+          <su lang="ru">— Я не имел в виду непосредственную опасность для нашей жизни, — презрительно говорит Старый Док.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'What I fear is the destruction of our city, the slaughter of our loved ones, and the annihilation of our culture.'</su>
+          <su lang="ru">— Я страшусь разрушения нашего города, гибели наших близких, уничтожения нашей культуры.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">Herb and Fred stop.</su>
+          <su lang="ru">Герби и Фред останавливаются.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">'What you talking about, Doc?</su>
+          <su lang="ru">— Да о чем вы говорите, Док!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He's just one stinking alien; you push a knife in his guts, he'll bleed like anyone else.'</su>
+          <su lang="ru">Всего-то один вонючий инопланетянин. Пырнуть его ножом — так небось загнется не хуже нашего.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">'Fools!</su>
+          <su lang="ru">— Дураки!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Schlemiels!' thunders wise Old Doc.</su>
+          <su lang="ru">Schlemlels![78] — громогласно негодует мудрый Старый Док.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Of course, you can kill him!</su>
+          <su lang="ru">— Конечно, вы можете его убить!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But what happens after that?'</su>
+          <su lang="ru">Но что будет потом?</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">'Huh?' says Fred, squinting his china-blue pop eyes.</su>
+          <su lang="ru">— А что? — спрашивает Фред, прищуривая свои выпученные серо-голубые глаза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">'Idiots! Cochons!</su>
+          <su lang="ru">— Идиоты!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You think this is the only spaceship these aliens got?</su>
+          <su lang="ru">Cochons![79] Думаете, у этих инопланетян только один корабль?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You think they don't even know whereabouts this guy has gone?</su>
+          <su lang="ru">Думаете, они не знают, куда направился этот парень?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Man, you gotta assume they got plenty more ships where this one came from, and you gotta also assume that they'll be damned mad if this ship doesn't show up when it's supposed to, and you gotta assume that when these aliens learn the score, they're gonna be damned sore and buzz back here and stomp on everything and everybody.'</su>
+          <su lang="ru">Вы же должны соображать, что там, откуда он прилетел, полно таких кораблей и что там будут не на шутку обеспокоены, если его корабль не объявится в срок; и наконец, вы должны соображать, что когда они выяснят причину задержки, они разъярятся, кинутся сюда и разнесут здесь все в пух и прах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">'How come I gotta assume that?' asks feeble-witted Fred.</su>
+          <su lang="ru">— С чего это я должен так предполагать? — спрашивает слабоумный Фред.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">' 'Cause it's what you'd do in a deal like that, right?'</su>
+          <su lang="ru">— Потому что сам ты на их месте поступил бы точно так же, верно?</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">'I guess maybe I would at that,' says Fred with a sheepish grin.</su>
+          <su lang="ru">— Может, в таких условиях я бы так и поступил, — говорит Фред с глуповатой ухмылкой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Yeah, I just might do that little thing.</su>
+          <su lang="ru">— Да, как раз такую штуку я и смог бы сделать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But look, maybe they wouldn't.'</su>
+          <su lang="ru">Но послушайте, авось они-то этого не сделают?</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">'Maybe, maybe," mimics wise Old Doc.</su>
+          <su lang="ru">— Авось, авось, — передразнивает Старый Док.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Well, baby, we can't risk the whole ball game on a goddamned maybe.</su>
+          <su lang="ru">— Знаешь, малыш, мы не можем ставить все на карту, рассчитывая на твое дурацкое «авось».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We can't afford to kill this alien joker on the chance that maybe his people wouldn't do what any reasonable-minded guy would do, which is, namely, to blow us all to hell.'</su>
+          <su lang="ru">Мы не можем позволить себе убить этого инопланетного парня, надеясь на то, что авось его соплеменники не сделают того, что сделал бы на их месте любой нормальный человек, а именно — не сотрут нас в порошок…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Well, I suppose we maybe can't,' Herbie says.</su>
+          <su lang="ru">— Что ж, возможно, этого делать нельзя, — говорит Герби.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'But Doc, what can we do?'</su>
+          <su lang="ru">— Но, Док, что же нам можно сделать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">'Just wait and see what he wants.'</su>
+          <su lang="ru">— Просто подождать и выяснить, что ему нужно.</su>
+        </sentence>
+      </p>
+    </section>
+    <section type="h2">
+      <header>
+        <su lang="en">2</su>
+        <su lang="ru">2</su>
+      </header>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">A scene very much like that, according to reliable reconstruction, had been enacted at least thirty or forty times.</su>
+          <su lang="ru">Согласно достоверным данным, сцены, очень похожие на эту, разыгрывались, по крайней мере, раз тридцать или сорок.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It usually resulted in a policy of wait and see.</su>
+          <su lang="ru">Обычно результатом их была политика выжидания.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Occasionally, the contactor from Earth was killed before wise counsel could prevail; but Jackson was paid to take risks like that.</su>
+          <su lang="ru">Иногда посланца Земли убивали до того, как будет услышан голос здравого смысла, но за подобный риск Джексону и платили.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">Whenever the contactor was killed, retribution followed with swift and terrible inevitability.</su>
+          <su lang="ru">Всякий раз, когда убивали посланца, следовало возмездие, быстрое и ужасное в своей неотвратимости.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Also with regret, of course, because Earth was an extremely civilized place and accustomed to living within the law.</su>
+          <su lang="ru">Конечно, делалось это не без сожаления, потому что Земля была крайне цивилизованным местом, где привыкли уважать законы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No civilized, law-abiding race likes to commit genocide.</su>
+          <su lang="ru">А ни одна цивилизованная нация, придерживающаяся законов, не любит пачкать руки в крови.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In fact, the folks on Earth consider genocide a very unpleasant matter, and they don't like to read about it or anything like it in their morning papers.</su>
+          <su lang="ru">Люди на Земле и в самом деле считают геноцид делом весьма неприятным, и они не любят читать о нем или о чем-либо подобном в утренних газетах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Envoys must be protected, of course, and murder must be punished; everybody knows that.</su>
+          <su lang="ru">Конечно же, посланников нужно защищать, а убийство должно караться — это все знают.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But it still doesn't feel nice to read about a genocide over your morning coffee.</su>
+          <su lang="ru">Но все равно неприятно читать о геноциде, попивая свой утренний кофе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">News like that can spoil a man's entire day.</su>
+          <su lang="ru">Такие новости могут испортить настроение на весь день.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Three or four genocides and a man just might get angry enough to switch his vote.</su>
+          <su lang="ru">Три-четыре геноцида, и человек может так рассердиться, что отдаст свой голос другому кандидату.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">Fortunately, there was never much occasion for that sort of mess.</su>
+          <su lang="ru">К счастью, основания для подобных неприятностей возникали не часто.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">Aliens usually caught on pretty fast.</su>
+          <su lang="ru">Инопланетяне обычно соображали довольно быстро.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Despite the language barrier, aliens learned that you simply don't kill Earthmen.</su>
+          <su lang="ru">Несмотря на языковой барьер, они понимали, что убивать землянина просто нельзя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">And then, later, bit by bit, they learned all the rest.</su>
+          <su lang="ru">А затем, позже, они понемногу усваивали все остальное.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">The hotheads had sheathed their knives.</su>
+          <su lang="ru">Горячие головы спрятали свои ножи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Everybody was smiling except Jackson, who was grinning like a hyena.</su>
+          <su lang="ru">Все улыбались, только Джексон скалился, как гиена.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The aliens were making graceful arm and leg motions, probably of welcome.</su>
+          <su lang="ru">Инопланетяне грациозно жестикулировали руками и ногами. Возможно, это означало приветствие.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">'Well, that's real nice,' Jackson said, making a few graceful gestures of his own.</su>
+          <su lang="ru">— Что ж, очень приятно, — сказал Джексон и, в свою очередь, сделал несколько изящных телодвижений.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Makes me feel real to-home.</su>
+          <su lang="ru">— Ну вот я и чувствую себя как дома.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And now, suppose you take me to your leader, show me the town, and all that jazz.</su>
+          <su lang="ru">Почему бы вам теперь не отвести меня к своему вождю, не показать мне город и все такое прочее?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then I'll set myself down and figure out that lingo of yours, and we'll have a little talk.</su>
+          <su lang="ru">Потом я засяду за этот ваш язык, разберусь с ним, и мы немножко потолкуем.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And after that, everything will proceed splendidly.</su>
+          <su lang="ru">А после этого все будет идти как нельзя лучше.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">En avantP So saying, Jackson stepped out at a brisk pace in the direction of the city.</su>
+          <su lang="ru">En avant![80] С этими словами Джексон быстро зашагал в направлении города.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After a brief hesitation, his new found friends fell into step behind him.</su>
+          <su lang="ru">Немного поколебавшись, его новоявленные друзья последовали за ним.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="en">Everything was moving according to plan.</su>
+          <su lang="ru">Все шло по плану.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="en">Jackson, like all the other contactors, was a polyglot of singular capabilities.</su>
+          <su lang="ru">Джексон, как и все другие специалисты по установлению контактов, был на редкость одаренным полиглотом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As basic equipment, he had an eidetic memory and an extremely discriminating ear.</su>
+          <su lang="ru">Основным оборудованием ему служила его собственная эйдетическая память и обостренный слух, позволяющий различать тончайшие оттенки звучания.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">More important, he possessed a startling aptitude for language and an uncanny intuition for meaning.</su>
+          <su lang="ru">Что еще более важно, у него были поразительные способности к языкам и сверхъестественная интуиция на значение слов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When Jackson came up against an incomprehensible tongue, he picked out, quickly and unerringly, the significant units, the fundamental building blocks of the language.</su>
+          <su lang="ru">Когда Джексон сталкивался с непонятным языком, он быстро и безошибочно вычленял значащие единицы — основные «кирпичики» языка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Quite without effort he sorted vocalizations into cognitive, volitional, and emotional aspects of speech.</su>
+          <su lang="ru">В предложении он с легкостью выделял информационную часть, случаи модального употребления и эмоциональную окраску.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Grammatical elements presented themselves at once to his practised ear.</su>
+          <su lang="ru">Его опытное ухо сразу же различало грамматические явления.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Prefixes and suffixes were no trouble; word sequence, pitch, and reduplication were no sweat.</su>
+          <su lang="ru">Приставки и суффиксы не затрудняли его; порядок слов, высота тона и удвоение были детской игрой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He didn't know much about the science of linguistics, but he didn't need to know.</su>
+          <su lang="ru">О такой науке, как лингвистика, он знал не слишком много, но ему и не нужно было слишком много знать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson was a natural.</su>
+          <su lang="ru">Джексон был самородком.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Linguistics had been developed to describe and explain things which he knew intuitively.</su>
+          <su lang="ru">Наука о языке была разработана для того, чтобы описывать и объяснять то, что он и без нее интуитивно понимал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="en">He had not yet encountered the language which he could not learn.</su>
+          <su lang="ru">До сих пор он еще не сталкивался с языком, которого не смог бы выучить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He never really expected to find one.</su>
+          <su lang="ru">Он не допускал даже мысли о его существовании.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As he often told his friends in the Forked Tongue Club in New York, 'Waal, shukins, there just really ain't nuthin' tough about them alien tongues.</su>
+          <su lang="ru">Своим друзьям из Клуба Раздвоенного Языка в Нью-Йорке он часто говорил так: — Знаете, братва, ничего такого трудного в этих инопланетных языках нет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Leastwise, not the ones I've run across.</su>
+          <su lang="ru">По крайней мере в тех, с которыми я сталкивался.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I mean that sincerely.</su>
+          <su lang="ru">Говорю вам это совершенно откровенно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I mean to tell you, boys, that the man who can express himself in Sioux or Khmer ain't going to encounter too much trouble out there amongst the stars.'</su>
+          <su lang="ru">Хочу сказать вам, ребята, что человек, который может изъясняться на кхмерском языке или сиукском наречии, не встретит слишком много затруднений там, среди звезд.</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="en">And so it had been, to date ...</su>
+          <su lang="ru">Так оно и было до сих пор…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Once in the city, there were many tedious ceremonies which Jackson had to endure.</su>
+          <su lang="ru">Когда они прибыли в город, Джексону пришлось вынести множество утомительных церемоний.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They stretched on for three days -about par for the course; it wasn't every day that a traveller from space came in for a visit.</su>
+          <su lang="ru">Они растянулись на три дня — явление вполне закономерное, ведь не каждый день приходилось принимать гостей из космоса.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So naturally enough every mayor, governor, president, and alderman, and their wives, wanted to shake his hand.</su>
+          <su lang="ru">Поэтому, совершенно естественно, каждый мэр, губернатор, президент и ольдермен, а вдобавок еще и их жены хотели пожать ему руку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was all very understandable, but Jackson resented the waste of his time.</su>
+          <su lang="ru">Их вполне можно было понять, но Джексон терпеть не мог пустой траты времени.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had work to do, some of it not very pleasant, and the sooner he got started, the quicker it would be over.</su>
+          <su lang="ru">Его ждала работа, временами не очень приятная, и чем раньше он за нее возьмется, тем скорее кончит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On the fourth day he was able to reduce the official nonsense to a minimum.</su>
+          <su lang="ru">На четвертый день ему удалось свести на нет официальную дребедень.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That was the day on which he began in earnest to learn the local language.</su>
+          <su lang="ru">Именно в этот день Джексон серьезно взялся за местный язык.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="en">A language, as any linguist will tell you, is undoubtedly the most beautiful creation one is ever likely to encounter.</su>
+          <su lang="ru">Язык, как скажет вам любой лингвист, — несомненно, самое прекрасное из всех существующих творений человека.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But with that beauty goes a certain element of danger.</su>
+          <su lang="ru">Но прекрасное нередко таит в себе опасность.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="en">Language might aptly be compared to the sparkling, ever-changing face of the sea.</su>
+          <su lang="ru">Язык можно удачно сравнить со сверкающей, вечно меняющейся поверхностью моря.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Like the sea, you never know what reefs may be concealed in its pellucid depths.</su>
+          <su lang="ru">Никогда не знаешь, какие скалы могут прятаться в его ясных глубинах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The brightest water hides the most treacherous shoals.</su>
+          <su lang="ru">Самые прозрачные воды скрывают самые предательские мели.</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="en">Jackson, well prepared for trouble, encountered none at first.</su>
+          <su lang="ru">Джексон был готов к любым трудностям, но поначалу он их не встретил.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The main language (Hon) of this planet (Na) was spoken by the overwhelming majority of its inhabitants (En-a-To-Na - literally, men of the Na, or Naians, as Jackson preferred to think of them).</su>
+          <su lang="ru">На основном языке (хон) этой планеты (На) говорило подавляющее большинство ее обитателей («Эн-а-То-На» — буквально: людей с планеты На, или наянцев, как для себя окрестил их Джексон).</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Hon seemed quite a straightforward affair.</su>
+          <su lang="ru">Язык хон показался ему несложным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It used one term for one concept, and allowed no fusions, juxtapositions, or agglutinations.</su>
+          <su lang="ru">Каждому понятию соответствовало лишь одно слово или словосочетание, и в этом языке не было слияния, соположения или агглютинации.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Concepts were built up by sequences of simple words ('spaceship' was ho-pa-aie-an - boat-flying-outer-sky).</su>
+          <su lang="ru">Сложные понятия выражались через сочетания простых слов («космический корабль» у наянцев звучал как «хо-па-айе-ан» — корабль, летающий во внешнем небе).</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Thus, Hon was very much like Chinese and Annamite on Earth.</su>
+          <su lang="ru">Таким образом, у хона было очень много общего с такими земными языками, как китайский и аннамитский.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pitch differences were employed not only intentionally to differentiate between homonyns, but also positionally, to denote gradations of 'perceived realism', bodily discomfort, and three classes of pleasurable expectation.</su>
+          <su lang="ru">Высота тона служила не только для различения омонимов, но также могла иметь и позиционное употребление, где она выражала оттенки «воспринимаемого реализма», физического недомогания и три категории предвкушения чего-то приятного.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All of which was mildly interesting but of no particular difficulty to a competent linguist.</su>
+          <su lang="ru">Все это было умеренно интересным, но не представляло особой сложности для знающего лингвиста.</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="en">To be sure, a language like Hon was rather a bore because of the long word-lists one had to memorize.</su>
+          <su lang="ru">Конечно же, заниматься языком вроде хона было довольно нудным делом, потому что приходилось учить на память длинные списки слов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But pitch and position could be fun, as well as being absolutely essential if one wanted to make any sense out of the sentence units.</su>
+          <su lang="ru">Но высота тона и порядок слов были вещами довольно любопытными, не говоря уже о том, что без них невозможно было понять ни единого предложения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So, taken all in all, Jackson was not dissatisfied, and he absorbed the language as quickly as it could be given to him.</su>
+          <su lang="ru">Так что в целом Джексон был вполне доволен и впитывал язык, как губка воду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="en">It was a proud day for Jackson, about a week later, when he could say to his tutor: 'A very nice and pleasant good morning to you, most estimable and honoured tutor, and how is your blessed health upon this glorious day?'</su>
+          <su lang="ru">Прошло около недели, и для Джексона наступил день законной гордости. Он смог сказать своему наставнику: — С прекрасным и приятным добрым утром вас, самый достойный уважения и почитаемый наставник; и как ваше благословенное здоровье в этот чудесный день?</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="en">'Felicitations most ird wunk!' the tutor replied with a smile of deep warmth.</su>
+          <su lang="ru">— Примите мои самые ирд вунковые поздравления! — ответил наставник с улыбкой, полной глубокого тепла.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Your accent, dear pupil, is superb!</su>
+          <su lang="ru">— Дорогой ученик, ваше произношение великолепно!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Positively gor nak, in fact, and your grasp of my dear mother tongue is little short of ur nak tai.'</su>
+          <su lang="ru">В самом деле, решительно горд нак! И вы понимаете мой родной язык почти совсем ур нак тай.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="en">Jackson glowed all over from the gentle old tutor's compliments.</su>
+          <su lang="ru">Джексон весь просиял от похвал доброго старого наставника.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He felt quite pleased with himself.</su>
+          <su lang="ru">Он был вполне доволен собой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Of course, he hadn't recognized several words; ird wunk and ur nak tai sounded faintly familiar, but gor nak was completely unknown.</su>
+          <su lang="ru">Конечно, он не понял нескольких слов: ирд вунковые и ур нак тай звучали несколько незнакомо, но горд нак было совершенно неизвестным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Still, lapses were expected of a beginner in any language.</su>
+          <su lang="ru">Однако ошибки для любого новичка были делом естественным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He did know enough to understand the Naians and to make himself understood by them.</su>
+          <su lang="ru">Того, что он знал, было достаточно, чтобы понимать наянцев и чтобы они понимали его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And that was what his job required.</su>
+          <su lang="ru">Именно это и требовалось для его работы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="en">He returned to his spaceship that afternoon.</su>
+          <su lang="ru">В этот день он вернулся на свой корабль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The hatch had been standing open during his entire stay on Na but he found that not a single article had been stolen.</su>
+          <su lang="ru">Люк оставался открытым со дня его прилета, но Джексон не обнаружил ни единой пропажи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He shook his head ruefully at this, but refused to let it upset him.</su>
+          <su lang="ru">Увидев это, он с сожалением покачал головой, но не позволил себе из-за этого расстраиваться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He loaded his pockets with a variety of objects and sauntered back to the city.</su>
+          <su lang="ru">Наполнив карманы различными предметами, он неторопливо зашагал назад, в город.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was ready to perform the final and most important part of his job.</su>
+          <su lang="ru">Он был готов приступить к заключительной, наиболее важной части своей работы.</su>
+        </sentence>
+      </p>
+    </section>
+    <section type="h2">
+      <header>
+        <su lang="en">3</su>
+        <su lang="ru">3</su>
+      </header>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="en">In the heart of the business district, at the intersection of Um and Alhretto, he found what he was looking for: a real-estate office.</su>
+          <su lang="ru">В центре делового района, на пересечении улиц Ум и Альретто, он нашел то, что искал: контору по продаже недвижимости.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He entered and was taken to the office of Mr Erum, a junior partner of the firm.</su>
+          <su lang="ru">Он вошел, и его провели в кабинет мистера Эрума, младшего компаньона фирмы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="en">'Well, well, well, well!' Erum said, shaking hands heartily.</su>
+          <su lang="ru">— Замечательно, просто замечательно! — сказал Эрум, сердечно пожимая ему руку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'This is a real honour, sir, a very considerable and genuine privilege.</su>
+          <su lang="ru">— Для нас это большая честь, сэр, громадное, истинное удовольствие.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Are you thinking of acquiring a piece of property?'</su>
+          <su lang="ru">Вы собираетесь что-нибудь приобрести?</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence>
+          <su lang="en">'That was my intention,' Jackson said.</su>
+          <su lang="ru">— Да, именно это я и хочу сделать, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Unless, of course, you have discriminatory laws that forbid your selling to a foreigner.'</su>
+          <su lang="ru">— Конечно, если у вас нет дискриминационных законов, которые запрещают вам торговать с иностранцами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="en">'No difficulty there,' Erum said.</su>
+          <su lang="ru">— Здесь у нас не будет никаких затруднений, — заверил его Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'In fact, it'll be a veritable orai of a pleasure to have a man from your distant and glorious civilization in our midst.'</su>
+          <su lang="ru">— Напротив, нам доставит подлинное ораи удовольствие видеть в наших деловых кругах человека вашей далекой славной цивилизации.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="en">Jackson restrained a snicker.</su>
+          <su lang="ru">Джексон подавил усмешку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="en">'The only other difficulty I can imagine is the question of legal tender.</su>
+          <su lang="ru">— Тогда единственная трудность, которую я могу себе представить, — это вопрос законного платежного средства.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't have any of your currency, of course; but I have certain quantities of gold, platinum, diamonds, and other objects which are considered valuable on Earth.'</su>
+          <su lang="ru">Конечно же, у меня нет ваших денег; но у меня много золота, платины, бриллиантов и других предметов, которые на Земле считаются ценными.</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="en">'They are considered valuable here, too,' Erum said.</su>
+          <su lang="ru">— Здесь они тоже ценятся, — сказал Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Quantities, did you say?</su>
+          <su lang="ru">— Вы сказали «много»?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My dear sir, we will have no difficulties; not even a blaggle shall mit or ows, as the poet said.'</su>
+          <su lang="ru">Мой дорогой сэр, у нас не будет никаких затруднений. «И никакая благл не омрачит наш мит и агл», как сказал поэт.</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence>
+          <su lang="en">'Quite so,' Jackson replied.</su>
+          <su lang="ru">— Именно так, — ответил ему Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Erum was using some words he didn't know, but that didn't matter.</su>
+          <su lang="ru">Эрум употреблял незнакомые ему слова, но это не имело значения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The main drift was clear enough.</su>
+          <su lang="ru">Основной смысл был достаточно ясен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Now, suppose we begin with a nice industrial site.</su>
+          <su lang="ru">— Итак, не подобрать ли нам для начала какой-нибудь заводик?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After all, I'll have to do something with my time.</su>
+          <su lang="ru">В конце концов, должен же я чем-то занимать свое время?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And after that, we can pick out a house.'</su>
+          <su lang="ru">А потом мы сможем подыскать дом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="en">'Most decidedly prominex,' Erum said gaily.</su>
+          <su lang="ru">— Это просто замечатник, — весело сказал Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Suppose I just raish through my listings here ...</su>
+          <su lang="ru">— Позвольте мне только прорэйстать свои списки…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Yes, what do you say to a bromicaine factory?</su>
+          <su lang="ru">Да, что вы скажете о фабрике бромикана?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's in a first-class condition and could easily be converted to vor manufacture or used as it is.'</su>
+          <su lang="ru">Она в прекрасном состоянии, и ее легко можно перестроить на производство вора или использовать как она есть.</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="en">'Is there any real market for bromicaine"?' Jackson asked.</su>
+          <su lang="ru">— А велик ли спрос на бромикан? — спросил Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="en">'Well, bless my muergentan, of course there is!</su>
+          <su lang="ru">— Ну конечно же, велик, даю свой мургентан на отсечение!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Bromicaine is indispensable, though its sales are seasonable.</su>
+          <su lang="ru">Бромикан совершенно необходим, хотя его сбыт зависит от сезона.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You see, refined bromicaine, or ariisi, is used by the protigash devolvers, who of course harvest by the soltice season, except in those branches of the industry that have switched over to ticothene revature.</su>
+          <su lang="ru">Видите ли, очищенный бромикан, или ариизи, используется в производстве про тигаша, а там, конечно же, урожай собирают к периоду солнцестояния. Исключением являются те отрасли этой промышленности, которые переключились на переватуру тиконтена.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Those from a steadily—'</su>
+          <su lang="ru">Они постоянно…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Fine, fine,' Jackson said.</su>
+          <su lang="ru">— Очень хорошо, достаточно, — прервал его Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He didn't care what a bromicaine was and never expected to see one.</su>
+          <su lang="ru">Ему было все равно, что такое бромикан, и он не собирался иметь с ним никакого дела.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As long as it was a gainful employment of some kind, it filled his specifications.</su>
+          <su lang="ru">Его устраивало любое предприятие, лишь бы оно приносило доход.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="en">'I'll buy it,' he said.</su>
+          <su lang="ru">— Я куплю ее, — сказал он.</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence>
+          <su lang="en">'You won't regret it,' Erum told him.</su>
+          <su lang="ru">— Вы не пожалеете об этом, — заметил Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'A good bromicaine factory is a garveldis hagatis, and menifoy as well.'</su>
+          <su lang="ru">— Хорошая фабрика бромикана — это гарвелдис хагатис, ну прямо многофой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence>
+          <su lang="en">'Sure,' Jackson said, wishing that he had a more extensive Hon vocabulary.</su>
+          <su lang="ru">— Да, конечно, — согласился Джексон, сетуя в душе на скудость своего словарного запаса.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'How much?'</su>
+          <su lang="ru">— Сколько она стоит?</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence>
+          <su lang="en">'Well, sir, the price is no difficulty.</su>
+          <su lang="ru">— Что вы, сэр, цена пусть вас не беспокоит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But first you'll have to fill out the ollanbrit form.</su>
+          <su lang="ru">Только сначала вам придется заполнить олланбритную анкету.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is just a few sken questions which ny naga of everyone.'</su>
+          <su lang="ru">Всего несколько скенных вопросов, которые никого не нагут.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence>
+          <su lang="en">Erum handed Jackson the form.</su>
+          <su lang="ru">Эрум вручил Джексону бланк.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The first question read: 'Have you, now or at any past time, elikated mushkies forsicallyl State date of all occurrences.</su>
+          <su lang="ru">Первый вопрос гласил: «Эликировали ли вы когда-либо машек силически? Укажите даты всех случаев.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If no occurrences, state the reason for transgrishal reduct as found.'</su>
+          <su lang="ru">Если таковые отсутствуют, укажите причину установленного трансгрешального состоя».</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence>
+          <su lang="en">Jackson read no further.</su>
+          <su lang="ru">Джексон не стал читать дальше.</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence>
+          <su lang="en">'What does it mean,' he asked Erum, 'to elikate mushkies forsically?'</su>
+          <su lang="ru">— Что значит, — спросил он Эрума, — эликировать машек силически?</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence>
+          <su lang="en">'Mean?' Erum smiled uncertainly.</su>
+          <su lang="ru">— Что это значит? — неуверенно улыбнулся Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Why, it means exactly what it says.</su>
+          <su lang="ru">— Ну, только то, что написано.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Or so I would imagine.'</su>
+          <su lang="ru">По крайней мере, так мне кажется.</su>
+        </sentence>
+      </p>
+      <p type="text" id="100">
+        <sentence>
+          <su lang="en">'I meant,' Jackson said, 'that I do not understand the words.</su>
+          <su lang="ru">— Я хотел сказать, — поправился Джексон, — что не понимаю этих слов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Could you explain them to me?'</su>
+          <su lang="ru">Не могли бы вы мне их объяснить?</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence>
+          <su lang="en">'Nothing simpler,' Erum replied.</su>
+          <su lang="ru">— Нет ничего проще, — ответил Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'To elikate mushkies is almost the same as a bifur probishkai.'</su>
+          <su lang="ru">— Эликировать машек — это почти то же самое, что бифурить пробишкаи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="102">
+        <sentence>
+          <su lang="en">'I beg your pardon?' Jackson said.</su>
+          <su lang="ru">— Что-что? — спросил Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="103">
+        <sentence>
+          <su lang="en">'It means - well, to elikate is really rather simple, though perhaps not in the eyes of the law.</su>
+          <su lang="ru">— Это означает — как бы вам сказать… эликировать — это очень просто, хотя, быть может, закон на это смотрит иначе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Scorbadising is a form of elikation, and so is manruv garing.</su>
+          <su lang="ru">Скорбадизирование — один из видов эликации, и то же самое — гарирование мунрава.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Some say that when we breathe drorsically in the evening subsis, we are actually elikating.</su>
+          <su lang="ru">Некоторые говорят, что когда мы дрорсически дышим вечерним субисом, мы фактически эликируем.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Personally, I consider that a bit fanciful.'</su>
+          <su lang="ru">Я лично считаю, что у них слишком богатое воображение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="104">
+        <sentence>
+          <su lang="en">'Let's try mushkies,' Jackson suggested.</su>
+          <su lang="ru">— Давайте попробуем «машек», — предложил Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="105">
+        <sentence>
+          <su lang="en">'By all means, let's!' Erum replied, with a coarse boom of laughter.</su>
+          <su lang="ru">— Непременно, — ответил Эрум с непристойным смехом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'If only one could - eh!'</su>
+          <su lang="ru">— Если б только было можно, а?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He dug Jackson in the ribs with a sly elbow.</su>
+          <su lang="ru">— И он игриво ткнул Джексона в бок.</su>
+        </sentence>
+      </p>
+      <p type="text" id="106">
+        <sentence>
+          <su lang="en">'Hm, yes,' Jackson replied coldly.</su>
+          <su lang="ru">— Хм, да, — холодно произнес Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Perhaps you could tell me what, exactly, a mushkie is?'</su>
+          <su lang="ru">— Быть может, вы мне объясните, что такое, собственно, «машка»?</su>
+        </sentence>
+      </p>
+      <p type="text" id="107">
+        <sentence>
+          <su lang="en">'Of course.</su>
+          <su lang="ru">— Конечно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As it happens, there is no such thing,' Erum replied.</su>
+          <su lang="ru">В действительности такой вещи не существует, — ответил Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Not in the singular, at any rate.</su>
+          <su lang="ru">— По крайней мере, в единственном числе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One mushkie would be a logical fallacy, don't you see?'</su>
+          <su lang="ru">Говорить об одной машке было бы логической ошибкой, понимаете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="108">
+        <sentence>
+          <su lang="en">'I'll take your word for it.</su>
+          <su lang="ru">— Поверю вам на слово.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What are mushkiesT 'Well, primarily, they're the object of elikation.</su>
+          <su lang="ru">Тогда что такое машки?</su>
+        </sentence>
+      </p>
+      <p type="text" id="109">
+        <sentence>
+          <su lang="en">Secondarily, they are half-sized wooden sandals which are used to stimulate erotic fantasies among the Kutor religionists.'</su>
+          <su lang="ru">— Ну, во-первых, это объект эликации, а во-вторых, это полуразмерные деревянные сандалии, которые служат для возбуждения эротических фантазий у религиозных фанатиков Кьютора.</su>
+        </sentence>
+      </p>
+      <p type="text" id="110">
+        <sentence>
+          <su lang="en">'Now we're getting some place!' Jackson cried.</su>
+          <su lang="ru">— Это уже кое-что! — воскликнул Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="111">
+        <sentence>
+          <su lang="en">'Only if your tastes happen to run that way,' Erum answered with discernible coldness.</su>
+          <su lang="ru">— Только если это в вашем вкусе, — ответил Эрум с заметной холодностью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="112">
+        <sentence>
+          <su lang="en">'I meant in terms of understanding the question on the form—'</su>
+          <su lang="ru">— Я имел в виду — для понимания вопроса анкеты…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Of course, excuse me,' Erum said. 'But you see, the question asks if you have ever elikated mushkies forsically.</su>
+          <su lang="ru">— Конечно, извините меня, — сказал Эрум, — но, видите ли, здесь спрашивается, эликировали ли вы когда-либо машек силически.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And that makes all the ditference.'</su>
+          <su lang="ru">А это уже совершенно другое дело.</su>
+        </sentence>
+      </p>
+      <p type="text" id="113">
+        <sentence>
+          <su lang="en">'Does it really?'</su>
+          <su lang="ru">— В самом деле?</su>
+        </sentence>
+      </p>
+      <p type="text" id="114">
+        <sentence>
+          <su lang="en">'Of course!</su>
+          <su lang="ru">— Конечно же!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The modification changes the entire meaning.'</su>
+          <su lang="ru">Это определение полностью меняет значение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="115">
+        <sentence>
+          <su lang="en">'I was afraid that it would,' Jackson said.</su>
+          <su lang="ru">— Этого-то я и боялся, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I don't suppose you could explain what forsically means?'</su>
+          <su lang="ru">— Я думаю, вы можете объяснить мне, что означает слово силически?</su>
+        </sentence>
+      </p>
+      <p type="text" id="116">
+        <sentence>
+          <su lang="en">'I certainly can!' Erum said.</su>
+          <su lang="ru">— Несомненно! — воскликнул Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Our conversation now could - with a slight assist from the deme imagination - be termed a "forsically designed talk".'</su>
+          <su lang="ru">— Наш с вами разговор — с известной долей боленного воображения — можно назвать силически построенным разговором.</su>
+        </sentence>
+      </p>
+      <p type="text" id="117">
+        <sentence>
+          <su lang="en">'Ah,' said Jackson.</su>
+          <su lang="ru">— А, — произнес Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="118">
+        <sentence>
+          <su lang="en">'Quite so,' said Erum.</su>
+          <su lang="ru">— Именно так, — сказал Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Forsically is a mode, a manner.</su>
+          <su lang="ru">— Силически — это образ действия, способ.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It means "spiritually-forward-leading-by-way-of-fortuitous-friendship".'</su>
+          <su lang="ru">Это слово означает: «духовно ведущий вперед путем случайной дружбы».</su>
+        </sentence>
+      </p>
+      <p type="text" id="119">
+        <sentence>
+          <su lang="en">'That's a little more like it,' Jackson said.</su>
+          <su lang="ru">— В этом уже больше смысла, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'In that case, when one elikates mushkies forsically—'</su>
+          <su lang="ru">— В таком случае когда силически эликируют машек?</su>
+        </sentence>
+      </p>
+      <p type="text" id="120">
+        <sentence>
+          <su lang="en">'I'm terribly afraid you're on the wrong track,' Erum said.</su>
+          <su lang="ru">— Я очень боюсь, что вы на ложном пути, — сказал Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'The definition I gave you applies only to conversations.</su>
+          <su lang="ru">— Определение, которое я вам дал, верно только для описания разговора.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is something rather different when one speaks of mushkies.'</su>
+          <su lang="ru">А когда говорят о машках — это нечто совершенно другое.</su>
+        </sentence>
+      </p>
+      <p type="text" id="121">
+        <sentence>
+          <su lang="en">'What does it mean then?'</su>
+          <su lang="ru">— А что оно значит в этом случае?</su>
+        </sentence>
+      </p>
+      <p type="text" id="122">
+        <sentence>
+          <su lang="en">'Well, it means - or rather it expresses - an advanced and intensified case of mushkie elikidation, but with a definite nmogmetic bias.</su>
+          <su lang="ru">— Ну, оно означает — или, вернее, оно выражает случай продвинутой и усиленной эликации машек, но с определенным нмогнетическим уклоном.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I consider it a rather unfortunate phraseology, personally.'</su>
+          <su lang="ru">Лично я считаю это выражение несколько неудачным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="123">
+        <sentence>
+          <su lang="en">'How would you put it?'</su>
+          <su lang="ru">— А как бы вы это сформулировали?</su>
+        </sentence>
+      </p>
+      <p type="text" id="124">
+        <sentence>
+          <su lang="en">'I'd lay it on the line and to hell with the fancy talk,' Erum said toughly.</su>
+          <su lang="ru">— Я бы так прямо и сказал, и к черту ложную стыдливость, — твердо заявил Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I'd come right out and say: "Have you now or at any other time dunfiglers voc in illegal, immoral, or insirtis circumstances, with or without the aid and/or consent of a brachniianl If so, state when and why.</su>
+          <su lang="ru">— Я просто взял и сказал бы: «Данфиглирили ли вы когда-либо вок незаконным, аморальным или инсиртисным образом, с согласия брахниана или без такового?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If not, state neugris kris and why not."'</su>
+          <su lang="ru">Если да, укажите время и причину.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'That's how you'd put it, huh?'</su>
+          <su lang="ru">Если нет, сообщите мотивы и неугрис крис».</su>
+        </sentence>
+      </p>
+      <p type="text" id="125">
+        <sentence>
+          <su lang="en">Jackson said.</su>
+          <su lang="ru">— Вот так бы вы это и сказали, да? — проговорил Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="126">
+        <sentence>
+          <su lang="en">'Sure, I would,' Erum said defiantly.</su>
+          <su lang="ru">— Конечно, — с вызовом ответил Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'These forms are for adults, aren't they?</su>
+          <su lang="ru">— Эти анкеты предназначены для взрослых, не так ли?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So why not come right out and call a spigler a spigler a speyl Everybody dunfiglers voc some of the time, and so what?</su>
+          <su lang="ru">Так почему же не взять и не назвать спиглер спиглер[81] своими спеями? Все когда-нибудь дансфигляряк вок, ну и что из этого?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No one's feelings are ever hurt by it, for heaven's sake.</su>
+          <su lang="ru">Ради бога, это ведь ничьих чувств не оскорбляет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I mean, after all, it simply involves oneself and a twisted old piece of wood, so why should anyone care?'</su>
+          <su lang="ru">Я хочу сказать, что, в конце концов, это касается только самого человека и старой кривой деревяшки, поэтому кому какое до этого дело?!</su>
+        </sentence>
+      </p>
+      <p type="text" id="127">
+        <sentence>
+          <su lang="en">'Wood?' Jackson echoed.</su>
+          <su lang="ru">— Деревяшки? — повторил Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="128">
+        <sentence>
+          <su lang="en">'Yes, wood.</su>
+          <su lang="ru">— Да, деревяшки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A commonplace, dirty old piece of wood.</su>
+          <su lang="ru">Обыкновенной старой, грязной деревяшки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Or at least that's all it would be if people didn't get their feelings so ridiculously involved.'</su>
+          <su lang="ru">По крайней мере, так бы к ней и относились, если бы люди не вкладывали в это до нелепости много чувств.</su>
+        </sentence>
+      </p>
+      <p type="text" id="129">
+        <sentence>
+          <su lang="en">'What do they do with the wood?' Jackson asked quickly.</su>
+          <su lang="ru">— Что они делают с деревом? — быстро спросил Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="130">
+        <sentence>
+          <su lang="en">'Do with it?</su>
+          <su lang="ru">— Делают?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nothing much, when you come right down to it.</su>
+          <su lang="ru">Да ничего особенного, если присмотреться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But the religious aura is simply too much for our so-called intellectuals.</su>
+          <su lang="ru">Но для наших так называемых интеллигентов религиозная атмосфера слишком много значит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They are unable, in my opinion, to isolate the simple primordial fact - wood - from the cultural volturneiss which surrounds it at festerhiss, and to some extent at uuis, too.'</su>
+          <su lang="ru">По-моему, они не способны отделить простую исконную сущность — дерево — от того культурного вольтурнейсса, который окружает его на праздерхиссе, а также, в некоторой степени, и на ууисе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="131">
+        <sentence>
+          <su lang="en">'That's how intellectuals are,' Jackson said.</su>
+          <su lang="ru">— Интеллигенты — они все такие, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'But you can isolate it, and you find—'</su>
+          <su lang="ru">— Но вы-то можете отделить ее, и вы находите…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I find it's really nothing to get excited about.</su>
+          <su lang="ru">— Я не нахожу в этом ничего такого, из-за чего стоило бы волноваться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I really mean that.</su>
+          <su lang="ru">Я в самом деле так думаю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I mean to say that a cathedral, viewed correctly, is no more than a pile of rocks, and a forest is just an assembly of atoms.</su>
+          <su lang="ru">Я хочу сказать, что если смотреть на вещи правильно, то собор — это всего лишь куча камней, а лес — скопление атомов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why should we see this case differently?</su>
+          <su lang="ru">Почему же данный случай мы должны рассматривать по-другому?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I mean, really, you could elikate mushkies forsically without even using wood!</su>
+          <su lang="ru">Я думаю, что на самом деле машек можно силически эликировать безо всякого дерева.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What do you think of that?'</su>
+          <su lang="ru">Что вы на это скажете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="132">
+        <sentence>
+          <su lang="en">'I'm impressed,' Jackson said.</su>
+          <su lang="ru">— Я поражен, — сказал Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="133">
+        <sentence>
+          <su lang="en">'Don't get me wrong!</su>
+          <su lang="ru">— Поймите меня правильно!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm not saying it would be easy, or natural, or even right. But still, you damned well could!</su>
+          <su lang="ru">Я не утверждаю, что это легко, естественно или хотя бы верно!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why, you could substitute cormed grayti and still come out all right!'</su>
+          <su lang="ru">Ведь можно заменить его на кормную грейти, и все равно все получится!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Erum paused and chuckled.</su>
+          <su lang="ru">— Эрум замолчал и фыркнул от смеха.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'You'd look foolish, but you'd still come out all right.'</su>
+          <su lang="ru">— Выглядеть вы будете глупо, но все равно у вас все получится.</su>
+        </sentence>
+      </p>
+      <p type="text" id="134">
+        <sentence>
+          <su lang="en">'Very interesting,' Jackson said.</su>
+          <su lang="ru">— Очень интересно, — сказал Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="135">
+        <sentence>
+          <su lang="en">'I'm afraid I became a bit vehement,' Erum said, wiping his forehead.</su>
+          <su lang="ru">— Боюсь, я несколько погорячился, — сказал Эрум, отирая пот со лба.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Was I talking very loudly?</su>
+          <su lang="ru">— Я не очень громко говорил?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Do you think perhaps I was overheard?'</su>
+          <su lang="ru">Как вы думаете, мог меня кто-нибудь услышать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="136">
+        <sentence>
+          <su lang="en">'Of course not.</su>
+          <su lang="ru">— Конечно, нет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I found it all very interesting.</su>
+          <su lang="ru">Все это было очень интересно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I must leave just now, Mr Erum, but I'll be back tomorrow to fill out that form and buy the property.'</su>
+          <su lang="ru">Сейчас я должен уйти, мистер Эрум, но завтра я вернусь, заполню анкету и куплю фабрику.</su>
+        </sentence>
+      </p>
+      <p type="text" id="137">
+        <sentence>
+          <su lang="en">'I'll hold it for you,' Erum said, rising and shaking Jackson's hand warmly.</su>
+          <su lang="ru">— Я придержу ее для вас. — Эрум поднялся и горячо пожал Джексону руку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'And I want to thank you.</su>
+          <su lang="ru">— И еще я хочу вас поблагодарить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It isn't often that I have the opportunity for this kind of frank no-holds-barred conversation.'</su>
+          <su lang="ru">Нечасто удается поговорить так свободно и откровенно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="138">
+        <sentence>
+          <su lang="en">'I found it very instructive,' Jackson said.</su>
+          <su lang="ru">— Наша беседа была для меня очень поучительной, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He left Erum's office and walked slowly back to his ship.</su>
+          <su lang="ru">Он вышел из кабинета Эрума и медленно зашагал к своему кораблю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was disturbed, upset, and annoyed.</su>
+          <su lang="ru">Он был обеспокоен, огорчен и раздосадован.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Linguistic incomprehension irked him, no matter how comprehensible it might be.</su>
+          <su lang="ru">В здешнем языке все было почти совсем понятно, но это «почти» раздражало его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He should have been able to figure out, somehow, how one went about elikating mushkies forsically.</su>
+          <su lang="ru">Как же это ему не удалось разобраться с этой силической эликацией машек!</su>
+        </sentence>
+      </p>
+      <p type="text" id="139">
+        <sentence>
+          <su lang="en">Never mind, he told himself.</su>
+          <su lang="ru">— Ничего, — сказал он себе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You'll work it out tonight, Jackson baby, and then you'll go back in there and cannon-ball through them forms.</su>
+          <su lang="ru">— Джексон, малыш, сегодня вечером ты все выяснишь, а потом вернешься туда и мигом покончишь с их анкетами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So don't get het up over it, man.</su>
+          <su lang="ru">Так что, парень, не лезь из-за этого в бутылку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="140">
+        <sentence>
+          <su lang="en">He'd work it out.</su>
+          <su lang="ru">Он это выяснит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He damned well had to work it out, as he had to own a piece of property.</su>
+          <su lang="ru">Он просто-таки должен это выяснить, потому что он должен стать владельцем какой-нибудь собственности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="141">
+        <sentence>
+          <su lang="en">That was the second part of his job.</su>
+          <su lang="ru">В этом заключалась вторая половина его работы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="142">
+        <sentence>
+          <su lang="en">Earth had come a long way since the bad old days of naked, aggressive warfare.</su>
+          <su lang="ru">На Земле многое изменилось с тех скверных старых времен, когда можно было открыто вести захватнические войны.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">According to the history books, a ruler back in those ancient times could simply send out his troops to seize whatever the ruler wanted.</su>
+          <su lang="ru">Как гласили учебники истории, в те далекие времена правитель мог просто послать свои войска и захватить то, что хотел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And if any of the folks at home had the temerity to ask why he wanted it, the ruler could have them beheaded or locked up in a dungeon or sewn up in a sack and thrown into the sea.</su>
+          <su lang="ru">И если кто-нибудь из его соотечественников набирался смелости спросить его, почему ему этого хочется, правитель мог приказать отрубить ему голову, бросить в темницу или завязать в мешок и кинуть в море.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And he wouldn't even feel guilty about doing any of those things because he invariably believed that he was right and they were wrong.</su>
+          <su lang="ru">И при всем этом он даже вины за собой не чувствовал, потому что неизменно верил, что он прав, а они — нет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="143">
+        <sentence>
+          <su lang="en">This policy, technically called the droit de seigneur was one of the most remarkable features of the laissez-faire capitalism which the ancients knew.</su>
+          <su lang="ru">Эта политика, суть которой определялась термином «droit de seigneur»,[82] была одной из самых ярких черт «laissez-faire capitalism»,[83] в атмосфере которого жили древние.</su>
+        </sentence>
+      </p>
+      <p type="text" id="144">
+        <sentence>
+          <su lang="en">But, down the slow passage of centuries, cultural processes were inexorably at work.</su>
+          <su lang="ru">Но с медленной сменой веков неумолимо происходили и культурные перемены.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A new ethic came into the World; and slowly but surely, a sense of fair play and justice was bred into the human race.</su>
+          <su lang="ru">В мир пришла новая этика, медленно, но верно впитало в себя человечество понятия честности и справедливости.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Rulers came to be chosen by ballot and were responsive to the desires of the electorate.</su>
+          <su lang="ru">Правителей стали выбирать голосованием, и они должны были руководствоваться желаниями своих избирателей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Conceptions of Justice, Mercy, and Pity came to the forefront of men's minds, ameliorating the old law of tooth and talon and amending the savage bestiality of the ancient time of unreconstruction.</su>
+          <su lang="ru">Справедливость, милосердие и сострадание завоевали человеческие умы. Эти принципы сделали людей лучше, и все дальше в прошлое уходил звериный закон джунглей и звериная дикость, которые царили на Земле в те древние времена до реконструкции.</su>
+        </sentence>
+      </p>
+      <p type="text" id="145">
+        <sentence>
+          <su lang="en">The old days were gone for ever.</su>
+          <su lang="ru">Те дни ушли навсегда.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Today, no ruler could simply take; the voters would never stand for it.</su>
+          <su lang="ru">Теперь ни один правитель не мог ничего захватить просто так: избиратели ни за что не потерпели бы этого.</su>
+        </sentence>
+      </p>
+      <p type="text" id="146">
+        <sentence>
+          <su lang="en">Nowadays one had to have an excuse for taking.</su>
+          <su lang="ru">Теперь для захвата нужно было иметь предлог.</su>
+        </sentence>
+      </p>
+      <p type="text" id="147">
+        <sentence>
+          <su lang="en">Like for example a Terran citizen who happened to own property all legal and aboveboard on an alien planet, and who urgently needed and requested Terran military assistance in order to protect himself, his home, his means of a legitimate livelihood...</su>
+          <su lang="ru">К примеру, гражданин Земли, который совершенно законным и честным образом владеет собственностью на другой планете, срочно нуждается в военной помощи. Он запрашивает ее с Земли, чтобы защитить себя, свой дом, свои законные средства существования.</su>
+        </sentence>
+      </p>
+      <p type="text" id="148">
+        <sentence>
+          <su lang="en">But first he had to own that property.</su>
+          <su lang="ru">Но сначала надо эту собственность иметь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had to really own it, to protect himself from the bleeding-hearts Congressmen and the soft-on-aliens newsmen who always started an investigation whenever Earth took charge of another planet.</su>
+          <su lang="ru">Он должен по-настоящему владеть ею, чтобы защитить себя от жалостливых конгрессменов и газетчиков, которые носятся с инопланетянами и всегда, стоит Земле прибрать к рукам другую планету, затевают расследование.</su>
+        </sentence>
+      </p>
+      <p type="text" id="149">
+        <sentence>
+          <su lang="en">To provide a legal basis for conquest - that was what the contactors were for.</su>
+          <su lang="ru">Обеспечить законное основание для захвата — вот для чего существовали специалисты по установлению контактов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="150">
+        <sentence>
+          <su lang="en">'Jackson,' Jackson said to himself, 'you gonna git yourself that li'l' ole bromicaine factory tomorrow and you gonna own it without let or hindrance.</su>
+          <su lang="ru">— Джексон, — сказал себе Джексон, — завтра ты получишь эту бромикановую фабричонку, и она станет твоей безо всяких закавык.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You heah me, boy?</su>
+          <su lang="ru">Слышишь, парень?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I mean it sincerely.'</su>
+          <su lang="ru">Я это серьезно тебе говорю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="151">
+        <sentence>
+          <su lang="en">On the morrow, shortly before noon, Jackson was back in the city.</su>
+          <su lang="ru">Назавтра незадолго до полудня Джексон вернулся в город.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Several hours of intensive study and a long consultation with his tutor had sufficed to show him where he had gone wrong.</su>
+          <su lang="ru">Нескольких часов напряженных занятий и долгой консультации со своим наставником хватило для того, чтобы он понял, в чем его ошибка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="152">
+        <sentence>
+          <su lang="en">It was simple enough.</su>
+          <su lang="ru">Все было довольно просто.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had merely been a trifle hasty in assuming an extreme and invariant isolating technique in the Hon use of radicals.</su>
+          <su lang="ru">Он всего лишь немного поторопился, предположив, что в языке хон употребление корней имеет неизменный, крайне изолирующий характер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had thought, on the basis of his early studies, that word meaning and word order were the only significant factors required for an understanding of the language.</su>
+          <su lang="ru">Исходя из уже известного, он думал, что для понимания языка важны только значение и порядок слов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But that wasn't so.</su>
+          <su lang="ru">Но это было не так.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Upon further examination, Jackson found that the Hon language had some unexpected resources: affixation, for example, and an elementary form of reduplication.</su>
+          <su lang="ru">При дальнейшем исследовании Джексон обнаружил в языке хон некоторые неожиданные возможности: к примеру, аффиксацию и элементарную форму удвоения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Yesterday he hadn't even been prepared for any morphological inconsistencies; when they had occurred, he had found himself in semantic difficulties.</su>
+          <su lang="ru">Такая морфологическая непоследовательность была для него неожиданностью, поэтому вчера, когда он столкнулся с ее проявлениями, смысл речи стал ускользать от него.</su>
+        </sentence>
+      </p>
+      <p type="text" id="153">
+        <sentence>
+          <su lang="en">The new forms were easy enough to learn.</su>
+          <su lang="ru">Новые формы выучить было довольно легко.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The trouble was, they were thoroughly illogical and contrary to the entire spirit of Hon.</su>
+          <su lang="ru">Но его беспокоило то, что они были совершенно нелогичны и их существование противоречило самому духу хона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="154">
+        <sentence>
+          <su lang="en">One word produced by one sound and bearing one meaning - that was the rule he had previously deduced.</su>
+          <su lang="ru">Ранее он вывел правило: одно слово имеет одну звуковую форму и одно значение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But now he discovered eighteen important exceptions - compounds produced by a variety of techniques, each of them with a list of modifying suffixes.</su>
+          <su lang="ru">Но теперь он обнаружил восемнадцать важных исключений — сложных слов, построенных различными способами, и к каждому из них — ряд определяющих суффиксов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For Jackson, this was as odd as stumbling across a grove of palm trees in Antarctica.</su>
+          <su lang="ru">Для Джексона это было так же неожиданно, как если бы он натолкнулся в Антарктике на пальмовую рощу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="155">
+        <sentence>
+          <su lang="en">He learned the eighteen exceptions, and thought about the article he would write when he finally got home.</su>
+          <su lang="ru">Он выучил эти восемнадцать исключений и подумал, что когда он в конце концов вернется домой, то напишет об этом статью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="156">
+        <sentence>
+          <su lang="en">And the next day, wiser and warier, Jackson strode meaningfully back to the city.</su>
+          <su lang="ru">И на следующий день Джексон, ставший мудрее и осмотрительнее, твердым, размашистым шагом двинулся назад в город.</su>
+        </sentence>
+      </p>
+    </section>
+    <section type="h2">
+      <header>
+        <su lang="en">4</su>
+        <su lang="ru">4</su>
+      </header>
+      <p type="text" id="158">
+        <sentence>
+          <su lang="en">In Erum's office, he filled out the Government forms with ease.</su>
+          <su lang="ru">В кабинете Эрума он с легкостью заполнил правительственные анкеты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That first question - 'Have you, now or at any past time, elikated mushkies forsically 1' - he could now answer with an honest no. The plural 'mushkies' in its primary meaning, represented in this context the singular 'woman'.</su>
+          <su lang="ru">На тот первый вопрос, «эликировали ли вы когда-нибудь машек силически», он мог честно ответить «нет». Слово машка во множественном числе в своем основном значении соответствовало слову женщина в единственном числе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">(The singular 'mushkies' used similarly would denote an uncorporeal state of femininity.)</su>
+          <su lang="ru">Это же слово, употребленное подобным образом, но в единственном числе, означало бы бесплотное состояние женственности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="159">
+        <sentence>
+          <su lang="en">Elikation was, of course, the role of sexual termination, unless one employed the modifier 'forsically'.</su>
+          <su lang="ru">Слово эликация, конечно же, означало завершение половых отношений, если не употреблялось определяющее слово силически.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If one did, this quiet term took on a charged meaning in this particular context, tantamount to edematous polysexual advocation.</su>
+          <su lang="ru">Тогда это безобидное слово приобретало в данном контексте взрывоопасный смысл.</su>
+        </sentence>
+      </p>
+      <p type="text" id="160">
+        <sentence>
+          <su lang="en">Thus, Jackson could honestly write that, as he was not a Naian, he had never had that particular urge.</su>
+          <su lang="ru">Джексон мог честно написать, что, не будучи наянцем, он никогда подобных побуждений не имел.</su>
+        </sentence>
+      </p>
+      <p type="text" id="161">
+        <sentence>
+          <su lang="en">It was as simple as that.</su>
+          <su lang="ru">Это было так просто.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson was annoyed at himself for not having figured it out on his own.</su>
+          <su lang="ru">Джексон был недоволен собой — ведь он мог разобраться в этом сам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="162">
+        <sentence>
+          <su lang="en">He filled in the rest of the questions without difficulty, and handed the paper back to Erum.</su>
+          <su lang="ru">На остальные вопросы он ответил легко и вернул Эруму заполненную анкету.</su>
+        </sentence>
+      </p>
+      <p type="text" id="163">
+        <sentence>
+          <su lang="en">'That's really quite skoe,' Erum said.</su>
+          <su lang="ru">— Право же, это совершенно скоу, — сказал Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Now, there are just a few more simple items for us to complete. The first we can do immediately.</su>
+          <su lang="ru">— Теперь нам осталось решить всего лишь несколько простых вопросов, первым из них можно заняться прямо сейчас.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After that, I will arrange a brief official ceremony for the Property Transferral Act, and that will be followed by several other small bits of business.</su>
+          <su lang="ru">Потом я организую короткую официальную церемонию подписания акта передачи собственности, вслед за чем мы рассмотрим несколько других небольших дел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All of it should take no more than a day or so, and then the property will be all yours.'</su>
+          <su lang="ru">Все это займет не более дня или около того, и тогда вы станете полновластным владельцем фабрики.</su>
+        </sentence>
+      </p>
+      <p type="text" id="164">
+        <sentence>
+          <su lang="en">'Sure, kid, that's great,' Jackson said.</su>
+          <su lang="ru">— Да, да, малыш, это замечательно, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He wasn't bothered by the delays.</su>
+          <su lang="ru">Проволочки не волновали его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Quite the contrary, he had expected many more of them.</su>
+          <su lang="ru">Напротив, он ожидал, что их будет намного больше.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On most planets, the locals caught on quickly to what was happening.</su>
+          <su lang="ru">На большинстве планет жители быстро понимали, что к чему.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It took no great reasoning power to figure out that Earth wanted what she wanted, but wanted it in a legalistic manner.</su>
+          <su lang="ru">Не надо быть семи пядей во лбу, чтобы сообразить, что Земля хочет получить то, что ей нужно, но желает, чтобы это выглядело законно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="165">
+        <sentence>
+          <su lang="en">As for why she wanted it that way - that wasn't too hard to fathom, either.</su>
+          <su lang="ru">Почему именно законно — догадаться было тоже не слишком сложно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A great majority of Terrans were idealists, and they believed fervently in concepts such as truth, justice, mercy, and the like.</su>
+          <su lang="ru">Подавляющее большинство землян были идеалистами, и они горячо верили в принципы правды, справедливости, милосердия и тому подобное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And not only did they believe, they also let those noble concepts guide their actions -except when it would be inconvenient or unprofitable.</su>
+          <su lang="ru">И не только верили, но и позволяли себе руководствоваться этими благородными принципами в жизни. Кроме тех случаев, когда это было неудобно или невыгодно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When that happened, they acted expediently, but continued to talk moralistically.</su>
+          <su lang="ru">Тогда они действовали сообразно своим интересам, но продолжали вести высоконравственные речи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This meant that they were 'hypocrites' - a term which every race has its counterpart of.</su>
+          <su lang="ru">Это означало, что они были лицемерами, а такое понятие существовало у народа любой планеты.</su>
+        </sentence>
+      </p>
+      <p type="text" id="166">
+        <sentence>
+          <su lang="en">Terrans wanted what they wanted, but they also wanted that what they wanted should look nice.</su>
+          <su lang="ru">Земляне желали получить то, что им было нужно, но они еще и хотели, чтобы все это хорошо выглядело.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This was a lot to expect sometimes, especially when what they wanted was ownership of someone else's planet.</su>
+          <su lang="ru">Этого иногда было трудно ожидать, особенно когда им было нужно не что-нибудь, а чужая планета.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But in one way or another, they usually got it.</su>
+          <su lang="ru">Но, так или иначе, они обычно добивались своего.</su>
+        </sentence>
+      </p>
+      <p type="text" id="167">
+        <sentence>
+          <su lang="en">Most alien races realized that overt resistance was impossible and so resorted to various stalling tactics.</su>
+          <su lang="ru">Люди многих планет понимали, что открытое сопротивление невозможно, и поэтому прибегали к тактике проволочек.</su>
+        </sentence>
+      </p>
+      <p type="text" id="168">
+        <sentence>
+          <su lang="en">Sometimes they refused to sell, or they required an infinite multiplicity of forms or the approval of some local official who was always absent.</su>
+          <su lang="ru">Иногда они отказывались продавать, или им без конца требовались всякие бумажки, или им нужна была санкция какого-нибудь местного чиновника, которого никогда не было на месте.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But for each ploy the contactor always had a suitable counterploy.</su>
+          <su lang="ru">Но посланец парировал каждый их удар.</su>
+        </sentence>
+      </p>
+      <p type="text" id="169">
+        <sentence>
+          <su lang="en">Did they refuse to sell property on racial grounds?</su>
+          <su lang="ru">Они отказываются продавать собственность по расовым мотивам?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The laws of Earth specifically forbade such practices, and the Declaration of Sentient Rights stated the freedom of all sentients to live and work wherever they pleased.</su>
+          <su lang="ru">Земные законы особо воспрещают подобную практику, а Декларация Прав Разумных Существ гласит, что каждое разумное существо вольно жить и трудиться там, где ему нравится.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This was a freedom that Terra would fight for, if anyone forced her to.</su>
+          <su lang="ru">За эту свободу Земля стала бы бороться, если бы ее кто-нибудь вынудил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="170">
+        <sentence>
+          <su lang="en">Were they stalling?</su>
+          <su lang="ru">Они ставят палки в колеса?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Terran Doctrine of Temporal Propriety would not allow it.</su>
+          <su lang="ru">Земная Доктрина о временном характере частной собственности не допустит этого.</su>
+        </sentence>
+      </p>
+      <p type="text" id="171">
+        <sentence>
+          <su lang="en">Was the necessary official absent?</su>
+          <su lang="ru">Нет на месте нужного чиновника?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Uniform Earth Code Against Implicit Sequestration in Acts of Omission expressly forbade such a practice.</su>
+          <su lang="ru">Единый Земной Закон против наложения на имущество косвенного ареста в случае отсутствия недвусмысленно запрещал такие порядки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And so on and so on.</su>
+          <su lang="ru">И так далее, и тому подобное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was a game of wits Earth invariably won, for the strongest is usually judged the cleverest.</su>
+          <su lang="ru">В этой борьбе умов неизменно побеждала Земля, потому что того, кто сильнее, обычно признают и самым умным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="172">
+        <sentence>
+          <su lang="en">But the Naians weren't even trying to fight back.</su>
+          <su lang="ru">Но наянцы даже не пытались сопротивляться, а это в глазах Джексона заслуживало самого глубокого презрения.</su>
+        </sentence>
+      </p>
+      <p type="text" id="173">
+        <sentence>
+          <su lang="en">Jackson considered that downright despicable.</su>
+          <su lang="ru">В обмен на земную платину Джексон получил местную валюту — хрустящие бумажки по 50 врсо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The exchange of Naian currency for Terran platinum was completed and Jackson was given his change in crisp fifty-Vrso bills.</su>
+          <su lang="ru">Эрум просиял от удовольствия и сказал:</su>
+        </sentence>
+      </p>
+      <p type="text" id="174">
+        <sentence>
+          <su lang="en">Erum beamed with pleasure and said, 'Now, Mr Jackson, we can complete today's business if you will kindly trombramcthulanchierir in the usual manner.'</su>
+          <su lang="ru">— Теперь, мистер Джексон, мы можем покончить с делами на сегодняшний день, если вы соблаговолите тромбрамктуланчирить, как это принято.</su>
+        </sentence>
+      </p>
+      <p type="text" id="175">
+        <sentence>
+          <su lang="en">Jackson turned, his eyes narrowed and his mouth compressed into a bloodless downward-curving line.</su>
+          <su lang="ru">Джексон повернулся, его глаза сузились, уголки рта опустились, а губы сжались в бескровную полоску.</su>
+        </sentence>
+      </p>
+      <p type="text" id="176">
+        <sentence>
+          <su lang="en">'What did you say?'</su>
+          <su lang="ru">— Что вы сказали?</su>
+        </sentence>
+      </p>
+      <p type="text" id="177">
+        <sentence>
+          <su lang="en">'I merely asked you to—'</su>
+          <su lang="ru">— Я всего лишь попросил вас…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I know what you asked!</su>
+          <su lang="ru">— Знаю, что попросили!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But what does it mean?'</su>
+          <su lang="ru">Но что это значит?</su>
+        </sentence>
+      </p>
+      <p type="text" id="179">
+        <sentence>
+          <su lang="en">'Well, it means - it means—' Erum laughed weakly.</su>
+          <su lang="ru">— Ну, это значит… значит… — Эрум слабо засмеялся.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'It means exactly what it says.</su>
+          <su lang="ru">— Это означает только то, что я сказал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That is to say - ethybolically speaking—'</su>
+          <su lang="ru">Другими словами, выражаясь этиболически…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson said in a low, dangerous voice, 'Give me a synonym.'</su>
+          <su lang="ru">Джексон тихо и угрожающе произнес: — Дайте мне синоним.</su>
+        </sentence>
+      </p>
+      <p type="text" id="180">
+        <sentence>
+          <su lang="en">'There is no synonym,' Erum said.</su>
+          <su lang="ru">— Синонима нет, — ответил Эрум.</su>
+        </sentence>
+      </p>
+      <p type="text" id="181">
+        <sentence>
+          <su lang="en">'Baby, you better come up with one anyhow,' Jackson said, his hand closing over Erum's throat.</su>
+          <su lang="ru">— И все-таки, детка, советую тебе его вспомнить, — сказал Джексон, и его пальцы сомкнулись на горле наянца.</su>
+        </sentence>
+      </p>
+      <p type="text" id="182">
+        <sentence>
+          <su lang="en">'Stop!</su>
+          <su lang="ru">— Стойте!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Wait!</su>
+          <su lang="ru">Подождите!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Ulp!' Erum cried.</su>
+          <su lang="ru">На по-о-мощь! — вскричал Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Mr Jackson, I beg of you!</su>
+          <su lang="ru">— Мистер Джексон, умоляю вас!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">How can there be a synonym when there is one and only one term for the thing expressed - if I may so express it?'</su>
+          <su lang="ru">Какой может быть синоним, когда понятию соответствует одно, и только одно слово — если мне дозволено будет так выразиться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="183">
+        <sentence>
+          <su lang="en">'You're putting me on!' Jackson howled.</su>
+          <su lang="ru">— За нос меня водить! — взревел Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'And you better quit it, on account of we got laws against wilful obfuscation, intentional obstructionism, implicit superimposition, and other stuff like you're doing.</su>
+          <su lang="ru">— Лучше кончай с этим, потому что у нас есть законы против умышленного сбивания с толку, преднамеренного обструкционизма, скрытого сверхжульничества и прочих ваших штучек.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You hear me?'</su>
+          <su lang="ru">Слышишь, ты?</su>
+        </sentence>
+      </p>
+      <p type="text" id="184">
+        <sentence>
+          <su lang="en">'I hear you.' Erum trembled.</su>
+          <su lang="ru">— Слышу, — пролепетал Эрум.</su>
+        </sentence>
+      </p>
+      <p type="text" id="185">
+        <sentence>
+          <su lang="en">'Then hear this: stop agglutinating, you devious dog!</su>
+          <su lang="ru">— Тогда слушай дальше: кончай агглютинировать, ты, лживая скотина.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You've got a perfectly ordinary run-of-the-mill analytical-type language, distinguished only by its extreme isolating tendency.</su>
+          <su lang="ru">У вас совершенно простой, заурядный язык аналитического типа, который отличает лишь его крайняя изолирующая тенденция.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And when you got a language like that, man, then you simple don't agglutinate a lot Of big messy compounds.</su>
+          <su lang="ru">А в таком языке, приятель, просто не бывает столько длинных путаных сложных слов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Get me?'</su>
+          <su lang="ru">Ясно?</su>
+        </sentence>
+      </p>
+      <p type="text" id="186">
+        <sentence>
+          <su lang="en">'Yes, yes,' Erum cried.</su>
+          <su lang="ru">— Да, да! — закричал Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'But believe me, I don't intend to numniscaterate in the slightest!</su>
+          <su lang="ru">— Но поверьте мне, я ни в коей мере не собираюсь нумнискатерить!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Not noniskakkekaki, and you really must debrucliili that!'</su>
+          <su lang="ru">И не нонискаккекаки, и вы действительно должны этому дебрушили.</su>
+        </sentence>
+      </p>
+      <p type="text" id="187">
+        <sentence>
+          <su lang="en">Jackson drew back his fist, but got himself under control in time.</su>
+          <su lang="ru">Джексон замахнулся на Эрума, но вовремя взял себя в руки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was unwise to hit aliens if there was any possibility that they were telling the truth.</su>
+          <su lang="ru">Неразумно бить инопланетян, если существует хоть какая-нибудь вероятность того, что они говорят правду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Folks on Terra didn't like it.</su>
+          <su lang="ru">На Земле этого не любят.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His pay could be docked; and if, by some unlucky chance, he killed Erum, he could be slapped with a six-month jail sentence.</su>
+          <su lang="ru">Ему могут срезать зарплату; если же по несчастливой случайности он убьет Эрума, его можно поздравить с шестью месяцами тюрьмы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="188">
+        <sentence>
+          <su lang="en">But still...</su>
+          <su lang="ru">Но все же…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I'll find out if you're lying or not!' Jackson screamed, and stormed out of the office.</su>
+          <su lang="ru">— Я выясню, лжете вы или нет! — завопил Джексон и стремглав выскочил из кабинета.</su>
+        </sentence>
+      </p>
+      <p type="text" id="189">
+        <sentence>
+          <su lang="en">He walked for nearly an hour, mingling with the crowds in the slum quarters of Grath-Eth, below the grey, evil-smell-ing Ungperdis.</su>
+          <su lang="ru">Он бродил почти час, смешавшись с толпой в трущобах Грас-Эс, тянущихся вдоль мрачного, зловонного Унгпердиса.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No one paid any attention to him.</su>
+          <su lang="ru">Никто не обращал на него внимания.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">To all outward appearances, he could have been a Naian, just as any Naian could have been a Terran.</su>
+          <su lang="ru">По внешности его можно было принять за наянца, так же как и любой наянец мог сойти за землянина.</su>
+        </sentence>
+      </p>
+      <p type="text" id="190">
+        <sentence>
+          <su lang="en">Jackson located a cheerful saloon on the corner of Niis and Da Streets and went in.</su>
+          <su lang="ru">На углу улиц Ниис и Да Джексон обнаружил веселый кабачок и зашел туда.</su>
+        </sentence>
+      </p>
+      <p type="text" id="192">
+        <sentence>
+          <su lang="en">It was quiet and masculine inside.</su>
+          <su lang="ru">Внутри было тихо, одни мужчины.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson ordered a local variety of beer.</su>
+          <su lang="ru">Джексон заказал местное пиво.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When it was served, he said to the bartender, 'Funny thing happened to me the other day.'</su>
+          <su lang="ru">Когда его подали, он сказал бармену: — На днях со мной приключилась странная история.</su>
+        </sentence>
+      </p>
+      <p type="text" id="193">
+        <sentence>
+          <su lang="en">'Yeah?' said the bartender.</su>
+          <su lang="ru">— Да ну? — сказал бармен.</su>
+        </sentence>
+      </p>
+      <p type="text" id="194">
+        <sentence>
+          <su lang="en">'Yeah, really,' Jackson said.</su>
+          <su lang="ru">— В самом деле, — ответил Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I had this big business deal on, see, and then at the last minute they asked to trom-bramcthulanchierir in the usual manner.'</su>
+          <su lang="ru">— Понимаете, собрался заключить очень крупную сделку, и потом в последнюю минуту меня попросили тромбрамктуланчирить, как это принято.</su>
+        </sentence>
+      </p>
+      <p type="text" id="195">
+        <sentence>
+          <su lang="en">He watched the bartender's face carefully.</su>
+          <su lang="ru">Он внимательно следил за реакцией бармена.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A faint expression of puzzlement crossed the man's stolid features.</su>
+          <su lang="ru">На флегматичном лице наянца появилось легкое недоумение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="196">
+        <sentence>
+          <su lang="en">'So why didn't you?' the bartender asked.</su>
+          <su lang="ru">— Так почему вы этого не сделали? — спросил бармен.</su>
+        </sentence>
+      </p>
+      <p type="text" id="197">
+        <sentence>
+          <su lang="en">'You mean you would have?'</su>
+          <su lang="ru">— Вы хотите сказать, что вы бы на моем месте…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Sure I would have.</su>
+          <su lang="ru">— Конечно, согласился бы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Hell, it's the standard cathanprip-tiaia, ain't it?'</su>
+          <su lang="ru">Черт побери, это же обычная катанприптиая, ведь так?</su>
+        </sentence>
+      </p>
+      <p type="text" id="198">
+        <sentence>
+          <su lang="en">'Course it is,' one of the loungers at the bar said.</su>
+          <su lang="ru">— Ну да, — сказал один из бездельников у стойки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Unless, of course, you suspected they was trying to numniscaterate.'</su>
+          <su lang="ru">— Конечно, если вы не заподозрили, что они пытались нумнискатерить.</su>
+        </sentence>
+      </p>
+      <p type="text" id="199">
+        <sentence>
+          <su lang="en">'No, I don't think they were trying anything like that,' Jackson said in a flat low, lifeless voice.</su>
+          <su lang="ru">— Нет, не думаю, что они пытались сделать что-нибудь подобное, — упавшим, безжизненным голосом проговорил Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He paid for his drink and started to leave.</su>
+          <su lang="ru">Он заплатил за выпивку и направился к выходу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="201">
+        <sentence>
+          <su lang="en">'Hey,' the bartender called after him, 'you sure they wasn't noniskakkekakiV 'You never know,' Jackson said, walking slump-shouldered into the street.</su>
+          <su lang="ru">— Послушайте! — крикнул ему вдогонку бармен. — Вы уверены, что они не нонискаккекаки? — Как знать, — сказал Джексон и, устало ссутулясь, вышел на улицу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="202">
+        <sentence>
+          <su lang="en">Jackson trusted his instincts, both with languages and with people.</su>
+          <su lang="ru">Джексон доверял своему природному чутью как в отношении языков, так и в отношении людей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His instincts told him now that the Naians were straight and were not practising an elaborate deception on him.</su>
+          <su lang="ru">А его интуиция говорила ему, что наянцы вели себя честно и не изощрялись перед ним во лжи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Erum had not been inventing new words for the sake of wilful confusion.</su>
+          <su lang="ru">Эрум не изобретал новых слов специально, чтобы запутать его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had been really speaking the Hon language as he knew it.</su>
+          <su lang="ru">Он и правда говорил на языке хон как умел.</su>
+        </sentence>
+      </p>
+      <p type="text" id="203">
+        <sentence>
+          <su lang="en">But if that were true, then Na was a very strange language.</su>
+          <su lang="ru">Но если это было так, тогда хон был очень странным языком.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In fact, it was downright eccentric.</su>
+          <su lang="ru">В самом деле, это был совершенно эксцентричный язык.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And its implications were not merely curious. They were disastrous.</su>
+          <su lang="ru">И то, что происходило с этим языком, не было просто курьезом, это было катастрофой.</su>
+        </sentence>
+      </p>
+    </section>
+    <section type="h2">
+      <header>
+        <su lang="en">5</su>
+        <su lang="ru">5</su>
+      </header>
+      <p type="text" id="205">
+        <sentence>
+          <su lang="en">That evening Jackson went back to work.</su>
+          <su lang="ru">Вечером Джексон снова взялся за работу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He discovered a further class of exceptions which he had not known or even suspected.</su>
+          <su lang="ru">Он обнаружил дополнительный ряд исключений, о существовании которых не знал и даже не подозревал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That was a group of twenty-nine multivalued potentiators.</su>
+          <su lang="ru">Это была группа из двадцати девяти многозначных потенциаторов, которые сами по себе не несли никакой смысловой нагрузки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">These words, meaningless in themselves, acted to elicit a complicated and discordant series of shadings from other words.</su>
+          <su lang="ru">Однако другие слова в их присутствии приобретали множество сложных и противоречивых оттенков значений.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Their particular type of potentiation varied according to their position in the sentence.</su>
+          <su lang="ru">Свойственный им вид потенциации зависел от их места в предложении.</su>
+        </sentence>
+      </p>
+      <p type="text" id="206">
+        <sentence>
+          <su lang="en">Thus, when Erum had asked him 'to trornbramcthulan-chierir in the usual manner', he had merely wanted Jackson to make an obligatory ritual obeisance.</su>
+          <su lang="ru">Таким образом, когда Эрум попросил его «тромбрамктуланчирить, как это принято», он просто хотел, чтобы Джексон почтительно поклонился, что было частью обязательного ритуала.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This consisted of clasping his hands behind his neck and rocking back on his heels.</su>
+          <su lang="ru">Надо было соединить руки за головой и покачиваться на каблуках.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was required to perform this action with an expression of definite yet modest pleasure, in accordance with the totality of the situation, and also in accord with the state of his stomach and nerves and with his religion and ethical code, and bearing in mind minor temperamental differences due to fluctuations in heat and humidity, and not forgetting the virtues of patience, similitude, and forgiveness.</su>
+          <su lang="ru">Это действие следовало производить с выражением определенного, однако сдержанного удовольствия, в соответствии со всей обстановкой, сообразуясь с состоянием своего желудка и нервов, а также согласно своим религиозным и этическим принципам, памятуя о небольших колебаниях настроения, связанных с изменениями температуры и влажности, и не забывая о таких достоинствах, как терпение и снисходительность.</su>
+        </sentence>
+      </p>
+      <p type="text" id="207">
+        <sentence>
+          <su lang="en">It was all quite understandable.</su>
+          <su lang="ru">Все это было вполне понятно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And all completely contradictory to everything Jackson had previously learned about Hon.</su>
+          <su lang="ru">И все полностью противоречило тому, что Джексон уже знал о языке хон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="208">
+        <sentence>
+          <su lang="en">It was more than contradictory; it was unthinkable, impossible, and entirely out of order.</su>
+          <su lang="ru">Это было даже более чем противоречиво: это было немыслимо, невозможно и не укладывалось ни в какие рамки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was as if, having discovered palm trees in frigid Antarctica, he had further found that the fruit of these trees was not coconuts, but muscatel grapes.</su>
+          <su lang="ru">Все равно что увидеть в холодной Антарктике пальмы, на которых вдобавок растут не кокосы, а мускатный виноград.</su>
+        </sentence>
+      </p>
+      <p type="text" id="209">
+        <sentence>
+          <su lang="en">It couldn't be - but it was.</su>
+          <su lang="ru">Этого не могло быть — однако так оно и было.</su>
+        </sentence>
+      </p>
+      <p type="text" id="210">
+        <sentence>
+          <su lang="en">Jackson did what was required of him.</su>
+          <su lang="ru">Джексон проделал то, что от него требовалось.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When he had finished trombramcthulanchieriring in the usual manner, he had only to get through the official ceremony and the several small requirements after it.</su>
+          <su lang="ru">Когда он кончил тромбрамктуланчирить, как это принято, ему осталась только официальная церемония и после этого — несколько мелких формальностей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="211">
+        <sentence>
+          <su lang="en">Erum assured him that it was all quite simple, but Jackson suspected that he might somehow have difficulties.</su>
+          <su lang="ru">Эрум уверил его, что все это очень просто, но Джексон подозревал, что так или иначе, а трудности у него будут.</su>
+        </sentence>
+      </p>
+      <p type="text" id="212">
+        <sentence>
+          <su lang="en">So, in preparation, he put in three days of hard work acquiring a real mastery of the twenty-nine exceptional potentiators, together with their most common positions and their potentiating effect in each of these positions.</su>
+          <su lang="ru">Поэтому-то он и уделил подготовке целых три дня. Он усердно работал, чтобы в совершенстве овладеть двадцатью девятью потенциаторами-исключениями в их наиболее употребимых положениях и безошибочно определять, какой инициирующий эффект они оказывают в каждом из этих случаев.</su>
+        </sentence>
+      </p>
+      <p type="text" id="213">
+        <sentence>
+          <su lang="en">He finished, bone-weary and with his irritability index risen to 97.3620 on the Grafheimer scale.</su>
+          <su lang="ru">К концу работы он устал как собака, а его показатель раздражимости поднялся до 97,3620 по Графхаймеру.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">An impartial observer might have noticed an ominous gleam in his china-blue eyes.</su>
+          <su lang="ru">Беспристрастный наблюдатель мог бы заметить зловещий блеск в его серо-голубых глазах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="214">
+        <sentence>
+          <su lang="en">Jackson had had it.</su>
+          <su lang="ru">Он был сыт по горло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was sick of the Hon language and of all things Naian.</su>
+          <su lang="ru">Его мутило от языка хон и от всего наянского.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had the vertiginous feeling that the more he learned, the less he knew.</su>
+          <su lang="ru">Джексон испытывал головокружительное ощущение: чем больше он учил, тем меньше знал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was downright perverse.</su>
+          <su lang="ru">В этом было что-то совершенно ненормальное.</su>
+        </sentence>
+      </p>
+      <p type="text" id="215">
+        <sentence>
+          <su lang="en">'Hokay,' Jackson said, to himself and to the universe at large.</su>
+          <su lang="ru">— Хорошо, — сказал Джексон сам себе и всей Вселенной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I have learned the Naian language, and I have learned a set of completely inexplicable exceptions, and I have also learned a further and even more contradictory set of exceptions to the exceptions.'</su>
+          <su lang="ru">— Я выучил наянский язык, я выучил множество совершенно необъяснимых исключений, и вдобавок к этому я выучил ряд дополнительных, еще более противоречивых исключений из исключений.</su>
+        </sentence>
+      </p>
+      <p type="text" id="217">
+        <sentence>
+          <su lang="en">Jackson paused and in a very low voice said: 'I have learned an exceptional number of exceptions.</su>
+          <su lang="ru">Джексон помолчал и очень тихо добавил: — Я выучил исключительное количество исключений.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Indeed, an impartial observer might think that this language is composed of nothing but exceptions.</su>
+          <su lang="ru">В самом деле, если посмотреть со стороны, то можно подумать, будто в этом языке нет ничего, кроме исключений.</su>
+        </sentence>
+      </p>
+      <p type="text" id="218">
+        <sentence>
+          <su lang="en">'But that,'' he continued, 'is damned well impossible, unthinkable, and unacceptable.</su>
+          <su lang="ru">— Но это, — продолжал он, — совершенно невозможно, немыслимо и неприемлемо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A language is by God and by definition systematic, which means it's gotta follow some kind of rules.</su>
+          <su lang="ru">Язык по воле Божьей и по самой сути своей систематичен, а это означает, что в нем должны быть какие-то правила.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Otherwise, nobody can't understand nobody.</su>
+          <su lang="ru">Только тогда люди смогут понимать друг друга.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That's the way it works and that's the way it's gotta be.</su>
+          <su lang="ru">В том-то и смысл языка, таким он и должен быть.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And if anyone thinks they can horse around linguisticwise with Fred C. Jackson—'</su>
+          <su lang="ru">И если кто-то думает, что можно дурачиться с языком при Фреде К. Джексоне…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Here Jackson paused and drew the blaster from his holster.</su>
+          <su lang="ru">Тут Джексон замолчал и вытащил из кобуры бластер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He checked the charge, snapped off the safety, and replaced the weapon.</su>
+          <su lang="ru">Он проверил заряд, снял оружие с предохранителя и снова спрятал его.</su>
+        </sentence>
+      </p>
+      <p type="text" id="219">
+        <sentence>
+          <su lang="en">'Just better no one give old Jackson no more double-talking,' old Jackson muttered. 'Because the next alien who tries it is going to get a three-inch circle drilled through his lousy cheating guts.'</su>
+          <su lang="ru">— Не советую больше пороть галиматью при старине Джексоне, — пробормотал старина Джексон, — потому что у первого же мерзкого и лживого инопланетянина, который попробует это сделать, будет трехдюймовая дырка во лбу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="221">
+        <sentence>
+          <su lang="en">So saying, Jackson marched back to the city.</su>
+          <su lang="ru">С этими словами Джексон зашагал назад в город.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was feeling decidedly lightheaded, but absolutely determined.</su>
+          <su lang="ru">Голова у него шла кругом, но он был полон решимости.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His job was to steal this planet out from under its inhabitants in a legal manner, and in order to do that he had to make sense out of their language.</su>
+          <su lang="ru">Его делом было отобрать планету у ее обитателей — причем законно, а для этого он должен понимать их язык.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Therefore, in one way or another, he was going to make sense.</su>
+          <su lang="ru">Вот почему так или иначе он добьется ясности.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Either that, or he was going to make some corpses.</su>
+          <su lang="ru">Или кого-нибудь прикончит. Одно из двух.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At this point, he didn't much care which.</su>
+          <su lang="ru">Что именно, сейчас ему было все равно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="222">
+        <sentence>
+          <su lang="en">Erum was in his office, waiting for him.</su>
+          <su lang="ru">Эрум ждал его в своем кабинете.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">With him were the mayor, the president of the City Council, the borough president, two aldermen and the director of the Board of Estimates.</su>
+          <su lang="ru">С ним были мэр, председатель совета города, глава округа, два ольдермена и член правления бюджетной палаты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All of them were smiling - affably, albeit nervously.</su>
+          <su lang="ru">Все они улыбались — вежливо, хотя и несколько нервно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Strong spirits were present on a sideboard, and there was a subdued air of fellowship in the room.</su>
+          <su lang="ru">На буфете были выставлены крепкие напитки. В комнате царила атмосфера товарищества поневоле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="223">
+        <sentence>
+          <su lang="en">All in all, it looked as if Jackson were being welcomed as a new and highly respected property owner, an adornment to Fakka.</su>
+          <su lang="ru">В целом все это выглядело так, будто в лице Джексона они приветствовали нового высокоуважаемого владельца собственности, украшение Факки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Aliens took it that way sometimes: made the best of a bad bargain by trying to ingratiate themselves with the Inevitable Earthman.</su>
+          <su lang="ru">С инопланетянами такое иногда бывало: они делали хорошую мину при плохой игре, стараясь снискать милость землян, раз уж их победа была неизбежной.</su>
+        </sentence>
+      </p>
+      <p type="text" id="224">
+        <sentence>
+          <su lang="en">'Mun,' said Erum, shaking his hand enthusiastically.</su>
+          <su lang="ru">— Ман, — сказал Эрум, радостно пожимая ему руку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="225">
+        <sentence>
+          <su lang="en">'Same to you, kid,' Jackson said.</su>
+          <su lang="ru">— И тебе того же, крошка, — ответил Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had no idea what the word meant.</su>
+          <su lang="ru">Он понятия не имел, что означает это слово.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Nor did he care.</su>
+          <su lang="ru">Это его и не волновало.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had plenty of other Naian words to choose among, and he had the determination to force matters to a conclusion.</su>
+          <su lang="ru">У него был большой выбор других наянских слов, и он был полон решимости довести дело до конца.</su>
+        </sentence>
+      </p>
+      <p type="text" id="226">
+        <sentence>
+          <su lang="en">'Mun/' said the mayor.</su>
+          <su lang="ru">— Ман! — сказал мэр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="227">
+        <sentence>
+          <su lang="en">'Thanks, pop,' said Jackson.</su>
+          <su lang="ru">— Спасибо, папаша, — ответил Джексон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="228">
+        <sentence>
+          <su lang="en">'Mun/' declared the other officials.</su>
+          <su lang="ru">— Ман! — заявили другие чиновники.</su>
+        </sentence>
+      </p>
+      <p type="text" id="229">
+        <sentence>
+          <su lang="en">'Glad you boys feel that way,' said Jackson.</su>
+          <su lang="ru">— Очень рад, ребята, что вы к этому так относитесь, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He turned to Erum.</su>
+          <su lang="ru">Он повернулся к Эруму.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Well, let's get it over with, okay?'</su>
+          <su lang="ru">— Вот что, давай-ка закончим с этим делом, ладно?</su>
+        </sentence>
+      </p>
+      <p type="text" id="230">
+        <sentence>
+          <su lang="en">'Mun-mun-mun,' Erum replied.</su>
+          <su lang="ru">— Ман-ман-ман, — ответил Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Mun, mun-mun.'</su>
+          <su lang="ru">— Ман, ман-ман.</su>
+        </sentence>
+      </p>
+      <p type="text" id="232">
+        <sentence>
+          <su lang="en">Jackson stared at him for several seconds.</su>
+          <su lang="ru">Несколько секунд Джексон с изумлением смотрел на него.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then he said, in a low, controlled voice, 'Erum, baby, just exactly what are you trying to say to me?'</su>
+          <su lang="ru">Потом он спросил, сдержанно и тихо: — Эрум, малыш, что именно ты пытаешься мне сказать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="233">
+        <sentence>
+          <su lang="en">'Mun, mun, mun,' Erum stated firmly.</su>
+          <su lang="ru">— Ман, ман, ман, — твердо заявил Эрум.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Mun, mun mun mun.</su>
+          <su lang="ru">— Ман, ман ман ман.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun mun.'</su>
+          <su lang="ru">Ман ман.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He paused, and in a somewhat nervous voice asked the mayor: 'Mun, mun?'</su>
+          <su lang="ru">— Он помолчал и несколько нервно спросил мэра: — Ман, ман?</su>
+        </sentence>
+      </p>
+      <p type="text" id="234">
+        <sentence>
+          <su lang="en">'Mun ... mun mun,' the mayor replied firmly, and the other officials nodded.</su>
+          <su lang="ru">— Ман… ман ман, — решительно ответил мэр, и другие чиновники закивали.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They all turned to Jackson.</su>
+          <su lang="ru">Все они повернулись к Джексону.</su>
+        </sentence>
+      </p>
+      <p type="text" id="235">
+        <sentence>
+          <su lang="en">'Mun, mun-mun?'' Erum asked him, tremulously, but with dignity.</su>
+          <su lang="ru">— Ман, ман-ман? — с дрожью в голосе, но с достоинством спросил его Эрум.</su>
+        </sentence>
+      </p>
+      <p type="text" id="236">
+        <sentence>
+          <su lang="en">Jackson was numbed speechless.</su>
+          <su lang="ru">Джексон потерял дар речи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His face turned a choleric red and a large blue vein started to pulse in his neck.</su>
+          <su lang="ru">Его лицо побагровело от гнева, а на шее начала биться большая голубая жилка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But he managed to speak slowly, calmly, and with infinite menace.</su>
+          <su lang="ru">Он заставил себя говорить медленно и спокойно, но в его голосе слышалась бесконечная угроза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="237">
+        <sentence>
+          <su lang="en">'Just what? he said, 'do you lousy third-rate yokels think you're pulling?'</su>
+          <su lang="ru">— Грязная захудалая деревенщина, — сказал он, — что это, паршивцы, вы себе позволяете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="238">
+        <sentence>
+          <su lang="en">'Mun-mun?' the mayor asked Erum.</su>
+          <su lang="ru">— Ман-ман? — спросил у Эрума мэр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="239">
+        <sentence>
+          <su lang="en">'Mun-mun, mun-mun-mun,' Erum replied quickly, making a gesture of incomprehension.</su>
+          <su lang="ru">— Ман-ман, ман-ман-ман, — быстро ответил Эрум, делая жест непонимания.</su>
+        </sentence>
+      </p>
+      <p type="text" id="240">
+        <sentence>
+          <su lang="en">'You better talk sense,' Jackson said.</su>
+          <su lang="ru">— Лучше говорите внятно, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His voice was still low, but the vein in his neck writhed like a firehose under pressure.</su>
+          <su lang="ru">Голос его все еще был тихим, но вена на шее вздулась, как пожарный шланг под давлением.</su>
+        </sentence>
+      </p>
+      <p type="text" id="241">
+        <sentence>
+          <su lang="en">'Mun!' one of the aldermen said quickly to the borough president.</su>
+          <su lang="ru">— Ман! — быстро сказал один из ольдерменов главе округа.</su>
+        </sentence>
+      </p>
+      <p type="text" id="242">
+        <sentence>
+          <su lang="en">'Mun mun-mun mun?' the borough president answered piteously, his voice breaking on the last word.</su>
+          <su lang="ru">— Ман ман-ман ман? — жалобно ответил глава округа, и на последнем слове его голос сорвался.</su>
+        </sentence>
+      </p>
+      <p type="text" id="243">
+        <sentence>
+          <su lang="en">'So you won't talk sense, huh?'</su>
+          <su lang="ru">— Так не хотите нормально разговаривать, да?</su>
+        </sentence>
+      </p>
+      <p type="text" id="244">
+        <sentence>
+          <su lang="en">'Mun!</su>
+          <su lang="ru">— Ман!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun-mun!' the mayor cried, his face gone ashen with fright.</su>
+          <su lang="ru">Ман-ман! — закричал мэр, и его лицо от страха стало мертвенно-бледным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="245">
+        <sentence>
+          <su lang="en">The others looked and saw Jackson's hand clearing the blaster and taking aim at Erum's chest.</su>
+          <su lang="ru">Остальные обернулись и тоже увидели, что Джексон вытащил бластер и прицелился в грудь Эрума.</su>
+        </sentence>
+      </p>
+      <p type="text" id="246">
+        <sentence>
+          <su lang="en">'Quit horsing around!' Jackson commanded.</su>
+          <su lang="ru">— Кончайте ваши фокусы! — скомандовал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The vein in his neck pulsed like a python in travail.</su>
+          <su lang="ru">Вена на шее, казалось, душила его, как удав.</su>
+        </sentence>
+      </p>
+      <p type="text" id="247">
+        <sentence>
+          <su lang="en">'Mun-mun-mun!' Erum pleaded, dropping to his knees.</su>
+          <su lang="ru">— Ман-ман-ман! — взмолился Эрум, падая на колени.</su>
+        </sentence>
+      </p>
+      <p type="text" id="248">
+        <sentence>
+          <su lang="en">'Mun-mun-mun!' the mayor shrieked, rolling his eyes and fainting.</su>
+          <su lang="ru">— Ман-ман-ман! — пронзительно вскричал мэр и, закатив глаза, упал в обморок.</su>
+        </sentence>
+      </p>
+      <p type="text" id="249">
+        <sentence>
+          <su lang="en">'You get it now,' Jackson said to Erum.</su>
+          <su lang="ru">— Вот сейчас ты у меня получишь, — сказал Эруму Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His finger whitened on the trigger.</su>
+          <su lang="ru">Его палец на спусковом крючке побелел.</su>
+        </sentence>
+      </p>
+      <p type="text" id="250">
+        <sentence>
+          <su lang="en">Erum, his teeth chattering, managed to gasp out a strangled 'Mun-mun, mun?'</su>
+          <su lang="ru">У Эрума стучали зубы, но ему удалось сдавленно прохрипеть: «Ман-ман-ман?»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But then his nerves gave way and he waited for death with jaw agape and eyes unfocused.</su>
+          <su lang="ru">Потом его нервы сдали, и он стал ждать смерти с отвисшей челюстью и остекленевшим взором.</su>
+        </sentence>
+      </p>
+      <p type="text" id="251">
+        <sentence>
+          <su lang="en">Jackson took up the last fraction of slack in the trigger. Then, abruptly, he let up and shoved the blaster back in its holster.</su>
+          <su lang="ru">Курок сдвинулся с места, но внезапно Джексон отпустил палец и засунул бластер назад в кобуру.</su>
+        </sentence>
+      </p>
+      <p type="text" id="252">
+        <sentence>
+          <su lang="en">'Mun, mun!' Erum managed to say.</su>
+          <su lang="ru">— Ман, ман! — сумел выговорить Эрум.</su>
+        </sentence>
+      </p>
+      <p type="text" id="253">
+        <sentence>
+          <su lang="en">'Shaddap,' Jackson said.</su>
+          <su lang="ru">— Заткнись! — оборвал его Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He stepped back and glared at the cringing Naian officials.</su>
+          <su lang="ru">Он отступил назад и свирепо посмотрел на съежившихся наянских чиновников.</su>
+        </sentence>
+      </p>
+      <p type="text" id="254">
+        <sentence>
+          <su lang="en">He would have dearly loved to blast them all.</su>
+          <su lang="ru">Ах, как бы ему хотелось всех их уничтожить!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But he couldn't do it.</su>
+          <su lang="ru">Но этого он сделать не мог.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson had to come to a belated acknowledgement of an unacceptable reality.</su>
+          <su lang="ru">Джексону пришлось в конце концов признать неприемлемую для него действительность.</su>
+        </sentence>
+      </p>
+      <p type="text" id="255">
+        <sentence>
+          <su lang="en">His impeccable linguist's ear had heard, and his polyglot brain had analysed.</su>
+          <su lang="ru">Его мозг полиглота проанализировал то, что услышало его непогрешимое ухо лингвиста.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dismayingly, he had realized that the Naians were not trying to put anything over on him.</su>
+          <su lang="ru">В смятении он понял, что наянцы не разыгрывают его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were speaking not nonsense, but a true language.</su>
+          <su lang="ru">Это был настоящий язык, а не бессмыслица.</su>
+        </sentence>
+      </p>
+      <p type="text" id="256">
+        <sentence>
+          <su lang="en">This language was made up at present of the single sound 'mun'.</su>
+          <su lang="ru">Сейчас этот язык состоял из единственного слова «ман».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This sound could carry an extensive repertoire of meanings through variations in pitch and pattern, changes in stress and quantity, alteration of rhythm and repetition, and through accompanying gestures and facial expressions.</su>
+          <su lang="ru">Оно могло иметь самые разные значения, в зависимости от высоты тона и порядка слов, от их количества, от ударения, ритма и вида повтора, а также от сопровождающих жестов и выражения лица.</su>
+        </sentence>
+      </p>
+      <p type="text" id="257">
+        <sentence>
+          <su lang="en">A language consisting of infinite variations on a single word!</su>
+          <su lang="ru">Язык, состоящий из бесконечных вариаций одного-единственного слова!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Jackson didn't want to believe it, but he was too good a linguist to doubt the evidence of his own trained senses.</su>
+          <su lang="ru">Джексон не хотел верить этому, но он был слишком хорошим лингвистом, чтобы сомневаться в том, о чем ему говорили собственные чувства и опыт.</su>
+        </sentence>
+      </p>
+      <p type="text" id="258">
+        <sentence>
+          <su lang="en">He could learn this language, of course.</su>
+          <su lang="ru">Конечно, он мог выучить этот язык.</su>
+        </sentence>
+      </p>
+      <p type="text" id="259">
+        <sentence>
+          <su lang="en">But by the time he had learned it, what would it have changed into?</su>
+          <su lang="ru">Но во что он превратится к тому времени?</su>
+        </sentence>
+      </p>
+      <p type="text" id="260">
+        <sentence>
+          <su lang="en">Jackson sighed and rubbed his face wearily.</su>
+          <su lang="ru">Джексон устало вздохнул и потер лицо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In a sense it was inevitable. All languages change.</su>
+          <su lang="ru">То, что случилось, было в некотором смысле неизбежным: ведь изменяются все языки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But on Earth and the few dozen worlds she had contacted, the languages changed with relative slowness.</su>
+          <su lang="ru">Но на Земле и на нескольких десятках миров, с которыми она установила контакты, этот процесс был относительно медленным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="261">
+        <sentence>
+          <su lang="en">On Na, the rate of change was faster.</su>
+          <su lang="ru">На планете На это происходило быстро.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Quite a bit faster.</su>
+          <su lang="ru">Намного быстрее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="262">
+        <sentence>
+          <su lang="en">The Na language changed as fashions change on Earth, only faster.</su>
+          <su lang="ru">Язык хон менялся, как на Земле меняются моды, только еще быстрее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It changed as prices change or as the weather changes.</su>
+          <su lang="ru">Он был так же изменчив, как цены, как погода.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It changed endlessly and incesssantly, in accordance with unknown rules and invisible principles.</su>
+          <su lang="ru">Он менялся бесконечно и беспрестанно, в соответствии с неведомыми правилами и незримыми принципами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It changed its form as an avalanche changes its shape.</su>
+          <su lang="ru">Он менял свою форму, как меняет свои очертания снежная лавина.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Compared with it, English was like a glacier.</su>
+          <su lang="ru">Рядом с ним английский язык казался неподвижным ледником.</su>
+        </sentence>
+      </p>
+      <p type="text" id="263">
+        <sentence>
+          <su lang="en">The Na language was, truly and monstrously, a simulacrum of Heraclitus' river.</su>
+          <su lang="ru">Язык планеты На был точным, невероятным подобием реки Гераклита.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You cannot step into the same river twice, said Heraclitus; for other waters are for ever flowing on.</su>
+          <su lang="ru">«Нельзя дважды вступить в одну и ту же реку, — сказал Гераклит, — ведь в ней вечно текут другие воды».</su>
+        </sentence>
+      </p>
+      <p type="text" id="264">
+        <sentence>
+          <su lang="en">Concerning the language of Na, this was simply and literally trite.</su>
+          <su lang="ru">Эти простые слова Гераклита как нельзя более точно определяли сущность языка планеты На.</su>
+        </sentence>
+      </p>
+      <p type="text" id="265">
+        <sentence>
+          <su lang="en">That made it bad enough.</su>
+          <su lang="ru">Это было плохо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But even worse was the fact that an observer like Jackson could never hope to fix or isolate even one term out of the dynamic shifting network of terms that composed the Na language.</su>
+          <su lang="ru">Но еще хуже было то, что наблюдатель вроде Джексона не мог даже надеяться зафиксировать или выделить хотя бы одно звено из динамично движущейся цепи терминов, составляющих этот язык.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For the observer's action would be gross enough by itself to disrupt and alter the system, causing it to change unpredictably.</su>
+          <su lang="ru">Ведь подобная попытка наблюдателя сама по себе была довольно грубым вмешательством в систему языка: она могла изменить эту систему и разрушить ее связи, тем самым вызывая в языке непредвиденные перемены.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And so, if the term were isolated, its relationship to the other terms in the system would necessarily be destroyed, and the term itself, by definition, would be false.</su>
+          <su lang="ru">Вот почему, если из системы терминов выделить один, нарушатся их связи, и тогда само значение термина, согласно определению, будет ложным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="266">
+        <sentence>
+          <su lang="en">By the fact of its change, the language was rendered impervious to condification and control.</su>
+          <su lang="ru">Сам факт подобных изменений делал недоступным как наблюдение за языком, так и выявление его закономерностей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Through indeterminacy, the Na tongue resisted all attempts to conquer it.</su>
+          <su lang="ru">Все попытки овладеть языком планеты На разбивались о его неопределимость.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And Jackson had gone from Heraclitus to Heisenberg without touching second base.</su>
+          <su lang="ru">И Джексон понял, что воды реки Гераклита прямиком несут его в омут «индетерминизма» Гейзенберга[84].</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was dazed and dazzled, and he looked upon the officials with something approaching awe.</su>
+          <su lang="ru">Он был поражен, потрясен и смотрел на чиновников с чувством, похожим на благоговение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="267">
+        <sentence>
+          <su lang="en">'You've done it, boys,' he told them. 'You've beaten the system.</su>
+          <su lang="ru">— Вам это удалось, ребята, — сказал он им. — Вы побили систему.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Old Earth could swallow you and never notice the difference; you couldn't do a damned thing about it.</su>
+          <su lang="ru">Старушка Земля и не заметила бы, как проглотила вас, и тут уж вы ничего бы не смогли поделать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But the folks back home like their legalism, and our law says that we must be in a state of communication as a prior condition to any transaction.'</su>
+          <su lang="ru">Но у нас люди большие законники, а наш закон гласит, что любую сделку можно заключить только при одном условии: при уже налаженном общении.</su>
+        </sentence>
+      </p>
+      <p type="text" id="268">
+        <sentence>
+          <su lang="en">'Mm«?' Erum asked politely.</su>
+          <su lang="ru">— Ман? — вежливо спросил Эрум.</su>
+        </sentence>
+      </p>
+      <p type="text" id="269">
+        <sentence>
+          <su lang="en">'So I guess that means I leave you folks alone,' Jackson said.</su>
+          <su lang="ru">— Так что я думаю, друзья, это значит, что я оставлю вас в покое, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'At least, I do as long as they keep that law on the books.</su>
+          <su lang="ru">— По крайней мере, до тех пор, пока не отменят этот закон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But what the hell, a reprieve is the best anyone can ask for. Eh?'</su>
+          <su lang="ru">Но, черт возьми, ведь передышка — это лучшее, чего только можно желать, не так ли?</su>
+        </sentence>
+      </p>
+      <p type="text" id="270">
+        <sentence>
+          <su lang="en">'Mun mun,' the mayor said hesitantly.</su>
+          <su lang="ru">— Ман ман, — нерешительно проговорил мэр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="271">
+        <sentence>
+          <su lang="en">'I'll be getting along now,' Jackson said.</su>
+          <su lang="ru">— Ну, я пошел, — сказал Джексон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Fair's fair ...</su>
+          <su lang="ru">— Я за честную игру…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But if I ever find out that you Naians were putting one over on me—'</su>
+          <su lang="ru">Но если я когда-нибудь узнаю, что вы, наянцы, разыгрывали комедию…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He left the sentence unfinished.</su>
+          <su lang="ru">— Он не договорил.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Without another word, Jackson turned and went back to his ship.</su>
+          <su lang="ru">Не сказав больше ни слова, он повернулся и пошел к своей ракете.</su>
+        </sentence>
+      </p>
+      <p type="text" id="272">
+        <sentence>
+          <su lang="en">In half an hour he was spaceworthy, and fifteen minutes after that he was under way.</su>
+          <su lang="ru">Через полчаса он стартовал, а еще через пятнадцать минут лег на курс.</su>
+        </sentence>
+      </p>
+    </section>
+    <section type="h2">
+      <header>
+        <su lang="en">6</su>
+        <su lang="ru">6</su>
+      </header>
+      <p type="text" id="274">
+        <sentence>
+          <su lang="en">In Erum's office, the officials watched while Jackson's spaceship glowed like a comet in the dark afternoon sky.</su>
+          <su lang="ru">В кабинете Эрума чиновники наблюдали за кораблем Джексона, который сверкал, как комета, в темном вечернем небе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It dwindled to a brilliant needlepoint, and then vanished into the vastness of space.</su>
+          <su lang="ru">Он превратился в крошечную точку и пропал в необъятном космосе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="275">
+        <sentence>
+          <su lang="en">The officials were silent for a moment; then they turned and looked at each other.</su>
+          <su lang="ru">Некоторое время чиновники молчали; потом они повернулись и посмотрели друг на друга.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Suddenly, spontaneously, they burst into laughter.</su>
+          <su lang="ru">Внезапно ни с того ни с сего они разразились смехом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Harder and harder they laughed, clutching their sides while tears rolled down their cheeks.</su>
+          <su lang="ru">Они хохотали все сильнее и сильнее, схватившись за бока, а по их щекам текли слезы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="277">
+        <sentence>
+          <su lang="en">The mayor was the first to check the hysteria.</su>
+          <su lang="ru">Первым с истерией справился мэр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Getting a grip on himself he said, 'Mun, mun, mun-mun.'</su>
+          <su lang="ru">Взяв себя в руки, он сказал: — Ман, ман, ман-ман.</su>
+        </sentence>
+      </p>
+      <p type="text" id="278">
+        <sentence>
+          <su lang="en">This thought instantly sobered the others.</su>
+          <su lang="ru">Эта мысль мгновенно отрезвила остальных.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Their mirth died away.</su>
+          <su lang="ru">Веселье стихло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Uneasily they contemplated the distant unfriendly sky, and they thought back over their recent adventures.</su>
+          <su lang="ru">С тревогой созерцали они далекое враждебное небо, и перед их глазами проходили события последних дней.</su>
+        </sentence>
+      </p>
+      <p type="text" id="279">
+        <sentence>
+          <su lang="en">At last young Erum asked, 'Mun-mun?</su>
+          <su lang="ru">Наконец молодой Эрум спросил:</su>
+        </sentence>
+      </p>
+      <p type="text" id="281">
+        <sentence>
+          <su lang="en">Mun-mun?'</su>
+          <su lang="ru">— Ман-ман?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Several of the officials smiled at the naivete of the question.</su>
+          <su lang="ru">Ман-ман? Несколько чиновников улыбнулись его наивности.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And yet, none could answer that simple yet crucial demand.</su>
+          <su lang="ru">И все же никто из них не смог ответить на этот простой, но жизненно важный вопрос.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why indeed?</su>
+          <su lang="ru">В самом деле, почему?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Did anyone dare hazard even a guess?</su>
+          <su lang="ru">Отважился ли кто-нибудь хотя бы предположить ответ?</su>
+        </sentence>
+      </p>
+      <p type="text" id="282">
+        <sentence>
+          <su lang="en">It was a perplexity leaving in doubt not only the future but the past as well.</su>
+          <su lang="ru">Эта неопределенность не только не проливала света на прошлое, но и ставила под сомнение будущее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And, if a real answer were unthinkable, then no answer at all was surely insupportable.</su>
+          <su lang="ru">И если нельзя было дать правильного ответа на этот вопрос, то не иметь вообще никакого ответа было невыносимо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="284">
+        <sentence>
+          <su lang="en">The silence grew, and Erum's young mouth twisted downwards in premature cynicism.</su>
+          <su lang="ru">Молчание затянулось, и губы молодого Эрума скривились в не по возрасту циничной усмешке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He said quite harshly, 'Mun!</su>
+          <su lang="ru">Он довольно грубо заявил: — Ман!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun-mun!</su>
+          <su lang="ru">Ман-ман!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun?'</su>
+          <su lang="ru">Ман?</su>
+        </sentence>
+      </p>
+      <p type="text" id="285">
+        <sentence>
+          <su lang="en">His shocking words were no more than the hasty cruelty of the young; but such a statement could not go unchallenged.</su>
+          <su lang="ru">Его оскорбительные слова были продиктованы всего лишь поспешной жестокостью молодости; но такое заявление нельзя было оставить без внимания.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And the venerable first alderman stepped forward to essay a reply.</su>
+          <su lang="ru">И почтенный первый ольдермен выступил вперед, чтобы попробовать дать ответ.</su>
+        </sentence>
+      </p>
+      <p type="text" id="286">
+        <sentence>
+          <su lang="en">'Mun mun, mun-mun,' the old man said, with disarming simplicity.</su>
+          <su lang="ru">— Ман ман, ман-ман, — сказал старик с обезоруживающей простотой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Mun mun mun-mun?</su>
+          <su lang="ru">— Ман ман ман-ман?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun mun-mun-mun.</su>
+          <su lang="ru">Ман ман-ман-ман.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun mun mun; mun mun mun; mun mun.</su>
+          <su lang="ru">Ман ман ман: ман ман.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun, mun mun mun - mun mun mun.</su>
+          <su lang="ru">Ман, ман ман ман-ман ман ман.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun-mun?</su>
+          <su lang="ru">Ман-ман?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun mun mun mun!'</su>
+          <su lang="ru">Ман ман ман ман!</su>
+        </sentence>
+      </p>
+      <p type="text" id="288">
+        <sentence>
+          <su lang="en">This straightforward declaration of faith pierced Erum to the core of his being.</su>
+          <su lang="ru"> Вера, прозвучавшая в этих словах, тронула Эрума до глубины души.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Tears sprang unanticipated to his eyes.</su>
+          <su lang="ru">Его глаза неожиданно наполнились слезами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All postures forgotten, he turned to the sky, clenched his fist and shouted, 'Mun!</su>
+          <su lang="ru">Позабыв об условностях, он поднял лицо к небу, сжал руку в кулак и прокричал:  — Ман!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun!</su>
+          <su lang="ru"> Ман!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mun-munl'</su>
+          <su lang="ru"> Ман-ман!</su>
+        </sentence>
+      </p>
+      <p type="text" id="290">
+        <sentence>
+          <su lang="en">Smiling serenely, the old alderman murmured, 'Mun-mun-mun; mun, mun-mun.'</su>
+          <su lang="ru"> Невозмутимо улыбаясь, старик ольдермен тихо прошептал: — Ман-ман-ман, ман, ман-ман.</su>
+        </sentence>
+      </p>
+      <p type="text" id="291">
+        <sentence>
+          <su lang="en">This was, ironically enough, the marvellous and frightening truth of the situation. Perhaps it was just as well that the others did not hear.</su>
+          <su lang="ru"> Как ни странно, эти слова и были правильным ответом на вопрос Эрума. Но эта удивительная правда была такой страшной, что, пожалуй, даже к лучшему, что, кроме них, никто ничего не слышал.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

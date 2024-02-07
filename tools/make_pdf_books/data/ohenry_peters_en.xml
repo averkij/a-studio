@@ -1,0 +1,869 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220603T152701Z</creationdate>
+    <paragraphs>80</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>182</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>190</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">O. Henry</s>
+      <s lang="ru">О. Генри</s>
+    </author>
+    <title>
+      <s lang="en">Jeff Peters as a Personal Magnet</s>
+      <s lang="ru">Джефф Питерс как персональный магнит</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">Jeff Peters has been engaged in as many schemes for making money as there are recipes for cooking rice in Charleston, S.C.</su>
+          <su lang="ru">Джефф Питерс делал деньги самыми разнообразными способами. Этих способов было у него никак не меньше, чем рецептов для изготовления рисовых блюд у жителей Чарлстона, штат Южная Каролина.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">Best of all I like to hear him tell of his earlier days when he sold liniments and cough cures on street corners, living hand to mouth, heart to heart with the people, throwing heads or tails with fortune for his last coin.</su>
+          <su lang="ru">Больше всего я люблю слушать его рассказы о днях его молодости, когда он торговал на улицах мазями и порошками от кашля, жил впроголодь, дружил со всем светом и на последние медяки играл в орлянку с судьбой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">"I struck Fisher Hill, Arkansaw," said he, "in a buckskin suit, moccasins, long hair and a thirty-carat diamond ring that I got from an actor in Texarkana.</su>
+          <su lang="ru"> – Попал я однажды в поселок Рыбачья Гора, в Арканзасе, рассказывал он. – На мне был костюм из оленьей шкуры, мокасины, длинные волосы и перстень с тридцатикаратовым брильянтом, который я получил от одного актера в Тексаркане.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't know what he ever did with the pocket knife I swapped him for it.</su>
+          <su lang="ru">Не знаю, что он сделал с тем перочинным ножиком, который я дал ему в обмен на этот перстень.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">"I was Dr. Waugh-hoo, the celebrated Indian medicine man.</su>
+          <su lang="ru">В то время я был доктор Воф-Ху, знаменитый индейский целитель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I carried only one best bet just then, and that was Resurrection Bitters.</su>
+          <su lang="ru">В руках у меня не было ничего, кроме великолепного снадобья: «Настойки для Воскрешения Больных».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was made of life-giving plants and herbs accidentally discovered by Ta-qua-la, the beautiful wife of the chief of the Choctaw Nation, while gathering truck to garnish a platter of boiled dog for the annual corn dance.</su>
+          <su lang="ru">Настойка состояла из живительных трав, случайно открытых красавицей Та-ква-ла, супругой вождя племени Чокто. Красавица собирала зелень для украшения национального блюда – вареной собаки, ежегодно подаваемой во время пляски на Празднестве Кукурузы, – и наткнулась на эту траву.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">"Business hadn't been good in the last town, so I only had five dollars.</su>
+          <su lang="ru">В городке, где я был перед этим, дела шли неважно: у меня оставалось всего пять долларов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I went to the Fisher Hill druggist and he credited me for half a gross of eight-ounce bottles and corks.</su>
+          <su lang="ru">Прибыв на Рыбачью Гору, я пошел в аптеку, и там мне дали взаймы шесть дюжин восьмиунцевых склянок с пробками.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had the labels and ingredients in my valise, left over from the last town.</su>
+          <su lang="ru">Этикетки и нужные припасы были у меня в чемодане.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Life began to look rosy again after I got in my hotel room with the water running from the tap, and the Resurrection Bitters lining up on the table by the dozen. "Life began to look rosy again…"</su>
+          <su lang="ru">Жизнь снова показалась мне прекрасной, когда я достал себе в гостинице номер, где из крана текла вода, и бутылки с «Настойкой для Воскрешения Больных» дюжинами стали выстраиваться передо мной на столе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">"Fake?</su>
+          <su lang="ru">– Шарлатанство?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No, sir.</su>
+          <su lang="ru">Нет, сэр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was two dollars' worth of fluid extract of cinchona and a dime's worth of aniline in that half-gross of bitters.</su>
+          <su lang="ru">В склянках была не только вода. К ней я примешал хинина на два доллара, да на десять центов анилиновой краски.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've gone through towns years afterwards and had folks ask for 'em again.</su>
+          <su lang="ru">Много лет спустя, когда я снова проезжал по тем местам, люди просили меня дать им еще порцию этого снадобья.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">"I hired a wagon that night and commenced selling the bitters on Main Street.</su>
+          <su lang="ru">В тот же вечер я нанял тележку и открыл торговлю на Главной улице.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Fisher Hill was a low, malarial town; and a compound hypothetical pneumocardiac anti-scorbutic tonic was just what I diagnosed the crowd as needing.</su>
+          <su lang="ru">Рыбачья Гора, хоть и называлась Горой, но была расположена в болотистой, малярийной местности; и я поставил диагноз, что населению как раз не хватает легочно-сердечной и противозолотушной микстуры.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The bitters started off like sweetbreads-on-toast at a vegetarian dinner.</su>
+          <su lang="ru">Настойка разбиралась так шибко, как мясные бутерброды на вегетарианском обеде.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had sold two dozen at fifty cents apiece when I felt somebody pull my coat tail.</su>
+          <su lang="ru">Я уже продал две дюжины склянок по пятидесяти центов за штуку, как вдруг почувствовал, что кто-то тянет меня за фалды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I knew what that meant; so I climbed down and sneaked a five dollar bill into the hand of a man with a German silver star on his lapel.</su>
+          <su lang="ru">Я знал, что это значит. Быстро спустившись с тележки, я сунул пять долларов в руку субъекту с немецкой серебряной звездой на груди.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">"I … commenced selling the bitters on Main Street."</su>
+          <su lang="ru">– Констебль, – говорю я, – какой прекрасный вечер!</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">"'Constable, says I, 'it's a fine night.</su>
+          <su lang="ru">А он спрашивает:</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">"'Have you got a city license, he asks, 'to sell this illegitimate essence of spooju that you flatter by the name of medicine?</su>
+          <su lang="ru">– Имеется ли у вас городской патент на право продажи этой нелегальной бурды, которую вы из любезности зовете лекарством? Получили ли вы бумагу от города?</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">"'I have not, says I. 'I didn't know you had a city.</su>
+          <su lang="ru">– Нет, не получал, – говорю я, – так как я не знал, что это город.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If I can find it to-morrow I'll take one out if it's necessary.</su>
+          <su lang="ru">Если мне удастся найти его завтра, я достану себе и патент.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">"'I'll have to close you up till you do, says the constable.</su>
+          <su lang="ru">– Ну, а до той поры я вынужден прикрыть вашу торговлю, говорит полисмен.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">"I quit selling and went back to the hotel. I was talking to the landlord about it.</su>
+          <su lang="ru">Я перестал торговать и, вернувшись в гостиницу, рассказал хозяину все, что случилось.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">"'Oh, you won't stand no show in Fisher Hill, says he.</su>
+          <su lang="ru">– У нас, на Рыбачьей Горе, вам не дадут развернуться, сказал он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Dr. Hoskins, the only doctor here, is a brother-in-law of the Mayor, and they won't allow no fake doctor to practice in town.</su>
+          <su lang="ru">– Ничего у вас не выйдет. Доктор Хескинс – зять мэра, единственный доктор на весь город, и власти никогда не допустят, чтобы какой-то самозванный целитель отбивал у него практику.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">"'I don't practice medicine, says I, 'I've got a State peddler's license, and I take out a city one wherever they demand it.</su>
+          <su lang="ru">– Да я не занимаюсь медициной, – говорю я. – У меня патент от управления штата на розничную торговлю, а когда с меня требуют особое свидетельство от города я беру его, вот и все.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">"I went to the Mayor's office the next morning and they told me he hadn't showed up yet.</su>
+          <su lang="ru">На следующее утро иду я в канцелярию мэра, но мне говорят, что он еще не приходил, а когда придет, неизвестно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They didn't know when he'd be down. So Doc Waugh-hoo hunches down again in a hotel chair and lights a jimpson-weed regalia, and waits.</su>
+          <su lang="ru">Поэтому доктору Воф-Ху ничего не оставалось, как снова вернуться в гостиницу, грустно усесться в кресло, закурить сигару и ждать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">"By and by a young man in a blue necktie slips into the chair next to me and asks the time.</su>
+          <su lang="ru">Немного погодя подсаживается ко мне молодой человек в синем галстуке и спрашивает, который час.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">"'Half-past ten, says I, 'and you are Andy Tucker.</su>
+          <su lang="ru">– Половина одиннадцатого, – говорю я, – а вы Энди Таккер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've seen you work.</su>
+          <su lang="ru">Я знаю некоторые ваши делишки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Wasn't it you that put up the Great Cupid Combination package on the Southern States?</su>
+          <su lang="ru">Ведь это вы создали в Южных штатах «Универсальную посылку Купидон».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Let's see, it was a Chilian diamond engagement ring, a wedding ring, a potato masher, a bottle of soothing syrup and Dorothy Vernon—all for fifty cents.</su>
+          <su lang="ru">Погодите-ка, что в ней было. Да, да, обручальный перстень с чилийским брильянтом, кольцо для венчания, машинка для растирания картофеля, склянка успокоительных капель и портрет Дороти Вернон[1] – все за пятьдесят центов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">"Andy was pleased to hear that I remembered him.</su>
+          <su lang="ru">Энди был польщен, что я помню его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was a good street man; and he was more than that—he respected his profession, and he was satisfied with 300 per cent. profit.</su>
+          <su lang="ru">Это был талантливый уличный жулик, и, что важнее всего, он уважал свое ремесло и довольствовался тремястами процентов чистой прибыли.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He had plenty of offers to go into the illegitimate drug and garden seed business; but he was never to be tempted off of the straight path.</su>
+          <su lang="ru">Он имел много предложений перейти на нелегальную торговлю наркотиками, но никому не удавалось совратить его с прямого пути.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">"I wanted a partner, so Andy and me agreed to go out together.</su>
+          <su lang="ru">Мне нужен был компаньон, мы переговорили друг с другом и согласились работать вместе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I told him about the situation in Fisher Hill and how finances was low on account of the local mixture of politics and jalap.</su>
+          <su lang="ru">Я сообщил ему о положении вещей на Рыбачьей Горе, как трудны здесь финансовые операции ввиду вторжения в политику касторки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Andy had just got in on the train that morning.</su>
+          <su lang="ru">Энди прибыл только что с утренним поездом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was pretty low himself, and was going to canvass the whole town for a few dollars to build a new battleship by popular subscription at Eureka Springs.</su>
+          <su lang="ru">У него у самого дела была не блестящи, и он намеревался открыть в этом городе публичную подписку для сбора пожертвований на постройку нового броненосца в городе Эврика-Спрингс[2].</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So we went out and sat on the porch and talked it over.</su>
+          <su lang="ru">Было о чем потолковать, и мы вышли на крыльцо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">"The next morning at eleven o'clock when I was sitting there alone, an Uncle Tom shuffles into the hotel and asked for the doctor to come and see Judge Banks, who, it seems, was the mayor and a mighty sick man.</su>
+          <su lang="ru">На следующее утро в одиннадцать, когда я сидел в номере один-одинешенек, является ко мне какой-то дядя Том и просит, чтобы доктор пожаловал на квартиру к судье Бэнксу, который, как выяснилось, и был мэром, – он тяжело захворал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">"'I'm no doctor, says I. 'Why don't you go and get the doctor?</su>
+          <su lang="ru">– Я не доктор, – говорю я, – почему вы не позовете доктора?</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">"'Boss, says he. 'Doc Hoskins am done gone twenty miles in de country to see some sick persons.</su>
+          <su lang="ru">– Ах, господин, – говорит дядя Том, – доктора Хоскина уехала из города за двадцать миль… в деревню… его вызвали к больному.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He's de only doctor in de town, and Massa Banks am powerful bad off.</su>
+          <su lang="ru">Он один врач на весь город, а судья Бенкса очень плоха…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He sent me to ax you to please, suh, come.</su>
+          <su lang="ru">Он послал меня. Пожалуйста, идите к нему.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"'As man to man, says I, 'I'll go and look him over.</su>
+          <su lang="ru">Он очень, очень просит. – Как человек к человеку, я, пожалуй, пойду и осмотрю его, как человек человека, – говорю я, кладу к себе в карман флакон «Настойки для Воскрешения Больных» и направляюсь в гору к особняку мэра.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So I put a bottle of Resurrection Bitters in my pocket and goes up on the hill to the mayor's mansion, the finest house in town, with a mansard roof and two cast iron dogs on the lawn.</su>
+          <su lang="ru">Отличный дом, лучший в городе: мансарда, прекрасная крыша и две чугунные собаки на лужайке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">"This Mayor Banks was in bed all but his whiskers and feet.</su>
+          <su lang="ru">Мэр Бэнкс в постели; из-под одеяла торчат только бакенбарды да кончики ног.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was making internal noises that would have had everybody in San Francisco hiking for the parks.</su>
+          <su lang="ru">Он издает такие утробные звуки, что, будь это в Сан-Франциско, все подумали бы, что землетрясение, и кинулись бы спасаться в парки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A young man was standing by the bed holding a cup of water.</su>
+          <su lang="ru">У кровати стоит молодой человек и держит кружку воды.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">"'Doc, says the Mayor, 'I'm awful sick.</su>
+          <su lang="ru">– Доктор, – говорит мэр, – я ужасно болен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm about to die.</su>
+          <su lang="ru">Помираю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Can't you do nothing for me?</su>
+          <su lang="ru">Не можете ли вы мне помочь?</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">"'Mr. Mayor, says I, 'I'm not a regular preordained disciple of S. Q. Lapius.</su>
+          <su lang="ru">– Мистер мэр, – говорю я, – я не могу назвать себя подлинным учеником Эс Ку Лаппа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I never took a course in a medical college, says I. 'I've just come as a fellow man to see if I could be off assistance.</su>
+          <su lang="ru">Я никогда не изучал в университете медицинских наук и пришел к вам просто, как человек к человеку, посмотреть, чем я могу помочь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">"'I'm deeply obliged, says he.</su>
+          <su lang="ru">– Я глубоко признателен вам, – отвечает больной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Doc Waugh-hoo, this is my nephew, Mr. Biddle.</su>
+          <su lang="ru">Доктор Воф-Ху, это мой племянник, мистер Бидл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He has tried to alleviate my distress, but without success.</su>
+          <su lang="ru">Он пытался облегчить мою боль, но безуспешно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Oh, Lordy!</su>
+          <su lang="ru">О господи!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Ow-ow-ow!! he sings out.</su>
+          <su lang="ru">Ой, ой, ой! – завопил он вдруг.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">"I nods at Mr. Biddle and sets down by the bed and feels the mayor's pulse.</su>
+          <su lang="ru">Я кланяюсь мистеру Бидлу, подсаживаюсь к кровати и щупаю пульс у больного.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">'Let me see your liver—your tongue, I mean, says I. Then I turns up the lids of his eyes and looks close that the pupils of 'em.</su>
+          <su lang="ru">– Позвольте посмотреть вашу печень, то есть язык, говорю я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"'How long have you been sick?</su>
+          <su lang="ru">Затем поднимаю ему веки и долго вглядываюсь в зрачки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">I asked.</su>
+          <su lang="ru">– Когда вы заболели? – спрашиваю я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">"'I was taken down—ow-ouch—last night, says the Mayor.</su>
+          <su lang="ru">– Меня схватило… ой, ой… вчера вечером, – говорит мэр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Gimme something for it, doc, won't you?</su>
+          <su lang="ru">– Дайте мне чего-нибудь, доктор, спасите, облегчите меня!</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">"'Mr. Fiddle, says I, 'raise the window shade a bit, will you?</su>
+          <su lang="ru">– Мистер Фидл, – говорю я, – приподнимите-ка штору.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">"'Biddle, says the young man.</su>
+          <su lang="ru">– Не Фидл, а Бидл, – поправляет меня молодой человек.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'Do you feel like you could eat some ham and eggs, Uncle James?</su>
+          <su lang="ru">А что, дядя Джеймс, – обращается он к судье, – не думаете ли вы, что вы могли бы скушать яичницу с ветчиной?</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">"'Mr. Mayor, says I, after laying my ear to his right shoulder blade and listening, 'you've got a bad attack of super-inflammation of the right clavicle of the harpsichord!</su>
+          <su lang="ru">– Мистер мэр, – говорю я, приложив ухо к его правой лопатке и прислушиваясь, – вы схватили серьезное сверхвоспаление клавикулы клавикордиала.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">"'Good Lord! says he, with a groan, 'Can't you rub something on it, or set it or anything?</su>
+          <su lang="ru">– Господи боже мой, – застонал он, – нельзя ли что-нибудь втереть, или вправить, или вообще что-нибудь?</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">"I picks up my hat and starts for the door.</su>
+          <su lang="ru">Я беру шляпу и направляюсь к двери.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">"'You ain't going, doc? says the Mayor with a howl.</su>
+          <su lang="ru">– Куда вы? – кричит мэр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'You ain't going away and leave me to die with this—superfluity of the clapboards, are you?</su>
+          <su lang="ru">– Не покинете же вы меня одного умирать от этих сверхклавикордов?</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">"'Common humanity, Dr. Whoa-ha, says Mr. Biddle, 'ought to prevent your deserting a fellow-human in distress.</su>
+          <su lang="ru">– Уж из одного сострадания к ближнему, – говорит Бидл, вы не должны покидать больного, доктор Хоа-Хо…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"'Dr. Waugh-hoo, when you get through plowing, says I. And then I walks back to the bed and throws back my long hair.</su>
+          <su lang="ru">– Доктор Воф-Ху, – поправляю я и затем, возвратившись к больному, откидываю назад мои длинные волосы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">"'Mr. Mayor, says I, 'there is only one hope for you.</su>
+          <su lang="ru">– Мистер мэр, – говорю я, – вам осталась лишь одна надежда.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Drugs will do you no good.</su>
+          <su lang="ru">Медикаменты вам не помогут.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But there is another power higher yet, although drugs are high enough, says I.</su>
+          <su lang="ru">Но существует другая сила, которая одна стоит всех ваших снадобий, хотя и они стоят недешево.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">"'And what is that? says he.</su>
+          <su lang="ru">– Какая же это сила – спрашивает он.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">"'Scientific demonstrations, says I. 'The triumph of mind over sarsaparilla.</su>
+          <su lang="ru">– Пролегомены науки, – говорю я. – Победа разума над сарсапариллой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The belief that there is no pain and sickness except what is produced when we ain't feeling well.</su>
+          <su lang="ru">Вера в то, что болезни и страдания существуют только в нашем организме, когда вы чувствуете, что вам нездоровится.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Declare yourself in arrears.</su>
+          <su lang="ru">Признайте себя побежденным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Demonstrate.</su>
+          <su lang="ru">Демонстрируйте!</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">"'What is this paraphernalia you speak of, Doc? says the Mayor.</su>
+          <su lang="ru">– О каких это параферналиях вы говорите, доктор? спрашивает мэр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'You ain't a Socialist, are you?</su>
+          <su lang="ru">– Уж не социалист ли вы?</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">"'I am speaking, says I, 'of the great doctrine of psychic financiering—of the enlightened school of long-distance, sub-conscientious treatment of fallacies and meningitis—of that wonderful in-door sport known as personal magnetism.</su>
+          <su lang="ru">– Я говорю о великой доктрине психического финансирования, о просвещенном методе подсознательного лечения абсурда и менингита внушением на расстоянии, об удивительном комнатном спорте, известном под названием персонального магнетизма.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">"'Can you work it, doc? asks the Mayor.</su>
+          <su lang="ru">– И вы можете это проделать, доктор? – спрашивает мэр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">"'I'm one of the Sole Sanhedrims and Ostensible Hooplas of the Inner Pulpit, says I. 'The lame talk and the blind rubber whenever I make a pass at 'em.</su>
+          <su lang="ru">– Я один из Единых Сенедрионов и Явных Монголов Внутреннего Храма, – говорю я. – Хромые начинают говорить, а слепые ходить, как только я сделаю пассы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I am a medium, a coloratura hypnotist and a spirituous control.</su>
+          <su lang="ru">Я – медиум, колоратурный гипнотизер и спиртуозный контролер человеческих душ.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was only through me at the recent seances at Ann Arbor that the late president of the Vinegar Bitters Company could revisit the earth to communicate with his sister Jane.</su>
+          <su lang="ru">На последних сеансах в Анн-Арборе покойный председатель Уксусно-Горького общества мог только при моем посредстве возвращаться на землю для бесед со своей сестрой Джейн.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You see me peddling medicine on the street, says I, 'to the poor. I don't practice personal magnetism on them. I do not drag it in the dust, says I, 'because they haven't got the dust.</su>
+          <su lang="ru">Правда, в настоящее время я, как вы знаете, продаю с тележки лекарства для бедных и не занимаюсь магнетической практикой, так как не хочу унижать свое искусство слишком низкой оплатой: много ли возьмешь с бедноты!</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">"'Will you treat my case? asks the Mayor.</su>
+          <su lang="ru">– Возьметесь ли вы вылечить гипнотизмом меня? – спрашивает мэр.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">"'Listen, says I. 'I've had a good deal of trouble with medical societies everywhere I've been.</su>
+          <su lang="ru">– Послушайте, – говорю я, – везде, где я бываю, я встречаю затруднения с медицинскими обществами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't practice medicine. But, to save your life, I'll give you the psychic treatment if you'll agree as mayor not to push the license question.</su>
+          <su lang="ru">Я не занимаюсь практикой, но для спасения вашей жизни я, пожалуй, применю к вам психический метод, если вы, как мэр, посмотрите сквозь пальцы на отсутствие у меня разрешения.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">"'Of course I will, says he.</su>
+          <su lang="ru">– Разумеется, – говорит он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'And now get to work, doc, for them pains are coming on again.</su>
+          <su lang="ru">– Только начинайте скорее, доктор, а то я снова чувствую жестокие приступы боли.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">"'My fee will be $250.00, cure guaranteed in two treatments, says I.</su>
+          <su lang="ru">– Мой гонорар двести пятьдесят долларов, – говорю я, – излечение гарантирую в два сеанса.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">"'All right, says the Mayor. 'I'll pay it.</su>
+          <su lang="ru">– Хорошо, – говорит мэр, – заплачу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I guess my life's worth that much.</su>
+          <su lang="ru">Полагаю, что моя жизнь стоит этих денег.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">"I sat down by the bed and looked him straight in the eye.</su>
+          <su lang="ru">Я присел у кровати и стал смотреть на него в упор.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">"'Now, says I, 'get your mind off the disease.</su>
+          <su lang="ru">– Теперь, – сказал я, – отвлеките ваше внимание от вашей болезни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You ain't sick.</su>
+          <su lang="ru">Вы здоровы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You haven't got a heart or a clavicle or a funny bone or brains or anything.</su>
+          <su lang="ru">У вас нет ни сердца, ни ключицы, ни лопатки, ни мозгов – ничего.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You haven't got any pain.</su>
+          <su lang="ru">Бы не испытываете боли.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Declare error.</su>
+          <su lang="ru">Признайтесь, что вы ошиблись, считая себя больным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now you feel the pain that you didn't have leaving, don't you?</su>
+          <su lang="ru">Ну, а теперь вы, не правда ли, чувствуете, что боль, которой у вас никогда не бывало, постепенно уходит от вас.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">"'I do feel some little better, doc, says the Mayor, 'darned if I don't.</su>
+          <su lang="ru">– Да, доктор, черт возьми, мне и в самом деле стало как будто легче, – говорит мэр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now state a few lies about my not having this swelling in my left side, and I think I could be propped up and have some sausage and buckwheat cakes.</su>
+          <su lang="ru">– Пожалуйста, продолжайте врать, что я будто бы здоров и будто бы у меня нет этой опухоли в левом боку. Я уверен, что еще немного, и меня можно будет приподнять в постели и дать мне колбасы с гречишной булкой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">"I made a few passes with my hands.</su>
+          <su lang="ru">Я сделал еще несколько пассов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="en">"'Now, says I, 'the inflammation's gone.</su>
+          <su lang="ru">– Ну, – говорю я, – теперь воспалительное состояние прошло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The right lobe of the perihelion has subsided.</su>
+          <su lang="ru">Правая лопасть перигелия уменьшилась.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You're getting sleepy.</su>
+          <su lang="ru">Вас клонит ко сну.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You can't hold your eyes open any longer.</su>
+          <su lang="ru">Ваши глаза слипаются.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For the present the disease is checked.</su>
+          <su lang="ru">Ход болезни временно прерван.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now, you are asleep.</su>
+          <su lang="ru">Теперь вы спите.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">"The Mayor shut his eyes slowly and began to snore.</su>
+          <su lang="ru">Мэр медленно закрывает глаза и начинает похрапывать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">"'You observe, Mr. Tiddle, says I, 'the wonders of modern science.</su>
+          <su lang="ru">– Заметьте, мистер Тидл, – говорю я, – чудеса современной науки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">"'Biddle, says he, 'When will you give uncle the rest of the treatment, Dr. Pooh-pooh?</su>
+          <su lang="ru">– Бидл, – говорит он. – Но когда же вы назначите второй сеанс для излечения дядюшки, доктор Пу-Пу?</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">"'Waugh-hoo, says I. 'I'll come back at eleven to-morrow.</su>
+          <su lang="ru">– Воф-Ху, – говорю я. – Я буду у вас завтра в одиннадцать утра.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When he wakes up give him eight drops of turpentine and three pounds of steak.</su>
+          <su lang="ru">Когда он проснется, дайте ему восемь капель скипидара и три фунта бифштекса.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Good morning.</su>
+          <su lang="ru">Всего хорошего.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">"The next morning I was back on time.</su>
+          <su lang="ru">На следующее утро я пришел в назначенное время.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">'Well, Mr. Riddle, says I, when he opened the bedroom door, 'and how is uncle this morning?</su>
+          <su lang="ru">– Ну, что, мистер Ридл, – сказал я, как только он ввел меня в спальню, – каково самочувствие вашего дядюшки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">"'He seems much better, says the young man.</su>
+          <su lang="ru">– Кажется, ему гораздо лучше, – отвечает молодой человек.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="en">"The mayor's color and pulse was fine.</su>
+          <su lang="ru">Цвет лица и пульс у мэра были в полном порядке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I gave him another treatment, and he said the last of the pain left him.</su>
+          <su lang="ru">Я сделал второй сеанс, и он заявил, что последние остатки боли у него улетучились.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="en">"'Now, says I, 'you'd better stay in bed for a day or two, and you'll be all right.</su>
+          <su lang="ru">– А теперь, – говорю я, – вам следует день-другой полежать в постели, и вы совсем поправитесь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's a good thing I happened to be in Fisher Hill, Mr. Mayor, says I, 'for all the remedies in the cornucopia that the regular schools of medicine use couldn't have saved you.</su>
+          <su lang="ru">Ваше счастье, что я очутился здесь, на вашей Рыбачьей Горе, мистер мэр, так как никакие средства, известные в корнукопее и употребляемые официальной медициной, не могли бы вас спасти.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And now that error has flew and pain proved a perjurer, let's allude to a cheerfuller subject—say the fee of $250.</su>
+          <su lang="ru">Теперь же, когда медицинская ошибка обнаружена, когда доказано, что ваша боль самообман, поговорим о более веселых материях – например, о гонораре в двести пятьдесят долларов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No checks, please, I hate to write my name on the back of a check almost as bad as I do on the front.</su>
+          <su lang="ru">Только, пожалуйста, без чеков. Я с такой же неохотой расписываюсь на обороте чека, как и на его лицевой стороне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="en">"'I've got the cash here, says the mayor, pulling a pocket book from under his pillow. "He counts out five fifty-dollar notes and holds 'em in his hand.</su>
+          <su lang="ru">– Нет, нет, у меня наличные, – говорит мэр, доставая из-под подушки бумажник; он отсчитывает пять бумажек по пятидесяти долларов и держит их в руке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="en">"'Bring the receipt, he says to Biddle.</su>
+          <su lang="ru">– Бидл, – говорит он, – возьмите расписку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I signed the receipt and the mayor handed me the money.</su>
+          <su lang="ru">Я пишу расписку, и мэр дает мне деньги.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I put it in my inside pocket careful.</su>
+          <su lang="ru">Я тщательно прячу их во внутренний карман.</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="en">"'Now do your duty, officer, says the mayor, grinning much unlike a sick man.</su>
+          <su lang="ru">– А теперь приступите к исполнению ваших обязанностей, сержант, – говорит мэр, ухмыляясь совсем как здоровый.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="en">"Mr. Biddle lays his hand on my arm.</su>
+          <su lang="ru">Мистер Бидл кладет руку мне на плечо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="en">"'You're under arrest, Dr. Waugh-hoo, alias Peters, says he, 'for practising medicine without authority under the State law.</su>
+          <su lang="ru">– Вы арестованы, доктор Воф-Ху, или, вернее, Питерс, говорит он, – за незаконные занятия медициной без разрешения властей штата.</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="en">"'Who are you? I asks.</su>
+          <su lang="ru">– Кто вы такой? – спрашиваю я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="en">"'I'll tell you who he is, says Mr. Mayor, sitting up in bed.</su>
+          <su lang="ru">– Я вам скажу, кто он такой, – говорит мэр, приподнимаясь на кровати как ни в чем не бывало.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'He's a detective employed by the State Medical Society.</su>
+          <su lang="ru">– Он сыщик, состоящий на службе в Медицинском обществе штата.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He's been following you over five counties. He came to me yesterday and we fixed up this scheme to catch you.</su>
+          <su lang="ru">Он шел за вами по пятам, выслеживал вас в пяти округах и явился ко мне третьего дня, и мы вместе придумали план, чтобы вас изловить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> I guess you won't do any more doctoring around these parts, Mr. Fakir.</su>
+          <su lang="ru">Полагаю, что отныне ваша практика в наших местах кончена раз навсегда, господин шарлатан.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What was it you said I had, doc? the mayor laughs, 'compound—well, it wasn't softening of the brain, I guess, anyway.</su>
+          <su lang="ru"> Ха, ха, ха! Какую болезнь вы нашли у меня? Ха, ха, ха! Во всяком случае не размягчение мозга?</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence>
+          <su lang="en">"'A detective, says I.</su>
+          <su lang="ru">– Сыщик! – говорю я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="en">"'Correct, says Biddle.</su>
+          <su lang="ru">– Именно, – отвечает Бидл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I'll have to turn you over to the sheriff.</su>
+          <su lang="ru">– Мне придется сдать вас шерифу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="en">"'Let's see you do it, says I, and I grabs Biddle by the throat and half throws him out the window, but he pulls a gun and sticks it under my chin, and I stand still.</su>
+          <su lang="ru">– Ну, это мы еще посмотрим! – говорю я, хватаю его за горло и чуть не выбрасываю из окна.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then he puts handcuffs on me, and takes the money out of my pocket.</su>
+          <su lang="ru">Но он вынимает револьвер, сует мне его в подбородок, и я успокаиваюсь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"And I grabs Biddle by the throat."</su>
+          <su lang="ru">Затем он надевает на меня наручники и вытаскивает из моего кармана только что полученные деньги.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="en">"'I witness, says he, 'that they're the same bank bills that you and I marked, Judge Banks.</su>
+          <su lang="ru">– Я свидетельствую, – говорит он, – что это те самые банкноты, которые мы с вами отметили, судья Бэнкс.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'll turn them over to the sheriff when we get to his office, and he'll send you a receipt.</su>
+          <su lang="ru">Я вручу их в полицейском участке шерифу, и он пришлет вам расписку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They'll have to be used as evidence in the case.</su>
+          <su lang="ru">Им придется фигурировать в деле в качестве вещественного доказательства.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="en">"'All right, Mr. Biddle, says the mayor. 'And now, Doc Waugh-hoo, he goes on, 'why don't you demonstrate? Can't you pull the cork out of your magnetism with your teeth and hocus-pocus them handcuffs off?</su>
+          <su lang="ru">– Ладно, мистер Бидл, – говорит мэр, – А теперь, доктор Воф-Ху, – продолжает он, обращаясь ко мне, – почему вы не воспользуетесь своим магнетизмом и не сбросите с себя кандалы?</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="en">"'Come on, officer, says I, dignified.</su>
+          <su lang="ru">– Пойдемте, сержант, – говорю я с достоинством.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">'I may as well make the best of it.</su>
+          <su lang="ru">– Нечего делать, надо покориться судьбе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And then I turns to old Banks and rattles my chains.</su>
+          <su lang="ru">– А затем, оборачиваясь к старому Бэнксу и потрясая кандалами, говорю:</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="en">"'Mr. Mayor, says I, 'the time will come soon when you'll believe that personal magnetism is a success.</su>
+          <su lang="ru">– Мистер мэр, недалеко то время, когда вы убедитесь, что персональный магнетизм огромная сила, которая сильнее вашей власти.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And you'll be sure that it succeeded in this case, too.</su>
+          <su lang="ru">Вы увидите, что победит она.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="en">"And I guess it did.</su>
+          <su lang="ru">И она действительно победила.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="en">"When we got nearly to the gate, I says: 'We might meet somebody now, Andy. I reckon you better take 'em off, and— Hey?</su>
+          <su lang="ru">Когда мы дошли до ворот, я говорю сыщику: – А теперь, Энди, сними-ка с меня наручники, а то перед прохожими неловко… Что?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why, of course it was Andy Tucker.</su>
+          <su lang="ru">Ну да, конечно, это был Энди Таккер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That was his scheme; and that's how we got the capital to go into business together."</su>
+          <su lang="ru">Весь план был его изобретением: так-то мы и добыли денег для дальнейшего совместного бизнеса.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

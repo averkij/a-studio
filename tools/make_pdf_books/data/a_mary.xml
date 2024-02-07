@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220527T124133Z</creationdate>
+    <paragraphs>31</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>87</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>87</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Andy Weir</s>
+      <s lang="ru">Энди Уэйр</s>
+    </author>
+    <title>
+      <s lang="en">Hail Mary</s>
+      <s lang="ru">Проект «Аве Мария»</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="h2">
+      <header>
+        <su lang="en">Project Hail Mary</su>
+        <su lang="ru">Проект «Аве Мария»</su>
+      </header>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">"What’s two plus two?"</su>
+          <su lang="ru">– Сколько будет два плюс два?</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">Something about the question irritates me.</su>
+          <su lang="ru">Что-то в этом вопросе раздражает.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’m tired. I drift back to sleep.</su>
+          <su lang="ru">Я устал и погружаюсь в забытье.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en"> A few minutes pass, then I hear it again.</su>
+          <su lang="ru">Проходит несколько минут. И снова раздается:</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">"What’s two plus two?"</su>
+          <su lang="ru">– Сколько будет два плюс два?</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">The soft, feminine voice lacks emotion and the pronunciation is identical to the previous time she said it.</su>
+          <su lang="ru">Негромкий женский голос лишен эмоций. Вопрос произносится точно так же, как и в предыдущий раз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It’s a computer.</su>
+          <su lang="ru">Это компьютер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A computer is hassling me.</su>
+          <su lang="ru">И он меня достает.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">I’m even more irritated now.</su>
+          <su lang="ru">– Осстань, – с раздражением выдыхаю я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">"Lrmln," I say.</su>
+          <su lang="ru">Странно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’m surprised.</su>
+          <su lang="ru">Вообще-то я хотел сказать: «Отстань».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I meant to say "Leave me alone"—a completely reasonable response in my opinion—but I failed to speak.</su>
+          <su lang="ru">По-моему, самый подходящий ответ.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Incorrect," says the computer.</su>
+          <su lang="ru">Но я не смог произнести его внятно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">"What’s two plus two?"</su>
+          <su lang="ru">– Ответ неверный, – раздается голос.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Time for an experiment.</su>
+          <su lang="ru">– Сколько будет два плюс два?</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">I’ll try to say hello.</su>
+          <su lang="ru">Попробую поэкспериментировать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Hlllch?"</su>
+          <su lang="ru">А если поздороваться?</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">I say.</su>
+          <su lang="ru">– Ззззссссте, – получается у меня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">"Incorrect.</su>
+          <su lang="ru">– Ответ неверный.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What’s two plus two?"</su>
+          <su lang="ru">Сколько будет два плюс два?</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">What’s going on?</su>
+          <su lang="ru">Да что ж такое?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I want to find out, but I don’t have much to work with.</su>
+          <su lang="ru">Хотел бы я выяснить, но возможности мои весьма ограничены.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can’t see.</su>
+          <su lang="ru">Я ничего не вижу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can’t hear anything other than the computer.</su>
+          <su lang="ru">И не слышу ни единого звука, кроме электронного голоса.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can’t even feel.</su>
+          <su lang="ru">И даже ничего не ощущаю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No, that’s not true. I feel something.</su>
+          <su lang="ru">Впрочем, нет, кое-что все же чувствую.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’m lying down.</su>
+          <su lang="ru">Я лежу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’m on something soft.</su>
+          <su lang="ru">Подо мной мягкая поверхность.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A bed.</su>
+          <su lang="ru">Кровать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">I think my eyes are closed.</su>
+          <su lang="ru">Кажется, мои глаза закрыты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That’s not so bad.</su>
+          <su lang="ru">Не так уж плохо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All I have to do is open them.</su>
+          <su lang="ru">Мне всего лишь нужно их открыть.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I try, but nothing happens.</su>
+          <su lang="ru">Я пытаюсь… тщетно, не получается.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why can’t I open my eyes?</su>
+          <su lang="ru">Почему я не могу открыть глаза?</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">Open.</su>
+          <su lang="ru">Открывайтесь!</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">Aaaand…open!</su>
+          <su lang="ru">Ну же! Открывайтесь!</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">Open, dang it!</su>
+          <su lang="ru">Открывайтесь, черт возьми!</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">Ooh!</su>
+          <su lang="ru">Ого!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I felt a wiggle that time.</su>
+          <su lang="ru">Я почувствовал движение!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My eyelids moved.</su>
+          <su lang="ru">Мои глазные яблоки пошевелились!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I felt it.</su>
+          <su lang="ru">Я почувствовал!</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">Open!</su>
+          <su lang="ru">Да открывайтесь же!</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">My eyelids creep up and blinding light sears my retinas.</su>
+          <su lang="ru">Наконец, я с трудом разлепляю веки, и глаза обжигает слепящий свет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">"Glunn!"</su>
+          <su lang="ru">– Уххх!</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">I say.</su>
+          <su lang="ru">Усилием воли заставляю себя не зажмуриться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I keep my eyes open with sheer force of will.</su>
+          <su lang="ru">Все вокруг белое.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Everything is white with shades of pain.</su>
+          <su lang="ru">С оттенками боли.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">"Eye movement detected," my tormenter says.</su>
+          <su lang="ru">– Обнаружено движение глаз, – заявляет мой мучитель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"What’s two plus two?"</su>
+          <su lang="ru">– Сколько будет два плюс два?</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">The whiteness lessens.</su>
+          <su lang="ru">Белый свет уже не так слепит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My eyes are adjusting.</su>
+          <su lang="ru">Глаза понемногу привыкают.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I start to see shapes, but nothing sensible yet.</su>
+          <su lang="ru">Я начинаю видеть контуры предметов, однако пока ничего не осязаю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Let’s see…can I move my hands?</su>
+          <su lang="ru">Так… а если пошевелить руками?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No.</su>
+          <su lang="ru">Нет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Feet?</su>
+          <su lang="ru">А ногами?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Also no.</su>
+          <su lang="ru">Тоже нет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But I can move my mouth, right?</su>
+          <su lang="ru">Но ртом я могу двигать?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’ve been saying stuff.</su>
+          <su lang="ru">Я даже пытался говорить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Not stuff that makes sense, but it’s something.</su>
+          <su lang="ru">Правда, вышло нечто невразумительное…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Fffr."</su>
+          <su lang="ru">– Щщщ-ре, – силюсь сказать я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">"Incorrect.</su>
+          <su lang="ru">– Ответ неверный.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What’s two plus two?"</su>
+          <su lang="ru">Сколько будет два плюс два?</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">The shapes start to make sense.</su>
+          <su lang="ru">Внезапно предметы перед глазами обретают смысл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’m in a bed.</su>
+          <su lang="ru">Я лежу в кровати.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It’s kind of…oval-shaped.</su>
+          <su lang="ru">И она вроде бы… овальная.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">LED lights shine down on me.</su>
+          <su lang="ru">Надо мной светодиодные лампы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Cameras in the ceiling watch my every move.</su>
+          <su lang="ru">Камеры на пололке фиксируют каждое мое движение.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Creepy though that is, I’m much more concerned about the robot arms.</su>
+          <su lang="ru">И хоть это выглядит страшновато, гораздо больше тревожит другое – роботы-манипуляторы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The two brushed-steel armatures hang from the ceiling.</su>
+          <su lang="ru">Две штуковины из матовой стали, свисающие с потолка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Each has an assortment of disturbingly penetration-looking tools where hands should be.</su>
+          <su lang="ru">И каждая вооружена пугающим арсеналом каких-то явно инвазивных инструментов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Can’t say I like the look of that.</su>
+          <su lang="ru">Признаюсь, я не восторге от увиденного.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">"Ffff…oooh…rrrr," I say.</su>
+          <su lang="ru">– Ч-ч-че… ты… ре, – с трудом произношу я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Will that do?</su>
+          <su lang="ru">Так сойдет?</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">"Incorrect.</su>
+          <su lang="ru">– Ответ неверный.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What’s two plus two?"</su>
+          <su lang="ru">Сколько будет два плюс два?</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">Dang it.</su>
+          <su lang="ru">Черт!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I summon all my willpower and inner strength.</su>
+          <su lang="ru">Я призываю всю силу воли и пытаюсь сосредоточиться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Also, I’m starting to panic a little.</su>
+          <su lang="ru">Внутри начинает нарастать паника.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Good. I use that too.</su>
+          <su lang="ru">Вот и хорошо, обращу ее себе на благо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">"Fffoouurr," I finally say.</su>
+          <su lang="ru">– Ч-ч-четыре! – выдавливаю я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">"Correct."</su>
+          <su lang="ru">– Ответ принят.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">Thank God.</su>
+          <su lang="ru">Слава тебе, господи!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can talk.</su>
+          <su lang="ru">Я могу говорить!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sort of.</su>
+          <su lang="ru">Хоть как-то.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

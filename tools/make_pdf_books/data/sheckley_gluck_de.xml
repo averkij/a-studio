@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220605T091421Z</creationdate>
+    <paragraphs>24</paragraphs>
+    <langs>
+      <lang id="de">
+        <sentences>100</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>101</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="de">Robert Sheckley</s>
+      <s lang="ru">Роберт Шекли</s>
+    </author>
+    <title>
+      <s lang="de">Der glücklichste Mann der Welt</s>
+      <s lang="ru">Самый везучий человек в мире</s>
+    </title>
+    <contents>
+      <s lang="de">Inhalt</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="de"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="de">Mir geht es hier unten erstaunlich gut.</su>
+          <su lang="ru">Я здесь поразительно хорошо обеспечен.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber man darf nicht vergessen, daß ich unverschämt viel Glück hatte.</su>
+          <su lang="ru">Но не забывайте, что я человек везучий.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Der reine Zufall verschlug mich nach Patagonien.</su>
+          <su lang="ru">И то, что оказался в Патагонии, — чистейшее везение.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ganz ohne Beziehungen, verstehen Sie – andererseits hatte aber auch mein Können nichts damit zu tun.</su>
+          <su lang="ru">Понимаете, дело тут не в протекции и не в моих способностях.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich bin kein schlechter Meteorologe, aber man hätte tausend bessere finden können.</su>
+          <su lang="ru">Я очень неплохой метеоролог, но могли послать кого-нибудь и получше меня.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich war eben vom Glück so begünstigt, daß es mich zur rechten Zeit am rechten Ort fand.</su>
+          <su lang="ru">Просто мне необыкновенно повезло, и я оказался в нужном месте в нужное время.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="de">Es grenzt ans Wunderbare, wenn man bedenkt, daß das Militär meine Wetterstation mit ungefähr allen bekannten technischen Raffinessen ausstattete.</su>
+          <su lang="ru">Если призадуматься, то сам факт, что армия снабдила мою метеостанцию едва ли не каждым известным людям приспособлением, тоже граничит с чудом.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Nicht speziell für mich, natürlich.</su>
+          <su lang="ru">Старались они, разумеется, не ради меня.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das Militär hatte ursprünglich vorgehabt, hier einen Stützpunkt zu errichten.</su>
+          <su lang="ru">Военные планировали основать здесь базу.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Man schaffte alles Nötige heran, und dann mußte man das Unternehmen plötzlich aufgeben.</su>
+          <su lang="ru">Они завезли оборудование, но позднее им пришлось забросить весь проект.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="de">Ich schickte natürlich weiterhin meine Wetterberichte hinaus, solange sie verlangt wurden.</su>
+          <su lang="ru">Но я тем не менее продолжал посылать прогнозы погоды — до тех пор, пока они им требовались.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="de">Aber die Apparaturen!</su>
+          <su lang="ru">Зато какие у меня устройства и приборы!</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Mein ganzes Leben lang hat mich alles Wissenschaftliche in Erstaunen gesetzt.</su>
+          <su lang="ru">Наука всегда меня восхищала.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Man kann mich wohl auch so eine Art Wissenschaftler nennen, aber das Schöpferische fehlt in unserem Beruf – und darin liegt der Unterschied.</su>
+          <su lang="ru">Полагаю, я тоже в некотором роде ученый, но не исследователь, а в этом и кроется разница.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Man braucht von einem schöpferischen Wissenschaftler nur das Unmögliche zu verlangen, und er wird es tun.</su>
+          <su lang="ru">Попросите исследователя сделать что-либо невозможное — и он примется за работу, причем непременно добьется успеха.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Es ist kaum zu fassen.</su>
+          <su lang="ru">Я их очень уважаю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="de">Wie ich die Sache sehe, muß irgendein General den Wissenschaftlern erklärt haben: "Paßt mal auf, Leute, uns fehlen vor allem Spezialisten, und wir können diese Lücke in keiner Weise ausfüllen.</su>
+          <su lang="ru">По-моему, все началось так. Некий генерал собрал, должно быть, ученых и сказал: — Парни, нам здорово не хватает специалистов, а заменить их ну никак невозможно.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ihre Pflichten müssen von Männern wahrgenommen werden, die oft völlig ungeschult sind.</su>
+          <su lang="ru">Нужно, чтобы с их работой справлялся кто угодно, даже полный неумеха.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das klingt wenig plausibel, aber was soll man tun?"</su>
+          <su lang="ru">Что, нереально?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und die Wissenschaftler begannen sich ernstlich an die Arbeit zu machen.</su>
+          <su lang="ru">А не придумаете ли вы что-нибудь?</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="de">Sie schrieben unfaßbare Bücher, sie erfanden unglaubliche Dinge.</su>
+          <su lang="ru">И ученые честно принялись за дело, создавая все эти поразительные книги и устройства.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="de">Letzte Woche zum Beispiel hatte ich Zahnschmerzen.</su>
+          <su lang="ru">К примеру, на прошлой неделе у меня разболелся зуб.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Zuerst hielt ich das für eine Folge meiner Erkältung, denn hier unten ist es immer noch ziemlich kühl, obwohl ja die Vulkane ständig in Tätigkeit sind.</su>
+          <su lang="ru">Сперва я решил, что попросту простудился, потому что здесь пока еще довольно холодно, даже когда извергаются вулканы.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber Zahnschmerzen waren es.</su>
+          <su lang="ru">Но зуб оказался действительно больным.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich holte mir also die Dental-Apparatur, schloß sie an und las die Bedienungsanleitung durch.</su>
+          <su lang="ru">Тогда я распаковал зубоврачебный агрегат, настроил его и прочитал то, что полагалось прочесть.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich untersuchte mich und bestimmte den Zahn, den Schmerz, die Höhlung. Dann gab ich mir eine Spritze, kratzte den Zahn aus und machte eine Füllung.</su>
+          <su lang="ru">Я сам провел полное обследование, отыскал и больной зуб, и полость в нем. Потом сделал себе инъекцию, прочистил зуб и поставил пломбу.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Dabei gingen Zahnärzte jahrelang zur Hochschule, um zu lernen, was ich unter Druck in fünf Stunden schaffte.</su>
+          <su lang="ru">У дантиста уходят годы на то, что я по необходимости усвоил за пять часов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="de">Dann die Ernährung.</su>
+          <su lang="ru">Теперь возьмем еду.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich war ziemlich dick geworden, weil ich nichts zu tun hatte, als Wetterberichte zu senden.</su>
+          <su lang="ru">Поначалу я до безобразия растолстел, потому что мне, кроме передачи прогнозов погоды, совершенно нечем было заняться.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Als dann damit Schluß war, begann ich Mahlzeiten zuzubereiten, um die mich die berühmtesten Köche der Welt beneidet hätten.</su>
+          <su lang="ru">Но когда я перестал их посылать, я научился готовить себе такие обеды, которым позавидовал бы лучший шеф-повар в мире.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Früher galt das Kochen als eine Kunst, aber die Wissenschaftler machten es zu einer exakten Wissenschaft. Ich könnte seitenlang erzählen.</su>
+          <su lang="ru">Кулинария считалась искусством, но как только за нее взялись ученые, они превратили ее в науку, И такие примеры я могу приводить долго.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="de">Vieles von dem, was man mir gab, kann ich nicht mehr verwenden, weil ich ja jetzt ganz alleine bin.</su>
+          <su lang="ru">Многое из того, чем меня снабдили, попросту мне не нужно, потому что сейчас я совершенно один.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber mit Hilfe der Bücher, die sie verfaßt haben, könnte sich jedermann als fähiger Rechtsanwalt mit ausgedehnter Praxis betätigen.</su>
+          <su lang="ru">Но каждый способен стать опытным адвокатом, прочитав имеющиеся у меня справочники.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Bände verfügen über eine Einteilung, die es jedem Menschen durchschnittlicher Intelligenz ermöglichen würde, die für die erfolgreiche Behandlung eines Falles entscheidenden Abschnitte zu finden und ihre Bedeutung in einfachem Englisch zu erfassen.</su>
+          <su lang="ru">Они написаны так, что любой человек среднего ума способен отыскать в них разделы, необходимые для успешной защиты судебного дела, и понять их смысл — ведь они написаны простым и ясным языком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="de">Niemand hat bisher versucht, mich zu verklagen, weil ich immer Glück hatte.</su>
+          <su lang="ru">Никто еще не пытался подать на меня в суд, потому что мне всю жизнь везло.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber ich hätte die juristischen Bücher schon sehr gerne einmal ausprobiert.</su>
+          <su lang="ru">Но иногда мне хочется, чтобы такое случилось, — просто чтобы испробовать написанное в тех книгах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="de">Das Bauen ist wieder eine Sache für sich.</su>
+          <su lang="ru">Совсем другое дело — строительство.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Als ich hier ankam, mußte ich in einer Wellblechhütte wohnen.</su>
+          <su lang="ru">Когда я сюда прибыл, мне пришлось ютиться в сборной хибаре из гофрированного железа.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich stellte dann aber einige von diesen wunderbaren Baumaschinen auf und fand Material, mit dem jeder Laie arbeiten konnte.</su>
+          <su lang="ru">Но я распаковал несколько восхитительных строительных машин и отыскал материалы, которые под силу обработать каждому.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich baute mir ein bombensicheres Haus mit fünf Räumen und einem gefliesten Badezimmer.</su>
+          <su lang="ru">Я построил себе пятикомнатный, непробиваемый бомбами дом с выложенной кафелем ванной.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Echte Fliesen sind das natürlich nicht, aber den Unterschied würde nur ein Fachmann bemerken.</su>
+          <su lang="ru">Кафель, разумеется, не настоящий, но на вид достаточно похож, к тому же его на удивление легко укладывать.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Teppiche von Wand zu Wand lassen sich ebenso leicht verlegen, wenn man die Instruktionen durchgelesen hat.</su>
+          <su lang="ru">А когда прочитаешь инструкцию, изготовить ковры во всю стену тоже совсем просто.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="de">Was mich aber am meisten überraschte, war die Installation an meinem Haus.</su>
+          <su lang="ru">Больше всего меня удивила канализация в моем доме.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich hatte sie immer für äußerst kompliziert gehalten, komplizierter sogar als Medizin oder Zahnbehandlung.</su>
+          <su lang="ru">Мне она всегда казалась сложнейшей в мире вещью — даже сложнее, чем медицина или стоматология.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber sie machte mir nicht die geringsten Schwierigkeiten.</su>
+          <su lang="ru">Но и с ней я справился запросто.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Vielleicht war unter fachmännischen Maßstäben nicht alles vollkommen, aber ich bin zufrieden.</su>
+          <su lang="ru">Возможно, по профессиональным стандартам конструкция получилась не очень совершенной, но меня она устраивает.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Filteranlagen, Sterilisatoren, Reiniger, Kompressoren und so weiter erzeugen jedenfalls Wasser, in dem selbst die widerstandsfähigsten Erreger fehlen.</su>
+          <su lang="ru">А цепочка фильтров, стерилизаторов, очистителей и прочих приспособлений обеспечивает меня водой, в которой не сыщешь даже самого устойчивого микроба.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und das alles habe ich selbst aufgebaut.</su>
+          <su lang="ru">И устанавливал я их сам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="de">Gelegentlich beginne ich mich hier einsam zu fühlen, und daran können auch die Wissenschaftler wenig ändern.</su>
+          <su lang="ru">Временами мне здесь становится одиноко, и тут ученые мало что смогли сделать.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Für Geselligkeit gibt es keinen Ersatz.</su>
+          <su lang="ru">Ничто не заменит общество другого человека.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wenn sich die Wissenschaftler richtig angestrengt hätten, wäre dabei vielleicht aber doch etwas herausgesprungen, was Leuten wie mir die totale Vereinsamung ein wenig erleichtert hätte.</su>
+          <su lang="ru">Но кто знает, если бы ученые-исследователи попробовали всерьез, глядишь, и смогли бы выдумать нечто такое, что скрасило бы полное одиночество оказавшегося в изоляции парня вроде меня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="de">Es gibt ja nicht einmal Patagonier, mit denen ich mich unterhalten könnte.</su>
+          <su lang="ru">Поговорить мне совершенно не с кем — даже с патагонцами.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Nach den großen Flutwellen zogen sie nach Norden – die wenigen, die es noch gab.</su>
+          <su lang="ru">После нескольких цунами они — те немногие, кто уцелел, — перебрались на север.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und die Musik hilft auch nicht viel.</su>
+          <su lang="ru">А музыка утешение слабое.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich bin andererseits aber ein Mensch, dem es nicht allzuviel ausmacht, allein zu sein.</su>
+          <su lang="ru">Впрочем, я из тех, кто не очень-то возражает против одиночества.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Vielleicht hat man mich deshalb hierhergeschickt.</su>
+          <su lang="ru">Наверное, поэтому меня сюда и послали.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="de">Aber ein paar Bäume hätte ich doch gerne.</su>
+          <su lang="ru">Но жаль, что не осталось хотя бы парочки деревьев.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="de">Malerei!</su>
+          <su lang="ru">Живопись!</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich habe vergessen, vom Malen zu sprechen!</su>
+          <su lang="ru">Я забыл упомянуть о живописи!</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Jeder weiß, wie kompliziert dieses Thema ist.</su>
+          <su lang="ru">Все знают, насколько это сложно.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Man muß etwas von Perspektive, von Linienführung, Farbe und Komposition verstehen.</su>
+          <su lang="ru">Нужно досконально разбираться в перспективе и линиях, цвете и массе, и еще во всякой всячине.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Praktisch muß man ein Genie sein, bevor man es darin zu etwas bringt.</su>
+          <su lang="ru">Практически, нужно быть гением еще до того, как вы сумеете сделать что-то стоящее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="de">Ich wähle einfach Pinsel aus, stelle meine Staffelei auf und male alles, was mir gerade gefällt.</su>
+          <su lang="ru">Я же просто подобрал кисти, натянул холсты и теперь могу рисовать все, что мне нравится.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">In den Büchern fehlt nicht die geringste Kleinigkeit.</su>
+          <su lang="ru">Все необходимые действия описаны в книге.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Die Ölgemälde über Sonnenuntergänge sind geradezu phantastisch.</su>
+          <su lang="ru">А какие впечатляющие местные закаты я написал маслом!</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sie würden jeder Galerie zur Ehre gereichen.</su>
+          <su lang="ru">Они достаточно хороши даже для выставки.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Solche Sonnenuntergänge haben Sie noch nicht gesehen!</su>
+          <su lang="ru">Таких закатов вы никогда не видали!</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Flammende Farben, unglaubliche Formen!</su>
+          <su lang="ru">Пылающие цвета, изумительные, просто невозможные образы.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das macht der viele Staub in der Atmosphäre.</su>
+          <su lang="ru">Причиной тому пыль в атмосфере.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="de">Mit meinen Ohren bin ich auch wieder ganz zufrieden.</su>
+          <su lang="ru">И слух у меня улучшился.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sagte ich nicht vorhin, daß ich ein Glückspilz bin?</su>
+          <su lang="ru">Разве я не говорил, что я везучий?</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Durch die erste Druckwelle wurden mir beide Trommelfelle zerrissen.</su>
+          <su lang="ru">После первого взрыва у меня лопнули барабанные перепонки.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber das Hörgerät, das ich ständig trage, ist so klein, daß es kaum auffällt, und ich höre besser als je zuvor.</su>
+          <su lang="ru">Но я ношу слуховой аппарат — такой маленький, что его почти не видно, — и слышу лучше прежнего.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="de">Das bringt mich auf das Thema Medizin; nirgendwo hat die Wissenschaft mehr geleistet.</su>
+          <su lang="ru">Вот хороший повод поговорить о медицине — нигде наука не поработала так здорово.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">In den Büchern findet man etwas gegen alle Krankheiten.</su>
+          <su lang="ru">Книги подсказывают мне, как поступить в любой ситуации.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich habe eine Blinddarmoperation an mir ausgeführt, wie man sie noch vor ein paar Jahren für unmöglich gehalten hätte.</su>
+          <su lang="ru">Я сам вырезал себе аппендикс — несколько лет назад подобное считалось невозможным.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich brauchte nur die Symptome nachzuschlagen, mich an die Anweisungen zu halten, und es war geschafft.</su>
+          <su lang="ru">Мне достаточно было отыскать нужные симптомы, выполнить все указания — и дело сделано.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich habe alle möglichen Leiden an mir kuriert, aber gegen die Strahlungskrankheit läßt sich natürlich nichts ausrichten.</su>
+          <su lang="ru">Я вылечил себя от всяческих болезней, но против радиационного отравления, конечно же, ничего сделать не в состоянии.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das liegt aber nicht an den Büchern.</su>
+          <su lang="ru">Впрочем, книги тут не виноваты.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Gegen Strahlungskrankheit kann kein Mensch etwas tun.</su>
+          <su lang="ru">Просто никто не в силах справиться с радиационным отравлением.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Selbst wenn ich die ersten Spezialisten der ganzen Welt hier hätte, wären sie machtlos.</su>
+          <su lang="ru">И будь со мной лучшие в мире специалисты, они тоже оказались бы бессильны.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="de">Wenn es noch Spezialisten gäbe.</su>
+          <su lang="ru">Если бы такие специалисты остались.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das ist natürlich nicht der Fall.</su>
+          <su lang="ru">Их, разумеется, больше нет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="de">Halb so schlimm.</su>
+          <su lang="ru">Но все не так уж и плохо.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich weiß, was ich zu tun habe, damit ich keine Schmerzen spüre.</su>
+          <su lang="ru">Я знаю, что нужно делать, и поэтому боли не испытываю.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Und es ist nicht so, als hätte mich das Glück plötzlich im Stich gelassen.</su>
+          <su lang="ru">Только не подумайте, будто мне изменило везение.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Das Unglück brach eben über alle herein.</su>
+          <su lang="ru">Просто не повезло всем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="de">Nun, wenn ich das Ganze so durchlese, scheint es kein sehr großartiges Bekenntnis zu sein, worauf ich es eigentlich angelegt hatte.</su>
+          <su lang="ru">Что ж если подвести итоги, сказанное мною не очень-то назовешь кредо что, в общем-то, подразумевалось.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich muß wohl noch eines der Schriftstellerei-Bücher durcharbeiten.</su>
+          <su lang="ru">Наверное, стоит проштудировать руководство о том, как писать книги.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Dann werde ich auch wissen, wie ich mich auszudrücken habe.</su>
+          <su lang="ru">Тогда я узнаю, как можно выразить все свои мысли, а заодно и то, какие слова тут больше подходят.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Über meine Einstellung zur Wissenschaft, über meine große Dankbarkeit.</su>
+          <su lang="ru">То есть что я думаю о науке и как я ей благодарен.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich bin 39 Jahre alt.</su>
+          <su lang="ru">Мне тридцать девять лет.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ich habe länger als jeder andere Mensch überlebt, selbst wenn ich morgen sterben sollte.</su>
+          <su lang="ru">Я прожил дольше, чем любой из нас, — пусть даже я завтра умру.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Aber ich hatte eben Glück, ich war zur rechten Zeit am rechten Ort.</su>
+          <su lang="ru">Но лишь потому, что я везучий и оказался в нужном месте в нужное время.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="de">Mit dem Schriftstellerei-Buch werde ich mich wohl nicht mehr abgeben, weil es ja keinen mehr gibt, der irgendeinen Text lesen könnte.</su>
+          <su lang="ru">Наверное, не стану все-таки тратить время на книгу — все равно ее некому будет читать.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Was taugt ein Schriftsteller ohne Leser?</su>
+          <su lang="ru">Кому нужен писатель без читателей?</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="de">Da ist das Fotografieren schon interessanter.</su>
+          <su lang="ru">Фотография — гораздо более интересное занятие.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Außerdem muß ich einige Grabschaufelgeräte auspacken, ein Mausoleum errichten und meinen Grabstein meißeln.</su>
+          <su lang="ru"> Кстати, пора распаковать кое-какие инструменты. Нужно выкопать могилу, построить мавзолей и высечь себе надгробие.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220628T055600Z</creationdate>
+    <paragraphs>46</paragraphs>
+    <langs>
+      <lang id="cz">
+        <sentences>135</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>133</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="cz">Karel Čapek</s>
+      <s lang="ru">Карел Чапек</s>
+    </author>
+    <title>
+      <s lang="cz">Případ Dr. Mejzlíka</s>
+      <s lang="ru">﻿Случай с доктором Мейзликом</s>
+    </title>
+    <contents>
+      <s lang="cz">Obsah</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="cz"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="cz">﻿ "Poslyšte, pane Dastychu," řekl zamyšleně policejní úředník dr. Mejzlík starému kouzelníkovi, "já k vám jdu vlastně na poradu.</su>
+          <su lang="ru"> — Послушайте, господин Дастих, — озабоченно сказал полицейский чиновник доктор Мейзлик старому магу и волшебнику, — я к вам, собственно, за советом.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Já mám tuhle jeden případ, se kterým si nevím rady."</su>
+          <su lang="ru">Я вот ломаю голову над одним случаем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="cz">"Tak ven s tím," děl pan Dastych.</su>
+          <su lang="ru">— Ну, выкладывайте! — сказал Дастих.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Kohopak se ten případ týká?"</su>
+          <su lang="ru">— С кем там и что стряслось?</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="cz">"Mne," vzdychl dr. Mejzlík.</su>
+          <su lang="ru">— Со мной, — вздохнул доктор Мейзлик.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Čím víc na to myslím, tím míň do toho vidím.</su>
+          <su lang="ru">— И чем больше я об этом случае думаю, тем меньше понимаю, как он произошел.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Poslouchejte, člověk by se z toho zbláznil."</su>
+          <su lang="ru">Просто можно с ума сойти.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="cz">"Tak co vám kdo udělal?" ptal se chlácholivě pan Dastych.</su>
+          <su lang="ru">— Так кто же все это натворил? — спросил Дастих успокаивающе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="cz">"Nikdo," vyhrkl dr. Mejzlík.</su>
+          <su lang="ru">— Никто! — крикнул Мейзлик.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"To je to nejhorší.</su>
+          <su lang="ru">— И это самое скверное.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Já sám jsem něco udělal, čemu nerozumím."</su>
+          <su lang="ru">Я сам совершил что-то такое, чего понять не в состоянии.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="cz">"Snad to nebude tak zlé," těšil ho starý Dastych.</su>
+          <su lang="ru">— Надеюсь, все это не так страшно, — успокаивал доктора Мейзлика старый Дастих.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Tak co jste to provedl, mládenče?"</su>
+          <su lang="ru">— А что же вы все-таки натворили, дружище?</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="cz">"Chytil jsem kasaře," odpověděl dr. Mejzlík pochmurně.</su>
+          <su lang="ru">— Поймал медвежатника, — мрачно ответил Мейзлик.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="cz">"A to je všechno?"</su>
+          <su lang="ru">— И это все?</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="cz">"To je všechno."</su>
+          <su lang="ru">— Все.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="cz">"A ten kasař asi nebyl ten pravý," pomáhal pan Dastych.</su>
+          <su lang="ru">— А медвежатник оказался ни при чем, — подсказал Дастих.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="cz">"Ale byl, vždyť se přiznal. Udělal kasu v Židovském dobročinném spolku, víte?</su>
+          <su lang="ru">Да нет, он же сам признался, что ограбил кассу в Еврейском благотворительном обществе.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Byl to nějaký Rozanowski čili Rosenbaum ze Lvova," bručel dr. Mejzlík.</su>
+          <su lang="ru">Это какой-то Розановский или Розенбаум из Львова, — ворчал Мейзлик.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Našli u něho hasáky a všechno."</su>
+          <su lang="ru">— У него нашли и воровской инструмент, и все прочее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="cz">"No, a co byste rád věděl?" pobádal ho starý Dastych.</su>
+          <su lang="ru">Так чего же вы еще хотите? — торопил его старый Дастих.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="cz">"Já bych rád věděl," řekl policejní úředník zahloubaně, "jak jsem ho chytil.</su>
+          <su lang="ru">Я бы хотел понять, — сказал полицейский чиновник задумчиво, — каким образом я его поймал.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Počkejte, já vám to povím po pořádku.</su>
+          <su lang="ru">Подождите, сейчас я вам все расскажу по порядку.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Před měsícem, to bylo třetího března, jsem měl až do půlnoci službu.</su>
+          <su lang="ru">Месяц тому назад, третьего марта, я дежурил до полуночи.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Já nevím, jestli se pamatujete, že tehdy už třetí den pršelo.</su>
+          <su lang="ru">Не знаю, помните ли вы, что в первых числах марта три дня подряд лил дождь.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Tak jsem si zaskočil na chvilku do kavárny a pak chci jít domů, na Vinohrady.</su>
+          <su lang="ru">Я заскочил на минутку в кафе и собрался было уже идти домой, на Винограды.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Ale místo toho jsem šel opačným směrem k Dlážděné ulici.</su>
+          <su lang="ru">Но вместо этого почему-то пошел в противоположную сторону, по направлению к Длажденой улице.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Prosím vás, nevíte, proč jsem šel zrovna v tu stranu?"</su>
+          <su lang="ru">Скажите, пожалуйста, почему я пошел именно в ту сторону?</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="cz">"Snad jen tak, náhodou," mínil pan Dastych.</su>
+          <su lang="ru">— Возможно, просто так, случайно, — предположил Дастих.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="cz">"Poslouchejte, v takovém počasí necourá člověk jen tak náhodou po ulicích.</su>
+          <su lang="ru">— Послушайте, в этакую погоду человек не болтается по улицам просто так, от нечего делать.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Já bych rád věděl, co jsem tam u všech sakramentů chtěl.</su>
+          <su lang="ru">Я бы хотел знать, какого черта меня понесло туда?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Co myslíte, nemohlo to být nějaké tušení?</su>
+          <su lang="ru">Не думаете ли вы, что это было предчувствие?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Víte, něco jako telepatie."</su>
+          <su lang="ru">Знаете, нечто вроде телепатии.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="cz">"Aha," pravil pan Dastych.</su>
+          <su lang="ru">— Да, — утвердительно кивнул головой Дастих.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"To je docela možné."</su>
+          <su lang="ru">— Вполне возможно!</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="cz">"Tak vidíte," mluvil dr. Mejzlík ustaraně.</su>
+          <su lang="ru">— Вот видите, — заметил Мейзлик как-то озабоченно.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Tady to máme.</su>
+          <su lang="ru">— То-то и оно!</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Ale taky to mohla být taková podvědomá představa, abych se podíval, co je u Tří panen."</su>
+          <su lang="ru">Но это также могло быть и просто подсознательное желание взглянуть, что делается «У трех девиц».</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="cz">"To je ten zapadák v Dlážděné ulici," vzpomněl si pan Dastych.</su>
+          <su lang="ru">— А-а, вы имеете в виду ночлежку на Длажденой улице, — вспомнил Дастих.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="cz">"Právě.</su>
+          <su lang="ru">— Вот именно.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Tam přespávají tihle kasaři a kapsáři z Pešti nebo z Haliče, když přijdou do Prahy na práci.</su>
+          <su lang="ru">Там обычно ночуют карманники и медвежатники из Будапешта или из Галиции, когда приезжают в Прагу по своим «делам».</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">My na ten lokál dáváme pozor.</su>
+          <su lang="ru">Мы за этим кабаком следим.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Co myslíte, nebyl to docela obyčejný policejní zvyk, že jsem si tam šel mrknout?"</su>
+          <su lang="ru">Как по-вашему, может быть, я просто по привычке решил заглянуть туда?</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="cz">"To může být," soudil pan Dastych. "Takové věci dělá někdy člověk docela mechanicky, hlavně když jaksi má smysl pro povinnost.</su>
+          <su lang="ru">— Вполне может быть, — рассудил Дастих, — такие вещи иногда делаются совершенно механически, в особенности если они входят в круг служебных обязанностей.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Na tom není nic zvláštního."</su>
+          <su lang="ru">Тут нет ничего удивительного.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="cz">"Tak já jdu do Dlážděné ulice," pokračoval dr. Mejzlík, "podívám se mimochodem na seznam noclehářů u Tří panen a jdu dál.</su>
+          <su lang="ru">— Так вот, пошел я по Длажденой улице, — продолжает Мейзлик, — заглянул мимоходом в список ночлежников «У трех девиц» и отправился дальше.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Na konci Dlážděné ulice se zastavím a mířím zase zpátky; pěkně prosím, nevíte, proč jsem šel zpátky?"</su>
+          <su lang="ru">Дойдя до конца улицы, остановился и повернул обратно.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Zvyk," mínil pan Dastych.</su>
+          <su lang="ru">Скажите, пожалуйста, ну почему я повернул обратно?</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="cz">"Zvyk patrolovat."</su>
+          <su lang="ru">— Привычка, — предположил Дастих, — привычка патрулировать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="cz">"To by mohlo být," souhlasil policejní úředník.</su>
+          <su lang="ru">— Возможно, — согласился полицейский чиновник.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Ale já jsem neměl službu a chtěl jsem jít domů.</su>
+          <su lang="ru">— Но ведь я уже кончил дежурство и хотел идти домой.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Třeba to byla předtucha."</su>
+          <su lang="ru">Может быть, это было предвидение?</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="cz">"Bývají takové případy," uznával pan Dastych. "Ale taková předtucha není nic záhadného.</su>
+          <su lang="ru">— Такие случаи тоже известны, — признал Дастих, — но в них нет ничего загадочного.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">To je přece známo, že v člověku jsou jakési vyšší schopnosti…"</su>
+          <su lang="ru">Просто это значит, что человек обладает сверхъестественным чутьем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="cz">"Hergot," zařval dr. Mejzlík, "tak byl to zvyk, nebo nějaké vyšší schopnosti?</su>
+          <su lang="ru">— Черт возьми, — закричал Мейзлик, — так это была привычка или сверхъестественное чутье?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Tohle bych rád věděl!</su>
+          <su lang="ru">Вот это-то мне и хотелось бы знать.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">– Tak počkejte: Když si to tak šlapu, jde proti mně nějaký člověk.</su>
+          <su lang="ru">Да, погодите. Когда я повернул обратно, то повстречал какого-то человека.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Řekněte, pročpak by u všech všudy nemohl kdokoliv jít v jednu hodinu v noci Dlážděnou ulicí?</su>
+          <su lang="ru">Вы спросите — ну и что же, разве кому-либо возбраняется ходить в час ночи по Длажденой улице?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Na tom není nic podezřelého.</su>
+          <su lang="ru">В этом нет ничего подозрительного.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Já sám jsem na nic ani nepomyslil; ale zastavil jsem se zrovna pod lucernou a zapaloval jsem si egyptku.</su>
+          <su lang="ru">Я и сам ничего в том не заподозрил; однако остановился под самым фонарем и стал закуривать сигарету.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Víte, to my děláme, když se chceme v noci na někoho pořádně podívat.</su>
+          <su lang="ru">Знаете, мы всегда так поступаем, когда впотьмах хотим кого-нибудь внимательно разглядеть.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Co myslíte: byla to náhoda, nebo zvyk, nebo… nebo nějaký podvědomý alarm?"</su>
+          <su lang="ru">Как вы думаете, это была случайность, привычка, или…некая неосознанная тревога?</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="cz">"To nevím," řekl pan Dastych.</su>
+          <su lang="ru">— Не знаю, — сказал Дастих.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="cz">"Já taky ne," křikl zlostně dr. Mejzlík.</su>
+          <su lang="ru">— Я тоже, черт побери! — злобно воскликнул Мейзлик.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Hrom do toho! Tedy si zapaluju cigaretu pod tou lucernou a ten člověk jde podle mne.</su>
+          <su lang="ru">— Зажигаю я сигарету под самым фонарем, а человек проходит мимо меня.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Pane, já jsem se mu ani nepodíval na nos a jenom tak čumím k zemi.</su>
+          <su lang="ru">Господи, я даже не взглянул ему в лицо, стоял, уставившись в землю.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Když ten chlap přešel, začalo se mně něco nelíbit.</su>
+          <su lang="ru">Этот парень уже прошел, и тут что-то мне в нем не понравилось.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Čerchmante, řekl jsem si, tady není něco v pořádku – ale co vlastně?</su>
+          <su lang="ru">«Проклятие! — сказал я сам себе. — Тут что-то не в порядке, но что именно?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Vždyť jsem si toho vašnosty ani nevšiml.</su>
+          <su lang="ru">Ведь я этого типа даже не разглядел».</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Tak stojím v dešti pod tou lucernou a přemýšlím; a najednou mě napadlo: boty!</su>
+          <su lang="ru">Стою я у фонаря, под проливным дождем, и раздумываю. И вдруг меня осенило… Ботинки!</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Ten člověk měl něco divného na botách.</su>
+          <su lang="ru">У этого человека что-то странное было на ботинках.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="cz">A já vám z ničeho nic povídám nahlas: popel."</su>
+          <su lang="ru">— «Опилки!» — неожиданно громко проговорил я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="cz">"Jaký popel?" ptal se pan Dastych.</su>
+          <su lang="ru">— Какие опилки? — спросил Дастих.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="cz">"No popel.</su>
+          <su lang="ru">— Обыкновенные металлические опилки.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">V tu chvíli jsem si vzpomněl, že ten člověk měl na botách mezi svrškem a podrážkou popel."</su>
+          <su lang="ru">В ту минуту я понял, что у прохожего на ранте ботинок были опилки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="cz">"A proč by neměl mít na botách popel?" mínil pan Dastych.</su>
+          <su lang="ru">— А почему бы у него на ботинках не могли быть опилки? — спросил Дастих.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="cz">"To se rozumí," zvolal dr. Mejzlík. "Ale pane, v ten okamžik jsem viděl, ano, viděl vyříznutou ohnivzdornou, ze které se sype popel na podlahu.</su>
+          <su lang="ru">— Могли, разумеется, — воскликнул Мейзлик, — но именно в этот момент я просто видел, да, да, видел вскрытый сейф, из которого на пол сыплются металлические опилки.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Víte, ten popel, co je mezi ocelovými pláty.</su>
+          <su lang="ru">Знаете, опилки от стальных пластин.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">A já jsem viděl, jak ty boty šlapou do toho popela."</su>
+          <su lang="ru">Я просто видел, как эти ботинки шлепают по этим опилкам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="cz">"Tak to byla intuice," rozhodl pan Dastych. "Geniální, ale nahodilá intuice."</su>
+          <su lang="ru">— Так это интуиция, — решил Дастих, — гениальная, но бессознательная.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="cz">"Nesmysl," řekl dr. Mejzlík.</su>
+          <su lang="ru">— Бессмыслица! — сказал Мейзлик.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Člověče, kdyby nepršelo, tak bych si toho popela ani nevšiml.</su>
+          <su lang="ru">— Да не будь дождя, я бы на эти опилки и внимания не обратил.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Ale když prší, tak lidé obyčejně nemají na botách popel, rozumíte?"</su>
+          <su lang="ru">Но когда идет дождь, обычно на обуви не бывает опилок, понимаете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="cz">"Tak to byl empirický závěr," pravil s jistotou pan Dastych.</su>
+          <su lang="ru">— Ну так это эмпирический вывод, — уверенно произнес Дастих.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Byl to skvělý úsudek na základě zkušenosti.</su>
+          <su lang="ru">— Блестящий вывод, сделанный на основе опыта.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">A co bylo dál?"</su>
+          <su lang="ru">А что дальше?</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="cz">"Inu, pak jsem šel za tím chlapem: to se ví, zapadl ke Třem pannám.</su>
+          <su lang="ru">— Я, конечно, пошел за этим парнем, и. само собой разумеется, он закатился к «Трем девицам».</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Potom jsem zatelefonoval pro dva tajné a udělali jsme tam šťáru; našli jsme pana Rosenbauma i s tím popelem a hasáky a dvanácti tisíci z kasy Židovského dobročinného spolku.</su>
+          <su lang="ru">Потом я по телефону вызвал двух сыщиков, и мы устроили облаву: нашли и Розенбаума с опилками на ботинках, воровской инструмент, и двадцать тысяч из кассы Еврейского благотворительного общества.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Na tom už nic není.</su>
+          <su lang="ru">В этом уж не было ничего необычного.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">To víte, v novinách se psalo, že tentokrát naše policie ukázala značnou pohotovost – Takový nesmysl!</su>
+          <su lang="ru">Знаете, в газетах писали, что на сей раз наша полиция проявила блестящую оперативность. Какая бессмыслица!</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Prosím vás, kdybych náhodou nebyl šel do té Dlážděné ulice a náhodou se nepodíval tomu gaunerovi na boty…</su>
+          <su lang="ru">Скажите, пожалуйста, что было бы, если бы я случайно не пошел по Длажденой улице и случайно не поглядел этому прохвосту на ботинки?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Totiž," děl dr. Mejzlík sklíčeně, "byla-li to jen tak náhoda.</su>
+          <su lang="ru">То-то и оно’ Так вот, была ли это только случайность? — удрученно спросил доктор Мейзлик.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="cz">To je právě to." "Na tom přece nezáleží," mínil pan Dastych. "Mladý člověče, to byl úspěch, ke kterému si můžete gratulovat."</su>
+          <su lang="ru">— А это и не важно, — произнес Дастих, — Поймите, молодой человек, ведь это успех, с которым вас можно поздравить.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="cz">"Gratulovat!" vybuchl dr. Mejzlík.</su>
+          <su lang="ru"> — Поздравить! выпалил Мейзлик.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Pane, jakpak si mám gratulovat, když nevím k čemu?</su>
+          <su lang="ru"> — Господин Дастих! Да как же тут поздравлять, когда я не знаю, чему я обязан своим успехом?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">K svému báječnému detektivnímu bystrozraku?</su>
+          <su lang="ru">Своей сверхъестественной проницательности?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Nebo k mechanickým policejním zvykům? Nebo k šťastné náhodě?</su>
+          <su lang="ru">Полицейской привычке или просто счастливой случайности?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Nebo k nějaké intuici a telepatii?</su>
+          <su lang="ru">А может, интуиции или телепатии?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Koukněte se, to byl můj první větší případ; něčeho se člověk musí držet, že?</su>
+          <su lang="ru">Подумать только! Ведь это — мое первое настоящее дело! Человек должен чем-то руководствоваться!</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Dejme tomu, zítra mně dají nějaký mord; pane Dastychu, co budu dělat?</su>
+          <su lang="ru">Предположим, завтра меня заставят расследовать какое-нибудь убийство Господин Дастих, что я буду делать?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Mám běhat po ulicích a koukat lidem bystrozrace na boty?</su>
+          <su lang="ru">Начну бегать по улицам и пристально смотреть на все ботинки?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Nebo mám jít za nosem a čekat, že mě nějaká předtucha nebo vnitřní hlas povede rovnou k vrahovi?</su>
+          <su lang="ru">Или побреду куда глаза глядят в надежде, что предчувствие или внутренний голос приведут меня прямо в объятия убийцы?</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Tak vidíte, to je ten případ.</su>
+          <su lang="ru">Вот ведь какая история получается!</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Celá policie si teď říká: Tenhle Mejzlík, ten má nos; z toho mládence s brejlemi něco bude, to je detektivní talent. Vždyť je to zoufalá situace," bručel dr. Mejzlík.</su>
+          <su lang="ru">Вся полиция теперь твердит: у этого Мейзлика нюх, из этого парня в очках будет толк, у него талант детектива. Отчаянное положение! — ворчал Мейзлик.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Nějakou metodu člověk musí mít.</su>
+          <su lang="ru"> — Какая-то метода должна у меня быть?!</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Do svého prvního případu jsem věřil na všelijaké ty exaktní metody; víte, na pozorování, na zkušenost, na soustavné vyšetření a takové hlouposti. Ale když si teď probírám ten případ, tak vidím, že – Poslouchejte," vyhrkl s úlevou, "já myslím, že to byla jen šťastná náhoda."</su>
+          <su lang="ru"> Понимаете, до этого случая я верил во всякие бесспорные методы, где важную роль играют внимание, опыт, систематическое следствие и прочая чепуха Но когда я задумываюсь над этой историей, то вижу… Послушайте! — воскликнул доктор Мейзлик с облегчением. — Я думаю, что все это — просто счастливая случайность.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="cz">"Vypadá to tak," řekl pan Dastých moudře.</su>
+          <su lang="ru">— Да, похоже, — сказал Дастих мудро.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Ale byl v tom také kus dobrého pozorování a takové té logiky."</su>
+          <su lang="ru">— Но известную роль здесь сыграли логика и пристальное внимание.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="cz">"A mechanická rutina," děl mladý úředník malomyslně.</su>
+          <su lang="ru">— И обычная рутина, — горько добавил молодой полицейский чиновник.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="cz">"A intuice.</su>
+          <su lang="ru">— И еще интуиция.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">A taky trochu takový dar předtuchy.</su>
+          <su lang="ru">А также в какой-то мере дар предвидения.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">A instinkt."</su>
+          <su lang="ru">И инстинкт.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="cz">"Ježíšikriste, tak to vidíte," bědoval dr. Mejzlík.</su>
+          <su lang="ru">— Господи боже мой!</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Pane Dastychu, jak mám nyčko něco dělat?"</su>
+          <su lang="ru">Так вы теперь видите, как все это сложно, — огорчился Мейзлик — Скажите, что же мне теперь делать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="cz">"– Pan doktor Mejzlík k telefonu," hlásil pan vrchní.</su>
+          <su lang="ru">— Доктор Мейзлик, вас к телефону, — позван его метрдотель.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Volá policejní prezídium."</su>
+          <su lang="ru">— Звонят из полицейского управления.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="cz">"Tady to máme," zahučel dr. Mejzlík zdrceně; a když se vrátil od telefonu, byl bledý a nervózní.</su>
+          <su lang="ru">— Вот вам, пожалуйста! — проворчал удрученный Мейзлик. Когда Мейзлик вернулся, он был бледен и взволнован.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="cz">"Platit, pane vrchní," křikl podrážděně.</su>
+          <su lang="ru">— Кельнер, счет! — крикнул он раздраженно.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">"Už to tak je.</su>
+          <su lang="ru">— Так оно и есть, сказал он Дастиху.</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Našli nějakého cizince zavražděného v hotelu.</su>
+          <su lang="ru">— Нашли какого-то иностранца, убитого в отеле, проклятие…</su>
+        </sentence>
+        <sentence>
+          <su lang="cz">Hrom aby –" a odešel.</su>
+          <su lang="ru">И Мейзлик ушел.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="cz">Zdálo se, že tento energický mladý muž má trému.</su>
+          <su lang="ru">Казалось, этот энергичный молодой человек сам не свой от волнения.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

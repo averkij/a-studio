@@ -1,0 +1,1059 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.2">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220719T074821Z</creationdate>
+    <paragraphs>82</paragraphs>
+    <langs>
+      <lang id="pt">
+        <sentences>234</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>342</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="pt">J.K. Rowling</s>
+      <s lang="ru">Дж. К. Ролинг</s>
+    </author>
+    <title>
+      <s lang="pt">Harry Potter e o Prisioneiro de Azkaban</s>
+      <s lang="ru">Гарри Поттер и узник Азкабана</s>
+    </title>
+    <contents>
+      <s lang="pt">Conteúdo</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="h2">
+      <header>
+        <su lang="pt">O CORREIO DAS CORUJAS</su>
+        <su lang="ru">Совиная почта</su>
+      </header>
+      <p type="text" id="0">
+        <sentence id="0">
+          <su lang="pt">Harry Potter era um rapazinho muito pouco vulgar.</su>
+          <su lang="ru">Гарри Поттер — необычный мальчик во всех отношениях.</su>
+        </sentence>
+        <sentence id="1">
+          <su lang="pt"> Por um lado, a época do ano que mais detestava era a das férias de Verão. Por outro, queria muito fazer os trabalhos de casa, mas via-se obrigado a fazê-los às escondidas, pela calada da noite.</su>
+          <su lang="ru">Во-первых, он терпеть не может летние каникулы, во-вторых, любит летом делать уроки, но занимается ночью, когда все спят.</su>
+        </sentence>
+        <sentence id="2">
+          <su lang="pt">Além disso, Harry Potter era um feiticeiro.</su>
+          <su lang="ru">А самое главное, Гарри Поттер — волшебник.</su>
+        </sentence>
+      </p>
+      <p type="text" id="1">
+        <sentence id="3">
+          <su lang="pt">Era quase meia-noite e ele estava deitado de bruços, na cama, com os cobertores a taparem-lhe a cabeça formando uma espécie de tenda, uma lanterna na mão e um enorme livro com encadernação de cabedal (A História da Magia, de Adalbert Waffling) apoiado contra a almofada.</su>
+          <su lang="ru">Было уже заполночь. Гарри лежал на животе, с головой укрывшись одеялом. В одной руке — фонарик, а на подушке — старинная толстая книга в кожаном переплёте «История магии» Батильды Бэгшот.</su>
+        </sentence>
+        <sentence id="4">
+          <su lang="pt">Harry moveu a sua pena de águia ao longo da página, franzindo as sobrancelhas, enquanto procurava alguma coisa que o ajudasse a escrever o texto: «A queima das bruxas no século XIV foi totalmente inútil. Comente.» A pena parou no princípio de um parágrafo muito prometedor.</su>
+          <su lang="ru">Сдвинув брови, Гарри водил по строчкам орлиным пером, искал подходящую цитату для сочинения на тему: «Был ли смысл в XIV веке сжигать ведьм?». Перо задержалось на первой строке параграфа. Ага, кажется, то, что нужно.</su>
+        </sentence>
+        <sentence id="5">
+          <su lang="pt">Harry ajeitou os óculos redondos sobre o nariz, aproximou mais a lanterna do livro e leu:</su>
+          <su lang="ru">Гарри поправил очки на носу, поднёс к странице фонарик и прочитал:</su>
+        </sentence>
+      </p>
+      <p type="text" id="2">
+        <sentence id="6">
+          <su lang="pt">As pessoas não-mágicas (mais conhecidas por Muggles) tinham um tremendo receio da magia durante a Idade Média, mas não sabiam reconhecê-la. Das poucas vezes que prendiam uma verdadeira feiticeira ou feiticeiro, a fogueira não tinha qualquer efeito sobre eles.</su>
+          <su lang="ru">В Средние века люди, в чьих жилах нет волшебной крови (более известные как маглы, или простецы), очень боялись колдовства, но отличать настоящих ведьм и колдунов не умели.</su>
+        </sentence>
+        <sentence id="7">
+          <su lang="pt">A feiticeira ou feiticeiro efectuava um feitiço básico de travagem das chamas e fingia torcer-se com dores enquanto sentia uma ligeira sensação de cócegas.</su>
+          <su lang="ru">Иногда им всё же удавалось поймать волшебника, но простецы не знали, что волшебникам огонь не страшен: они умели замораживать огонь и притворяться, что им очень больно. На самом же деле они испытывали не боль, а лишь приятное покалывание по всему телу и тёплое дуновение воздуха.</su>
+        </sentence>
+        <sentence id="8">
+          <su lang="pt">Na verdade, a feiticeira Wendelin gostava tanto de ser queimada que se deixou apanhar quarenta e sete vezes ao todo, sob os mais variados disfarces.</su>
+          <su lang="ru">Так, Венделина Странная очень любила «гореть» на костре. И чтобы испытать это ни с чем не сравнимое удовольствие, сорок семь раз меняла обличье и предавала себя в руки маглов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence id="9">
+          <su lang="pt">Harry pôs a pena na boca e procurou debaixo da almofada o tinteiro e um rolo de pergaminho.</su>
+          <su lang="ru">Гарри взял перо в зубы и полез под подушку за чернильницей и пергаментом.</su>
+        </sentence>
+        <sentence id="10">
+          <su lang="pt">Lenta e cautelosamente, abriu o frasco de tinta, molhou a pena e começou a escrever, fazendo uma pausa de vez em quando para prestar atenção, porque se algum dos Dursley desse pelo ruído da pena a arranhar o pergaminho enquanto passava para a casa de banho, ele seria provavelmente fechado no armário que ficava debaixo das escadas até ao final do Verão.</su>
+          <su lang="ru">Осторожно открыв баночку, обмакнул перо и начал писать. Время от времени он прислушивался: вдруг кому из Дурслей приспичит в туалет? Ещё услышат скрип пера! Тогда Гарри до конца лета запрут в чулане под лестницей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence id="11">
+          <su lang="pt">A família Dursley, do número quatro de Privet Drive, era a razão pela qual Harry nunca apreciava as férias de Verão.</su>
+          <su lang="ru"> Дурcли — единственные родственники Гарри. Живут они на Тисовой улице, в доме № 4. Гарри проводит у них летние каникулы, и это время для него сущий ад.</su>
+        </sentence>
+        <sentence id="12">
+          <su lang="pt">O tio Vernon, a tia Petúnia e o seu filho Dudley eram os seus únicos familiares vivos. Eram Muggles e tinham uma atitude medieval em relação à magia.</su>
+          <su lang="ru"> Дядя Вернон, тётя Петунья и их сын Дадли — маглы до мозга костей, магии боятся не меньше людей Средневековья.</su>
+        </sentence>
+        <sentence id="13">
+          <su lang="pt">Os pais de Harry, já falecidos, que tinham sido ambos feiticeiros, nunca eram mencionados sob o tecto dos Dursley.</su>
+          <su lang="ru">А погибшие родители Гарри были настоящие волшебники, и поэтому их имя в доме под запретом, да и самому Гарри ох как не сладко жилось до недавнего времени.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence id="14">
+          <su lang="pt">Durante muitos anos, a tia Petúnia e o tio Vernon acreditaram que se maltratassem Harry suficientemente, conseguiriam extirpar a magia de dentro dele.</su>
+          <su lang="ru">Если с мальчишкой сурово обращаться, не делать поблажек, то, глядишь, он и растеряет своё волшебство, думали Дурсли. Но, как ни старайся, из волшебника простеца не сделаешь.</su>
+        </sentence>
+        <sentence id="15">
+          <su lang="pt">Para sua grande cólera, fracassaram por completo e agora viviam apavorados com a ideia de que alguém pudesse descobrir que o sobrinho passara os dois últimos anos na Escola de Magia e Feitiçaria de Hogwarts.</su>
+          <su lang="ru">Дурсли были в ужасе: не приведи господи, если кто узнает, что их племянник учится в Школе чародейства и волшебства «Хогвартс»! Какой позор для добропорядочного семейства!</su>
+        </sentence>
+        <sentence id="16">
+          <su lang="pt">Tudo o que actualmente podiam fazer era fechar-lhe os livros de encantamentos, a varinha, o caldeirão e a vassoura no início das férias de Verão e proibi-lo de falar com os vizinhos.</su>
+          <su lang="ru">Поэтому когда Гарри приехал на каникулы, все его волшебные принадлежности (учебники, палочку, котёл и метлу) Дурсли отправили в чулан под лестницей. А ещё запретили ему разговаривать с соседями.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence id="17">
+          <su lang="pt">Esta separação dos livros de encantamentos constituía um verdadeiro problema para Harry, porque os professores de Hogwarts tinham-lhe passado uma grande quantidade de trabalhos para fazer nas férias.</su>
+          <su lang="ru">С соседями Гарри и раньше нечасто беседовал, так что не беда. А вот без учебников хоть плачь.</su>
+        </sentence>
+        <sentence id="18">
+          <su lang="pt">Um deles, o mais difícil de todos, sobre Poções de Encolher, era para o professor de quem Harry menos gostava, o professor Snape, que adoraria ter um bom pretexto para lhe dar um castigo que durasse um mês.</su>
+          <su lang="ru">На каникулы столько задали и все задания такие трудные! Одна работа по Уменьшающим зельям чего стоит! Задал её профессор Северус Снегг, а он Гарри не выносит. Вернись Гарри в школу без этой работы, ему уж точно несдобровать. Целый месяц придётся после уроков прибирать классы, да не волшебством, а собственными руками.</su>
+        </sentence>
+        <sentence id="19">
+          <su lang="pt">Por isso, Harry aproveitara a sua sorte durante a primeira semana de férias, enquanto o tio Vernon, a tia Petúnia e Dudley tinham ido até ao jardim admirar o novo carro da empresa do tio (falando muito alto para que todos os vizinhos reparassem nele) e, esgueirando-se até lá abaixo, pegara na chave do armário que ficava debaixo das escadas, tirara alguns dos seus livros e escondera-os debaixo da cama.</su>
+          <su lang="ru"> Значит, во что бы то ни стало надо добыть учебники! И такой случай вскоре представился. В самом начале каникул дядя Вернон купил новую машину, и всё семейство отправилось в сад — любоваться на покупку. Их радостные возгласы разносились по всей Тисовой улице: пусть соседи знают, какая у них чудесная машина! Гарри в этот момент спустился вниз, шпилькой открыл в чулане замок и достал из чемодана несколько книг.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence id="20">
+          <su lang="pt">Desde que não manchasse os lençóis com tinta, os Dursley não iriam descobrir que ele estudava magia à noite.</su>
+          <su lang="ru">— Теперь главное — не заляпать простыню чернилами, — облегчённо вздохнул он у себя в комнате, — не то Дурсли догадаются, что я по ночам изучаю магию.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence id="21">
+          <su lang="pt">Harry tentava ao máximo evitar problemas com os tios, que já estavam bastante aborrecidos por ele ter recebido uma chamada telefónica de um colega feiticeiro, uma semana depois do início das férias de Verão.</su>
+          <su lang="ru">Но сейчас на душе у Гарри неспокойно. Он боится рассердить тётю с дядей. Они и так на него очень злы, потому что недавно ему позвонил Рон, который, как и Гарри, настоящий волшебник.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence id="22">
+          <su lang="pt">Ron Weasley, que era um dos seus melhores amigos em Hogwarts, descendia de uma família de feiticeiros, o que significava que sabia uma série de coisas que Harry ignorava, embora nunca na vida tivesse utilizado um telefone.</su>
+          <su lang="ru">Рон Уизли и Гермиона Грэйнджер — лучшие друзья Гарри. Рон вырос в семье волшебников и знает столько всего интересного, о чём Гарри и понятия не имеет. А вот по телефону Рон никогда не говорил. И, соскучившись, решил воспользоваться этим магловским изобретением.</su>
+        </sentence>
+        <sentence id="23">
+          <su lang="pt">Infelizmente, foi o tio Vernon quem atendeu a chamada.</su>
+          <su lang="ru">Как на грех, трубку снял дядя Вернон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence id="24">
+          <su lang="pt">— Vernon Dursley, diga por favor.</su>
+          <su lang="ru">— Алло. Вернон Дурсль у телефона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence id="25">
+          <su lang="pt">Harry, que por acaso estava na sala naquele momento, ficou gelado quando ouviu a voz de Ron do outro lado.</su>
+          <su lang="ru">Гарри, который тоже был в гостиной, похолодел. Из трубки раздался крик, а вернее, вопль Рона:</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence id="26">
+          <su lang="pt">— ESTÁ?</su>
+          <su lang="ru"> — Алло!</su>
+        </sentence>
+        <sentence id="27">
+          <su lang="pt">ESTÁ?</su>
+          <su lang="ru"> Алло!</su>
+        </sentence>
+        <sentence id="28">
+          <su lang="pt">CONSEGUE OUVIR-ME?</su>
+          <su lang="ru"> Слышите меня?!</su>
+        </sentence>
+        <sentence id="29">
+          <su lang="pt"> EU… QUERO… FALAR… COM… O HARRY… POTTER!</su>
+          <su lang="ru">Мне нужен Гарри Поттер!!!</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence id="30">
+          <su lang="pt">Ron gritava tão alto que o tio Vernon deu um salto e afastou o auscultador trinta centímetros do ouvido, olhando para ele com uma expressão que era um misto de fúria e de pânico.</su>
+          <su lang="ru"> Рон так вопил, что Дядя Вернон подпрыгнул и чуть не выронил трубку. Лицо его перекосило от гнева. Гарри даже испугался: не оглох ли?</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence id="31">
+          <su lang="pt">— QUEM FALA? — berrou secamente em direcção ao auscultador.</su>
+          <su lang="ru">— Кто говорит? — опомнившись, громыхнул дядя в трубку.</su>
+        </sentence>
+        <sentence id="32">
+          <su lang="pt">— QUEM ESTÁ AO TELEFONE?</su>
+          <su lang="ru">— Кого вам надо?!</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence id="33">
+          <su lang="pt">— RON… WEASLEY — gritou Ron tão alto como se ele e o tio Vernon estivessem a falar de um para o outro extremo de um campo de futebol</su>
+          <su lang="ru"> — Это Рон Уизли!!! — пуще прежнего орала трубка. Рон думал, что дядя Вернон его не слышит, вот и кричал как болельщик на стадионе.</su>
+        </sentence>
+        <sentence id="34">
+          <su lang="pt"> — EU SOU… UM AMIGO DO HARRY… DA ESCOLA…</su>
+          <su lang="ru"> — Я школьный друг Гарри!!!</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence id="35">
+          <su lang="pt">Os olhos pequeninos do tio Vernon pousaram sobre Harry, que parecia pregado ao chão.</su>
+          <su lang="ru"> Гарри рванул к телефону, но взглянул на дядю, и ему захотелось провалиться сквозь землю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence id="36">
+          <su lang="pt">— NÃO MORA AQUI NENHUM HARRY POTTER! — respondeu o tio secamente, segurando o auscultador à distância de um braço, como se receasse que ele explodisse.</su>
+          <su lang="ru"> — Здесь нет никакого Гарри Поттера! Понятно?! — завопил дядя не хуже Рона, держа трубку подальше от уха: наверное, боялся, что та взорвётся.</su>
+        </sentence>
+        <sentence id="37">
+          <su lang="pt">— NÃO SEI DE QUE ESCOLA ESTÁ A FALAR!</su>
+          <su lang="ru"> — Не знаю никакой школы!</su>
+        </sentence>
+        <sentence id="38">
+          <su lang="pt">NÃO VOLTE A LIGAR PARA CÁ!</su>
+          <su lang="ru"> Никогда нам не звоните!</su>
+        </sentence>
+        <sentence id="39">
+          <su lang="pt">NÃO SE APROXIME DA MINHA FAMÍLIA!</su>
+          <su lang="ru"> Не смейте нас беспокоить!</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence id="40">
+          <su lang="pt">E pousou o auscultador no descanso como se largasse uma aranha venenosa. A barafunda que se seguiu foi uma das piores de sempre.</su>
+          <su lang="ru">И он швырнул трубку, словно это был ядовитый паук.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence id="41">
+          <su lang="pt">— COMO TE ATREVES A DAR ESTE NÚMERO A PESSOAS COMO…</su>
+          <su lang="ru">— Как ты смеешь давать наш номер всяким типам!</su>
+        </sentence>
+        <sentence id="42">
+          <su lang="pt">A PESSOAS COMO TU?! — vociferou o tio Vernon, enchendo Harry de perdigotos.</su>
+          <su lang="ru"> Типам вроде тебя!!! — брызгал слюной дядя, задыхаясь от ярости. После этого звонка Гарри стало совсем тяжко. От друзей никаких известий.</su>
+        </sentence>
+        <sentence id="43">
+          <su lang="pt">Ron apercebeu-se obviamente de que tinha criado problemas ao amigo e não voltou a ligar.</su>
+          <su lang="ru">Рон больше не звонит — видно, понял, что Дурсли запрещают Гарри общаться с волшебниками. И от Гермионы ничего не слышно — наверное, Рон предупредил её, чтобы она не звонила.</su>
+        </sentence>
+        <sentence id="44">
+          <su lang="pt">A outra grande amiga de Hogwarts, Hermione Granger, também não dissera nada.</su>
+          <su lang="ru">Жаль, ведь Гермиона сама из семьи маглов, умеет пользоваться телефоном, и к тому же лучшая ученица второго курса в их волшебной школе. Уж она-то сообразила бы, что в разговоре с Дурслями не стоит упоминать о Хогвартсе.</su>
+        </sentence>
+        <sentence id="45">
+          <su lang="pt">Harry suspeitou de que Ron a avisara para não telefonar, o que foi uma pena, porque Hermione, a jovem feiticeira mais inteligente do ano de Harry, era filha de Muggles, sabia perfeitamente usar o telefone e seria certamente sensata a ponto de não referir a escola de Hogwarts.</su>
+          <su lang="ru">Но нет, не звонит Гермиона, и Гарри очень грустно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence id="46">
+          <su lang="pt">Harry, portanto, já não tinha notícias de nenhum amigo ou amiga feiticeiros havia cinco longas semanas e aquele Verão estava a tornar-se quase tão mau como o anterior.</su>
+          <su lang="ru">Он не общался с друзьями больше месяца. Это лето такое же плохое, как и прошлое.</su>
+        </sentence>
+        <sentence id="47">
+          <su lang="pt">Havia apenas uma pequena coisa que era melhor: depois de ter jurado que não a usaria para mandar cartas a nenhum dos amigos, Harry tinha sido autorizado a soltar a sua coruja Hedwig durante a noite.</su>
+          <su lang="ru">Но всё-таки крошечное улучшение есть. Дядя Вернон разрешил выпускать по ночам из клетки сову Буклю. Гарри дал честное слово, что не будет слать письма друзьям, и дядя согласился.</su>
+        </sentence>
+        <sentence id="48">
+          <su lang="pt">O tio Vernon acabara por ceder por causa da balbúrdia que ela fazia, sempre encurralada na gaiola.</su>
+          <su lang="ru">Дело в том, что, сидя взаперти, Букля очень шумит. А по ночам ухает, просто жуть!</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence id="49">
+          <su lang="pt">Harry acabou o seu texto sobre a feiticeira Wendelin e parou para escutar.</su>
+          <su lang="ru">Гарри переписал про Венделину и опять прислушался.</su>
+        </sentence>
+        <sentence id="50">
+          <su lang="pt">O silêncio da casa sombria era apenas cortado pelos roncos distantes do seu enorme primo Dudley.</su>
+          <su lang="ru">Тишина. Только толстый Дадли похрапывает у себя в комнате.</su>
+        </sentence>
+        <sentence id="51">
+          <su lang="pt">Devia ser muito tarde. Harry sentia picadas nos olhos devido ao cansaço. Seria melhor acabar o trabalho na noite seguinte.</su>
+          <su lang="ru">Должно быть, очень поздно, глаза слипаются, пора спать — сочинение можно дописать и завтра ночью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence id="52">
+          <su lang="pt">Tapou o tinteiro, tirou uma velha fronha que tinha debaixo da cama, pôs a lanterna, A História da Magia, o seu trabalho, a pena e o tinteiro dentro da fronha e meteu tudo num esconderijo debaixo do soalho, mesmo sob a cama onde dormia.</su>
+          <su lang="ru">Гарри закрыл чернильницу, встал с кровати и вытащил из-под неё старую наволочку. Сунул в неё фонарик, «Историю магии», сочинение, перо и пузырёк с чернилами. Под кроватью вынималась старая паркетина, в полу под ней была большая ниша, туда он всё и спрятал.</su>
+        </sentence>
+        <sentence id="53">
+          <su lang="pt">Em seguida, pôs-se de pé, espreguiçou-se e viu as horas no despertador de ponteiros luminosos que tinha na mesinha-de-cabeceira.</su>
+          <su lang="ru">Выпрямившись, Гарри потянулся и взглянул на светящийся циферблат часов на тумбочке.</su>
+        </sentence>
+        <sentence id="54">
+          <su lang="pt">Era uma da manhã.</su>
+          <su lang="ru">Час ночи.</su>
+        </sentence>
+        <sentence id="55">
+          <su lang="pt">O seu estômago contorceu-se.</su>
+          <su lang="ru">Как же он мог забыть?</su>
+        </sentence>
+        <sentence id="56">
+          <su lang="pt">Havia uma hora que fizera treze anos sem dar por isso.</su>
+          <su lang="ru">Вот уже час, как ему исполнилось тринадцать лет!</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence id="57">
+          <su lang="pt">Outra coisa pouco usual na vida de Harry era a escassa esperança que depositava nos dias do seu aniversário.</su>
+          <su lang="ru">У Гарри есть и такая особенность. Он не радуется своим дням рождениям. Какая тут радость!</su>
+        </sentence>
+        <sentence id="58">
+          <su lang="pt">Nunca, até então, recebera um cartão de parabéns.</su>
+          <su lang="ru">В этот день ему никогда и открыток не присылали.</su>
+        </sentence>
+        <sentence id="59">
+          <su lang="pt">Os Dursley tinham ignorado por completo os seus dois últimos aniversários e ele não tinha qualquer motivo para esperar que se lembrassem deste.</su>
+          <su lang="ru">А последние два года Дурсли и вовсе делали вид, что никакого дня рождения нет. Они и на этот раз о нём не вспомнят, можно не сомневаться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence id="60">
+          <su lang="pt">Harry atravessou a escuridão do quarto, passou pela enorme gaiola vazia de Hedwig e foi até à janela que estava aberta.</su>
+          <su lang="ru">Он подошёл к открытому окну, и на него повеяло прохладой.</su>
+        </sentence>
+        <sentence id="61">
+          <su lang="pt">Encostou-se ao peitoril, sentindo no rosto o agradável ar fresco da noite, depois de bastante tempo debaixo dos cobertores.</su>
+          <su lang="ru">Как хорошо! Под одеялом он совсем запарился. Возле окна — большая клетка Букли. Сейчас она пустая: Букля уже два дня как улетела.</su>
+        </sentence>
+        <sentence id="62">
+          <su lang="pt">Hedwig estava fora havia já duas noites, o que não o preocupava muito, já que não era a primeira vez, mas esperava que ela voltasse rapidamente.</su>
+          <su lang="ru">Гарри за сову не беспокоится — она часто пропадает где-то на несколько дней, а потом возвращается, — просто хочется, чтобы рядом было существо, которое тебя любит.</su>
+        </sentence>
+        <sentence id="63">
+          <su lang="pt">Era a única criatura naquela casa que não estremecia com a presença dele.</su>
+          <su lang="ru">А то Дурсли вечно смотрят со страхом и злобой. Надоело.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence id="64">
+          <su lang="pt">Apesar de continuar pequeno e magro para a idade, Harry crescera alguns centímetros desde o ano anterior.</su>
+          <su lang="ru">Гарри выглядит младше своих лет. Он худенький, да и роста невысокого, хотя за год всё-таки подрос.</su>
+        </sentence>
+        <sentence id="65">
+          <su lang="pt">No entanto, o seu cabelo preto asa de corvo mantinha-se igual, teimosamente desalinhado por mais que o penteasse.</su>
+          <su lang="ru">Волосы у него чёрные-чёрные как смоль и всегда растрёпаны, сколько ни причёсывай, глаза изумрудно-зелёные, и ещё он носит круглые очки.</su>
+        </sentence>
+        <sentence id="66">
+          <su lang="pt">Os olhos, por detrás dos óculos, eram de um verde brilhante e, na testa, por entre o cabelo, podia ver-se, claramente, uma fina cicatriz em forma de raio.</su>
+          <su lang="ru">А главная его особенность, конечно же, шрам на лбу в виде молнии.</su>
+        </sentence>
+        <sentence id="67">
+          <su lang="pt">De todas as coisas pouco usuais em Harry, esta cicatriz era a mais extraordinária.</su>
+          <su lang="ru">В детстве Гарри часто спрашивал у тёти про этот шрам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence id="68">
+          <su lang="pt">Não era, como os Dursley durante dez anos tinham querido fazer-lhe acreditar, uma lembrança do acidente de automóvel em que tinham morrido os seus pais, porque Lily e James Potter não tinham morrido em nenhum acidente de automóvel, tinham sido assassinados.</su>
+          <su lang="ru">«Тебе ещё и года не было, когда ты вместе с родителями попал в автомобильную аварию. Сестра моя непутёвая и её муж — твой отец, погибли, а ты выжил. Оттуда и шрам. Всё, отстань», — отмахивалась тётя. Но это неправда. Лили и Джеймс Поттеры погибли не в автомобильной аварии.</su>
+        </sentence>
+        <sentence id="69">
+          <su lang="pt">Assassinados pelo feiticeiro negro mais temido dos últimos cem anos, Lord Voldemort.</su>
+          <su lang="ru">Их убил величайший за последние сто лет тёмный волшебник Лорд Волан-де-Морт.</su>
+        </sentence>
+        <sentence id="70">
+          <su lang="pt">Harry escapara desse ataque apenas com uma cicatriz na testa, quando a maldição de Voldemort, em vez de o matar, se voltara contra o seu criador.</su>
+          <su lang="ru">Он и Гарри хотел убить, да не смог, а почему, до сих пор загадка. Мало того что Волан-де-Морт с малышом не справился, так и сам чуть не погиб. Именно тогда Тёмный Лорд утратил силы и подался в бега.</su>
+        </sentence>
+        <sentence id="71">
+          <su lang="pt">Preso à vida por um fio, Voldemort desaparecera…</su>
+          <su lang="ru">Только шрам в виде молнии на лбу Гарри и напоминал о том дне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence id="72">
+          <su lang="pt">Harry, porém, voltara a encontrá-lo em Hogwarts.</su>
+          <su lang="ru">В Хогвартсе Гарри уже два раза лицом к лицу встречался с Волан-де-Мортом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence id="73">
+          <su lang="pt">Ficou à janela, recordando o último encontro e reconhecendo que tivera imensa sorte em chegar vivo aos treze anos de idade.</su>
+          <su lang="ru">— И всё-таки дожил до тринадцати лет! — подбодрил себя Гарри, вспомнив последнюю встречу с Тёмным Лордом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence id="74">
+          <su lang="pt">Perscrutou o céu cheio de estrelas em busca de um sinal de Hedwig, trazendo-lhe, talvez, no bico um rato morto, à espera de um elogio.</su>
+          <su lang="ru">Так Гарри стоял у окна, представляя себе Буклю: летит к нему с дохлой мышью в клюве, ждёт не дождётся похвалы. А может, и вправду летит?</su>
+        </sentence>
+        <sentence id="75">
+          <su lang="pt">Olhando absorto sobre os telhados, só alguns segundos depois se apercebeu do que estava a ver.</su>
+          <su lang="ru">Гарри выглянул в окно. Нет. Только звёздное небо да крыши домов, освещённые фонарями. Но что там такое?</su>
+        </sentence>
+        <sentence id="76">
+          <su lang="pt">Recortada contra a Lua dourada e aumentando de tamanho a cada momento, via-se uma criatura grande, estranhamente desequilibrada que agitava as asas em direcção a Harry.</su>
+          <su lang="ru">На фоне золотисто-жёлтого диска луны появилось странное многокрылое существо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence id="77">
+          <su lang="pt">Ficou muito quieto, vendo-a descer a pouco e pouco.</su>
+          <su lang="ru">Оно на глазах становилось всё больше и больше. Гарри замер: оно летит прямо к нему!</su>
+        </sentence>
+        <sentence id="78">
+          <su lang="pt">Durante uma fracção de segundo hesitou, com a mão no puxador da janela, perguntando a si próprio se deveria fechá-la, mas, então, a bizarra criatura sobrevoou um dos candeeiros de Privet Drive e Harry, percebendo o que era, afastou-se.</su>
+          <su lang="ru">Вот уже совсем близко! Он уже было испугался и собирался захлопнуть окно, но тут крылатое чудище осветил уличный фонарь, и у Гарри отлегло от сердца.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence id="79">
+          <su lang="pt">Pela janela entraram três corujas, duas das quais carregavam a terceira que parecia estar inconsciente.</su>
+          <su lang="ru">В окно влетели две совы, поддерживая крыльями третью.</su>
+        </sentence>
+        <sentence id="80">
+          <su lang="pt">Aterraram com um ruído abafado na cama de Harry e a coruja do meio, que era grande e cinzenta, caiu para o lado e ficou imóvel.</su>
+          <su lang="ru">Похоже, ей было плохо.</su>
+        </sentence>
+        <sentence id="81">
+          <su lang="pt">Trazia um grande pacote amarrado às patas.</su>
+          <su lang="ru">Совы осторожно приземлились на кровать и опустили ослабевшую птицу.</su>
+        </sentence>
+        <sentence id="82">
+          <su lang="pt">Harry reconheceu de imediato a coruja inconsciente.</su>
+          <su lang="ru">Большая серая сова повалилась на спину и замерла: к лапам её был привязан объёмистый свёрток.</su>
+        </sentence>
+        <sentence id="83">
+          <su lang="pt">Era Errol e pertencia à família Weasley.</su>
+          <su lang="ru">Это же Стрелка — сова семейства Уизли!</su>
+        </sentence>
+        <sentence id="84">
+          <su lang="pt">Saltando para a cama, desamarrou os cordéis que lhe envolviam as patas, pegou no embrulho e levou-a para a gaiola de Hedwig.</su>
+          <su lang="ru">Гарри подбежал к ней, отвязал свёрток, отнёс сову в клетку Букли и придвинул ей плошку с водой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence id="85">
+          <su lang="pt">Errol abriu um olho remelento, deu um frágil pio de gratidão e começou a beber água.</su>
+          <su lang="ru">Стрелка приоткрыла мутный глаз, слабо ухнула в знак благодарности и принялась жадно пить.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence id="86">
+          <su lang="pt">Harry voltou-se para as outras corujas.</su>
+          <su lang="ru">Гарри вернулся к другим совам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence id="87">
+          <su lang="pt">Uma delas, uma coruja-das-neves, era a sua Hedwig.</su>
+          <su lang="ru">Большая белоснежная Букля сидела довольная, она тоже прилетела не с пустыми лапами.</su>
+        </sentence>
+        <sentence id="88">
+          <su lang="pt">Também ela transportava um embrulho e tinha um ar profundamente satisfeito.</su>
+          <su lang="ru">Гарри освободил сову от ноши, и Букля поблагодарила его, ласково клюнув в щёку.</su>
+        </sentence>
+        <sentence id="89">
+          <su lang="pt">Deu a Harry uma bicada afectuosa quando ele lhe tirou a carga e voou pelo quarto, indo juntar-se à Errol.</su>
+          <su lang="ru">Затем взмахнула крыльями и присоединилась к Стрелке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence id="90">
+          <su lang="pt">Harry não reconheceu a terceira, uma bonita coruja trigueira, mas soube imediatamente de onde ela vinha, pois viu a carta que trazia, com o timbre de Hogwarts.</su>
+          <su lang="ru">Чья же третья сова? Какая красивая! Оперение рыжеватое. А кроме свёртка, ещё и письмо принесла. Так… так… печать Хогвартса… Понятно, откуда она!</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence id="91">
+          <su lang="pt">Mal Harry lhe retirou o correio, ela enfunou as penas com ar importante, abriu as asas e voou em direcção à janela, perdendo-se na noite.</su>
+          <su lang="ru">Гарри взял у неё свёрток. Сова важно распушила перья, взмахнула крыльями и была такова.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence id="92">
+          <su lang="pt">Harry sentou-se na cama, pegou no embrulho de Errol, rasgou o papel castanho e descobriu lá dentro um presente embrulhado em papel dourado com o seu primeiro cartão de parabéns.</su>
+          <su lang="ru">Гарри сел на кровать, взял пакет, принесённый Стрелкой, разорвал обёрточную, бумагу и увидел конверт, подарок в золотой фольге и поздравительную открытку.</su>
+        </sentence>
+        <sentence id="93">
+          <su lang="pt">Com os dedos ligeiramente trémulos, abriu o sobrescrito.</su>
+          <su lang="ru">Впервые в жизни Гарри получил открытку!</su>
+        </sentence>
+        <sentence id="94">
+          <su lang="pt">Duas folhas de papel caíram, uma carta e um recorte de jornal. O recorte era claramente do jornal de feiticeiros O Profeta Diário, porque as pessoas da fotografia a preto e branco moviam-se. Harry pegou no recorte, alisou-o e leu:</su>
+          <su lang="ru">Дрожащими руками он вскрыл конверт, оттуда выпали письмо и газетная вырезка, на ней чёрно-белый снимок и статья из «Ежедневного Пророка»:</su>
+        </sentence>
+      </p>
+      <p type="qtext" id="38">
+        <sentence>
+          <su lang="pt">FUNCIONÁRIO DO MINISTÉRIO DA MAGIA OBTÉM GRANDE PRÉMIO</su>
+          <su lang="ru">Сотрудник Министерства магии выиграл главный приз</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence id="95">
+          <su lang="pt">Arthur Weasley, chefe do Gabinete da Utilização Incorrecta dos Artefactos dos Muggles do Ministério da Magia, ganhou o Prémio Anual Galeão d’O Profeta Diário.</su>
+          <su lang="ru">Артур Уизли, глава Отдела по борьбе с незаконным использованием изобретений маглов, выиграл Главный приз, который ежегодно разыгрывает газета «Ежедневный Пророк».</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence id="96">
+          <su lang="pt">Radiante, a esposa de Mr. Weasley disse ao nosso jornal: — Vamos gastar esse ouro numas férias de Verão no Egipto, onde se encontra Bill, o nosso filho mais velho, que trabalha como anulador de maldições para o Banco de Feiticeiros de Gringotts.</su>
+          <su lang="ru">— Летом мы съездим к моему старшему сыну в Египет. Билл работает ликвидатором заклятий в местном отделении банка «Гринготтс», — сообщил нашему корреспонденту счастливый мистер Уизли.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence id="97">
+          <su lang="pt">A família Weasley passará um mês inteiro no Egipto, regressando para o início das aulas em Hogwarts onde cinco das crianças Weasley estão matriculadas.</su>
+          <su lang="ru">Семья Уизли в течение месяца будет отдыхать в Египте и вернётся к началу учебного года. Пятеро детей Уизли учатся в школе «Хогвартс».</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence id="98">
+          <su lang="pt">Harry observou a fotografia móvel e um sorriso iluminou-lhe o rosto quando viu os nove Weasley acenando-lhe, entusiasmados, em frente de uma enorme pirâmide.</su>
+          <su lang="ru">Гарри не мог оторвать глаз от живого фото: вот они, все девять Уизли стоят на фоне огромной египетской пирамиды и с таким рвением машут ему, что кажется, сейчас впрыгнут в комнату дома на Тисовой улице. Гарри счастливо улыбнулся.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence id="99">
+          <su lang="pt">A rechonchuda Mrs. Weasley, Mr. Weasley, alto e calvo, os seis filhos e a filha, todos eles (a fotografia a preto e branco não mostrava) com cabelos de um ruivo flamejante.</su>
+          <su lang="ru">Маленькая пухленькая миссис Уизли, высокий с залысинами мистер Уизли и шестеро сыновей, да ещё дочка. И у всех (правда, на чёрно-белом снимке не видно) огненно-рыжие волосы.</su>
+        </sentence>
+        <sentence id="100">
+          <su lang="pt">Mesmo no centro da fotografia via-se Ron, alto e magro, de pernas finas com o seu rato Scabbers ao ombro e o braço sobre Ginny, a irmã mais nova.</su>
+          <su lang="ru">В центре длинный, нескладный Рон обнимает сестрёнку Джинни, на плече у него крыса Короста. Вот здорово!</su>
+        </sentence>
+        <sentence id="101">
+          <su lang="pt">Harry não se lembrava de ninguém que merecesse mais ganhar uma pilha de ouro que os Weasley, que eram óptimas pessoas e muito pobres.</su>
+          <su lang="ru">Им как никому нужна эта груда золота! Они такие хорошие, такие добрые и такие бедные…</su>
+        </sentence>
+        <sentence id="102">
+          <su lang="pt">Pegou na carta de Ron e desdobrou-a.</su>
+          <su lang="ru">Гарри распечатал письмо: интересно, что же Рон написал?</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence id="103">
+          <su lang="pt">Caro Harry, feliz aniversário!</su>
+          <su lang="ru">Привет, Гарри! Поздравляю тебя с днём рождения!</su>
+        </sentence>
+        <sentence id="104">
+          <su lang="pt">Desculpa, lamento imenso aquilo do telefonema.</su>
+          <su lang="ru">Извини, что так вышло с телефонным звонком.</su>
+        </sentence>
+        <sentence id="105">
+          <su lang="pt">Espero que os Muggles não te tenham criado grandes problemas.</su>
+          <su lang="ru">Надеюсь, маглы не очень ругались?</su>
+        </sentence>
+        <sentence id="106">
+          <su lang="pt">Falei com o meu pai e ele disse que eu não devia ter gritado.</su>
+          <su lang="ru">Папа сказал, что, наверное, не надо было так сильно кричать в трубку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence id="107">
+          <su lang="pt">Isto aqui no Egipto é magnífico.</su>
+          <su lang="ru">В Египте чудесно!</su>
+        </sentence>
+        <sentence id="108">
+          <su lang="pt">O Bill levou-nos a visitar todos os túmulos e não imaginas as maldições que os antigos feiticeiros egípcios lhes lançaram.</su>
+          <su lang="ru">Билл повёл нас на экскурсию по пирамидам. Не представляешь, какие страшные заклятия наложили на них египетские жрецы!</su>
+        </sentence>
+        <sentence id="109">
+          <su lang="pt">A mãe não deixou a Ginny entrar no último.</su>
+          <su lang="ru">Мама даже не пустила Джинни в последнюю пирамиду.</su>
+        </sentence>
+        <sentence id="110">
+          <su lang="pt">Estava cheio de esqueletos mutantes de Muggles que o profanaram e a quem cresceram cabeças extra.</su>
+          <su lang="ru">Там столько жутких скелетов! Маглы вскрывают гробницы, и заклятия начинают действовать: у кого десять рук вырастет, у кого несколько голов!</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence id="111">
+          <su lang="pt">Eu não queria acreditar quando o meu pai ganhou o prémio d’O Profeta Diário. Setecentos galeões!</su>
+          <su lang="ru">Я сначала и не поверил, что папа выиграл главный приз «Пророка» — целых семьсот галеонов!</su>
+        </sentence>
+        <sentence id="112">
+          <su lang="pt">A maior parte gastou-se nestas férias, mas vão comprar-me uma nova varinha para o próximo ano lectivo.</su>
+          <su lang="ru">Конечно, много денег уйдёт на отпуск, но родители всё-таки обещали купить мне новую волшебную палочку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence id="113">
+          <su lang="pt">Harry lembrava-se muito bem do dia em que a varinha de Ron estoirara.</su>
+          <su lang="ru">Гарри хорошо помнил, как Рон сломал старую.</su>
+        </sentence>
+        <sentence id="114">
+          <su lang="pt">Tinha sido quando o carro em que eles voavam a caminho de Hogwarts se espetara contra uma árvore nos campos da escola.</su>
+          <su lang="ru">Они вдвоём летели в Хогвартс на семейном фордике Уизли и в школьном дворе умудрились врезаться в Гремучую иву.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence id="115">
+          <su lang="pt">Estaremos de volta uma semana antes do começo das aulas e vamos a Londres comprar a varinha e os livros.</su>
+          <su lang="ru">Мы приедем за неделю до начала учебного года и отправимся в Лондон. Надо купить палочку и учебники.</su>
+        </sentence>
+        <sentence id="116">
+          <su lang="pt">Achas que podemos encontrar-nos nessa altura?</su>
+          <su lang="ru">Гарри, давай встретимся! Приезжай!</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence id="117">
+          <su lang="pt">Não deixes que os Muggles te deprimam!</su>
+          <su lang="ru">Не обращай внимания на маглов.</su>
+        </sentence>
+        <sentence id="118">
+          <su lang="pt">Tenta vir a Londres, Ron.</su>
+          <su lang="ru">До встречи в Лондоне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence id="119">
+          <su lang="pt">PS: O Percy é Delegado dos Alunos.</su>
+          <su lang="ru">Рон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence id="120">
+          <su lang="pt">Recebeu a carta na semana passada.</su>
+          <su lang="ru">P.S. На той неделе Перси получил из Хогвартса письмо. Он — лучший ученик и староста всей школы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence id="121">
+          <su lang="pt">Harry voltou a olhar para a fotografia.</su>
+          <su lang="ru">Гарри ещё раз глянул на фото.</su>
+        </sentence>
+        <sentence id="122">
+          <su lang="pt">Percy, que estava no sétimo e último ano de Hogwarts, tinha um ar particularmente presunçoso.</su>
+          <su lang="ru">Вид у Перси был очень важный. На аккуратно причёсанной голове — феска, кокетливо сдвинутая набок, а к ней приколот значок лучшего ученика.</su>
+        </sentence>
+        <sentence id="123">
+          <su lang="pt">Pregara o seu distintivo de Delegado dos Alunos no fez que encarrapitara sobre o cabelo bem penteado, os óculos com aros de tartaruga a brilharem ao sol do Egipto.</su>
+          <su lang="ru">Очки в роговой оправе блестят, отражая египетское солнце. Сразу видно, что перешёл в последний, седьмой класс, да к тому же ещё и лучший ученик.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence id="124">
+          <su lang="pt">Harry voltou-se em seguida para o presente e desembrulhou-o.</su>
+          <su lang="ru">Гарри отложил письмо и развернул золотую фольгу. Что это?</su>
+        </sentence>
+        <sentence id="125">
+          <su lang="pt">Lá dentro estava uma coisa que parecia um pião de vidro em miniatura.</su>
+          <su lang="ru">Похоже на маленький стеклянный волчок.</su>
+        </sentence>
+        <sentence id="126">
+          <su lang="pt">Junto dele, havia outro cartão de Ron.</su>
+          <su lang="ru">И записка от Рона:</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence id="127">
+          <su lang="pt">Harry, isto é um Avisoscópio.</su>
+          <su lang="ru">Гарри, это — карманный вредноскоп. Он предупреждает об опасности, вообще о чём-то плохом.</su>
+        </sentence>
+        <sentence id="128">
+          <su lang="pt">Se houver alguém traiçoeiro perto de ti, ele acende-se e gira.</su>
+          <su lang="ru">Вспыхивает и кружится.</su>
+        </sentence>
+        <sentence id="129">
+          <su lang="pt">O Bill diz que é uma aldrabice para os feiticeiros turistas e que não é de confiança porque não parou de se acender ontem à noite à hora do jantar.</su>
+          <su lang="ru">Билл в это не верит, говорит, вредноскоп — просто сувенир для туристов, ни о чём он не предупреждает. Билл так решил, потому что вчера за ужином вредноскоп ни с того ни с сего за кружился как сумасшедший.</su>
+        </sentence>
+        <sentence id="130">
+          <su lang="pt">Mas ele não percebeu que o Fred e o George lhe tinham posto duas baratas dentro da sopa.</su>
+          <su lang="ru">Это Фред с Джорджем насыпали ему в суп дохлых жуков, а он и не заметил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence id="131">
+          <su lang="pt">Adeus, Ron.</su>
+          <su lang="ru">Пока: Рон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence id="132">
+          <su lang="pt">Harry pôs o Avisoscópio de bolso na mesinha-de-cabeceira, onde o objecto ficou muito quieto e equilibrado, reflectindo os ponteiros luminosos do relógio.</su>
+          <su lang="ru">Гарри поставил подарок на тумбочку. Вредноскоп неторопливо покачивался на своём острие, отражая светящиеся стрелки часов.</su>
+        </sentence>
+        <sentence id="133">
+          <su lang="pt">Olhou satisfeito para ele durante alguns segundos, depois pegou no embrulho que Hedwig lhe trouxera.</su>
+          <su lang="ru">Посмотрим, что принесла Букля. Посылка от Гермионы!</su>
+        </sentence>
+        <sentence id="134">
+          <su lang="pt">Lá dentro havia também um presente embrulhado, um cartão e uma carta.</su>
+          <su lang="ru">Подарок в яркой обёртке, красивая открытка и письмо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence id="135">
+          <su lang="pt">Desta vez de Hermione.</su>
+          <su lang="ru">Дорогой Гарри!</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence id="136">
+          <su lang="pt">Querido Harry, o Ron escreveu-me a contar da chamada telefónica que foi atendida pelo teu tio Vernon.</su>
+          <su lang="ru">Рон написал мне, как он тебе позвонил, а трубку снял дядя Вернон.</su>
+        </sentence>
+        <sentence id="137">
+          <su lang="pt">Espero que esteja tudo bem contigo.</su>
+          <su lang="ru">Надеюсь, всё обошлось.</su>
+        </sentence>
+        <sentence id="138">
+          <su lang="pt">Estou a passar férias em França e não sabia como mandar-te isto.</su>
+          <su lang="ru">Сейчас я во Франции.</su>
+        </sentence>
+        <sentence id="139">
+          <su lang="pt">E se abrissem na alfândega?</su>
+          <su lang="ru">Я всё думала, как послать тебе подарок, а вдруг его вскроют на таможне?</su>
+        </sentence>
+        <sentence id="140">
+          <su lang="pt">Mas foi então que apareceu a Hedwig.</su>
+          <su lang="ru">И тут прилетела Букля!</su>
+        </sentence>
+        <sentence id="141">
+          <su lang="pt">Acho que ela queria assegurar-se de que tu recebias alguma coisa no dia dos teus anos, para variar.</su>
+          <su lang="ru">Не сомневаюсь, она хотела сделать тебе приятное и чтоб не вышло как в прошлом году и ты остался без подарка.</su>
+        </sentence>
+        <sentence id="142">
+          <su lang="pt">O teu presente foi adquirido através do catálogo das corujas.</su>
+          <su lang="ru">Кстати, подарок я заказала по совиной почте, прочла объявление в «Пророке».</su>
+        </sentence>
+        <sentence id="143">
+          <su lang="pt">Vinha um anúncio n’O Profeta Diário (temo-lo recebido.</su>
+          <su lang="ru">Я даже здесь получаю газеты.</su>
+        </sentence>
+        <sentence id="144">
+          <su lang="pt">É tão bom mantermo-nos a par do que se passa no mundo da feitiçaria).</su>
+          <su lang="ru">Это так чудесно! Я в курсе всех событий в волшебном мире!</su>
+        </sentence>
+        <sentence id="145">
+          <su lang="pt">Viste a fotografia do Ron e da família toda que saiu na semana passada?</su>
+          <su lang="ru">Неделю назад в газете была фотография Рона и его семьи. Ты видел?</su>
+        </sentence>
+        <sentence id="146">
+          <su lang="pt">Aposto que está a aprender imensas coisas.</su>
+          <su lang="ru">Мне немножко завидно, он там столько всего узнает!</su>
+        </sentence>
+        <sentence id="147">
+          <su lang="pt">Estou cheia de inveja, os feiticeiros do antigo Egipto eram fascinantes.</su>
+          <su lang="ru">В Древнем Египте жили великие кудесники!</su>
+        </sentence>
+        <sentence id="148">
+          <su lang="pt">Aqui também há algumas histórias de feitiçaria locais.</su>
+          <su lang="ru">Во Франции тоже есть волшебники и такая богатая история магии!</su>
+        </sentence>
+        <sentence id="149">
+          <su lang="pt">Reescrevi o meu trabalho para História da Magia para incluir algumas das coisas que descobri.</su>
+          <su lang="ru">Я даже переписала своё сочинение по истории и внесла туда всё самое интересное.</su>
+        </sentence>
+        <sentence id="150">
+          <su lang="pt">Espero que não esteja demasiado grande, já ultrapassei em dois rolos de pergaminho aquilo que o professor Binns pediu.</su>
+          <su lang="ru">Надеюсь, профессор Бинс не рассердится, что сочинение вышло на два свитка длиннее, чем он просил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence id="151">
+          <su lang="pt">O Ron diz que vai estar em Londres na última semana de férias.</su>
+          <su lang="ru">Рон вернётся за неделю до первого сентября, и они всей семьёй поедут в Лондон.</su>
+        </sentence>
+        <sentence id="152">
+          <su lang="pt">Achas que podes vir também?</su>
+          <su lang="ru">Гарри, если тётя с дядей тебя отпустят, мы могли бы встретиться.</su>
+        </sentence>
+        <sentence id="153">
+          <su lang="pt">Espero que sim.</su>
+          <su lang="ru">Мы все так давно не виделись!</su>
+        </sentence>
+        <sentence id="154">
+          <su lang="pt">Se não fores, vejo-te no Expresso de Hogwarts do dia 1 de Setembro.</su>
+          <su lang="ru">Но если тебе не разрешат приехать в Лондон, ничего, встретимся первого сентября на платформе девять и три четверти.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence id="155">
+          <su lang="pt">Beijos da.</su>
+          <su lang="ru">Пока: Гермиона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence id="156">
+          <su lang="pt">Hermione.</su>
+          <su lang="ru">P.S. Рон написал, что Перси стал лучшим учеником.</su>
+        </sentence>
+        <sentence id="157">
+          <su lang="pt">PS: O Ron diz que o Percy é Delegado dos Alunos.</su>
+          <su lang="ru">Представляю, как Перси счастлив!</su>
+        </sentence>
+        <sentence id="158">
+          <su lang="pt">Aposto que está contentíssimo, mas o Ron não parece lá muito satisfeito.</su>
+          <su lang="ru">А Рон, похоже, не очень.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence id="159">
+          <su lang="pt">Harry riu-se de novo, enquanto guardava a carta e pegava no seu presente.</su>
+          <su lang="ru">Гарри рассмеялся и взял подарок.</su>
+        </sentence>
+        <sentence id="160">
+          <su lang="pt">Era muito pesado.</su>
+          <su lang="ru">Ух ты, какой тяжёлый!</su>
+        </sentence>
+        <sentence id="161">
+          <su lang="pt">Conhecendo Hermione como conhecia, calculou que se tratasse de um livro enorme cheio de feitiços complicados… mas não era.</su>
+          <su lang="ru">Наверняка это большая книга, где полно сложных заклинаний.</su>
+        </sentence>
+        <sentence id="162">
+          <su lang="pt">O seu coração deu um salto quando rasgou o papel e viu um elegante estojo preto com letras douradas que diziam: Kit de Tratamento de Vassouras.</su>
+          <su lang="ru">Он сорвал бумагу, и сердце у него забилось быстрее. Это был футляр из чёрной, блестящей кожи. «НАБОР ПО УХОДУ ЗА МЕТЛОЙ», — прочёл Гарри серебряную надпись.</su>
+        </sentence>
+        <sentence id="163">
+          <su lang="pt">— Uau!</su>
+          <su lang="ru">Вот это да!</su>
+        </sentence>
+        <sentence id="164">
+          <su lang="pt">Hermione! — exclamou, abrindo o fecho de correr do estojo para o ver por dentro.</su>
+          <su lang="ru">Ну и Гермиона! Гарри расстегнул молнию.</su>
+        </sentence>
+        <sentence id="165">
+          <su lang="pt">Havia um grande frasco de verniz, para cabos Super-Brilho da Fleetwood, uma tesoura prateada para aparar a cauda da vassoura, uma bússola pequenina para lhe adaptar nas viagens mais longas e um livro prático de cuidados a ter com a vassoura, tipo Faça Você Mesmo.</su>
+          <su lang="ru">Внутри была большая банка фирменного средства для полировки рукояти. Блестящие ножницы из серебра, чтобы равнять прутья. Насадка на черенок с маленьким латунным компасом — незаменимая вещь в дальнем путешествии, и в довершение всего «Пособие по уходу за метлой».</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence id="166">
+          <su lang="pt">Além dos amigos, aquilo de que Harry tinha mais saudades era do Quidditch, o jogo mais popular do mundo mágico, um jogo extremamente perigoso, excitante e jogado em cima de vassouras.</su>
+          <su lang="ru">Гарри очень скучал без своих друзей! И почти так же, как и друзей, ему недоставало квиддича. Это самая популярная игра в волшебном мире. Очень опасный вид спорта, но такой интересный! Играют в квиддич высоко в небе, оседлав мётлы.</su>
+        </sentence>
+        <sentence id="167">
+          <su lang="pt">Harry era por acaso um excelente jogador, fora o aluno mais jovem em um século a ser seleccionado para uma das equipas desportivas de Hogwarts.</su>
+          <su lang="ru">Гарри — прекрасный игрок и самый молодой ловец в команде за последние сто лет.</su>
+        </sentence>
+        <sentence id="168">
+          <su lang="pt">Um dos seus bens mais preciosos era a sua vassoura de corrida Nimbus Dois Mil.</su>
+          <su lang="ru">У него есть суперскоростная метла «Нимбус-2000», которую Гарри бережёт как зеницу ока.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence id="169">
+          <su lang="pt">Harry pôs o estojo de parte e pegou no último embrulho.</su>
+          <su lang="ru">Остался ещё один свёрток.</su>
+        </sentence>
+        <sentence id="170">
+          <su lang="pt">Reconheceu de imediato os rabiscos desordenados no papel castanho: este era de Hagrid, o guarda dos campos.</su>
+          <su lang="ru">Это посылка от Хагрида — школьного лесничего. У кого ещё такой корявый почерк?</su>
+        </sentence>
+        <sentence id="171">
+          <su lang="pt">Rasgou a parte de cima do papel e vislumbrou uma coisa verde, semelhante a couro, mas, antes de ter tido tempo de o abrir convenientemente, o embrulho estremeceu e o que estava lá dentro abocanhou-o ruidosamente, como se tivesse mandíbulas.</su>
+          <su lang="ru">Гарри снял верхний слой бумаги и успел лишь заметить, что в пакете лежит что-то из зелёной кожи. Господи, что это? Подарок вдруг задрожал. Щёлк! Уж не челюсти ли?</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence id="172">
+          <su lang="pt">Harry ficou gelado.</su>
+          <su lang="ru">Гарри похолодел.</su>
+        </sentence>
+        <sentence id="173">
+          <su lang="pt">Sabia que Hagrid nunca lhe enviaria propositadamente nada que fosse perigoso, mas a verdade é que ele não tinha uma visão muito comum do que era perigoso.</su>
+          <su lang="ru">Опасную вещь Хагрид не пришлёт, но… Что опасно, а что нет, у Хагрида на этот счёт свои понятия.</su>
+        </sentence>
+        <sentence id="174">
+          <su lang="pt">Sabia-se que tinha feito amizade com aranhas gigantes, comprara cães com três cabeças a homens com quem jogara nos bares e guardara ilegalmente ovos de dragão na sua cabana.</su>
+          <su lang="ru">Достаточно вспомнить гигантского паука или жуткого трёхглавого пса! А год назад он тайком принёс к себе в хижину драконье яйцо!</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence id="175">
+          <su lang="pt">Muito nervoso, Harry apalpou o embrulho.</su>
+          <su lang="ru">Дрожа от страха, Гарри тронул свёрток.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence id="176">
+          <su lang="pt">A coisa tentou novamente mordê-lo.</su>
+          <su lang="ru"> Щёлк!.. Щёлк!</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence id="177">
+          <su lang="pt">Harry pegou no candeeiro que tinha à cabeceira da cama, agarrou-o com força com uma das mãos e levantou-o à altura da cabeça, pronto para lhe bater. Em seguida, agarrou o resto do papel de embrulho com a outra mão e puxou.</su>
+          <su lang="ru"> Гарри снял с тумбочки лампу: если что, он как стукнет! И одним махом сорвал обёртку.</su>
+        </sentence>
+        <sentence id="178">
+          <su lang="pt">E apareceu um livro.</su>
+          <su lang="ru"> На кровать упала книга в красивой зелёной обложке, на которой золотыми буквами было вытиснено:</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence id="179">
+          <su lang="pt">Harry só teve tempo de admirar a sua bonita capa verde, adornada com o título a dourado O Monstruoso Livro dos Monstros antes de ele se virar e fugir pela cama fora, qual caranguejo esquisito.</su>
+          <su lang="ru">«Чудовищная книга о чудищах» Только Гарри успел прочесть название, как книга перевернулась и как-то боком, словно краб, двинулась по кровати.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence id="180">
+          <su lang="pt">— Oh, oh — resmungou Harry.</su>
+          <su lang="ru"> — Да что же это такое?</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence id="181">
+          <su lang="pt">O livro caiu ao chão com um baque e atravessou rapidamente o quarto.</su>
+          <su lang="ru"> Бах! Книга свалилась на пол и давай шуршать через всю комнату.</su>
+        </sentence>
+        <sentence id="182">
+          <su lang="pt">Harry seguiu-o sub-repticiamente.</su>
+          <su lang="ru"> Гарри за ней.</su>
+        </sentence>
+        <sentence id="183">
+          <su lang="pt">O livro escondera-se no vão escuro debaixo da secretária.</su>
+          <su lang="ru">Книга под стол.</su>
+        </sentence>
+        <sentence id="184">
+          <su lang="pt">Pedindo aos céus que os Dursley estivessem a dormir profundamente, Harry pôs-se de gatas e conseguiu agarrá-lo.</su>
+          <su lang="ru"> Только бы Дурсли не проснулись. Гарри сунул руку под стол. Хлоп!</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence id="185">
+          <su lang="pt">— Ai!</su>
+          <su lang="ru">— Ой!!!</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence id="186">
+          <su lang="pt">O livro fechou-se-lhe nas mãos e logo a seguir escapou-se, correndo apoiado nas capas.</su>
+          <su lang="ru"> Книга зажала пальцы именинника, но тут же отпустила и запрыгала дальше.</su>
+        </sentence>
+        <sentence id="187">
+          <su lang="pt">Harry andou de um lado para o outro, atirou-se para a frente e conseguiu comprimi-lo contra o chão.</su>
+          <su lang="ru"> Ничего не понимая, он сидел на корточках, а потом, опомнившись, ринулся на книгу и прижал её к полу.</su>
+        </sentence>
+        <sentence id="188">
+          <su lang="pt">No quarto ao lado, o tio Vernon soltou um ronco no meio do sono.</su>
+          <su lang="ru">В соседней комнате дядя Вернон что-то громко проворчал во сне, и опять всё стихло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence id="189">
+          <su lang="pt">Hedwig e Errol observaram, interessadas, o modo como Harry segurou nos braços o livro irrequieto, abrindo uma gaveta e retirando de dentro um cinto que amarrou em volta dele.</su>
+          <su lang="ru"> Букля и Стрелка с интересом наблюдали за борьбой. Книга так и норовила выскочить из рук. Сжав её из последних сил, Гарри рванулся к шкафу, достал ремень и стянул её. Всё, теперь не убежишь!</su>
+        </sentence>
+        <sentence id="190">
+          <su lang="pt">O Livro dos Monstros estremeceu zangado, mas já não podia correr nem morder, por isso Harry pousou-o na cama e leu o cartão de Hagrid.</su>
+          <su lang="ru"> Книга сердито брыкалась, но ремень держал её крепко. Гарри кинул подарок Хагрида на кровать и взял открытку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence id="191">
+          <su lang="pt">Querido Harry, feliz aniversário!</su>
+          <su lang="ru"> Дорогой Гарри! С днём рождения!</su>
+        </sentence>
+        <sentence id="192">
+          <su lang="pt">Achei qu’este livro te seria útil prò próximo ano.</su>
+          <su lang="ru">Эта книга тебе очень пригодится в следующем году.</su>
+        </sentence>
+        <sentence id="193">
+          <su lang="pt">Não te vou contar mais nada.</su>
+          <su lang="ru">Больше ничего писать не буду.</su>
+        </sentence>
+        <sentence id="194">
+          <su lang="pt">Depois conversamos.</su>
+          <su lang="ru">Вот свидимся — и расскажу.</su>
+        </sentence>
+        <sentence id="195">
+          <su lang="pt">Espero qu’os Muggles te estejam a tratar bem.</su>
+          <su lang="ru">Надеюсь, маглы тебя не обижают.</su>
+        </sentence>
+        <sentence id="196">
+          <su lang="pt">O melhor pra ti, Hagrid.</su>
+          <su lang="ru">Всего хорошего. Хагрид.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence id="197">
+          <su lang="pt">Harry achou bastante sinistro que Hagrid tivesse pensado que um livro capaz de morder-lhe iria ser útil, mas colocou o cartão ao lado dos de Ron e de Hermione, cada vez mais satisfeito.</su>
+          <su lang="ru">Гарри призадумался. И эта кусачая книга ему пригодится? Ничего себе шуточки! Гарри сложил все открытки с подарками, и счастливая улыбка озарила его лицо.</su>
+        </sentence>
+        <sentence id="198">
+          <su lang="pt">Só faltava agora a carta de Hogwarts.</su>
+          <su lang="ru">Да, ещё осталось письмо из Хогвартса…</su>
+        </sentence>
+        <sentence id="199">
+          <su lang="pt">Reparando que era mais espessa que habitualmente, abriu o sobrescrito, retirou a primeira folha de pergaminho e leu:</su>
+          <su lang="ru">Гарри вскрыл конверт и вытащил пергамент.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence id="200">
+          <su lang="pt">Caro Mr. Potter, por favor, tome nota de que o novo ano escolar em Hogwarts terá o seu início no dia 1 de Setembro.</su>
+          <su lang="ru">Уважаемый мистер Поттер! Напоминаю Вам, что первого сентября начинается учебный год.</su>
+        </sentence>
+        <sentence id="201">
+          <su lang="pt">O Expresso de Hogwarts partirá da estação de King’s Cross, plataforma nove e três quartos, às onze horas da manhã.</su>
+          <su lang="ru">«Хогвартс-Экспресс» отходит от платформы № 9 ¾ с вокзала Кингс-Кросс в 11.00.</su>
+        </sentence>
+        <sentence id="202">
+          <su lang="pt">Os alunos do terceiro ano estarão autorizados a visitar a vila de Hogsmeade em certos fins-de-semana.</su>
+          <su lang="ru">В выходные дни третьекурсникам будет разрешено посещать деревню Хогсмид.</su>
+        </sentence>
+        <sentence id="203">
+          <su lang="pt">Por favor, entregue a autorização que enviamos para que o seu pai ou encarregado de educação a assine.</su>
+          <su lang="ru">К письму прилагается форма с разрешением. Её должны подписать ваши родители или опекун.</su>
+        </sentence>
+        <sentence id="204">
+          <su lang="pt">Juntamos também uma lista dos livros para o próximo ano.</su>
+          <su lang="ru">Также прилагается список учебников для третьего класса.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence id="205">
+          <su lang="pt">Atenciosamente, Professora McGonagall. Vice-directora.</su>
+          <su lang="ru">Искренне Ваша, профессор М. МакГонагалл, заместитель директора школы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence id="206">
+          <su lang="pt"> Harry pegou no documento de autorização para visitar Hogsmeade e olhou para ela sem sorrir.</su>
+          <su lang="ru">Гарри достал форму с разрешением, и улыбки как не бывало. </su>
+        </sentence>
+        <sentence id="207">
+          <su lang="pt">Seria óptimo visitar Hogsmeade aos fins-de-semana.</su>
+          <su lang="ru">А так хочется в Хогсмид!</su>
+        </sentence>
+        <sentence id="208">
+          <su lang="pt">Sabia que era uma vila exclusivamente de feiticeiros, onde nunca pusera os pés. Mas como iria convencer o tio Vernon e a tia Petúnia a assinar a autorização?</su>
+          <su lang="ru">Это — единственная деревня, где живут только волшебники, а он ни разу там не был! Дядя Вернон и тётя Петунья ни за что не подпишут эту бумагу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence id="209">
+          <su lang="pt">Olhou para o despertador: eram duas horas da manhã.</su>
+          <su lang="ru"> Гарри посмотрел на будильник. Два часа ночи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence id="210">
+          <su lang="pt">Tomando a decisão de deixar aquela preocupação para o dia seguinte, Harry voltou a meter-se na cama e fez uma cruzinha no gráfico que ele mesmo construíra, onde riscava os dias que faltavam para voltar a Hogwarts.</su>
+          <su lang="ru">«Ладно, подожду до утра». С этими мыслями он лёг на кровать и глянул на висевший на стене календарик. Он составил его, чтобы знать, сколько времени осталось до школы.</su>
+        </sentence>
+        <sentence id="211">
+          <su lang="pt">Em seguida, tirou os óculos e deitou-se com os olhos abertos, fixos nos três cartões de parabéns que tinha recebido.</su>
+          <su lang="ru">Вычеркнул прошедший день, улёгся и принялся рассматривать открытки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence id="212">
+          <su lang="pt">Era extremamente raro sentir-se assim, como naquele momento, feliz, pela primeira vez na vida, por ser o dia do seu aniversário.</su>
+          <su lang="ru">Каким бы необыкновенным Гарри ни был, в эту минуту он чувствовал себя как простой мальчишка — радовался дню рождения.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

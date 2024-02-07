@@ -1,0 +1,2284 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220608T141432Z</creationdate>
+    <paragraphs>100</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>513</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>515</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">PAUL HOLES WITH ROBIN GABY FISHER</s>
+      <s lang="ru">ПОЛ ХОЛС С РОБИНОМ ГАБИ ФИШЕР</s>
+    </author>
+    <title>
+      <s lang="en">UNMASKED</s>
+      <s lang="ru">РАЗОБЛАЧЁН</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    
+    <section type="h2">
+      <header>
+        <su lang="en">Prologue (DECEMBER 2019)</su>
+        <su lang="ru">Пролог (ДЕКАБРЬ 2019)</su>
+      </header>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">I order another bourbon, neat.</su>
+          <su lang="ru">Я заказываю ещё один бурбон, чистый.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This is the drink that will flip the switch.</su>
+          <su lang="ru">Это тот напиток, который щёлкнет выключателем.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't even know how I got here, to this place, to this point.</su>
+          <su lang="ru">Я даже не знаю, как я попал сюда, в это место, в эту точку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One minute I was having dinner and drinks with friends, discussing my latest cold case- the rape and strangulation of a young girl after her high school Valentine's Day dance-and the next thing I knew we were all piling into an Uber going, where?</su>
+          <su lang="ru">Только что я ужинал и пил с друзьями, обсуждая своё последнее холодное дело - изнасилование и удушение молодой девушки после школьных танцев на День Святого Валентина, - а в следующее мгновение мы все набились в Uber и поехали, куда?</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">I had no idea.</su>
+          <su lang="ru">Я понятия не имел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Something is happening to me lately.</su>
+          <su lang="ru">В последнее время со мной что-то происходит.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm drinking too much.</su>
+          <su lang="ru">Я слишком много пью.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My sheets are soaking wet when I wake up from nightmares of decaying corpses.</su>
+          <su lang="ru">Мои простыни насквозь мокрые, когда я просыпаюсь от кошмаров с разлагающимися трупами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've looked at a woman, and rather than seeing the beauty of the female body, I've dissected it, layer by layer, as if she were on the autopsy table.</su>
+          <su lang="ru">Я смотрел на женщину, и вместо того, чтобы увидеть красоту женского тела, я препарировал его слой за слоем, как если бы она лежала на столе для вскрытия.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I have visualized dead women during intimate moments, and I shut down.</su>
+          <su lang="ru">Я представлял себе мёртвых женщин в интимные моменты и отключался.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">People always ask how I am able to detach from the horrors of my work.</su>
+          <su lang="ru">Люди всегда спрашивают, как мне удаётся отделиться от ужасов моей работы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Part of it is an innate capacity to compartmentalize, to put my thoughts in mental boxes and only access what I need, when I need it.</su>
+          <su lang="ru">Отчасти это врождённая способность разделяться, помещать свои мысли в ментальные коробки и получать доступ только к тому, что мне нужно, когда мне это нужно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The rest is experience and exposure, and I've had plenty of both.</su>
+          <su lang="ru">Остальное - это опыт и выдержка, а у меня их было предостаточно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">The macabre becomes familiar enough that I can dissociate from even the grisliest details of the job.</su>
+          <su lang="ru">Жуткое становится настолько знакомым, что я могу отделиться даже от самых ужасных деталей работы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I file the gore in my brain under "science."</su>
+          <su lang="ru">Я заношу запёкшуюся кровь в свой мозг в раздел "наука".</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I suppose anyone can become desensitized to anything if they see enough of it, even dead bodies, and I've been looking at them since college when I spent hours studying death scenes in pathology books.</su>
+          <su lang="ru">Я полагаю, что любой человек может стать нечувствительным ко всему, если увидит достаточно, даже к мёртвым телам, а я смотрел на них с колледжа, когда часами изучал сцены смерти в книгах по патологии.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">But real life, of course, isn't black and white like those textbook photographs.</su>
+          <su lang="ru">Но реальная жизнь, конечно, не чёрно-белая, как на тех хрестоматийных фотографиях.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On one hand, I am fortunate to have been born with a good, analytical brain.</su>
+          <su lang="ru">С одной стороны, мне повезло, что я родился с хорошим аналитическим мозгом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On the other, my heart bleeds when it comes to innocent victims.</su>
+          <su lang="ru">С другой стороны, моё сердце обливается кровью, когда речь заходит о невинных жертвах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Crime solving for me is more complex than the challenge of the hunt, or the process of piecing together a scientific puzzle.</su>
+          <su lang="ru">Раскрытие преступлений для меня гораздо сложнее, чем задача охоты или процесс сложения научной головоломки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The thought of good people suffering drives me, for better or worse, to the point of obsession.</su>
+          <su lang="ru">Мысль о страданиях хороших людей доводит меня, к лучшему это или к худшему, до одержимости.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But I have always taken pride in the fact that I can keep my feelings locked up to get the job done.</su>
+          <su lang="ru">Но я всегда гордился тем, что могу держать свои чувства взаперти, чтобы выполнить работу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">It's only been recently that it feels like all that suppressed darkness is beginning to seep out.</su>
+          <su lang="ru">Только в последнее время мне кажется, что вся эта подавленная тьма начинает просачиваться наружу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The dam is breaking.</su>
+          <su lang="ru">Плотина рушится.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm cratering fast.</su>
+          <su lang="ru">Я быстро сокращаюсь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So I end up in a place like this, a bar on Hollywood Boulevard called Jumbo's Clown Room.</su>
+          <su lang="ru">Так что я оказался в таком месте, как это, в баре на Голливудском бульваре под названием "Клоунская комната Джамбо".</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Yes, it's a real place.</su>
+          <su lang="ru">Да, это настоящее место.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Entirely red inside.</su>
+          <su lang="ru">Полностью красный внутри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Red walls.</su>
+          <su lang="ru">Красные стены.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Red floors.</su>
+          <su lang="ru">Красные полы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Red bar.</su>
+          <su lang="ru">Красная полоса.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Red lights.</su>
+          <su lang="ru">Красные огни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I order another drink and swig it, trying to forget about the latest case I can't shake.</su>
+          <su lang="ru">Я заказываю ещё один напиток и делаю большой глоток, пытаясь забыть о последнем деле, от которого не могу избавиться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">CARLA WALKER WAS A TEENAGER WHO was full of life and spunk, four feet, eleven inches tall and twinkly eyed, with everything to look forward to.</su>
+          <su lang="ru">КАРЛА УОКЕР БЫЛ ПОДРОСТКОМ, полным жизни и мужества, ростом четыре фута одиннадцать дюймов, с блестящими глазами, и у него было все, чего можно было ожидать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Looking at her picture, I would have guessed she was nine years old, not seventeen.</su>
+          <su lang="ru">Глядя на её фотографию, я бы предположил, что ей девять лет, а не семнадцать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In the crime scene photos, she's lying in a desolate cow culvert.</su>
+          <su lang="ru">На фотографиях с места преступления она лежит в заброшенной коровьей водопропускной трубе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Her head is tilted toward me, and her eyes are closed.</su>
+          <su lang="ru">Её голова наклонена ко мне, глаза закрыты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She has a tiny little nose.</su>
+          <su lang="ru">У неё крошечный носик.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Her face contradicts the savagery she endured during the final moments of her life.</su>
+          <su lang="ru">Её лицо противоречит дикости, которую она пережила в последние минуты своей жизни.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">She looks serene, like a sleeping doll.</su>
+          <su lang="ru">Она выглядит безмятежной, как спящая кукла.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She's dressed in the same blue dotted swiss party dress with lace trim that she was wearing when she kissed her parents good night and headed out to a Valentine's Day dance at her high school, only the dress has been torn off and placed carefully over her bare chest, leaving her naked lower body exposed.</su>
+          <su lang="ru">Она одета в то же самое синее в горошек швейцарское вечернее платье с кружевной отделкой, которое было на ней, когда она поцеловала родителей на ночь и отправилась на танцы в День святого Валентина в своей средней школе, только платье было сорвано и аккуратно надето на голую грудь, оставив обнажённой нижнюю часть тела.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">Two blue barrettes are still intact, but her pretty strawberry blond hair is muddy and disheveled.</su>
+          <su lang="ru">Две голубые заколки всё ещё целы, но её красивые светло-рыжие волосы грязны и растрёпаны.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Thin swipes of blue on her eyelids, which, I was told, she worked so hard to match to her dress, are smudged.</su>
+          <su lang="ru">Тонкие полоски синевы на её веках, которые, как мне сказали, она так старательно подбирала к своему платью, размазаны.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Semen stains, dark purple bruises around her neck, and contusions on her arms and legs tell the story of a horrific death.</su>
+          <su lang="ru">Пятна спермы, тёмно-фиолетовые синяки на шее и ушибы на руках и ногах рассказывают об ужасной смерти.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I study her injuries and envision what happened.</su>
+          <su lang="ru">Я изучаю её раны и представляю себе, что произошло.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Young Carla was violently beaten, raped, and strangled, and her body dragged through a barbed wire fence and ditched like garbage in the middle of nowhere, where it lay for nearly four days.</su>
+          <su lang="ru">Юную Карлу жестоко избили, изнасиловали и задушили, а её тело протащили через забор из колючей проволоки и выбросили, как мусор, неизвестно куда, где оно пролежало почти четыре дня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">Carla's murder is no closer to being solved today than it was when it happened in 1974.</su>
+          <su lang="ru">Убийство Карлы сегодня не ближе к раскрытию, чем в 1974 году.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But forty-five years later, the collateral damage continues to fester.</su>
+          <su lang="ru">Но сорок пять лет спустя сопутствующий ущерб продолжает гноиться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Her younger brother, Jim Walker, was twelve when Carla was killed.</su>
+          <su lang="ru">Её младшему брату Джиму Уокеру было двенадцать лет, когда Карлу убили.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now he's a little older than me.</su>
+          <su lang="ru">Теперь он немного старше меня.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When I decided to look into the cold case recently, I met with Jim in a suburb of Fort Worth.</su>
+          <su lang="ru">Когда я недавно решил заняться этим делом, то встретился с Джимом в пригороде Форт-Уэрта.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He told me that after he got his driver's license, he used to steal away to the crime scene and spend nights in the culvert, waiting for Carla's killer to show.</su>
+          <su lang="ru">Он сказал мне, что после того, как получил водительские права, он обычно крался на место преступления и проводил ночи в водопропускной трубе, ожидая появления убийцы Карлы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">There was something about Jim that broke my heart, and I found myself choking back tears talking to him.</su>
+          <su lang="ru">В Джиме было что-то такое, что разбило мне сердце, и я поймала себя на том, что, разговаривая с ним, еле сдерживаю слёзы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All this time later, the pain on his face is as fresh as if he'd lost his sister yesterday.</su>
+          <su lang="ru">Спустя столько времени боль на его лице так свежа, как будто он вчера потерял сестру.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was even worse for his parents, he said.</su>
+          <su lang="ru">Для его родителей это было ещё хуже, сказал он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They suffered in silence until their deaths.</su>
+          <su lang="ru">Они молча страдали до самой смерти.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His mother kept a portrait of Carla and touched it every morning when she woke up.</su>
+          <su lang="ru">Его мать хранила портрет Карлы и прикасалась к нему каждое утро, когда просыпалась.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was her way of saying "Good morning" to her daughter.</su>
+          <su lang="ru">Это был её способ сказать "Доброе утро" дочери.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That's the thing about these tragedies.</su>
+          <su lang="ru">Вот в чём суть этих трагедий.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There are so many victims.</su>
+          <su lang="ru">Жертв так много.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So many shattered lives.</su>
+          <su lang="ru">Так много разбитых жизней.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">So many families torn apart.</su>
+          <su lang="ru">Так много семей разорвано на части.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Healing is subjective, but the scars never fade, and the pain is always a breath away.</su>
+          <su lang="ru">Исцеление субъективно, но шрамы никогда не исчезают, и боль всегда на расстоянии вздоха.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's a terrible way to spend your life.</su>
+          <su lang="ru">Это ужасный способ провести свою жизнь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">I promised Carla's family that I'd do everything in my power to solve her murder.</su>
+          <su lang="ru">Я обещал Семье Карлы, что я сделаю всё, что в моих силах, чтобы раскрыть её убийство.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The only peace they'll get will come with knowing who killed her, and why.</su>
+          <su lang="ru">Единственный покой, который они получат, придёт к ним, когда они узнают, кто убил её и почему.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And when I went to the culvert, I promised Carla, too, that I'd work tirelessly to catch her killer.</su>
+          <su lang="ru">И когда я пошёл к водопропускной трубе, то пообещал Карле, что буду неустанно работать, чтобы поймать её убийцу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm committed to Carla.</su>
+          <su lang="ru">Я предан Карле.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">People think I'm strictly analytical, and that's how I present myself, but there is something very spiritual for me when I'm at a crime scene.</su>
+          <su lang="ru">Люди думают, что я строго аналитичен, и именно так я себя представляю, но есть что-то очень духовное для меня, когда Я на месте преступления.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't just put myself in the minds of the offender and the victim, which is critical to my crime- solving process.</su>
+          <su lang="ru">Я не просто ставлю себя на место преступника и жертвы, что очень важно для моего процесса раскрытия преступлений.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I make my peace with the victim.</su>
+          <su lang="ru">Я заключаю мир с жертвой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">As it was in Carla's case.</su>
+          <su lang="ru">Как это было в случае с Карлой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">The culvert where Carla was dumped is a lonely place, a tunnel under a road in rural Texas about ten miles from her high school and the Walker family home.</su>
+          <su lang="ru">Водопропускная труба, куда бросили Карлу, - пустынное место, туннель под дорогой в сельской местности Техаса , примерно в десяти милях от её средней школы и дома семьи Уокер.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">Standing in the exact spot where her body had lain, it was as if I was witnessing the whole terrible attack.</su>
+          <su lang="ru">Стоя на том самом месте, где лежало её тело, я словно был свидетелем всего этого ужасного нападения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I see the offender looming over Carla, his eyes wild with excitement as he pulls off her underwear and yanks her bra up over her breasts, ripping her party dress in his frenzy.</su>
+          <su lang="ru">Я вижу, как преступник нависает над Карлой, его глаза дикие от возбуждения, когда он стаскивает с неё нижнее бельё и натягивает лифчик на грудь, разрывая её вечернее платье в своём безумии.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I see her, eyes dilated, heart pounding, breath fast and shallow.</su>
+          <su lang="ru">Я вижу её: глаза расширены, сердце колотится, дыхание учащённое и неглубокое.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Adrenaline courses through her body, and she is in full-on fear mode-fight, flight, or freeze-but she's too small and not nearly powerful enough to compete with her attacker.</su>
+          <su lang="ru">Адреналин разливается по её телу, и она находится в режиме полного страха - сражайся, беги или замри, - но она слишком мала и недостаточно сильна, чтобы конкурировать со своим нападающим.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He grimaces as he places his hands around her neck.</su>
+          <su lang="ru">Он морщится, когда кладёт руки ей на шею.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">He starts to squeeze, and she grabs at his hands and arms, trying to loosen his hold.</su>
+          <su lang="ru">Он начинает сжимать её, и она хватает его за руки, пытаясь ослабить хватку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She gouges her own skin with her fingernails as she claws futilely at his death grip.</su>
+          <su lang="ru">Она царапает собственную кожу ногтями, тщетно пытаясь вцепиться в его мёртвую хватку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Carla has to know this is the end of her life.</su>
+          <su lang="ru">Карла должна знать, что это конец её жизни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There's nothing she can do to save herself.</su>
+          <su lang="ru">Она ничего не может сделать , чтобы спасти себя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Her body is shutting down.</su>
+          <su lang="ru">Её тело отключается.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The outer jugular veins begin to collapse, but her heart continues to push blood to her brain through the carotids, causing an intense buildup of pressure in her head.</su>
+          <su lang="ru">Наружные яремные вены начинают сжиматься, но сердце продолжает толкать кровь к мозгу через сонные артерии, вызывая интенсивное нарастание давления в голове.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Research suggests that at this point, victims lose consciousness within six to ten seconds, but offenders have reported it can take much longer-several minutes-for a victim to die.</su>
+          <su lang="ru">Исследования показывают , что в этот момент жертвы теряют сознание в течение шести-десяти секунд, но преступники сообщают, что смерть жертвы может занять гораздо больше времени - несколько минут .</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">I can almost feel Carla as she takes her last breath.</su>
+          <su lang="ru">Я почти чувствую, как Карла испускает последний вздох.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I kneel down and touch the spot where her head would have been.</su>
+          <su lang="ru">Я опускаюсь на колени и касаюсь того места , где должна была быть её голова.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I'm here for you," I say.</su>
+          <su lang="ru">- Я здесь ради тебя, - говорю я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I don't know if I can solve your case, but I promise I will do my best."</su>
+          <su lang="ru">- Не знаю, смогу ли я раскрыть ваше дело, но обещаю, что сделаю всё, что в моих силах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">It is a promise I know I can keep.</su>
+          <su lang="ru">Я знаю, что смогу сдержать это обещание.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">JUMBO'S CLOWN ROOM IS GETTING LOUDER.</su>
+          <su lang="ru">ДЖАМБО КЛОУНСКАЯ КОМНАТА СТАНОВИТСЯ ВСЁ ГРОМЧЕ.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The music blasts, and women in skimpy bikinis climb onstage.</su>
+          <su lang="ru">Гремит музыка, и на сцену поднимаются женщины в узких бикини.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Some swing on poles placed around the bar.</su>
+          <su lang="ru">Некоторые качаются на шестах, расставленных вокруг бара.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Others slither seductively on the floor, scooping up dollar bills that people, both men and women, are tossing onstage.</su>
+          <su lang="ru">Другие соблазнительно скользят по полу, собирая долларовые купюры, которые люди, как мужчины, так и женщины, бросают на сцену.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm sure the patrons mean well, but it feels wrong, disrespectful.</su>
+          <su lang="ru">Я уверен, что покровители хотят мне добра, но это кажется неправильным, неуважительным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can't even watch the dancers.</su>
+          <su lang="ru">Я даже не могу смотреть на танцоров.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I wonder what kind of lives they have.</su>
+          <su lang="ru">Интересно, какая у них жизнь ?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I worry that they're putting themselves in danger.</su>
+          <su lang="ru">Я беспокоюсь, что они подвергают себя опасности.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I know I shouldn't be here-what am I doing?-and I signal to the others that I'm headed out.</su>
+          <su lang="ru">Я знаю, что не должна быть здесь - что я делаю?- и я сигнализирую остальным, что ухожу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As I pull on my jacket, a dancer catches my eye.</su>
+          <su lang="ru">Натягивая куртку, я замечаю танцовщицу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">She's maybe twenty, younger than my oldest daughter, and she's making her way toward me, slinking across the stage.</su>
+          <su lang="ru">Ей лет двадцать, она младше моей старшей дочери, и она пробирается ко мне, крадучись пересекая сцену.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I look at her and envision her broken body sprawled in a muddy ditch.</su>
+          <su lang="ru">Я смотрю на неё и представляю её разбитое тело, распростёртое в грязной канаве.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I shudder, then pull out a hundred- dollar bill, wrap it in a single, and hold it out to her.</su>
+          <su lang="ru">Я вздрагиваю, затем достаю стодолларовую купюру, заворачиваю её в одну и протягиваю ей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Please," I say, as she bends down to take the cash.</su>
+          <su lang="ru">- Пожалуйста, - говорю я, когда она наклоняется, чтобы взять деньги.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Be careful."</su>
+          <su lang="ru">- Будь осторожен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The sultry expression drops from her face, and I see the little girl.</su>
+          <su lang="ru">Знойное выражение исчезает с её лица, и я вижу маленькую девочку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">Getting up from the bar, I walk unsteadily out onto Hollywood Boulevard and hail a cab.</su>
+          <su lang="ru">Выйдя из бара, я нетвёрдой походкой выхожу на Голливудский бульвар и ловлю такси.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">"Where are you going, buddy?" the driver asks as I slide into the back seat.</su>
+          <su lang="ru">- Куда это ты собрался, приятель? - спрашивает водитель, когда я сажусь на заднее сиденье.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">Crazy, I think, wiping away tears.</su>
+          <su lang="ru">Сумасшедший, думаю я, вытирая слёзы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm going fucking crazy.</su>
+          <su lang="ru">Я схожу с ума, чёрт возьми.</su>
+        </sentence>
+      </p>
+    </section>
+    <section type="h2">
+      <header>
+        <su lang="en">1 The End of the Road (MARCH 2018)</su>
+        <su lang="ru">1 Конец пути (МАРТ 2018)</su>
+      </header>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">My ex-wife used to say my job was my mistress, and I chose my mistress over everyone.</su>
+          <su lang="ru">Моя бывшая жена говорила, что моя работа - моя любовница, и я предпочитаю свою любовницу всем остальным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Those charged conversations from long ago rang in my ears as I stood in my office, boxing up the last of my belongings.</su>
+          <su lang="ru">Эти напряжённые разговоры из давних времён звенели у меня в ушах, когда я стояла в своём кабинете, собирая последние вещи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Paul, you've lost your way.: We need you.: Even when you're here you're not really here.</su>
+          <su lang="ru">Пол, ты заблудился.: Ты нужен нам.: Даже когда ты здесь, на самом деле тебя здесь нет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Lori was right about a lot of things.</su>
+          <su lang="ru">Лори была права во многом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I wasn't there for my family-not then and not now-not in the way they wanted me to be.</su>
+          <su lang="ru">Я не был там для своей семьи - ни тогда, ни сейчас - не так , как они хотели, чтобы я был.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Not in the way I wanted to be.</su>
+          <su lang="ru">Не так, как мне хотелось бы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My work was never a job.</su>
+          <su lang="ru">Моя работа никогда не была работой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was a calling, my purpose, as vital to me as air and water.</su>
+          <su lang="ru">Это было моё призвание, моя цель, столь же важная для меня, как воздух и вода.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">For nearly thirty years, I'd chosen my cases over everything.</su>
+          <su lang="ru">В течение почти тридцати лет я предпочитал свои дела всему на свете.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was always a crime scene to attend, always a predator to chase down.</su>
+          <su lang="ru">Всегда нужно было присутствовать на месте преступления, всегда нужно было преследовать хищника.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I was happiest when I was digging into a cold case.</su>
+          <su lang="ru">Я был счастливее всего, когда копался в холодном деле.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The challenge of trying to figure out what no one else could was irresistible to me.</su>
+          <su lang="ru">Задача попытаться выяснить то, что никто другой не мог, была для меня непреодолимой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now I was facing down the end of a career that had consumed my entire adult life.</su>
+          <su lang="ru">Теперь я стоял лицом к лицу с концом карьеры , которая поглотила всю мою взрослую жизнь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The time had passed in a blink.</su>
+          <su lang="ru">Время пролетело в мгновение ока.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">Looking around my office, at the empty shelves, at the bare desktop, I took a deep breath.</su>
+          <su lang="ru">Оглядев свой кабинет, пустые полки, голый рабочий стол, я глубоко вздохнул.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What was I feeling?</su>
+          <su lang="ru">Что я чувствовал?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Was it uncertainty?</su>
+          <su lang="ru">Была ли это неуверенность?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Had I been kidding myself when I decided that retirement wouldn't be so bad?</su>
+          <su lang="ru">Обманывала ли я себя , когда Я решил, что выход на пенсию не будет таким уж плохим?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That I'd finally have the time to take guitar lessons and pedal my mountain bike on rocky trails?</su>
+          <su lang="ru">Что у меня наконец-то будет время брать уроки игры на гитаре и крутить педали горного велосипеда по каменистым тропам?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That I'd find some other way to matter?</su>
+          <su lang="ru">Что я найду какой-нибудь другой способ иметь значение?</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">My office was in the county complex in the industrial city of Martinez in California's East Bay.</su>
+          <su lang="ru">Мой офис находился в окружном комплексе в промышленном городе Мартинес в Калифорнии. Ист-Бей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The sun was just peeking up over the horizon when I climbed the stairs to the third floor of the criminal justice building.</su>
+          <su lang="ru">Солнце едва показалось из-за горизонта, когда я поднялся по лестнице на третий этаж здания уголовного правосудия.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had come in especially early to gather my things before my colleagues got there.</su>
+          <su lang="ru">Я пришёл особенно рано, чтобы собрать свои вещи до того, как туда придут мои коллеги.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've always been quietly sentimental, especially about endings and the past.</su>
+          <su lang="ru">Я всегда был тихонько сентиментален, особенно в отношении концовок и прошлого.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">Just the other day, I drove to the first house I owned and parked on the street.</su>
+          <su lang="ru">Буквально на днях я подъехал к первому попавшемуся дому и припарковался на улице.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The house had been brand-new when I bought it with my first wife in 1992.</su>
+          <su lang="ru">Дом был совершенно новым, когда мы с первой женой купили его в 1992 году.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was where I'd learned how to take care of a home.</su>
+          <su lang="ru">Именно там я научилась заботиться о доме.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I built the deck on the back and planted the saplings that now tower over the rooftop.</su>
+          <su lang="ru">Я построил веранду на заднем дворе и посадил саженцы, которые теперь возвышаются над крышей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sitting in my car, I could almost imagine myself back there, in the family room, playing with my firstborn, Renee, still too young to sit, all toothless grin and happy babble as I prop up pillows to keep her upright.</su>
+          <su lang="ru">Сидя в машине, я почти могла представить себя там, в гостиной, играющей с моим первенцем Рене, ещё слишком маленькой, чтобы сидеть, с беззубой улыбкой и счастливым лепетом. Я приподнимаю подушки, чтобы удержать её в вертикальном положении.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Now she has a little girl of her own.</su>
+          <su lang="ru">Теперь у неё есть своя маленькая девочка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">I've never been a crier, but lately the tears were coming without warning, as they did that day, driving away from my old house.</su>
+          <su lang="ru">Я никогда не была плаксой, но в последнее время слёзы текли без предупреждения, как в тот день, когда я уезжала из своего старого дома.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Yet another reason to gather my things and get out of town before my colleagues began arriving.</su>
+          <su lang="ru">Ещё одна причина собрать вещи и уехать из города до того, как начнут прибывать мои коллеги.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Was I becoming a sentimental old man at the age of fifty?</su>
+          <su lang="ru">Неужели я становлюсь сентиментальным стариком в пятьдесят лет?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My dad got softer in his older years, slowly changing from the detached career- military guy who raised me to the playful grandfather who made funny faces with my kids.</su>
+          <su lang="ru">В пожилом возрасте мой отец стал мягче , постепенно превращаясь из отстранённого военного, который воспитывал меня, в игривого дедушку, который корчил смешные рожицы моим детям.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">I was determined to be stoic on my last day, but this place had been my life.</su>
+          <su lang="ru">Я был полон решимости быть стоиком в свой последний день, но это место было моей жизнью.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I wasn't sure I would have chosen to leave the job if California's pension system hadn't made it financially irresponsible to stay.</su>
+          <su lang="ru">Я не был уверен, что решил бы уйти с работы, если бы пенсионная система Калифорнии не сделала моё пребывание здесь финансово безответственным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd spent nearly every day since I was twenty-two years old living and working under the dome of Contra Costa County government.</su>
+          <su lang="ru">С тех пор как мне исполнилось двадцать два года, я почти каждый день жил и работал под куполом Контры Правительство округа Коста.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The most relevant chapters of my story had played out here.</su>
+          <su lang="ru">Здесь разыгрались самые важные главы моей истории .</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Every career move.</su>
+          <su lang="ru">Каждый карьерный шаг.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All of the ups and downs of my first marriage.</su>
+          <su lang="ru">Все взлёты и падения моего первого брака.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The births of my first two kids.</su>
+          <su lang="ru">Рождение двух моих первых детей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Meeting my second wife, Sherrie.</su>
+          <su lang="ru">Знакомство с моей второй женой Шерри.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The births of our son and daughter.</su>
+          <su lang="ru">Рождение наших сына и дочери.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dozens of homicides solved.</su>
+          <su lang="ru">Десятки раскрытых убийств.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Others still unresolved, but never forgotten, and now headed home with me on a hard drive.</su>
+          <su lang="ru">Другие всё ещё не решены, но никогда не забывались и теперь направлялись домой со мной на жёстком диске.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">Tomorrow, my office, historically reserved for whoever was chosen to oversee homicides for the district attorney, would be turned over to my successor.</su>
+          <su lang="ru">Завтра мой кабинет, исторически зарезервированный для того, кто был выбран для наблюдения за убийствами окружного прокурора, будет передан моему преемнику.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They would fill the empty shelves where my collection of books on forensics, sexual homicide, and serial killers had grown.</su>
+          <su lang="ru">Они заполнят пустые полки, где росла моя коллекция книг по криминалистике, сексуальным убийствам и серийным убийцам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They would sit behind the computer monitor I'd kept at an angle so passersby couldn't see the gruesome crime scene images that were so often on the screen.</su>
+          <su lang="ru">Они сидели за монитором компьютера Я держалась под углом, чтобы прохожие не могли видеть ужасные изображения места преступления , которые так часто появлялись на экране.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Maybe they'd make the time to wipe the years' worth of grunge off the window overlooking the Sacramento River delta.</su>
+          <su lang="ru">Может быть, они найдут время, чтобы стереть многолетнюю грязь с окна, выходящего на дельту реки Сакраменто.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The shimmer of the water was hypnotic, but I'd barely noticed.</su>
+          <su lang="ru">Мерцание воды гипнотизировало, но я почти не замечала этого.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I was always too immersed in my work.</su>
+          <su lang="ru">Я всегда был слишком погружён в свою работу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">MY JURISDICTION STRETCHED OVER HUNDREDS OF square miles of San Francisco's Bay Area.</su>
+          <su lang="ru">МОЯ ЮРИСДИКЦИЯ ПРОСТИРАЛАСЬ НА СОТНИ квадратных миль залива Сан -Франциско.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">With a population of more than a million people, we had our share of crime.</su>
+          <su lang="ru">С населением более миллиона человек у нас была своя доля преступности.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Four of our cities were on the FBI's list of California's one hundred most dangerous places.</su>
+          <su lang="ru">Четыре наших города входили в список ста самых опасных мест Калифорнии, составленный ФБР.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd worked on hundreds of homicides, but I'd spent the last few years almost exclusively mining cold case files.</su>
+          <su lang="ru">Я работал над сотнями убийств, но последние несколько лет почти исключительно копался в архивах "холодных" дел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Every casualty comes with collateral damage, those who are left to pick up their lives in the agonizing aftermath of murder, and nothing motivated me more than the idea of a killer having the freedom to live a normal life after he'd destroyed so many others.</su>
+          <su lang="ru">Каждая жертва сопровождается сопутствующим ущербом, теми, кто остался, чтобы забрать свою жизнь в мучительных последствиях убийства, и ничто не мотивировало меня больше, чем идея убийцы, имеющего свободу жить нормальной жизнью после того, как он уничтожил так много других.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">There was never a shortage of bad guys in our slice of the world, and for whatever reason, some of the most sensational crimes in contemporary history occurred in Contra Costa County.</su>
+          <su lang="ru">В нашей части мира никогда не было недостатка в плохих парнях, и по какой -то причине некоторые из самых сенсационных преступлений в современной истории произошли в округе Контра Коста.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In 2003, the bodies of Laci Peterson and her unborn son, Conner, washed up a day apart on our shores, four months after Laci's husband, Scott, dumped her body into the freezing cold waters of the San Francisco Bay.</su>
+          <su lang="ru">В 2003 году тела Лэйси Петерсон и её нерожденного сына Коннера выбросило на наши берега с разницей в один день, через четыре месяца после того, как муж Лэйси Скотт сбросил её тело в ледяные воды залива Сан-Франциско.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I met mother and child in the morgue, and even with all of my experience with evil, it's something I'll never forget.</su>
+          <su lang="ru">Я встретил мать и дитя в морге, и даже при всём моём опыте общения со злом я никогда этого не забуду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Conner was less than a month from birth when Laci was murdered.</su>
+          <su lang="ru">Коннеру было меньше месяца от рождения , когда убили Лейси.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What kind of monster kills his eight-and-a-half-months-pregnant wife and goes about his life knowing she and his unborn son are anchored to the cold ocean floor with concrete blocks?</su>
+          <su lang="ru">Что за монстр убивает свою жену на восьмом с половиной месяце беременности и живёт своей жизнью, зная, что она и его ещё не родившийся сын прикованы к холодному океанскому дну бетонными блоками?</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">Six years after that, Jaycee Dugard, who'd been famously grabbed at her school bus stop in South Lake Tahoe in 1991, when she was eleven, was discovered 170 miles from home, living in a run of tents and lean-tos in the fenced backyard of her captors, sex offender Phillip Garrido and his wife, Nancy, in our jurisdiction.</su>
+          <su lang="ru">Шесть лет спустя Джейси Дугард, которую, как известно, схватили на школьной автобусной остановке в Саут-Лейк-Тахо в 1991 году, когда ей было одиннадцать лет, обнаружили в 170 милях от дома, живущей в палатках и навесах на огороженном заднем дворе своих похитителей, сексуального преступника Филиппа Гарридо и других. его жена Нэнси находится под нашей юрисдикцией.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">By then, she was twenty-nine and had given birth to two of Garrido's children.</su>
+          <su lang="ru">К тому времени ей исполнилось двадцать девять, и она родила Гарридо двоих детей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">For eighteen years, she had been right under our noses.</su>
+          <su lang="ru">Восемнадцать лет она была у нас под носом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My detective buddy John Conaty was at the scene with me shortly after Jaycee and her young children were rescued.</su>
+          <su lang="ru">Мой приятель детектив Джон Конати была со мной на месте происшествия вскоре после того, как Джейси и её маленькие дети были спасены.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"How the hell did we miss this?" he asked, looking around at the cruel, filthy environment that she'd been forced to live in for eighteen years.</su>
+          <su lang="ru">- Как, чёрт возьми, мы это пропустили? - спросил он, оглядывая жестокую, грязную среду, в которой она была вынуждена жить в течение восемнадцати лет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I just shook my head.</su>
+          <su lang="ru">Я только покачал головой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had no words.</su>
+          <su lang="ru">У меня не было слов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">I'd caught so many strange cases over the years.</su>
+          <su lang="ru">За эти годы я поймал так много странных случаев.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Even when a case wasn't mine, if I thought I could contribute, whether with my forensics expertise or investigative doggedness, I always found a way to insert myself.</su>
+          <su lang="ru">Даже когда дело не было моим, если я думал, что могу внести свой вклад, будь то с моим опытом судебной экспертизы или упрямством следователя, я всегда находил способ вмешаться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I always thought maybe I could see something that the last guy had missed.</su>
+          <su lang="ru">Я всегда думал, что, может быть, смогу увидеть что-то, что пропустил последний парень.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It wasn't arrogance; it was just that I wouldn't take no for an answer.</su>
+          <su lang="ru">Это не было высокомерием, просто я не принимала "нет" в качестве ответа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Both my wife and my ex-wife have ribbed me about being overly confident in myself and my abilities.</su>
+          <su lang="ru">И моя жена, и моя бывшая жена подтрунивали надо мной по поводу чрезмерной уверенности в себе и своих способностях.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">I'd say that's about half-right.</su>
+          <su lang="ru">Я бы сказал , что это примерно наполовину верно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can put on a good show when I have to, but I'm an introvert by nature and painfully reluctant when it comes to personal interactions.</su>
+          <su lang="ru">Я могу устроить хорошее шоу, когда это необходимо, но я интроверт по натуре и болезненно неохотно отношусь к личному общению.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Put me face-to- face with a neighbor at a cocktail party, and my insides are twisting in knots.</su>
+          <su lang="ru">Поставьте меня лицом к лицу с соседом на коктейльной вечеринке, и мои внутренности скрутятся в узлы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sitting with a group at a restaurant, I shrink from the conversation.</su>
+          <su lang="ru">Сидя с группой в ресторане, я уклоняюсь от разговора.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I am Paul the wallflower.</su>
+          <su lang="ru">Я - Поль уоллфлауэр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And speaking in front of large groups?</su>
+          <su lang="ru">А выступать перед большими группами?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When I first started, it was paralyzing.</su>
+          <su lang="ru">Когда я только начинал, это было парализующе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's better now that I've had so much experience talking about the high-profile cases I've been involved with, but it still requires a shot of bourbon before I take the stage.</su>
+          <su lang="ru">Теперь, когда у меня было так много опыта в разговорах о громких делах, в которых я участвовал , стало лучше, но всё равно требуется рюмка бурбона, прежде чем я выйду на сцену.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">I've always been most at home when I'm working on a case, my head buried in a file.</su>
+          <su lang="ru">Я всегда чувствовал себя как дома, когда работал над делом, уткнувшись головой в папку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I know I'm good at what I do and that I have a fighting chance at solving even the toughest cases that may have stumped others.</su>
+          <su lang="ru">Я знаю Я хорош в том, что делаю, и у меня есть боевой шанс раскрыть даже самые сложные дела, которые могли поставить в тупик других.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Before I ever earned the right, I never trusted anyone else's hunches about a homicide.</su>
+          <su lang="ru">До того как я заслужил это право, я никогда не доверял чужим догадкам об убийстве.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I'll think about it," I'd say skeptically.</su>
+          <su lang="ru">- Я подумаю , - скептически отвечал я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My instincts were made for this kind of work, and I almost always follow them. It takes a lot of time before I feel comfortable accepting someone else's impulses and ideas.</su>
+          <su lang="ru">Мои инстинкты были созданы для такого рода работы, и я почти всегда следую им. Проходит много времени, прежде чем я чувствую себя комфортно, принимая чужие импульсы и идеи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can see how that could be construed as egotistical, and there were times, especially when I was starting out, that I wasn't always popular.</su>
+          <su lang="ru">Я понимаю, как это может быть истолковано как эгоизм, и были времена, особенно когда я только начинал, когда я не всегда был популярен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The veteran criminalists never hesitated to let the rookie know when they thought I was overstepping my boundaries.</su>
+          <su lang="ru">Криминалисты-ветераны без колебаний давали знать новичку, когда считали, что я переступаю границы дозволенного.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I regularly heard, "That's not your job," then shrugged as I dove headfirst into an investigation.</su>
+          <su lang="ru">Я регулярно слышал: "Это не твоя работа", - а потом пожимал плечами, с головой погружаясь в расследование.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">So many cases, now reduced to files on a hard drive the size of a pack of cigarettes.</su>
+          <su lang="ru">Так много дел теперь сведено к файлам на жёстком диске размером с пачку сигарет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was kind of funny when I thought about it: the last vestiges of my long and distinguished law enforcement career fit into a single fifteen- by-twelve-by-ten-inch storage box.</su>
+          <su lang="ru">Это было забавно, когда я подумал об этом: последние остатки моей долгой и выдающейся карьеры в правоохранительных органах уместились в одной коробке размером пятнадцать на двенадцать на десять дюймов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I tossed in the drive, along with the book on serial predators my parents gave me as a birthday gift twenty-five years ago when I first started, the bowl, fork, and spoon I'd kept for all the meals I ate at my desk, and the tan leather coaster with the logo of a lab equipment company that came in handy for those long days that ended with a nightcap at my desk.</su>
+          <su lang="ru">Я бросил диск вместе с книгой о серийных хищниках, которую мои родители подарили мне на день рождения двадцать пять лет назад , когда я только начал, миской, вилкой и ложкой, которые я держал для всех блюд, которые я ел за своим столом, и коричневым кожаным подставкой с логотипом компания по производству лабораторного оборудования очень пригодилась в те долгие дни, которые заканчивались стаканчиком на ночь за моим столом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">Ripping a piece of packing tape from the roll, I prepared to seal the box when something caught my eye.</su>
+          <su lang="ru">Оторвав кусок упаковочной ленты от рулона, я приготовилась запечатать коробку, когда что-то привлекло моё внимание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The morning sun reflected off the glass of a picture frame, drawing my attention to the small cluster of family photographs on the credenza beside me.</su>
+          <su lang="ru">Утреннее солнце отражалось от стёкла рамы, привлекая моё внимание к небольшой группе семейных фотографий на столе рядом со мной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I almost forgot them.</su>
+          <su lang="ru">Я почти забыл о них.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were happy memories, long ago faded into the background of administrative paperwork and homicide case files.</su>
+          <su lang="ru">Это были счастливые воспоминания, давно отошедшие на задний план административной бумажной волокиты и дел об убийствах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My favorite had been taken a decade earlier, when my youngest son, Ben, was a toddler.</su>
+          <su lang="ru">Мой любимый снимок был сделан десять лет назад, когда мой младший сын Бен был совсем маленьким.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was shot from behind as the two of us walked away from a formal ceremony called Inspection of the Troops, me in my Sheriff's Office dress uniform-Smokey Bear hat, green jacket, and khaki trousers-my boy in a striped polo shirt and shorts, his little arms swinging as he tried to keep up with me.</su>
+          <su lang="ru">Выстрел был сделан сзади, когда мы вдвоём уходили с официальной церемонии под названием Инспекция войск, я в парадной форме шерифа - медвежья шапка Смоки, зелёная куртка и брюки цвета хаки, мой мальчик в полосатой рубашке поло и шортах, размахивая ручками, пытаясь не отстать от меня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">I paused to study the image, now faded with time.</su>
+          <su lang="ru">Я остановился, чтобы рассмотреть изображение, теперь выцветшее от времени.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My oldest son, Nathan, from my first marriage, had recently turned twenty-three, and I'd only just begun trying to get to know him.</su>
+          <su lang="ru">Моему старшему сыну Натану от первого брака недавно исполнилось двадцать три года, и я только начала пытаться узнать его поближе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I was learning how hard it was to foster a relationship, even when it was with my own kid, during weekly phone calls that began and ended with stories about video games.</su>
+          <su lang="ru">Во время еженедельных телефонных звонков, которые начинались и заканчивались рассказами о видеоиграх, я узнавал, как трудно наладить отношения, даже с собственным ребёнком.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">How could I expect my son to talk to me about things that mattered when I wasn't around for the things that mattered?</su>
+          <su lang="ru">Как я могла ожидать, что мой сын будет говорить со мной о вещах, которые имели значение, когда меня не было рядом для тех вещей, которые имели значение?</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">Nathan once told me that he didn't even remember me living in the house, he was so young when I left.</su>
+          <su lang="ru">Натан однажды сказал мне, что даже не помнит, чтобы я жила в этом доме, он был так молод, когда я уехала.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Ben was from my second marriage, but I feared I had been just as emotionally absent with him and his sister, Juliette, as I had with my first set of kids.</su>
+          <su lang="ru">Бен был от моего второго брака, но я боялась , что с ним и его сестрой Джульеттой я была так же эмоционально отстранена, как и с моей первой парой детей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Did I have regrets about not being there when they were learning to ride a bike or awakening from a bad dream?</su>
+          <su lang="ru">Сожалел ли я о том, что меня не было рядом, когда они учились ездить на велосипеде или пробуждались от плохого сна?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On my last day on the job, I was just beginning to realize the consequences of putting my career before everything else.</su>
+          <su lang="ru">В свой последний рабочий день я только начинал осознавать последствия того, что ставлю свою карьеру превыше всего остального.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I knew more now with the children I had with Sherrie than I did when Nathan and Renee were growing up, the kind of knowledge that comes with age and maturity, but in many ways, I had not changed at all.</su>
+          <su lang="ru">Теперь, когда у нас с Шерри были дети, я знала больше, чем когда росли Натан и Рене, - знание, которое приходит с возрастом и зрелостью, но во многих отношениях я совсем не изменилась.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">My second wife, Sherrie, had some of the same grievances that my first wife, Lori, did twenty-five years ago.</su>
+          <su lang="ru">Моя вторая жена Шерри испытывала те же обиды, что и моя первая жена Лори двадцать пять лет назад.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Like Lori, Sherrie interprets my reticence as not caring, which couldn't be further from the truth.</su>
+          <su lang="ru">Как и Лори, Шерри истолковывает мою сдержанность как безразличие, что не может быть дальше от истины.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She's told me she never knows what I'm thinking.</su>
+          <su lang="ru">Она сказала мне, что никогда не знает , о чём я думаю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Even when I'm home, I'm not "present," she says.</su>
+          <su lang="ru">Даже когда я дома, я не "присутствую", говорит она.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm always "in my head."</su>
+          <su lang="ru">Я всегда "в своей голове".</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why can't I take some time in the evenings to join her and our kids playing board games?</su>
+          <su lang="ru">Почему я не могу найти время по вечерам , чтобы присоединиться к ней и нашим детям, играющим в настольные игры?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've tried, but within minutes of sitting down, I'm squirming in my seat.</su>
+          <su lang="ru">Я пытался, но через несколько минут после того, как сел, я уже ёрзаю на стуле.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I move the little pawn around or toss the dice a few times, and my mind drifts to one of my cases.</su>
+          <su lang="ru">Я перемещаю маленькую пешку или бросаю кости несколько раз, и мои мысли возвращаются к одному из моих дел.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I can't even hide it.</su>
+          <su lang="ru">Я даже не могу этого скрыть .</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My lips move with my thoughts.</su>
+          <su lang="ru">Мои губы шевелятся в такт моим мыслям.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"You're gone again," Sherrie said the other night when she and the kids were talking at dinner, and I was pretending to hear.</su>
+          <su lang="ru">- Ты опять ушёл, - сказала Шерри однажды вечером, когда они с детьми разговаривали за ужином, а я притворялся, что слышу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"You're not listening," she said.</su>
+          <su lang="ru">- Ты меня не слушаешь, - сказала она.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"You look like a crazy old man with your lips moving."</su>
+          <su lang="ru">- Ты выглядишь как сумасшедший старик, когда шевелишь губами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">The only way I knew how to bond with my younger kids was the same as it was with my older two.</su>
+          <su lang="ru">Единственный способ установить связь со своими младшими детьми был таким же, как и с двумя старшими.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Take them outside and throw the ball.</su>
+          <su lang="ru">Выведи их на улицу и брось мяч.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's like "Cat's in the Cradle," that Harry Chapin song, the one where the father is too busy making something of himself to pay much attention to his son.</su>
+          <su lang="ru">Это как "Кошка в колыбели", песня Гарри Чапина, в которой отец слишком занят собой, чтобы уделять много внимания сыну.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The kid grows up, and the father retires.</su>
+          <su lang="ru">Ребёнок вырастает, а отец уходит на пенсию.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He calls his son to say he'd like to see him.</su>
+          <su lang="ru">Он звонит сыну и говорит, что хотел бы его видеть.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The son responds, I'd love to, Dad, if I can find the time.: And the father realizes, He'd grown up just like me.</su>
+          <su lang="ru">Сын отвечает: "С удовольствием, папа, если найду время".: И отец понимает, Он вырос, как и я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My boy was just like me.</su>
+          <su lang="ru">Мой мальчик был таким же, как я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I choke up whenever I hear it.</su>
+          <su lang="ru">Я задыхаюсь, когда слышу это.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It hits too close to home.</su>
+          <su lang="ru">Он бьёт слишком близко к дому.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My older daughter Renee and I were hiking recently, and she asked me questions about my marriage to her mom, Lori.</su>
+          <su lang="ru">Недавно мы с моей старшей дочерью Рене ходили в поход , и она задавала мне вопросы о моём браке с её мамой Лори.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Why did you leave us?" she asked.</su>
+          <su lang="ru">- Почему вы покинули нас? - спросила она.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Where did it go wrong?"</su>
+          <su lang="ru">- Где всё пошло не так?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I tried to reassure her, telling her that I would always love her mother, but we'd simply been too young to get married and eventually grew apart.</su>
+          <su lang="ru">Я попытался успокоить её, сказав, что всегда буду любить её мать, но мы просто были слишком молоды, чтобы пожениться, и в конце концов отдалились друг от друга.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It had nothing to do with her or Nathan, I said.</su>
+          <su lang="ru">Я сказал, что это не имеет никакого отношения ни к ней, ни к Натану.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I hoped they knew how much I loved them.</su>
+          <su lang="ru">Я надеялась, что они знают, как сильно я их люблю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"But Dad," she said, "you were just never there."</su>
+          <su lang="ru">- Но, папа, - сказала она, - тебя там никогда не было.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Tucking the framed photo of Ben and me into the side of the box, I took a last look around my office.</su>
+          <su lang="ru">Засунув нашу с Беном фотографию в рамку, я в последний раз оглядела кабинет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Fighting back all of the feelings that come with endings, I flipped off the light and closed the door behind me.</su>
+          <su lang="ru">Борясь со всеми чувствами, которые приходят с концами, я выключила свет и закрыла за собой дверь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This has been my whole life, I thought.</su>
+          <su lang="ru">"Это была вся моя жизнь", - подумал я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">With my box under my arm and a lump in my throat, I walked down the hallway to the stairs and onto Ward Street in the government district of the city.</su>
+          <su lang="ru">С коробкой под мышкой и комком в горле я прошёл по коридору к лестнице и вышел на Уорд-стрит в правительственном районе города.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was now part of my past.</su>
+          <su lang="ru">Теперь это стало частью моего прошлого.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The Sheriff's Office, where I'd gotten my start.</su>
+          <su lang="ru">Офис шерифа, где я начал свою карьеру.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The forensics library, where I'd slept on the floor after working a long night at a crime scene or reading case files into the wee hours of the morning.</su>
+          <su lang="ru">Библиотека криминалистов, где я спала на полу после долгой ночи работы на месте преступления или чтения досье до раннего утра.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The courthouse, where I'd testified dozens of times.</su>
+          <su lang="ru">Здание суда, где я давал показания десятки раз.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The jail, where I'd lifted weights during lunch hours.</su>
+          <su lang="ru">Тюрьма, где Во время обеда я поднимал тяжести.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The district attorney's office, where I'd spent the last few years.</su>
+          <su lang="ru">Окружная прокуратура, где Я провёл там последние несколько лет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Every law enforcement position I'd ever held was in Martinez, the birthplace of hometown hero Joe DiMaggio.</su>
+          <su lang="ru">Все должности в правоохранительных органах, которые я когда-либо занимал, были в Мартинесе, на родине героя родного города Джо Димаджио.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The city was a little rough around the edges, and night and day from where I lived in rural Vacaville, but it was home.</su>
+          <su lang="ru">Город был немного грубоват по краям, и днём и ночью от того места, где я жил в сельской местности Вакавиль, но это был дом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">Tomorrow I'd fill out a bunch of paperwork and be debriefed by the FBI about what I could and couldn't do as a private citizen.</su>
+          <su lang="ru">Завтра Я заполню кучу бумаг, и ФБР допросит меня о том, что я могу и чего не могу делать как частное лицо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You cannot divulge "top secret" information.</su>
+          <su lang="ru">Вы не можете разглашать "совершенно секретную" информацию.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You must protect your sources.</su>
+          <su lang="ru">Вы должны защищать свои источники.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd turn in my gun and my county car and officially retire from law enforcement.</su>
+          <su lang="ru">Я сдам свой пистолет и машину и официально уйду из правоохранительных органов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After that, there'd be time to think about the next chapter in my life.</su>
+          <su lang="ru">После этого у меня будет время подумать о следующей главе моей жизни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But there was still one thing I had to do before I closed this one.</su>
+          <su lang="ru">Но была ещё одна вещь, которую я должен был сделать, прежде чем закрою эту.</su>
+        </sentence>
+      </p>
+    </section>
+    <section type="h2">
+      <header>
+        <su lang="en">2 Last Act</su>
+        <su lang="ru">2 Последний акт</su>
+      </header>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">It was nearly noon when I finally snaked my way out of Martinez, my cardboard box of a career on the seat beside me.</su>
+          <su lang="ru">Был почти полдень, когда я, наконец, выбрался из Мартинеса, моя картонная коробка карьеры на сиденье рядом со мной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A veil of smog obscured the brilliant afternoon sun, just as it had in the spring of 1990 when I arrived after college for my first job interview with the county.</su>
+          <su lang="ru">Пелена смога закрыла яркое послеполуденное солнце, как это было весной 1990 года, когда я приехал после колледжа на своё первое собеседование с округом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I remembered thinking then that I was descending into hell after I drove across the mile-long truss bridge, over the sparkling swells of the Sacramento River Delta, and dropped down into the industrial landscape of oil refineries and spewing smokestacks that led to downtown.</su>
+          <su lang="ru">Я вспомнил, как подумал тогда, что спускаюсь в ад после того, как проехал по ферменному мосту длиной в милю, по сверкающим волнам дельты реки Сакраменто и упал в индустриальный ландшафт нефтеперерабатывающих заводов и извергающих дым труб, ведущих в центр города.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The landscape hadn't changed much since then.</su>
+          <su lang="ru">С тех пор пейзаж почти не изменился.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">Winding my way through the Shell oil refinery and up over the Benicia bridge, I headed north toward Interstate 80.</su>
+          <su lang="ru">Миновав нефтеперерабатывающий завод "Шелл" и поднявшись по мосту Бенисия, я направился на север, к межштатной автомагистрали 80.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On a good day, traffic should have been light in the early afternoon, but there is never a good day on California's clogged freeways.</su>
+          <su lang="ru">В хороший день движение должно было быть лёгким в начале дня, но на забитых автострадах Калифорнии никогда не бывает хорошего дня .</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was a long stretch of highway to get to where I was going.</su>
+          <su lang="ru">Это был длинный участок шоссе, чтобы добраться туда, куда я направлялся.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The news stations were prattling about Stormy Daniels and some study about Americans getting fatter.</su>
+          <su lang="ru">Новостные станции болтали о Сторми Дэниелс и каком - то исследовании о Американцы толстеют.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm not much of a talk radio kind of guy, and it's safe to say I'm probably what you'd call apolitical, so the playlist on the iPod was my go-to.</su>
+          <su lang="ru">Я не очень люблю ток-радио, и можно с уверенностью сказать, что я, вероятно, тот, кого вы назвали бы аполитичным, так что плейлист на iPod был моим любимым занятием.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Music was my therapy.</su>
+          <su lang="ru">Музыка была моей терапией.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Which kind depended on my mood.</su>
+          <su lang="ru">Какой именно, зависело от моего настроения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When I was pissed, after an argument at home, or a run-in at work, I punched in heavy metal.</su>
+          <su lang="ru">Когда я злился, после ссоры дома или стычки на работе, я бил кулаком по тяжёлому металлу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">Last week, it was Metallica, after a witness in a cold homicide blew up at me for bothering her at home.</su>
+          <su lang="ru">На прошлой неделе это была "Металлика", после того как свидетель холодного убийства взорвался на меня за то, что я побеспокоил её дома.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't do conflict well.</su>
+          <su lang="ru">Я плохо разбираюсь в конфликтах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Being raised in a military family, and strict Catholics to boot, you learn to keep your emotions locked up (which is not so good for maintaining relationships, I've learned), so I usually released mine in the gym or, in the case of that angry witness, by blasting headbanger music and drumming my fingers on the steering wheel.</su>
+          <su lang="ru">Будучи воспитанным в семье военных и строгих католиков в придачу, вы учитесь держать свои эмоции взаперти (что не очень хорошо для поддержания отношений, как я узнал), поэтому я обычно высвобождал свои в спортзале или, в случае с этим сердитым свидетелем, взрывая музыку хедбэнгера и барабаня мои пальцы на руле.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On most days, though, I turned to '70s ballads to relax-you know, Billy Joel, Jim Croce, Neil Diamond kind of stuff.</su>
+          <su lang="ru">Однако в большинстве случаев я обращался к балладам 70-х, чтобы расслабиться - ну, знаете, Билли Джоэл, Джим Кроче, Нил Даймонд и всё такое прочее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I didn't like feeling out of control, and my whole life was about to veer into a direction of unknowns.</su>
+          <su lang="ru">Мне не нравилось выходить из-под контроля, и вся моя жизнь вот-вот повернёт в неизвестном направлении.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">My house in Vacaville was on the market, and as soon as it sold, I was moving the family out of state to Colorado to enjoy the mountains.</su>
+          <su lang="ru">Мой дом в Вакавилле был выставлен на продажу, и как только он будет продан, я перевезу семью из штата в Колорадо, чтобы насладиться горами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At the time, I wasn't sure what I would do for work.</su>
+          <su lang="ru">В то время я не был уверен , чем буду заниматься на работе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd thought about starting my own business, Paul Holes Investigates, and because I'd had a fair amount of media exposure from my high-profile cases, I'd been approached by TV producers about possibly consulting on one of those crime channels or news magazine shows.</su>
+          <su lang="ru">Я подумывала о том, чтобы открыть собственное дело, Пол Holes расследует, и поскольку мои громкие дела были довольно широко освещены в средствах массовой информации, ко мне обратились телепродюсеры с просьбой дать консультацию по одному из этих криминальных каналов или шоу в новостных журналах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But nothing was certain, and the uncertainty made me nervous.</su>
+          <su lang="ru">Но ни в чём нельзя было быть уверенным, и эта неопределённость заставляла меня нервничать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd suffered from panic attacks since I was a kid, and the music helped to keep my anxiety in check.</su>
+          <su lang="ru">Я страдал от приступов паники с детства, и музыка помогала держать мою тревогу в узде.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">As my car inched along the highway, my left leg jackhammered into the car floor, and I tried to unwind to Elton John's "Tiny Dancer," my all-time favorite song.</su>
+          <su lang="ru">Когда моя машина медленно двигалась по шоссе, моя левая нога врезалась в пол, и я попытался расслабиться под "Крошечную танцовщицу" Элтона Джона, мою самую любимую песню.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pretty eyed, pirate smile : you must have seen her dancing in the sand.</su>
+          <su lang="ru">Хорошенькие глазки, пиратская улыбка: вы, должно быть, видели, как она танцует на песке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And now she's in me : tiny dancer in my hand.</su>
+          <su lang="ru">А теперь она во мне: крошечная танцовщица в моей руке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Cranking up the volume, I sang along, which I often did when I was alone and restless.</su>
+          <su lang="ru">Прибавив громкость, я подпевала , что часто делала, когда была одна и беспокоилась.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After four or five replays, and a break in the traffic, my anxiety began to subside.</su>
+          <su lang="ru">После четырёх или пяти повторов и перерыва в движении моё беспокойство начало спадать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">As often happened in quieter moments, my mind took a turn to the inevitable, the Golden State Killer, the masked madman who had raped and murdered his way up and down our state and had never been caught.</su>
+          <su lang="ru">Как это часто случалось в более спокойные моменты, мои мысли обратились к неизбежному, к Золотому Штату Убийца, сумасшедший в маске, который насиловал и убивал по всему нашему штату и так и не был пойман.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Cold cases were my passion; this one was an obsession.</su>
+          <su lang="ru">Нераскрытые дела были моей страстью, а этот - навязчивой идеей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It had stumped every investigator who had looked into it-and believe me, there had been hundreds.</su>
+          <su lang="ru">Это ставило в тупик каждого исследователя, который занимался этим делом, - а их, поверьте мне, были сотни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Over forty years, more resources had been pumped into trying to solve it than any other case in California history, and it had still remained in the cold case files.</su>
+          <su lang="ru">За сорок лет на его раскрытие было затрачено больше ресурсов, чем на любое другое дело в истории Калифорнии, и оно всё ещё оставалось в архивах "холодного дела".</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had revisited it repeatedly since the day in 1994 when, as a curious neophyte criminalist, I stumbled across it in an abandoned file cabinet in our forensics library.</su>
+          <su lang="ru">Я неоднократно возвращался к ней с того дня в 1994 году, когда, будучи любопытным криминалистом-неофитом, наткнулся на неё в заброшенном картотечном шкафу нашей библиотеки криминалистики.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There were other cases I hadn't been able to crack, and I took each one personally, but that one weighed on me more than the others-mostly because the offender had outwitted some of the best criminal investigative minds in the business.</su>
+          <su lang="ru">Были и другие дела, которые мне не удавалось раскрыть, и я брался за каждое лично, но это давило на меня больше, чем другие, - главным образом потому, что преступник перехитрил некоторых из лучших умов уголовного розыска в этом бизнесе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And I believed he was still out there.</su>
+          <su lang="ru">И я верил, что он всё ещё там.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">For ten years in the '70s and '80s, he'd cut a wide swath of psychological terror across the state with his meticulously planned attacks, breaking into homes in the middle of the night, tying up his terrified victims, viciously attacking both men and women, sometimes in front of their young kids, before eventually graduating to murder-his preferred method bludgeoning.</su>
+          <su lang="ru">В течение десяти лет, в 70-80-е годы, он прорезал широкую полосу психологического террора по всему штату своими тщательно спланированными нападениями, врываясь в дома посреди ночи, связывая своих перепуганных жертв, злобно нападая как на мужчин, так и на женщин, иногда на глазах у их маленьких детей. прежде чем в конце концов перейти к убийству - его излюбленному методу дубинки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The guy was a psychological sadist.</su>
+          <su lang="ru">Этот парень был психологическим садистом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"If you cause any problems, I'll chop up the kids.</su>
+          <su lang="ru">- Если ты создашь какие-нибудь проблемы, я порежу детей на куски.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'll bring you one of their ears," he told one of his victims before taking the man's wife into another room and repeatedly raping her.</su>
+          <su lang="ru">Я принесу тебе одно из их ушей", - сказал он одной из своих жертв , прежде чем отвести жену мужчины в другую комнату и несколько раз изнасиловать её.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Before the attacks suddenly stopped in 1986, he'd killed at least a dozen people and savagely raped more than fifty women.</su>
+          <su lang="ru">Прежде чем нападения внезапно прекратились в 1986 году, он убил по меньшей мере дюжину человек и жестоко изнасиловал более пятидесяти женщин.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="en">Some people thought he was dead, but not me.</su>
+          <su lang="ru">Некоторые люди думали, что он мёртв, но не я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I imagined him living an obscure life in some middle-class neighborhood in suburbia, a place where no one would ever suspect that a serial killer was among them.</su>
+          <su lang="ru">Я представлял себе, как он ведёт безвестную жизнь в каком -нибудь районе среднего класса в пригороде, где никто никогда не заподозрит , что среди них есть серийный убийца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was either one lucky SOB or as cunning as a fox, and probably both.</su>
+          <su lang="ru">Он был либо удачливым рыдваном, либо хитрым , как лиса, а возможно, и тем и другим.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Most people believe the myth that serial killers can't stop, but they can, and they do.</su>
+          <su lang="ru">Большинство людей верят в миф о том, что серийные убийцы не могут остановиться, но они могут, и они это делают.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Some have long, dormant stretches, and some stop altogether, usually either because they come close to being caught or they substitute something else for their killing habit-a hobby, a new marriage, starting a family.</su>
+          <su lang="ru">Некоторые из них дремлют долго, а некоторые вообще останавливаются, обычно либо потому, что их вот-вот поймают, либо заменяют свою привычку убивать чем-то другим - хобби, новым браком, созданием семьи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sometimes they just get too old.</su>
+          <su lang="ru">Иногда они просто становятся слишком старыми.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Crazy, right?</su>
+          <su lang="ru">Сумасшедший, верно?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It had always nagged at me that he was probably somewhere out there living his life-driving his car, taking trips to the hardware store, enjoying family dinners-after wrecking so many other lives.</su>
+          <su lang="ru">Меня всегда мучила мысль, что он, вероятно, где-то там живёт своей жизнью - водит машину, ходит в хозяйственный магазин, наслаждается семейными обедами - после того, как разрушил так много других жизней.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And probably laughing at all of us who weren't able to catch him.</su>
+          <su lang="ru">И, вероятно, смеётся над всеми нами, кто не смог его поймать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="en">Before he was called the Golden State Killer in a 2013 magazine story by Michelle McNamara, who would become my friend and confidant, he was known as the Original Nightstalker, and before that, the East Area Rapist, or EAR.</su>
+          <su lang="ru">До того как Мишель назвала его убийцей Голден Стэйт в журнале 2013 года Макнамара, который станет моим другом и доверенным лицом, был известен как Первый Ночной Охотник, а до этого - Насильник из Восточного района, или УХО.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The titles evolved as his crimes progressed, from fetish burglaries, to vicious sexual assaults in the middle of the night, to murder.</su>
+          <su lang="ru">Названия развивались по мере развития его преступлений - от фетишистских краж со взломом до жестоких сексуальных нападений посреди ночи и убийств.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He adopted the nicknames, using them to taunt us.</su>
+          <su lang="ru">Он взял себе эти прозвища, используя их, чтобы насмехаться над нами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I remember getting hold of an old recording of a call made during the EAR phase to Sacramento Dispatch from a man claiming to be him.</su>
+          <su lang="ru">Я помню, как мне попалась старая запись звонка, сделанного во время фазы УХА в "Сакраменто Депеш" от человека, назвавшегося им.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="en">"This is the East Area Rapist, you dumb fuckers," he says.</su>
+          <su lang="ru">- Это Насильник из Восточного района, тупые ублюдки, - говорит он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I'm gonna fuck again tonight.</su>
+          <su lang="ru">- Сегодня вечером я снова буду трахаться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Careful."</su>
+          <su lang="ru">Осторожнее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="en">The voice was menacing.</su>
+          <su lang="ru">Голос звучал угрожающе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Cocky.</su>
+          <su lang="ru">Самоуверенно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Taunting.</su>
+          <su lang="ru">Насмешка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Brash.</su>
+          <su lang="ru">Нахально.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I played it over and over.</su>
+          <su lang="ru">Я проигрывал его снова и снова.</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="en">"You know about this recording?"</su>
+          <su lang="ru">- Вы знаете об этой записи?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I asked Ken Clark, a detective with Sacramento Sheriff's Homicide who'd put plenty of time in on the investigation.</su>
+          <su lang="ru">Я спросил Кена Кларка, детектива из Сакраменто Убойный отдел шерифа, который потратил много времени на расследование.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="en">"Oh yeah," he said.</su>
+          <su lang="ru">- О да, - сказал он.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="en">"You think it's him?"</su>
+          <su lang="ru">- Ты думаешь, это он?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Likely."</su>
+          <su lang="ru">- Скорее всего.</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="en">"It really pisses me off," I said.</su>
+          <su lang="ru">- Меня это действительно бесит, - сказал я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="en">"Absolutely," Clark said.</su>
+          <su lang="ru">- Совершенно верно, - согласился я. - Спросил Кларк.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"That's what he wanted."</su>
+          <su lang="ru">- Именно этого он и хотел.</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence>
+          <su lang="en">Two years after that call in 1977, his cat and mouse game escalated to murder.</su>
+          <su lang="ru">Через два года после этого звонка в 1977 году его игра в кошки-мышки переросла в убийство.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="en">OVER THE TWO-PLUS DECADES THAT I'D been looking into the cold case, I'd witnessed the suffering of the mothers and fathers and sons and daughters and brothers and sisters of some of his victims.</su>
+          <su lang="ru">ЗА ТЕ ДВА С ЛИШНИМ ДЕСЯТИЛЕТИЯ, ЧТО я занимался этим делом, я был свидетелем страданий матерей и отцов, сыновей и дочерей, братьев и сестёр некоторых из его жертв.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd studied the crime scene photos of his sadistic handiwork.</su>
+          <su lang="ru">Я изучила фотографии с места преступления, сделанные его садистскими руками.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd spent hours listening to the stories of men and women who, either by the grace of God or their own raw courage, had somehow survived his merciless attacks, only to be haunted still decades later by what he had done to them.</su>
+          <su lang="ru">Я часами слушал рассказы мужчин и женщин , которые, то ли по милости Божьей, то ли благодаря собственной необузданной храбрости, каким-то образом пережили его безжалостные атаки, но спустя десятилетия их всё ещё преследовало то, что он с ними сделал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="en">Not long ago, my cell phone rang.</su>
+          <su lang="ru">Не так давно зазвонил мой мобильный телефон.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The woman on the other end sounded like she was about to fall apart.</su>
+          <su lang="ru">Голос женщины на другом конце провода звучал так, словно она вот-вот развалится на части.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I know he's coming back to get me, so I'm moving to Mexico," she said.</su>
+          <su lang="ru">- Я знаю, что он вернётся за мной, поэтому переезжаю в Мексика, - сказала она.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It had been thirty years since he broke into her home in the middle of the night and terrorized her family.</su>
+          <su lang="ru">Прошло тридцать лет с тех пор, как он ворвался в её дом посреди ночи и терроризировал её семью.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Those were the people that drove me relentlessly to pursue the case, and they had been counting on me to get him.</su>
+          <su lang="ru">Это были те люди , которые безжалостно подталкивали меня к расследованию, и они рассчитывали, что я доберусь до него.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"We know you'll be the one to do it."</su>
+          <su lang="ru">- Мы знаем, что это сделаешь ты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd heard that so many times.</su>
+          <su lang="ru">- Я слышала это много раз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="en">I hated disappointing her.</su>
+          <su lang="ru">Мне не хотелось разочаровывать её.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I hated disappointing all of them.</su>
+          <su lang="ru">Я ненавидела разочаровывать их всех.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After working the case in between other open cases, usually on my own time, I'd spent the last few years of my career making the Golden State Killer, or GSK, my top priority.</su>
+          <su lang="ru">Работая над этим делом в перерывах между другими открытыми делами, обычно в свободное время, я провёл последние несколько лет своей карьеры, делая Убийцу Голден Стэйт, или GSK, своим главным приоритетом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd scrutinized thousands of police documents and witness statements and interviewed everyone I could who was associated with the case and still alive.</su>
+          <su lang="ru">Я тщательно изучил тысячи полицейских документов и свидетельских показаний и опросил всех, кто был связан с этим делом и всё ещё жив.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The obsession ran over into weekends, while I was mowing the lawn or playing with the kids.</su>
+          <su lang="ru">Эта навязчивая идея перешла в выходные, когда я косила газон или играла с детьми.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Even on Christmas Day, when the rest of the family opened presents, it was GSK who was on my mind.</su>
+          <su lang="ru">Даже на Рождество, когда остальные члены семьи открывали подарки, я думал только о Джи-Си.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And through the long nights, when I searched computer databases for clues and drew geographic profiles of his crimes to try to determine his home base, the case played like an endless movie in my head.</su>
+          <su lang="ru">И в течение долгих ночей, когда я рылся в компьютерных базах данных в поисках улик и рисовал географические профили его преступлений, пытаясь определить его домашнюю базу, дело крутилось в моей голове, как бесконечный фильм.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His victims haunted my dreams.</su>
+          <su lang="ru">Его жертвы преследовали меня во сне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="en">People like Mary, one of the youngest.</su>
+          <su lang="ru">Люди любят Мэри, одна из самых молодых.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was headed into eighth grade when he forced his way into her life in 1979.</su>
+          <su lang="ru">Она училась в восьмом классе, когда он ворвался в её жизнь в 1979 году.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Barely thirteen, she still had a playhouse in the back of her home, and her hobby was hopscotch.</su>
+          <su lang="ru">Ей едва исполнилось тринадцать, но у неё всё ещё был игровой домик на задворках дома, и её хобби были классики.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That summer, he broke into her Walnut Creek home at four in the morning through the sliding glass doors.</su>
+          <su lang="ru">Тем летом он вломился к ней Уолнат-Крик домой в четыре утра через раздвижные стеклянные двери.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As her father and sister slept in adjoining rooms, he slipped into hers.</su>
+          <su lang="ru">Пока её отец и сестра спали в соседних комнатах, он проскользнул в её.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She awoke to him straddling her, a knife to her throat.</su>
+          <su lang="ru">Она проснулась оттого, что он оседлал её, приставив нож к её горлу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I hope you're good," he said in a menacing whisper.</su>
+          <su lang="ru">- Надеюсь, ты справишься, - угрожающе прошептал он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She didn't know what he meant.</su>
+          <su lang="ru">Она не поняла, что он имел в виду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He pulled off her covers and savagely raped her in her pretty pink bedroom with unicorns painted on the walls.</su>
+          <su lang="ru">Он стянул с неё одеяло и жестоко изнасиловал её в её хорошенькой розовой спальне с нарисованными единорогами на стенах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mary waited nearly an hour after he was finally gone to free herself from her leg ties.</su>
+          <su lang="ru">Мэри ждала почти час после того, как он наконец ушёл , чтобы освободиться от пут на ногах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He'd threatened to kill her family if she told, so she'd waited to be certain he was gone.</su>
+          <su lang="ru">Он угрожал убить её семью, если она расскажет, поэтому она ждала, чтобы убедиться, что он ушёл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Still shackled at the wrists, she ran to wake up her father.</su>
+          <su lang="ru">Всё ещё скованная наручниками, она побежала будить отца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All these years later, she lived with the echo of her father's voice screaming to her sister, "Get those things off her!"</su>
+          <su lang="ru">Все эти годы она жила с эхом голоса своего отца, кричавшего сестре: "Сними с неё эти штуки!".</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Soon after, Mary had asked a friend's older sister, "Am I still a virgin?"</su>
+          <su lang="ru">Вскоре после этого Мэри спросила старшую сестру своего друга: "Я всё ещё девственница?".</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="en">Three years after the attack, she found her father dead in his bed.</su>
+          <su lang="ru">Через три года после нападения она нашла своего отца мёртвым в постели.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was certain he died of a broken heart.</su>
+          <su lang="ru">Она была уверена, что он умер от разрыва сердца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I didn't doubt it.</su>
+          <su lang="ru">Я в этом не сомневался.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I have two daughters.</su>
+          <su lang="ru">У меня две дочери.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm not sure I could survive the grief and regret of not being able to protect my children.</su>
+          <su lang="ru">Я не уверена, что смогу пережить горе и сожаление из-за того, что не смогу защитить своих детей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Mary was robbed of her innocence and her peace of mind.</su>
+          <su lang="ru">Мэри лишили невинности и душевного покоя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She'd spent her life looking over her shoulder, wondering if he was still out there somewhere, watching.</su>
+          <su lang="ru">Она потратила всю свою жизнь оглядываясь через плечо, гадая, не наблюдает ли он за ней.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="en">The monster had stolen so much from so many.</su>
+          <su lang="ru">Монстр украл так много у стольких.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Surely there had to be a reckoning for him.</su>
+          <su lang="ru">Конечно, за него должна быть расплата.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I worried that, after I retired, no one else would take up where I had left off.</su>
+          <su lang="ru">Я беспокоился, что после того, как я уйду на пенсию, никто больше не займётся тем, на чём я остановился.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The investigation would, once again, get tossed into a file cabinet and be all but forgotten-the way I'd found it-and the people who had counted on me to solve it would never forgive me.</su>
+          <su lang="ru">Расследование снова будет брошено в картотеку и почти забыто - в том виде, в каком я его нашёл, - а люди, которые рассчитывали, что я его раскрою , никогда мне этого не простят.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What would happen to them, those whose lives had been ruined?</su>
+          <su lang="ru">Что будет с ними, с теми, чья жизнь была разрушена?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">How would they ever get the little bit of peace that comes with knowing?</su>
+          <su lang="ru">Как они когда-нибудь получат тот маленький кусочек покоя, который приходит со знанием?</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence>
+          <su lang="en">So many times over the years I thought I was close to solving the case, only to be bitterly disappointed when I was proven wrong by DNA.</su>
+          <su lang="ru">Столько раз за эти годы я думал, что близок к раскрытию этого дела, но был горько разочарован, когда ДНК доказала мою неправоту.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The last time had been just a couple of weeks earlier, and it was gut crushing.</su>
+          <su lang="ru">Последний раз это было всего пару недель назад, и это было ужасно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd recently discovered something within genetic genealogy called DNA segment triangulation, a process that could determine biological relationships by combining DNA profiling-which we had for GSK-with genealogical research from paid private ancestry websites.</su>
+          <su lang="ru">Недавно я обнаружил в генетической генеалогии нечто, называемое триангуляцией сегментов ДНК, процесс, который мог определять биологические отношения, комбинируя профилирование ДНК - которое мы использовали для GSK - с генеалогическими исследованиями с платных частных сайтов происхождения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It had gotten my attention when I'd heard it was successful in identifying a woman who was abandoned as a small child.</su>
+          <su lang="ru">Это привлекло моё внимание, когда я услышал, что он успешно опознал женщину, которую бросили в детстве.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We didn't know who the little girl was or where she came from, and she had been too young to remember much that could help us.</su>
+          <su lang="ru">Мы не знали, кто эта маленькая девочка и откуда она взялась, а она была слишком мала, чтобы помнить что-то, что могло бы нам помочь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For years, we'd tried to identify her using traditional methods, and we'd always failed.</su>
+          <su lang="ru">В течение многих лет мы пытались опознать её традиционными методами, но всегда терпели неудачу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then, during a conference call about another case, I'd heard that she had finally been identified using DNA segment triangulation.</su>
+          <su lang="ru">Затем, во время селекторного совещания по другому делу, я услышал, что её наконец-то опознали с помощью триангуляции сегментов ДНК.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I started to wonder, could that same tool lead us to the Golden State Killer?</su>
+          <su lang="ru">Я начал задаваться вопросом, может ли тот же самый инструмент привести нас к Убийце Голден Стэйт?</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="en">For several months I had been working with a small task force of investigators, crime analysts, and the same skilled genealogist who'd assisted in the other case; we were comparing DNA profiles and dissecting family trees to come up with a handful of leads for GSK.</su>
+          <su lang="ru">В течение нескольких месяцев я работал с небольшой оперативной группой следователей, криминалистов и того же квалифицированного генеалога, который помогал в другом деле; мы сравнивали профили ДНК и анализировали генеалогические древа, чтобы найти несколько зацепок для GSK.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Through a process of elimination, we'd whittled down the list to a small group of men who were roughly the right age and had been living in California during the time of the attacks.</su>
+          <su lang="ru">В процессе исключения мы сократили список до небольшой группы мужчин примерно подходящего возраста, которые жили в Калифорнии во время нападений.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">From there, we'd narrowed the search even further using physical descriptions from some of the victims.</su>
+          <su lang="ru">С этого момента мы ещё больше сузили круг поисков, используя физические описания некоторых жертв.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="en">I'd zeroed in on one suspect that looked the most promising to me and spent the last few weeks before my retirement investigating him.</su>
+          <su lang="ru">Я сосредоточился на одном подозреваемом, который казался мне наиболее многообещающим, и провёл последние несколько недель перед уходом на пенсию, расследуя его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was a Colorado construction worker whose personal and geographical profiles closely corresponded with those of the Golden State Killer.</su>
+          <su lang="ru">Он был строительным рабочим из Колорадо, чьи личные и географические данные тесно совпадали с данными Убийцы из Голден-Стейт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I think we've got our guy," I told my FBI buddy Steve Kramer.</su>
+          <su lang="ru">- Думаю, наш парень у нас, - сказал я своим Приятель из ФБР Стив Крамер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"His piece of shit uncle was a rapist.</su>
+          <su lang="ru">- Его дерьмовый дядя был насильником.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There's a family thing going on here."</su>
+          <su lang="ru">Здесь происходит что- то семейное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I was so sure we had a fit, and I was ready to tie up the case and my career with a big bow.</su>
+          <su lang="ru">Я был так уверен, что у нас припадок, и был готов связать это дело и свою карьеру большим бантом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Until I got the call from Kramer telling me that the DNA results from the construction worker's sister showed she was not the sister of GSK, which eliminated him as a suspect.</su>
+          <su lang="ru">Пока мне не позвонили из Крамер сказал мне, что результаты ДНК сестры строителя показали, что она не была сестрой GSK, что исключило его из числа подозреваемых.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I hung up the phone and dropped my head on the desk.</su>
+          <su lang="ru">Я повесил трубку и уронил голову на стол.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I was devastated.</su>
+          <su lang="ru">Я был опустошён.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was at that moment that I resigned myself to the fact that my last real shot at getting the Golden State Killer was gone.</su>
+          <su lang="ru">Именно в этот момент я смирился с тем фактом, что мой последний реальный шанс поймать Убийцу Голден Стэйт пропал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="en">There was this other guy, though.</su>
+          <su lang="ru">Но был ещё один парень.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This match was someone who in forty years had never appeared on the radar screen in any of the previous investigations.</su>
+          <su lang="ru">Этот матч был кем-то, кто за сорок лет ни разу не появлялся на экране радара ни в одном из предыдущих расследований.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His name popped up, like the guy's in Colorado, because the DNA profiles of a second and third cousin triangulated back to him through their family trees.</su>
+          <su lang="ru">Его имя всплыло, как и имя парня из Колорадо, потому что профили ДНК второго и третьего кузенов триангулировались обратно к нему через их генеалогические древа.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The distant cousins who'd signed up with the private ancestry website had no idea their profiles were used to try to track a notorious serial killer.</su>
+          <su lang="ru">Дальние родственники, зарегистрировавшиеся на сайте "частная родословная", понятия не имели, что их профили использовались для розыска печально известного серийного убийцы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="en">I'd done some preliminary research in the days after the latest disappointment, and he matched some of the criteria.</su>
+          <su lang="ru">Я провёл кое-какие предварительные исследования в дни после последнего разочарования, и он соответствовал некоторым критериям.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was around the right height at five feet eleven.</su>
+          <su lang="ru">Он был примерно того же роста - пять футов одиннадцать дюймов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was seventy-two years old, a little older than I'd thought the killer would be now, but that didn't eliminate him.</su>
+          <su lang="ru">Ему было семьдесят два года, немного больше, чем я предполагал , но это не исключало его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He lived in a suburb of Sacramento in the general area where I'd predicted the killer lived.</su>
+          <su lang="ru">Он жил в пригороде Сакраменто, в том самом районе, где, как я и предполагал, жил убийца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His name was Joseph DeAngelo, and, an interesting little detail: he was a former cop.</su>
+          <su lang="ru">Его звали Джозеф Деанджело, и любопытная маленькая деталь: он был бывшим полицейским.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Still, I wasn't expecting much.</su>
+          <su lang="ru">И всё же я не ожидал многого.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'd had suspects with more circumstantial evidence suggesting they should be looked at, and they were all eliminated with DNA.</su>
+          <su lang="ru">У меня были подозреваемые с большим количеством косвенных улик, предполагающих, что их следует рассмотреть, и все они были устранены с помощью ДНК.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What was the likelihood that this guy would be any different?</su>
+          <su lang="ru">Какова вероятность того, что этот парень будет другим?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Based on my theories about GSK, the Colorado suspect had been a much better fit.</su>
+          <su lang="ru">Основываясь на моих теориях о GSK, подозреваемый из Колорадо подходил гораздо лучше.</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="en">IT WAS RIGHT AROUND 2:30 P.M. when I turned off of I-80 onto Antelope Road, the main artery connecting strip malls, chain restaurants, and neighborhoods across Citrus Heights.</su>
+          <su lang="ru">БЫЛО ОКОЛО 2:30 пополудни, когда я свернул с I-80 на Антилопу-роуд, главную артерию, соединяющую торговые центры, сетевые рестораны и соседние районы. Цитрусовые Высоты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Home was an hour in the rearview mirror.</su>
+          <su lang="ru">Дом был часом в зеркале заднего вида.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was almost like I was on automatic pilot when I passed my exit.</su>
+          <su lang="ru">Это было почти так же, как если бы я был на автопилоте, когда я проходил мимо своего выхода.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I hadn't even slowed down.</su>
+          <su lang="ru">Я даже не притормозил.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I knew I had more digging to do into Joseph DeAngelo, but with this being my last day, I told myself I would use the time for a stop.</su>
+          <su lang="ru">Я знал Мне ещё предстояло покопаться в Джозефе Деанджело, но это был мой последний день, Я сказал себе, что использую это время для остановки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I did that in all of my cases-checked out where a suspect lived and worked in order to get some sense of who they were.</su>
+          <su lang="ru">Я делал это во всех своих случаях - проверял, где живёт и работает подозреваемый, чтобы получить хоть какое-то представление о том, кто он такой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="en">Citrus Heights sits on fourteen square miles of Sacramento County countryside.</su>
+          <su lang="ru">Цитрусовые Хайтс расположен на четырнадцати квадратных милях сельской местности округа Сакраменто.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's a nice place to live.</su>
+          <su lang="ru">Это хорошее место для жизни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's clean and safe, with parks and ballfields, plenty of retail and food chains to accommodate the booming real estate market, and small-town traditions like free movies in the square on Saturday nights.</su>
+          <su lang="ru">Он чистый и безопасный, с парками и бейсбольными полями, множеством торговых и продовольственных сетей, чтобы приспособиться к быстро растущему рынку недвижимости, и традициями маленьких городков, такими как бесплатные фильмы на площади по субботам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="en">DeAngelo owned a house in a '70s subdivision surrounded by more subdivisions, most with the misleading word "Estates" in the name.</su>
+          <su lang="ru">Деанджело владел домом в подразделении 70-х годов, окружённом ещё несколькими подразделениями, большинство из которых содержали вводящее в заблуждение слово "Поместья" в названии.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's an area of cookie-cutter homes, smooshed together with wooden privacy fences offering only the flimsiest sense of separation.</su>
+          <su lang="ru">Это район домов для печенья, смешанных вместе с деревянными заборами уединения, предлагающими только самое хрупкое чувство разделения.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I swung off of Antelope and navigated a tangle of intersecting streets, with cul-de-sacs and concrete sidewalks and yellow signs cautioning drivers to watch for CHILDREN AT PLAY, until I saw Canyon Oak Drive.</su>
+          <su lang="ru">Я свернул с "Антилопы" и поплёлся по путанице пересекающихся улиц с тупиками, бетонными тротуарами и жёлтыми знаками, предупреждающими водителей следить за ИГРАЮЩИМИ ДЕТЬМИ, пока не увидел Каньон Оук Драйв.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Counting down to number 8316, I pulled alongside the curb opposite the house, a nondescript tan ranch.</su>
+          <su lang="ru">Отсчитав до номера 8316, я притормозила у тротуара напротив дома, невзрачного коричневого ранчо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="en">The garage doors were closed.</su>
+          <su lang="ru">Двери гаража были закрыты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A Volvo sedan and a fishing boat on a trailer were parked in the driveway.</su>
+          <su lang="ru">На подъездной дорожке стояли седан "Вольво" и рыбацкая лодка на прицепе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The landscaping grabbed my attention.</su>
+          <su lang="ru">Ландшафтный дизайн привлёк моё внимание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Even in this tidy neighborhood, with plenty of pride of ownership, his yard stood out.</su>
+          <su lang="ru">Даже в этом опрятном районе, где было много гордости за собственность, его двор выделялся.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was meticulous, right down to the edging along the property.</su>
+          <su lang="ru">Всё было тщательно продумано, вплоть до края участка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Not a blade of grass out of place.</su>
+          <su lang="ru">Ни одной травинки на своём месте.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For some reason he'd set three large boulders purposefully but seemingly randomly on the front lawn, I guess for decorative purposes.</su>
+          <su lang="ru">По какой-то причине он поставил три больших валуна целенаправленно, но, казалось бы, беспорядочно на лужайке перед домом, наверное, в декоративных целях.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I backed up a bit, trying to get a view of the backyard, then pulled forward again, put the car in park, and cut the engine.</su>
+          <su lang="ru">Я немного сдал назад, пытаясь разглядеть задний двор, затем снова рванул вперёд, припарковал машину и заглушил двигатель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The blinds were closed, but I knew he was home.</su>
+          <su lang="ru">Жалюзи были закрыты, но я знала, что он дома.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After so many years of sitting in front of suspects' houses, you just know those things.</su>
+          <su lang="ru">После стольких лет сидения перед домами подозреваемых вы просто знаете эти вещи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's a feeling you learn to trust.</su>
+          <su lang="ru">Это чувство, которому ты учишься доверять.</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence>
+          <su lang="en">The yearning to go to the door was overwhelming.</su>
+          <su lang="ru">Желание подойти к двери было непреодолимым.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I should just go and introduce myself.</su>
+          <su lang="ru">Я должен просто пойти и представиться.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My mind raced and my anxiety was ratcheting up again.</su>
+          <su lang="ru">Мой разум лихорадочно работал, и моё беспокойство снова усилилось.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sitting there, I contemplated possible scenarios.</su>
+          <su lang="ru">Сидя там, я обдумывал возможные варианты развития событий.</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence>
+          <su lang="en">In the first one, I walk up to the front door and knock.</su>
+          <su lang="ru">В первом случае я подхожу к входной двери и стучу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Joe answers.</su>
+          <su lang="ru">- Отвечает Джо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence>
+          <su lang="en">I introduce myself: "Hi, I'm Paul Holes, Contra Costa County cold case investigator.</su>
+          <su lang="ru">Я представился: "Здравствуйте, я Пол Холес, следователь по уголовным делам округа Контра Коста.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've been looking into this series of unsolved cases and:"</su>
+          <su lang="ru">Я изучал эту серию нераскрытых дел и...</su>
+        </sentence>
+      </p>
+      <p type="text" id="95">
+        <sentence>
+          <su lang="en">He looks curious but not suspicious.</su>
+          <su lang="ru">Он выглядит любопытным, но не подозрительным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We immediately establish a rapport, bonded by the uniform.</su>
+          <su lang="ru">Мы сразу же устанавливаем раппорт, скреплённый униформой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He invites me in.</su>
+          <su lang="ru">Он приглашает меня войти.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence>
+          <su lang="en">"How about some coffee?" he asks.</su>
+          <su lang="ru">- Как насчёт кофе? - спрашивает он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"No thanks.</su>
+          <su lang="ru">- Нет, спасибо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Never drink it."</su>
+          <su lang="ru">Никогда не пей его.</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence>
+          <su lang="en">"How about a beer?"</su>
+          <su lang="ru">- Как насчёт пива?</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence>
+          <su lang="en">After a few sips of beer and a little bit of small talk about police work and how different it is now than when he was on the force, I tell him that his name came up in the investigation.</su>
+          <su lang="ru">После нескольких глотков пива и небольшой светской беседы о полицейской работе и о том, как она изменилась сейчас, чем когда он был в полиции, я говорю ему, что его имя всплыло в расследовании.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He seems bemused but not concerned.</su>
+          <su lang="ru">Он выглядит озадаченным, но не обеспокоенным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence>
+          <su lang="en">"I guess it's your lucky day," I say.</su>
+          <su lang="ru">- Думаю, это твой счастливый день, - говорю я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"One of your distant relatives uploaded DNA into a genealogy website, and that person is related to the person I'm looking for.</su>
+          <su lang="ru">- Один из ваших дальних родственников загрузил ДНК на генеалогический сайт, и этот человек связан с этим человеком Я ищу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You are likely distantly related to my offender, too."</su>
+          <su lang="ru">Скорее всего, вы тоже дальний родственник моего обидчика.</su>
+        </sentence>
+      </p>
+      <p type="text" id="100">
+        <sentence>
+          <su lang="en">He nods.</su>
+          <su lang="ru">Он кивает.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Ahh. What can I do to help you out?"</su>
+          <su lang="ru">- А-а-а. Чем я могу вам помочь?</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence>
+          <su lang="en">"Well, I just need a DNA sample."</su>
+          <su lang="ru">- Ну, Мне просто нужен образец ДНК.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I feel a little awkward asking another cop for proof he's not a malicious serial predator.</su>
+          <su lang="ru">Мне немного неловко просить другого полицейского доказать, что он не злонамеренный серийный хищник.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">On the other hand, with the sample, I can officially eliminate him as a suspect, and he'll never be bothered again.</su>
+          <su lang="ru">С другой стороны, с образцом, Я могу официально устранить его как подозреваемого, и его больше никто не побеспокоит.</su>
+        </sentence>
+      </p>
+      <p type="text" id="102">
+        <sentence>
+          <su lang="en">"Hey, I get it," he says.</su>
+          <su lang="ru">"Эй, Я понял, - говорит он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Of course."</su>
+          <su lang="ru">- Разумеется.</su>
+        </sentence>
+      </p>
+      <p type="text" id="103">
+        <sentence>
+          <su lang="en">We both chuckle over the absurdity of the situation.</su>
+          <su lang="ru">Мы оба смеёмся над абсурдностью ситуации.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I get the sample, tell him I'm sorry for the bother, and leave.</su>
+          <su lang="ru">Я беру образец, говорю ему , что прошу прощения за беспокойство, и ухожу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="104">
+        <sentence>
+          <su lang="en">It will be my final act in the case.</su>
+          <su lang="ru">Это будет мой последний акт в этом деле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="105">
+        <sentence>
+          <su lang="en">But there's another possibility, the one that considers DeAngelo is the Golden State Killer.</su>
+          <su lang="ru">Но есть и другая возможность, та, что рассматривает Деанджело, - это Золотой штат Убийца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In that scenario, I've already made a foolish mistake.</su>
+          <su lang="ru">В таком случае я уже совершил глупую ошибку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I've sat there for several minutes in front of his house in my official car.</su>
+          <su lang="ru">Я просидел там несколько минут перед его домом в своей служебной машине.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Any cop or former cop would recognize it as unmarked law enforcement.</su>
+          <su lang="ru">Любой коп или бывший коп узнал бы в нём правоохранительные органы без опознавательных знаков.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If he is the killer, I know what he's capable of.</su>
+          <su lang="ru">Если он убийца, то я знаю , на что он способен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There's no telling what he'll do if he feels trapped.</su>
+          <su lang="ru">Никто не знает, что он сделает, если почувствует себя в ловушке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He knows I'm here.</su>
+          <su lang="ru">Он знает, что я здесь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He's a cunning serial predator.</su>
+          <su lang="ru">Он хитрый серийный хищник.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He knew what his victims watched on TV, where they went to work and school, whose husband was out of town, whose parents were out for the evening, when people were asleep.</su>
+          <su lang="ru">Он знал, что его жертвы смотрели по телевизору, куда они ходили на работу и в школу, чей муж уехал из города, чьи родители уехали на вечер, когда люди спали.</su>
+        </sentence>
+      </p>
+      <p type="text" id="106">
+        <sentence>
+          <su lang="en">In this scenario, there's no doubt he's already seen the car sitting there through the blinds.</su>
+          <su lang="ru">В этом сценарии нет никаких сомнений, что он уже видел машину, стоящую там через жалюзи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When I walk toward his house, he recognizes me from the media interviews I've done on the case over the years.</su>
+          <su lang="ru">Когда я иду к его дому, он узнает меня по интервью в прессе, которые я давал по этому делу на протяжении многих лет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">By the time I get to the front door, he's already armed himself.</su>
+          <su lang="ru">К тому времени, как я добираюсь до входной двери, он уже вооружился.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He may open up and shoot me before I have a chance to say a word.</su>
+          <su lang="ru">Он может открыться и застрелить меня прежде , чем я успею сказать хоть слово.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Or he'll invite me in to keep me confined, excuse himself, then sneak up behind me and bash my head in.</su>
+          <su lang="ru">Или он пригласит меня войти, чтобы держать взаперти, извинится, а потом подкрадётся сзади и проломит мне голову.</su>
+        </sentence>
+      </p>
+      <p type="text" id="107">
+        <sentence>
+          <su lang="en">No one would know.</su>
+          <su lang="ru">Никто не узнает.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No one knows where I am.</su>
+          <su lang="ru">Никто не знает, где я.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I didn't radio in.</su>
+          <su lang="ru">Я не связывался по радио.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I didn't call home.</su>
+          <su lang="ru">Домой я не звонил.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I just left the office and ended up here.</su>
+          <su lang="ru">Я просто вышел из офиса и оказался здесь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="108">
+        <sentence>
+          <su lang="en">I take a deep breath to clear my head.</su>
+          <su lang="ru">Я делаю глубокий вдох, чтобы прояснить голову.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What am I doing, thinking about approaching this guy?</su>
+          <su lang="ru">Что я делаю, думая о том, чтобы подойти к этому парню?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If he is GSK, and he becomes aware that we're on to him, it will risk the investigation.</su>
+          <su lang="ru">Если он - ГСК и ему станет известно, что мы вышли на его след, это поставит под угрозу расследование.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If he feels cornered, he'll kill me.</su>
+          <su lang="ru">Если он почувствует себя загнанным в угол, то убьёт меня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="109">
+        <sentence>
+          <su lang="en">I just need to drive away, I tell myself, putting the car in gear.</su>
+          <su lang="ru">"Мне просто нужно уехать", - говорю я себе, заводя машину.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It's too early.</su>
+          <su lang="ru">Ещё слишком рано.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't want to blow this.</su>
+          <su lang="ru">Я не хочу всё испортить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don't know enough about this DeAngelo guy.</su>
+          <su lang="ru">Я мало знаю об этом парне Деанджело.</su>
+        </sentence>
+      </p>
+      <p type="text" id="110">
+        <sentence>
+          <su lang="en">I start the car and will myself to put it in gear.</su>
+          <su lang="ru">Я завожу машину и заставляю себя включить передачу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I'm not even a block away when I begin doubting my decision.</su>
+          <su lang="ru">Я не успеваю пройти и квартала, как начинаю сомневаться в своём решении.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Maybe I'm blowing it.</su>
+          <su lang="ru">Может быть, я всё испортил.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I should have gotten the DNA.</su>
+          <su lang="ru">Я должен был получить ДНК.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I would have at least had another genealogy data point for my team.</su>
+          <su lang="ru">У меня была бы, по крайней мере, ещё одна генеалогическая точка данных для моей команды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And what if DeAngelo was the killer?</su>
+          <su lang="ru">А что , если Деанджело был убийцей?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I was right there.</su>
+          <su lang="ru">Я был прямо там.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why hadn't I gone to the front door?</su>
+          <su lang="ru">Почему я не подошёл к входной двери?</su>
+        </sentence>
+      </p>
+      <p type="text" id="111">
+        <sentence>
+          <su lang="en">The drive home to Vacaville seemed to take forever.</su>
+          <su lang="ru">Дорога домой в Вакавиль, казалось, заняла целую вечность.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I was filled with regret.</su>
+          <su lang="ru">Меня переполняло сожаление.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I had just failed to wrap up my final suspect in a case that continued to elude me.</su>
+          <su lang="ru">Я только что не сумел завернуть моего последнего подозреваемого в дело, которое продолжало ускользать от меня.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If the Golden State Killer case was ever to be solved, I would not be a part of it.</su>
+          <su lang="ru">Если дело убийцы из Голден-Стейта когда-нибудь будет раскрыто, я не буду в нём участвовать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I felt defeated.</su>
+          <su lang="ru">Я чувствовал себя побеждённым.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The survivors had counted on me as their last chance for justice, and I'd let them down.</su>
+          <su lang="ru">Оставшиеся в живых рассчитывали на меня как на последний шанс на справедливость, а я их подвёл.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">My career would end with a blemished footnote.</su>
+          <su lang="ru">Моя карьера закончилась бы испорченной сноской.</su>
+        </sentence>
+      </p>
+      <p type="text" id="112">
+        <sentence>
+          <su lang="en">It felt like an anticlimactic finish to what had been an otherwise pretty good run.</su>
+          <su lang="ru">Это было похоже на разочаровывающее завершение того, что в остальном было довольно хорошим бегом.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

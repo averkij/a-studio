@@ -1,0 +1,1253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220703T130514Z</creationdate>
+    <paragraphs>104</paragraphs>
+    <langs>
+      <lang id="xx">
+        <sentences>293</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>294</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="xx">Rūdolfs Blaumanis</s>
+      <s lang="ru">Рудольф Блауманис</s>
+    </author>
+    <title>
+      <s lang="xx">Nezāle</s>
+      <s lang="ru">Сорная трава</s>
+    </title>
+    <contents>
+      <s lang="xx">Table of contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="xx"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="xx">Viņu īsti vajadzēja nosaukt par Mozu, jo viņu izvilka iz ūdeņa, gan ne iz Nīlupes un ne Vāraus meita, bet līdzcietīga veca māmuliņa iz pa pusei aizaugušas dzelmes, kura bija meža vidū.</su>
+          <su lang="ru">По-настоящему его следовало называть Моисеем, ибо он, подобно Моисею, был вытащен из воды, правда, не из Нила и не дочерью фараона, а сердобольной старушкой из полузаглохшего бочага посреди леса.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet, kad minētā māmuliņa rūpējās tikai par savu sēņu un ogu īsto nosaukumu, kuras lasīt bija viņas amats, tad viņa izglābto cilvēka bērnu, neizsacīdama nekādus vēlējumos par viņa nākamo vārdu, nodeva tuvākajo zemnieku māju saimniekam, pie kura mazo, pusmirušo pasaules pilsoni, kad viņš bija nomazgāts, «notes kristībā» nosauca par Jāni.</su>
+          <su lang="ru"> Указанную старушку занимали только наименования грибов и ягод, служивших для нее источником существования, и, передавая младенца в руки хозяина близлежащего хутора, она не высказала никаких пожеланий относительно его имени. Полуживого мальчика выкупали, окрестили и нарекли Янисом.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tad par šo meža māmuliņas savādo atradumu ziņoja pagasta valdei, kura no savas puses šo atgadījumu pēc pienākuma atkal paziņoja bruģu tiesai.</su>
+          <su lang="ru"> О странной маходке старушки заявили в волотное правление, которое в свою очередь изветило суд.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Pēdējā atrastā bērna māti stingri lika meklēt, bet meklējums palika bez sekmēm.</su>
+          <su lang="ru">Последний распорядился по всей строгости разыскать мать найденного ребенка, но поиски оказались безуспешными.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tādēļ minētā pagasta valde savā sapulcē - paklausīdama pienākumam, ne pašas dzinekļam - nosprieda atrasto bērnu uz pagasta rēķina uzaudzināt.</su>
+          <su lang="ru">Таким образом, упомянутое волостное правление, следуя скорее велению долга, чем собственному побуждению, приняло решение воспитать найденыша за счет волости.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Vanagu māju saimnieks, tas pats, pie kura bērnu kristīja, izteicās, ka šo žēlsirdības darbu pret pienākošu atlīdzinājumu uzņemšoties, un pagasta valde šo augstsirdīgo piedāvājumu pieņēma bez debatēm.</su>
+          <su lang="ru">Хозяин хутора "Ванаги", тот самый, у которого окрестили найденыша, заявил, что он берется выполнять за соответствующее вознаграждение акт милосердия, и волостное правление без дальнейших дебатов приняло его великодушное предложение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="xx">Seši un pus gadus Vanagu saimnieks līdz ar savu sievu un saviem vairāk bērniem ar nenogurstošu pacietību izpildīja šo kristīga cilvēka pienākumu pie bārenīša, kuram nebija ne tēva, ne mātes, - tad pagasta vecākais nosacīja Jānīti par pieaugušu, un tas nu iesāka ēst paša pelnīto maizi.</su>
+          <su lang="ru">Шесть с половиной лет Ванаг, его жена и многчисленные дети с неустанным терпением выполняли христианский долг по отношению к этому сироте без роду и племени, а затем волостной старшина объявил Яниса взрослым, и тот начал есть заработанный своими руками хлеб.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņš tapa par Vanagu saimnieka cūku ganu.</su>
+          <su lang="ru">Он стал свинопасом в усадьбе "Ванаги".</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="xx">Tas arī bij žēlastības darbs, ka Vanags viņu paturēja, jo kurš cits gan būtu pieņēmis mazo zēnu, kura nesavaldāmība un nerātnība bija tapuse par parunu?</su>
+          <su lang="ru">Со стороны Ванага это опять было актом милосердия, ибо кто еще согласился бы нанять мальчика, чье озорство и непослушание стали притчей во языцех?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">- Vanags gan bija darījis, ko vien iespēja, lai bērnam iepotētu kristīgus tikumus, viņa sieva rīkstes nebij taupījuse, - kā zināms, šīs zāles Vidzemes mežos aug savā vaļā un tādēļ lēti dabūjamas, - un Vanagu bērni tam allaž bij rādījuši labas priekšzīmes; bet ko tas viss līdzēja pie bērna, kam morāliska nepilnība iedzimuse!</su>
+          <su lang="ru">А между тем Ванаг сделал все возможное, что бы привить мальцу христианские добродетели, его жена никогда не жалела прутьев, - как известно, это лекарство в изобилии произрастает в видземских лесах и доступно даже малоимущим, - а дети Ванагов всегда и всюду подавали найденышу добрый пример. Но что поделать с ребенком, которому свойственна врожденная неустойчивость моральных основ!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">No kura cita avota tās jaunās īpašības gan varēja nākt, kas pie Jānīša pamazām parādījās?...</su>
+          <su lang="ru">Иначе откуда взялись бы те дурные наклонности, которые с годами проявлялись все сильнее? Дети Ванага не лгали, почему же лгал маленький Яник? Почему он каждый раз так упорно отрицал свою вину, когда маленький Бертулис жаловался отцу, что Янис разбил в кухне оконное стекло, окунул кота в ведро со смолой или выдергивал у лошади из хвоста волос?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Vanaga bērni nemeloja.</su>
+          <su lang="ru">Дети Ванага не воровали.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kādēļ Jānītis meloja? Kādēļ viņš tik stūrgalvīgi liedza savu vainu, kad mazais Bērtuls tēvam sūdzēja, ka Jānītis iesitis ķēķa lodziņu, iebāzis kaķi darvas traukā vai zirgam no astes izplūcis sarus?...Viņa bērni nezaga. Kādēļ Jānītis to darīja?</su>
+          <su lang="ru">Почему же воровал Янис?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kur āboļi bij palikuši, kurus viņš klētī priekš ziemas bij gribējis glabāt?...</su>
+          <su lang="ru">Так, например, куда могли деться яблоки, убранные хозяином на зиму в клеть?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņa bērni bij pieklājīgi, rāmi un godīgi.</su>
+          <su lang="ru">Дети хозяина всегда вежливы, честны и послушны...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kādēļ Jānītis tāds nebij?</su>
+          <su lang="ru">Почему же Янис был совсем не такой?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kur tās garās skrambas cēlās, kuras gandrīz vienmēr, brīžam gareniski, brīžam šķērsām, viņa seju darīja nejauku, kamēr Bērtulīša, Anužiņas, Reinīša, Madītes un Miķelīša vaigi un degums nekad nebij saskrambāti?...</su>
+          <su lang="ru">Откуда брались эти вечные ссадины и царапины, так безобразившие его лицо? Щечки и носики Бертулыня, Аннужини, Рейнита, Мадиты и Микелита никогда не были в таких синяках и ссадинах...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jā, Vanagu saimniekam bij taisnība, sakot, ka ābols no ābeles tālu neesot kritis.</su>
+          <su lang="ru">Да, Ванаг был прав, утверждая, что яблочко от яблони недалеко падает...</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="xx">Divpadsmit gadus vecs Jānis tapa par lopu ganu, bet viņš neganīja vis Vanagu saimnieka lopus, jo tas viņu pie sevis ilgāki nepaturēja, tādēļ ka tad viņam to vajadzētu sūtīt skolā.</su>
+          <su lang="ru">Двенадцати лет Янис начал пасти коров, но не у Ванага: тот правильно рассудил, что зимой придется посылать Яниса в школу.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Un kur viņš, nabags vīrs, to lai iespētu?</su>
+          <su lang="ru">А разве ему, бедняку, это под силу?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Soda naudu maksāt arī nebija patīkama lieta, kā viņš to jau zināja no piedzīvojumiem.</su>
+          <su lang="ru">Ну, а платить штраф тоже не очень приятно - Ванаг это хорошо знал по опыту.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="xx">Bet pie sava jaunā saimnieka Jānis ilgi neizturēja.</su>
+          <su lang="ru">Но и у нового хозяина Янис выдержал недолго.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tas no Vanaga bija dabūjis zināt, kāda gara bērns šis zēns esot, un tādēļ pret viņu tajā ziņā arī pienācīgi izturējās.</su>
+          <su lang="ru">Из разговоров с Ванагом хозяину стало ясно, каким сокровищем наградила его судьба, и само собой понятно, что он держался по отношению к новому пастуху соответствующим образом.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jurģos Jāņam bija jauns saimnieks, un atkal pēc gada viņam bij no jauna jāmaina dzīves vieta.</su>
+          <su lang="ru">На Юрьев день у Яниса был уже новый хозяин. На следующий год снова пришлось менять работу.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Par bagātu un taupīgu atzītais Krikums - aprunātāji viņu dēvēja par skopu - šoreiz ar zēnu gribēja izmēģināties.</su>
+          <su lang="ru">Тогда богатый и рассчетливый Крикум - злые языки, правда, называли его скупым - решил испытать малого.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Ļoti lētā alga, par kādu Jānis bij dabūjams, viņu uz to pavedināja.</su>
+          <su lang="ru">Прельстило его то обстоятельство, что Яниса можно было нанять по дешевке.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bez tam viņš jau dažu stūrgalvi caur savu stingrumu bij padarījis prātīgu, vai tad tas pie Jāņa neizdotos?</su>
+          <su lang="ru">К тому же ему не раз удавалось примерной строгостью в обращении с батраками образумить непокорных упрямцев; неужели Янис будет исключением?</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="xx">Tikko divi nedēļas no Jurģu dienas bija pagājušas, tad Krikums katram, kas to gribēja dzirdēt, apgalvoja, ka viņš vēl nekad savā mūžā tik slinku, stūrgalvīgu un rupju zēnu neesot redzējis, kāds Jānis.</su>
+          <su lang="ru">Только две недели прошло с Юрьева дня, а Крикум уже рассказывал всех, кому только не лень было слушать, что такого упрямого, ленивого и грубого парня он сроду не видал.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tas zēns citam nekam nederot kā tikai sava maizes devēja kaitināšanai līdi nāvei.</su>
+          <su lang="ru">Этот мальчишка способен только на то, чтобы до смерти злить своего кормильца.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Šām viņa domām viņa priekšzīmīgā sieva pilnīgi piekrita, kaut gan citādi viņu domas nevienojās.</su>
+          <su lang="ru">Эту мысль целиком разделяла и его примерная жена, хотя по остальным вопросам супруги не проявляли единодушия.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Pie citām labām īpašībām un tikumiem viņai bija brīnišķa gaišredzība, un tādēļ viņa redzēja daudz lietas, kas citiem vienkāršiem ļaudīm palika paslēptas.</su>
+          <su lang="ru">Кроме многих других прекрасных качеств, Крикума обладала еще поразительным даром ясновидения и замечала многое, что для остальных смертных оставалось скрытым.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tā, piemēram viņa ne ar mazām izbailēm bij ievērojuse, ka Jānis samērā ar viņa darbību par daudz ēda.</su>
+          <su lang="ru">Так, например, к великому своему ужасу, она очень скоро обнаружила, что Янис слишком много ест. </su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Mans Dievs, kādēļ ganu zēnam vajaga daudz ēst!</su>
+          <su lang="ru">Господи Боже, и зачем пастушонку так наедаться?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Pie darba, kas prasīja tik maz spēka, kā lopu ganīšana, cilvēks nekad nevar būt tā izsalcis, kāds Jānis vienmēr bij, un Krikuma māte tādēļ ieguva to pārliecību, ka šis zēns tādēļ tik daudz ēdot ka savu saimnieci caur to gribot kaitināt.</su>
+          <su lang="ru">Работа пастуха требует так мало сил, - просто невозможно, что бы после нее человек был всегда таким голодным, как Янис. И хозяйка пришла к убеждению, что малый столько есть только потому, что хочеть позлить свою благодетельницу...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Labajai Krikumienei tad ūdens radās mutē un asaras acīs, kad viņa redzēja, kādu pulku kartupeļu un sviesta paniņu - mīļo maizīti nemaz neievērojot - Jānis pie pusdienas maltītes sabāza savā mutē.</su>
+          <su lang="ru">У доброй Крикумы во рту собиралась слюна, а на глаза навертывались слезы при виде несметных количеств картофеля и пахтанья, не говоря уже о хлебе, исчезавших во время обеда во рту у Яниса.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tik daudz gandrīz pat ne kalpi neēda kuriem bija jāar, jāpļauj siens un jāstrādā citi grūti darbi.</su>
+          <su lang="ru">Столько съедать осмеливался не всякий батрак, которому приходилось и пахать, и косить, и справлять прочую тяжелую работу.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Nebija noliedzams, ka Krikums lieliski bija pārskatījies tādu lielu ēdēju saderēdams par ganu.</su>
+          <su lang="ru">Нет, Крикум, безусловно, дал маху, наняв в пастухи такого усердного едока.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņi padarīto misēkli pa daļai gribēja atkal izlabot, Jāni šad un tad likdami pie lielkalpu darba.</su>
+          <su lang="ru">Тогда хозяева попытались отчасти исправить свою ошибку, поручая малому работу батрака.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet vai zēns gribēja klausīt!</su>
+          <su lang="ru">Но разве он слушался?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">«Esmu pie jums saderējis par ganu un nestrādāšu nekādus citus kā gana darbus,» viņš kā nikns suns rūca caur zobiem.</su>
+          <su lang="ru">"Я рядился в пастухи и другую работу делать не стану!" - ворчал он сквозь зубы, как цепной пес.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Vai tā nebija atklāta stūrgalvība!</su>
+          <su lang="ru">Разве это не явное упрямство?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņi gribēja zēnam darīt labu, gribēja viņu pamazām ieradināt ar grūtiem darbiem, lai viņš nākošā gadā varētu saderēties par pilnīgu kalpu, un pateicības vietā viņš pretojās tādam labam nodomam.</su>
+          <su lang="ru">Хозяева, желаю мальчику добра, приучают его к тяжелой работе, чтобы он с будущего года мог наняться не в пастухи, а в батраки, а он вместо благодарности только огрызается!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kam šādā atgadījumā pacietība lai nebeidzas?</su>
+          <su lang="ru">У кого тут не иссякнет терпение?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Krikumam tā beidzās, un lietas beigas bija tās, ka Jānis dabūja labu kārtu pēriena.</su>
+          <su lang="ru">У Крикума оно иссякло, и для Яниса дело кончилось поркой.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Pēc Krikumienes izsacījuma, pēriens allaž bij īsti veselīgs un labdarīgs - vai viņa to runāja no saviem piedzīvojumiem, tas lai paliek neizpētīts.</su>
+          <su lang="ru">По глубокому убеждению Крикумы, порка всегда оказывала самое благотворное влеяние как на характер, так и на здоровье.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet pie Jāņa šis labdarīgais pienākums nerādījās, - viņš tapa vēl stūrgalvīgāks, nekā bijis, valkāja cepuri uz acīm uzspiestu, un viņa acis caur tās saplīsušo širmi raudzījās vēl spītīgāki nekā līdz šim.</su>
+          <su lang="ru">Говорила ли она это, исходя из собственного опыта, так и останется невыясненным, но на Яниса порка не оказала благотворного действия. Мальчишка стал еще злее и упрямее, надвигал фуражку на самые глаза и, как волчонок, глядел сквозь щели рваного козырька.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kas te cits varēja līdzēt kā otra kārta pēriena!</su>
+          <su lang="ru">Помочь в таком деле могла, конечно, только повторная порка!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">To viņam arī uzskaitīja.</su>
+          <su lang="ru">И он ее получил...</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="xx">Bet tad notika kaut kas neierasts, kaut kas nedzirdēts.</su>
+          <su lang="ru">Но тут и произошло нечто неслыханное и невиданное!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Atgadījās, ka pagasta tiesa nākošajā dienā noturēja savu ierasto sēdējumu, un Jānis, saimniekam neko nesacīdams, gāja uz pagasta namu un apsūdzēja Krikumu par patvarību.</su>
+          <su lang="ru">Случилось. что как раз на другой день после порки состоялось очередное заседание волостного суда, и Янис, не сказал хозяину ни слова, пошел в волостное правление с жалобой на самоуправство Крикума.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Nabaga neapdomīgais zēn!</su>
+          <su lang="ru">Бедный, неразумный мальчик!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Pagasta tiesas priekšsēdētājs bija Krikuma svainis, un tas atvēra platas acis, kad Jānis savu sūdzību nesa priekšā.</su>
+          <su lang="ru">Когда Янис выступил со своей жалобой, председатель волостного суда, который приходился Крикуму шурином, остолбенел.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tad viņš atvēra savu gudro muti un garākā runā, kurā iepina daudz nozīmīgu bībeles pantiņu, pamācīja Jāni, tai iet uz mājām un ir paklausīgs.</su>
+          <su lang="ru">Но потом уста его отверзлись, и в длинной речи с множествой приличествующих случаю библейских текстов председатель объяснил Янису, что тот должен отправиться домой и впредь стараться быть послушнее.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet, kad viņš redzēja, ka viņa tēvišķā un labi domātā pamācība uz Jāni nedarīja nekāda iespaida, viņš savu balsi pārvērta un asiem vārdiem izbāra Jāņa nepieklājīgo izturēšanos, atgādināja viņam visus viņa netikumus un pēdīgi teica, ka Jānis to varot atzīt par savu laimi, ka tik godīgi cilvēki kā Krikumi viņu pieņēmuši par ganu.</su>
+          <su lang="ru">Но когда он увидел, что его прочувствованное отеческое поучение не оказывает на Яниса должного впечатления, он заговорил более сурово - выбранил пастуха за непристойное поведение, напомнил ему все его прежние прегрешения и закончил тем, что Янис должен почитать за счастье, если его наняли в пастухи такие прекрасные люди, как Крикумы.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jānis mierīgi noklausījās, līdz pagasta tiesas priekšsēdētājs beidza runāt, un tad īsi un rupji vaicāja:</su>
+          <su lang="ru">Янис спокойно выслушал речь председателя, а потом резко и коротко спросил:</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="xx">«Vai pie jums nekādas taisnības nevar dabūt, ko?»</su>
+          <su lang="ru">- Значит, правды у вас не добьешься?</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="xx">Vispārīga kustība tiesnešu starpā; tiesas priekšsēdētājs, kurš vairāk drīkstēja darīt nekā citi tiesneši, ar dūri sita uz galda, ka tas brīkšķēja vien.</su>
+          <su lang="ru">Это вызвало всеобщее замешательство среди членов суда. Председатель, чьи полномочия были значительно шире, чем у других судей, стукнул кулаком по столу так, что тот затрещал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="xx">«Pie joda, taisies, ka tiec uz māju, muļķa zēn!» viņš sašutis brēca.</su>
+          <su lang="ru">- К черту!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">«Citādi tev būs jāiepazīstas ar Biezumnieku!»</su>
+          <su lang="ru">Убирайся домой, глупый мальчишка!- заорал он в исступлении.- Или тебе придется познакомиться с Биезумниеком!</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="xx">«Oho!</su>
+          <su lang="ru">- Ого!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Es tevi jau sen pazīstu, tu -» «Puika!»</su>
+          <su lang="ru">Да я тебя давно знаю! Ты...  - Мальчишка!</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="xx">Biezumnieks brēca un piecēlās visā cienībā no tiesas galda, tā ka viņa krēsls ar lielu troksni nogāzās gar zemi.</su>
+          <su lang="ru">- взревел Биезумниек и поднялся во всем своем величии из-за судейского стола, с грохотом опрокинув стул.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="xx">«Nāc vien šurpu!» Jānis izsaucās, izstiepdams dūri pret Biezumnieku, un, iekam kāds viņu spēja kavēt, viņš no tiesas istabas bij izgājis...</su>
+          <su lang="ru"> - Подойди только! - крикнул Янис, выставляя кулак, и, не дав никому опомниться, выскочил из суда.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="xx">Kad Krikumienei par šo notikumu ziņoja, tad viņa teica, ka viņas mati no brīnumiem ceļoties stāvu par tādu nekrietnā zēna bezkaunību.</su>
+          <su lang="ru">Когда о случившемся сообщили Крикуме, она сказала, что от бесстыдства этого мерзкого мальчишки у нее волосы становятся дыбом.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņas brāļam, kurš piederēja pie pagasta cienīgākās famīlijas, četru tiesnešu un skrīvera klātbūtnē rādīt dūri, - tādu noziegumu vajadzēja bargi sodīt.</su>
+          <su lang="ru">В присутствии четырех судей и писаря показать кулак ее брату, представителю самого уважаемого рода в волости, и председателю суда - нет, такое преступление требует сурового наказания!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Ka Jāni par to nepakāra, bet tikai visā klusībā krietni nopēra, par to viņam bija jāpateicas Krikuma labsirdībai.</su>
+          <su lang="ru">За то, что его не повесили, а только выпороли как следует, Янис должен бы от всей души поблагодарить добросердечного Крикума.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet gaišmataino Līzi, kas Jānim palīdzēja lopus ganīt, Krikumiene mīlīgāki un ciešāki nekā citās reizēs pamācīja, lai Jānim vairs nekad neļauj aiziet no lopiem, kā viņa nesen bij darījuse; viņš caur tādu vazāšanos nomaldīšoties uz neceļiem, viņam projām esot, kāds vilks varot atnākt utt.</su>
+          <su lang="ru">А светловолосой Лизе, помогавшей Янису пасти скотину, Крикума ласковее и строже, чем обычно, внушила, чтобы та никогда больше не позволяла Янису, даже не минуту, отлучаться от стада, как та недавно сделала. Такие отлучки сведут парня с пути истинного, в его отсутствие на стадо может напасть волк и так далее.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">- Bet Krikumam viņa teica, ka meiteni arī vajadzējis nopērt.</su>
+          <su lang="ru">Крикуму же она сказала, что девчонку тоже следовало бы выпороть.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet ko lai dara?</su>
+          <su lang="ru">Но что поделаешь!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Ar Līzi vajadzēja apieties «kā ar jēlu olu», jo viņa bij ļoti vārīga un par katru nieku sūdzēja mātei.</su>
+          <su lang="ru">С Лизой приходится обращаться, "как с сырым яйцом", - эта неженка по каждому пустяку бежит жаловаться своей мамаше.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Ai, un šās mātes mēle bija asāka nekā abējās pusēs griezīgs zobens!</su>
+          <su lang="ru">А язык ее мамы острее обоюдоострого меча!</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="xx">Līze, slaiki noauguse meitene, kuras sejā bij dziļas baku rētas, bija vienīgā cilvēcīgā būtne, kura Jāni varēja ciest.</su>
+          <su lang="ru">Лиза, стройная девочка с глубокими оспинками на лице, была единственным человеческим слуществом, терпимо относившимся к Янису.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Spēcīgais, sārtais zēns ar brūnajiem, sajukušajiem matiem, spītīgi mirdzošajām acīm šai nabagai nekošai meitenei ar salmu krāsainajiem, plānajiem matiem jau pašā pirmā dienā bija paticis.</su>
+          <su lang="ru">Сильный, рямяный парнишка, с каштановыми спутанными волосами и упрямым блеском в глазах, с первого же дня понравился этой некрасивой девочке с жидкими волосами соломенного цвета.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Arī pret viņu Jānis iesākot bija bijis rupjš, kāds viņš bija pret katru, bet, kad viņa visu pacieta, un tad, kad viņš tai par daudz pāri darīja, tikai rūgti noraudājās, tad viņš pamazām pārgrozījās, un pēdīgi viņa nelaipnība gluži mitējās.</su>
+          <su lang="ru">Янис вначале был с ней так же груб, как и с остальными, но девочка все переносила молча и только, когда парень уж слишком ее обижал, потихоньку горько плакала. Постепенно и он начал меняться, и через некоторое время его резкость почти исчезла.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="xx">Priekš šādas pārgrozības sekošais atgadījums daudz palīdzēja.</su>
+          <su lang="ru"> Этой перемене способствовал и следующий случай.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="xx">Sējamā laikā dažreiz Līzei, dažreiz Jānim vienam bija jāgana lopi. Tad notika. ka divas govis, Jānim nemanot, bija nošķīrušās no citiem lopiem un iegājušas rudzu laukā, kur tās padarīja diezgan lielu skādi.</su>
+          <su lang="ru"> Во время сева то Лизе, то Янису приходилось пасти в одиночку. и вот случилось, что две коровы незаметно для Яниса зашли в рожь, причинив довольно большой ущерб.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kad Krikums šo skādi manīja, viņš bija ļoti sašutis un vaicāja, caur kā palaidnību tas noticis.</su>
+          <su lang="ru">Обнаружив это, Крикум страшно разозлился. Из-за чьей это лени и распущенности должен он терпеть такой убыток?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Pirms Jānis varēja apdomāties, ko atbildēt, Līze teica:</su>
+          <su lang="ru">И, прежде чем Янис успел разинуть рот, Лиза выпалила:</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="xx">«Es esmu vainīga.</su>
+          <su lang="ru">- Это я виновата...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kādā rītā biju aizmigusēs, un tad govis bij iegājušas rudzos.»</su>
+          <su lang="ru">Утром я нечаянно уснула, и коровы зашли в рожь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="xx">«Tu slinkā, miedzīgā, palaidnīgā meitene!» saimnieks sašutis brēca; bet gudrā Krikumiene viņu mierināja.</su>
+          <su lang="ru">- Лентяйка! Соня!  Распущенная девчонка! - орал рассвирепевший хозяин, но рассудительная Крикума его успокоила:</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="xx">«Nebrēc jel! Caur to tu neko vairs nelabosi!» viņa teica un tad, uz meitenes pusi pagriezusēs, turpināja:</su>
+          <su lang="ru">  - Зачем ты так кричишь?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Caur to tu neko vairs nelabosi!» viņa teica un tad, uz meitenes pusi pagriezusēs, turpināja:</su>
+          <su lang="ru">  Криком беде не поможешь! - и, повернувшись к Лизе, заметила: </su>
+        </sentence>
+        <sentence>
+          <su lang="xx">«Nebaidies vis, bērns; tas ikkatram var atgadīties.</su>
+          <su lang="ru"> - Ничего, детка, не бойся! Это со всяким может случиться!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tava māte pļaujamā laikā skādi atstrādās pie labības pļaušanas.»</su>
+          <su lang="ru"> Во время уборки хлеба твоя мать отработает.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="xx">Ar to lieta bija nobeigta.</su>
+          <su lang="ru"> Тем дело и кончилось.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="xx">«Kādēļ tu vainu ņēmi uz sevi?» Jānis vaicāja, kad viņš ar Līzi bija viens. «Man to skādi vajadzēja atlīdzināt.»</su>
+          <su lang="ru"> - Зачем ты взяла вину на себя? - спросил Янис, когда они с Лизой остались одни. - За потраву должен я платить.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="xx"> «Jā, tu!» skuķe atbildēja. «Tev trīskārt būtu bijis jāatlīdzina un pie tam jādzird sprediķis, kas būtu bijis garāks nekā tas, ko baznīckungs saka no kanceles.»</su>
+          <su lang="ru"> - Да, ты, - ответила Лиза, - только с тебя хозяин содрал бы втрое больше, да еще заставил бы выслушать проповедь куда длинее, чем воскресная проповедь пастора в церкви.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="xx">«Par Krikuma sprediķi neko nebēdāju.» Jānis teica. «Man viena alga, vai Krancis rej, vai viņš runā!»</su>
+          <su lang="ru">- Проповеди хозяина меня не беспокоят,- сказал Янис.- Мне что Кранцис лает, что он говорит.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="xx">«Bet viņš tev būtu darījis netaisnību!</su>
+          <su lang="ru">- Он бы тогда поступил не по справедливости.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Vai viņš tev ticētu, ka govis pret tavu gribu nobradājušas rudzus?</su>
+          <su lang="ru">Разве он поверит, что ты не заметил, как коровы забрели в рожь?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Nekad!</su>
+          <su lang="ru">Ни за что!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Un es nevaru paciest, ka tevi teic sliktāku, nekā tu esi!»</su>
+          <su lang="ru">А я не могу вынести, когда на тебя плетут напраслину.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="xx">Jāņa pateicīgs acu uzmetiens Līzei bija par algu par šiem vārdiem.</su>
+          <su lang="ru">Благодарый взгляд Яниса был ей наградой.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">No šā acumirkļa starp abiem draudzība bija nodibināta, kas vienmēr tapa ciešāka un sirsnīgāka.</su>
+          <su lang="ru">И с этого дня между ними установилась дружба, которая росла и крепла с каждым днем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="xx">Pavasara pagāja, vasara pienāca.</su>
+          <su lang="ru">Прошла весна, наступило лето.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Lauki pārvērtās zaļi, sarkanās zemenes mirdzēja krūmos un grāvju malās, visur bija redzama dzīvību izelpojoša pilnība.</su>
+          <su lang="ru">Зазеленели поля, под кустами и в придорожных канавах закраснелась земляника, всюду чувствовалось дыхание жизни...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Laiks bija jauks; šad un tad uznāca atspirdzošs lietus un atnesa pārmaiņu vienmulīgajās saules dienās.</su>
+          <su lang="ru">Стояла теплая, ясная погода, временами выпадал освежающий дождик, вносивший некоторое разнообразие в монотонность солнечных дней.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="xx">Jānis un Līze laimīgi ganīja ganāmo pulku.</su>
+          <su lang="ru">Янис и Лиза пасли стадо и были счастливы.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņi daudz nerunāja, bet bieži sēdēja kopā - viņa, zeķes vai cimdus adīdama, viņš, karotes vai citu ko taisīdams; brūnais Krancis pa tam snauda pie viņu kājām.</su>
+          <su lang="ru">Разговаривали они мало, но часто сидели вместе: она вязала чулки или варежки, он вырезал ложки или еще что-нибудь мастерил. Лохматый Кранцис дремал у их ног.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Līzei visvairāk patika priekšpusdienas.</su>
+          <su lang="ru">Лизе больше всего нравилась послеободенная пора.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kamēr govis un aitas rasainā zālē ganījās, Līze un Jānis viens pa otram varēja pagulēties.</su>
+          <su lang="ru">Коровы и овцы спокойно паслись на росистой траве, и Янис и Лиза могли попеременно подремать.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kad Jānis gulēja, viņš galvu mēdza nolikt uz skuķes ceļiem vai viņas klēpī. Tad viņa varēja ieskatīties tā mīļā sejā.</su>
+          <su lang="ru">Янис обычно спал. положив голову на колени девочки, и она могла сколько угодно смотреть на его милое лицо.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx"> Viņa daudzreiz domāja par to, cik mierīgs viņš izskatījās guļot un cik niknis viņš varēja tapt, nomodā būdams.</su>
+          <su lang="ru">Она часто думала о том, каким спокойным и добрым казалось его лицо во сне и каким злым, упрямым, когда он просыпался.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx"> Ai, kāpēc viņa to neiespēja pārvērst, pārlabot!</su>
+          <su lang="ru"> Почему она не в силах его исправить?</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="xx"> Dažreiz, kad viņš, mierīgi elpodams un galvu atliecis, gulēja, viņai radās vēlēšanās viņu noskūpstīt; tad viņa lēni noliecās pie viņa, aizskāra viņa sārtās lūpas ar savējām, - viņam nevajadzēja manīt, ko viņa darīja.</su>
+          <su lang="ru"> Когда он крепко спал, запрокинув голову, у нее иногда появлялось желание поцеловать его. Тогда она осторожно нагибалась легко касаясь его красных губ своими губами. Он не должен этого почувствовать, не должен знать, что она делает...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet viņš to tomēr manīja, un reizi, kad tā viņu atkal bija skūpstījuse, viņš atvēra acis un uzskatīja skuķi ar laimīgu smaidu.</su>
+          <su lang="ru">Но он все же почувствовал и как-то раз открыл глаза и со счастливой улыбкой взглянул на девочку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="xx">«Skūpsti mani vēl reizi, Līze,» viņš teica.</su>
+          <su lang="ru">- Поцелуй еще раз, Лиза, — сказал он.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="xx">Tad notika neizdevīgais gājums pie pagasta tiesas, uz kuru Līze viņu bija pierunājuse, un tad notika jau pieminētā nelaime.</su>
+          <su lang="ru">Но вот Янис предпринял неудачный поход в волостной суд, на который его подбила Лиза, а потом случилось несчастье.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="xx">Bija lietaina diena, kura daudziem nepatika, tādēļ ka tajā bija tuvējais lielākais tirgus.</su>
+          <su lang="ru">Весь день лил дождь, и это было особенно досадно, потому что именно на этот день в соседнем местечке был назначен большой базар.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Uz lielceļa bija dubļi, lauku ceļi caur ļaužu šurpu un turpu braukāšanu ļoti izbraukti.</su>
+          <su lang="ru">На большаке стояла грязь, а проселки превратились в сплошной кисель.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jānis viens pats ganīja lopus, tādēļ ka māte Līzi bij aizveduse uz tirgu.</su>
+          <su lang="ru">Янис пас один.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņš sēdēja ceļa malā un saīdzis skatījās uz neskaidra ūdeņa peļķēm, kurās lietus pilieni lēni, plīkšēdami iekrita.</su>
+          <su lang="ru">Лизе с матерью уехали на базар.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tad kādi vāģi brauca.</su>
+          <su lang="ru">Он сидел на краю дороги и тоскливо смотрел, как крупные капли дождя с легким плеском падали в лужи.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jānis vienaldzīgi pacēla acis.</su>
+          <su lang="ru">Но вот на дороге появилась какая-то повода.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Braucējs bija Biezumnieks, pagasta tiesas priekšsēdētājs, kurš brauca no tirgus uz māju.</su>
+          <su lang="ru">Янис равнодушно окинул ее взглядом - это возвращался с базара председатель волостного суда Биезумниек.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tas likās būt par daudz dzēris, jo viņš nežēlīgi sita gurdenam zirgam, kurš apstājās Jāna tuvumā pie kāda tiltiņa.</su>
+          <su lang="ru">Видно, он слишком много выпил и теперь нещадно молотил усталую лошадь, остановившуюся неподолеку от Яниса, перед мостиком.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet, kad Biezumnieks bez mitēšanās nabaga lopiņam cirta ar pātagu, tad tas uzreiz iešķībi lēca pār tiltiņu; viens ritenis pie tam pārslīdēja pār tiltiņa galu, vāģi kādu acumirkli gorījās un tad no tiltiņa iegāzās grāvī, kurš līdz pusei bij ūdeņa pilns.</su>
+          <su lang="ru">Биезумниек не переставая хлестал несчастное животное; лошадь неожиданно рванулась на мостик, но одно колесо сорвалось, телега качнулась и рухнула в канаву, до половины затопленную водой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="xx">No negaidītā kritiena pārsteigts, Biezumnieks kādas sekundes palika grāvī; tad viņš izrāpās ārā, ar pātagas kātu dubļus nobīdīdams no saviem virssvārkiem, un, kā palīga meklēdams, skatījās apkārt.</su>
+          <su lang="ru">Ошеломленный неожиданным падением, Биезумниек несколько мгновений пролежал в канаве; затем, опомнившись, выбрался и, сбивая кнутовщием с одежды комья грязи, стал озираться в поисках помощи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="xx">«Ā-a,» viņš ar stīvu mēli teica, kad ieraudzīja Jāni, «nāc man palīgā, zēn!</su>
+          <su lang="ru">- А... а...- проговорил он заплетающимся языком, увидев Яниса.- Эй, малый, помоги!..</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Šodien sasodīti slikts laiks.</su>
+          <su lang="ru">Чертова скверная погода!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Nu pagaidi vien, lops, es tevi mācīšu - nu ko tu tur stāvi, kusties taču, zēn! Nāc!»</su>
+          <su lang="ru">Погоди, дохлятина, ты еще свое получишь! Ну, чего ты смотришь! Пошевеливайся! Да иди же скорей!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx"> «Kusties pats - manis dēļ sašķīsti,» Jānis atbildēja un rokas lēni salika uz muguras, un izplēta kājas.</su>
+          <su lang="ru"> - Пошивеливайся сам! А по мне... хоть ты провались на месте! - ответил Янис, широко расставив ноги и заложив руки за спину.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="xx">«Nāc šurp, es tev saku!» Biezumnieks brēca, no dusmām nosarcis. «Ko tāda niķošanās lai nozīmē? He!»</su>
+          <su lang="ru"> - Иди, тебе говорят!- зарычал Биезумниек, побагровев от злости.- Это что еще за шутки?</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="xx">«Brēc, cik tu vari,» Jānis nicinādams atbildēja. «bet, kad pie tam pārplīsti, tad saku, ka es tevis nesašūšu, jo neesmu skroderis.»</su>
+          <su lang="ru"> - Ори, сколько влезет! - презрительно ответил Янис. - А лопнешь со злости - чинить не буду: я не портной...</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="xx"> «Smurguli!» Biezumnieks rūca. «Turi muti! Šurpu pie manis!»</su>
+          <su lang="ru"> - Сопляк! - взвыл Биезумниек. - Держи язык за зубами и марш сюда!</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="xx">«Turi pats muti, netaisnais tiesas vīrs!»</su>
+          <su lang="ru">- Сам держи язык за зубами, судья неправедный!</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="xx">«K-a-s?»</su>
+          <su lang="ru">- Что-о-о?!</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="xx">Biezumnieks bij zēnam pieskrējis tik ātri, cik viņa nestingrās kājas atvēlēja, un uzskatīja viņu ar satvīkušajām acīm.</su>
+          <su lang="ru">Биезумниек подбежал к Янису с такой быстротой, на которую только были споснобны его ослабевшие ноги, и уставился на мальчика налитыми кровью глазами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="xx">«Nu?» Jānis vaicāja. «Vai tu domā, ka es piedzērušu cilvēku neesmu redzējis?</su>
+          <su lang="ru">- Ну?- спросил Янис. - Думаешь, я пьяных не видел?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Fui, kā tu smirdi - brandvīna muca!»</su>
+          <su lang="ru">Тьфу, как от тебя разит - бочка сивухи!</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="xx">Kā ugunsliesma piepeši šķilās gar Jāņa acīm, durstošas sāpes radās viņa galvā, viņš to abām rokām satvēra, streipuļoja un ar asiņainu ģīmi pakrita.</su>
+          <su lang="ru">Будто яркое пламя вспыхнуло перед глазами Яниса, острая колющая боль пронзила голову, он схватился за нее обеими руками и повалился наземь с окровавленным лицом...</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="xx">Biezumnieks mierīgi atjūdza zirgu un, caur dubļiem brizdams, to aizveda uz mājām.</su>
+          <su lang="ru">Биезумниек спокойно распряг лошадь и, шлепая по грязи, повел ее домой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="xx">Dienas un nedēļas pagāja, skumīgas dienas un nedēļas.</su>
+          <su lang="ru">Прошли дни и недели - мрачные дни и недели.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jānis ilgi gulēja slims, un, kad viņš atkal varēja iet pie darba, tad viņam bija tikai viena acs. Biezumnieks otru aci tam bij izsitis.</su>
+          <su lang="ru">Янис долго пролежал в постели, и, когда, наконец, снова мог взяться за работу, у него был лишь один глаз - другой выбил ему Биезумниек.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="xx">Līze, kura pa savu brīvo laiku Jāni ar lielāko rūpību kopa, bija par to ļoti nelaimīga.</su>
+          <su lang="ru">Лиза, отдававшая все свободное время заботливому уходу за Янисом, чувствовала себя глубоко несчастной.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņai izlikās, itin kā pate vienu aci būtu zaudējuse.</su>
+          <su lang="ru">Ей казалось, будто она сама потеряла глаз.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņai katru reizi pārgāja šaušalas, kad zem košajām uzacīm uzskatīja tukšo bedri!</su>
+          <su lang="ru">Всякий раз, когда она смотрела на темным провал под красивой бровью, ее хватывал ужас.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Pusaklam visu mūžu nodzīvot - ai, cik bēdīgi un briesmīgi!</su>
+          <su lang="ru">Как страшно, как горько остаться на всю жизнь полуслепым!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Un senāk tik košā seja, cik nejauka tā tagad izskatījās!</su>
+          <su lang="ru">И каким безобразным казалось теперь еще недавно такое прекрасное лицо Яниса!</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="xx">Jānis nesūdzējās un ar Līzi nekad nerunāja par notikumu, bet viņa klusuciešana tai sacīja vairāk, nekā vārdi iespēja sacīt.</su>
+          <su lang="ru">Янис не жаловался и никогда не рассказывал Лизе, как все произошло, но его молчание было красноречивее всяких слов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="xx">Reizi, kad viņi kā senāk uz ganībām blakus sēdēja un skuķe slepeni vienu savu aci brītiņu ar roku bija turējuse apsegtu, viņa piepeši ļoti sašutuse iebrēcās:</su>
+          <su lang="ru">Как-то раз, когда они снова сидели рядом на пастбище, Лиза тайком прикрыла рукой одини глаз, с минуту так просидела, потом вскочила и крикнула:</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="xx">«Sātans, negantais nositamais cilvēks!</su>
+          <su lang="ru">- Сатана проклятый! Убить такого мало!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jāni, Jāni, vai tu to tā atlaidīsi?</su>
+          <su lang="ru">Янис, Янис! Неужели ты ему простишь?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Cik ilgi tu stomīsies viņam atriebties?</su>
+          <su lang="ru">Скоро ли ты соберешься отомстить ему?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jeb lai es tavā vietā to daru?</su>
+          <su lang="ru">Может, мне вместо тебя сделать это?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Ko tu gribi: vai lai es viņam izplēšu acis iz pieres jeb lai viņu nokauju?</su>
+          <su lang="ru">Хочешь, я ему глаза выцарапаю или убью его?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jā, es viņu ar šām rokām varu nožņaugt, tā - un tā -» Un pie tam viņa rādīja briesmīgas zīmes.</su>
+          <su lang="ru">Да, я его готова своими руками задушить - вот так, вот так... - она жестами дополнила сказанное.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="xx">«Nē,» Jānis teica, «tev viņam nekas nav jādara, jo viņš tev arī neko nav darījis, gan es viņam atriebšu, pagaidi tikai.»</su>
+          <su lang="ru">- Нет, - сказал Янис. - ничего ты ему не делай, раз он тебе ничего не сделал... Я сам ему отомщу, дай только срок!..</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="xx">«Ko tu viņam padarīsi?» skuķe taujāja.</su>
+          <su lang="ru">- Что ты сделаешь? - допытывалась Лиза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="xx">«To tev tagad nesacīšu.»</su>
+          <su lang="ru">- Сейчас я тебе не скажу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="xx">Un Līze gaidīja.</su>
+          <su lang="ru">И Лиза ждала.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="xx">Bet pa tam Krikumiene nenogura, kaimiņiem un draudzenēm stāstīdama, cik taisnīgi Dievs darījis, bezdievīgo zēnu sodīdams ar acs zaudējumu.</su>
+          <su lang="ru">А Крикума тем временем без устали толковала своим соседкам и подруженькам о том, как справедливо Всемогущий покарал безбожного мальчишку, лишив его глаза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="xx">Rudens pienāca.</su>
+          <su lang="ru">Подошла осень.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Koku lapas, pārvērtušās sarkanas, brūnas un dzeltenas. lidinājās kā putni koku zaros vējā.</su>
+          <su lang="ru">Желтые, красные и бурые листья, как яркие птицы, кружились на ветру.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Lauki tapa tukši, siens no pļavām jau sen bija savests šķūņos vai samests kaudzēs, naktssalnas ieradās.</su>
+          <su lang="ru">Опустели поля, давно уже было убрано сено с лугов в сараи или собрано в стога.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Lopus vairs nevarēja izlaist ganos.</su>
+          <su lang="ru">Ударили первые заморозки, и скот перестали выпускать на пастбище.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="xx">Tad kādā naktī uguns liesmas iztraucēja no miega Biezumnieku iedzīvotājus.</su>
+          <su lang="ru">Как-то ночью усадьбу Биезумниека охватило пламя пожара.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Biezumnieka lielais siena šķūnis, kurā gandrīz viss viņa siena krājums bija salikts, stāvēja liesmās.</su>
+          <su lang="ru">Полыхал большой сарай, где хранился чуть ли не весь его зимний запас сена.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">No glābšanas nebija nekā ko domāt.</su>
+          <su lang="ru">О спасении нечего было и думать.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Vienīgais, ko vēl varēja darīt, bija tas - atsargāt, lai uguns nepārietu uz citām māju ēkām, jo vējš nesa uz turieni lielas degošas siena plēves.</su>
+          <su lang="ru">Единственное, что еще можно было сделать, это отстоять другие постройки - ветром доносило до них пылающие клочья сена.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="xx">Biezumnieks dusmās šņāca.</su>
+          <su lang="ru">Биезумниек рвал и метал.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bij skaidri noprotams, ka šķūni negantnieka rokas aizdedzinājušas.</su>
+          <su lang="ru">В том, что это дело рук злодея, не было ни малейшего сомнения.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kas šo jauno darbu gan bij padarījis?</su>
+          <su lang="ru">Но кто именно это сделал, нелегко было догадаться.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Nācās grūti uz kādu domāt, jo tiesas priekšsēdētājs, tiesu spriežot, samanto daudz ienaidnieku...</su>
+          <su lang="ru">У председателя, который вершил суд и расправу, всегда было множество врагов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="xx">Nākošā dienā Krikuma kalps; kurš bij bijis dzirnavās, pārnesa pagājušā naktī notikušās nelaimes vēsti.</su>
+          <su lang="ru">На другой день приехавший с мельницы батрак Крикума передал эту новость хозяевам.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="xx">«Pagājušā naktī Biezumnieka lielais siena šķūnis nodedzis,» viņš teica, pie pusdienas galda piesēzdamies, ap kuru visa cita saime jau bij sapulcējusēs un ēda.</su>
+          <su lang="ru">- Прошлой ночью сгорел большой сарай Биезумниека, - сказал он, садясь за стол, вокруг которого собрались на обед все домочадцы Крикума.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="xx">Krikumiene, kura ar sāpēm bija redzējuse astoņpadsmit kumosus pazūdot Jāņa mutē, ievēroja, ka zēns sarāvās, nosarka un kartupeļam ļāva nokrist zemē.</su>
+          <su lang="ru">Крикума, с тоской следившая за тем, как Янис отправляет себе в рот восемнадцатый кусок, вдруг заметила, что малый вздрогнул, покраснел и уронил картофелину.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="xx">«Ak Dievs,» kāda kalpone teica, «pagājušā naktī!</su>
+          <su lang="ru">- Ах ты, Господи! - сказала батрачка. - Прошлой ночью?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kā tad tas nācis?</su>
+          <su lang="ru">Как же это случилось?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Aiz neuzmanības? Var būt, ka čigāni vainīgi!»</su>
+          <su lang="ru">Может, цыгане набедокурили?</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="xx">«Čigāni?» kalps atbildēja. «Kādēļ tad tie lai aizdedzina siena šķūni?</su>
+          <su lang="ru">- Цыгане?- возразил батрак.- Зачем цыганам сарай поджигать?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx"> To kāds būs padarījis, kas Biezumniekam gribēja atriebties, to es saku, un tā katrs runā.»</su>
+          <su lang="ru">Нет, это кто-нибудь хотел отомстить Биезумниеку... И я так думаю, и все так говорят.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="xx">«Tev taisnība, Andž,» saimniece apstiprināja, ar priekšauta stūri savas asaras no acīm izslaucīdama; «manam brāļam tik daudz ienaidnieku - arī mūsu mājā viens tāds.</su>
+          <su lang="ru">- Твоя правда, Андж,- поттвердила хозяйка, вытирая углом передника слезы.- У моего брата столько врагов, и у нас в доме один есть!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Vai nav tiesa, Jāni,» viņa teica, uz pēdējā pusi pagriezdamās, «tu gan laikam no sirds priecājies par Biezumnieka nelaimi?»</su>
+          <su lang="ru">Правда, Янис? - добавила она, повернувшись к Янису. - Ведь ты от всей души радуешься несчастью Биезумниека?</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="xx">«Nu, raudāt par to tiešām neraudāšu, to jūs gan varat domāt, saimniec,» Jānis apsmiedams atbildēja. «Priekš tam man par maz acu pierē, - Līze, nāc pagriez man teceli!»</su>
+          <su lang="ru">- Уж плакать-то не стану, насчет этого, хозяйка, будьте уверены! - с издевкой сказал Янис. - Для слез у меня не хватает глаз...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx"> Pēc šiem vārdiem viņš aiztaisīja savu nazi, paņēma cepuri un izgāja ārā.</su>
+          <su lang="ru">Пойдем, Лиза, повертишь точило, надо косу наточить... - Янис сложил свой нож, взял фуражку и вышел.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="xx">«Pagaidi, ēku dedzinātājs,» saimniece bubināja.</su>
+          <su lang="ru">- Ну погоди, поджигатель! - проворчала хозяйка.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="xx">«Kā tu ar šo izkapti vari pļaut, Jāni?» skuķe vaicāja, kad viņa ilgi klusuciezdama teceli bij griezuse.</su>
+          <su lang="ru">- Разве такой косой косят?- после долгого молчания спросила Лиза, вертя точило. - Совсем короткая, вроде ножа.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="xx">«Tā jau īsa kā nazis.»</su>
+          <su lang="ru">- Какая трава - такая и коса.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">«Kāda zāle; tāda izkapts, man atāla vietā arī jāpļauj sniegs,» Jānis atbildēja. «Nāc vēlāk ar nesamiem palagiem uz pļavu zāli iesiet - man tev kaut kas jāsaka.»</su>
+          <su lang="ru">Придется вместо отавы косить снег. - ответил Янис. - Приходи после на луг, на не забудь захватить полог - траву нести... Мне нужно кое-что сказать тебе...</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="xx">«Es to jau zinu,» Līze domāja.</su>
+          <su lang="ru">"Я и так уже знаю", - подумала Лиза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="xx">Jānis aizgāja.</su>
+          <su lang="ru">Янис ушел.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="xx">Drīzi pēc tam Biezumnieks atbrauca savai māsai pavēstīt par notikušo ugunsgrēku un lietu pārrunāt.</su>
+          <su lang="ru">Вскоре после этого приехал Биезумниек рассказать сестре о пожаре и посоветоваться.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Krikumiene tūliņ viņu ieveda saimnieku istabā un aizslēdza durvis.</su>
+          <su lang="ru">Крикума тотчас увела его на хозяйскую половину и заперла за собой дверь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence>
+          <su lang="xx">«Es jau zinu, kādēļ atnāci,» viņa satricināta teica. «Tavs šķūnis pagājušā naktī aizdedzināts, un mūsu Jānis ir tas ļaundaris.»</su>
+          <su lang="ru">- Знаю, знаю, зачем приехал... - проговорила взволнованно сестра. - Прошлой ночью сгорел у тебя сарай, а поджигатель наш Янис...</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence>
+          <su lang="xx"> Biezumnieks iztrūkās.</su>
+          <su lang="ru">Биезумниек вздрогнул.</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence>
+          <su lang="xx">«Tā ir,» māsa, galvu palocīdama, teica un stāstīja, kas pie pusdienas galda noticis. «Tu pats viņu varētu pārklausīt,» viņa turpināja, «viņš; tagad viens pats lejā pļavā, nav vēl pamatīgi izdomājis melus un, uz taviem vaicājumiem atbildot, varbūt sajuktu un pārrunātos.»</su>
+          <su lang="ru">- Да, да, так оно и есть, - кивнула головой сестра и рассказала про разговор с Янисом за обедом. - Тебе бы следовало не медля его допросить, - продолжала она. - Он сейчас как раз на лугу один. Может, не придумал еще, что соврать, и тебе легко будет запугать его своими расспросами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence>
+          <su lang="xx">«Jā, bet vai tad kāds arī pamanījis, ka viņš izgājušā naktī nebij mājā?» Biezumnieks iemeta starpā. «Tā ir visgalvenākā lieta.»</su>
+          <su lang="ru">- А скажи, из вас никто не заметил - прошлой ночью он из дому не выходил?- перебил ее Биезумниек.- Это главное.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence>
+          <su lang="xx">«Dievam žēl, nē; bet tāpat pret viņu liecina tas, ka viņš līdz šai dienai, kaut gan jau auksts laiks, vēl arvienu gulēja uz zirgu staļļa.»</su>
+          <su lang="ru"> - Вот жалко, этого никто не знает... Но против него говорит уже то, что он, несмотря на холод, все еще ночует в конюшне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence>
+          <su lang="xx">Pēc tālākas apspriešanās Biezumnieks steidzās uz pļavu.</su>
+          <su lang="ru">Потолковав еще немного с сестрой, Биезумниек поспешил на луг.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņš pilnīgi bij pārliecinājies, ka Jānis un neviens cits viņa šķūni aizdedzinājis.</su>
+          <su lang="ru">Теперь он уже был совершенно уверен в том, что сарай поджег именно Янис.</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence>
+          <su lang="xx">«Nu, dēliņ,» viņš bildināja zēnu, kurš sapļauto atālu sagramstīja vienā vietā, «tu strādā ļoti uzcītīgi, - vai pagājušā naktī labi gulēji?</su>
+          <su lang="ru">- Ну, сынок, - приветствовал он Яниса, который сгребал только что скошенную траву. - Работаешь ты куда как прилежно... Наверное, прошлой ночью хорошо выспался?</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Labrīt!»</su>
+          <su lang="ru">- С добрым утром!</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence>
+          <su lang="xx">«Labrīt!</su>
+          <su lang="ru">- С добрым утром!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Pateicos, ļoti labi gulēju, un jūs?» Jānis atbildēja, cenzdamies runāt Biezumnieka balsī un savu darbu turpinādams.</su>
+          <su lang="ru">Спасибо, я-то хорошо выспался, а вы как? - ответил Биезумниеку в том же тоне Янис, продолжая сгребать траву.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence>
+          <su lang="xx"> Biezumnieks tapa tumši sārts. Bet viņš savaldījās un mierīgi teica:</su>
+          <su lang="ru">Биезумниек побагровел, но сдержался и спокойно продолжал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence>
+          <su lang="xx">«Man bij nelāga nakts, mans lielais siena šķūnis nodedza.»</su>
+          <su lang="ru"> - У меня была тяжелая ночь. Сгорел большой сарай с сеном.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence>
+          <su lang="xx">Tad, Jāņam piepeši gluži tuvu pieiedams un savas rokas tam ap pleciem apņemdams, un viņu kā dzelzs krampjos turēdams, viņš čukstošā balsī piezīmēja: «Un tu, zēn, to esi padarījis!»</su>
+          <su lang="ru"> Потом он подошел к Янису вплотную, схватил его за плечи, как клещами, и прошипел: - И это твоих рук дело...</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence>
+          <su lang="xx">Kādu acumirkli izlikās, it kā Jānis zem šāda apvainojuma smaguma gribētu sašļukt, bet tad viņš saņēmās un, stingri noturēdamies, rupji un dikti teica:</su>
+          <su lang="ru">Первое мгновение казалось, что Янис упадет под тяжестью обвинения, но он быстро оправился и резко бросил:</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence>
+          <su lang="xx">«Biezumniek, kā tu tā vari domāt?</su>
+          <su lang="ru">- Откуда ты это взял, Биезумниек...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Vai tu esi pustraks vai pilnīgi traks?»</su>
+          <su lang="ru">Ты что, совсем уже спятил или только собираешься?..</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence>
+          <su lang="xx">«Puika,» Biezumnieks brēca, kurš vairs nevarēja savaldīties, «puika, izteic - vai es tevi saberzīšu!» Un viņš puiku stipri purināja.</su>
+          <su lang="ru">- Мальчишка! - взвыл Биезумниек. - Признавайся, мальчишка, или я тебя в порошок сотру!..</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence>
+          <su lang="xx"> «Kad tu gribi, lai izsaku un vairāk neko, tad: jā, es to padarīju,» Jānis teica...</su>
+          <su lang="ru">- Ну, раз тебе хочется, чтобы я так сказал, пускай это я сделал!..</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence>
+          <su lang="xx"> Biezumnieks izsauca kādu lāstu vārdu un atlaida Jāņa plecus. Bet tad viņš kā nikns zvērs tam uzklupa, sagrāba viņu pie rīkles un žņaudza to ar visu spēku.</su>
+          <su lang="ru">Биезумниек выкрикнул какое-то проклятие и выпустил плечо Яниса, но потом снова кинулся на него, словно дикий зверь, схвотил его за горло и начал душить.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tikai ar vislielākajām pūlēm Jāņam izdevās atrauties; viņš sašutis iekoda Biezumniekam pirkstā un ar dūri iesita tam pa ģīmi.</su>
+          <su lang="ru"> Янис вырвался с трудом, пришлось укусить Биезумниека за палец и хватить кулаком по лицу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence>
+          <su lang="xx">«Tārps!» Biezumnieks, zobus griezdams, brēca, no dusmām gluži pārņemts, sagrāba Jāni, kā spalvu kušķi pacēla viņu uz augšu un tad ar visu spēku laida tam nokrist zemē.</su>
+          <su lang="ru"> - Гадина!.. - скрипя зубами, рычал Биезумниек. Вне себя от злости он схватил Яниса и, как горсть перьев, приподнял в воздух и изо всей силы швырнул наземь...</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence>
+          <su lang="xx">Pakluss, sāpīgs brēciens skanēja no puisēna lūpām, viņš ar abām rokām nespēcīgi mēģināja pacelties, bet atkrita paģībis.</su>
+          <su lang="ru"> Негромкий крик боли вырвался из груди подростка, он сделал попытку опереться на руку, чтобы привстать, но тут же упал и потерял сознание.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence>
+          <su lang="xx">Tumšas asinis plūda no viņa muguras - viņš bij uzkritis uz izkapts, kuru neapdomīgi tā bij atstājis zemē, ka gals bij uz augšu, un izkapts gals bij iedūries viņa mugurā...</su>
+          <su lang="ru"> По спине ручьем струилась темная кровь. Янис упал на косу, торчавшую в траве вверх лезвием, и конец лезвия вонзился ему в спину.</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence>
+          <su lang="xx">Biezumnieks, kā par stabu pārvērties, uzskatīja savu dusmu nedzīvo upuri ar platu muti un stīvām acīm; bet tad, no briesmīgām bailēm pārņemts, gandrīz nemaz nezinādams, ko darīja, viņš, kur tam vajadzēja gādāt palīdzību, bēdza uz tuvējo mežiņu.</su>
+          <su lang="ru"> Биезумниек остолбенел. Раскрыв рот и выпучив глаза, тупо уставился на свою жертву, но потом, не помня себя от ужаса, бросился к соседнему лесу, вместо того, что бы позаботиться о помощи.</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence>
+          <su lang="xx">Kad Līze pēdīgi atnāca un jau no tālienes redzēja Jāni nekustoši pie zemes guļot, viņa, nekā laba neparedzēdama, gāja ātrāki un kā ārprātīga klupa Jāņam blakus zemē.</su>
+          <su lang="ru"> Но вот пришла Лиза. Еще издали увидев, что Янис лежит без движения, она почуяла недоброе, бегом бросилась к нему и, как безумная, повалилась рядом.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet nākošajā acumirklī viņa atkal uzlēca stāvus, norāva lakatiņu no savas galvas, skrēja ar to pie tuvākā grāvja, iemērcēja to aukstā, neskaidrā ūdenī; tad viņa steidzās atkal atpakaļ pie Jāņa un spieda tam slapjo lakatu uz pieres.</su>
+          <su lang="ru">Но в следующее мгновение вскочила, добежала до ближайшей канавы, сорвала с головы платок, намочила его в холодной мутной воде и прижала ко лбу Яниса.</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence>
+          <su lang="xx">Pēc kādām minūtēm viņš atvēra gurdenās acis.</su>
+          <su lang="ru">Номного спустя Янис устало открыл глаза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="95">
+        <sentence>
+          <su lang="xx">«Biezumnieks?» - tas bij vienīgais vārds, kuru Līze aizsmakušā balsī spēja izrunāt.</su>
+          <su lang="ru">- Биезумниек? - спросила Лиза хриплым голосом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence>
+          <su lang="xx">Jānis pamirkšķināja acis.</su>
+          <su lang="ru">В ответ Янис опустил веки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence>
+          <su lang="xx">«Ak Dievs, ak Dievs!</su>
+          <su lang="ru">- Боже мой, Боже мой!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kā tad viņš zināja, ka tu -» «Es... to... viņam... pats... sacīju... lai viņu... kaitinātu...</su>
+          <su lang="ru">Откуда он мог знать. что ты... - Я ему... сам сказал!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet es... šķūni... neaizdedzināju...</su>
+          <su lang="ru">Чтобы разозлить....</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kāds... cits... bija... pasteidzies... man... papriekšu... es... to gribēju... darīt...</su>
+          <su lang="ru">А сарай... не я поджег... другой.... опередил... Я только собирался...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Steidzies... pēc... palīdzības... ai...»</su>
+          <su lang="ru">Беги за помощью... ох!..</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence>
+          <su lang="xx">Pēc trim dienām Jānis bij nomiris.</su>
+          <su lang="ru">Через три дня Янис умер.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Uz māju nesot, viņš bij zaudējis valodu un samaņu.</su>
+          <su lang="ru">Еще по дороге к дому он перестал говорить и потерял сознание.</su>
+        </sentence>
+      </p>
+      <p type="text" id="100">
+        <sentence>
+          <su lang="xx">Divi reizes palīgā atsauktais ārsts neko nebij varējis līdzēt, un paruna, ar kuru Krikumiene klusībā bij mēģinājuse apmierināties, šoreiz nebij piepildījusēs: Nezāle bij nokaltuse.</su>
+          <su lang="ru">Два раза приезжал врач, но помочь уже не смог. Поговорка "сорная трава не вянет", которой обычно утешалась Крикума, на этот раз не сбылась - сорная трава завяла...</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence>
+          <su lang="xx">Nākošā svētdienā Jāni paglabāja.</su>
+          <su lang="ru">В следующее воскресение Яниса похоронили.</su>
+        </sentence>
+      </p>
+      <p type="text" id="103">
+        <sentence>
+          <su lang="xx">«Dievs labi dara ko darīdams,» raudošā Krikumiene vairāk reizes teica saviem no kaimiņiem sanākušiem viesiem, kad tie Jāņa ātro nāvi pārrunāja. «Kas var zināt, kas no tā zēna vēlāk būtu iznācis...</su>
+          <su lang="ru">- Господь Бог знает, что делает! - плача, говорила Крикума собравшимся на похоронах соседям. - Неизвестно, что бы вышло из этого мальчишки.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Es tikai vēlētos zināt, vai viņš pats tik nelaimīgi kritis, jeb vai varbūt skuķe - viņi abi bij tik nesavaldāmi - -» Draudzes skolotājs pie kapa atkārtoja jau sen galvā iekaltu bēru runu un par savām pūlēm dabūja rubli, un brauca līdz uz bēru māju.</su>
+          <su lang="ru"> Мне бы только хотелось узнать, сам ли он так неудачно упал или это его девчонка толкнула. С ними обоими никакого сладу... У могули приходской учитель повторил давным-давно заученное надгробное слово, получил рубль за труды и вместе с другими приглашенными поехал в "дом скорби", где гости пили кофе и вино, ели свинину и горох.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tur viesi dzēra kafeju un brandvīnu un ēda sivēna gaļu un .zirņus, un pēc tam jaunākie ļaudis pie harmonikas mūzikas drusku padancojās.</su>
+          <su lang="ru">Под конец молодежь немного потанцевала под гармонику.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Vēlu vakarā visi šķīrās.</su>
+          <su lang="ru">Разошлись гости поздно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="104">
+        <sentence>
+          <su lang="xx">Biezumnieks nebij atnācis uz bērēm, kaut gan arī viņš, kā Krikumienes tuvākais radinieks, bija ielūgts.</su>
+          <su lang="ru">Биезумниека на похоронах не было, хотя его и известили как ближайшего родственника хозяйки.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Noskumuse saimniece izskaidroja saviem viesiem, ka viņas brālis caur ugunsgrēku stipri sabaidījies un neesot īsti vesels.</su>
+          <su lang="ru">Опечаленная Крикума рассказывала гостям о том, что брат ее так переволновался во время пожара, что до сих пор еще недомогает.</su>
+        </sentence>
+      </p>
+      <p type="text" id="105">
+        <sentence>
+          <su lang="xx">Līzi neviens nebij ievērojis.</su>
+          <su lang="ru">На Лизу никто не обращал ни малейшего внимания.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">No kapsētas pārnākuse, viņa tūliņ bij uzsēdusies aizkrāsnē uz mūrīša un, pret visu vienaldzīga būdama, stīvām acīm skatījās uz zemi. Neviens viņu tur neredzēja, tikai viņas māte, kura arī bij atnākuse uz bērēm, šad un tad piegāja pie viņas, sacīdama kādus mīļus, mierinošus vārdus.</su>
+          <su lang="ru">Вернувшись с кладбища, она забралась на лежанку за печкой и, равнодушная ко всему, застывшим взглядом уставилась в пол. Никто даже не заметил, что она сидит там, никто, кроме пришедшей на похороны матери Лизы, которая то и дело подходила к ней и пыталась утешить теплым словом и лаской.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Šai runīgajai sievai patiesi bij rūpes par savu bērnu, un, kad Līze liedzās pat pie vakariņām iet, tad māte iesāka raudāt.</su>
+          <su lang="ru">У этой разговорчивой женщины болело сердце за свое дитя, а когда Лиза отказалась даже от ужина, мать разрыдалась.</su>
+        </sentence>
+      </p>
+      <p type="text" id="106">
+        <sentence>
+          <su lang="xx">«Meitiņ bērniņ, kas tev ir?» viņa bailīgi vaicāja.</su>
+          <su lang="ru">- Доченька, дитятко, что с тобой? - робко спрашивала она. - Не сиди, как мертвая, не смотри так, ты меня пугаешь!..</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">«Neskaties jel tik sveši uz visām pusēm, tu mani izbiedē, runā jel, izraudies, tu vēl nevienas asaras neesi izraudājuse, un es taču zinu, ka tu ar Jāni labi satiki un viņa nāve tev ķeras pie sirds.</su>
+          <su lang="ru">Ну, скажи хоть словечко, поплачь, ну, поплачь, ведь ты же еще ни слезинки не уронила!.. Я знаю, что вы с Янисом дружили и как тебе тяжело...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet nesēdi tā - tik mēma un auksta, ak Dievs, ak Dievs, nedari mani nelaimīgu!</su>
+          <su lang="ru">Только не сиди... как каменная... Боже мой, Боже мой... не посылай мне такого несчастья!..</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Tev strauja sirds.</su>
+          <su lang="ru">У тебя, дочка, сердце горячее...</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet apdomājies, tu esi mans vienīgais bērns, visa mana manta šajā pasaulē!</su>
+          <su lang="ru">Ты подумал и обо мне: ты моя единственная опора и все мое богатство!</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kad tu sev padarīsi kādu kaiti, tad es miršu žēlabās!» Bet viņai nebij jāmirst žēlabās.</su>
+          <su lang="ru">Если с тобой что случится, я помру от горя!..</su>
+        </sentence>
+      </p>
+      <p type="text" id="107">
+        <sentence>
+          <su lang="xx">Līze ne sev, nedz citiem nedarīja nekādas kaites.</su>
+          <su lang="ru">С Лизой ничего не случилось.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņa bij pārvērtusēs klusa un domīga, varēja brīžam stundām domīgi sēdēt bezdarbībā, bet citādi viņa bija palikuse, kāda bijuse.</su>
+          <su lang="ru">Она только стала какой-то тихой и задумчивой, могла часами сидеть без дела, но в остальном была все та же.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kad viņa savu gadu pie Krikumiem bija nokalpojuse, tad viņa aizgāja pie vietējā mācītāja par kalponi, palika tur četrus gadus un tajā laikā no mācītāja kundzes iemācījās smalkus rokdarbus strādāt un ar šujmašīnu rīkoties.</su>
+          <su lang="ru">Отработав свой срок у Крикумов, она нанялась в служанки к пастору и за четыре года, которые прослужила у госпожи пасторши, выучилась тонким рукодельям и обращению со швейной машиной.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Kad viņa no mācītāja aizgāja, tad viņa ar māti pie kāda saimnieka nometās uz īri un nodarbojās ar sieviešu apģērbu izgatavošanu.</su>
+          <su lang="ru">Взяв расчет у пастора, они с матерью устроились постоялицами на каком-то хуторе, и Лиза занялась шитьем.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Māte un meita tagad laimīgi dzīvoja kopā.</su>
+          <su lang="ru">Мать и дочь зажили счастливо.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Bet šī laime ilgi nepastāvēja.</su>
+          <su lang="ru">Но счастье это длилось недолго.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Jau pēc kāda gada māte saaukstējās, saslima un nomira.</su>
+          <su lang="ru">Через год мать простудилась, неделю проболела и умерла.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Līze izrīkoja mazas bēres, kurās salūdza vistuvākos radus, tad pamazām pārdeva visas savas lietas, izņēma pasi un teica, ka aiziešot uz Rīgu. Bet neviens no viņas pazīstamiem viņu ne tur, nedz citur vairs nav redzējis.</su>
+          <su lang="ru">Лиза позвала на похороны лишь самую близкую родню, а вскоре после похорон распродала имущество, выправила паспорт и объявила, что переезжает в Ригу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="108">
+        <sentence>
+          <su lang="xx">Bet kādu laiciņu pēc Līzes aiziešanas šāda briesmu ziņa izpaudās pa pagastu: «Biezumnieks nokauts!»</su>
+          <su lang="ru">Вскоре после отъезда Лизы волость облетела страшная весть: зарезан Биезумниек.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Viņu atrada klētī, kur tas pa vasaru mēdza gulēt, gultā bez dzīvības.</su>
+          <su lang="ru">Его нашли мертвым в амбаре, где он всегда спал летом.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Nodiluse, īsa izkapts bij iedurta viņa sirdī...</su>
+          <su lang="ru">Лезвие короткой косы было воткнуто прямо в сердце.</su>
+        </sentence>
+      </p>
+      <p type="text" id="109">
+        <sentence>
+          <su lang="xx">Jāņa kaps, kurš katrā vasarā bij līdzinājies puķu dobei, pēc Līzes pazušanas pamazām panīka.</su>
+          <su lang="ru">Могила Яниса все эти годы напоминала пышную клумбу, но после отъезда Лизы быстро засохла.</su>
+        </sentence>
+        <sentence>
+          <su lang="xx">Atraitnītes, neļķes un neaizmirsteles uz tā iznīka. Starp lielām nātrām vēl tikai kādas retas, zilas puķītes kā baidīdamās parādās, bet arī tās drīz iznīks, taps izskaustas, un uz sabrukušā kapa augs un kuplos tikai - nezāle.</su>
+          <su lang="ru">Погибли анютины глазки, гвоздики и незабудки; из пышных кустов крапивы и сорняков кое-где еще испуганно выглядывают какие-то голубые цветочки, но скоро и они исчезнут; на заброшенной могиле будет расти и цвести одна лишь сорная трава...</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

@@ -1,0 +1,116 @@
+<html>
+   <title>Lingtrain Magic Book -
+      			The Luckiest Man in the World / Самый везучий человек в мире
+   </title>
+   <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+	  <style>
+	 
+	
+.par {
+	width: 720px;
+}
+
+.u1 {
+	display:inline;
+	line-height: 3.5em;
+	position: relative;
+}
+
+.sub {
+	position: absolute;
+	top: 2px;
+	width: 720px;
+	display: block;
+	color: green;
+	font-style: italic;
+	fon-size: 8px;
+}
+
+.mark {
+	background:red;
+	display: inline-block;
+}
+ 
+
+    <!-- position: absolute; -->
+    <!-- content: ">>>НАЧАЛО текст на другом языке очень длинный текст на другом языке очень длинныйтекст на другом языке очень длинный текст на другом языке очень другом"; -->
+    <!-- display: block; -->
+    <!-- margin-top: 0px; -->
+    <!-- top: 0; -->
+    <!-- /* left: 0; */ -->
+    <!-- color: lightseagreen; -->
+    <!-- width: 700px; -->
+    <!-- text-indent: unset; -->
+	
+
+		</style>
+		
+		<script>			
+			(function(window, document, undefined){
+
+			  window.onload = init;
+			  
+
+			  function init(){				
+				var marks = document.getElementsByClassName('mark');
+				for (var i = 0; i < marks.length; ++i) {
+					var m = marks[i];  
+					
+					console.log(m);
+					
+					var offsets = m.getBoundingClientRect();					
+					var name = "sub" + i;					
+					
+					var sub = document.getElementById(name);
+					
+					
+					if (sub) {					    
+						console.log(offsets.left);
+						sub.style.textIndent = offsets.left - 5 + "px";
+						sub.style.left = -offsets.left + 8 + "px";
+						
+						<!-- sub.style.textIndent = "50px"; -->
+						};					
+				}
+			  }
+			})(window, document, undefined);
+		</script>
+   </head>
+   <section class="fullpage"><img src="./covers/default.jpg"></section>
+   <section class="title">
+      <p class="book-title font-en-title">The Luckiest Man in the World</p>
+      <p class="book-author font-en-title">Robert Sheckley</p>
+   </section>
+   <section class="title">
+      <p class="book-title font-ru-title">Самый везучий человек в мире</p>
+      <p class="book-author font-ru-title">Роберт Шекли</p>
+   </section>
+   <section id="authors"><img class="logo" src="https://hsto.org/webt/q9/1t/cy/q91tcypgjnrrsmrfcviyzzdvfsk.png"><p>
+         				Lingtrain Books
+         			
+      </p>
+   </section>
+   <section class="part" id="1">
+      <div class="default-title-1">The Luckiest Man in the World</div>
+      <div class="default-title-2">Самый везучий человек в мире</div>
+      <div class="">
+         <div class="par">
+            <div class="u1"><span><span class="mark"></span>I'm really amazingly well off down here. </span><span class="sub" id="sub1">Я здесь поразительно хорошо обеспечен. </span></div>
+            <div class="u1"><span><span class="mark"></span>But you've got to remember that I'm a fortunate person. </span><span class="sub" id="sub2">Но не забывайте, что я человек везучий. </span></div>
+            <div class="u1"><span><span class="mark"></span>It was sheer good luck that sent me to Patagonia. </span><span class="sub" id="sub3">И то, что оказался в Патагонии, — чистейшее везение. </span></div>
+            <div class="u1"><span><span class="mark"></span>Not pull, understand—no, nor ability. </span><span class="sub" id="sub4">Понимаете, дело тут не в протекции и не в моих способностях. </span></div>
+            <div class="u1"><span><span class="mark"></span>I'm a pretty good meteorologist, but they could have sent a better one. </span><span class="sub" id="sub5">Я очень неплохой метеоролог, но могли послать кого-нибудь и получше меня. </span></div>
+            <div class="u1"><span><span class="mark"></span>I've just been extremely lucky to be in the right places at the right times. </span><span class="sub" id="sub6">Просто мне необыкновенно повезло, и я оказался в нужном месте в нужное время. </span></div>
+            <div class="u1"><span><span class="mark"></span>It takes on an aspect of the fabulous when you consider that the army equipped my weather station with just about every gadget
+                  known to man. </span><span class="sub" id="sub7">Если призадуматься, то сам факт, что армия снабдила мою метеостанцию едва ли не каждым известным людям приспособлением, тоже
+                  граничит с чудом. </span></div>
+            <div class="u1"><span><span class="mark"></span>Not entirely for me, of course. </span><span class="sub" id="sub8">Старались они, разумеется, не ради меня. </span></div>
+            <div class="u1"><span><span class="mark"></span>The army had planned on setting up a base here. </span><span class="sub" id="sub9">Военные планировали основать здесь базу. </span></div>
+            <div class="u1"><span><span class="mark"></span>They got all the equipment in, and then had to abandon the project. </span><span class="sub" id="sub10">Они завезли оборудование, но позднее им пришлось забросить весь проект. </span></div>
+         </div>
+      </div>
+      
+   </section>
+</html>

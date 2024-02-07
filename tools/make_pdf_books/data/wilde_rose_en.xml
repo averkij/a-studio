@@ -1,0 +1,675 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220622T085842Z</creationdate>
+    <paragraphs>65</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>131</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>145</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Oscar Wilde</s>
+      <s lang="ru">Оскар Уайльд</s>
+    </author>
+    <title>
+      <s lang="en">The Nightingale and the Rose</s>
+      <s lang="ru">Соловей и роза</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">"She said that she would dance with me if I brought her red roses," cried the young Student; "but in all my garden there is no red rose."</su>
+          <su lang="ru">— Она сказала, что будет танцевать со мной, если я принесу ей красных роз, — воскликнул молодой Студент, — но в моем саду нет ни одной красной розы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">From her nest in the holm-oak tree the Nightingale heard him, and she looked out through the leaves, and wondered.</su>
+          <su lang="ru">Его услышал Соловей, в своем гнезде на Дубе, и, удивленный, выглянул из листвы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">"No red rose in all my garden!" he cried, and his beautiful eyes filled with tears.</su>
+          <su lang="ru">— Ни единой красной розы во всем моем саду! — продолжал сетовать Студент, и его прекрасные глаза наполнились слезами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Ah, on what little things does happiness depend!</su>
+          <su lang="ru">— Ах, от каких пустяков зависит порою счастье!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I have read all that the wise men have written, and all the secrets of philosophy are mine, yet for want of a red rose is my life made wretched."</su>
+          <su lang="ru">Я прочел все, что написали мудрые люди, я постиг все тайны философии, — а жизнь моя разбита из-за того только, что у меня нет красной розы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">"Here at last is a true lover," said the Nightingale.</su>
+          <su lang="ru">— Вот он наконец-то, настоящий влюбленный, — сказал себе Соловей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Night after night have I sung of him, though I knew him not: night after night have I told his story to the stars, and now I see him.</su>
+          <su lang="ru">— Ночь за ночью я пел о нем, хотя и не знал его, ночь за ночью я рассказывал о нем звездам, и наконец я увидел его.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His hair is dark as the hyacinth-blossom, and his lips are red as the rose of his desire; but passion has made his face like pale ivory, and sorrow has set her seal upon his brow."</su>
+          <su lang="ru">Его волосы темны, как темный гиацинт, а губы его красны, как та роза, которую он ищет; но страсть сделала его лицо бледным, как слоновая кость, и скорбь наложила печать на его чело.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">"The Prince gives a ball to-morrow night," murmured the young Student, "and my love will be of the company.</su>
+          <su lang="ru">— Завтра вечером принц дает бал, — шептал молодой Студент, — и моя милая приглашена.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If I bring her a red rose she will dance with me till dawn.</su>
+          <su lang="ru">Если я принесу ей красную розу, она будет танцевать со мной до рассвета.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If I bring her a red rose, I shall hold her in my arms, and she will lean her head upon my shoulder, and her hand will be clasped in mine.</su>
+          <su lang="ru">Если я принесу ей красную розу, я буду держать ее в своих объятиях, она склонит голову ко мне на плечо, и моя рука будет сжимать ее руку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But there is no red rose in my garden, so I shall sit lonely, and she will pass me by.</su>
+          <su lang="ru">Но в моем саду нет красной розы, и мне придется сидеть в одиночестве, а она пройдет мимо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She will have no heed of me, and my heart will break."</su>
+          <su lang="ru">Она даже не взглянет на меня, и сердце мое разорвется от горя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">"Here indeed is the true lover," said the Nightingale.</su>
+          <su lang="ru">— Это настоящий влюбленный, — сказал Соловей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"What I sing of, he suffers — what is joy to me, to him is pain.</su>
+          <su lang="ru">— То, о чем я лишь пел, он переживает на деле; что для меня радость, то для него страдание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Surely Love is a wonderful thing.</su>
+          <su lang="ru">Воистину любовь — это чудо.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is more precious than emeralds, and dearer than fine opals.</su>
+          <su lang="ru">Она драгоценнее изумруда и дороже прекраснейшего опала.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pearls and pomegranates cannot buy it, nor is it set forth in the marketplace.</su>
+          <su lang="ru">Жемчуга и гранаты не могут купить ее, и она не выставляется на рынке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It may not be purchased of the merchants, nor can it be weighed out in the balance for gold."</su>
+          <su lang="ru">Ее не приторгуешь в лавке и не выменяешь на золото.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">"The musicians will sit in their gallery," said the young Student, "and play upon their stringed instruments, and my love will dance to the sound of the harp and the violin.</su>
+          <su lang="ru">— На хорах будут сидеть музыканты, — продолжал молодой Студент. — Они будут играть на арфах и скрипках, и моя милая будет танцевать под звуки струн.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She will dance so lightly that her feet will not touch the floor, and the courtiers in their gay dresses will throng round her.</su>
+          <su lang="ru">Она будет носиться по зале с такой легкостью, что ноги ее не коснутся паркета, и вокруг нее будут толпиться придворные в расшитых одеждах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But with me she will not dance, for I have no red rose to give her"; and he flung himself down on the grass, and buried his face in his hands, and wept.</su>
+          <su lang="ru">Но со мной она не захочет танцевать, потому что у меня нет для нее красной розы. И юноша упал ничком на траву, закрыл лицо руками и заплакал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">"Why is he weeping?" asked a little Green Lizard, as he ran past him with his tail in the air.</su>
+          <su lang="ru">— О чем он плачет? — спросила маленькая зеленая Ящерица, которая проползала мимо него, помахивая хвостиком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">"Why, indeed?" said a Butterfly, who was fluttering about after a sunbeam.</su>
+          <su lang="ru">— Да, в самом деле, о чем? — подхватила Бабочка, порхавшая в погоне за солнечным лучом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">"Why, indeed?" whispered a Daisy to his neighbour, in a soft, low voice.</su>
+          <su lang="ru">— О чем? — спросила Маргаритка нежным шепотом свою соседку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">"He is weeping for a red rose," said the Nightingale.</su>
+          <su lang="ru">— Он плачет о красной розе, — ответил Соловей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">"For a red rose?" they cried;</su>
+          <su lang="ru">— О красной розе! — воскликнули все.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"how very ridiculous!" and the little Lizard, who was something of a cynic, laughed outright.</su>
+          <su lang="ru">— Ах, как смешно! А маленькая Ящерица, несколько склонная к цинизму, беззастенчиво расхохоталась.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">But the Nightingale understood the secret of the Student’s sorrow, and she sat silent in the oak-tree, and thought about the mystery of Love.</su>
+          <su lang="ru">Один только Соловей понимал страдания Студента, он тихо сидел на Дубе и думал о таинстве любви.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">Suddenly she spread her brown wings for flight, and soared into the air.</su>
+          <su lang="ru">Но вот он расправил свои темные крылышки и взвился в воздух.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She passed through the grove like a shadow, and like a shadow she sailed across the garden.</su>
+          <su lang="ru">Он пролетел над рощей, как тень, и, как тень, пронесся над садом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">In the centre of the grass-plot was standing a beautiful Rose-tree, and when she saw it she flew over to it, and lit upon a spray.</su>
+          <su lang="ru">Посреди зеленой лужайки стоял пышный Розовой Куст. Соловей увидел его, подлетел к нему и спустился на одну из его веток.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">"Give me a red rose," she cried, "and I will sing you my sweetest song."</su>
+          <su lang="ru">— Дай мне красную розу, — воскликнул он, — и я спою тебе свою лучшую песню!</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">But the Tree shook its head.</su>
+          <su lang="ru">Но Розовый Куст покачал головой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">"My roses are white," it answered; "as white as the foam of the sea, and whiter than the snow upon the mountain.</su>
+          <su lang="ru">— Мои розы белые, — ответил он, — они белы, как морская пена, они белее снега на горных вершинах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But go to my brother who grows round the old sun-dial, and perhaps he will give you what you want."</su>
+          <su lang="ru">Поди к моему брату, что растет возле старых солнечных часов, — может быть, он даст тебе то, чего ты просишь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">So the Nightingale flew over to the Rose-tree that was growing round the old sun-dial.</su>
+          <su lang="ru">И Соловей полетел к Розовому Кусту, что рос возле старых солнечных часов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">"Give me a red rose," she cried, "and I will sing you my sweetest song."</su>
+          <su lang="ru">— Дай мне красную розу, — воскликнул он, — и я спою тебе свою лучшую песню!</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">But the Tree shook its head.</su>
+          <su lang="ru">Но Розовый Куст покачал головой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">"My roses are yellow," it answered; "as yellow as the hair of the mermaiden who sits upon an amber throne, and yellower than the daffodil that blooms in the meadow before the mower comes with his scythe.</su>
+          <su lang="ru">— Мои розы желтые, — ответил он, — они желты, как волосы сирены, сидящей на янтарном престоле, они желтее златоцвета на нескошенном лугу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But go to my brother who grows beneath the Student’s window, and perhaps he will give you what you want."</su>
+          <su lang="ru">Поди к моему брату, что растет под окном у Студента, может быть, он даст тебе то, чего ты просишь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">So the Nightingale flew over to the Rose-tree that was growing beneath the Student’s window.</su>
+          <su lang="ru">И Соловей полетел к Розовому Кусту, что рос под окном у Студента.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">"Give me a red rose," she cried, "and I will sing you my sweetest song."</su>
+          <su lang="ru">— Дай мне красную розу, — воскликнул он, — и я спою тебе свою лучшую песню!</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">But the Tree shook its head.</su>
+          <su lang="ru">Но Розовый Куст покачал головой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">"My roses are red," it answered, "as red as the feet of the dove, and redder than the great fans of coral that wave and wave in the ocean-cavern.</su>
+          <su lang="ru">— Мои розы красные, — ответил он, — они красны, как лапки голубя, они краснее кораллов, что колышутся, как веер, в пещерах на дне океана.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But the winter has chilled my veins, and the frost has nipped my buds, and the storm has broken my branches, and I shall have no roses at all this year."</su>
+          <su lang="ru">Но кровь в моих жилах застыла от зимней стужи, мороз побил мои почки, буря поломала мои ветки, и в этом году у меня совсем не будет роз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">"One red rose is all I want," cried the Nightingale, "only one red rose!</su>
+          <su lang="ru">— Одну только красную розу — вот все, чего я прошу, — воскликнул Соловей. — Одну-единственную красную розу!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Is there no way by which I can get it?"</su>
+          <su lang="ru">Знаешь ты способ получить ее?</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">"There is away," answered the Tree; "but it is so terrible that I dare not tell it to you."</su>
+          <su lang="ru">— Знаю, — ответил Розовый Куст, — но оп так страшен, что у меня не хватает духу открыть его тебе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">"Tell it to me," said the Nightingale, "I am not afraid."</su>
+          <su lang="ru">— Открой мне его, — попросил Соловей, — я не боюсь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">"If you want a red rose," said the Tree, "you must build it out of music by moonlight, and stain it with your own heart’s-blood.</su>
+          <su lang="ru">— Если ты хочешь получить красную розу, — молвил Розовый Куст, — ты должен сам создать ее из звуков песни при лунном сиянии, и ты должен обагрить ее кровью сердца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You must sing to me with your breast against a thorn.</su>
+          <su lang="ru">Ты должен петь мне, прижавшись грудью к моему шипу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All night long you must sing to me, and the thorn must pierce your heart, and your life-blood must flow into my veins, and become mine."</su>
+          <su lang="ru">Всю ночь ты должен мне петь, и мой шип пронзит твое сердце, и твоя живая кровь перельется в мои жилы и станет моею кровью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">"Death is a great price to pay for a red rose," cried the Nightingale, "and Life is very dear to all.</su>
+          <su lang="ru">— Смерть — дорогая цена за красную розу, — воскликнул Соловей. — Жизнь мила каждому!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is pleasant to sit in the green wood, and to watch the Sun in his chariot of gold, and the Moon in her chariot of pearl.</su>
+          <su lang="ru">Как хорошо, сидя в лесу, любоваться солнцем в золотой колеснице и луною в колеснице из жемчуга.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Sweet is the scent of the hawthorn, and sweet are the bluebells that hide in the valley, and the heather that blows on the hill.</su>
+          <su lang="ru">Сладко благоухание боярышника, милы синие колокольчики в долине и вереск, цветущий на холмах.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Yet Love is better than Life, and what is the heart of a bird compared to the heart of a man?"</su>
+          <su lang="ru">Но Любовь дороже Жизни, и сердце какой-то пташки — ничто в сравнении с человеческим сердцем!</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">So she spread her brown wings for flight, and soared into the air.</su>
+          <su lang="ru">И, взмахнув своими темными крылышками, Соловей взвился в воздух.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She swept over the garden like a shadow, and like a shadow she sailed through the grove.</su>
+          <su lang="ru">Он пронесся над садом, как тень, и, как тень, пролетел над рощей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">The young Student was still lying on the grass, where she had left him, and the tears were not yet dry in his beautiful eyes.</su>
+          <su lang="ru">А Студент все еще лежал в траве, где его оставил Соловей, и слезы еще не высохли в его прекрасных глазах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">"Be happy," cried the Nightingale, "be happy; you shall have your red rose.</su>
+          <su lang="ru">— Радуйся! — крикнул ему Соловей. — Радуйся, будет у тебя красная роза.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I will build it out of music by moonlight, and stain it with my own heart’s-blood.</su>
+          <su lang="ru">Я создам ее из звуков моей песни при лунном сиянии и обагрю ее горячей кровью своего сердца.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All that I ask of you in return is that you will be a true lover, for Love is wiser than Philosophy, though she is wise, and mightier than Power, though he is mighty.</su>
+          <su lang="ru">В награду я прошу у тебя одного: будь верен своей любви, ибо, как ни мудра Философия, в Любви больше Мудрости, чем в Философии, — и как ни могущественна Власть, Любовь сильнее любой Власти.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Flame-coloured are his wings, and coloured like flame is his body.</su>
+          <su lang="ru">У нее крылья цвета пламени, и пламенем окрашено тело ее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His lips are sweet as honey, and his breath is like frankincense."</su>
+          <su lang="ru">Уста ее сладки, как мед, а дыхание подобно ладану.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">The Student looked up from the grass, and listened, but he could not understand what the Nightingale was saying to him, for he only knew the things that are written down in books.</su>
+          <su lang="ru">Студент привстал на локтях и слушал, но он не понял того, что говорил ему Соловей; ибо он знал только то, что написано в книгах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">But the Oak-tree understood, and felt sad, for he was very fond of the little Nightingale who had built her nest in his branches.</su>
+          <su lang="ru">А Дуб понял и опечалился, потому что очень любил эту малую пташку, которая свила себе гнездышко в его ветвях.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">"Sing me one last song," he whispered;</su>
+          <su lang="ru">— Спой мне в последний раз твою песню, — прошептал он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I shall feel very lonely when you are gone."</su>
+          <su lang="ru">— Я буду сильно тосковать, когда тебя не станет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">So the Nightingale sang to the Oak-tree, and her voice was like water bubbling from a silver jar.</su>
+          <su lang="ru">И Соловей стал петь Дубу, и пение его напоминало журчание воды, льющейся из серебряного кувшина.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">When she had finished her song the Student got up, and pulled a note-book and a lead-pencil out of his pocket.</su>
+          <su lang="ru">Когда Соловей кончил петь, Студент поднялся с травы, вынул из кармана карандаш и записную книжку и сказал себе, направляясь домой из рощи:</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">"She has form," he said to himself, as he walked away through the grove — "that cannot be denied to her; but has she got feeling?</su>
+          <su lang="ru">— Да, он мастер формы, это у него отнять нельзя. Но есть ли у него чувство?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I am afraid not.</su>
+          <su lang="ru">Боюсь, что нет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In fact, she is like most artists; she is all style, without any sincerity.</su>
+          <su lang="ru">В сущности, он подобен большинству художников: много виртуозности и ни капли искренности.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She would not sacrifice herself for others.</su>
+          <su lang="ru">Он никогда не принесет себя в жертву другому.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She thinks merely of music, and everybody knows that the arts are selfish.</su>
+          <su lang="ru">Он думает лишь о музыке, а всякий знает, что искусство эгоистично.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Still, it must be admitted that she has some beautiful notes in her voice.</su>
+          <su lang="ru">Впрочем, нельзя не признать, что иные из его трелей удивительно красивы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What a pity it is that they do not mean anything, or do any practical good."</su>
+          <su lang="ru">Жаль только, что в них нет никакого смысла и они лишены практического значения.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">And he went into his room, and lay down on his little pallet-bed, and began to think of his love; and, after a time, he fell asleep.</su>
+          <su lang="ru">И он пошел к себе в комнату, лег на узкую койку и стал думать о своей любви; вскоре он погрузился в сон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">And when the Moon shone in the heavens the Nightingale flew to the Rose-tree, and set her breast against the thorn.</su>
+          <su lang="ru">Когда на небе засияла луна, Соловей прилетел к Розовому Кусту, сел к нему на ветку и прижался к его шипу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All night long she sang with her breast against the thorn, and the cold crystal Moon leaned down and listened.</su>
+          <su lang="ru">Всю ночь он пел, прижавшись грудью к шипу, и холодная хрустальная луна слушала, склонив свой лик.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All night long she sang, and the thorn went deeper and deeper into her breast, and her life-blood ebbed away from her.</su>
+          <su lang="ru">Всю ночь он пел, а шип вонзался в его грудь все глубже и глубже, и из нее по каплям сочилась теплая кровь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">She sang first of the birth of love in the heart of a boy and a girl.</su>
+          <su lang="ru">Сперва он пел о том, как прокрадывается любовь в сердце мальчика и девочки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And on the top-most spray of the Rose-tree there blossomed a marvellous rose, petal following petal, as song followed song.</su>
+          <su lang="ru">И на Розовом Кусте, на самом верхнем побеге, начала распускаться великолепная роза. Песня за песней — лепесток за лепестком.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Pale was it, at first, as the mist that hangs over the river — pale as the feet of the morning, and silver as the wings of the dawn.</su>
+          <su lang="ru">Сперва роза была бледная, как легкий туман над рекою, — бледная, как стопы зари, и серебристая, как крылья рассвета.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As the shadow of a rose in a mirror of silver, as the shadow of a rose in a water-pool, so was the rose that blossomed on the topmost spray of the Tree.</su>
+          <su lang="ru">Отражение розы в серебряном зеркале, отражение розы в недвижной воде — вот какова была роза, расцветавшая на верхнем побеге Куста.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">But the Tree cried to the Nightingale to press closer against the thorn.</su>
+          <su lang="ru">А Куст кричал Соловью, чтобы тот еще крепче прижался к шипу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">"Press closer, little Nightingale," cried the Tree, "or the Day will come before the rose is finished."</su>
+          <su lang="ru">— Крепче прижмись ко мне, милый Соловушка, не то день придет раньше, чем заалеет роза!</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">So the Nightingale pressed closer against the thorn, and louder and louder grew her song, for she sang of the birth of passion in the soul of a man and a maid.</su>
+          <su lang="ru">Все крепче и крепче прижимался Соловей к шипу, и песня его звучала все громче и громче, ибо он пел о зарождении страсти в душе мужчины и девушки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">And a delicate flush of pink came into the leaves of the rose, like the flush in the face of the bridegroom when he kisses the lips of the bride.</su>
+          <su lang="ru">И лепестки розы окрасились нежным румянцем, как лицо жениха, когда он целует в губы свою невесту.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But the thorn had not yet reached her heart, so the rose’s heart remained white, for only a Nightingale’s heart’s-blood can crimson the heart of a rose.</su>
+          <su lang="ru">Но шип еще не проник в сердце Соловья, и сердце розы оставалось белым, ибо только живая кровь соловьиного сердца может обагрить сердце розы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">And the Tree cried to the Nightingale to press closer against the thorn.</su>
+          <su lang="ru">Опять Розовый Куст крикнул Соловью, чтобы тот крепче прижался к шипу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">"Press closer, little Nightingale," cried the Tree, "or the Day will come before the rose is finished."</su>
+          <su lang="ru">— Крепче прижмись ко мне, милый Соловушка, не то день придет раньше, чем заалеет роза!</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">So the Nightingale pressed closer against the thorn, and the thorn touched her heart, and a fierce pang of pain shot through her.</su>
+          <su lang="ru">Соловей еще сильнее прижался к шипу, и острие коснулось наконец его сердца, и все тело его вдруг пронзила жестокая боль.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Bitter, bitter was the pain, and wilder and wilder grew her song, for she sang of the Love that is perfected by Death, of the Love that dies not in the tomb.</su>
+          <su lang="ru">Все мучительнее и мучительнее становилась боль, все громче и громче раздавалось пенье Соловья, ибо он пел о Любви, которая обретает совершенство в Смерти, о той Любви, которая не умирает в могиле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">And the marvellous rose became crimson, like the rose of the eastern sky.</su>
+          <su lang="ru">И стала алой великолепная роза, подобно утренней заре на востоке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Crimson was the girdle of petals, and crimson as a ruby was the heart.</su>
+          <su lang="ru">Алым стал ее венчик, и алым, как рубин, стало ее сердце.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">But the Nightingale’s voice grew fainter, and her little wings began to beat, and a film came over her eyes.</su>
+          <su lang="ru">А голос Соловья все слабел и слабел, и вот крылышки его судорожно затрепыхались, а глазки заволокло туманом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Fainter and fainter grew her song, and she felt something choking her in her throat.</su>
+          <su lang="ru">Песня его замирала, и он чувствовал, как что-то сжимает его горло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">Then she gave one last burst of music.</su>
+          <su lang="ru">Но вот он испустил свою последнюю трель.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The white Moon heard it, and she forgot the dawn, and lingered on in the sky.</su>
+          <su lang="ru">Бледная луна услышала ее и, забыв о рассвете, застыла на небе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The red rose heard it, and it trembled all over with ecstasy, and opened its petals to the cold morning air.</su>
+          <su lang="ru">Красная роза услышала ее и, вся затрепетав в экстазе, раскрыла свои лепестки навстречу прохладному дуновению утра.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Echo bore it to her purple cavern in the hills, and woke the sleeping shepherds from their dreams.</su>
+          <su lang="ru">Эхо понесло эту трель к своей багряной пещере в горах и разбудило спавших там пастухов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It floated through the reeds of the river, and they carried its message to the sea.</su>
+          <su lang="ru">Трель прокатилась по речным камышам, и те отдали ее морю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="en">"Look, look!" cried the Tree, "the rose is finished now"; but the Nightingale made no answer, for she was lying dead in the long grass, with the thorn in her heart.</su>
+          <su lang="ru">— Смотри! — воскликнул Куст. — Роза стала красной! Но Соловей ничего не ответил. Он лежал мертвый в высокой траве, и в сердце у него был острый шип.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">And at noon the Student opened his window and looked out.</su>
+          <su lang="ru">В полдень Студент распахнул окно и выглянул в сад.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">"Why, what a wonderful piece of luck!" he cried;</su>
+          <su lang="ru">— Ах, какое счастье! — воскликнул он.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"here is a red rose!</su>
+          <su lang="ru">— Вот она, красная роза.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I have never seen any rose like it in all my life.</su>
+          <su lang="ru">В жизни не видал такой красивой розы!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is so beautiful that I am sure it has a long Latin name"; and he leaned down and plucked it.</su>
+          <su lang="ru">У нее, наверное, какое-нибудь длинное латинское название. И он высунулся из окна и сорвал ее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">Then he put on his hat, and ran up to the Professor’s house with the rose in his hand.</su>
+          <su lang="ru">Потом он взял шляпу и побежал к Профессору, держа розу в руках.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">The daughter of the Professor was sitting in the doorway winding blue silk on a reel, and her little dog was lying at her feet.</su>
+          <su lang="ru">Профессорская дочь сидела у порога и наматывала голубой шелк на катушку. Маленькая собачка лежала у нее в ногах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">"You said that you would dance with me if I brought you a red rose," cried the Student.</su>
+          <su lang="ru">— Вы обещали, что будете со мной танцевать, если я принесу вам красную розу! — воскликнул Студент.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Here is the reddest rose in all the world.</su>
+          <su lang="ru">— Вот самая красная роза на свете.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You will wear it to-night next your heart, and as we dance together it will tell you how I love you."</su>
+          <su lang="ru">Приколите ее вечером поближе к сердцу, и, когда мы будем танцевать, она расскажет вам, как я люблю вас.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">But the girl frowned.</su>
+          <su lang="ru">Но девушка нахмурилась.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="en">"I am afraid it will not go with my dress," she answered;</su>
+          <su lang="ru">— Боюсь, что эта роза не подойдет к моему туалету, — ответила она.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"and, besides, the Chamberlain’s nephew has sent me some real jewels, and everybody knows that jewels cost far more than flowers."</su>
+          <su lang="ru">— К тому же племянник камергера прислал мне настоящие каменья, а всякому известно, что каменья куда дороже цветов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="en">"Well, upon my word, you are very ungrateful," said the Student angrily; and he threw the rose into the street, where it fell into the gutter, and a cart-wheel went over it.</su>
+          <su lang="ru">— Как вы неблагодарны! — с горечью сказал Студент и бросил розу на землю. Роза упала в колею, и ее раздавило колесом телеги.</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="en">"Ungrateful!" said the girl.</su>
+          <su lang="ru">— Неблагодарна? — повторила девушка.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I tell you what, you are very rude; and, after all, who are you?</su>
+          <su lang="ru">— Право же, какой вы грубиян! Да и кто вы такой, в конце концов?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Only a Student.</su>
+          <su lang="ru">Всего-навсего студент.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Why, I don’t believe you have even got silver buckles to your shoes as the Chamberlain’s nephew has"; and she got up from her chair and went into the house.</su>
+          <su lang="ru">Не думаю, чтоб у вас были такие серебряные пряжки к туфлям, как у камергерова племянника. И она встала с кресла и ушла в комнаты.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="en">"What I a silly thing Love is," said the Student as he walked away.</su>
+          <su lang="ru">— Какая глупость — эта Любовь, — размышлял Студент, возвращаясь домой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"It is not half as useful as Logic, for it does not prove anything, and it is always telling one of things that are not going to happen, and making one believe things that are not true.</su>
+          <su lang="ru">— В ней и наполовину нет той пользы, какая есть в Логике. Она ничего не доказывает, всегда обещает несбыточное и заставляет верить в невозможное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In fact, it is quite unpractical, and, as in this age to be practical is everything, I shall go back to Philosophy and study Metaphysics."</su>
+          <su lang="ru">Она удивительно непрактична, и так как наш век — век практический, то вернусь я лучше к Философии и буду изучать Метафизику.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="en">So he returned to his room and pulled out a great dusty book, and began to read.</su>
+          <su lang="ru">И он вернулся к себе в комнату, вытащил большую запыленную книгу и принялся ее читать.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

@@ -1,0 +1,689 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220622T093056Z</creationdate>
+    <paragraphs>68</paragraphs>
+    <langs>
+      <lang id="es">
+        <sentences>139</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>145</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="es">Oscar Wilde</s>
+      <s lang="ru">Оскар Уайльд</s>
+    </author>
+    <title>
+      <s lang="es">El Ruiseñor y la Rosa</s>
+      <s lang="ru">Соловей и роза</s>
+    </title>
+    <contents>
+      <s lang="es">Tabla de contenido</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="es"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="es">—"Ha dicho que bailaría conmigo si le llevo rosas rojas" —exclamaba desolado el joven estudiante—. "Pero no hay ni una sola rosa roja en todo mi jardín.»</su>
+          <su lang="ru">— Она сказала, что будет танцевать со мной, если я принесу ей красных роз, — воскликнул молодой Студент, — но в моем саду нет ни одной красной розы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="es">En el encino, desde su nido, oyóle el ruiseñor, y le miró a través del follaje.</su>
+          <su lang="ru">Его услышал Соловей, в своем гнезде на Дубе, и, удивленный, выглянул из листвы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="es">"¡Ni una sola rosa roja en todo mi jardín!" —seguía lamentándose, y sus bellos ojos se llenaron de lágrimas— "¡Ah!, ¡de qué., cosas tan pequeñas depende la felicidad!</su>
+          <su lang="ru">— Ни единой красной розы во всем моем саду! — продолжал сетовать Студент, и его прекрасные глаза наполнились слезами.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Yo he leído todo lo escrito por los sabios, conozco todos los secretos de la filosofía.</su>
+          <su lang="ru">— Ах, от каких пустяков зависит порою счастье!</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y ahora, por la posesión de una rosa roja, siento mi vida destrozada.»</su>
+          <su lang="ru">Я прочел все, что написали мудрые люди, я постиг все тайны философии, — а жизнь моя разбита из-за того только, что у меня нет красной розы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="es">"He aquí, al fin, un verdadero enamorado" —dijo el ruiseñor—.</su>
+          <su lang="ru">— Вот он наконец-то, настоящий влюбленный, — сказал себе Соловей.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">"Noche tras noche he cantado para él, a pesar de no conocerle: Noche trás noche lo he descrito a las estrellas, y ahora le contemplo.</su>
+          <su lang="ru">— Ночь за ночью я пел о нем, хотя и не знал его, ночь за ночью я рассказывал о нем звездам, и наконец я увидел его.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Su cabello es oscuro como la flor del jacinto, y sus labios rojos como la rosa que desea encontrar; pero su ansiedad ha tornado su faz tan pálida como el marfil; y la tristeza le ha dejado su sello en la frente.»</su>
+          <su lang="ru">Его волосы темны, как темный гиацинт, а губы его красны, как та роза, которую он ищет; но страсть сделала его лицо бледным, как слоновая кость, и скорбь наложила печать на его чело.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="es">—"El Príncipe da un baile mañana en la noche" —murmuró el joven estudiante—. "Y mi amada formará parte del cortejo.</su>
+          <su lang="ru">— Завтра вечером принц дает бал, — шептал молодой Студент, — и моя милая приглашена.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Si le obsequio una rosa roja, bailará conmigo hasta el amanecer.</su>
+          <su lang="ru">Если я принесу ей красную розу, она будет танцевать со мной до рассвета.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Si le llevo una rosa roja, la tendré entre mis brazos, y su cabeza descansará sobre mi hombro, y su mano será aprisionada por la mía.</su>
+          <su lang="ru">Если я принесу ей красную розу, я буду держать ее в своих объятиях, она склонит голову ко мне на плечо, и моя рука будет сжимать ее руку.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero no hay ninguna rosa roja en mi jardín; me sentaré solo y ella pasará ante mí, no me hará caso, y sentiré desgarrarse mi corazón.»</su>
+          <su lang="ru">Но в моем саду нет красной розы, и мне придется сидеть в одиночестве, а она пройдет мимо. Она даже не взглянет на меня, и сердце мое разорвется от горя.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="es">—"Aquí, sin lugar a dudas, está el perfecto enamorado" —dijo de nuevo el ruiseñor—.</su>
+          <su lang="ru">— Это настоящий влюбленный, — сказал Соловей.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">"Lo que yo canto, para él es sufrimiento; lo que para mí es alegría, para él es dolor.</su>
+          <su lang="ru">— То, о чем я лишь пел, он переживает на деле; что для меня радость, то для него страдание.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Ciertamente el amor es algo maravilloso.</su>
+          <su lang="ru">Воистину любовь — это чудо.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Es más valioso que las esmeraldas, y más precioso que los finos ópalos.</su>
+          <su lang="ru">Она драгоценнее изумруда и дороже прекраснейшего опала.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Ni las perlas ni los granates pueden comprarle, porque no está venal en los mercados.</su>
+          <su lang="ru">Жемчуга и гранаты не могут купить ее, и она не выставляется на рынке.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No puede adquirirse con los traficantes, ni pesarse en una balanza como el oro."</su>
+          <su lang="ru">Ее не приторгуешь в лавке и не выменяешь на золото.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="es">—"Los músicos estarán en su estrado" —decía el estudiante—, "tocando sus instrumentos de cuerda, y mi amada bailará al acompañamiento de arpa y violín.</su>
+          <su lang="ru">— На хорах будут сидеть музыканты, — продолжал молодой Студент. — Они будут играть на арфах и скрипках, и моя милая будет танцевать под звуки струн.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Bailará en forma tan sublime, que sus pies no tocarán el suelo, y los cortesanos con sus vistosos trajes formarán rueda alrededor de ella, pero no bailará conmigo, porque no poseo una rosa roja para brindársela".</su>
+          <su lang="ru">Она будет носиться по зале с такой легкостью, что ноги ее не коснутся паркета, и вокруг нее будут толпиться придворные в расшитых одеждах. Но со мной она не захочет танцевать, потому что у меня нет для нее красной розы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="es">—Y se dejó caer sobre la hierba, y ocultando su cara entre las manos, lloró.</su>
+          <su lang="ru">И юноша упал ничком на траву, закрыл лицо руками и заплакал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="es">—"¿Por qué llora?" —preguntó una pequeña lagartija verde, pasando con su cola levantada junto al ruiseñor.</su>
+          <su lang="ru">— О чем он плачет? — спросила маленькая зеленая Ящерица, которая проползала мимо него, помахивая хвостиком.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="es">—"De veras, ¿por qué?" —dijo una mariposa que revoloteaba en un rayo de sol.</su>
+          <su lang="ru">— Да, в самом деле, о чем? — подхватила Бабочка, порхавшая в погоне за солнечным лучом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="es">—"Es cierto, ¿por qué?" —susurró en voz baja y melodiosa, una margarita a su vecina.</su>
+          <su lang="ru">— О чем? — спросила Маргаритка нежным шепотом свою соседку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="es">—"Llora por una rosa roja" —dijo el ruiseñor.</su>
+          <su lang="ru">— Он плачет о красной розе, — ответил Соловей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="es">—"¿Por una rosa roja?" —exclamaron todos— "¡Qué tontería!"</su>
+          <su lang="ru">— О красной розе! — воскликнули все.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y la largartija, que era algo cínica, se echó a reír.</su>
+          <su lang="ru">— Ах, как смешно! А маленькая Ящерица, несколько склонная к цинизму, беззастенчиво расхохоталась.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="es">Pero el ruiseñor conocía el secreto de la pena del estudiante, y permanecía silencioso, posado en el encino, y reflexionando sobre el misterio del amor.</su>
+          <su lang="ru">Один только Соловей понимал страдания Студента, он тихо сидел на Дубе и думал о таинстве любви.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="es">De pronto, extendiendo sus alas oscuras para volar, se remontó en el aire.</su>
+          <su lang="ru">Но вот он расправил свои темные крылышки и взвился в воздух.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pasó a través de la arboleda como una sombra, y como una sombra cruzó el jardín.</su>
+          <su lang="ru">Он пролетел над рощей, как тень, и, как тень, пронесся над садом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="es">En el centro del parterre se erguía un rosal precioso, y al vislumbrarlo, voló hacia él en seguida.</su>
+          <su lang="ru">Посреди зеленой лужайки стоял пышный Розовой Куст. Соловей увидел его, подлетел к нему и спустился на одну из его веток.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="es">—"Dame una rosa roja" —dijo suplicante— "y te cantaré la más dulce de mis canciones".</su>
+          <su lang="ru">— Дай мне красную розу, — воскликнул он, — и я спою тебе свою лучшую песню!</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="es">Pero el rosal sacudió su cabeza.</su>
+          <su lang="ru">Но Розовый Куст покачал головой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="es">—"Mis rosas son blancas" —contestó—. "Tan blancas como la espuma del mar, y más blancas que la nieve en la cumbre de las montañas.</su>
+          <su lang="ru">— Мои розы белые, — ответил он, — они белы, как морская пена, они белее снега на горных вершинах.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero ve a mi hermano que crece alrededor del reloj de sol, y quizá pueda darte lo que quieres.»</su>
+          <su lang="ru">Поди к моему брату, что растет возле старых солнечных часов, — может быть, он даст тебе то, чего ты просишь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="es">Entonces el ruiseñor voló sobre el rosal que crecía alrededor del reloj de sol.</su>
+          <su lang="ru">И Соловей полетел к Розовому Кусту, что рос возле старых солнечных часов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="es">—"Dame una rosa roja" —imploraba— "y te cantaré la más dulce de mis canciones".</su>
+          <su lang="ru">— Дай мне красную розу, — воскликнул он, — и я спою тебе свою лучшую песню!</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="es">Pero el rosal sacudió su cabeza.</su>
+          <su lang="ru">Но Розовый Куст покачал головой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="es">–"Mis rosas son amarillas" —respondió—. "Tan amarillas como el cabello de la sirena que reposa en un trono de ámbar, y más amarillas que el narciso que florea en los prados, antes de que el segador llegue con su hoz.</su>
+          <su lang="ru">— Мои розы желтые, — ответил он, — они желты, как волосы сирены, сидящей на янтарном престоле, они желтее златоцвета на нескошенном лугу.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero ve con mi hermano que crece bajo la ventana del estudiante, y quizá pueda darte lo que deseas."</su>
+          <su lang="ru">Поди к моему брату, что растет под окном у Студента, может быть, он даст тебе то, чего ты просишь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="es">Entonces el ruiseñor voló sobre el rosal que crecía bajo la ventana del estudiante.</su>
+          <su lang="ru">И Соловей полетел к Розовому Кусту, что рос под окном у Студента.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="es">—"Dame una rosa roja" —dijo— "y te cantaré la más dulce de mis canciones".</su>
+          <su lang="ru">— Дай мне красную розу, — воскликнул он, — и я спою тебе свою лучшую песню!</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="es">Pero el rosal sacudió la cabeza.</su>
+          <su lang="ru">Но Розовый Куст покачал головой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="es">–"Mis rosas son rojas, tan rojas como la pata de la paloma; y más rojas que los hermosos abanicos de coral que se mecen y mecen, en las profundas cavernas del océano.</su>
+          <su lang="ru">— Мои розы красные, — ответил он, — они красны, как лапки голубя, они краснее кораллов, что колышутся, как веер, в пещерах на дне океана.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero el invierno ha helado mis venas, y la escarcha ha quemado mis capullos, y la tormenta ha quebrado mis ramas, y no tendré rosas en todo el año."</su>
+          <su lang="ru">Но кровь в моих жилах застыла от зимней стужи, мороз побил мои почки, буря поломала мои ветки, и в этом году у меня совсем не будет роз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="es">Y el ruiseñor insistía: —"Una sola rosa roja es lo que necesito.</su>
+          <su lang="ru">— Одну только красную розу — вот все, чего я прошу, — воскликнул Соловей.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">¡Sólo una rosa roja!</su>
+          <su lang="ru">— Одну-единственную красную розу!</su>
+        </sentence>
+        <sentence>
+          <su lang="es">¿No existe algún medio por el cual pueda conseguirla?"</su>
+          <su lang="ru">Знаешь ты способ получить ее?</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="es">—"Hay una forma en que podrías conseguirla" —contestó el rosal—. "Pero es tan terrible, que no me atrevo a decírtelo.»</su>
+          <su lang="ru">— Знаю, — ответил Розовый Куст, — но оп так страшен, что у меня не хватает духу открыть его тебе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="es">—"Dímelo" —dijo el ruiseñor—. "No tengo miedo."</su>
+          <su lang="ru">— Открой мне его, — попросил Соловей, — я не боюсь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="es">—"Si quieres una rosa roja, la tendrás que formar con música a la luz de la luna, y teñirla con la sangre de tu propio corazón.</su>
+          <su lang="ru">— Если ты хочешь получить красную розу, — молвил Розовый Куст, — ты должен сам создать ее из звуков песни при лунном сиянии, и ты должен обагрить ее кровью сердца.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Tendrás que cantarme con tu pecho apoyado contra una espina.</su>
+          <su lang="ru">Ты должен петь мне, прижавшись грудью к моему шипу.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Toda la noche deberás cantarme, y la espina rasgará tu corazón, y la vida de tu sangre correrá por mis venas, y será mía.»</su>
+          <su lang="ru">Всю ночь ты должен мне петь, и мой шип пронзит твое сердце, и твоя живая кровь перельется в мои жилы и станет моею кровью.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="es">—"La vida es un precio muy elevado por una rosa roja" —dije el ruiseñor— "y la vida nos es a todos muy querida.</su>
+          <su lang="ru">— Смерть — дорогая цена за красную розу, — воскликнул Соловей. — Жизнь мила каждому!</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Es agradable posarse en los árboles del bosque, contemplar el sol en su carroza de oro, y la luna en su carroza de nácar.</su>
+          <su lang="ru">Как хорошо, сидя в лесу, любоваться солнцем в золотой колеснице и луною в колеснице из жемчуга.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Es dulce el aroma del espino blanco, y dulces son las campánulas azules que se ocultan en los valles, y el brezo que se esparce en las colinas.</su>
+          <su lang="ru">Сладко благоухание боярышника, милы синие колокольчики в долине и вереск, цветущий на холмах.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Sin embargo, el amor es mejor que la vida, y... ¿qué es el corazón de un pájaro, comparado con el corazón de un hombre?"</su>
+          <su lang="ru">Но Любовь дороже Жизни, и сердце какой-то пташки — ничто в сравнении с человеческим сердцем!</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="es">Entonces extendió sus oscuras alas para volar, y se remontó en el aire.</su>
+          <su lang="ru">И, взмахнув своими темными крылышками, Соловей взвился в воздух.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Se deslizó sobre el jardín, como una sombra, y como una sombra cruzó el bosque.</su>
+          <su lang="ru">Он пронесся над садом, как тень, и, как тень, пролетел над рощей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="es">El joven estudiante permanecía tendido sobre la hierba en el mismo lugar donde le había dejado; y las lágrimas no desaparecían aún de sus hermosos ojos.</su>
+          <su lang="ru">А Студент все еще лежал в траве, где его оставил Соловей, и слезы еще не высохли в его прекрасных глазах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="es">—"Alégrate!" —gritó el ruiseñor— "¡alégrate!, ¡vas a conseguir tu rosa roja!</su>
+          <su lang="ru">— Радуйся! — крикнул ему Соловей. — Радуйся, будет у тебя красная роза.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">La voy a crear con música, a la luz de la luna, y la teñiré con la sangre de mi propio corazón.</su>
+          <su lang="ru">Я создам ее из звуков моей песни при лунном сиянии и обагрю ее горячей кровью своего сердца.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Todo lo que pido de ti, en recompensa, es que seas un enamorado perfecto, porque el Amor es más sabio que la Filosofía, aunque ella sea sabia; y más fuerte que la fuerza, aunque ella sea fuerte.</su>
+          <su lang="ru">В награду я прошу у тебя одного: будь верен своей любви, ибо, как ни мудра Философия, в Любви больше Мудрости, чем в Философии, — и как ни могущественна Власть, Любовь сильнее любой Власти.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Sus alas tienen el color del fuego, y el fuego ilumina su cuerpo.</su>
+          <su lang="ru">У нее крылья цвета пламени, и пламенем окрашено тело ее.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Sus labios son dulces como la miel, y su aliento es como el incienso.</su>
+          <su lang="ru">Уста ее сладки, как мед, а дыхание подобно ладану.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="es">El estudiante mirando hacia arriba escuchó. Pero no pudo entender la confidencia del ruiseñor, pues sólo le era posible comprender las cosas que estaban escritas en los libros.</su>
+          <su lang="ru">Студент привстал на локтях и слушал, но он не понял того, что говорил ему Соловей; ибо он знал только то, что написано в книгах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="es">Pero el encino, dándose cuenta de todo, se sintió triste; porque quería mucho al ruiseñor que había hecho su nido entre sus ramas.</su>
+          <su lang="ru">А Дуб понял и опечалился, потому что очень любил эту малую пташку, которая свила себе гнездышко в его ветвях.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="es">—"Cántame una última canción" —murmuró—, "me voy a sentir muy solo cuando te vayas".</su>
+          <su lang="ru">— Спой мне в последний раз твою песню, — прошептал он. — Я буду сильно тосковать, когда тебя не станет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="es">Entonces el ruiseñor cantó para el encino, y su canto era flúido como agua cristalina, vertida de un ánfora de plata.</su>
+          <su lang="ru">И Соловей стал петь Дубу, и пение его напоминало журчание воды, льющейся из серебряного кувшина.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="es">Al terminar su canción, pudo ver que el estudiante se levantaba, sacando al mismo tiempo de su bolsillo, un cuaderno y un lápiz.</su>
+          <su lang="ru">Когда Соловей кончил петь, Студент поднялся с травы, вынул из кармана карандаш и записную книжку и сказал себе, направляясь домой из рощи:</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="es">—"El ruiseñor es hermoso" —se decía mientras caminaba por el bosque— "no puede negársele; pero, ¿posee sentimientos?</su>
+          <su lang="ru">— Да, он мастер формы, это у него отнять нельзя. Но есть ли у него чувство?</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Creo que no. En realidad, es igual a la mayoría de los artistas; todo en él es estilo y forma, sin sinceridad.</su>
+          <su lang="ru">Боюсь, что нет. В сущности, он подобен большинству художников: много виртуозности и ни капли искренности.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No se sacrificaría por otros.</su>
+          <su lang="ru">Он никогда не принесет себя в жертву другому.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No piensa más que en la música, y todo mundo sabe que las artes se caracterizan por su egoísmo.</su>
+          <su lang="ru">Он думает лишь о музыке, а всякий знает, что искусство эгоистично.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">No obstante, hay que reconocer que emite algunas notas preciosas en su canto.</su>
+          <su lang="ru">Впрочем, нельзя не признать, что иные из его трелей удивительно красивы.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">¡Qué lástima que no signifiquen nada, o se conviertan en algo bueno y práctico" —Y entró a su cuarto, y acostándose en un catye desvencijado, y pensando en su amada, después de unos momentos, se había dormido.</su>
+          <su lang="ru">Жаль только, что в них нет никакого смысла и они лишены практического значения. И он пошел к себе в комнату, лег на узкую койку и стал думать о своей любви; вскоре он погрузился в сон.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="es">Y cuando la luna brillaba alta en los cielos, el ruiseñor voló hacia el rosal apoyando fuertemente su pecho contra la espina.</su>
+          <su lang="ru">Когда на небе засияла луна, Соловей прилетел к Розовому Кусту, сел к нему на ветку и прижался к его шипу.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Cantó durante toda la noche con el pecho oprimido sobre la espina; y la luna gélida, como hecha de cristal, se inclinaba hacia la tierra para escucharle.</su>
+          <su lang="ru">Всю ночь он пел, прижавшись грудью к шипу, и холодная хрустальная луна слушала, склонив свой лик.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Cantó toda la noche, y la espina iba clavándose más y más honda en su pecho, y la sangre de su vida se escapaba...</su>
+          <su lang="ru">Всю ночь он пел, а шип вонзался в его грудь все глубже и глубже, и из нее по каплям сочилась теплая кровь.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="es">Primero cantó del amor naciente en el corazón de un joven y una doncella.</su>
+          <su lang="ru">Сперва он пел о том, как прокрадывается любовь в сердце мальчика и девочки.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Y en el retoño más alto del rosal apareció; pétalo tras pétalo, al igual que canción tras canción, una rosa espléndida.</su>
+          <su lang="ru">И на Розовом Кусте, на самом верхнем побеге, начала распускаться великолепная роза. Песня за песней — лепесток за лепестком.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Al principio era pálida, como la neblina suspendida sobre el río, imprecisa como los primeros pasos de la mañana, y argentada como las alas de la aurora.</su>
+          <su lang="ru">Сперва роза была бледная, как легкий туман над рекою, — бледная, как стопы зари, и серебристая, как крылья рассвета.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Como el reflejo de una rosa en un espejo de plata, como la sombra de una rosa sobre un estanque de agua clara. ¡Así era la rosa que brotó en el retoño más alto del rosal!</su>
+          <su lang="ru">Отражение розы в серебряном зеркале, отражение розы в недвижной воде — вот какова была роза, расцветавшая на верхнем побеге Куста.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="es">Pero el rosal le dijo al ruiseñor que apoyase con más fuerza su pecho contra la espina.</su>
+          <su lang="ru">А Куст кричал Соловью, чтобы тот еще крепче прижался к шипу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="es">—"Oprime más tu pecho contra la espina, ruiseñor" —decía el rosal— "o llegará el día antes de que la rosa esté terminada".</su>
+          <su lang="ru">— Крепче прижмись ко мне, милый Соловушка, не то день придет раньше, чем заалеет роза!</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="es">Entonces el ruiseñor uniendo su pecho con más fuerza a la espina, entonó una melodía cada vez más vibrante; ahora cantaba a la pasión naciente en el seno de un joven y una doncella.</su>
+          <su lang="ru">Все крепче и крепче прижимался Соловей к шипу, и песня его звучала все громче и громче, ибо он пел о зарождении страсти в душе мужчины и девушки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="es">Y un delicado rubor iba cubriendo los pétalos de la rosa, igual al rubor que sube a la cara del novio cuando besa los labios de su desposada.</su>
+          <su lang="ru">И лепестки розы окрасились нежным румянцем, как лицо жениха, когда он целует в губы свою невесту.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero la espina aún no había llegado a su corazón, así que la corola de la rosa permanecía blanca, porque solamente la sangre del corazón de un ruiseñor puede encender el corazón de una rosa.</su>
+          <su lang="ru">Но шип еще не проник в сердце Соловья, и сердце розы оставалось белым, ибо только живая кровь соловьиного сердца может обагрить сердце розы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="es">Y el rosal decía al ruiseñor:</su>
+          <su lang="ru">Опять Розовый Куст крикнул Соловью, чтобы тот крепче прижался к шипу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="es">—"Oprime más, pequeño ruiseñor; o llegará el día antes de que la rosa esté terminada."</su>
+          <su lang="ru">— Крепче прижмись ко мне, милый Соловушка, не то день придет раньше, чем заалеет роза!</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="es">Entonces el ruiseñor uniendo con todas sus fuerzas su pequeño pecho contra la espina, hizo que ésta hiriese su corazón, y el cruel espasmo del dolor le atravesó.</su>
+          <su lang="ru">Соловей еще сильнее прижался к шипу, и острие коснулось наконец его сердца, и все тело его вдруг пронзила жестокая боль.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Terrible, terrible era el dolor mientras el canto crecía alocado, más cantal a sonoro, porque ahora cantaba del amor perfeccionado por la muerte; del amor que no termina en la tumba.</su>
+          <su lang="ru">Все мучительнее и мучительнее становилась боль, все громче и громче раздавалось пенье Соловья, ибо он пел о Любви, которая обретает совершенство в Смерти, о той Любви, которая не умирает в могиле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="es">Y la rosa magnífica se tornó roja, como las rosas de Oriente.</su>
+          <su lang="ru">И стала алой великолепная роза, подобно утренней заре на востоке.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Rojos eran los pétalos que la circundaban, y rojo como el rubí era su corazón.</su>
+          <su lang="ru">Алым стал ее венчик, и алым, как рубин, стало ее сердце.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="es">Pero la voz del ruiseñor iba apagándose, y sus alas comenzaron a vibrar, y un velo le cubrió los ojos.</su>
+          <su lang="ru">А голос Соловья все слабел и слабел, и вот крылышки его судорожно затрепыхались, а глазки заволокло туманом.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Su canto era cada vez más débil, algo estrangulaba su garganta.</su>
+          <su lang="ru">Песня его замирала, и он чувствовал, как что-то сжимает его горло.</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="es">Entonces lanzó un último trino musical.</su>
+          <su lang="ru">Но вот он испустил свою последнюю трель.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">La pálida luna al oírlo, olvidándose de la aurora, estuvo vagando por los cielos.</su>
+          <su lang="ru">Бледная луна услышала ее и, забыв о рассвете, застыла на небе.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">La rosa roja al escucharlo se estremecio en éxtasis, desplegando sus pétalos al aire fresco del amanecer.</su>
+          <su lang="ru">Красная роза услышала ее и, вся затрепетав в экстазе, раскрыла свои лепестки навстречу прохладному дуновению утра.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">El eco lo fue llevando hasta la caverna oscura de las colinas, y despertó de sus sueños a los pastores.</su>
+          <su lang="ru">Эхо понесло эту трель к своей багряной пещере в горах и разбудило спавших там пастухов.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Fue flotando entre los cañaverales del río, y ellos hicieron llegar su mensaje al mar.</su>
+          <su lang="ru">Трель прокатилась по речным камышам, и те отдали ее морю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="es">—"¡Mira, mira!" —gritó el rosal— "Ya está terminada la rosa."</su>
+          <su lang="ru">— Смотри! — воскликнул Куст. — Роза стала красной!</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Pero el ruiseñor ya no podía contestar.</su>
+          <su lang="ru">Но Соловей ничего не ответил.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Estaba muerto sobre la crecida hierba, con una espina clavada en el corazón.</su>
+          <su lang="ru">Он лежал мертвый в высокой траве, и в сердце у него был острый шип.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="es">Y al mediodía el estudiante, abriendo su ventana, miró afuera.</su>
+          <su lang="ru">В полдень Студент распахнул окно и выглянул в сад.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="es">¡Cómo... qué suerte maravillosa!" — exclamó—.</su>
+          <su lang="ru">— Ах, какое счастье! — воскликнул он.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">"¡Hay una rosa roja!</su>
+          <su lang="ru">— Вот она, красная роза.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">¡Nunca había visto rosa como ésta en toda mi vida!</su>
+          <su lang="ru">В жизни не видал такой красивой розы!</su>
+        </sentence>
+        <sentence>
+          <su lang="es">¡Es tan hermosa que seguramente tiene un nombre latino muy largo!"</su>
+          <su lang="ru">У нее, наверное, какое-нибудь длинное латинское название.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="es">—E inclinándose la cortó.</su>
+          <su lang="ru">И он высунулся из окна и сорвал ее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="es">En seguida, poniéndose el sombrero, fue corriendo a casa del profesor, con la rosa en la mano.</su>
+          <su lang="ru">Потом он взял шляпу и побежал к Профессору, держа розу в руках.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="es">La hija del profesor estaba sentada en el umbral de su casa devanando seda azul en la rueca y su perro descansaba a sus pies.</su>
+          <su lang="ru">Профессорская дочь сидела у порога и наматывала голубой шелк на катушку. Маленькая собачка лежала у нее в ногах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="es">—"Me dijiste que bailarías conmigo, si te obsequiaba una rosa roja" — dijo el estudiante—.</su>
+          <su lang="ru">— Вы обещали, что будете со мной танцевать, если я принесу вам красную розу! — воскликнул Студент.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">"Aquí tienes la rosa más roja de todo el mundo.</su>
+          <su lang="ru">— Вот самая красная роза на свете.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">La lucirás está noche junto a tu corazón, y mientras bailamos juntos, ella te dirá lo mucho que te amo."</su>
+          <su lang="ru">Приколите ее вечером поближе к сердцу, и, когда мы будем танцевать, она расскажет вам, как я люблю вас.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="es">Pero la muchacha hizo un gesto desdeñoso.</su>
+          <su lang="ru">Но девушка нахмурилась.</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence>
+          <su lang="es">—"Temo que no va a hacer juego con mi vestido, y además el sobrino del chambelán me ha obsequiado unas joyas finísimas, y todo el mundo sabe que las joyas valen más que las flores.</su>
+          <su lang="ru">— Боюсь, что эта роза не подойдет к моему туалету, — ответила она. — К тому же племянник камергера прислал мне настоящие каменья, а всякому известно, что каменья куда дороже цветов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence>
+          <su lang="es">—"En verdad, eres una ingrata" —dijo furioso el estudiante.</su>
+          <su lang="ru">— Как вы неблагодарны! — с горечью сказал Студент и бросил розу на землю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence>
+          <su lang="es">Y tiró la rosa al arroyo, y un pesado carromato la deshizo.</su>
+          <su lang="ru">Роза упала в колею, и ее раздавило колесом телеги.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence>
+          <su lang="es">—"¿Ingrata...?, debo confesarte que me pareces un mal educado.</su>
+          <su lang="ru">— Неблагодарна? — повторила девушка.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Después de todo;</su>
+          <su lang="ru">— Право же, какой вы грубиян!</su>
+        </sentence>
+        <sentence>
+          <su lang="es">¿quién eres tú?</su>
+          <su lang="ru">Да и кто вы такой, в конце концов?</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Nada más un estudiante.</su>
+          <su lang="ru">Всего-навсего студент.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Creo que ni tienes hebillas de plata en tus zapatos, como las tiene el sobrino del chambelán."</su>
+          <su lang="ru">Не думаю, чтоб у вас были такие серебряные пряжки к туфлям, как у камергерова племянника.</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence>
+          <su lang="es">Y levantándose de la silla, entró en la casa.</su>
+          <su lang="ru">И она встала с кресла и ушла в комнаты.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence>
+          <su lang="es">—"¡Qué cosa más tonta es el amor!" —dijo el estudiante alejándose—.</su>
+          <su lang="ru">— Какая глупость — эта Любовь, — размышлял Студент, возвращаясь домой.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">"No tiene la mitad de utilidad que tiene la Lógica; porque no demuestra nada, y siempre nos habla de lo irrealizable, y nos hace creer en cosas que no existen.</su>
+          <su lang="ru">— В ней и наполовину нет той пользы, какая есть в Логике. Она ничего не доказывает, всегда обещает несбыточное и заставляет верить в невозможное.</su>
+        </sentence>
+        <sentence>
+          <su lang="es">Verdaderamente es un sentimiento impráctico; y como en estos tiempos el ser práctico lo es todo, volveré a la Filosofía, y estudiaré Metafísica."</su>
+          <su lang="ru">Она удивительно непрактична, и так как наш век — век практический, то вернусь я лучше к Философии и буду изучать Метафизику.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence>
+          <su lang="es">Así pues, regresó a su cuarto, y tomando en sus manos un gran libro polvoriento, comenzó a leer.</su>
+          <su lang="ru">И он вернулся к себе в комнату, вытащил большую запыленную книгу и принялся ее читать.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

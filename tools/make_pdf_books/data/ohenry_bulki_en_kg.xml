@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220629T072500Z</creationdate>
+    <paragraphs>44</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>106</sentences>
+      </lang>
+      <lang id="xx">
+        <sentences>110</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">O. Henry</s>
+      <s lang="xx">О. Генри</s>
+    </author>
+    <title>
+      <s lang="en">Witches' Loaves</s>
+      <s lang="xx">Эски бөлкө</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="xx">Table of contents</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="xx"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">Miss Martha Meacham kept the little bakery on the corner (the one where you go up three steps, and the bell tinkles when you open the door).</su>
+          <su lang="xx">Мисс Марта Мичемдин бурчта наабайканасы бар эле (үч тепкич менен чыгып, эшикти ачканда, коӊгуроосу чарылдачу наабайкана).</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">Miss Martha was forty, her bank-book showed a credit of two thousand dollars, and she possessed two false teeth and a sympathetic heart.</su>
+          <su lang="xx">Кыркка келип калган мисс Марта Мичемдин банкта эки миӊ доллары, андан тышкары эки жасалма тиши, анан да сезимтал жүрөгү бар болчу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Many people have married whose chances to do so were much inferior to Miss Martha's.</su>
+          <su lang="xx">А бирок эми андан начар аялдардын канчасы турмушка чыгып кетти.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">Two or three times a week a customer came in in whom she began to take an interest.</su>
+          <su lang="xx">Жумасына эки-үч жолу келчү бирөө аны жакындан бери кызыктыра турган болду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was a middle-aged man, wearing spectacles and a brown beard trimmed to a careful point.</su>
+          <su lang="xx">Орто жаштагы, көз айнекчен, тыкан тегизделген учтуу сакалы бар.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">He spoke English with a strong German accent.</su>
+          <su lang="xx">Ал англисче сүйлөгөнү менен немис акценти даана байкалчу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">His clothes were worn and darned in places, and wrinkled and baggy in others.</su>
+          <su lang="xx">Эскирип калган жамачылуу кийими шөлбүрөп, айрым жерлери бырышып турчу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But he looked neat, and had very good manners.</su>
+          <su lang="xx">Бирок ал баары бир тыкан көрүнчү жана жүрүмтуруму да жакшы болчу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">He always bought two loaves of stale bread.</su>
+          <su lang="xx">Ал дайыма эски бөлкөдөн экини алчу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Fresh bread was five cents a loaf. Stale ones were two for five.</su>
+          <su lang="xx">Жаӊы бөлкөлөр беш центтен эле, ал эми эскисинин экөө биригип беш центтен сатылчу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Never did he call for anything but stale bread.</su>
+          <su lang="xx">Ал башка нерсе сурабастан, дайыма эски бөлкө гана алчу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">Once Miss Martha saw a red and brown stain on his fingers.</su>
+          <su lang="xx">Бир жолу мисс Мичем анын колунан кызыл жана күрөӊ тактарды байкап калды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She was sure then that he was an artist and very poor.</su>
+          <su lang="xx">Дароо эле абдан кедей сүрөтчү турбайбы деген жыйынтыкка келди.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No doubt he lived in a garret, where he painted pictures and ate stale bread and thought of the good things to eat in Miss Martha's bakery.</su>
+          <su lang="xx">Шек жок, бул болду-болбоду мансардада жашап, ошол жерде сүрөт тартат, эски бөлкө жеп, мисс Мичемдин бышырган таттуу нерселери жөнүндө кыялданат.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">Often when Miss Martha sat down to her chops and light rolls and jam and tea she would sigh, and wish that the gentle-mannered artist might share her tasty meal instead of eating his dry crust in that draughty attic.</su>
+          <su lang="xx">Мисс Мичем таттуу токоч, котлет жана варенье менен чай ичип отурганда, жанагы манерасы жакшы сүрөтчү жийиркеничтүү мансардада каткан бөлкөнү жеп отурбай, буларды мени менен чогуу жесе жакшы болбойт беле деп үшкүрүп калчу…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Miss Martha's heart, as you have been told, was a sympathetic one.</su>
+          <su lang="xx">Жогоруда айтпадыкпы, мисс Мартанын жүрөгү өтө сезимтал эле…</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">In order to test her theory as to his occupation, she brought from her room one day a painting that she had bought at a sale, and set it against the shelves behind the bread counter.</su>
+          <su lang="xx">Анын кесиби жөнүндөгү божомолун текшерип көрүү максатында бөлмөсүндө илинип турчу аукциондон алган сүрөттү алып келип, нан турчу текченин үстүнө коюп койду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">It was a Venetian scene.</su>
+          <su lang="xx">Бул венециялык бир көрүнүш эле.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A splendid marble palazzio (so it said on the picture) stood in the foreground — or rather forewater.</su>
+          <su lang="xx">Жердеги, тагыраак айтканда, суудагы алдыӊкы планда келишкен мрамор паллацио (сүрөттүн өзүндө ушундай жазылуу!) турат.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For the rest there were gondolas (with the lady trailing her hand in the water), clouds, sky, and chiaro-oscuro in plenty.</su>
+          <su lang="xx">Ак сарайдан тышкары гондола (андагы айым сөөмөйү менен сууну чийип барат), булут, көк асман жана ар түрдүү көлөкөлөр бар.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No artist could fail to notice it.</su>
+          <su lang="xx">Буга бир дагы сүрөтчү көӊүл бөлбөй коё албас эле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">Two days afterward the customer came in.</su>
+          <su lang="xx">Эки күндөн кийин баягы алуучу келип калды.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">"Two loafs of stale bread, if you blease.</su>
+          <su lang="xx">– Мага эки эски бөлкө берип коёсузбу?</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">"You haf here a fine bicture, madame," he said while she was wrapping up the bread.</su>
+          <su lang="xx">– Сүрөтүӊүз сонун экен, мадам, – деди ал, бөлкөнү ороп жатканда.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">"Yes?" says Miss Martha, reveling in her own cunning.</su>
+          <su lang="xx">– Чын элеби? – деди мисс Марта өзүнүн куулугуна ыраазы болуп.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I do so admire art and" (no, it would not do to say "artists" thus early) "and paintings," she substituted.</su>
+          <su lang="xx">– Мен искусствону жана («сүрөтчүлөрдү» дегенге али эртелик кылат го) сүрөттөрдү ушунчалык сүйөм. Анан мындай деп кошумчалады:</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"You think it is a good picture?"</su>
+          <su lang="xx">– Демек, сиздин оюӊузча, бул жакшы сүрөтпү?</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">"Der balance," said the customer, is not in good drawing.</su>
+          <su lang="xx">– Дер балацо, – деди алуучу, – начар тартылыптыр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Der bairspective of it is not true.</su>
+          <su lang="xx">Перспектива да туура эмес.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Goot morning, madame." He took his bread, bowed, and hurried out.</su>
+          <su lang="xx">Жакшы калыӊыз, мадам!</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">Yes, he must be an artist.</su>
+          <su lang="xx">Ооба, мунун сүрөтчү экени шексиз!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Miss Martha took the picture back to her room.</su>
+          <su lang="xx">Мисс Марта сүрөттү кайра бөлмөсүнө алып барып койду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">How gentle and kindly his eyes shone behind his spectacles!</su>
+          <su lang="xx">Көз айнектин ары жагындагы көздөрү кандай сонун тигиле карайт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What a broad brow he had!</su>
+          <su lang="xx">Маӊдайынын кеӊдигин айтпайсыӊбы!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">To be able to judge perspective at a glance — and to live on stale bread!</su>
+          <su lang="xx">Бир көргөндө эле перспективаны байкаган неменин эски бөлкө жеп жүргөнүн кара!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But genius often has to struggle before it is recognized.</su>
+          <su lang="xx">Бирок сүрөтчүлөр таанылганча абдан кыйналат эмеспи…</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">What a thing it would be for art and perspective if genius were backed by two thousand dollars in bank, a bakery, and a sympathetic heart to — But these were day-dreams, Miss Martha.</su>
+          <su lang="xx">Бул гений эки миӊ доллардын, наабайкананын жана… сезимтал жүрөктүн ыракатын көрсө, искусство үчүн да, перспектива үчүн кандай сонун болмок! Бирок, мисс Марта, мунун баары кыял!</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">Often now when he came he would chat for a while across the showcase.</su>
+          <su lang="xx">Эми ал дүкөнгө келген сайын сүйлөшө турган болуп калды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He seemed to crave Miss Martha's cheerful words.</su>
+          <su lang="xx">Мисс Мартадан жылуу сөз күткөндөй түрү бар.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">He kept on buying stale bread. Never a cake, never a pie, never one of her delicious Sally Lunns.</su>
+          <su lang="xx">Баягыдай эле эски бөлкө алат да, таттуу печенье, пирог, борсойгон куймактарды сурап да койбойт.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">She thought he began to look thinner and discouraged.</su>
+          <su lang="xx">Жакындан бери арыктап, көӊүлү чөгүп жүрөт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Her heart ached to add something good to eat to his meagre purchase, but her courage failed at the act.</su>
+          <su lang="xx">Марта ага таттуу бир нерсе кошуп берип коёюн дейт, бирок ага даабайт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She did not dare affront him.</su>
+          <su lang="xx">Таарынтып аламбы деп коркот.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She knew the pride of artists.</su>
+          <su lang="xx">Сүрөтчүлөр өтө намыскөй келет деп укканы бар.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">Miss Martha took to wearing her blue-dotted silk waist behind the counter.</su>
+          <su lang="xx">Мисс Марта дүкөнгө көк жибек кофтасын кие турган болду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In the back room she cooked a mysterious compound of quince seeds and borax.</su>
+          <su lang="xx">Ал арткы бөлмөдө айва менен буранын уругун кошуп бир сырдуу ботко кайнатчу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Ever so many people use it for the complexion.</su>
+          <su lang="xx">Көп аялдар муну тунук болсун деп бетине сыйпашат.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">One day the customer came in as usual, laid his nickel on the showcase, and called for his stale loaves.</su>
+          <su lang="xx">Бир күнү ал адатынча наабайканага келип калды. Адаттагыдай эле эски бөлкө сурап, акчасын берди.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">While Miss Martha was reaching for them there was a great tooting and clanging, and a fire-engine came lumbering past.</su>
+          <su lang="xx">Мисс Марта бөлкө алмакчы болгондо, сырттан өрт өчүргүч араба калдырап-шалдырап өтүп калды.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">The customer hurried to the door to look, as any one will.</su>
+          <su lang="xx">Тигил аны көргөнү эшикке чыкты, анткени анын ордундагы ар бир адам ошону кылмак.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Suddenly inspired, Miss Martha seized the opportunity.</su>
+          <su lang="xx">Мисс Марта өрөпкүп кетти да, учурдан пайдаланып калмакчы болду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">On the bottom shelf behind the counter was a pound of fresh butter that the dairyman had left ten minutes before.</su>
+          <su lang="xx">Төмөнкү текчеде бир аз мурун сүтчү берип кеткен бир фунт жаӊы май турган.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">With a bread knife Miss Martha made a deep slash in each of the stale loaves, inserted a generous quantity of butter, and pressed the loaves tight again.</su>
+          <su lang="xx">Мисс Марта бычак менен эки бөлкөнү тилди да, майдан салып туруп, кайра жабыштырып койду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">When the customer turned once more she was tying the paper around them.</su>
+          <su lang="xx">Алуучу кайра келгенде, ал бөлкөлөрдү кагазга ороп жаткан эле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">When he had gone, after an unusually pleasant little chat, Miss Martha smiled to herself, but not without a slight fluttering of the heart.</su>
+          <su lang="xx">Бир аз жагымдуу кобурашып турган соӊ ал чыгып кетти. Мисс Марта өзүнчө жылмайып, бирок ошол эле учурда толкунданып турду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">Had she been too bold?</su>
+          <su lang="xx">«Ашыкча болуп калган жокпу?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Would he take offense?</su>
+          <su lang="xx">Сүрөтчү таарынып калбас бекен?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But surely not.</su>
+          <su lang="xx">Таарына койбостур.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was no language of edibles.</su>
+          <su lang="xx">Тамактын тили жок да!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Butter was no emblem of unmaidenly forwardness.</su>
+          <su lang="xx">Анан калса май жабышкандыктын эмблемасы эмес го!»</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">For a long time that day her mind dwelt on the subject.</su>
+          <su lang="xx">Ал күнү ушулар оюнан кетпей койду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">She imagined the scene when he should discover her little deception.</su>
+          <su lang="xx">Айыбы кантип ачылып каларын ар кандай элестетип көрдү.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">He would lay down his brushes and palette.</su>
+          <su lang="xx">Мына, ал кыл калеми менен палитрасын четке койду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There would stand his easel with the picture he was painting in which the perspective was beyond criticism.</su>
+          <su lang="xx">Жанында жаӊы сүрөт тарта баштаган мольберти турат, андагы перспективаны эми айтпай эле коёлу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">He would prepare for his luncheon of dry bread and water. He would slice into a loaf — ah!</su>
+          <su lang="xx">Суу менен эски бөлкөнү жемек болуп, ага бычагын матырганда – ах!</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">Miss Martha blushed.</su>
+          <su lang="xx">Мисс Марта кыпкызыл болуп кетти.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Would he think of the hand that placed it there as he ate?</su>
+          <su lang="xx">Бөлкөнү жеп жатканда, май салып койгон колду бир ойлоп коёр бекен?...</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Would he — The front door bell jangled viciously.</su>
+          <su lang="xx">Ушул учурда эшиктеги коӊгуроо шаӊгырап кетти.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Somebody was coming in, making a great deal of noise.</su>
+          <su lang="xx">Бирөө калдыратып кирди.</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">Miss Martha hurried to the front.</su>
+          <su lang="xx">Мисс Марта арткы бөлмөдөн чыга калды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Two men were there.</su>
+          <su lang="xx">Эки киши туруптур.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One was a young man smoking a pipe — a man she had never seen before.</su>
+          <su lang="xx">Алардын бирин, канжа тиштеп турган жаш жигитти, мурун көргөн эмес.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The other was her artist.</su>
+          <su lang="xx">Экинчиси болсо анын сүрөтчүсү экен.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">His face was very red, his hat was on the back of his head, his hair was wildly rumpled.</su>
+          <su lang="xx">Бети кыпкызыл, шляпасы капталына кетип, чачы уйпаланып калыптыр.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He clinched his two fists and shook them ferociously at Miss Martha.</su>
+          <su lang="xx">Мисс Мартаны көрөрү менен муштумун түйүп, ага атырылды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At Miss Martha.</su>
+          <su lang="xx">Мисс Мартага атырылды!</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">"Dummkopf!" he shouted with extreme loudness; and then "Tausendonfer!" or something like it in German.</su>
+          <su lang="xx">– Dummkopf! – деп чаӊырды ал. – Tausendofer! Ушундай бирдеме деди. Немисче сөгүнүп атты.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">The young man tried to draw him away.</su>
+          <su lang="xx">Жаш жигит аны алып кеткенге аракет кылды.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">"I vill not go," he said angrily, "else I shall told her."</su>
+          <su lang="xx">– Мен кетпейм, – деп кыйкырды немис, – мен буга айтмайынча кетпейм…</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">He made a bass drum of Miss Martha's counter.</su>
+          <su lang="xx">Ал мисс Мартанын текчесин тарсылдатып койгулады.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">"You haf shpoilt me," he cried, his blue eyes blazing behind his spectacles.</su>
+          <su lang="xx">– Сиз буздуӊуз, – деп чаӊырды, – сиз менин… түбүнө жеттиӊиз… Көз айнегинин ары жагындагы көк көздөрүнөн от жанып турду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I vill tell you.</su>
+          <su lang="xx">– Мен сизге айтышым керек…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You vas von meddingsome old cat!"</su>
+          <su lang="xx">Сиз карыган, жүдөө мышыксыз…</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">Miss Martha leaned weakly against the shelves and laid one hand on her blue-dotted silk waist.</su>
+          <su lang="xx">Мисс Марта текчеге жөлөндү да, колун көк жибек лифине салды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The young man took the other by the collar.</su>
+          <su lang="xx">Жаш жигит досун жакадан алды.</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">"Come on," he said, "you've said enough."</su>
+          <su lang="xx">– Болду, кеттик! – деди ал жини келип. – Сен айта турганыӊды айттыӊ.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He dragged the angry one out at the door to the sidewalk, and then came back.</su>
+          <su lang="xx">Ал жинденген сүрөтчүнү көчөгө алып чыкты да, анан кайра келди.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">"Guess you ought to be told, ma'am," he said, "what the row is about.</su>
+          <su lang="xx">– Мадам, мен эмне болгонун сизге түшүндүрүп коюшум керек, – деди ал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That's Blumberger.</su>
+          <su lang="xx">– Кыскасы, мындай болду.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He's an architectural draftsman.</su>
+          <su lang="xx">Бул – Блюмбергер деген инженер-архитектор.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I work in the same office with him.</su>
+          <su lang="xx">Экөөбүз бир жерде иштейбиз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">"He's been working hard for three months drawing a plan for a new city hall.</su>
+          <su lang="xx">Ал үч айдан бери ратушанын жаӊы имаратынын планын иштеп жаткан.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was a prize competition.</su>
+          <su lang="xx">Сыйлыгы бар конкурс жарыяланган.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He finished inking the lines yesterday.</su>
+          <su lang="xx">Кечээ чиймесин сыя менен чийип чыккан болчу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You know, a draftsman always makes his drawing in pencil first. When it's done he rubs out the pencil lines with handfuls of stale bread crumbs.</su>
+          <su lang="xx">Билсеӊиз керек, чийме адегенде карандаш менен чийилет да, даяр болгон соӊ, карандаш менен чийилгендер эски бөлкө менен өчүрүлөт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That's better than India rubber.</su>
+          <su lang="xx">Бул резина өчүргүчтөн жакшы болот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">"Blumberger's been buying the bread here.</su>
+          <su lang="xx">Блюмбергер дайыма сизден эски бөлкө алып жүрчү, муну сиз жакшы билесиз…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Well, to-day — well, you know, ma'am, that butter isn't — well, Blumberger's plan isn't good for anything now except to cut up into railroad sandwiches."</su>
+          <su lang="xx">Эми сиздин айыӊыздан анын планы эч нерсеге жарабай калды, жолго бутерброд орогонго эле жарабаса…</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">Miss Martha went into the back room.</su>
+          <su lang="xx">Мисс Марта арткы бөлмөгө кайра барды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en"> She took off the blue-dotted silk waist and put on the old brown serge she used to wear.</su>
+          <su lang="xx">Көк жибек кофтасын чечти да, адатта кийчү күрөӊ кофтасын кайра кийди.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then she poured the quince seed and borax mixture out of the window into the ash can.</su>
+          <su lang="xx">Анан чакада турган айва менен буранын уругунан жасалган боткону терезеден төгүп ийди.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

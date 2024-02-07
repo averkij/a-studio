@@ -1,0 +1,3775 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.2">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220708T094612Z</creationdate>
+    <paragraphs>192</paragraphs>
+    <langs>
+      <lang id="xx">
+        <sentences>838</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>840</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="xx">Genriĥ Altov</s>
+      <s lang="ru">Генрих Альтов</s>
+    </author>
+    <title>
+      <s lang="xx">Bruliganta intelekto</s>
+      <s lang="ru">Опаляющий разум</s>
+    </title>
+    <contents>
+      <s lang="xx">Table of contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="xx"/>
+        <su lang="ru"/>
+      </header>
+      <p type="qtext" id="0">
+        <sentence>
+          <su lang="xx">Ĉu grandas kaj fortas tiu, kiu grandas kaj fortas,</su>
+          <su lang="ru">Разве велик и силен тот, кто силен и велик,</su>
+        </sentence>
+      </p>
+      <p type="qtext" id="1">
+        <sentence>
+          <su lang="xx">Se li malfortulojn ne povas levi ĝis siaj pintoj?</su>
+          <su lang="ru">Если он слабых не может поднять до вершин своих?</su>
+        </sentence>
+      </p>
+      <p type="qname" id="2">
+        <sentence>
+          <su lang="xx">Rabindranat Tagor</su>
+          <su lang="ru">Рабиндранат Тагор</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence id="0">
+          <su lang="xx">Mi venis al ĉi tiu apudmara urbeto, ricevinte telegramon de Prokŝin.</su>
+          <su lang="ru">Я приехал в этот приморский городок, получив телеграмму Прокшина.</su>
+        </sentence>
+        <sentence id="1">
+          <su lang="xx">Estis fino de oktobro.</su>
+          <su lang="ru">Был конец октября.</su>
+        </sentence>
+        <sentence id="2">
+          <su lang="xx">De la maro blovis malvarma, draste odoranta je algoj vento.</su>
+          <su lang="ru">С моря дул холодный, остро пахнущий водорослями ветер.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence id="3">
+          <su lang="xx">— La kuracisto loĝas en «Skualo», — diris al mi la prezidanto de la urba soveto.</su>
+          <su lang="ru">— Доктор живет на «Шквале», — сказал мне председатель горсовета.</su>
+        </sentence>
+        <sentence id="4">
+          <su lang="xx">— Ja ni iĝis urbo nur ĵus.</su>
+          <su lang="ru">— Ведь мы стали городом без году неделя.</su>
+        </sentence>
+        <sentence id="5">
+          <su lang="xx">Fakte ni estas laborista vilaĝo.</su>
+          <su lang="ru">Рабочий поселок — вот что мы такое.</su>
+        </sentence>
+        <sentence id="6">
+          <su lang="xx">Kaj «Skualo» estas malnova vaporŝipo de loka itinero.</su>
+          <su lang="ru">А «Шквал» — это старый пароход местной линии.</su>
+        </sentence>
+        <sentence id="7">
+          <su lang="xx">Jen ja, el la fenestro videblas...</su>
+          <su lang="ru">Да вот из окна видно…</su>
+        </sentence>
+        <sentence id="8">
+          <su lang="xx">Ne, ne, tio estas fiŝistaj skunoj.</su>
+          <su lang="ru">Нет, нет, это рыбачьи шхуны.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence id="9">
+          <su lang="xx">Iom pli fore, ĉe la kabo, estas vaporŝipo kun alta tubo.</su>
+          <su lang="ru">Чуть дальше, у мыска, пароход с высокой трубой.</su>
+        </sentence>
+        <sentence id="10">
+          <su lang="xx">Baldaŭ ĝin oni distranĉos por metalrubaĵo, ĝi jam finis sian servon.</su>
+          <su lang="ru">Скоро порежут на металл, он свое отслужил.</su>
+        </sentence>
+        <sentence id="11">
+          <su lang="xx">— La prezidanto neatendite ekridis.</su>
+          <su lang="ru">— Председатель неожиданно рассмеялся.</su>
+        </sentence>
+        <sentence id="12">
+          <su lang="xx">— Al ni foje venis aktoroj, do Andreo Iljiĉ ne permesis al ili iri tien.</su>
+          <su lang="ru">— К нам как-то артисты пожаловали, так Андрей Ильич их туда не пустил.</su>
+        </sentence>
+        <sentence id="13">
+          <su lang="xx">Minacis, ke li levos piratan standardon kaj eliros en la maron...</su>
+          <su lang="ru">Пригрозил, что поднимет пиратский флаг и выйдет в море…</su>
+        </sentence>
+        <sentence id="14">
+          <su lang="xx">— Kaj kial tion ne atentas la soveta potenco? — demandis mi.</su>
+          <su lang="ru">— А куда смотрит Советская власть? — спросил я.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence id="15">
+          <su lang="xx">— La soveta potenco priatentas, ke en la vilaĝo ankoraŭ mankas malsanulejo, — respondis la prezidanto.</su>
+          <su lang="ru">— Советская власть учитывает, что в поселке еще нет больницы, — ответил председатель.</su>
+        </sentence>
+        <sentence id="16">
+          <su lang="xx">— Nu, kaj Prokŝin estas bonega kuracisto.</su>
+          <su lang="ru">— Ну, а Прокшин классный доктор.</su>
+        </sentence>
+        <sentence id="17">
+          <su lang="xx">Mi al li ne nur malnovan vaporŝipon — ion ajn fordonus.</su>
+          <su lang="ru">Я бы ему не только старый пароход — что угодно отдал бы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence id="18">
+          <su lang="xx">Sur la bordo, submetinte al nehela suno la konveksajn nigrajn fundojn, kuŝis fok-similaj boatoj.</su>
+          <su lang="ru">На берегу, подставив неяркому солнцу выпуклые черные днища, лежали похожие на тюленей лодки.</su>
+        </sentence>
+        <sentence id="19">
+          <su lang="xx">La vento rulis sur bordajn ŝtonetojn oftajn, kolerajn ondojn.</su>
+          <su lang="ru">Ветер накатывал на гальку частые, злые волны.</su>
+        </sentence>
+        <sentence id="20">
+          <su lang="xx">Ili etendiĝis al la boatoj kaj retiriĝis, lasante sur la ŝtonoj densan siblantan ŝaŭmon.</su>
+          <su lang="ru">Они тянулись к лодкам и отступали, оставляя на камнях плотную шипящую пену.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence id="21">
+          <su lang="xx">«Skualo» staris ĉe kaduka ligna piero.</su>
+          <su lang="ru">«Шквал» стоял у ветхого деревянного пирса.</su>
+        </sentence>
+        <sentence id="22">
+          <su lang="xx">Prokŝin-on mi trovis en salona kajuto.</su>
+          <su lang="ru">Прокшина я нашел в кают-компании.</su>
+        </sentence>
+        <sentence id="23">
+          <su lang="xx">Li maldistre tajpis ion.</su>
+          <su lang="ru">Он сосредоточенно выстукивал что-то на пишущей машинке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence id="24">
+          <su lang="xx">— Nu jen, ĝustatempe, — ekĝojis li.</su>
+          <su lang="ru">— Ну вот, как раз вовремя, — обрадовался он.</su>
+        </sentence>
+        <sentence id="25">
+          <su lang="xx">— Mia ferio jam finiĝas, ni komencos jam hodiaŭ...</su>
+          <su lang="ru">— Мой отпуск на исходе, мы приступим сегодня же…</su>
+        </sentence>
+        <sentence id="26">
+          <su lang="xx">Ĉu vi volas testi je vi mem?</su>
+          <su lang="ru">Хотите испытать на себе?</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence id="27">
+          <su lang="xx">Komence tio ĉi estis kutima ĵurnalista ideo.</su>
+          <su lang="ru">Вначале это была обычная журналистская идея.</su>
+        </sentence>
+        <sentence id="28">
+          <su lang="xx">Ĝi aperis antaŭ jaro kaj duono, en Kalugo, kien mi venis laŭ redakcia tasko.</su>
+          <su lang="ru">Она возникла полтора года назад, в Калуге, куда я приехал по заданию редакции.</su>
+        </sentence>
+        <sentence id="29">
+          <su lang="xx">Okazis jubilea mitingo apud la monumento de Ciolkovskij, pioniro de raketaj flugoj, mi registris tion, kion diris parolantoj.</su>
+          <su lang="ru">Был юбилейный митинг у памятника Циолковскому, я записывал то, что говорили выступавшие.</su>
+        </sentence>
+        <sentence id="30">
+          <su lang="xx">La ideo — en sia origina aspekto — estas registrita samloke, en la notlibreto, inter du paroladoj: «Monumento — broŝuroj — moderna Ciolkovskij».</su>
+          <su lang="ru">Идея — в своем первозданном виде — записана тут же, в блокноте, между двумя речами: «Памятник — брошюры — современный Циолковский».</su>
+        </sentence>
+        <sentence id="31">
+          <su lang="xx">Tio signifas: kio okazus, se siatempe Ciolkovskij havus centonon da monrimedoj, elspezitaj por tiu ĉi monumento kaj tiu ĉi mitingo?</su>
+          <su lang="ru">Это значит: а что, если бы в свое время Циолковский имел сотую долю средств, потраченных на этот памятник и на этот митинг?</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence id="32">
+          <su lang="xx">Mi rememoris broŝurojn, kiujn eldonadis Ciolkovskij.</su>
+          <su lang="ru">Я вспомнил брошюры, которые издавал Циолковский.</su>
+        </sentence>
+        <sentence id="33">
+          <su lang="xx">Ili nun estas bibliografiaj raraĵoj: nemultaj vidis tiujn maldikajn, presitajn sur griza papero libretojn kun indiko «Eldono kaj propraĵo de la aŭtoro».</su>
+          <su lang="ru">Сейчас они библиографическая редкость; мало кто видел эти тоненькие, напечатанные на серой бумаге книжки с пометкой «Издание и собственность автора».</su>
+        </sentence>
+        <sentence id="34">
+          <su lang="xx">Ciolkovskij eldonis ilin en mizeraj kvantoj — kontraŭ propra mono.</su>
+          <su lang="ru">Циолковский выпускал их крохотными тиражами — за свой счет.</su>
+        </sentence>
+        <sentence id="35">
+          <su lang="xx">Kaj jen mi pensis: ja ankaŭ nun ie laboras homoj, trabatantaj same novajn (kaj tial ankoraŭ ne agnoskitajn) vojojn en la scienco!</su>
+          <su lang="ru">И вот я подумал: а ведь и сейчас где-то работают люди, прокладывающие столь же новые (и потому еще не признанные) пути в науке!</su>
+        </sentence>
+        <sentence id="36">
+          <su lang="xx">Venos tempo, kaj oni rekompencos tiujn homojn.</su>
+          <su lang="ru">Придет время, этим людям воздадут должное.</su>
+        </sentence>
+        <sentence id="37">
+          <su lang="xx">Sed kiom pli gravas por ili ricevi hodiaŭ almenaŭ eron de la estonta agnosko...</su>
+          <su lang="ru">Но насколько важнее для них получить сегодня хотя бы крупицу будущего признания…</su>
+        </sentence>
+        <sentence id="38">
+          <su lang="xx">Mi komencis serĉadon.</su>
+          <su lang="ru">Я начал поиски.</su>
+        </sentence>
+        <sentence id="39">
+          <su lang="xx">Iam mi pli detale rakontos pri tio: inter grandega amaso da revuloj estis ne tre facile trovi homojn, kies nomojn skribos sur siaj standardoj la scienco de la XXI jarcento.</su>
+          <su lang="ru">Когда-нибудь я подробнее расскажу об этом: среди великого множества прожектеров не так просто было отыскать людей, чьи идеи напишет на своих знаменах наука XXI века.</su>
+        </sentence>
+        <sentence id="40">
+          <su lang="xx">Nur post duonjaro, kaj tute hazarde, mi renkontis homon, ellaborantan ion principe novan.</su>
+          <su lang="ru">Только через полгода, да и то совершенно случайно, я встретил человека, разрабатывающего нечто принципиально новое.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence id="41">
+          <su lang="xx">Nun en mia listo estas naŭ nomoj.</su>
+          <su lang="ru">Теперь в моем списке девять фамилий.</su>
+        </sentence>
+        <sentence id="42">
+          <su lang="xx">«La brila naŭopo».</su>
+          <su lang="ru">«Великолепная девятка».</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence id="43">
+          <su lang="xx">Mi opiniis, ke necesos batali: iun defendi, ion elpeti.</su>
+          <su lang="ru">Я считал, что придется вступать в бой: кого-то защищать, что-то пробивать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence id="44">
+          <su lang="xx">Nenio simila.</su>
+          <su lang="ru">Ничего подобного.</su>
+        </sentence>
+        <sentence id="45">
+          <su lang="xx">Ok homoj, kvazaŭ interkonsentinte, ripetadis: «Tro frue, ankoraŭ ne necesas...»</su>
+          <su lang="ru">Восемь человек, словно сговорившись, твердили: «Рановато, пока не надо…»</su>
+        </sentence>
+        <sentence id="46">
+          <su lang="xx">Kaj nur la naŭa, Prokŝin, decideme diris: «Do, ni ekbatalu.</su>
+          <su lang="ru">И только девятый, Прокшин, решительно сказал: «Что ж, ринемся в бой.</su>
+        </sentence>
+        <sentence id="47">
+          <su lang="xx">Post la eksperimento».</su>
+          <su lang="ru">После опыта».</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence id="48">
+          <su lang="xx">Prokŝin estas ŝipa kuracisto.</su>
+          <su lang="ru">Прокшин — судовой врач.</su>
+        </sentence>
+        <sentence id="49">
+          <su lang="xx">Dum la unua renkonto mi pensis, ke kiel epigrafon (se necesos verki pri Prokŝin) eblas preni tiujn liniojn el «Spegulo de maroj» de Josef Conrad: «Mi rapidas aldoni, ke li havis ankaŭ alian trajton, necesan por vera maristo — absolutan memfidon.</su>
+          <su lang="ru">При первой встрече я подумал, что эпиграфом (если придется писать о Прокшине) можно будет взять такие строки из «Зеркала морей» Джозефа Конрада: «Спешу прибавить, что он обладал еще и другим качеством, необходимым настоящему моряку, — абсолютной уверенностью в себе.</su>
+        </sentence>
+        <sentence id="50">
+          <su lang="xx">Bedaŭrindas nur, ke tiun trajton li havis en danĝera grado».</su>
+          <su lang="ru">Беда только в том, что этим качеством он был наделен в угрожающей степени».</su>
+        </sentence>
+        <sentence id="51">
+          <su lang="xx">Tielas la unua impreso: ne tute malĝusta, sed supraĵa.</su>
+          <su lang="ru">Таково первое впечатление: не то чтобы неверное, но поверхностное.</su>
+        </sentence>
+        <sentence id="52">
+          <su lang="xx">Jes, Prokŝin tre fidas sin mem.</su>
+          <su lang="ru">Да, Прокшин крепко уверен в себе.</su>
+        </sentence>
+        <sentence id="53">
+          <su lang="xx">Li ŝatas diri: «Kiel estas konate, mi ne eraras».</su>
+          <su lang="ru">Он любит говорить: «Как известно, я не ошибаюсь».</su>
+        </sentence>
+        <sentence id="54">
+          <su lang="xx">Tamen la tuta afero estas en tio, de kio venas la memfido.</su>
+          <su lang="ru">Все дело, однако, в том, откуда берется уверенность.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence id="55">
+          <su lang="xx">— Simpla genia ideo, — diris Prokŝin, kiam mi petis klarigi, pri kio li laboras.</su>
+          <su lang="ru">— Обыкновенная гениальная идея, — сказал Прокшин, когда я попросил объяснить, над чем он работает.</su>
+        </sentence>
+        <sentence id="56">
+          <su lang="xx">— Ni prenu stultulon.</su>
+          <su lang="ru">— Возьмем дурака.</su>
+        </sentence>
+        <sentence id="57">
+          <su lang="xx">Naturan stultulon.</su>
+          <su lang="ru">Натурального дурака.</su>
+        </sentence>
+        <sentence id="58">
+          <su lang="xx">Mi esperas, vi havis okazon renkonti tian stultulon?..</su>
+          <su lang="ru">Надеюсь, вам приходилось встречать такого дурака?..</su>
+        </sentence>
+        <sentence id="59">
+          <su lang="xx">Tre bone.</su>
+          <su lang="ru">Очень хорошо.</su>
+        </sentence>
+        <sentence id="60">
+          <su lang="xx">Do, ni prenu simplan stultulon kaj supozu, ke li egalas nulon sur skalo de intelekta evoluigiteco.</su>
+          <su lang="ru">Итак, возьмем рядового дурака и будем считать, что он равен нулю на шкале умственного развития.</su>
+        </sentence>
+        <sentence id="61">
+          <su lang="xx">Al cent gradoj sur la sama skalo respondu intelekta nivelo de Einstein.</su>
+          <su lang="ru">Ста градусам на той же шкале пусть соответствует умственный уровень Эйнштейна.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence id="62">
+          <su lang="xx">La skalo, certe, estas relativa.</su>
+          <su lang="ru">Шкала, конечно, относительная.</su>
+        </sentence>
+        <sentence id="63">
+          <su lang="xx">Eblas iri sub nulon kaj super cent gradoj.</su>
+          <su lang="ru">Можно опускаться ниже нуля и подниматься выше ста градусов.</su>
+        </sentence>
+        <sentence id="64">
+          <su lang="xx">Do, mi volas demandi: kia estas laŭ tiu skalo «intelekta temperaturo» de la homaro?</su>
+          <su lang="ru">Итак, я хочу спросить: какова по этой шкале «умственная температура» человечества?</su>
+        </sentence>
+        <sentence id="65">
+          <su lang="xx">Ĉu vi komprenas — de la tuta homaro.</su>
+          <su lang="ru">Вы понимаете — всего человечества.</su>
+        </sentence>
+        <sentence id="66">
+          <su lang="xx">Averaĝe.</su>
+          <su lang="ru">В среднем.</su>
+        </sentence>
+        <sentence id="67">
+          <su lang="xx">Nu?</su>
+          <su lang="ru">Ну?</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence id="68">
+          <su lang="xx">La demando estis ne facila, mi silentis.</su>
+          <su lang="ru">Вопрос был не из легких, я промолчал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence id="69">
+          <su lang="xx">— Ni estu optimistoj, — daŭrigis Prokŝin.</su>
+          <su lang="ru">— Будем оптимистами, — продолжал Прокшин.</su>
+        </sentence>
+        <sentence id="70">
+          <su lang="xx">— Tamen eĉ kun plej potenca optimismo malfacilas doni nombron 80 aŭ 60.</su>
+          <su lang="ru">— Однако и при самом могучем оптимизме трудно назвать цифру 80 или 60.</su>
+        </sentence>
+        <sentence id="71">
+          <su lang="xx">Jen vi, ekzemple, kiom da gradoj estas en vi?</su>
+          <su lang="ru">Вот вы, например, сколько в вас градусов?</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence id="72">
+          <su lang="xx">Mi respondis, ke tridek ses kun duono.</su>
+          <su lang="ru">Я ответил, что тридцать шесть с половиной.</su>
+        </sentence>
+        <sentence id="73">
+          <su lang="xx">Laŭ Celsio.</su>
+          <su lang="ru">По Цельсию.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence id="74">
+          <su lang="xx">Prokŝin aprobe subridis:</su>
+          <su lang="ru">Прокшин одобрительно усмехнулся:</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence id="75">
+          <su lang="xx">— Elturniĝis.</su>
+          <su lang="ru">— Выкрутились.</su>
+        </sentence>
+        <sentence id="76">
+          <su lang="xx">Sed ĝenerale vi proksimas al la vero.</su>
+          <su lang="ru">А в общем-то, вы близки к истине.</su>
+        </sentence>
+        <sentence id="77">
+          <su lang="xx">Laŭ la plej optimisma takso la averaĝa temperaturo de la homaro ne superas tridek ses kaj duonon.</su>
+          <su lang="ru">По самой оптимистической оценке средняя температура человечества не выше тридцати шести с половиной.</su>
+        </sentence>
+        <sentence id="78">
+          <su lang="xx">Laŭ mia skalo.</su>
+          <su lang="ru">По моей шкале.</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence id="79">
+          <su lang="xx">Tiam mi diris, ke por tio ekzistas multaj seriozaj kaŭzoj — historiaj kaj socialaj.</su>
+          <su lang="ru">Тут я сказал, что на то имеется множество серьезных причин исторических и социальных.</su>
+        </sentence>
+        <sentence id="80">
+          <su lang="xx">Laŭ informoj de Unesko, miliardo kaj duono da homoj malsatas.</su>
+          <su lang="ru">По данным Юнеско, полтора миллиарда людей голодают.</su>
+        </sentence>
+        <sentence id="81">
+          <su lang="xx">Ĉu oni rajtas kulpigi ilin pri tio, ke ili intelekte malprogresas?</su>
+          <su lang="ru">Можно ли обвинить их в том, что они отстают в умственном развитии?</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence id="82">
+          <su lang="xx">— Mi ne kulpigas, — malpacience kontraŭdiris Prokŝin.</su>
+          <su lang="ru">— Я не обвиняю, — нетерпеливо возразил Прокшин.</su>
+        </sentence>
+        <sentence id="83">
+          <su lang="xx">— Mi simple konstatas la faktojn.</su>
+          <su lang="ru">— Я просто констатирую факты.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence id="84">
+          <su lang="xx">Unue, «averaĝa intelekta temperaturo» estas ne alta.</su>
+          <su lang="ru">Во-вторых, «средняя умственная температура» невысока.</su>
+        </sentence>
+        <sentence id="85">
+          <su lang="xx">Due, ĝi leviĝas malrapide.</su>
+          <su lang="ru">Во-вторых, она поднимается медленно.</su>
+        </sentence>
+        <sentence id="86">
+          <su lang="xx">Tro malrapide.</su>
+          <su lang="ru">Слишком медленно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence id="87">
+          <su lang="xx">— Tiaj paroloj estas tute senutilaj, se mankas klara terminologio.</su>
+          <su lang="ru">— Такие разговоры совершенно бесполезны, если нет четкой терминологии.</su>
+        </sentence>
+        <sentence id="88">
+          <su lang="xx">Kio estas intelekto?</su>
+          <su lang="ru">Что такое ум?</su>
+        </sentence>
+        <sentence id="89">
+          <su lang="xx">Kion signifas — iĝi pli intelekta?</su>
+          <su lang="ru">Что значит — стать умнее?</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence id="90">
+          <su lang="xx">— Jen tio estas labora aliro! — ekĝojis Prokŝin.</su>
+          <su lang="ru">— Вот это деловой подход! — обрадовался Прокшин.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence id="91">
+          <su lang="xx">La konversacio okazis en la Talina haveno.</su>
+          <su lang="ru">Разговор происходил в таллинском порту.</su>
+        </sentence>
+        <sentence id="92">
+          <su lang="xx">Prokŝin hastis, ofte rigardis horloĝon.</su>
+          <su lang="ru">Прокшин спешил, часто посматривал на часы.</su>
+        </sentence>
+        <sentence id="93">
+          <su lang="xx">Sed mi jam komprenis, ke la ĝeneralaj rezonoj pri «intelekta temperaturo» estas ligitaj kun io konkreta.</su>
+          <su lang="ru">Но я уже понял, что общие рассуждения об «умственной температуре» человечества связаны с чем-то конкретным.</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence id="94">
+          <su lang="xx">Magnetofonon mi ŝaltis ne tuj.</su>
+          <su lang="ru">Магнитофон я включил не сразу.</su>
+        </sentence>
+        <sentence id="95">
+          <su lang="xx">Foje tio povas ĉion fuŝi: la homo komencas paroli per «kartona» voĉo, konfuziĝas, blekas kaj mekas.</su>
+          <su lang="ru">Иногда это может все испортить: человек начинает говорить деревянным голосом, сбивается, знает и мекает.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence id="96">
+          <su lang="xx">La magneta rubando.</su>
+          <su lang="ru">Лента магнитофона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence id="97">
+          <su lang="xx">«— Ni konvenciu tiel.</su>
+          <su lang="ru">«— Давайте условимся так.</su>
+        </sentence>
+        <sentence id="98">
+          <su lang="xx">La intelekto dependas de multaj faktoroj.</su>
+          <su lang="ru">Ум зависит от многих факторов.</su>
+        </sentence>
+        <sentence id="99">
+          <su lang="xx">Sed ekzistas io nepra, ĉefa.</su>
+          <su lang="ru">Но есть нечто обязательное, главное.</su>
+        </sentence>
+        <sentence id="100">
+          <su lang="xx">Tio estas scioj.</su>
+          <su lang="ru">Это — знания.</su>
+        </sentence>
+        <sentence id="101">
+          <su lang="xx">Amplekso de scioj.</su>
+          <su lang="ru">Объем знаний.</su>
+        </sentence>
+        <sentence id="102">
+          <su lang="xx">Vi tuj kontraŭdiros, ke povas esti scianta stultulo.</su>
+          <su lang="ru">Сейчас вы возразите, что можно быть знающим дураком.</su>
+        </sentence>
+        <sentence id="103">
+          <su lang="xx">Povas.</su>
+          <su lang="ru">Можно.</su>
+        </sentence>
+        <sentence id="104">
+          <su lang="xx">Okazas ankaŭ malo: homo estas malklera, sed saĝa.</su>
+          <su lang="ru">Бывает и обратное: человек безграмотен, но умен.</su>
+        </sentence>
+        <sentence id="105">
+          <su lang="xx">Do, tio estas escepto de la regulo.</su>
+          <su lang="ru">Что ж, это исключения из правил.</su>
+        </sentence>
+        <sentence id="106">
+          <su lang="xx">Sed ni parolas pri la tuta homaro.</su>
+          <su lang="ru">А мы говорим обо всем человечестве.</su>
+        </sentence>
+        <sentence id="107">
+          <su lang="xx">Ĉi tie eblas nur statistika aliro: necesas pensi per reguloj, sed ne per esceptoj.</su>
+          <su lang="ru">Здесь возможен только статистический подход; нужно мыслить правилами, а не исключениями из них.</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence id="108">
+          <su lang="xx">Do, la scioj.</su>
+          <su lang="ru">Итак, знание.</su>
+        </sentence>
+        <sentence id="109">
+          <su lang="xx">Imagu, ke ĉiujn sciojn de la mondo eblas praktike momente enkapigi al ĉiuj homoj.</su>
+          <su lang="ru">Представьте себе, что все знания мира можно практически мгновенно вложить в головы всех людей.</su>
+        </sentence>
+        <sentence id="110">
+          <su lang="xx">Ĉiujn sciojn de la mondo...</su>
+          <su lang="ru">Все знания мира…</su>
+        </sentence>
+        <sentence id="111">
+          <su lang="xx">Jam preta titolo, ĉu?</su>
+          <su lang="ru">Готовый заголовок, а?</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence id="112">
+          <su lang="xx">Malklereco — tio estas grundo, sur kiu kreskas stulteco.</su>
+          <su lang="ru">Невежество — такова почва, на которой растет глупость.</su>
+        </sentence>
+        <sentence id="113">
+          <su lang="xx">Malsata malklero de sklavoj.</su>
+          <su lang="ru">Голодное невежество рабов.</su>
+        </sentence>
+        <sentence id="114">
+          <su lang="xx">Sata malklero de burĝoj.</su>
+          <su lang="ru">Сытое невежество мещан.</su>
+        </sentence>
+        <sentence id="115">
+          <su lang="xx">Kolera malklero de faŝistoj.</su>
+          <su lang="ru">Злобное невежество фашистов.</su>
+        </sentence>
+        <sentence id="116">
+          <su lang="xx">Kaj jen ni neniigas la grundon, al kiu kroĉiĝas radikoj de la stulteco...</su>
+          <su lang="ru">И вот мы уничтожаем почву, за которую цепляются корни глупости…</su>
+        </sentence>
+        <sentence id="117">
+          <su lang="xx">Mi petas, donu al mi la mikrofonon, mi mem ĝin tenos.</su>
+          <su lang="ru">Дайте, пожалуйста, микрофон, я буду держать сам.</su>
+        </sentence>
+        <sentence id="118">
+          <su lang="xx">Vian atenton tiu proceduro evidente distras.</su>
+          <su lang="ru">Вас эта процедура явно отвлекает.</su>
+        </sentence>
+        <sentence id="119">
+          <su lang="xx">Ja mi volas, ke vi komprenu.</su>
+          <su lang="ru">А я хочу, чтобы вы поняли.</su>
+        </sentence>
+        <sentence id="120">
+          <su lang="xx">Do, kio okazos, se ĉiuj scioj en la mondo iĝos propraĵo de ĉiu homo sur la Tero?</su>
+          <su lang="ru">Итак, что произойдет, если все знания мира сделаются достоянием каждого человека на Земле?</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence id="121">
+          <su lang="xx">— Ĉiuj scioj — estas tro nedifinite.</su>
+          <su lang="ru">Все знания — слишком неопределенно.</su>
+        </sentence>
+        <sentence id="122">
+          <su lang="xx">Mi konsentas.</su>
+          <su lang="ru">Согласен.</su>
+        </sentence>
+        <sentence id="123">
+          <su lang="xx">Ni diru tiel: scioj je amplekso de tridek–kvardek universitatoj.</su>
+          <su lang="ru">Скажем так: знания в объеме тридцати — сорока высших образований.</su>
+        </sentence>
+        <sentence id="124">
+          <su lang="xx">En diversaj kombinoj.</su>
+          <su lang="ru">В разных сочетаниях.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence id="125">
+          <su lang="xx">Certe, tiel "farĉita" homo ankoraŭ ne estas sekurigita de malsato, malsanoj, suferoj.</su>
+          <su lang="ru">Разумеется, человек с такой начинкой еще не застрахован от голода, болезней, страданий.</su>
+        </sentence>
+        <sentence id="126">
+          <su lang="xx">Sed li havos imunon kontraŭ enuo, neniofarado, ebriemo.</su>
+          <su lang="ru">Но у него будет иммунитет против скуки, безделья, пьянства.</su>
+        </sentence>
+        <sentence id="127">
+          <su lang="xx">Scioj estas kiel uranio, — kiam ilia amplekso superas la krizan, komenciĝas io simila al ĉena reakcio.</su>
+          <su lang="ru">Знания — как уран: когда их объем больше критической величины, начинается нечто вроде цепной реакции.</su>
+        </sentence>
+        <sentence id="128">
+          <su lang="xx">Trankvilo, pli ĝuste — stagno, estas simple neebla.</su>
+          <su lang="ru">Покой, точнее — застой, просто невозможен.</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence id="129">
+          <su lang="xx">Miliardo kaj duono da homoj malsatas...</su>
+          <su lang="ru">Полтора миллиарда людей голодают…</su>
+        </sentence>
+        <sentence id="130">
+          <su lang="xx">Vi uzis fortan argumenton, tio fiksiĝas en memoro.</su>
+          <su lang="ru">Вы использовали сильный довод, это врезается в память.</su>
+        </sentence>
+        <sentence id="131">
+          <su lang="xx">Sed ĉu la malsato ne estas kaŭzita — finkonte — de malalta nivelo de edukado?</su>
+          <su lang="ru">Но разве голод не вызван — в конечном счете — низким уровнем образования?</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence id="132">
+          <su lang="xx">— Nu, laŭ mi ĉio estas mala: la nivelo de la edukado dependas de bonfarto de la lando.</su>
+          <su lang="ru">— Положим, все наоборот: уровень образования зависит от благосостояния страны.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence id="133">
+          <su lang="xx">— Tio similas demandon, ĉu la unua kokino devenis el la unua ovo aŭ male, la unua ovo estis farita de la unua kokino...</su>
+          <su lang="ru">— Это похоже на выяснение вопроса, произошла ли первая курица из первого яйца или, напротив, первое яйцо было снесено первой курицей…</su>
+        </sentence>
+        <sentence id="134">
+          <su lang="xx">En kutimaj kondiĉoj la edukado dependas de bonfarto de la lando, kaj la bonfarto — de la scioj.</su>
+          <su lang="ru">В обычных условиях образование зависит от благосостояния страны, а благосостояние — от знаний.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence id="135">
+          <su lang="xx">Senfina cirklo.</su>
+          <su lang="ru">Заколдованный круг.</su>
+        </sentence>
+        <sentence id="136">
+          <su lang="xx">Por almenaŭ iagrade rompi ĝin, necesas jardekoj.</su>
+          <su lang="ru">Чтобы хоть в какой-то мере расколдовать его, требуются десятки лет.</su>
+        </sentence>
+        <sentence id="137">
+          <su lang="xx">Niaj rimedoj kaj metodoj de instruado havas mirinde malgrandan koeficienton de utileco.</su>
+          <su lang="ru">Наши средства и методы обучения имеют поразительно малый коэффициент полезного действия.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence id="138">
+          <su lang="xx">Ĉu vi komprenas, kia absurdo?</su>
+          <su lang="ru">Вы понимаете, какая нелепость?</su>
+        </sentence>
+        <sentence id="139">
+          <su lang="xx">Ekzistas scioj kaj ekzistas kapoj.</su>
+          <su lang="ru">Есть знания и есть головы.</su>
+        </sentence>
+        <sentence id="140">
+          <su lang="xx">Sed ne ekzistas efektivaj rimedoj, ebligantaj dum mallonga tempo enmeti ĉiujn sciojn en ĉiujn kapojn...</su>
+          <su lang="ru">Но нет эффективных средств, позволяющих в короткий срок вложить все знания во все головы…</su>
+        </sentence>
+        <sentence id="141">
+          <su lang="xx">Ĉu hipnopedio?</su>
+          <su lang="ru">Гипнопедия?</su>
+        </sentence>
+        <sentence id="142">
+          <su lang="xx">Ja vi estas simple geniulo!</su>
+          <su lang="ru">Да вы просто гений!</su>
+        </sentence>
+        <sentence id="143">
+          <su lang="xx">Vi modestis, kiam diris pri tridekses gradoj kaj duono.</su>
+          <su lang="ru">Вы скромничали, когда говорили о тридцати шести с половиной градусах.</su>
+        </sentence>
+        <sentence id="144">
+          <su lang="xx">Nun vi kaptis la esencon de la afero: necesas novaj instruaj rimedoj.</su>
+          <su lang="ru">Сейчас вы схватили суть дела: нужны принципиально новые средства обучения.</su>
+        </sentence>
+        <sentence id="145">
+          <su lang="xx">Hipnopedio...</su>
+          <su lang="ru">Гипнопедия…</su>
+        </sentence>
+        <sentence id="146">
+          <su lang="xx">Nu, tio estas bona afero.</su>
+          <su lang="ru">Что ж, это хорошая вещь.</su>
+        </sentence>
+        <sentence id="147">
+          <su lang="xx">Sed esencaj ŝanĝoj en tuthomara skalo postulas rimedojn, miloble pli produktivajn, ol la hipnopedio.</su>
+          <su lang="ru">Но существенные изменения в общечеловеческих масштабах требуют средств, в тысячи раз производительнее гипнопедии.</su>
+        </sentence>
+        <sentence id="148">
+          <su lang="xx">Pli fortajn, pli fidindajn kaj, ĉefe, pli produktivajn.</su>
+          <su lang="ru">Сильнее, надежнее и, главное, производительнее.</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence id="149">
+          <su lang="xx">Atendu ĝis la aŭtuno...»</su>
+          <su lang="ru">Подождите до осени…»</su>
+        </sentence>
+        <sentence id="150">
+          <su lang="xx">Vespere en la duonmalhela salonkajuto ni trinkis teon el pezaj bieraj kruĉoj.</su>
+          <su lang="ru">Вечером в полутемной кают-компании мы пили чай из массивных пивных кружек.</su>
+        </sentence>
+        <sentence id="151">
+          <su lang="xx">Mi demandis Prokŝin-on, kial li ne aranĝis decan lumigon.</su>
+          <su lang="ru">Я спросил Прокшина, почему он не провел приличного освещения.</su>
+        </sentence>
+        <sentence id="152">
+          <su lang="xx">Li kuntiris la ŝultrojn:</su>
+          <su lang="ru">Он пожал плечами:</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence id="153">
+          <su lang="xx">— Estas tede umadi kun la drataro.</su>
+          <su lang="ru">— Скучно возиться с проводкой.</su>
+        </sentence>
+        <sentence id="154">
+          <su lang="xx">Ĉi tie mi trovis akumulilon, ĝi sufiĉas por semajno, poste eblas ŝargi ĝin en la garaĝo.</su>
+          <su lang="ru">Здесь нашелся аккумулятор, его хватает на неделю, потом можно зарядить в гараже.</su>
+        </sentence>
+        <sentence id="155">
+          <su lang="xx">Jen ankaŭ la kruĉoj: mi trovis ilin en la bufedo — kaj sufiĉas.</su>
+          <su lang="ru">Вот и кружки: отыскал в буфете и ладно.</su>
+        </sentence>
+        <sentence id="156">
+          <su lang="xx">Ĉiutagaj bagateloj ne gravas.</su>
+          <su lang="ru">Мелочи жизни.</su>
+        </sentence>
+        <sentence id="157">
+          <su lang="xx">Pensi necesas pri alio.</su>
+          <su lang="ru">Думать надо о другом.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence id="158">
+          <su lang="xx">Estas malfacile kompreni, kiam Prokŝin parolas serioze.</su>
+          <su lang="ru">Трудно понять, когда Прокшин говорит всерьез.</su>
+        </sentence>
+        <sentence id="159">
+          <su lang="xx">Ĉiuokaze, malatento al ĉiutagaj bagateloj ne malhelpas al Prokŝin aspekti svelte, eĉ dande.</su>
+          <su lang="ru">Во всяком случае, пренебрежение мелочами жизни не мешает Прокшину выглядеть подтянуто, даже франтовато.</su>
+        </sentence>
+        <sentence id="160">
+          <su lang="xx">Li estas zorge razita, la jako kaj la pantalono estas diligente gladitaj.</su>
+          <su lang="ru">Он тщательно выбрит, китель и брюки аккуратно выглажены.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence id="161">
+          <su lang="xx">— Al vi plaĉos ĉi tie, — diris Prokŝin.</su>
+          <su lang="ru">— Вам здесь понравится, — сказал Прокшин.</su>
+        </sentence>
+        <sentence id="162">
+          <su lang="xx">— Sciu, mi ekde la infaneco revis almenaŭ dum semajno loĝi tiel — sur malnova ŝipo.</su>
+          <su lang="ru">— Знаете, я с детства мечтал хотя бы неделю пожить вот так — на старом корабле.</su>
+        </sentence>
+        <sentence id="163">
+          <su lang="xx">Ili estas mirindaj, tiuj malnovaj ŝipoj.</su>
+          <su lang="ru">Они удивительные, эти старые корабли.</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence id="164">
+          <su lang="xx">Ja malnovaj maŝinoj kutime vokas neniujn sentojn, krom nur bedaŭron.</su>
+          <su lang="ru">Ведь старые машины обычно не вызывают никаких чувств, разве что жалость.</su>
+        </sentence>
+        <sentence id="165">
+          <su lang="xx">Sed ŝipoj...</su>
+          <su lang="ru">А корабли…</su>
+        </sentence>
+        <sentence id="166">
+          <su lang="xx">Mi kreskis ĉe maro, la hejmo staris apud kajo, rekte kontraŭ miaj fenestroj estis varfo kun jen tiaj malnovaj ŝipoj.</su>
+          <su lang="ru">Я вырос у моря, дом стоял возле набережной, прямо против моих окон был причал с такими вот старыми кораблями.</su>
+        </sentence>
+        <sentence id="167">
+          <su lang="xx">Mi prenis librojn kaj foriris tien, plej ofte al padelrada trenŝipo «Gnomo».</su>
+          <su lang="ru">Я брал книги и уходил туда, чаще всего на колесный буксир «Гном».</su>
+        </sentence>
+        <sentence id="168">
+          <su lang="xx">Ĉe la varfa enirejo estis alnajlita tabulo kun surskribo: «Ĉi tie ne iri».</su>
+          <su lang="ru">У входа на причал была прибита доска с надписью: «Суда не ходыть».</su>
+        </sentence>
+        <sentence id="169">
+          <su lang="xx">Sed la gardisto, eterne okupita pri fiŝkano kaj vermoj, rigardis al mi kun plena indiferenteco.</su>
+          <su lang="ru">Но сторож, вечно возившийся с удочкой и червями, смотрел на меня с полнейшим равнодушием.</su>
+        </sentence>
+        <sentence id="170">
+          <su lang="xx">Mi kuŝis sur ferdeko de «Gnomo», sur varmegaj aspraj tabuloj, legadis aŭ simple rigardadis al la maro...</su>
+          <su lang="ru">Я лежал на палубе «Гнома», на горячих, шершавых досках, читал, думал или просто смотрел в море…</su>
+        </sentence>
+        <sentence id="171">
+          <su lang="xx">De unu flanko situis la haveno, brua, fuma.</su>
+          <su lang="ru">С одной стороны был порт, шумный, дымный.</su>
+        </sentence>
+        <sentence id="172">
+          <su lang="xx">De la alia — bulvardo kun belaj aleoj, ŝtuparoj, florejoj.</su>
+          <su lang="ru">С другой бульвар с нарядными аллеями, лестницами, цветниками.</su>
+        </sentence>
+        <sentence id="173">
+          <su lang="xx">Kaj «Gnomo», knaretante per padeloj, staris ĉe la skrapita varfo, kaj neniu ĝin atentis, neniu vidis, kiel ĝi belas.</su>
+          <su lang="ru">А «Гном», поскрипывая плицами колес, стоял у обшарпанного причала, и никому до него не было дела, никто не видел, как он красив. Он в самом деле был красив.</su>
+        </sentence>
+        <sentence id="174">
+          <su lang="xx">Marajn trenŝipojn kun padelradoj oni jam delonge ne konstruas, ne juĝu laŭ dikventraj riveraj trenŝipoj.</su>
+          <su lang="ru">Морские буксиры с гребными колесами давно не строят, вы не судите по пузатым речным буксирам.</su>
+        </sentence>
+        <sentence id="175">
+          <su lang="xx">«Gnomo» havis longan korpon kun alta fleksigita steveno, belegan arkitekturon de superkonstruaĵoj (ĉi tie la tuta afero estas en proporcioj) kaj vastan, klinitan malantaŭen tubon...</su>
+          <su lang="ru">У «Гнома» был удлиненный корпус с высоким изогнутым форштевнем, великолепная архитектура надстроек (тут все дело в пропорциях) и широкая, наклоненная назад труба…</su>
+        </sentence>
+        <sentence id="176">
+          <su lang="xx">Foje aŭtune mi revenis el la lernejo kaj ekvidis, ke «Gnomo» malestas.</su>
+          <su lang="ru">Однажды осенью я вернулся из школы и увидел, что «Гнома» нет.</su>
+        </sentence>
+        <sentence id="177">
+          <su lang="xx">Ĝin oni ektrenis por detrui, fuŝdronigis nur je cent metroj for de la bordo kaj lasis.</su>
+          <su lang="ru">Его повели на слом, ухитрились затопить в каких-нибудь ста метрах от берега и бросили.</su>
+        </sentence>
+        <sentence id="178">
+          <su lang="xx">Tie estis ne profunde: preskaŭ tuta rufo kaj masto restis super la akvo.</su>
+          <su lang="ru">Там было неглубоко: почти вся рубка, труба, мачта остались над водой.</su>
+        </sentence>
+        <sentence id="179">
+          <su lang="xx">De la bulvardo ĉio estis videbla.</su>
+          <su lang="ru">С бульвара все было видно.</su>
+        </sentence>
+        <sentence id="180">
+          <su lang="xx">Tamen neniu atentis la dronintan ŝipon, kaj mi volis plori pro ofendo, mi unuafoje perdis amikon...</su>
+          <su lang="ru">Впрочем, никто не обращал внимания на затонувший корабль, а мне хотелось реветь от обиды, я впервые потерял друга…</su>
+        </sentence>
+        <sentence id="181">
+          <su lang="xx">Vespere al mi venis unu penso, mi komprenis, kion necesas fari.</su>
+          <su lang="ru">Вечером у меня появилась одна мысль, я понял, что нужно сделать.</su>
+        </sentence>
+        <sentence id="182">
+          <su lang="xx">Post kvar tagoj, nokte, ŝtelinte jolon de la gardisto-fiŝkaptisto, mi alnaĝis «Gnomon».</su>
+          <su lang="ru">Через четыре дня, ночью, стащив у сторожа-рыболова ялик, я подплыл к «Гному».</su>
+        </sentence>
+        <sentence id="183">
+          <su lang="xx">Mi umadis preskaŭ du horojn, malsekiĝis, malpuriĝis, gratvundis la manplatojn, sed alfaris al la tubo sitelon kun surverŝita per mazuto ĉifonaro kaj alkroĉis bruligilon kun lenso.</su>
+          <su lang="ru">Я провозился часа два, вымок, измазался, ободрал ладони, но пристроил в трубе ведро с залитой мазутом ветошью и приладил зажигатель с линзой.</su>
+        </sentence>
+        <sentence id="184">
+          <su lang="xx">Plej longe mi umadis kun tiu bruligilo.</su>
+          <su lang="ru">Больше всего возни было с этим зажигателем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence id="185">
+          <su lang="xx">Necesis instali ĝin tre precize, por la suno en tagmezo bruligu ujeton, plenŝtopitan per butonoj de alumetoj...</su>
+          <su lang="ru">Его требовалось установить очень точно, чтобы солнце в полдень воспламенило коробку, набитую отломанными спичечными головками…</su>
+        </sentence>
+        <sentence id="186">
+          <su lang="xx">Dum du tagoj estis nebula vetero, mi timis, ke mia piroteknikaĵo ne malsekiĝu.</su>
+          <su lang="ru">Два дня была пасмурная погода, я боялся, как бы моя пиротехника не отсырела.</su>
+        </sentence>
+        <sentence id="187">
+          <su lang="xx">La suno aperis nur en la tria tago, en dimanĉo.</su>
+          <su lang="ru">Солнце появилось только на третий день, в воскресенье.</su>
+        </sentence>
+        <sentence id="188">
+          <su lang="xx">La bulvardo estis plena de homoj, mi sidis apud la maro kaj atendis.</su>
+          <su lang="ru">Бульвар был полон народу, я сидел у моря и ждал.</su>
+        </sentence>
+        <sentence id="189">
+          <su lang="xx">La bruligilo efikis iom pli poste, mi jam komencis timi, ke la kalkuloj malĝustas.</su>
+          <su lang="ru">Зажигатель сработал чуть позже, я уже начал опасаться, что расчеты неверны.</su>
+        </sentence>
+        <sentence id="190">
+          <su lang="xx">Komence super la tubo leviĝis malpeza blanka fumeto, poste la fumo nigriĝis kaj ekiris, ekiris...</su>
+          <su lang="ru">Сначала над трубой поднялся легкий белый дымок, потом дым стал черным и повалил, повалил…</su>
+        </sentence>
+        <sentence id="191">
+          <su lang="xx">La publiko impetis rigardi.</su>
+          <su lang="ru">Публика бросилась смотреть.</su>
+        </sentence>
+        <sentence id="192">
+          <su lang="xx">La bildo estis mirinda: la ŝipo sub la akvo, sed el la tubo iras densa nigra fumo.</su>
+          <su lang="ru">Картина удивительная: корабль под водой, но из трубы шпарит густой черный дым.</su>
+        </sentence>
+        <sentence id="193">
+          <su lang="xx">Kaj ankaŭ ondoj: alkuras sur la rufon, la tubon — plena iluzio de moviĝo.</su>
+          <su lang="ru">А тут еще волны: набегают на рубку, на трубу — полная иллюзия движения.</su>
+        </sentence>
+        <sentence id="194">
+          <su lang="xx">Komence la homoj bruis, ridis, kaj poste iel eksilentis kaj longe ne disiris...</su>
+          <su lang="ru">Сначала люди шумели, смеялись, а потом как-то стихли и долго не расходились…</su>
+        </sentence>
+        <sentence id="195">
+          <su lang="xx">— Prokŝin ekridis.</su>
+          <su lang="ru">— Прокшин рассмеялся.</su>
+        </sentence>
+        <sentence id="196">
+          <su lang="xx">— Jes, la bildo estis belega!</su>
+          <su lang="ru">— Да, картина была могучая!</su>
+        </sentence>
+        <sentence id="197">
+          <su lang="xx">Domaĝe, ke mi ne elpensis levi flagon sur la masto...</su>
+          <su lang="ru">Жаль, я не догадался тогда поднять флаг на мачте…</su>
+        </sentence>
+        <sentence id="198">
+          <su lang="xx">Al ĵurnalisto estas ofte pli malfacile, ol al verkisto.</su>
+          <su lang="ru">Журналисту порой труднее, чем писателю.</su>
+        </sentence>
+        <sentence id="199">
+          <su lang="xx">Ĵurnalisto ne rajtas elpensi heroon, ne rajtas atribui al li laŭ sia deziro tiujn aŭ aliajn trajtojn.</su>
+          <su lang="ru">Журналист не может выдумать героя, не может наделить его по своему желанию теми или иными качествами.</su>
+        </sentence>
+        <sentence id="200">
+          <su lang="xx">Necesas diveni realajn homojn, kaj tio estas tre malfacile!</su>
+          <su lang="ru">Приходится разгадывать реальных людей, а это ох как непросто!</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence id="201">
+          <su lang="xx">Ĉiu afero havas siajn etajn ruzaĵojn.</su>
+          <su lang="ru">В каждом деле есть свои маленькие хитрости.</su>
+        </sentence>
+        <sentence id="202">
+          <su lang="xx">Ĵurnalistan ekspresan analizon plifaciligas tio, se vi penos imagi, kiu estus interesanta vin homo dum alia epoko — en iaj neatenditaj kondiĉoj.</su>
+          <su lang="ru">Журналистский экспресс-анализ облегчится, если вы попытаетесь представить, кем бы был интересующий вас человек в другую эпоху — при каких-нибудь неожиданных обстоятельствах.</su>
+        </sentence>
+        <sentence id="203">
+          <su lang="xx">Mi pense provas al Prokŝin diversajn vestojn.</su>
+          <su lang="ru">Я мысленно примериваю Прокшину различные одежды.</su>
+        </sentence>
+        <sentence id="204">
+          <su lang="xx">Ĉu kamizolon de alkemiisto?</su>
+          <su lang="ru">Камзол алхимика?</su>
+        </sentence>
+        <sentence id="205">
+          <su lang="xx">Foje en la okuloj de Prokŝin ekflagras infana entuziasmo: jen ni tuj miksos ĉi tion kun tio, bone varmigos kaj...</su>
+          <su lang="ru">Временами в глазах Прокшина вспыхивает детский восторг: вот смешаем сейчас это с тем, хорошенько нагреем, и…</su>
+        </sentence>
+        <sentence id="206">
+          <su lang="xx">Kiel interesege estas ekscii, kio rezultos el tio!</su>
+          <su lang="ru">До чего же интересно знать, что из этого выйдет!</su>
+        </sentence>
+        <sentence id="207">
+          <su lang="xx">Sed Prokŝin ne havas eksteran solidecon, organikan trajton de la alkemiistoj, aparte de la modernaj.</su>
+          <su lang="ru">Но у Прокшина нет внешней солидности, органически присущей алхимикам, особенно современным.</su>
+        </sentence>
+        <sentence id="208">
+          <su lang="xx">Tiuokaze ion tian piratan?</su>
+          <su lang="ru">Тогда что-нибудь такое пиратское?</su>
+        </sentence>
+        <sentence id="209">
+          <su lang="xx">Por komenco mi provas: se kovri unu okulon de Prokŝin per nigra bandaĝo?</su>
+          <su lang="ru">Для начала я прикидываю: а если закрыть один глаз Прокшина черной повязкой? Так.</su>
+        </sentence>
+        <sentence id="210">
+          <su lang="xx">Jes, kaj nun la pipon en la dentojn kaj...</su>
+          <su lang="ru">Теперь трубку в зубы и…</su>
+        </sentence>
+        <sentence id="211">
+          <su lang="xx">Ne, nenio sukcesas.</su>
+          <su lang="ru">Нет, опять ничего не получается.</su>
+        </sentence>
+        <sentence id="212">
+          <su lang="xx">Nu bone, mia tasko estas — kontroli la aparaton de Prokŝin.</su>
+          <su lang="ru">Ну хорошо, пока моя задача — проверить аппарат Прокшина.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence id="213">
+          <su lang="xx">La aparato estas sufiĉe ampleksa.</su>
+          <su lang="ru">Аппарат довольно громоздкий.</su>
+        </sentence>
+        <sentence id="214">
+          <su lang="xx">La centra konrolejo — io simila al tri aŭ kvar reversitaj kaj starigitaj unu sur la alian televidiloj.</su>
+          <su lang="ru">Центральный пост — нечто вроде трех или четырех вывернутых наизнанку и взгроможденных друг на друга телевизоров.</su>
+        </sentence>
+        <sentence id="215">
+          <su lang="xx">La memorilo — ŝranko kun magnetaj cilindroj.</su>
+          <su lang="ru">ЗУ — запоминающее устройство — шкаф с магнитными барабанами.</su>
+        </sentence>
+        <sentence id="216">
+          <su lang="xx">Fine, la bioresonancilo, simila al viziero de kavalira helmo.</su>
+          <su lang="ru">Наконец, биорезонатор, похожий на забрало рыцарского шлема.</su>
+        </sentence>
+        <sentence id="217">
+          <su lang="xx">Hodiaŭ okazos nur eksperimento.</su>
+          <su lang="ru">Сегодня — только эксперимент.</su>
+        </sentence>
+        <sentence id="218">
+          <su lang="xx">Sed iam la memorilo vere entenos ĉiujn sciojn de la mondo.</su>
+          <su lang="ru">Но когда-нибудь ЗУ и в самом деле вместит все знания мира.</su>
+        </sentence>
+        <sentence id="219">
+          <su lang="xx">La ideo de Prokŝin estas: «enmeti» en la kapon de homo sciojn, preterante procezon de legado.</su>
+          <su lang="ru">Замысел Прокшина в том, чтобы «вложить» в голову человека знания, минуя процесс чтения.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence id="220">
+          <su lang="xx">Modernaj memoriloj povas en volumeno de kelkaj kubaj decimetroj kumuli informon je miliardoj da bitoj.</su>
+          <su lang="ru">Современные запоминающие устройства могут — при объеме в несколько кубических дециметров — накопить информацию в миллиарды двоичных единиц.</su>
+        </sentence>
+        <sentence id="221">
+          <su lang="xx">Por eligi ĉiun tiun biton, al la memorilo sufiĉas milono de mikrosekundo.</su>
+          <su lang="ru">Чтобы «выдать» каждую такую единицу, ЗУ достаточно тысячной доли микросекунды.</su>
+        </sentence>
+        <sentence id="222">
+          <su lang="xx">Sed la okulo estas malrapida.</su>
+          <su lang="ru">А глаз медлителен.</su>
+        </sentence>
+        <sentence id="223">
+          <su lang="xx">La vojo de la informo tra vida kanalo estas ligita kun dufoja konverto de energio.</su>
+          <su lang="ru">Путь информации по зрительному каналу связан с двукратным превращением энергии.</su>
+        </sentence>
+        <sentence id="224">
+          <su lang="xx">La luma energio de la bildo konvertiĝas per la retino en la biokemian.</su>
+          <su lang="ru">Световая энергия изображения превращается сетчаткой глаза в биохимическую.</su>
+        </sentence>
+        <sentence id="225">
+          <su lang="xx">Poste okazas ankoraŭ unu konvertiĝo: la biokemia energio iĝas elektra energio de biokurentoj, irantaj laŭ la vida nervo en la cerbon.</su>
+          <su lang="ru">Затем совершается еще один переход: биохимическая энергия превращается в электрическую энергию биотоков, идущих по зрительному нерву в мозг.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence id="226">
+          <su lang="xx">— Ĉesu skribi, — konsilis Prokŝin.</su>
+          <su lang="ru">— Бросьте записывать, — посоветовал Прокшин.</su>
+        </sentence>
+        <sentence id="227">
+          <su lang="xx">— Necesas kompreni.</su>
+          <su lang="ru">— Надо понять.</su>
+        </sentence>
+        <sentence id="228">
+          <su lang="xx">Tiam tio fiksiĝas en la memoro por ĉiam.</su>
+          <su lang="ru">Тогда это запомнится навсегда.</su>
+        </sentence>
+        <sentence id="229">
+          <su lang="xx">Rigardu, kia rezultas mekaniko.</su>
+          <su lang="ru">Смотрите, какая получается механика.</su>
+        </sentence>
+        <sentence id="230">
+          <su lang="xx">Vi legas libron.</su>
+          <su lang="ru">Вы читаете книгу.</su>
+        </sentence>
+        <sentence id="231">
+          <su lang="xx">La rigardo falis al cifero kaj litero.</su>
+          <su lang="ru">Взгляд упал на цифру или букву.</su>
+        </sentence>
+        <sentence id="232">
+          <su lang="xx">Sur la retino aperis bildo.</su>
+          <su lang="ru">На сетчатке возникло изображение.</su>
+        </sentence>
+        <sentence id="233">
+          <su lang="xx">Sed en la fibrojn de la vida nervo iras ne la bildo mem.</su>
+          <su lang="ru">Однако в волокна зрительного нерва идет не само изображение.</su>
+        </sentence>
+        <sentence id="234">
+          <su lang="xx">En la fibrojn iras kurento.</su>
+          <su lang="ru">В волокна идет ток.</su>
+        </sentence>
+        <sentence id="235">
+          <su lang="xx">Al ĉiu litero, ĉiu cifero, entute al ĉiu bildo sur la retino respondas sia serio de elektraj impulsoj.</su>
+          <su lang="ru">Каждой букве, каждой цифре, вообще каждому изображению на сетчатке соответствует своя серия электрических импульсов.</su>
+        </sentence>
+        <sentence id="236">
+          <su lang="xx">La senco de mia ideo estas — doni en la vidan nervon «pretajn» kurentojn.</su>
+          <su lang="ru">Смысл моей идеи в том, чтобы подавать в зрительный нерв «готовые» токи.</su>
+        </sentence>
+        <sentence id="237">
+          <su lang="xx">Homo legu, ne rigardante en la libron.</su>
+          <su lang="ru">Пусть человек читает, не глядя в книгу.</su>
+        </sentence>
+        <sentence id="238">
+          <su lang="xx">La okulo «maĉas» la bildon tro malrapide, sed ni konektiĝas al la cerbo rekte tra la vida nervo kun ĝiaj cent tridek milionoj da fibroj.</su>
+          <su lang="ru">Глаз «разжевывает» изображение слишком медленно, и мы подключаемся к мозгу непосредственно через зрительный нерв с его ста тридцатью миллионами волокон.</su>
+        </sentence>
+        <sentence id="239">
+          <su lang="xx">Ĉu vi kaptas?</su>
+          <su lang="ru">Улавливаете?</su>
+        </sentence>
+        <sentence id="240">
+          <su lang="xx">Ĉiu fibro estas kiel aparta drato.</su>
+          <su lang="ru">Каждое волокно — как отдельный провод.</su>
+        </sentence>
+        <sentence id="241">
+          <su lang="xx">Eblas fari transsendon kun rapido, je kiu kapablas la plej bonaj memoriloj.</su>
+          <su lang="ru">Можно вести передачу со скоростью, на которую способны лучшие ЗУ.</su>
+        </sentence>
+        <sentence id="242">
+          <su lang="xx">Ĉu estas demandoj?</su>
+          <su lang="ru">Вопросы есть?</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence id="243">
+          <su lang="xx">Demandoj estis, kaj Prokŝin klarigis — ĝenerale — la strukturon de sia aparato.</su>
+          <su lang="ru">Вопросы были, и Прокшин объяснил — в общих чертах — устройство своего аппарата.</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence id="244">
+          <su lang="xx">Sed tio jam estas pura tekniko.</su>
+          <su lang="ru">Но это уже чистая техника.</su>
+        </sentence>
+        <sentence id="245">
+          <su lang="xx">Gravas alio.</su>
+          <su lang="ru">Важно другое.</su>
+        </sentence>
+        <sentence id="246">
+          <su lang="xx">Nun mi surmetos la «vizieron», kaj ĉiuj scioj, registritaj sur la magnetaj cilindroj de la memoriloj, dum kelkaj sekundoj «enrampos» mian kapon.</su>
+          <su lang="ru">Сейчас я надену «забрало», и все знания, записанные на магнитных барабанах ЗУ, в течение нескольких секунд «влезут» мне в голову.</su>
+        </sentence>
+        <sentence id="247">
+          <su lang="xx">Strange, sed krom tiu stulta «enrampos», mankas alia vorto por signi procezon de transportado de scioj el la fera kesto de la memorilo en la kapon.</su>
+          <su lang="ru">Как ни странно, кроме этого нелепого «влезут», нет другого слова для обозначения процесса переноса знаний из железного ящика ЗУ в голову.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence id="248">
+          <su lang="xx">La magneta rubando.</su>
+          <su lang="ru">Лента магнитофона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence id="249">
+          <su lang="xx">«— Por la unua eksperimento la ŝakoj estas plej oportunaj.</su>
+          <su lang="ru">«— Для первого эксперимента шахматы удобнее всего.</su>
+        </sentence>
+        <sentence id="250">
+          <su lang="xx">Mi turnos la gurdon kelkfoje, kaj la mondo ricevos du novajn ŝakajn grandmajstrojn.</su>
+          <su lang="ru">Мы прокрутим эту шарманку несколько раз, и мир получит двух новых гроссмейстеров.</su>
+        </sentence>
+        <sentence id="251">
+          <su lang="xx">Tamen, ĉu ni eble enkonduku titolon "grandmajstrego"?..</su>
+          <su lang="ru">Впрочем, не ввести ли звание гроссмейстериссимуса?..</su>
+        </sentence>
+        <sentence id="252">
+          <su lang="xx">"Du grandmajstregoj" — bonega titolo por via raportaĵo.</su>
+          <su lang="ru">"Два гроссмейстериссимуса" отличный заголовок для вашего репортажа.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence id="253">
+          <su lang="xx">— Ĉu nur la scioj faras homojn grandmajstro?</su>
+          <su lang="ru">— Только ли знания делают человека гроссмейстером?</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence id="254">
+          <su lang="xx">— Ja kio alia?</su>
+          <su lang="ru">— А что же еще?</su>
+        </sentence>
+        <sentence id="255">
+          <su lang="xx">La scioj kaj la sperto.</su>
+          <su lang="ru">Знания и опыт.</su>
+        </sentence>
+        <sentence id="256">
+          <su lang="xx">Ĉu vi volas ŝikan citaĵon de Lasker?</su>
+          <su lang="ru">Хотите шикарную цитату из Ласкера?</su>
+        </sentence>
+        <sentence id="257">
+          <su lang="xx">En via ĵurnalista afero citaĵoj estas granda afero.</su>
+          <su lang="ru">В вашем журналистском деле цитаты — великая вещь.</su>
+        </sentence>
+        <sentence id="258">
+          <su lang="xx">Aŭskultu, kion diris siatempe Lasker: "Da ludantoj, al kiuj majstro povas sukcese oferi handikape damon, ekzistas milionoj; da ludantoj, transirintaj tiun ŝtupon, eblas kalkuli probable ne pli ol kvaronon da miliono, kaj da tiaj, al kiuj majstro nenion povas oferi, apenaŭ troveblos pli ol du–tri mil.</su>
+          <su lang="ru">Послушайте, что говорил в свое время Ласкер: «Игроков, которым мастер может с успехом давать ферзя вперед, существуют миллионы; игроков, перешагнувших эту ступень, можно насчитать, наверно, не больше четверти миллиона, а таких, которым мастер ничего не может дать вперед, вряд ли наберется больше двух-трех тысяч…</su>
+        </sentence>
+        <sentence id="259">
+          <su lang="xx">Ni imagu nun, ke iu majstro, armita per scio de sia afero, volas instrui la ŝakludon al iu junulo, ne scianta tiun ludon, kaj levi lian nivelon ĝis tiuj du–tri mil ludantoj, kiuj jam ne havas handikapon.</su>
+          <su lang="ru">Представим себе теперь, что некий мастер, вооруженный знанием своего дела, хочет научить играть в шахматы какого-нибудь юношу, не знающего этой игры, и довести его до класса тех двух-трех тысяч игроков, которые уже ничего не получают вперед.</su>
+        </sentence>
+        <sentence id="260">
+          <su lang="xx">Kiom da tempo necesos por tio?"</su>
+          <su lang="ru">Сколько времени потребуется на это?»</su>
+        </sentence>
+        <sentence id="261">
+          <su lang="xx">Nu, ĉi tie sekvas kalkulo; tiom da tempo por lerno de finludaĵoj, tiom — por debutoj, kaj tiel plu.</su>
+          <su lang="ru">Ну, здесь следует расчет: столько-то времени на изучение эндшпилей, столько-то — на дебюты, и так далее.</su>
+        </sentence>
+        <sentence id="262">
+          <su lang="xx">Entute ducent horojn.</su>
+          <su lang="ru">Всего двести часов.</su>
+        </sentence>
+        <sentence id="263">
+          <su lang="xx">"Elspezinte ducent horojn, la junulo, eĉ se li ne havas ŝakan talenton, devas fari tiajn sukcesojn en la ludo, ke li okupos lokon inter tiuj du–tri mil".</su>
+          <su lang="ru">«Затратив двести часов, юноша, даже если он не обладает шахматным талантом, должен сделать такие успехи в игре, что займет место среди этих двух-трех тысяч».</su>
+        </sentence>
+        <sentence id="264">
+          <su lang="xx">Atentu: ducent horojn kaj majstro kiel instruisto.</su>
+          <su lang="ru">Обратите внимание: двести часов и мастер в качестве учителя.</su>
+        </sentence>
+        <sentence id="265">
+          <su lang="xx">Sed en mia maŝino estas akumulita la tuta ŝaka saĝeco de la mondo.</su>
+          <su lang="ru">А в моей машине собрана вся шахматная премудрость мира.</su>
+        </sentence>
+        <sentence id="266">
+          <su lang="xx">Informo, respondanta al centoj da horoj, miloj da horoj...»</su>
+          <su lang="ru">Информация, соответствующая сотням тысяч часов…»</su>
+        </sentence>
+        <sentence id="267">
+          <su lang="xx">Mi kuŝis en mia malhela kajuto, fiksaŭskultante al neklara bruo.</su>
+          <su lang="ru">Я лежал в своей темной каюте, прислушиваясь к неясному шуму.</su>
+        </sentence>
+        <sentence id="268">
+          <su lang="xx">Mi laciĝis dum tiu tago, mi deziris dormi, sed, superante la dormon, mi aŭskultis tiun bruon.</su>
+          <su lang="ru">Я устал за день, мне хотелось спать, но, превозмогая сон, я вслушивался в этот шум.</su>
+        </sentence>
+        <sentence id="269">
+          <su lang="xx">Kaj neatendite mi komprenis: tiel zumas mara konko, se alporti ĝin al la orelo.</su>
+          <su lang="ru">И вдруг я понял: так гудит морская раковина, если поднести ее к уху.</su>
+        </sentence>
+        <sentence id="270">
+          <su lang="xx">La malnova ŝipo zumis, kiel mara konko.</su>
+          <su lang="ru">Старый корабль гудел, как морская раковина.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence id="271">
+          <su lang="xx">Mi ekdormis kun penso pri rara bonŝanco: tiaj tagoj okazas ne ofte, sed ili portas en la vivon sorĉajn resonojn de fabeloj.</su>
+          <su lang="ru">Я заснул с мыслью о редкой удаче: такие дни бывают не часто, но они приносят в жизнь волшебные отзвуки сказок.</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence id="272">
+          <su lang="xx">Matene Prokŝin malestis en la salonkajuto.</su>
+          <su lang="ru">Утром Прокшина не оказалось в кают-компании.</su>
+        </sentence>
+        <sentence id="273">
+          <su lang="xx">Sur la tablo, sub la termobotelo, kuŝis letereto: «Mi iris al la malsanuloj.</su>
+          <su lang="ru">На столе, под термосом, лежала записка: «Двинулся к больным.</su>
+        </sentence>
+        <sentence id="274">
+          <su lang="xx">Matenmanĝu, ne atendu.</su>
+          <su lang="ru">Завтракайте, не ждите.</su>
+        </sentence>
+        <sentence id="275">
+          <su lang="xx">En la termobotelo estas kakao, cetero — sur la tablo.</su>
+          <su lang="ru">В термосе какао, прочее — на столе.</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence id="276">
+          <su lang="xx">La ŝako estas en la ŝranketo».</su>
+          <su lang="ru">Шахматы — в тумбочке».</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence id="277">
+          <su lang="xx">Eble tio estas ridinda, sed mi ekde la mateno aŭskultis min mem, esperante kapti almenaŭ iun ŝanĝon post la eksperimento.</su>
+          <su lang="ru">Быть может, это смешно, но я с утра прислушивался, надеясь уловить в себе хоть какую-то перемену после эксперимента.</su>
+        </sentence>
+        <sentence id="278">
+          <su lang="xx">Min ĝenis subiteco de la okazintaĵo.</su>
+          <su lang="ru">Меня смущала скоропалительность происшедшего.</su>
+        </sentence>
+        <sentence id="279">
+          <su lang="xx">Ja tro rapida estis la eksperimento.</su>
+          <su lang="ru">Слишком уж быстротечен был эксперимент.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence id="280">
+          <su lang="xx">Prokŝin surmetis sur sian kapon la «vizieron» kaj sidis tiel dum minuto kaj duono.</su>
+          <su lang="ru">Прокшин водрузил себе на голову «забрало» и просидел так минуты полторы.</su>
+        </sentence>
+        <sentence id="281">
+          <su lang="xx">Poste venis mia vico.</su>
+          <su lang="ru">Потом настала моя очередь.</su>
+        </sentence>
+        <sentence id="282">
+          <su lang="xx">La «viziero» dolore premis la tempiojn.</su>
+          <su lang="ru">«Забрало» больно сдавило виски.</su>
+        </sentence>
+        <sentence id="283">
+          <su lang="xx">«Ek!» — komandis Prokŝin, kaj mi ekvidis flagretantan senbrilan lumon.</su>
+          <su lang="ru">«Ринулись», — скомандовал Прокшин, и я увидел мерцающий матовый свет.</su>
+        </sentence>
+        <sentence id="284">
+          <su lang="xx">La okuloj estis adhere kovritaj per malsupra ŝildeto de la «viziero», sed la lumon mi vidis.</su>
+          <su lang="ru">Глаза были плотно прикрыты нижним щитком «забрала», но свет я видел.</su>
+        </sentence>
+        <sentence id="285">
+          <su lang="xx">Verŝajne tio estis sola nekutima detalo de la eksperimento.</su>
+          <su lang="ru">Пожалуй, это единственная необычная деталь эксперимента.</su>
+        </sentence>
+        <sentence id="286">
+          <su lang="xx">La lumo estis nehela, mola.</su>
+          <su lang="ru">Свет неяркий, мягкий.</su>
+        </sentence>
+        <sentence id="287">
+          <su lang="xx">Tian lumon (sed pli malfortan) eblas vidi, se froti malfermitajn okulojn.</su>
+          <su lang="ru">Такой свет (только более слабый) можно увидеть, если потереть закрытые глаза.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence id="288">
+          <su lang="xx">— Kion fari, — diris Prokŝin, — ekzotiko en tiu ĉi proceduro vere mankas.</su>
+          <su lang="ru">— Что делать, — сказал Прокшин, — экзотики в этой процедуре действительно маловато.</su>
+        </sentence>
+        <sentence id="289">
+          <su lang="xx">Sed ĝuste en tio estas forto!</su>
+          <su lang="ru">Но именно в этом сила!</su>
+        </sentence>
+        <sentence id="290">
+          <su lang="xx">Dirante inter ni, vi preterrigardis la ĉefan.</su>
+          <su lang="ru">Между нами говоря, вы просмотрели главное.</su>
+        </sentence>
+        <sentence id="291">
+          <su lang="xx">Ne necesis tranĉi la vidnervon, por konektiĝi al la cerbo.</su>
+          <su lang="ru">Не пришлось перерезать зрительный нерв, чтобы подключиться к мозгу.</su>
+        </sentence>
+        <sentence id="292">
+          <su lang="xx">Ĉu vi kaptas?</su>
+          <su lang="ru">Улавливаете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence id="293">
+          <su lang="xx">La ideo mem venis al mi jam dum lernado en instituto.</su>
+          <su lang="ru">Сама идея появилась у меня еще в институте.</su>
+        </sentence>
+        <sentence id="294">
+          <su lang="xx">Certe, kiel tasko, ne pli.</su>
+          <su lang="ru">Разумеется, в виде задачи, не больше.</su>
+        </sentence>
+        <sentence id="295">
+          <su lang="xx">Proksimume antaŭ ses jaroj mi trovis ankaŭ la solvon.</su>
+          <su lang="ru">Лет шесть назад я нашел и решение.</su>
+        </sentence>
+        <sentence id="296">
+          <su lang="xx">Pli precize, tiun varianton de la solvo, kiu postulas kirurgian intervenon.</su>
+          <su lang="ru">Точнее — тот вариант решения, который требует хирургического вмешательства.</su>
+        </sentence>
+        <sentence id="297">
+          <su lang="xx">Homo devus por iu tempo (kaj eble eĉ por ĉiam) iĝi blinda.</su>
+          <su lang="ru">Человеку пришлось бы на время (а может быть, и навсегда) стать слепым.</su>
+        </sentence>
+        <sentence id="298">
+          <su lang="xx">Jen ĝi, ekzotiko!</su>
+          <su lang="ru">Вот она, экзотика!</su>
+        </sentence>
+        <sentence id="299">
+          <su lang="xx">En nelimigita kvanto.</su>
+          <su lang="ru">В неограниченном количестве.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence id="300">
+          <su lang="xx">Kaj nun la ekzotiko mankas: ni konektiĝis al la vidnervo, sed la okuloj estas nedifektitaj.</su>
+          <su lang="ru">А теперь нет экзотики: подсоединились к зрительному нерву, а глаза целы…</su>
+        </sentence>
+        <sentence id="301">
+          <su lang="xx">Prokŝin kun sia emo al eksteraj efektoj eĉ mem iomete bedaŭras, ke ĉio estas tiel simpla.</su>
+          <su lang="ru">Прокшин с его склонностью к внешним эффектам и сам немного жалеет, что все так просто.</su>
+        </sentence>
+        <sentence id="302">
+          <su lang="xx">Kiam mi diris al li pri tio, li deklaris, ke ekzistas leĝo de konservado de solideco:</su>
+          <su lang="ru">Когда я сказал ему об этом, он объявил, что существует закон сохранения солидности:</su>
+        </sentence>
+      </p>
+      <p type="text" id="65">
+        <sentence id="303">
+          <su lang="xx">— En tiu aŭ alia grado la solidecon havas ĉiu homo.</su>
+          <su lang="ru">— В той или иной мере солидность присуща каждому человеку.</su>
+        </sentence>
+        <sentence id="304">
+          <su lang="xx">Kaj ĝi nenien povas malaperi.</su>
+          <su lang="ru">И она никуда не может деться.</su>
+        </sentence>
+        <sentence id="305">
+          <su lang="xx">Kiom ĝi malpliiĝos en ekstera konduto, tiom ĝi pliiĝos en la aferoj.</su>
+          <su lang="ru">Сколько ее убудет во внешнем поведении, столько прибудет в делах.</su>
+        </sentence>
+        <sentence id="306">
+          <su lang="xx">Kaj inverse.</su>
+          <su lang="ru">И наоборот.</su>
+        </sentence>
+      </p>
+      <p type="text" id="66">
+        <sentence id="307">
+          <su lang="xx">...Sur la ferdeko estis malseke kaj malkomforte.</su>
+          <su lang="ru">…На палубе было мокро и неуютно.</su>
+        </sentence>
+        <sentence id="308">
+          <su lang="xx">En rustaj, tremetantaj pro vento flakoj naĝis similaj al fiŝa skvamo pecetoj de defalinta farbo.</su>
+          <su lang="ru">В ржавых, вздрагивающих от ветра лужах плавали похожие на рыбью чешую кусочки облупившейся краски.</su>
+        </sentence>
+        <sentence id="309">
+          <su lang="xx">Nur nun mi ekvidis, kiel maljuna estis la ŝipo.</su>
+          <su lang="ru">Только сейчас я увидел, насколько стар корабль.</su>
+        </sentence>
+      </p>
+      <p type="text" id="67">
+        <sentence id="310">
+          <su lang="xx">Mi revenis en la salonkajuton, prenis la ŝakon.</su>
+          <su lang="ru">Я вернулся в кают-компанию, взял шахматы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="68">
+        <sentence id="311">
+          <su lang="xx">Mi tre bone memoras: la ŝakpecoj kuŝis apud la ŝaktabulo, mi ilin aŭtomate fingrumadis.</su>
+          <su lang="ru">Хорошо помню: фигуры лежали рядом с доской, я их машинально перебирал.</su>
+        </sentence>
+        <sentence id="312">
+          <su lang="xx">Poste starigis sur la tabulon ambaŭ damojn.</su>
+          <su lang="ru">Потом поставил на доску обоих ферзей.</su>
+        </sentence>
+        <sentence id="313">
+          <su lang="xx">Hazarde.</su>
+          <su lang="ru">Наугад.</su>
+        </sentence>
+        <sentence id="314">
+          <su lang="xx">Kion fari plu, mi ne sciis.</su>
+          <su lang="ru">Что делать дальше, я не знал.</su>
+        </sentence>
+        <sentence id="315">
+          <su lang="xx">Pasis, verŝajne, kelkaj minutoj, ĝis aperis simpla penso: ja ne eblas sen la reĝoj!</su>
+          <su lang="ru">Прошло, наверное, несколько минут, пока появилась простая мысль: нельзя же без королей!</su>
+        </sentence>
+      </p>
+      <p type="text" id="69">
+        <sentence id="316">
+          <su lang="xx">Same hazarde, ne rigardante, mi starigis la blankan reĝon.</su>
+          <su lang="ru">Опять-таки наугад, не глядя, я поставил белого короля.</su>
+        </sentence>
+      </p>
+      <p type="text" id="70">
+        <sentence id="317">
+          <su lang="xx">Kaj subite mi tute klare ekvidis, kien necesas starigi la nigran reĝon.</su>
+          <su lang="ru">И вдруг я совершенно ясно увидел, куда надо поставить черного короля.</su>
+        </sentence>
+      </p>
+      <p type="text" id="71">
+        <sentence id="318">
+          <su lang="xx">Eble okazis memsugestio.</su>
+          <su lang="ru">Может быть, действовало самовнушение.</su>
+        </sentence>
+        <sentence id="319">
+          <su lang="xx">Eble, la afero estis en simetrio, kiun faris jam starintaj sur la tabulo ŝakpecoj.</su>
+          <su lang="ru">Может быть, все дело в симметрии, которую создавали уже стоявшие на доске фигуры.</su>
+        </sentence>
+        <sentence id="320">
+          <su lang="xx">Mi ne scias.</su>
+          <su lang="ru">Не знаю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="72">
+        <sentence id="321">
+          <su lang="xx">Mi starigis la nigran reĝon kaj tuj eksentis ion konatan en situo de la pecoj.</su>
+          <su lang="ru">Я поставил черного короля и сразу почувствовал нечто знакомое в расположении фигур.</su>
+        </sentence>
+        <sentence id="322">
+          <su lang="xx">Tio estis malagrabla: mem ne dezirante tion, mi penis ion rememori.</su>
+          <su lang="ru">Это было неприятно: сам того не желая, я силился что-то вспомнить.</su>
+        </sentence>
+      </p>
+      <p type="text" id="73">
+        <sentence id="323">
+          <su lang="xx">Movis la blankan reĝon.</su>
+          <su lang="ru">Передвинул белого короля.</su>
+        </sentence>
+        <sentence id="324">
+          <su lang="xx">Remetis ĝin.</su>
+          <su lang="ru">Вернул его на место.</su>
+        </sentence>
+        <sentence id="325">
+          <su lang="xx">Poste movis la blankan damon, ... kaj venis klareco.</su>
+          <su lang="ru">Потом передвинул белого ферзя… и наступила ясность.</su>
+        </sentence>
+        <sentence id="326">
+          <su lang="xx">Ĝi venis subite, sen ajna streĉo.</su>
+          <su lang="ru">Она пришла внезапно, без всякого напряжения.</su>
+        </sentence>
+        <sentence id="327">
+          <su lang="xx">Simple nun mi sciis, ke necesas starigi ankoraŭ unu ŝakpecon — blankan kurieron.</su>
+          <su lang="ru">Просто я теперь знал, что надо поставить еще одну фигуру белого слона.</su>
+        </sentence>
+        <sentence id="328">
+          <su lang="xx">Kaj mi sciis, kien meti la kurieron.</su>
+          <su lang="ru">И я знал, куда поставить слона.</su>
+        </sentence>
+        <sentence id="329">
+          <su lang="xx">La blankuloj devis komenci kaj venki, tio ankaŭ per si mem estis subkomprenata.</su>
+          <su lang="ru">Белые должны начать и выиграть, это тоже само собой подразумевалось.</su>
+        </sentence>
+      </p>
+      <p type="text" id="74">
+        <sentence id="330">
+          <su lang="xx">Tamen, ne, ne subkomprenata, sed rememorata.</su>
+          <su lang="ru">Впрочем, нет, не подразумевалось, а вспоминалось.</su>
+        </sentence>
+      </p>
+      <p type="text" id="75">
+        <sentence id="331">
+          <su lang="xx">Mi movis la damon.</su>
+          <su lang="ru">Я двинул ферзя.</su>
+        </sentence>
+        <sentence id="332">
+          <su lang="xx">Ŝakon al la nigra reĝo.</su>
+          <su lang="ru">Шах черному королю.</su>
+        </sentence>
+        <sentence id="333">
+          <su lang="xx">Kaj tuj ekvidis: tiel ne eblas.</su>
+          <su lang="ru">И тут же увидел: так нельзя.</su>
+        </sentence>
+        <sentence id="334">
+          <su lang="xx">Ankoraŭ hieraŭ por mi tio estis la sola evidenta movo.</su>
+          <su lang="ru">Еще вчера для меня это был бы единственный очевидный ход.</su>
+        </sentence>
+        <sentence id="335">
+          <su lang="xx">Hodiaŭ mi komprenis: ne, tiel ne eblas, necesas ataki per la kuriero.</su>
+          <su lang="ru">Сегодня я понимал: нет, так нельзя, нападать надо слоном.</su>
+        </sentence>
+      </p>
+      <p type="text" id="76">
+        <sentence id="336">
+          <su lang="xx">...Mi longe sidis ĉe la tabulo, penante venki kaptintan min febran ekscitiĝon.</su>
+          <su lang="ru">…Я долго сидел у доски, стараясь справиться с охватившим меня лихорадочным возбуждением.</su>
+        </sentence>
+      </p>
+      <p type="text" id="77">
+        <sentence id="337">
+          <su lang="xx">Kio, fakte, okazis?</su>
+          <su lang="ru">Что, собственно, произошло?</su>
+        </sentence>
+      </p>
+      <p type="text" id="78">
+        <sentence id="338">
+          <su lang="xx">Mi kutimis rilati al ideoj de la «brila naŭopo», kiel al io abstrakta.</su>
+          <su lang="ru">Я привык относиться к идеям «великолепной девятки», как к чему-то отвлеченному.</su>
+        </sentence>
+      </p>
+      <p type="text" id="79">
+        <sentence id="339">
+          <su lang="xx">Tiuj ideoj devis esti realigitaj en fora estonteco.</su>
+          <su lang="ru">Эти идеи должны были сбыться в далеком будущем.</su>
+        </sentence>
+        <sentence id="340">
+          <su lang="xx">Kaj subite unu ideo realiĝis ĉi tie, nun...</su>
+          <su lang="ru">И вдруг одна идея осуществилась сейчас…</su>
+        </sentence>
+        <sentence id="341">
+          <su lang="xx">Jes, tio okazis nun.</su>
+          <su lang="ru">Да, это произошло сейчас.</su>
+        </sentence>
+        <sentence id="342">
+          <su lang="xx">Kun mi.</su>
+          <su lang="ru">Со мной.</su>
+        </sentence>
+      </p>
+      <p type="text" id="80">
+        <sentence id="343">
+          <su lang="xx">Mi preskaŭ ne scipovis ŝakludi.</su>
+          <su lang="ru">Я почти не умел играть в шахматы.</su>
+        </sentence>
+        <sentence id="344">
+          <su lang="xx">Probable eĉ triarangulo povus oferi al mi damon.</su>
+          <su lang="ru">Вероятно, даже третьеразрядник мог дать мне вперед ферзя.</su>
+        </sentence>
+        <sentence id="345">
+          <su lang="xx">Kaj jen subite venis kapablo kompreni okazaĵojn sur la ŝaktabulo.</su>
+          <su lang="ru">И вот внезапно появилась способность понимать происходящее на шахматной доске.</su>
+        </sentence>
+      </p>
+      <p type="text" id="81">
+        <sentence id="346">
+          <su lang="xx">La cerbo estas mirinda maŝino.</su>
+          <su lang="ru">Мозг — изумительная машина.</su>
+        </sentence>
+        <sentence id="347">
+          <su lang="xx">Necesas nur sufiĉe provizi ĝin per brulaĵo...</su>
+          <su lang="ru">Надо только снабдить ее вдоволь горючим…</su>
+        </sentence>
+        <sentence id="348">
+          <su lang="xx">Ĉu ne pri tio Prokŝin diris hieraŭ?</su>
+          <su lang="ru">Не об этом ли Прокшин говорил накануне?</su>
+        </sentence>
+      </p>
+      <p type="text" id="82">
+        <sentence id="349">
+          <su lang="xx">La magneta rubando.</su>
+          <su lang="ru">Лента магнитофона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="83">
+        <sentence id="350">
+          <su lang="xx">«— Iu afrika tribo faradis potojn el argilo, entenanta uranion.</su>
+          <su lang="ru">«— Какое-то африканское племя выделывало горшки из глины, содержащей уран.</su>
+        </sentence>
+        <sentence id="351">
+          <su lang="xx">De generacio al generacio oni modlis potojn.</su>
+          <su lang="ru">Из поколения в поколение лепили горшки.</su>
+        </sentence>
+        <sentence id="352">
+          <su lang="xx">Tra la manoj de tiuj homoj trairis tioma kvanto da uranio, ke energio — se ĝin oni sukcesus ricevi — sufiĉus por elektrizo de duono de Afrika kontinento.</su>
+          <su lang="ru">Через руки этих людей прошло такое количество урана, что энергии — если бы ее удалось выделить — хватило бы на электрификацию половины африканского континента.</su>
+        </sentence>
+        <sentence id="353">
+          <su lang="xx">Sed la tribo vidis en la argilo nur kutiman argilon...</su>
+          <su lang="ru">Но племя видело в глине только обыкновенную глину…</su>
+        </sentence>
+        <sentence id="354">
+          <su lang="xx">Preskaŭ same ni uzas nian cerbon.</su>
+          <su lang="ru">Почти так мы используем свой мозг.</su>
+        </sentence>
+        <sentence id="355">
+          <su lang="xx">Sur nivelo de modlado de potoj.</su>
+          <su lang="ru">На уровне лепки горшков.</su>
+        </sentence>
+      </p>
+      <p type="text" id="84">
+        <sentence id="356">
+          <su lang="xx">Kaj kiam iu laboras kiel devus, ni miras: aĥ, rigardu, aĥ, geniulo...</su>
+          <su lang="ru">А когда кто-то работает как надо, мы изумляемся: ах, смотрите, ах, гений…</su>
+        </sentence>
+        <sentence id="357">
+          <su lang="xx">Mi asertas: la nivelo, kiun ni nomas genia, — ĝuste tio estas normala nivelo de laboro de la homa cerbo.</su>
+          <su lang="ru">Утверждаю: уровень, который мы называем гениальным, — это и есть нормальный уровень работы человеческого мозга.</su>
+        </sentence>
+        <sentence id="358">
+          <su lang="xx">Ne, mi malĝuste diris: ne estas. Sed devas esti.</su>
+          <su lang="ru">Нет, я не так сказал: не есть, а должен быть.</su>
+        </sentence>
+        <sentence id="359">
+          <su lang="xx">Ĉu vi komprenas?</su>
+          <su lang="ru">Понимаете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="85">
+        <sentence id="360">
+          <su lang="xx">— Komprenas, kiel ne kompreni.</su>
+          <su lang="ru">— Понимаю, что ж тут не понять.</su>
+        </sentence>
+        <sentence id="361">
+          <su lang="xx">Sed dubas.</su>
+          <su lang="ru">Но сомневаюсь.</su>
+        </sentence>
+        <sentence id="362">
+          <su lang="xx">Rezultas, ke ne ekzistas denaskaj kapabloj...</su>
+          <su lang="ru">Получается, что нет прирожденных способностей…</su>
+        </sentence>
+        <sentence id="363">
+          <su lang="xx">Jes, kaj kio pri muzikaj kapabloj?</su>
+          <su lang="ru">Да, а как быть с музыкальными способностями?</su>
+        </sentence>
+        <sentence id="364">
+          <su lang="xx">Aŭ matematikaj?</su>
+          <su lang="ru">Или с математическими?</su>
+        </sentence>
+        <sentence id="365">
+          <su lang="xx">Ĉu ili herediĝas aŭ ne?</su>
+          <su lang="ru">Передаются они по наследству или нет?</su>
+        </sentence>
+      </p>
+      <p type="text" id="86">
+        <sentence id="366">
+          <su lang="xx">— Ne kaj ankoraŭfoje ne!</su>
+          <su lang="ru">— Нет и еще раз нет!</su>
+        </sentence>
+        <sentence id="367">
+          <su lang="xx">Denaskaj kapabloj ne ekzistas.</su>
+          <su lang="ru">Прирожденных способностей не существует.</su>
+        </sentence>
+        <sentence id="368">
+          <su lang="xx">Herediĝas nur ĝermoj de kapabloj...</su>
+          <su lang="ru">По наследству передаются только задатки…</su>
+        </sentence>
+        <sentence id="369">
+          <su lang="xx">Kiel klarigi al vi imprese...</su>
+          <su lang="ru">Как бы вам впечатляюще пояснить…</su>
+        </sentence>
+        <sentence id="370">
+          <su lang="xx">Jen.</su>
+          <su lang="ru">Вот.</su>
+        </sentence>
+        <sentence id="371">
+          <su lang="xx">Naskiĝis homo kaj ricevis certan monsumon kiel deponaĵon en ŝparkaso.</su>
+          <su lang="ru">Родился человек и получил сберкнижку с определенной суммой.</su>
+        </sentence>
+        <sentence id="372">
+          <su lang="xx">La starta sumo estas iam iomete pli granda, iam iomete malpli, sed tio estas nur starta sumo!</su>
+          <su lang="ru">Задаток иногда чуть больше, иногда чуть меньше, но это только задаток!</su>
+        </sentence>
+        <sentence id="373">
+          <su lang="xx">Tuj komencas veni novaj deponoj, kaj en aĝo kvin aŭ ok jaroj la starta sumo perdiĝas en la novaj deponoj.</su>
+          <su lang="ru">Сразу же начинают поступать новые вклады, и в возрасте пяти-восьми лет первоначальная сумма теряется в новых вкладах.</su>
+        </sentence>
+      </p>
+      <p type="text" id="87">
+        <sentence id="374">
+          <su lang="xx">Infano, kiu havis komence dek kopekojn, povas kolekti ĝis ok jaroj cent rublojn.</su>
+          <su lang="ru">Ребенок, который имел сначала десять копеек, может набрать к восьми годам сто рублей.</su>
+        </sentence>
+        <sentence id="375">
+          <su lang="xx">Kaj mirakla infano, havinta en vinda aĝo genetike hereditajn tri rublojn, povas je samaj ok jaroj ĝisrampi dek rublojn.</su>
+          <su lang="ru">А вундеркинд, имевший в пеленках генетическую трешницу, может к тем же восьми годам доползти до червонца.</su>
+        </sentence>
+        <sentence id="376">
+          <su lang="xx">Eĉ en la muziko.</su>
+          <su lang="ru">Даже в музыке.</su>
+        </sentence>
+        <sentence id="377">
+          <su lang="xx">Ekzemple, Leontjev eksperimente pruvis, ke kapablo distingi altecon de sonoj ne herediĝas, sed edukiĝas.</su>
+          <su lang="ru">Например, Леонтьев экспериментально показал, что такая способность, как звуковысотный слух, не передается генетически, а воспитывается.</su>
+        </sentence>
+      </p>
+      <p type="text" id="88">
+        <sentence id="378">
+          <su lang="xx">— Ni supozu.</su>
+          <su lang="ru">— Допустим.</su>
+        </sentence>
+        <sentence id="379">
+          <su lang="xx">Sed kial la intelektaj kapabloj ne herediĝas?</su>
+          <su lang="ru">Но почему умственные способности не передаются по наследству?</su>
+        </sentence>
+      </p>
+      <p type="text" id="89">
+        <sentence id="380">
+          <su lang="xx">— Ja simple tial, ke ili estas relative junaj, kaj la organismo ankoraŭ ne lernis heredi ilin.</su>
+          <su lang="ru">— Да просто потому, что они сравнительно молоды и организм еще не научился их передавать.</su>
+        </sentence>
+        <sentence id="381">
+          <su lang="xx">Kvankam ĉi tie estas pikanta detalo.</su>
+          <su lang="ru">Впрочем, тут есть пикантная деталь.</su>
+        </sentence>
+        <sentence id="382">
+          <su lang="xx">Herediĝas kapabloj, kiuj estas utilaj en la lukto por ekzisto.</su>
+          <su lang="ru">Передаются особенности, которые полезны в борьбе за существование.</su>
+        </sentence>
+        <sentence id="383">
+          <su lang="xx">Kaj la intelektaj kapabloj en tiu senco estas duflankaj.</su>
+          <su lang="ru">А умственные способности — в этом смысле палка о двух концах.</su>
+        </sentence>
+        <sentence id="384">
+          <su lang="xx">Vi ja scias pri tia libro — "Malfeliĉo esti tro sprita"...</su>
+          <su lang="ru">Вы же слышали о таком произведении «Горе от ума»…</su>
+        </sentence>
+        <sentence id="385">
+          <su lang="xx">La organismo ne havis apartajn kaŭzojn lerni heredi ĉiajn poeziajn kaj matematikajn kapablojn.</su>
+          <su lang="ru">У организма не было особых причин научиться передавать всякие там поэтические и математические способности.</su>
+        </sentence>
+        <sentence id="386">
+          <su lang="xx">Do: homoj ricevas denaske proksimume egalajn cerbojn.</su>
+          <su lang="ru">Так вот: люди получают от рождения примерно одинаковые мозги.</su>
+        </sentence>
+        <sentence id="387">
+          <su lang="xx">Ĉiu homo naskiĝas kun kapablo ricevi kapablojn.</su>
+          <su lang="ru">Каждый человек рождается со способностью приобретать способности.</su>
+        </sentence>
+        <sentence id="388">
+          <su lang="xx">Kaj, se iu povas iĝi geniulo, do, principe, la genieco estas atingebla por ĉiuj.</su>
+          <su lang="ru">И, если кто-то может стать гением, значит, в принципе гениальность доступна всем.</su>
+        </sentence>
+        <sentence id="389">
+          <su lang="xx">Kial do ĝi estas tiom rara fenomeno?</su>
+          <su lang="ru">Почему же она такое редкое явление?</su>
+        </sentence>
+        <sentence id="390">
+          <su lang="xx">De sur ruliĝanta stablo eliras aŭtoj.</su>
+          <su lang="ru">С конвейера сходят автомобили.</su>
+        </sentence>
+        <sentence id="391">
+          <su lang="xx">Ĉiu aŭto havas, certe, siajn individuajn apartaĵojn.</su>
+          <su lang="ru">Каждый автомобиль имеет, конечно, свои индивидуальные особенности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="90">
+        <sentence id="392">
+          <su lang="xx">Sed se rapideco de maŝino de certa tipo estas cent kvindek kilometrojn hore, do ĉiuj maŝinoj havas ĝin proksimume tia.</su>
+          <su lang="ru">Но если скорость данного типа машины полтораста километров, то у всех машин она приблизительно такова.</su>
+        </sentence>
+        <sentence id="393">
+          <su lang="xx">Unu havas je kvin kilometroj pli, alia je kvin malpli, sed tio jam estas allaseblaj devioj.</su>
+          <su lang="ru">У одной на пять километров больше, у другой на пять меньше, но это уже допустимые отклонения.</su>
+        </sentence>
+        <sentence id="394">
+          <su lang="xx">Kaj kio koncernas la pensadon...</su>
+          <su lang="ru">А с мышлением…</su>
+        </sentence>
+        <sentence id="395">
+          <su lang="xx">La maŝino, kiun ni nomas "cerbo", estas uzata treege strange.</su>
+          <su lang="ru">Машина, которую мы называем «мозг», используется в высшей степени странно.</su>
+        </sentence>
+        <sentence id="396">
+          <su lang="xx">El mil tiaj maŝinoj nur kelkaj havas la projektitan rapidecon.</su>
+          <su lang="ru">Из тысячи таких машин лишь единицы развивают проектную скорость.</su>
+        </sentence>
+        <sentence id="397">
+          <su lang="xx">La aliaj nur malvigle rampas...</su>
+          <su lang="ru">Остальные довольно вяло ползут…</su>
+        </sentence>
+        <sentence id="398">
+          <su lang="xx">Kaj tion oni opinias normo!</su>
+          <su lang="ru">И это считается нормой!</su>
+        </sentence>
+        <sentence id="399">
+          <su lang="xx">La tuta afero estas en tio, ke aŭtoj havas multe da benzino.</su>
+          <su lang="ru">Все дело в том, что автомобили имеют много бензина.</su>
+        </sentence>
+        <sentence id="400">
+          <su lang="xx">Kaj la maŝino, nomata "cerbo", nur malofte havas sufiĉe da bona brulaĵo.</su>
+          <su lang="ru">А машина, именуемая «мозг», лишь изредка имеет вдоволь хорошего горючего.</su>
+        </sentence>
+        <sentence id="401">
+          <su lang="xx">Mi parolas pri scioj.</su>
+          <su lang="ru">Я говорю о знаниях.</su>
+        </sentence>
+        <sentence id="402">
+          <su lang="xx">Ŝargu per sufiĉa kvanto da tiu brulaĵo ajnan cerbon, kaj ĝi donos la projektitan rapidecon.</su>
+          <su lang="ru">Заправьте достаточным количеством этого горючего любой мозг, и он даст проектную скорость.</su>
+        </sentence>
+        <sentence id="403">
+          <su lang="xx">Iom pli, iom malpli — sed ĉe la lima linio...»</su>
+          <su lang="ru">Чуть больше, чуть меньше — но у предельной черты!..»</su>
+        </sentence>
+        <sentence id="404">
+          <su lang="xx">Bizara afero estas rivelo de kapabloj, «enkapigitaj» de la aparato de Prokŝin.</su>
+          <su lang="ru">Причудливая это штука — проявление знаний, «вложенных» в голову аппаратом Прокшина.</su>
+        </sentence>
+        <sentence id="405">
+          <su lang="xx">Ŝajnas, mi trovis sukcesan vorton: rivelo.</su>
+          <su lang="ru">Кажется, я нашел удачное слово: проявление.</su>
+        </sentence>
+        <sentence id="406">
+          <su lang="xx">Vere, tio tre similas poiometan aperon de fotobildo.</su>
+          <su lang="ru">В самом деле, это очень похоже на постепенное возникновение фотоизображения.</su>
+        </sentence>
+        <sentence id="407">
+          <su lang="xx">Virtuale ekzistanta en la fotoemulsio bildo ankoraŭ estas kaŝita, nevidebla, kaj necesas rivelilo, por fari ĝin malkaŝa.</su>
+          <su lang="ru">Потенциально существующее в фотоэмульсии изображение еще скрыто, не видно, и нужен проявитель, чтобы сделать его явным.</su>
+        </sentence>
+        <sentence id="408">
+          <su lang="xx">Same estas ankaŭ kun riveliĝo de scioj.</su>
+          <su lang="ru">Так и с проявлением знаний.</su>
+        </sentence>
+      </p>
+      <p type="text" id="91">
+        <sentence id="409">
+          <su lang="xx">Iu parto de la scioj rememoriĝas — tio estas mirinda kaj foje nefacila procezo.</su>
+          <su lang="ru">Какая-то часть знаний вспоминалась — процесс удивительный и временами нелегкий.</su>
+        </sentence>
+      </p>
+      <p type="text" id="92">
+        <sentence id="410">
+          <su lang="xx">Kaj foje mi mem faris decidojn.</su>
+          <su lang="ru">А иногда я сам принимал решения.</su>
+        </sentence>
+        <sentence id="411">
+          <su lang="xx">Jes, mi tre bone memoras, ke mi mem konkludis: ne eblas movi la damon.</su>
+          <su lang="ru">Да, хорошо помню, что сам пришел к выводу: нельзя идти ферзем.</su>
+        </sentence>
+        <sentence id="412">
+          <su lang="xx">Mi imagis respondan movon de la nigruloj, ekvidis pluan evoluon de la ludo kaj komprenis, ke necesas movi la kurieron.</su>
+          <su lang="ru">Представил себе ответный ход черных, увидел дальнейшее развитие игры и понял, что надо ходить слоном.</su>
+        </sentence>
+        <sentence id="413">
+          <su lang="xx">Kaj nur poste, farinte la movon, pensis: certe, la pozicio de la nigruloj devas esti tia, ja tio estas etudo de Troickij!</su>
+          <su lang="ru">И только потом, сделав этот ход, подумал: конечно, позиция должна быть такой, это же этюд Троицкого!</su>
+        </sentence>
+        <sentence id="414">
+          <su lang="xx">Jen la plej bela movo de la nigruloj.</su>
+          <su lang="ru">Вот лучший ход черных.</su>
+        </sentence>
+        <sentence id="415">
+          <su lang="xx">Kaj nun ŝakon per la damo.</su>
+          <su lang="ru">Теперь шах ферзем.</su>
+        </sentence>
+        <sentence id="416">
+          <su lang="xx">La nigra reĝo hastas al sia damo.</su>
+          <su lang="ru">Черный король спешит к своему ферзю.</su>
+        </sentence>
+        <sentence id="417">
+          <su lang="xx">Malfrue!</su>
+          <su lang="ru">Поздно!</su>
+        </sentence>
+      </p>
+      <p type="text" id="93">
+        <sentence id="418">
+          <su lang="xx">La blankuloj oferas la kurieron.</su>
+          <su lang="ru">Белые жертвуют слона.</su>
+        </sentence>
+        <sentence id="419">
+          <su lang="xx">Ŝakon al la nigra reĝo kaj venko.</su>
+          <su lang="ru">Шах черному королю и выигрыш.</su>
+        </sentence>
+      </p>
+      <p type="text" id="94">
+        <sentence id="420">
+          <su lang="xx">Mi neniel povis kutimiĝi al la penso, ke mi vere ion lernis.</su>
+          <su lang="ru">Я никак не мог освоиться с мыслью, что действительно чему-то научился.</su>
+        </sentence>
+        <sentence id="421">
+          <su lang="xx">En la kapo malestis iaj ajn «ŝakaj» pensoj.</su>
+          <su lang="ru">В голове не было никаких «шахматных мыслей».</su>
+        </sentence>
+        <sentence id="422">
+          <su lang="xx">Sed mi ja ĵus solvis la etudon de Troickij, pri kiu antaŭ tio eĉ ne aŭdis.</su>
+          <su lang="ru">И все-таки я только что решил этюд Троицкого, о котором до этого даже не слыхал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="95">
+        <sentence id="423">
+          <su lang="xx">Jam post unu tago, kiam plejparto de la ŝakaj scioj «riveliĝis», mi kutimiĝis al la «efekto de la eniro» (terminologio de Prokŝin).</su>
+          <su lang="ru">Уже через день, когда значительная часть шахматной премудрости «проявилась», я привык к «эффекту входа» (терминология Прокшина).</su>
+        </sentence>
+        <sentence id="424">
+          <su lang="xx">Nun mi «sentis» miajn ŝakajn sciojn.</su>
+          <su lang="ru">Теперь я «чувствую» свои шахматные знания.</su>
+        </sentence>
+        <sentence id="425">
+          <su lang="xx">Ili «sentiĝas» tute same, kiel scioj, ricevitaj per kutimaj manieroj.</su>
+          <su lang="ru">Они «ощущаются» точно так, как и другие знания, полученные обычными путями.</su>
+        </sentence>
+      </p>
+      <p type="text" id="96">
+        <sentence id="426">
+          <su lang="xx">Kaj nur malofte la koro svenas pro ĝoja miro.</su>
+          <su lang="ru">И только изредка сердце замирает от радостного изумления.</su>
+        </sentence>
+        <sentence id="427">
+          <su lang="xx">Tiel estis en la infaneco, kiam, lerninte naĝi, mi unuafoje naĝis malproksimen en la maro...</su>
+          <su lang="ru">Так было в детстве, когда, научившись плавать, я впервые заплыл далеко в море…</su>
+        </sentence>
+        <sentence id="428">
+          <su lang="xx">Prokŝin aperis je la unua horo kaj tri kvaronoj — malseka, malsata, gaja — kaj de la sojlo demandis:</su>
+          <su lang="ru">Прокшин появился без четверти два — мокрый, голодный, веселый — и с порога спросил:</su>
+        </sentence>
+      </p>
+      <p type="text" id="97">
+        <sentence id="429">
+          <su lang="xx">— Ĉu ni ŝakludu?</su>
+          <su lang="ru">— Сразимся?</su>
+        </sentence>
+        <sentence id="430">
+          <su lang="xx">Unu partion, ĉu?</su>
+          <su lang="ru">Одну партию, а?</su>
+        </sentence>
+        <sentence id="431">
+          <su lang="xx">Poste ni tagmanĝos kaj denove ĝis la vespero ŝakludos.</su>
+          <su lang="ru">Потом обед и снова до вечера шахматы.</su>
+        </sentence>
+        <sentence id="432">
+          <su lang="xx">Ĉu konvenas tia programo?</su>
+          <su lang="ru">Как программа, годится?</su>
+        </sentence>
+      </p>
+      <p type="text" id="98">
+        <sentence id="433">
+          <su lang="xx">La programo konvenis, sed sidiĝinte ĉe la ŝaktabulon, ni forgesis pri la tempo.</su>
+          <su lang="ru">Программа годилась, но, сев за шахматную доску, мы забыли о времени.</su>
+        </sentence>
+        <sentence id="434">
+          <su lang="xx">La ludo pasis en fulmorapida ritmo.</su>
+          <su lang="ru">Игра шла в стремительном темпе.</su>
+        </sentence>
+        <sentence id="435">
+          <su lang="xx">Ĝuste dirante, komence ni eĉ ne ludis.</su>
+          <su lang="ru">Строго говоря, сначала мы даже не играли.</su>
+        </sentence>
+        <sentence id="436">
+          <su lang="xx">Ni simple estis rememorantaj partiojn.</su>
+          <su lang="ru">Мы просто вспоминали партии.</su>
+        </sentence>
+        <sentence id="437">
+          <su lang="xx">Estis ludata debuto, kaj tuj unu el ni rememoris, ke simila pozicio jam estis en renkonto de jenaj ŝakistoj en jena turniro.</su>
+          <su lang="ru">Разыгрывался дебют, и очень скоро один из нас вспоминал, что подобная позиция уже была при встрече таких-то шахматистов на таком-то турнире.</su>
+        </sentence>
+      </p>
+      <p type="text" id="99">
+        <sentence id="438">
+          <su lang="xx">La magneta rubando.</su>
+          <su lang="ru">Лента магнитофона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="100">
+        <sentence id="439">
+          <su lang="xx">«....... — Ĉu vi registras la movojn?</su>
+          <su lang="ru">«— Вы записываете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="101">
+        <sentence id="440">
+          <su lang="xx">— Jes.</su>
+          <su lang="ru">— Да.</su>
+        </sentence>
+        <sentence id="441">
+          <su lang="xx">Kaj kio okazos, se mi oferos la peonon?</su>
+          <su lang="ru">А что, если я пожертвую пешку?</su>
+        </sentence>
+      </p>
+      <p type="text" id="102">
+        <sentence id="442">
+          <su lang="xx">— Por kio?</su>
+          <su lang="ru">— Зачем?</su>
+        </sentence>
+      </p>
+      <p type="text" id="103">
+        <sentence id="443">
+          <su lang="xx">— Voko de la animo...</su>
+          <su lang="ru">— Зов души…</su>
+        </sentence>
+        <sentence id="444">
+          <su lang="xx">Aŭskultu, ja tiel estis en la kvara partio Eive — Bogolubov!..</su>
+          <su lang="ru">Послушайте, да ведь так было в четвертой партии Эйве Боголюбов!..</su>
+        </sentence>
+      </p>
+      <p type="text" id="104">
+        <sentence id="445">
+          <su lang="xx">— Ĝuste.</su>
+          <su lang="ru">— Точно.</su>
+        </sentence>
+        <sentence id="446">
+          <su lang="xx">Nevenningen, la dudek oka jaro.</su>
+          <su lang="ru">Невенинген, двадцать восьмой год.</su>
+        </sentence>
+        <sentence id="447">
+          <su lang="xx">En tiu ĉi pozicio la nigruloj oferis peonon.</su>
+          <su lang="ru">В этой позиции черные пожертвовали пешку.</su>
+        </sentence>
+        <sentence id="448">
+          <su lang="xx">Jen via voko de la animo!</su>
+          <su lang="ru">Вот он, ваш зов души!</su>
+        </sentence>
+        <sentence id="449">
+          <su lang="xx">La scioj.</su>
+          <su lang="ru">Знания.</su>
+        </sentence>
+        <sentence id="450">
+          <su lang="xx">Finkonte nur la scioj!</su>
+          <su lang="ru">В конечном счете только знания!</su>
+        </sentence>
+      </p>
+      <p type="text" id="105">
+        <sentence id="451">
+          <su lang="xx">— Kaj tamen por kio mi devas oferi la peonon?</su>
+          <su lang="ru">— А все-таки зачем я должен отдавать пешку?</su>
+        </sentence>
+      </p>
+      <p type="text" id="106">
+        <sentence id="452">
+          <su lang="xx">— Malfermiĝas linioj...</su>
+          <su lang="ru">— Вскрываются линии…</su>
+        </sentence>
+        <sentence id="453">
+          <su lang="xx">— Eive povus fari ŝakon per la ĉevalo, sed faris alian movon...</su>
+          <su lang="ru">— Эйве мог объявить шах конем, но сделал другой ход…</su>
+        </sentence>
+        <sentence id="454">
+          <su lang="xx">— Jes, pli singardan.</su>
+          <su lang="ru">— Да, более осторожный.</su>
+        </sentence>
+        <sentence id="455">
+          <su lang="xx">Per la kuriero.</su>
+          <su lang="ru">Слоном.</su>
+        </sentence>
+      </p>
+      <p type="text" id="107">
+        <sentence id="456">
+          <su lang="xx">— Do, ni kontrolu...»</su>
+          <su lang="ru">— Что ж, проверим…»</su>
+        </sentence>
+        <sentence id="457">
+          <su lang="xx">De horo al horo ni ludis ĉiam pli certe kaj memstare.</su>
+          <su lang="ru">С каждым часом мы играли все увереннее и самостоятельнее.</su>
+        </sentence>
+        <sentence id="458">
+          <su lang="xx">Ni komencis pli ofte rimarki erarojn, faritajn de iu en analogia pozicio.</su>
+          <su lang="ru">Стали чаще замечать просчеты, допущенные кем-то в аналогичной позиции.</su>
+        </sentence>
+        <sentence id="459">
+          <su lang="xx">Ni serĉis kaj trovis pli fortajn daŭrigojn.</su>
+          <su lang="ru">Искали и находили более сильные продолжения.</su>
+        </sentence>
+        <sentence id="460">
+          <su lang="xx">La ludo riĉiĝis per pensoj kaj fortaj emocioj, komencis doni estetikan ĝuon.</su>
+          <su lang="ru">Игра обогащалась мыслями и чувствами, начинала приносить эстетическое наслаждение.</su>
+        </sentence>
+      </p>
+      <p type="text" id="108">
+        <sentence id="461">
+          <su lang="xx">Kion mi kutime sentis, ludante ŝakon?</su>
+          <su lang="ru">Что я обычно чувствовал, играя в шахматы?</su>
+        </sentence>
+      </p>
+      <p type="text" id="109">
+        <sentence id="462">
+          <su lang="xx">Domaĝon — se ne rimarkis bonan movon.</su>
+          <su lang="ru">Досаду — если не заметил хорошего хода.</su>
+        </sentence>
+        <sentence id="463">
+          <su lang="xx">Timon — se faris eraron kaj la kontraŭulo povus ĝin uzi.</su>
+          <su lang="ru">Страх — если допустил ошибку и противник мог ее использовать.</su>
+        </sentence>
+        <sentence id="464">
+          <su lang="xx">Ĝojon — se la kontraŭulo perdis ŝakpecon.</su>
+          <su lang="ru">Радость — если противник «зевнул» фигуру.</su>
+        </sentence>
+        <sentence id="465">
+          <su lang="xx">Kaj ankoraŭ enuon, tedan atendon, ĝis la kontraŭulo faros movon kaj eblos denove ekpensi...</su>
+          <su lang="ru">И еще скуку, томительное ожидание, пока противник сделает ход и можно будет снова начать думать…</su>
+        </sentence>
+        <sentence id="466">
+          <su lang="xx">Mizeraj sentoj!</su>
+          <su lang="ru">Убогие чувства!</su>
+        </sentence>
+        <sentence id="467">
+          <su lang="xx">Mi similis blindulon, sidantan antaŭ scenejo, sur kiu elpaŝas eksterlandaj aktoroj.</su>
+          <su lang="ru">Я был подобен слепцу, сидящему перед сценой, на которой выступают иноземные артисты.</su>
+        </sentence>
+        <sentence id="468">
+          <su lang="xx">La blindulo ne vidas la aktorojn, kaj krome ili parolas en fremda lingvo, el kiu li scias nur kelkdek vortojn...</su>
+          <su lang="ru">Слепец не видит артистов, да к тому же они говорят на чужом языке, из которого он знает лишь несколько десятков слов…</su>
+        </sentence>
+        <sentence id="469">
+          <su lang="xx">Kaj subite la okuloj ricevas kapablon vidi ĉiun movon de la aktoroj, ĉiun ilian geston.</su>
+          <su lang="ru">И вдруг глаза обретают способность видеть каждое движение артистов, каждый их жест.</su>
+        </sentence>
+        <sentence id="470">
+          <su lang="xx">Subite de la scenejo komencas soni la gepatra lingvo, pleniĝas per senco la intonacioj kaj la paŭzoj...</su>
+          <su lang="ru">Вдруг со сцены начинает звучать родной язык, наполняются смыслом интонации и паузы…</su>
+        </sentence>
+        <sentence id="471">
+          <su lang="xx">Je la oka vespere ni tagmanĝis: konservaĵoj, malvarma lakto kaj io alia.</su>
+          <su lang="ru">В восемь вечера мы пообедали: консервы, холодное молоко и еще что-то.</su>
+        </sentence>
+        <sentence id="472">
+          <su lang="xx">Ni hastis.</su>
+          <su lang="ru">Мы спешили.</su>
+        </sentence>
+        <sentence id="473">
+          <su lang="xx">Nin atendis nefinita partio.</su>
+          <su lang="ru">Нас ждала недоигранная партия.</su>
+        </sentence>
+      </p>
+      <p type="text" id="110">
+        <sentence id="474">
+          <su lang="xx">Nun mi ne povas rememori, kiam komenciĝis «zono de nulaj partioj».</su>
+          <su lang="ru">Сейчас я не могу вспомнить, когда началась «ничейная полоса».</su>
+        </sentence>
+      </p>
+      <p type="text" id="111">
+        <sentence id="475">
+          <su lang="xx">Mi ne tuj komprenis, kion signifas plioftiĝintaj nulaj partioj.</su>
+          <su lang="ru">Я не сразу понял, что означают участившиеся ничьи.</su>
+        </sentence>
+        <sentence id="476">
+          <su lang="xx">Ŝajnis, ili estas laŭleĝaj: ni ludas, diskutas poziciojn, vidas ĉiujn eblajn erarojn (kaj, nature, ne faras ilin), elektas la plej fortajn movojn — kaj ekde iu momento la partio iras al nula rezulto.</su>
+          <su lang="ru">Казалось, ничьи закономерны: мы играем, обсуждаем позиции, видим возможные ошибки (и, естественно, их не делаем), выбираем наиболее сильные ходы — и с какого-то момента партия идет к ничьей.</su>
+        </sentence>
+      </p>
+      <p type="text" id="112">
+        <sentence id="477">
+          <su lang="xx">Prokŝin unua rimarkis la «nulan zonon» kaj proponis ludi silente.</su>
+          <su lang="ru">Прокшин первым заметил «ничейную полосу» и предложил играть молча.</su>
+        </sentence>
+        <sentence id="478">
+          <su lang="xx">Ni rapide ludis tri partiojn.</su>
+          <su lang="ru">Мы быстро разыграли три партии.</su>
+        </sentence>
+        <sentence id="479">
+          <su lang="xx">Tri nulajn partiojn.</su>
+          <su lang="ru">Три ничьих.</su>
+        </sentence>
+      </p>
+      <p type="text" id="113">
+        <sentence id="480">
+          <su lang="xx">— Jen kio, — diris Prokŝin, — ni provu ankoraŭ fojon.</su>
+          <su lang="ru">— Вот что, — сказал Прокшин, — давайте-ка еще разок.</su>
+        </sentence>
+        <sentence id="481">
+          <su lang="xx">Sen paroloj.</su>
+          <su lang="ru">Без звука.</su>
+        </sentence>
+        <sentence id="482">
+          <su lang="xx">Kaj ni registru pensojn: motivojn de la movoj kaj ceteron.</su>
+          <su lang="ru">И будем записывать мысли: мотивировку ходов и тому подобное.</su>
+        </sentence>
+        <sentence id="483">
+          <su lang="xx">Ek!</su>
+          <su lang="ru">Ринулись!</su>
+        </sentence>
+      </p>
+      <p type="text" id="114">
+        <sentence id="484">
+          <su lang="xx">Post proksimume kvardek minutoj, kiam la partio finiĝis per paca nula rezulto, ni komparis la du vicojn de la registroj.</su>
+          <su lang="ru">Минут через сорок, когда партия кончилась мирной ничьей, мы сравнили два ряда записей.</su>
+        </sentence>
+        <sentence id="485">
+          <su lang="xx">La impreso estis perpleksa.</su>
+          <su lang="ru">Впечатление было ошеломляющее.</su>
+        </sentence>
+        <sentence id="486">
+          <su lang="xx">Vortoj estis diversaj, sed pensoj, rezonoj, konkludoj — ĉio plene koincidis!</su>
+          <su lang="ru">Слова разные, но мысли, суждения, выводы — все полностью совпадало!</su>
+        </sentence>
+      </p>
+      <p type="text" id="115">
+        <sentence id="487">
+          <su lang="xx">— Ŝoke, — diris Prokŝin.</su>
+          <su lang="ru">— Потрясающе, — сказал Прокшин.</su>
+        </sentence>
+        <sentence id="488">
+          <su lang="xx">— Ĉu vi memoras, kion mi diris al vi?</su>
+          <su lang="ru">— Помните, что я вам говорил?</su>
+        </sentence>
+        <sentence id="489">
+          <su lang="xx">Genieco devas esti normo.</su>
+          <su lang="ru">Гениальность должна быть нормой.</su>
+        </sentence>
+        <sentence id="490">
+          <su lang="xx">En la ŝakludo tio aparte bone videblas.</su>
+          <su lang="ru">На шахматах это особенно хорошо видно.</su>
+        </sentence>
+        <sentence id="491">
+          <su lang="xx">Ni ĉesis fari erarojn.</su>
+          <su lang="ru">Мы перестали делать ошибки.</su>
+        </sentence>
+        <sentence id="492">
+          <su lang="xx">Ĉu vi komprenas, kion tio signifas?</su>
+          <su lang="ru">Вы понимаете, что это значит?</su>
+        </sentence>
+        <sentence id="493">
+          <su lang="xx">Ni faros ĉiujn ŝakaj saĝuloj... kaj la ŝakludo ĉesos.</su>
+          <su lang="ru">Мы сделаем всех шахматными мудрецами… и шахматы прекратятся.</su>
+        </sentence>
+        <sentence id="494">
+          <su lang="xx">La sola rezulto ekde nun kaj por ĉiam estos la nula.</su>
+          <su lang="ru">Единственным результатом отныне и навсегда станет ничья.</su>
+        </sentence>
+      </p>
+      <p type="text" id="116">
+        <sentence id="495">
+          <su lang="xx">Vian raportaĵon vi povas nomi «Pereo de ŝako».</su>
+          <su lang="ru">Ваш репортаж можно назвать «Гибель шахмат».</su>
+        </sentence>
+        <sentence id="496">
+          <su lang="xx">Nemalbone sonas, ĉu?</su>
+          <su lang="ru">Неплохо звучит, а?</su>
+        </sentence>
+      </p>
+      <p type="text" id="117">
+        <sentence id="497">
+          <su lang="xx">Mi demandis:</su>
+          <su lang="ru">Я спросил:</su>
+        </sentence>
+      </p>
+      <p type="text" id="118">
+        <sentence id="498">
+          <su lang="xx">— Kial nur de ŝako?</su>
+          <su lang="ru">— Почему только шахмат?</su>
+        </sentence>
+      </p>
+      <p type="text" id="119">
+        <sentence id="499">
+          <su lang="xx">La magneta rubando.</su>
+          <su lang="ru">Лента магнитофона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="120">
+        <sentence id="500">
+          <su lang="xx">«— Komprenu, Andreo Iljiĉ, simplan aferon.</su>
+          <su lang="ru">«— Поймите, Андрей Ильич, простую вещь.</su>
+        </sentence>
+        <sentence id="501">
+          <su lang="xx">Ekzistas io simila al piramido.</su>
+          <su lang="ru">Существует что-то вроде пирамиды.</su>
+        </sentence>
+        <sentence id="502">
+          <su lang="xx">Ju pli la altas nivelo, des malpli da homoj, scipovantaj ludi sur tiu nivelo.</su>
+          <su lang="ru">Чем выше уровень, тем меньше количество людей, умеющих играть на этом уровне.</su>
+        </sentence>
+        <sentence id="503">
+          <su lang="xx">Ĉe la fundo de la piramido estas centoj da milionoj da homoj.</su>
+          <su lang="ru">У основания пирамиды сотни миллионов людей.</su>
+        </sentence>
+        <sentence id="504">
+          <su lang="xx">Kaj ĉe la pinto estas kelkdek grandmajstroj.</su>
+          <su lang="ru">А вершина несколько десятков гроссмейстеров.</su>
+        </sentence>
+        <sentence id="505">
+          <su lang="xx">Kaj nun la piramido rompiĝas.</su>
+          <su lang="ru">И вот теперь пирамида ломается.</su>
+        </sentence>
+        <sentence id="506">
+          <su lang="xx">Ĉiuj estos preskaŭ sur sama nivelo.</su>
+          <su lang="ru">Все будут почти на одном уровне.</su>
+        </sentence>
+      </p>
+      <p type="text" id="121">
+        <sentence id="507">
+          <su lang="xx">— Kaj kio?</su>
+          <su lang="ru">— Ну и что?</su>
+        </sentence>
+        <sentence id="508">
+          <su lang="xx">Nu, ne ekzistos ŝako.</su>
+          <su lang="ru">Ну, не будет шахмат.</su>
+        </sentence>
+        <sentence id="509">
+          <su lang="xx">Ĉu gravas?</su>
+          <su lang="ru">Подумаешь!</su>
+        </sentence>
+        <sentence id="510">
+          <su lang="xx">La ŝako pereos por scienco, kiel pereas eksperimenta hundo.</su>
+          <su lang="ru">Шахматы погибнут во имя науки, как погибает подопытная собака.</su>
+        </sentence>
+        <sentence id="511">
+          <su lang="xx">La homaro transvivos tiun perdon.</su>
+          <su lang="ru">Человечество переживет эту потерю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="122">
+        <sentence id="512">
+          <su lang="xx">— La mondo, eble, iĝus iom malpli riĉa sen la ŝako.</su>
+          <su lang="ru">— Мир, пожалуй, стал бы чуточку беднее без шахмат.</su>
+        </sentence>
+        <sentence id="513">
+          <su lang="xx">Sed temas ne nur pri la ŝako.</su>
+          <su lang="ru">Но не в одних шахматах дело.</su>
+        </sentence>
+      </p>
+      <p type="text" id="123">
+        <sentence id="514">
+          <su lang="xx">La "piramida" principo de konstruo estas ĝenerala trajto de arto.</su>
+          <su lang="ru">«Пирамидный» принцип построения вообще присущ искусству.</su>
+        </sentence>
+        <sentence id="515">
+          <su lang="xx">De ĉiu ĝia speco.</su>
+          <su lang="ru">Любому его виду.</su>
+        </sentence>
+      </p>
+      <p type="text" id="124">
+        <sentence id="516">
+          <su lang="xx">— Ekzemple, de baleto?..</su>
+          <su lang="ru">— Например, балету?..</su>
+        </sentence>
+        <sentence id="517">
+          <su lang="xx">Jen kie estas la eraro!</su>
+          <su lang="ru">Вот где ошибка!</su>
+        </sentence>
+        <sentence id="518">
+          <su lang="xx">Ni supozu, ke ĉiuj homoj, uzante nian metodon, tralegos ĉion verkitan pri baleto.</su>
+          <su lang="ru">Допустим, все люди, пользуясь нашим способом, прочитают все написанное о балете.</su>
+        </sentence>
+        <sentence id="519">
+          <su lang="xx">Ĉu tio malhelpos al ili ĝui baleton?</su>
+          <su lang="ru">Разве это помешает им наслаждаться балетом?</su>
+        </sentence>
+        <sentence id="520">
+          <su lang="xx">Mi jam komprenis logikon de viaj rezonoj.</su>
+          <su lang="ru">Я уже понял логику ваших рассуждений.</su>
+        </sentence>
+        <sentence id="521">
+          <su lang="xx">Jes, ĉiuj specoj de arto estas "piramidaj".</su>
+          <su lang="ru">Да, все виды искусства «пирамидны».</su>
+        </sentence>
+        <sentence id="522">
+          <su lang="xx">Sed ni enmetas en la kapojn nur scion.</su>
+          <su lang="ru">Но мы вкладываем в головы только знание.</su>
+        </sentence>
+        <sentence id="523">
+          <su lang="xx">En la ŝako la scio egalas aŭ preskaŭ egalas al la scipovo.</su>
+          <su lang="ru">В шахматах знание равно или почти равно умению.</su>
+        </sentence>
+        <sentence id="524">
+          <su lang="xx">Sed en la baleto, science dirante, necesas ankaŭ scipovi danci.</su>
+          <su lang="ru">А в балете, научно говоря, нужно еще и уметь танцевать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="125">
+        <sentence id="525">
+          <su lang="xx">— Bone, al la baleto nenio minacas.</su>
+          <su lang="ru">— Хорошо, балету ничего не грозит.</su>
+        </sentence>
+        <sentence id="526">
+          <su lang="xx">Sed kio pri poezio?..»</su>
+          <su lang="ru">А как с поэзией?..»</su>
+        </sentence>
+        <sentence id="527">
+          <su lang="xx">Prokŝin starigis la ŝakpecojn.</su>
+          <su lang="ru">Прокшин расставил шахматные фигуры.</su>
+        </sentence>
+        <sentence id="528">
+          <su lang="xx">Tio estis pozicio post la dudeknaŭa movo de la blankuloj en partio Reti — Aleĥin.</su>
+          <su lang="ru">Это была позиция после двадцать девятого хода белых в партии Рети — Алехин.</su>
+        </sentence>
+      </p>
+      <p type="text" id="126">
+        <sentence id="529">
+          <su lang="xx">— Ĉu vi rekonas?</su>
+          <su lang="ru">— Узнаете?</su>
+        </sentence>
+      </p>
+      <p type="text" id="127">
+        <sentence id="530">
+          <su lang="xx">— Jes.</su>
+          <su lang="ru">— Да.</su>
+        </sentence>
+        <sentence id="531">
+          <su lang="xx">Ĉu mi ludu anstataŭ Reti?</su>
+          <su lang="ru">Сыграть за Рети?</su>
+        </sentence>
+      </p>
+      <p type="text" id="128">
+        <sentence id="532">
+          <su lang="xx">— Vi malvenkos.</su>
+          <su lang="ru">— Проиграете.</su>
+        </sentence>
+      </p>
+      <p type="text" id="129">
+        <sentence id="533">
+          <su lang="xx">— Ni rigardos.</su>
+          <su lang="ru">— Посмотрим.</su>
+        </sentence>
+      </p>
+      <p type="text" id="130">
+        <sentence id="534">
+          <su lang="xx">En 1925 Reti malvenkis.</su>
+          <su lang="ru">В 1925 году Рети проиграл.</su>
+        </sentence>
+        <sentence id="535">
+          <su lang="xx">Sed ni dum dek minutoj venis al nula partio, kvankam Prokŝin ludis, verŝajne, pli forte, ol Aleĥin.</su>
+          <su lang="ru">Но мы за десять минут пришли к ничьей, хотя Прокшин сыграл, пожалуй, сильнее Алехина.</su>
+        </sentence>
+      </p>
+      <p type="text" id="131">
+        <sentence id="536">
+          <su lang="xx">La magneta rubando.</su>
+          <su lang="ru">Лента магнитофона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="132">
+        <sentence id="537">
+          <su lang="xx">«— Kaj tamen, Andreo Iljiĉ, kio pri poezio?</su>
+          <su lang="ru">«— А все-таки, Андрей Ильич, как с поэзией?</su>
+        </sentence>
+        <sentence id="538">
+          <su lang="xx">Ni analizu...</su>
+          <su lang="ru">Давайте разберемся…</su>
+        </sentence>
+        <sentence id="539">
+          <su lang="xx">Jam estas la dua kaj duono.</su>
+          <su lang="ru">Половина третьего.</su>
+        </sentence>
+        <sentence id="540">
+          <su lang="xx">Ĉu vi ne volas dormi?</su>
+          <su lang="ru">Вы не хотите спать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="133">
+        <sentence id="541">
+          <su lang="xx">— Ne.</su>
+          <su lang="ru">— Нет.</su>
+        </sentence>
+        <sentence id="542">
+          <su lang="xx">Do, enkapigi "ĉion pri poezio" eblas.</su>
+          <su lang="ru">Что ж, вложить в голову «все о поэзии» можно.</su>
+        </sentence>
+        <sentence id="543">
+          <su lang="xx">Sed ĉu tio faros homon genia poeto, estas malfacile diri.</su>
+          <su lang="ru">А вот превратит ли это человека в гениального поэта, трудно сказать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="134">
+        <sentence id="544">
+          <su lang="xx">— Nun ĉiuj disputas: ĉu povos komputilo verki bonajn poemojn, se en ĝia memoro estos la tuta sperto de la poezio.</su>
+          <su lang="ru">— Сейчас спорят: сможет ли машина писать хорошие стихи, если в ее памяти будет весь опыт поэзии.</su>
+        </sentence>
+        <sentence id="545">
+          <su lang="xx">Ne gravas komputilo.</su>
+          <su lang="ru">Аллах с пей, с машиной.</su>
+        </sentence>
+        <sentence id="546">
+          <su lang="xx">Sed jam homo, havante en la kapo "ĉion pri la poezio", sendube povos...</su>
+          <su lang="ru">Но уж человек, имея в голове «все о поэзии», наверняка сможет…</su>
+        </sentence>
+        <sentence id="547">
+          <su lang="xx">Aparte en tiu okazo, kiam en la kapon estos metitaj deko aŭ dudeko da diversaj scioj.</su>
+          <su lang="ru">Особенно в том случае, когда в голову «вложены» полтора или два десятка разных знаний.</su>
+        </sentence>
+      </p>
+      <p type="text" id="135">
+        <sentence id="548">
+          <su lang="xx">— Gravas ne nur la scioj, sed ankaŭ sentoj.</su>
+          <su lang="ru">— Важны не только знания, но и взгляды, чувства.</su>
+        </sentence>
+        <sentence id="549">
+          <su lang="xx">Scipovo vidi kaj aŭdi.</su>
+          <su lang="ru">Умение видеть и слышать мир.</su>
+        </sentence>
+        <sentence id="550">
+          <su lang="xx">En la koron devas bati cindro de Klaas...</su>
+          <su lang="ru">В сердце должен стучать пепел Клааса…</su>
+        </sentence>
+        <sentence id="551">
+          <su lang="xx">— Bone.</su>
+          <su lang="ru">— Хорошо.</su>
+        </sentence>
+        <sentence id="552">
+          <su lang="xx">Ne ĉiuj iĝos geniaj poetoj.</su>
+          <su lang="ru">Пусть не все станут гениальными поэтами.</su>
+        </sentence>
+        <sentence id="553">
+          <su lang="xx">Sed probablo de apero de geniuloj abrupte altiĝos.</su>
+          <su lang="ru">Но вероятность появления гениев резко увеличится.</su>
+        </sentence>
+        <sentence id="554">
+          <su lang="xx">Kun tio vi ja konsentas?</su>
+          <su lang="ru">С этим-то вы согласны?</su>
+        </sentence>
+        <sentence id="555">
+          <su lang="xx">Estos, ekzemple, miliono da geniaj poetoj.</su>
+          <su lang="ru">Будет, скажем, миллион гениальных поэтов.</su>
+        </sentence>
+        <sentence id="556">
+          <su lang="xx">Ĉu malmulte?</su>
+          <su lang="ru">Разве мало?</su>
+        </sentence>
+        <sentence id="557">
+          <su lang="xx">Miliono da geniaj poetoj, centoj da milionoj da geniaj ŝakistoj.</su>
+          <su lang="ru">Миллион гениальных поэтов, сотни миллионов гениальных шахматистов.</su>
+        </sentence>
+        <sentence id="558">
+          <su lang="xx">La piramido aŭ detruiĝas tute, plene, aŭ malaltiĝas, platiĝas.</su>
+          <su lang="ru">Пирамида либо разрушается совсем, нацело, либо оседает, сплющивается.</su>
+        </sentence>
+        <sentence id="559">
+          <su lang="xx">Praktike ne estas grava diferenco.</su>
+          <su lang="ru">Практически особой разницы нет.</su>
+        </sentence>
+        <sentence id="560">
+          <su lang="xx">Nia eksperimento modelis varmecan morton de la Universo...</su>
+          <su lang="ru">Наш эксперимент смоделировал тепловую смерть Вселенной…</su>
+        </sentence>
+        <sentence id="561">
+          <su lang="xx">Alkemiistoj, se ili estus elpensintaj metodon ricevi oron, simple senvalorigus tiun metalon.</su>
+          <su lang="ru">Алхимики, придумай они способ получения золота, просто обесценили бы этот металл.</su>
+        </sentence>
+        <sentence id="562">
+          <su lang="xx">Kaj ĉi tie senvaloriĝas intelekto, talento, genio...</su>
+          <su lang="ru">А тут обесцениваются ум, талант, гений…</su>
+        </sentence>
+        <sentence id="563">
+          <su lang="xx">Ni supozu, ke la aparato donas ne sciojn, sed belecon.</su>
+          <su lang="ru">Допустим, аппарат дает не знания, а красоту.</su>
+        </sentence>
+        <sentence id="564">
+          <su lang="xx">Premu butonon kaj momente iĝu tia, kia vi deziras.</su>
+          <su lang="ru">Нажал кнопку и мгновенно стал таким, как хочешь.</su>
+        </sentence>
+        <sentence id="565">
+          <su lang="xx">Vera beleco raras, ĝi estas tro malmulta.</su>
+          <su lang="ru">Настоящая красота редка, ее слишком мало.</su>
+        </sentence>
+        <sentence id="566">
+          <su lang="xx">Ni rememoru almenaŭ Trojan militon, komenciĝintan pro Helena.</su>
+          <su lang="ru">Вспомним хотя бы Троянскую войну, начавшуюся из-за Елены.</su>
+        </sentence>
+      </p>
+      <p type="text" id="136">
+        <sentence id="567">
+          <su lang="xx">— Aŭ pro manko de intelekto...</su>
+          <su lang="ru">— Или из-за недостатка ума…</su>
+        </sentence>
+        <sentence id="568">
+          <su lang="xx">— Nu, pro saĝuloj ankoraŭ neniu militis.</su>
+          <su lang="ru">— Ну, из-за мудрецов еще никто не воевал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="137">
+        <sentence id="569">
+          <su lang="xx">— Mi ja diras — mankis intelekto.</su>
+          <su lang="ru">— Я же говорю: не хватало ума.</su>
+        </sentence>
+      </p>
+      <p type="text" id="138">
+        <sentence id="570">
+          <su lang="xx">— Bone, iam ni speciale parolos pri kaŭzoj de la Troja milito...</su>
+          <su lang="ru">— Ладно, когда-нибудь мы специально поговорим о причинах Троянской войны.</su>
+        </sentence>
+        <sentence id="571">
+          <su lang="xx">Nun gravas alio.</su>
+          <su lang="ru">Сейчас важно другое.</su>
+        </sentence>
+        <sentence id="572">
+          <su lang="xx">Ni supozu, ke estas kreita "generatoro" de beleco.</su>
+          <su lang="ru">Предположим, создан «генератор красоты».</su>
+        </sentence>
+        <sentence id="573">
+          <su lang="xx">Ĉu vi imagas, kio okazos?</su>
+          <su lang="ru">Представляете, что произойдет?</su>
+        </sentence>
+        <sentence id="574">
+          <su lang="xx">Post ioma tempo beleco iĝos normo.</su>
+          <su lang="ru">Через какое-то время красота станет нормой.</su>
+        </sentence>
+        <sentence id="575">
+          <su lang="xx">Ĉiuj estos similaj.</su>
+          <su lang="ru">Все будут на одно лицо.</su>
+        </sentence>
+      </p>
+      <p type="text" id="139">
+        <sentence id="576">
+          <su lang="xx">Pli precize — aperos tipa beleco.</su>
+          <su lang="ru">Точнее — появится типовая красота.</su>
+        </sentence>
+        <sentence id="577">
+          <su lang="xx">Kvincent milionoj da absolute precizaj kopioj de aktorino N. Tricent milionoj da ĝemeloj de aktoro M. Kaj tiel plu.</su>
+          <su lang="ru">Пятьсот миллионов абсолютно точных копий киноактрисы Н. Триста миллионов двойников актера М. И так далее.</su>
+        </sentence>
+        <sentence id="578">
+          <su lang="xx">La beleco simple ĉesos esti rimarkata, ĉesos doni ĝojon.</su>
+          <su lang="ru">Красота просто перестанет замечаться, перестанет приносить радость.</su>
+        </sentence>
+      </p>
+      <p type="text" id="140">
+        <sentence id="579">
+          <su lang="xx">— Rezultas, ke min sendis satano mem.</su>
+          <su lang="ru">— Получается, что я командирован непосредственно сатаной.</su>
+        </sentence>
+        <sentence id="580">
+          <su lang="xx">Eksterordinara kaj plenrajta ambasadoro de la infero, sendita kun ordono detrui la grandan principon de piramido...</su>
+          <su lang="ru">Чрезвычайный и полномочный посол ада, прибывший с заданием разрушить великий принцип пирамиды…</su>
+        </sentence>
+        <sentence id="581">
+          <su lang="xx">Ĉu vi ne komprenas, ke ekrego super intelekta energio estas neevitebla etapo en evoluo de la homaro?</su>
+          <su lang="ru">Неужели вы не понимаете, что овладение умственной энергией неизбежный этап в развитии человечества?</su>
+        </sentence>
+        <sentence id="582">
+          <su lang="xx">Verŝajne vi vere ne komprenas.</su>
+          <su lang="ru">Наверно, и в самом деле не «понимаете.</su>
+        </sentence>
+        <sentence id="583">
+          <su lang="xx">Mi jam renkontis tion.</su>
+          <su lang="ru">Я уже с этим встречался.</su>
+        </sentence>
+        <sentence id="584">
+          <su lang="xx">Potenca koncepto de "preskaŭ samaj": homoj ankaŭ en la estonteco restos "preskaŭ samaj", nur iomete pli bonaj.</su>
+          <su lang="ru">Могучая концепция "почти таких же": люди и в будущем останутся "почти такими же", только чуть лучше.</su>
+        </sentence>
+        <sentence id="585">
+          <su lang="xx">La sama suno, sed sen makuloj...</su>
+          <su lang="ru">То же солнышко, но без пятен…</su>
+        </sentence>
+        <sentence id="586">
+          <su lang="xx">La filozofio de kemia purigejo.</su>
+          <su lang="ru">Философия химчистки.</su>
+        </sentence>
+        <sentence id="587">
+          <su lang="xx">Verŝajne, pitekantropoj svenus, se oni dirus al ili, ke eblas detrui la grandan piramidon de fizika forto de homo.</su>
+          <su lang="ru">Вероятно, питекантропы упали бы в обморок, если бы им сказали, что можно разрушить великую пирамиду физической силы человека.</su>
+        </sentence>
+        <sentence id="588">
+          <su lang="xx">"Kio!" — ekkrius la pitekantropoj...</su>
+          <su lang="ru">"Позвольте!" — вскричали бы питекантропы…</su>
+        </sentence>
+        <sentence id="589">
+          <su lang="xx">— Ili ja svenis.</su>
+          <su lang="ru">— Они же упали в обморок.</su>
+        </sentence>
+        <sentence id="590">
+          <su lang="xx">Kiel ili povas ekkrii?</su>
+          <su lang="ru">Как они могут вскричать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="141">
+        <sentence id="591">
+          <su lang="xx">— Ne alkroĉiĝu.</su>
+          <su lang="ru">— Не придирайтесь.</su>
+        </sentence>
+        <sentence id="592">
+          <su lang="xx">Ili ekkrius post la sveno.</su>
+          <su lang="ru">Они вскричали бы после обморока.</su>
+        </sentence>
+        <sentence id="593">
+          <su lang="xx">"Kio, — ekkrius la pitekantropoj, rekonsciiĝinte, — kio do rezultas?!</su>
+          <su lang="ru">«Позвольте, вскричали бы питекантропы, придя в себя, — что же это получается?!</su>
+        </sentence>
+        <sentence id="594">
+          <su lang="xx">Senvaloriĝas la forto de homo.</su>
+          <su lang="ru">Обесценивается сила человека.</su>
+        </sentence>
+        <sentence id="595">
+          <su lang="xx">Kiel eblas?!"</su>
+          <su lang="ru">Как можно!»</su>
+        </sentence>
+        <sentence id="596">
+          <su lang="xx">— Kaj batos la noviganton per bastonego.</su>
+          <su lang="ru">И — трах новатора дубинкой.</su>
+        </sentence>
+        <sentence id="597">
+          <su lang="xx">Por, vidu, li ne rompu la piramidon...</su>
+          <su lang="ru">Чтоб, значит, не нарушал пирамиду…</su>
+        </sentence>
+        <sentence id="598">
+          <su lang="xx">Mi demandas: kio estas revolucio — socia, scienca, ajna — se ne detruo de piramido?</su>
+          <su lang="ru">Я спрашиваю: что есть революция социальная, научная, любая, — как не разрушение пирамиды?</su>
+        </sentence>
+      </p>
+      <p type="text" id="142">
+        <sentence id="599">
+          <su lang="xx">— Mi respondas: vi ĉion miksis.</su>
+          <su lang="ru">— Отвечаю: вы смешали все в одну кучу.</su>
+        </sentence>
+        <sentence id="600">
+          <su lang="xx">Ekzistas ja bonaj piramidoj.</su>
+          <su lang="ru">Бывают и хорошие пирамиды.</su>
+        </sentence>
+        <sentence id="601">
+          <su lang="xx">Ekzemple, en poezio, ni jam parolis pri tio.</su>
+          <su lang="ru">Например, в поэзии, мы об этом уже говорили.</su>
+        </sentence>
+        <sentence id="602">
+          <su lang="xx">Kio koncernas la pitekantropojn...</su>
+          <su lang="ru">Что же касается питекантропов…</su>
+        </sentence>
+        <sentence id="603">
+          <su lang="xx">La piramidon de fizika forto eblas anstataŭigi per piramido de intelekto.</su>
+          <su lang="ru">Пирамиду физической силы можно заменить пирамидой ума.</su>
+        </sentence>
+        <sentence id="604">
+          <su lang="xx">Sed per kio vi proponos anstataŭigi la piramidon de intelekto — la plej lastan el ĉiuj eblaj piramidoj?</su>
+          <su lang="ru">А чем прикажете заменить пирамиду ума — наипоследнюю из всех возможных пирамид?</su>
+        </sentence>
+      </p>
+      <p type="text" id="143">
+        <sentence id="605">
+          <su lang="xx">— Nun vere ĉio estas miksita.</su>
+          <su lang="ru">— Теперь действительно все смешано в кучу.</su>
+        </sentence>
+        <sentence id="606">
+          <su lang="xx">Ni revenu al la nedisputebla.</su>
+          <su lang="ru">Давайте вернемся к бесспорному.</su>
+        </sentence>
+        <sentence id="607">
+          <su lang="xx">Mi volas, ke vi vidu la ĉefan: la homoj nepre "liberigos" (vi ja komprenas pri kio mi parolas) la intelektan energion.</su>
+          <su lang="ru">Я хочу, чтобы вы увидели главное: люди непременно «высвободят» (вы понимаете, о чем я говорю) умственную энергию.</su>
+        </sentence>
+        <sentence id="608">
+          <su lang="xx">Revolucio ĉi tie neeviteblas.</su>
+          <su lang="ru">Революция здесь неизбежна.</su>
+        </sentence>
+        <sentence id="609">
+          <su lang="xx">Samkiel en energetiko.</su>
+          <su lang="ru">Как в энергетике.</su>
+        </sentence>
+      </p>
+      <p type="text" id="144">
+        <sentence id="610">
+          <su lang="xx">Vi rezonadas — ĉu tio estos bona aŭ malbona...</su>
+          <su lang="ru">Вы рассуждаете — хорошо это будет или плохо…</su>
+        </sentence>
+        <sentence id="611">
+          <su lang="xx">Antaŭ ĉio — tio neeviteblas!</su>
+          <su lang="ru">Прежде всего — это неизбежно!</su>
+        </sentence>
+      </p>
+      <p type="text" id="145">
+        <sentence id="612">
+          <su lang="xx">Ŝanĝante la eldiron de Voltero, eblas diri: se mia maŝino ne ekzistus, ĝin necesus elpensi.</su>
+          <su lang="ru">Перефразируя Вольтера, можно сказать: если бы моей машины не было, ее следовало бы выдумать.</su>
+        </sentence>
+        <sentence id="613">
+          <su lang="xx">Ĉu ne?</su>
+          <su lang="ru">Не так ли?</su>
+        </sentence>
+      </p>
+      <p type="text" id="146">
+        <sentence id="614">
+          <su lang="xx">— Intelekta energio...</su>
+          <su lang="ru">— Умственная энергия…</su>
+        </sentence>
+        <sentence id="615">
+          <su lang="xx">Ekzistas limo por evoluo de energetiko sur la Tero.</su>
+          <su lang="ru">Есть предел развитию энергетики на Земле.</su>
+        </sentence>
+        <sentence id="616">
+          <su lang="xx">Kapaciton de energetikaj instalaĵoj ne eblas senlime pligrandigi: trovarmiĝos la atmosfero.</su>
+          <su lang="ru">Мощность энергетических установок нельзя безгранично увеличивать: перегреется атмосфера.</su>
+        </sentence>
+      </p>
+      <p type="text" id="147">
+        <sentence id="617">
+          <su lang="xx">Se ĉiuj iĝos geniuloj, ankaŭ estos iom tro varme, ĉu?</su>
+          <su lang="ru">Если все станут гениями, тоже будет жарковато, а?</su>
+        </sentence>
+      </p>
+      <p type="text" id="148">
+        <sentence id="618">
+          <su lang="xx">— El vidpunkto de pitekantropo, hodiaŭ sur la Tero regas nekredebla intelekta varmego.</su>
+          <su lang="ru">— С точки зрения питекантропа, сегодня на Земле невероятная умственная жара.</su>
+        </sentence>
+      </p>
+      <p type="text" id="149">
+        <sentence id="619">
+          <su lang="xx">Plenaj tropikoj...</su>
+          <su lang="ru">Сплошные тропики.</su>
+        </sentence>
+        <sentence id="620">
+          <su lang="xx">Alvorte, estas bona titolo "Plenaj tropikoj".</su>
+          <su lang="ru">Кстати, хороший заголовок: «Сплошные тропики».</su>
+        </sentence>
+        <sentence id="621">
+          <su lang="xx">Ĉu konvenos?</su>
+          <su lang="ru">Подойдет?</su>
+        </sentence>
+      </p>
+      <p type="text" id="150">
+        <sentence id="622">
+          <su lang="xx">— Ne.</su>
+          <su lang="ru">— Нет.</su>
+        </sentence>
+        <sentence id="623">
+          <su lang="xx">Sed tamen: kiel vi imagas socion, konsistantan el geniuloj?</su>
+          <su lang="ru">Но все-таки: как вы представляете себе общество, состоящее из гениев?</su>
+        </sentence>
+      </p>
+      <p type="text" id="151">
+        <sentence id="624">
+          <su lang="xx">— Ja ili nur por ni estos geniuloj.</su>
+          <su lang="ru">— Это только для нас они будут гениями.</su>
+        </sentence>
+        <sentence id="625">
+          <su lang="xx">Kaj al si mem ili ŝajnos normalaj uloj...</su>
+          <su lang="ru">А себе они будут казаться обычными ребятами…</su>
+        </sentence>
+        <sentence id="626">
+          <su lang="xx">Certe, se paroli serioze, la intelekto devas ricevi principe aliajn trajtojn.</su>
+          <su lang="ru">Конечно, если говорить серьезно, ум должен приобрести принципиально иные свойства.</su>
+        </sentence>
+        <sentence id="627">
+          <su lang="xx">Ĝuste en tio estas ĉefa aparteco de estontaj homoj.</su>
+          <su lang="ru">Именно в этом главная особенность людей будущего.</su>
+        </sentence>
+        <sentence id="628">
+          <su lang="xx">Komprenu: tute novaj kvalitoj de la intelekto.</su>
+          <su lang="ru">Понимаете: совершенно новые качества ума.</su>
+        </sentence>
+        <sentence id="629">
+          <su lang="xx">Estas malfacile klarigi, mi ankoraŭ ne formulis la penson...</su>
+          <su lang="ru">Трудно объяснить, я только нащупываю эту мысль…</su>
+        </sentence>
+        <sentence id="630">
+          <su lang="xx">Ni prenu, ekzemple, matematikan pensadon.</su>
+          <su lang="ru">Допустим, математическое мышление.</su>
+        </sentence>
+        <sentence id="631">
+          <su lang="xx">Donu al moderna matematikisto taskon — li komencos kalkuli, farante en la kapo aŭ sur papero certajn operaciojn.</su>
+          <su lang="ru">Дайте современному математику задачу — он начнет вычислять, проделывая в уме или на бумаге определенные операции.</su>
+        </sentence>
+        <sentence id="632">
+          <su lang="xx">Sed li povus senti pretan respondon...</su>
+          <su lang="ru">А ведь можно почувствовать готовый ответ…</su>
+        </sentence>
+        <sentence id="633">
+          <su lang="xx">Nu, jen al vi analogio.</su>
+          <su lang="ru">Ну, вот вам аналогия.</su>
+        </sentence>
+        <sentence id="634">
+          <su lang="xx">Mikso de flava kaj blua lumoj perceptiĝas kiel verda lumo.</su>
+          <su lang="ru">Смесь желтого света и синего воспринимается как зеленый свет.</su>
+        </sentence>
+        <sentence id="635">
+          <su lang="xx">Ni eĉ ne pensis, ke tio estas operacioj de adicio kaj divido.</su>
+          <su lang="ru">Мы даже не думаем, что это операция сложения и деления.</su>
+        </sentence>
+        <sentence id="636">
+          <su lang="xx">Ondolongo de la flava lumo estas kvarcent okdek milimikronoj.</su>
+          <su lang="ru">Длина волны желтого света четыреста восемьдесят миллимикронов.</su>
+        </sentence>
+        <sentence id="637">
+          <su lang="xx">De la blua — kvincent okdek.</su>
+          <su lang="ru">Синего пятьсот восемьдесят.</su>
+        </sentence>
+        <sentence id="638">
+          <su lang="xx">Se adicii kaj dividi, rezultos kvincent tridek milimikronoj.</su>
+          <su lang="ru">Сложить и разделить — пятьсот тридцать миллимикронов.</su>
+        </sentence>
+        <sentence id="639">
+          <su lang="xx">Ondolongo de la verda lumo.</su>
+          <su lang="ru">Длина волны зеленого света.</su>
+        </sentence>
+        <sentence id="640">
+          <su lang="xx">La cerbo faras tion momente: ni simple vidas la verdan lumon.</su>
+          <su lang="ru">Мозг делает это мгновенно: мы просто видим зеленый свет.</su>
+        </sentence>
+        <sentence id="641">
+          <su lang="xx">Ni vidas pretan respondon...</su>
+          <su lang="ru">Видим готовый ответ…</su>
+        </sentence>
+        <sentence id="642">
+          <su lang="xx">Intuicio, inspiro — ĉiuj ĉi atribuaĵoj de genieco estas kovritaj per densa nebulo.</su>
+          <su lang="ru">Интуиция, вдохновение, осенение — все эти атрибуты гениальности покрыты основательным туманом.</su>
+        </sentence>
+        <sentence id="643">
+          <su lang="xx">Sed Napoleono diris: "Inspiro estas rapide farita kalkulo".</su>
+          <su lang="ru">Но Наполеон говорил: вдохновение-это быстро сделанный расчет.</su>
+        </sentence>
+        <sentence id="644">
+          <su lang="xx">Komprenu, kalkulo, farita tiom rapide, ke ĉesas esti rimarkata.</su>
+          <su lang="ru">Понимаете, расчет, сделанный настолько быстро, что перестает замечаться.</su>
+        </sentence>
+        <sentence id="645">
+          <su lang="xx">Videblas nur la respondo, kaj ni parolas pri inspiro, diveno...</su>
+          <su lang="ru">Виден только ответ, и мы говорим о вдохновении, догадке…</su>
+        </sentence>
+        <sentence id="646">
+          <su lang="xx">La memoro estas ĉefe akumulilo de informo.</su>
+          <su lang="ru">Память в основном аккумулятор информации.</su>
+        </sentence>
+        <sentence id="647">
+          <su lang="xx">Sed necesas, ke ĝi iĝu reakciilo.</su>
+          <su lang="ru">А надо, чтобы она стала реактором.</su>
+        </sentence>
+        <sentence id="648">
+          <su lang="xx">La scioj devas per si mem kuniĝi en la memoro, tralaboriĝi.</su>
+          <su lang="ru">Знания должны сами собой «стыковаться» в памяти, перерабатываться.</su>
+        </sentence>
+        <sentence id="649">
+          <su lang="xx">Nun ni devas igi la cerbon labori.</su>
+          <su lang="ru">Сейчас приходится заставлять мозг работать.</su>
+        </sentence>
+        <sentence id="650">
+          <su lang="xx">Necesas, ke ĝi laboru mem.</su>
+          <su lang="ru">Надо, чтобы он работал сам.</su>
+        </sentence>
+        <sentence id="651">
+          <su lang="xx">Pardonu nesciencan analogion: kiel stomako.</su>
+          <su lang="ru">Простите за ненаучную аналогию: как желудок.</su>
+        </sentence>
+        <sentence id="652">
+          <su lang="xx">Ĝuste en tiu direkto iras la evoluo de la pensado.</su>
+          <su lang="ru">В этом направлении и идет эволюция мышления.</su>
+        </sentence>
+        <sentence id="653">
+          <su lang="xx">Sed malrapide, aĥ kiel malrapide...»</su>
+          <su lang="ru">Но медленно, ах как медленно…»</su>
+        </sentence>
+        <sentence id="654">
+          <su lang="xx">Je la kvara nokte Prokŝin deklaris «paŭzon por nutrado».</su>
+          <su lang="ru">В четвертом часу ночи Прокшин объявил «перерыв на харчи».</su>
+        </sentence>
+        <sentence id="655">
+          <su lang="xx">Kunpreninte kukojn kaj kolbason (aliaj nutraĵoj ne troviĝis), ni eliris sur la ferdekon.</su>
+          <su lang="ru">Прихватив печенье и колбасу (других харчей не оказалось), мы вышли на палубу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="152">
+        <sentence id="656">
+          <su lang="xx">Dum lastaj tagoj la sorto definitive bonvolemas al mi: ni ekvidis fosforeskantan maron.</su>
+          <su lang="ru">В последние дни судьба определенно балует меня: мы увидели светящееся море.</su>
+        </sentence>
+      </p>
+      <p type="text" id="153">
+        <sentence id="657">
+          <su lang="xx">Estis tre mallume.</su>
+          <su lang="ru">Было очень темно.</su>
+        </sentence>
+        <sentence id="658">
+          <su lang="xx">Nigra, senstela ĉielo, nigra bordo, divenebla laŭ maloftaj lumoj.</su>
+          <su lang="ru">Черное, беззвездное небо, черный берег, угадывающийся по редким огням.</su>
+        </sentence>
+        <sentence id="659">
+          <su lang="xx">En la maro moviĝis blanketaj strioj.</su>
+          <su lang="ru">В море двигались беловатые полосы.</su>
+        </sentence>
+        <sentence id="660">
+          <su lang="xx">Komence ili apenaŭ videblis; mi ne tuj komprenis, ke tio estas lumo de la maro.</su>
+          <su lang="ru">Вначале они были едва видны; я не сразу понял, что это свет моря.</su>
+        </sentence>
+        <sentence id="661">
+          <su lang="xx">Poste, kvazaŭ laŭ komando, la strioj komencis heliĝi.</su>
+          <su lang="ru">Потом, словно по команде, полосы стали разгораться.</su>
+        </sentence>
+      </p>
+      <p type="text" id="154">
+        <sentence id="662">
+          <su lang="xx">Ni transiris al la poŭpo kaj silente observis ludon de lumo.</su>
+          <su lang="ru">Мы перешли на корму и молча следили за игрой света.</su>
+        </sentence>
+        <sentence id="663">
+          <su lang="xx">Dum dek kvin — dudek minutoj la maro lumis plej hele.</su>
+          <su lang="ru">Минут пятнадцать-двадцать море светилось «в полный накал».</su>
+        </sentence>
+        <sentence id="664">
+          <su lang="xx">Sparkantaj pintoj de ondoj iris al bordolinio, ellasante striojn de blua fajro.</su>
+          <su lang="ru">Искрящиеся гребни волн шли к береговой линии, теперь уже ясно видимой. Волны налетали на камни, высекая струи голубого огня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="155">
+        <sentence id="665">
+          <su lang="xx">Apudbordaj rokoj estis ĉirkaŭitaj de seninterrompa fajra rando.</su>
+          <su lang="ru">Прибрежные скалы были опоясаны сплошной огненной кромкой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="156">
+        <sentence id="666">
+          <su lang="xx">Ĉie estis moviĝanta lumo: vagaj senbrilaj strioj, helaj bluaj makuloj, fluoj de blankaj sparkoj...</su>
+          <su lang="ru">Везде был движущийся свет: блуждающие матовые полосы, яркие голубые пятна, потоки белых искр…</su>
+        </sentence>
+        <sentence id="667">
+          <su lang="xx">Prokŝin volis ĉerpi la lumantan akvon, sed mi malkonsilis al li.</su>
+          <su lang="ru">Прокшин хотел зачерпнуть светящуюся воду, я его отговорил.</su>
+        </sentence>
+      </p>
+      <p type="text" id="157">
+        <sentence id="668">
+          <su lang="xx">Por kio enrigardi farbojn, per kiuj estas pentrita la bildo...</su>
+          <su lang="ru">Что толку рассматривать краски, которыми написана картина…</su>
+        </sentence>
+        <sentence id="669">
+          <su lang="xx">Kun bruo alflugis vento, la maro por momento eksparkis, poste la lumo rapide malheliĝis, estingiĝis.</su>
+          <su lang="ru">С шумом налетел ветер, море на мгновение заискрилось, потом свет быстро потускнел, погас.</su>
+        </sentence>
+      </p>
+      <p type="text" id="158">
+        <sentence id="670">
+          <su lang="xx">Mi ne volis foriri de la ferdeko.</su>
+          <su lang="ru">Не хотелось уходить с палубы.</su>
+        </sentence>
+        <sentence id="671">
+          <su lang="xx">Kaj mi rakontis al Prokŝin pri unu homo el la «brila naŭopo».</su>
+          <su lang="ru">И я рассказал Прокшину об одном человеке из «великолепной девятки».</su>
+        </sentence>
+      </p>
+      <p type="text" id="159">
+        <sentence id="672">
+          <su lang="xx">Instruisto de matematiko en teknika lernejo, jam nejuna, tre trankvila kaj modesta, li estis absorbita de scienco tiel, kiel aliaj estas absorbitaj de kolektado de poŝtmarkoj kaj alumetaj etikedoj.</su>
+          <su lang="ru">Преподаватель математики в техникуме, уже немолодой, очень спокойный и скромный, он увлекался наукой так, как другие увлекаются коллекционированием марок и спичечных этикеток.</su>
+        </sentence>
+        <sentence id="673">
+          <su lang="xx">En lian kapon eĉ ne venis ideo publikigi sian malkovron.</su>
+          <su lang="ru">Ему и в голову не приходило опубликовать свое открытие.</su>
+        </sentence>
+        <sentence id="674">
+          <su lang="xx">Mi ne ĉion komprenis en liaj kalkuloj, ili estis tro komplikaj por mi, sed la esenco de la afero ne vokas dubojn.</su>
+          <su lang="ru">Я не все понял в его расчетах, они для меня слишком сложны, но суть дела не вызывает сомнений.</su>
+        </sentence>
+      </p>
+      <p type="text" id="160">
+        <sentence id="675">
+          <su lang="xx">En oceanoj ekzistas tiel nomataj sonaj kanaloj.</su>
+          <su lang="ru">В океанах существуют так называемые звуковые каналы.</su>
+        </sentence>
+        <sentence id="676">
+          <su lang="xx">Rezulte de bizara kombino de temperaturo, saleco kaj premo formiĝas natura «interparola tubo» longa je miloj da kilometroj.</su>
+          <su lang="ru">В результате причудливого сочетания температуры, солености и давления образуется естественная «переговорная труба» длиной в тысячи километров.</su>
+        </sentence>
+        <sentence id="677">
+          <su lang="xx">Sono iras laŭ tiu «tubo», preskaŭ ne fadante.</su>
+          <su lang="ru">Звук идет по этой «трубе», почти не затухая.</su>
+        </sentence>
+        <sentence id="678">
+          <su lang="xx">Sufiĉas, ekzemple, eksplodi kilogramon da tolueno ĉe Havajaj insuloj, por aŭdi bruon de la eksplodo ĉe alia fino de la sona kanalo — ĉe bordoj de Kalifornio.</su>
+          <su lang="ru">Достаточно, например, взорвать килограмм тола у Гавайских островов, чтобы услышать шум взрыва на другом конце звукового канала — у берегов Калифорнии.</su>
+        </sentence>
+      </p>
+      <p type="text" id="161">
+        <sentence id="679">
+          <su lang="xx">La instruisto de matematiko venis al konkludo, ke ankaŭ en tera krusto devas ekzisti similaj kanaloj.</su>
+          <su lang="ru">Преподаватель математики пришел к выводу, что и в земной коре должны быть подобные каналы.</su>
+        </sentence>
+        <sentence id="680">
+          <su lang="xx">Aperis demando: kio okazos, se ĉe eniro de tia kanalo eksplodi ne kilogramon da tolueno, sed milojn da tunoj da fortega eksplodaĵo.</su>
+          <su lang="ru">Возник вопрос: что произойдет, если у входа в такой канал взорвать не килограмм тола, а тысячи тонн сильнейшей взрывчатки?</su>
+        </sentence>
+      </p>
+      <p type="text" id="162">
+        <sentence id="681">
+          <su lang="xx">Memkompreneble, ekzistas vico de limigoj, sed foje eksplodo en punkto A signifas tertremon en punkto B. Tiun parton de kalkuloj mi ja komprenis.</su>
+          <su lang="ru">Разумеется, существует ряд ограничений, но иногда взрыв в пункте А означает землетрясение в пункте Б. Уж эту часть расчетов я понял.</su>
+        </sentence>
+        <sentence id="682">
+          <su lang="xx">Ruzaĵo estas en tio, ke eliro de energio devas esti pli ol la eniro: la eksplodo liberigas energion de la terkrusto.</su>
+          <su lang="ru">Хитрость в том, что выход энергии больше входа: взрыв высвобождает энергию земной коры.</su>
+        </sentence>
+        <sentence id="683">
+          <su lang="xx">El tio sekvas eblo preventi tertremojn, regi kreon de montoj, principe alia maniero transdoni energion distance.</su>
+          <su lang="ru">Отсюда возможность предотвращения землетрясений, управления горообразованием, принципиально новый способ передачи энергий на расстояние.</su>
+        </sentence>
+        <sentence id="684">
+          <su lang="xx">Unuvorte, fundamento de ankoraŭ ne ekzistanta scienco pri regado de la planedo.</su>
+          <su lang="ru">Словом, фундамент еще не существующей науки об управлении планетой.</su>
+        </sentence>
+        <sentence id="685">
+          <su lang="xx">Kaj ĉio ĉi estas eksponita en maldika lerneja kajero, proze ĉirkaŭkovrita per griza papero.</su>
+          <su lang="ru">И все это изложено в школьной тетрадке, прозаично обернутой сероватой бумагой.</su>
+        </sentence>
+      </p>
+      <p type="text" id="163">
+        <sentence id="686">
+          <su lang="xx">— Mi esperas, sekvos la konkludo? — diris Prokŝin.</su>
+          <su lang="ru">— Надеюсь, воспоследует мораль? — сказал Прокшин.</su>
+        </sentence>
+        <sentence id="687">
+          <su lang="xx">— En tiu senco, ke eksplodo en punkto A foje signifas tertremon en punkto B. Ĉu ne?</su>
+          <su lang="ru">— В том смысле, что взрыв в пункте А иногда означает землетрясение в пункте Б. Не так ли?</su>
+        </sentence>
+      </p>
+      <p type="text" id="164">
+        <sentence id="688">
+          <su lang="xx">Mi demandis, kial li ne permesis viziti la ŝipon al la venintaj aktoroj.</su>
+          <su lang="ru">Я спросил, почему он не пустил на корабль приезжих артистов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="165">
+        <sentence id="689">
+          <su lang="xx">Prokŝin ekridis:</su>
+          <su lang="ru">Прокшин рассмеялся:</su>
+        </sentence>
+      </p>
+      <p type="text" id="166">
+        <sentence id="690">
+          <su lang="xx">— Ja vi konsekvence defendas arton.</su>
+          <su lang="ru">— А вы последовательно защищаете искусство…</su>
+        </sentence>
+        <sentence id="691">
+          <su lang="xx">Al veraj aktoroj mi permesus.</su>
+          <su lang="ru">Артистов я бы пустил. Но это были халтурщики.</su>
+        </sentence>
+        <sentence id="692">
+          <su lang="xx">Sed tio estis fuŝuloj.</su>
+          <su lang="ru">Понимаете, чистокровные халтурщики.</su>
+        </sentence>
+        <sentence id="693">
+          <su lang="xx">Ilin en la sekva tago oni entute elpelis.</su>
+          <su lang="ru">Их здесь на следующий день вообще выпроводили.</su>
+        </sentence>
+        <sentence id="694">
+          <su lang="xx">Afable elpelis: sidigis en aŭtobuson, pardonpetis...</su>
+          <su lang="ru">Культурненько выпроводили: усадили в автобус, извинились…</su>
+        </sentence>
+        <sentence id="695">
+          <su lang="xx">Jen tipa ekzemplo de malmulta disvastiĝo de sciencaj scioj.</su>
+          <su lang="ru">Типичный пример слабого распространения научных знаний.</su>
+        </sentence>
+        <sentence id="696">
+          <su lang="xx">Kion farus homoj, posedantaj la tutan saĝon de la mondo?</su>
+          <su lang="ru">Что сделали бы люди, преисполненные всей премудрости мира?</su>
+        </sentence>
+        <sentence id="697">
+          <su lang="xx">Ili rememorus, ke arto postulas oferojn.</su>
+          <su lang="ru">Они вспомнили бы, что искусство требует жертв.</su>
+        </sentence>
+        <sentence id="698">
+          <su lang="xx">Tiun tezon oni kutime malĝuste interpretas.</su>
+          <su lang="ru">Этот тезис обычно неправильно истолковывают.</su>
+        </sentence>
+        <sentence id="699">
+          <su lang="xx">Atentu: postulas oferojn, sed ne memoferon.</su>
+          <su lang="ru">Обратите внимание: требует жертв, а не самопожертвования.</su>
+        </sentence>
+        <sentence id="700">
+          <su lang="xx">Do kial ne oferi la fuŝulojn?</su>
+          <su lang="ru">Так почему бы не принести в жертву халтурщиков?</su>
+        </sentence>
+      </p>
+      <p type="text" id="167">
+        <sentence id="701">
+          <su lang="xx">Bone, plumoj kaj peĉo estas barbareco.</su>
+          <su lang="ru">Хорошо, смола и перья — это варварство.</su>
+        </sentence>
+        <sentence id="702">
+          <su lang="xx">Ja ni vivas en la jarcento de kemio.</su>
+          <su lang="ru">Все-таки мы живем в век химии.</su>
+        </sentence>
+        <sentence id="703">
+          <su lang="xx">Sed se preni gluilon BF kaj...</su>
+          <su lang="ru">Но если взять клей БФ и…</su>
+        </sentence>
+        <sentence id="704">
+          <su lang="xx">Li frande priskribas ĉi tiun proceduron.</su>
+          <su lang="ru">Он со вкусом описывает эту процедуру.</su>
+        </sentence>
+        <sentence id="705">
+          <su lang="xx">Do kiajn vestojn tamen portis piratoj?</su>
+          <su lang="ru">Так что же все-таки носили пираты?</su>
+        </sentence>
+      </p>
+      <p type="text" id="168">
+        <sentence id="706">
+          <su lang="xx">— ... Ne, nu kia ĉi tie estas pirateco?</su>
+          <su lang="ru">…— Что вы, какое же тут пиратство?</su>
+        </sentence>
+        <sentence id="707">
+          <su lang="xx">Kaj entute mi ne kulpas.</su>
+          <su lang="ru">И вообще я не виноват.</su>
+        </sentence>
+        <sentence id="708">
+          <su lang="xx">Kulpas miaj gepatroj.</su>
+          <su lang="ru">Это все папа и мама.</su>
+        </sentence>
+      </p>
+      <p type="text" id="169">
+        <sentence id="709">
+          <su lang="xx">Ili estis ĵurnalistoj.</su>
+          <su lang="ru">Они у меня журналисты.</su>
+        </sentence>
+        <sentence id="710">
+          <su lang="xx">Kaj simile al vi konstante turniĝas en serĉado de io nova.</su>
+          <su lang="ru">И вроде вас постоянно циркулируют в поисках нового.</su>
+        </sentence>
+        <sentence id="711">
+          <su lang="xx">Ili simple ne havis tempon dece eduki min.</su>
+          <su lang="ru">У них просто не было времени прилично меня воспитать.</su>
+        </sentence>
+        <sentence id="712">
+          <su lang="xx">Ili tion komprenis kaj trovis eliron.</su>
+          <su lang="ru">Они это понимали и нашли выход.</su>
+        </sentence>
+      </p>
+      <p type="text" id="170">
+        <sentence id="713">
+          <su lang="xx">Ili lasis min al zorgoj de la najbaro, eksa fizikisto.</su>
+          <su lang="ru">Поручили меня соседу, отставному физику.</su>
+        </sentence>
+        <sentence id="714">
+          <su lang="xx">Admirinda ideo!</su>
+          <su lang="ru">Потрясающая идея!</su>
+        </sentence>
+        <sentence id="715">
+          <su lang="xx">Tio estis kaduka maljunulo; mi legis al li medicinan enciklopedion, kuris laŭ homeopatiaj apotekoj, kuiris diversajn pociojn...</su>
+          <su lang="ru">Это был глубокий старик; я читал ему медицинскую энциклопедию, бегал по гомеопатическим аптекам, варил всякие снадобья…</su>
+        </sentence>
+        <sentence id="716">
+          <su lang="xx">La maljunulo insultis medicinon kaj Einstein-on.</su>
+          <su lang="ru">(Старик ругал медицину и Эйнштейна.</su>
+        </sentence>
+        <sentence id="717">
+          <su lang="xx">Foje mi timis lin.</su>
+          <su lang="ru">Временами мне становилось страшно.</su>
+        </sentence>
+        <sentence id="718">
+          <su lang="xx">Li pasadis laŭ la ĉambro — nudpieda, hirta, — skuis per suprentiritaj pugnoj kaj per trumpeta voĉo de biblia profeto skoldis fizikon de la dudeka jarcento.</su>
+          <su lang="ru">Он ходил по комнате — босой, лохматый, — тряс воздетыми вверх кулаками и трубным голосом библейского пророка громил физику двадцатого столетия.</su>
+        </sentence>
+        <sentence id="719">
+          <su lang="xx">«La malnova fiziko, — kriis la maljunulo, — estis proksima al kreo de plenfinita mondobildo, ne endis deflankiĝi de tiu vojo, ne endis fari nedifinitecon principo...»</su>
+          <su lang="ru">Старая физика, кричал старик, была близка к созданию законченной картины мира, не следовало сворачивать с этого пути, нельзя было возводить неопределенность в принцип…</su>
+        </sentence>
+        <sentence id="720">
+          <su lang="xx">Li minace kridemandis: «Kia senco estas en esploro de la naturo, se la nova fiziko opinias tiun procezon senfina?»</su>
+          <su lang="ru">Он грозно вопрошал: какой смысл в изучении природы, если новая физика считает этот процесс бесконечным?</su>
+        </sentence>
+        <sentence id="721">
+          <su lang="xx">Mi ne povis respondi, silentis, kaj tiam li komencis disputi kun Petro Nikolajeviĉ, riproĉante pri io Oreston Daniloviĉ-on kaj skoldis iun Paŭĉjon...</su>
+          <su lang="ru">Я не мог ответить, молчал, и тогда он начинал спорить с Петром Николаевичем, укорял в чем-то Ореста Даниловича и в дым ругал какого-то Пашку…</su>
+        </sentence>
+        <sentence id="722">
+          <su lang="xx">Poste mi komprenis, ke Petro Nikolajeviĉ estas Lebedev, Oresto Daniloviĉ estas Hvolson, kaj Paŭĉjo — Paŭlo Sigizmundoviĉ Erenfest...</su>
+          <su lang="ru">Позже я понял, что Петр Николаевич — это Лебедев, Орест Данилович-это Хвольсон, а Пашка Павел Сигизмундович Эренфест…</su>
+        </sentence>
+        <sentence id="723">
+          <su lang="xx">Homo volas scii, sed la naturo estas senfina, la procezo de ekkono ne havas limojn, ne eblas unufoje kaj por ĉiam kompreni la mondon kaj meti la punkton.</su>
+          <su lang="ru">Человек хочет знать, но природа бесконечна, процессу познания нет границ, нельзя раз и навсегда понять мир и поставить точку.</su>
+        </sentence>
+        <sentence id="724">
+          <su lang="xx">Por ni tio estas natura, sed la maljunulo travivis fiaskon de esperoj, kiujn la scienco havis dum jarmiloj.</su>
+          <su lang="ru">Для нас это естественно, а старик переживал крушение надежд, которые наука питала на протяжении тысячелетий.</su>
+        </sentence>
+        <sentence id="725">
+          <su lang="xx">Li ne volis, ne povis paciĝi kun la penso, ke la mondo estas neelĉerpebla kaj anstataŭ ĉiu solvita enigmo ĉiam aperos dek novaj.</su>
+          <su lang="ru">Он не хотел, не мог примириться с мыслью, что мир неисчерпаем и вместо каждой решенной загадки всегда будут возникать десять новых.</su>
+        </sentence>
+        <sentence id="726">
+          <su lang="xx">Foje mi demandis en homeopatia apoteko, ĉu ne ekzistas rimedoj por pensi miloble pli rapide...</su>
+          <su lang="ru">Однажды я спросил в гомеопатической аптеке, нет ли средства, чтобы думать в сто или в тысячу раз быстрее…</su>
+        </sentence>
+        <sentence id="727">
+          <su lang="xx">«Ha, ja vi deziras rimedon kontraŭ stulteco! — miris la farmaciisto.</su>
+          <su lang="ru">«Ха, ты же хочешь средство против глупости! — удивился провизор.</su>
+        </sentence>
+        <sentence id="728">
+          <su lang="xx">— Pripensu, knabo, kiu venos aĉeti rimedon kontraŭ stulteco?</su>
+          <su lang="ru">— Подумай, мальчик, кто придет покупать средство против глупости?</su>
+        </sentence>
+        <sentence id="729">
+          <su lang="xx">Ja tie ĉi, ĉe la tablo, mi ĉiutage aŭdas plendojn: malbonas koro, doloras artikoj, ne sufiĉas stomaksuko...</su>
+          <su lang="ru">Вот здесь, за прилавком, я каждый день слышу жалобы: плохо с сердцем, ноют суставы, мало желудочного сока…</su>
+        </sentence>
+        <sentence id="730">
+          <su lang="xx">Al homo ĉio ne sufiĉas, sed nur pri nesufiĉo de intelekto neniu plendas.</su>
+          <su lang="ru">Человеку не хватает всего, и только на недостаток ума еще никто не жаловался.</su>
+        </sentence>
+        <sentence id="731">
+          <su lang="xx">Ne, knabo, rimedo kontraŭ stulteco estas ne komerco, sed pura bankroto.</su>
+          <su lang="ru">Нет, мальчик, средство против глупости — не коммерция, а чистое разорение.</su>
+        </sentence>
+        <sentence id="732">
+          <su lang="xx">Prenu bonbonon.</su>
+          <su lang="ru">Возьми конфетку.</su>
+        </sentence>
+      </p>
+      <p type="text" id="171">
+        <sentence id="733">
+          <su lang="xx">Tio estas tre bongusta bonbono...»</su>
+          <su lang="ru">Очень вкусная конфетка…»</su>
+        </sentence>
+        <sentence id="734">
+          <su lang="xx">Interalie, mi konservis ĉirkaŭkovraĵon de tiu bonbono.</su>
+          <su lang="ru">Между прочим, у меня сохранилась обертка от этой конфеты. Нет, в самом деле, я не выдумываю.</su>
+        </sentence>
+        <sentence id="735">
+          <su lang="xx">Mi povas montri, ĉu vi deziras?</su>
+          <su lang="ru">Хотите, покажу?</su>
+        </sentence>
+        <sentence id="736">
+          <su lang="xx">Kaj vi nomos vian raportaĵon «Pura bankroto».</su>
+          <su lang="ru">И вы назовете свой репортаж «Чистое разорение».</su>
+        </sentence>
+        <sentence id="737">
+          <su lang="xx">Kiel?</su>
+          <su lang="ru">Как?</su>
+        </sentence>
+      </p>
+      <p type="text" id="172">
+        <sentence id="738">
+          <su lang="xx">Mi pensis: ja Prokŝin vere ne estas pirato.</su>
+          <su lang="ru">Я подумал: а ведь Прокшин и в самом деле не пират.</su>
+        </sentence>
+        <sentence id="739">
+          <su lang="xx">Li estas Don-Kiĥoto, atakanta muelilon!</su>
+          <su lang="ru">Это Дон-Кихот, атакующий мельницу!</su>
+        </sentence>
+      </p>
+      <p type="text" id="173">
+        <sentence id="740">
+          <su lang="xx">Nu, certe, li volas tuj ĉion solvi, tuj fari ĉiujn saĝaj kaj feliĉaj.</su>
+          <su lang="ru">Ну конечно, он хочет сразу все решить, сразу сделать всех умными и счастливыми.</su>
+        </sentence>
+      </p>
+      <p type="text" id="174">
+        <sentence id="741">
+          <su lang="xx">La rezonoj pri principe novaj instrurimedoj — tio estas supraĵo.</su>
+          <su lang="ru">Рассуждения о принципиально новых средствах обучения — это так, на поверхности.</su>
+        </sentence>
+      </p>
+      <p type="text" id="175">
+        <sentence id="742">
+          <su lang="xx">Sed en la profundo de la animo estas vera centprocenta donkiĥoteco.</su>
+          <su lang="ru">А в глубине души — настоящее стопроцентное донкихотство.</su>
+        </sentence>
+      </p>
+      <p type="text" id="176">
+        <sentence id="743">
+          <su lang="xx">— Iagrade vi pravas, — sen rido diras Prokŝin.</su>
+          <su lang="ru">— В какой-то мере вы правы, — без смеха говорит Прокшин.</su>
+        </sentence>
+        <sentence id="744">
+          <su lang="xx">— Almenaŭ, je tri kvaronoj.</su>
+          <su lang="ru">— По крайней мере, на три четверти.</su>
+        </sentence>
+        <sentence id="745">
+          <su lang="xx">Kio necesas por donkiĥoteco?</su>
+          <su lang="ru">Что нужно для донкихотства?</su>
+        </sentence>
+        <sentence id="746">
+          <su lang="xx">Necesas Sanĉo Pansa.</su>
+          <su lang="ru">Нужен Санчо Панса.</su>
+        </sentence>
+        <sentence id="747">
+          <su lang="xx">Li ekzistas.</su>
+          <su lang="ru">Он есть.</su>
+        </sentence>
+        <sentence id="748">
+          <su lang="xx">Necesas kaduka magra ĉevalaĉo — ni havas la malnovan ŝipon.</su>
+          <su lang="ru">Нужна старая и тощая лошадь — у нас есть старый корабль.</su>
+        </sentence>
+        <sentence id="749">
+          <su lang="xx">Finfine, necesas muelilo...</su>
+          <su lang="ru">Наконец, нужна мельница…</su>
+        </sentence>
+        <sentence id="750">
+          <su lang="xx">Do, ĉu vi vere opinias tion muelilo?</su>
+          <su lang="ru">Так вы и в самом деле считаете это мельницей?</su>
+        </sentence>
+        <sentence id="751">
+          <su lang="xx">— Nun li parolis tute serioze.</su>
+          <su lang="ru">— Теперь он говорит вполне серьезно.</su>
+        </sentence>
+        <sentence id="752">
+          <su lang="xx">— Nu, tiam gardu vin!</su>
+          <su lang="ru">— Ну, тогда держитесь!</su>
+        </sentence>
+        <sentence id="753">
+          <su lang="xx">Tuj de viaj piramidaj argumentoj restos nur sola fumo...</su>
+          <su lang="ru">Сейчас от ваших пирамидных доводов останется один дым…</su>
+        </sentence>
+        <sentence id="754">
+          <su lang="xx">La magneta rubando.</su>
+          <su lang="ru">Лента магнитофона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="177">
+        <sentence id="755">
+          <su lang="xx">«— Vi parolis pri la varmeca morto de la Universo.</su>
+          <su lang="ru">«— Вы говорили о тепловой смерти Вселенной.</su>
+        </sentence>
+        <sentence id="756">
+          <su lang="xx">En tiu senco, ke, se ekzistas nur unu nivelo, mankas movado.</su>
+          <su lang="ru">В том смысле, что при наличии одного уровня нет движения.</su>
+        </sentence>
+        <sentence id="757">
+          <su lang="xx">Jes, tiel.</su>
+          <su lang="ru">Да, так.</su>
+        </sentence>
+        <sentence id="758">
+          <su lang="xx">Sed nur en fermita, finia sistemo.</su>
+          <su lang="ru">Однако только в замкнутой, конечной системе.</su>
+        </sentence>
+        <sentence id="759">
+          <su lang="xx">Sed ekkono estas malfinia procezo.</su>
+          <su lang="ru">А познание-процесс бесконечный.</su>
+        </sentence>
+        <sentence id="760">
+          <su lang="xx">Jes, ni rompos la piramidon.</su>
+          <su lang="ru">Да, мы сломаем пирамиду.</su>
+        </sentence>
+        <sentence id="761">
+          <su lang="xx">Sed ĉu tio estas la fino?</su>
+          <su lang="ru">Но разве это конец?</su>
+        </sentence>
+      </p>
+      <p type="text" id="178">
+        <sentence id="762">
+          <su lang="xx">Male, tio estas komenco de nova ciklo.</su>
+          <su lang="ru">Напротив, начало нового цикла.</su>
+        </sentence>
+        <sentence id="763">
+          <su lang="xx">Ĉu vi komprenas?</su>
+          <su lang="ru">Понимаете?</su>
+        </sentence>
+        <sentence id="764">
+          <su lang="xx">Ni venigis ĉiujn sur la grandmajstran nivelon.</su>
+          <su lang="ru">Мы вывели всех на гроссмейстерский уровень.</su>
+        </sentence>
+        <sentence id="765">
+          <su lang="xx">Ĉiuj leviĝis al la pinto.</su>
+          <su lang="ru">Все поднялись до вершины.</su>
+        </sentence>
+        <sentence id="766">
+          <su lang="xx">Kaj jen komenciĝas konstruado de nova piramido.</su>
+          <su lang="ru">И вот начинается сооружение новой пирамиды.</su>
+        </sentence>
+      </p>
+      <p type="text" id="179">
+        <sentence id="767">
+          <su lang="xx">La fundo de tiu piramido estos sur tiu nivelo, kie estis la pinto de la malnova piramido.</su>
+          <su lang="ru">Основание этой новой пирамиды будет на том уровне, где была вершина старой пирамиды.</su>
+        </sentence>
+        <sentence id="768">
+          <su lang="xx">Kaj la nova pinto leviĝos super nuboj.</su>
+          <su lang="ru">А новая вершина уйдет за облака.</su>
+        </sentence>
+        <sentence id="769">
+          <su lang="xx">Ĉu vi komprenas?</su>
+          <su lang="ru">Понятно?</su>
+        </sentence>
+        <sentence id="770">
+          <su lang="xx">Poste ni rompos tiun novan piramidon.</su>
+          <su lang="ru">Потом мы сломаем эту новую пирамиду.</su>
+        </sentence>
+        <sentence id="771">
+          <su lang="xx">Levos ĉiujn sur nivelon de ĝia pinto — kaj komencos konstrui sekvan piramidon.</su>
+          <su lang="ru">Поднимем всех на уровень ее вершины — и начнем строить следующую пирамиду.</su>
+        </sentence>
+        <sentence id="772">
+          <su lang="xx">Tegmento, plafono ne ekzistas!</su>
+          <su lang="ru">Крыши, потолка нет!</su>
+        </sentence>
+      </p>
+      <p type="text" id="180">
+        <sentence id="773">
+          <su lang="xx">Iam ekzistis piramido de riĉeco, nobeleco, potenco.</su>
+          <su lang="ru">Когда-то существовала пирамида богатства, знатности, власти.</su>
+        </sentence>
+        <sentence id="774">
+          <su lang="xx">Por konstrui socialismon, necesis rompi tiun piramidon.</su>
+          <su lang="ru">Чтобы построить социализм, надо было сломать эту пирамиду.</su>
+        </sentence>
+        <sentence id="775">
+          <su lang="xx">Lenin diris, ke necesas ĉiun kuiristinon instrui regi la ŝtaton.</su>
+          <su lang="ru">Ленин говорил, что необходимо каждую кухарку научить управлять государством.</su>
+        </sentence>
+        <sentence id="776">
+          <su lang="xx">Jen al vi la penso, eksplodanta piramidojn!</su>
+          <su lang="ru">Вот вам мысль, взрывающая пирамиды!</su>
+        </sentence>
+        <sentence id="777">
+          <su lang="xx">Tiutempe ĝi ŝajnis multe pli fantastika, ol aserto, ke ĉiu fizikisto povas pensi sur nivelo de Einstein...</su>
+          <su lang="ru">В то время она казалась куда более фантастичной, чем утверждение, что каждый физик может мыслить на уровне Эйнштейна…</su>
+        </sentence>
+        <sentence id="778">
+          <su lang="xx">Nun ni eniras en komunismon.</su>
+          <su lang="ru">Теперь мы вступаем в коммунизм.</su>
+        </sentence>
+        <sentence id="779">
+          <su lang="xx">Eniras kun piramido de intelekta malegaleco.</su>
+          <su lang="ru">Вступаем с пирамидой умственного неравенства.</su>
+        </sentence>
+        <sentence id="780">
+          <su lang="xx">Dum la komunismo la piramido de intelekta malegaleco estos detruita.</su>
+          <su lang="ru">При коммунизме пирамида умственного неравенства будет разрушена.</su>
+        </sentence>
+        <sentence id="781">
+          <su lang="xx">«De ĉiu laŭ kapabloj, al ĉiu laŭ bezonoj».</su>
+          <su lang="ru">«От каждого по способностям, каждому по потребностям».</su>
+        </sentence>
+        <sentence id="782">
+          <su lang="xx">Sed ĉu ne iĝos en estonteco la plej ĉefa kaj plej grava bezono — ricevi pli da kapabloj?</su>
+          <su lang="ru">Но разве не станет в будущем самой главной и первейшей потребностью получить больше способностей?</su>
+        </sentence>
+      </p>
+      <p type="text" id="181">
+        <sentence id="783">
+          <su lang="xx">Kio estas bezono?</su>
+          <su lang="ru">Что такое потребность?</su>
+        </sentence>
+        <sentence id="784">
+          <su lang="xx">Nutraĵo, vesto, loĝejo...</su>
+          <su lang="ru">Пища, одежда, кров…</su>
+        </sentence>
+        <sentence id="785">
+          <su lang="xx">Miloj da diversaj aferoj.</su>
+          <su lang="ru">Тысячи разных вещей.</su>
+        </sentence>
+        <sentence id="786">
+          <su lang="xx">Sed la ĉefa afero estas intelekto. Kio donas pli da ĝuo — ĉu bona aŭto aŭ bona intelekto?</su>
+          <su lang="ru">Но главная вещь-ум. Что приносит больше наслаждения — хороший автомобиль или хороший ум?..</su>
+        </sentence>
+      </p>
+      <p type="text" id="182">
+        <sentence id="787">
+          <su lang="xx">Do kial aŭto estas bezono, sed intelekto — ne?!</su>
+          <su lang="ru">Так почему автомобиль-это потребность, а ум — нет?!</su>
+        </sentence>
+      </p>
+      <p type="text" id="183">
+        <sentence id="788">
+          <su lang="xx">Mi asertas: evoluigo de intelekto kaj kapabloj estas la plej grava bezono de homo.</su>
+          <su lang="ru">Утверждаю: развитие ума и способностей — самая важная потребность человека.</su>
+        </sentence>
+      </p>
+      <p type="text" id="184">
+        <sentence id="789">
+          <su lang="xx">Komenciĝas epoko de novaj piramidoj.</su>
+          <su lang="ru">Начинается эпоха новых пирамид.</su>
+        </sentence>
+        <sentence id="790">
+          <su lang="xx">Ne rigidiĝintaj por jarmiloj ŝtonaj tombejoj, sed vivaj piramidoj de scio.</su>
+          <su lang="ru">Не застывших на тысячелетия каменных гробниц, а живых пирамид знания.</su>
+        </sentence>
+        <sentence id="791">
+          <su lang="xx">Ili estos detruiĝantaj kaj reaperantaj denove — ĉiu sur pli alta nivelo...»</su>
+          <su lang="ru">Они будут разрушаться и возникать вновь каждая на более высоком уровне…»</su>
+        </sentence>
+        <sentence id="792">
+          <su lang="xx">Matene Andreo Iljiĉ kondukis min al aŭtobusa haltejo.</su>
+          <su lang="ru">Утром Андрей Ильич проводил меня к автобусной остановке.</su>
+        </sentence>
+        <sentence id="793">
+          <su lang="xx">Ni silente iris laŭ malvastaj stratoj laŭlonge de senfinaj verdaj bariloj.</su>
+          <su lang="ru">Мы молча шли по узким улицам вдоль бесконечных зеленых заборов.</su>
+        </sentence>
+      </p>
+      <p type="text" id="185">
+        <sentence id="794">
+          <su lang="xx">Mi laciĝis, kaj ne emis disputi.</su>
+          <su lang="ru">Я устал, спорить не хотелось.</su>
+        </sentence>
+        <sentence id="795">
+          <su lang="xx">Kiel ofte okazas, en disputo naskiĝas ne vero, sed kompreno de komplikeco de la problemo.</su>
+          <su lang="ru">Как часто бывает, в споре родилась не истина, а понимание сложности проблемы.</su>
+        </sentence>
+        <sentence id="796">
+          <su lang="xx">Jen ŝako.</su>
+          <su lang="ru">Вот шахматы.</su>
+        </sentence>
+        <sentence id="797">
+          <su lang="xx">Ĉiuj iĝis grandmajstroj, kaj komenciĝas konstruado de nova piramido...</su>
+          <su lang="ru">Все стали гроссмейстерами, и началось сооружение новой пирамиды…</su>
+        </sentence>
+        <sentence id="798">
+          <su lang="xx">Sed nulaj partioj?</su>
+          <su lang="ru">А ничьи?</su>
+        </sentence>
+        <sentence id="799">
+          <su lang="xx">Ja en la ŝakludo simple ne eblos konstrui novan piramidon!</su>
+          <su lang="ru">Да ведь в шахматах просто не удастся построить новую пирамиду!</su>
+        </sentence>
+        <sentence id="800">
+          <su lang="xx">Ĉi tie estas limo, kaj fino.</su>
+          <su lang="ru">Тут есть предел, и все.</su>
+        </sentence>
+      </p>
+      <p type="text" id="186">
+        <sentence id="801">
+          <su lang="xx">Tamen, ekzistas demandoj pli komplikaj.</su>
+          <su lang="ru">Впрочем, существуют вопросы посложнее.</su>
+        </sentence>
+        <sentence id="802">
+          <su lang="xx">Kiel ŝanĝiĝos rilatoj inter homoj, kiam ne ekzistos la «intelekta piramido»?</su>
+          <su lang="ru">Как изменятся отношения людей, когда не будет «умственной пирамиды»?</su>
+        </sentence>
+        <sentence id="803">
+          <su lang="xx">Kien direktos sin kolosa kaj rapide kreskanta lavango de intelekta energio?</su>
+          <su lang="ru">Куда направится колоссальная и быстро возрастающая лавина умственной энергии?</su>
+        </sentence>
+        <sentence id="804">
+          <su lang="xx">En kia grado esti pli saĝa signifas esti pli feliĉa?</su>
+          <su lang="ru">В какой мере быть умнее значит быть счастливее?</su>
+        </sentence>
+      </p>
+      <p type="text" id="187">
+        <sentence id="805">
+          <su lang="xx">Mi pensis: al Einstein, kreinta novan piramidon, estis ne pli facile, ol al la eksa fizikisto, pri kiu parolis Prokŝin.</su>
+          <su lang="ru">Я подумал: Эйнштейну, создавшему новую пирамиду, было не легче, чем отставному физику, о котором говорил Прокшин.</su>
+        </sentence>
+        <sentence id="806">
+          <su lang="xx">Entute, tio estas malfacila laboro — esti homo sapiens, homo intelekta...</su>
+          <su lang="ru">Вообще тяжелая это работа быть хомо сапиенсом, человеком разумным…</su>
+        </sentence>
+        <sentence id="807">
+          <su lang="xx">— Mi envias, — diris Prokŝin.</su>
+          <su lang="ru">— Завидую, — сказал Прокшин.</su>
+        </sentence>
+        <sentence id="808">
+          <su lang="xx">— Aŭtobuso, avio — kaj vi estos en Moskvo.</su>
+          <su lang="ru">— Автобус, самолет и Москва.</su>
+        </sentence>
+        <sentence id="809">
+          <su lang="xx">Sed mi post semajno devas veni al la ŝipo, al la loko de servo.</su>
+          <su lang="ru">А мне через неделю надлежит явиться на корабль. По месту службы.</su>
+        </sentence>
+        <sentence id="810">
+          <su lang="xx">Do, ni renkontiĝos antaŭ la novjara festo.</su>
+          <su lang="ru">Что ж, встретимся к новому году.</su>
+        </sentence>
+      </p>
+      <p type="text" id="188">
+        <sentence id="811">
+          <su lang="xx">Ni kontrolu niajn grandmajstrajn kapablojn...</su>
+          <su lang="ru">Проверим свои гроссмейстерские возможности…</su>
+        </sentence>
+        <sentence id="812">
+          <su lang="xx">Kaj ek al sturmo de la muelilo.</su>
+          <su lang="ru">И ринемся на штурм мельницы.</su>
+        </sentence>
+        <sentence id="813">
+          <su lang="xx">Alvorte, tie, en la magnetofono, estas iuj rezonoj pri tiu sturmo.</su>
+          <su lang="ru">Кстати, там, в магнитофоне, есть кое-какие соображения об этом штурме.</su>
+        </sentence>
+        <sentence id="814">
+          <su lang="xx">Dum vi razis vin, mi eldiris vicon de valoraj pensoj.</su>
+          <su lang="ru">Пока вы брились, я высказал ряд ценных мыслей.</su>
+        </sentence>
+        <sentence id="815">
+          <su lang="xx">Se dum la vojaĝo vi havos tempon — aŭskultu.</su>
+          <su lang="ru">В дороге будет время — послушайте.</su>
+        </sentence>
+        <sentence id="816">
+          <su lang="xx">Nu, feliĉon!..</su>
+          <su lang="ru">Ну, счастливо!..</su>
+        </sentence>
+      </p>
+      <p type="text" id="189">
+        <sentence id="817">
+          <su lang="xx">La aŭtobuso, peze ronkante, longe leviĝis laŭ kruta monta vojo.</su>
+          <su lang="ru">Автобус, тяжело пофыркивая, долго поднимался по крутой горной дороге.</su>
+        </sentence>
+        <sentence id="818">
+          <su lang="xx">Mi rigardis malsupren — al humidaj pro roso tegolaj tegmentoj, al la maro, laŭ kiu per glataj vicoj, ĉenoj iris ondoj.</su>
+          <su lang="ru">Я смотрел вниз — на влажные от росы черепичные крыши, на море, по которому ровными белыми цепями шли волны.</su>
+        </sentence>
+        <sentence id="819">
+          <su lang="xx">Dum tiuj tagoj mi ne sukcesis rigardi la urbeton.</su>
+          <su lang="ru">За эти дни я так и не разглядел городка.</su>
+        </sentence>
+        <sentence id="820">
+          <su lang="xx">La sola enskribo en la notlibreto: «Vizaĝo de la urbeto estas dense vualita per pendigitaj sur la bordo fiŝistaj retoj».</su>
+          <su lang="ru">Единственная запись в блокноте: «Лицо городка скрыто густой вуалью развешанных на берегу рыбацких сетей».</su>
+        </sentence>
+        <sentence id="821">
+          <su lang="xx">Sensencaĵo!</su>
+          <su lang="ru">Чепуха!</su>
+        </sentence>
+        <sentence id="822">
+          <su lang="xx">En lumo de hela penso ĉio alia por mi simple malaperas, kiel steloj tage.</su>
+          <su lang="ru">При свете яркой мысли все остальное для меня просто исчезает, как звезды днем.</su>
+        </sentence>
+        <sentence id="823">
+          <su lang="xx">Probable ĝuste tial mi ne iĝis verkisto.</su>
+          <su lang="ru">Вероятно, поэтому я и не стал писателем.</su>
+        </sentence>
+      </p>
+      <p type="text" id="190">
+        <sentence id="824">
+          <su lang="xx">La magneta rubando.</su>
+          <su lang="ru">Лента магнитофона.</su>
+        </sentence>
+      </p>
+      <p type="text" id="191">
+        <sentence id="825">
+          <su lang="xx">«— Al la demando pri Don-Kiĥota sturmo de ventmulelilo.</su>
+          <su lang="ru">«— К вопросу о штурме Дон-Кихотом ветряной мельницы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="192">
+        <sentence id="826">
+          <su lang="xx">Bataloj, kiujn oni opiniis la plej grandaj, jam delonge ĉesis influi la historion.</su>
+          <su lang="ru">Битвы, которые считались величайшими, давно перестали влиять на историю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="193">
+        <sentence id="827">
+          <su lang="xx">Oktaviano Aŭgusto venkis floton de Antonio apud Akciumo; kiom da jaroj sentiĝis rezultoj de tiu batalo?</su>
+          <su lang="ru">Октавиан Август разбил флот Антония при Акциуме; сколько лет ощущались результаты этой битвы?</su>
+        </sentence>
+        <sentence id="828">
+          <su lang="xx">Cervantes perdis manon en batalo apud Lepanto.</su>
+          <su lang="ru">Сервантес потерял руку в бою под Лепанто.</su>
+        </sentence>
+        <sentence id="829">
+          <su lang="xx">Ĉu vi bone memoras, kiu kontraŭ kiu batalis kaj per kio finiĝis la batalo?..</su>
+          <su lang="ru">Вы хорошо помните, кто с кем там сражался и чем кончилось сражение?..</su>
+        </sentence>
+      </p>
+      <p type="text" id="194">
+        <sentence id="830">
+          <su lang="xx">Kaj Don-Kiĥoto ankaŭ nun helpas al sturmantoj de neebla.</su>
+          <su lang="ru">А Дон-Кихот и сегодня помогает штурмующим невозможное.</su>
+        </sentence>
+        <sentence id="831">
+          <su lang="xx">En ĉiu venko estas ono de lia partopreno.</su>
+          <su lang="ru">В каждой победе есть доля его участия.</su>
+        </sentence>
+        <sentence id="832">
+          <su lang="xx">Praktika rezulto sentiĝos ankoraŭ longe...</su>
+          <su lang="ru">Практическая отдача будет ощущаться еще долго…</su>
+        </sentence>
+        <sentence id="833">
+          <su lang="xx">Mi asertas: la eksturmo de Don-Kiĥoto al la ventmuelilo estas unu el la plej rezultodonaj bataloj en la historio de la homaro...»</su>
+          <su lang="ru"> Утверждаю: наскок Дон-Кихота на ветряную мельницу — одно из самых результативных сражений в истории человечества…»</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220527T124957Z</creationdate>
+    <paragraphs>7</paragraphs>
+    <langs>
+      <lang id="de">
+        <sentences>25</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>21</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="de">Liu Cixin</s>
+      <s lang="ru">Лю Цы Синь</s>
+    </author>
+    <title>
+      <s lang="de">DIE DREI SONNEN</s>
+      <s lang="ru">Задача трех тел</s>
+    </title>
+    <contents>
+      <s lang="de">Inhalt</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="h2">
+      <header>
+        <su lang="de">Die Drei Sonnen</su>
+        <su lang="ru">Задача трёх тел</su>
+      </header>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="de">Der Angriff der Roten Vereinigung auf das Hauptquartier der Kompanie des 28. April lief bereits seit zwei Tagen.</su>
+          <su lang="ru">Уже второй день Красный союз вел осаду штаба Бригады Красной охраны имени Двадцать восьмого апреля.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Rund um das Gebäude blähten sich ihre roten Fahnen im Wind, wie Flammen, die gierig nach Feuerholz züngelten.</su>
+          <su lang="ru">Вокруг осажденного здания неустанно реяли красные флаги, словно костры, постоянно жаждущие дров.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="de">Dem Kommandeur der Roten Vereinigung stand das Wasser bis zum Hals. Nicht dass er die über zweihundert Rotgardisten der Kompanie des 28. April fürchtete, die das Hauptquartier verteidigten. Sie waren noch unerfahren und konnten sich mit seinen Veteranen der Roten Vereinigung nicht messen, die sich zu Beginn der Großen Proletarischen Kulturrevolution Anfang 1966 zusammengeschlossen hatte und deren Gesinnung im Laufe der revolutionären Kampagnen im ganzen Land und bei den großen Truppenparaden auf dem Tiananmen-Platz erprobt worden war.</su>
+          <su lang="ru">Командира Красного союза снедала тревога, но не из-за противника: две жалкие сотни хунвэйбинов из Бригады имени Двадцать восьмого апреля были просто молокососами по сравнению с бойцами Красного союза, основанного в 1966 году, в самом начале Великой Пролетарской Культурной революции. Хунвэйбины Красного союза, принимавшие участие в революционных походах по всей стране и видевшие выступления Председателя Мао на площади Тяньаньмэнь, были опытными и закаленными бойцами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="de"> Was er dagegen fürchtete, waren über ein Dutzend große Kanonenöfen im Gebäude, die mit hochexplosivem Sprengstoff vollgestopft und über elektrische Sprengzünder miteinander verbunden waren.</su>
+          <su lang="ru"> И все же их командир боялся. Он боялся двух десятков чугунных печек внутри здания, начиненных взрывчаткой и соединенных общим электрическим детонатором.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Er konnte sie zwar nicht sehen, aber wie durch Magnetkraft spürte er, dass sie da waren.</su>
+          <su lang="ru">Он не видел, но чувствовал их, как железо ощущает притяжение магнита.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Wenn einer der Verteidiger den Stromkreis schloss, würden Revolutionäre und Konterrevolutionäre gleichermaßen draufgehen. Wie bei einem Feuer, das die Jade in einem Haufen Steine nicht schont, würden alle in den Flammen umkommen.</su>
+          <su lang="ru">Если кто-то из осажденных переключит рубильник, в гигантском взрыве погибнут все — и революционеры, и контрреволюционеры.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="de">So einen Wahnsinn traute er den von Eifer zerfressenen kleinen Rotgardisten durchaus zu.</su>
+          <su lang="ru">А юнцы из Бригады имени Двадцать восьмого апреля и правда были способны на такое безумие.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Im Vergleich zu den Roten Garden der ersten Stunde, die sich ihre Hörner in den Stürmen der vergangenen Jahre längst abgestoßen hatten, waren die umstürzlerischen Fraktionen der Neuen wie eine Wolfsmeute auf glühenden Kohlen. Verrückter als verrückt.</su>
+          <su lang="ru">В отличие от суровых мужчин и женщин первого поколения хунвэйбинов эти бунтовщики были как стая бешеных волков на раскаленных углях.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="de">Auf dem Dach des Gebäudes erschien die zierliche Gestalt eines hübschen Mädchens, das die große Fahne der Kompanie des 28. April schwenkte.</su>
+          <su lang="ru">Внезапно на крыше здания возникла тонкая фигурка красивой девушки с огромным красным знаменем Бригады в руках.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Ihr Erscheinen löste sofort ein chaotisches Sperrfeuer aus, das aus den verschiedensten Waffen abgefeuert wurde.</su>
+          <su lang="ru">Ее появление было встречено какофонией выстрелов.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Darunter waren Antiquitäten wie amerikanische Karabiner, Maschinenpistolen von tschechischer Bauart und japanische Typ-38-Infanteriegewehre.</su>
+          <su lang="ru">Оружие у нападавших было самое разнообразное: от устаревших американских карабинов, чешских автоматов и японских ружей 38-го калибра до новейших винтовок и пулеметов, принятых на вооружение в Народно-освободительной армии Китая и украденных из ее арсеналов после публикации «Августовской передовицы»[3].</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Andere schossen mit brandneuen Standardinfanteriegewehren und Maschinenpistolen, die sie den Truppen nach Erscheinen des Leitartikels im August gestohlen hatten.</su>
+          <su lang="ru">Здесь были даже копья и китайские мечи — дадао.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Zusammen mit den Schwertern und Säbeln sahen sie aus wie ein dichtgedrängtes Schaubild der neueren Geschichte.</su>
+          <su lang="ru">Вся современная история в сжатом изложении.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="de">Die kleinen Rotgardisten vom 28. April hatten dieses Spielchen schon oft getrieben.</su>
+          <su lang="ru">Члены Бригады и раньше устраивали подобные «показательные выступления».</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Sie stellten sich auf das Dach und schwenkten eine Fahne. Dabei brüllten sie gelegentlich auch noch Parolen durch ein Megafon und warfen Flugblätter auf die Angreifer hinunter.</su>
+          <su lang="ru">Они взбирались на крышу, размахивали флагами, выкрикивали в мегафон лозунги, осыпали нападающих листовками...</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Bislang war es ihnen noch jedes Mal gelungen, unversehrt aus dem Kugelhagel zu entkommen und den Ruhm für ihren Heldenmut zu kassieren.</su>
+          <su lang="ru">Как правило, храбрецы, среди которых были как мужчины, так и женщины, успевали скрыться от града пуль, заслужив почет и славу за свой подвиг.</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="de">Das Mädchen, das sich diesmal auf das Dach gestellt hatte, glaubte offensichtlich, dass es ebenso viel Glück haben würde.</su>
+          <su lang="ru">Девушка на крыше, очевидно, не сомневалась, что ей это тоже удастся.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Es ließ die Kriegsflagge tanzen, als würde es die brennende Leidenschaft seiner Jugend schwenken.</su>
+          <su lang="ru"> Она размахивала боевым знаменем, рдеющим, словно ее пламенная юность, и свято верила, что враги сгорят дотла в огне революции, что завтра из пыла и жара ее крови родится новый, совершенный мир.</su>
+        </sentence>
+        <sentence>
+          <su lang="de">Es vertraute darauf, dass die Flammen der Revolution die Feinde zu Asche verbrennen würden. Dass aus der Begeisterung und der Inbrunst, die durch ihre Adern pulsierten, schon morgen eine ideale neue Welt entstünde.</su>
+          <su lang="ru"> Девушку опьяняла эта сияющая алая мечта... но тут ее грудь пронзила пуля.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

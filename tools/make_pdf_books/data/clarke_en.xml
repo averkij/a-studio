@@ -1,0 +1,951 @@
+<?xml version='1.0' encoding='utf-8'?>
+<book version="0.1">
+  <head>
+    <creationtool>Lingtrain Alignment Studio</creationtool>
+    <creationid>LINGTRAIN</creationid>
+    <creationdate>20220612T160752Z</creationdate>
+    <paragraphs>63</paragraphs>
+    <langs>
+      <lang id="en">
+        <sentences>200</sentences>
+      </lang>
+      <lang id="ru">
+        <sentences>216</sentences>
+      </lang>
+    </langs>
+    <author>
+      <s lang="en">Arthur C. Clarke</s>
+      <s lang="ru">Артур Чарльз Кларк</s>
+    </author>
+    <title>
+      <s lang="en">The Nine Billion Names of God</s>
+      <s lang="ru">Девять миллиардов имён Бога</s>
+    </title>
+    <contents>
+      <s lang="en">Contents</s>
+      <s lang="ru">Содержание</s>
+    </contents>
+  </head>
+  <body>
+    <section type="default">
+      <header>
+        <su lang="en"/>
+        <su lang="ru"/>
+      </header>
+      <p type="text" id="2">
+        <sentence>
+          <su lang="en">"This is a slightly unusual request," said Dr Wagner, with what he hoped was commendable restraint.</su>
+          <su lang="ru"> — Заказ необычный. — Доктор Вагнер старался говорить как можно степеннее.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"As far as I know, it’s the first time anyone’s been asked to supply a Tibetan monastery with an Automatic Sequence Computer.</su>
+          <su lang="ru">— Насколько я понимаю, мы первое предприятие, к которому обращаются с просьбой поставить автоматическую счетную машину для тибетского монастыря.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don’t wish to be inquisitive, but I should hardly have thought that your—ah—establishment had much use for such a machine.</su>
+          <su lang="ru">Не сочтите меня любопытным, но уж очень трудно представить, зачем вашему… э… учреждению нужна такая машина.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Could you explain just what you intend to do with it?"</su>
+          <su lang="ru">Вы не можете объяснить, что вы собираетесь с ней делать?</su>
+        </sentence>
+      </p>
+      <p type="text" id="3">
+        <sentence>
+          <su lang="en">"Gladly," replied the lama, readjusting his silk robes and carefully putting away the slide rule he had been using for currency conversions.</su>
+          <su lang="ru">— Охотно, — ответил лама, поправляя складки шелкового халата и не спеша убирая логарифмическую линейку, с помощью которой производил финансовые расчеты.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Your Mark V Computer can carry out any routine mathematical operation involving up to ten digits.</su>
+          <su lang="ru">— Ваша электронная машина «Модель пять» выполняет любую математическую операцию над числами, вплоть до десятизначных.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">However, for our work we are interested in letters, not numbers.</su>
+          <su lang="ru">Но для решения нашей задачи нужны не цифры, а буквы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As we wish you to modify the output circuits, the machine will be printing words, not columns of figures."</su>
+          <su lang="ru">Вы переделаете выходные цепи, как мы вас просим, и машина будет печатать слова, а не числа.</su>
+        </sentence>
+      </p>
+      <p type="text" id="4">
+        <sentence>
+          <su lang="en">"I don’t quite understand…"</su>
+          <su lang="ru">— Мне не совсем ясно…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"This is a project on which we have been working for the last three centuries—since the lamasery was founded, in fact.</su>
+          <su lang="ru">— Речь идет о проблеме, над которой мы трудимся уже три столетия, со дня основания нашего монастыря.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It is somewhat alien to your way of thought, so I hope you will listen with an open mind while I explain it."</su>
+          <su lang="ru">Человеку вашего образа мыслей трудно это понять, но я надеюсь, вы без предвзятости выслушаете меня.</su>
+        </sentence>
+      </p>
+      <p type="text" id="5">
+        <sentence>
+          <su lang="en">"Naturally."</su>
+          <su lang="ru">— Разумеется.</su>
+        </sentence>
+      </p>
+      <p type="text" id="6">
+        <sentence>
+          <su lang="en">"It is really quite simple.</su>
+          <su lang="ru">— В сущности, это очень просто.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We have been compiling a list which shall contain all the possible names of God."</su>
+          <su lang="ru">Мы составляем список, который включит в себя все возможные имена Бога.</su>
+        </sentence>
+      </p>
+      <p type="text" id="7">
+        <sentence>
+          <su lang="en">"I beg your pardon?"</su>
+          <su lang="ru">— Простите…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"We have reason to believe," continued the lama imperturbably," that all such names can be written with not more than nine letters in an alphabet we have devised."</su>
+          <su lang="ru">— У нас есть основания полагать, — продолжал лама невозмутимо, — что все эти имена можно записать с применением всего лишь девяти букв изобретенной нами азбуки.</su>
+        </sentence>
+      </p>
+      <p type="text" id="8">
+        <sentence>
+          <su lang="en">"And you have been doing this for three centuries?"</su>
+          <su lang="ru">— И вы триста лет занимаетесь этим?</su>
+        </sentence>
+      </p>
+      <p type="text" id="9">
+        <sentence>
+          <su lang="en">"Yes: we expected it would take us about fifteen thousand years to complete the task."</su>
+          <su lang="ru">— Да. По нашим расчетам, потребуется около пятнадцати тысяч лет, чтобы выполнить эту задачу.</su>
+        </sentence>
+      </p>
+      <p type="text" id="10">
+        <sentence>
+          <su lang="en">"Oh," Dr Wagner looked a little dazed.</su>
+          <su lang="ru">— О! — Доктор Вагнер был явно поражен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Now I see why you wanted to hire one of our machines.</su>
+          <su lang="ru">— Теперь я понимаю, для чего вам счетная машина.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But what exactly is the purpose of this project?"</su>
+          <su lang="ru">Но в чем, собственно, смысл всей этой затеи?</su>
+        </sentence>
+      </p>
+      <p type="text" id="11">
+        <sentence>
+          <su lang="en">The lama hesitated for a fraction of a second, and Wagner wondered if he had offended him.</su>
+          <su lang="ru">Лама на мгновение замялся. «Уж не оскорбил ли я его?» спросил себя Вагнер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If so, there was no trace of annoyance in the reply.</su>
+          <su lang="ru">Во всяком случае, когда гость заговорил, ничто в его голосе не выдавало недовольства.</su>
+        </sentence>
+      </p>
+      <p type="text" id="12">
+        <sentence>
+          <su lang="en">"Call it ritual, if you like, but it’s a fundamental part of our belief.</su>
+          <su lang="ru">— Назовите это культом, если хотите, но речь идет о важной составной части нашего вероисповедания.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">All the many names of the Supreme Being—God, Jehova, Allah, and so on—they are only man-made labels.</su>
+          <su lang="ru">Употребляемые нами имена Высшего Существа — Бог, Иегова, Аллах и так далее — всего-навсего придуманные человеком ярлыки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There is a philosophical problem of some difficulty here, which I do not propose to discuss, but somewhere among all the possible combinations of letters that can occur are what one may call the real names of God.</su>
+          <su lang="ru">Тут возникает довольно сложная философская проблема, не стоит сейчас ее обсуждать, но среди всех возможных комбинаций букв кроются, так сказать, действительные имена Бога.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">By systematic permutation of letters, we have been trying to list them all."</su>
+          <su lang="ru">Вот мы и пытаемся выявить их, систематически переставляя буквы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="13">
+        <sentence>
+          <su lang="en">"I see.</su>
+          <su lang="ru">— Понимаю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You’ve been starting at AAAAAAA… and working up to ZZZZZZZZ…"</su>
+          <su lang="ru">Вы начали с комбинации ААААААА… и будете продолжать, пока не дойдете до ЯЯЯЯЯЯЯ…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Exactly—though we use a special alphabet of our own.</su>
+          <su lang="ru">— Вот именно. С той разницей, что мы пользуемся азбукой, которую изобрели сами.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Modifying the electromatic typewriters to deal with this is, of course, trivial.</su>
+          <su lang="ru">Заменить литеры в пишущем устройстве, разумеется, проще всего.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">A rather more interesting problem is that of devising suitable circuits to eliminate ridiculous combinations.</su>
+          <su lang="ru">Гораздо сложнее создать схему, которая позволит исключить заведомо нелепые комбинации.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For example, no letter must occur more than three times in succession."</su>
+          <su lang="ru">Например, ни одна буква не должна повторяться более трех раз подряд.</su>
+        </sentence>
+      </p>
+      <p type="text" id="14">
+        <sentence>
+          <su lang="en">"Three?</su>
+          <su lang="ru">— Трех?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Surely you mean two."</su>
+          <su lang="ru">Вы, конечно, хотели сказать — двух.</su>
+        </sentence>
+      </p>
+      <p type="text" id="15">
+        <sentence>
+          <su lang="en">"Three is correct: I am afraid it would take too long to explain why, even if you understood our language."</su>
+          <su lang="ru">— Нет, именно трех. Боюсь, что объяснение займет слишком много времени, даже если бы вы знали наш язык.</su>
+        </sentence>
+      </p>
+      <p type="text" id="16">
+        <sentence>
+          <su lang="en">"I’m sure it would," said Wagner hastily.</su>
+          <su lang="ru">— Не сомневаюсь, — поспешил согласиться Вагнер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Go on."</su>
+          <su lang="ru">— Продолжайте.</su>
+        </sentence>
+      </p>
+      <p type="text" id="17">
+        <sentence>
+          <su lang="en">"Luckily, it will be a simple matter to adapt your Automatic Sequence Computer for this work, since once it has been programmed properly it will permute each letter in turn and print the result.</su>
+          <su lang="ru">— К счастью, вашу автоматическую счетную машину очень легко приспособить для нашей задачи. Нужно лишь правильно составить программу, а машина сама проверит все сочетания и отпечатает итог.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What would have taken us fifteen thousand years it will be able to do in a hundred days."</su>
+          <su lang="ru">За сто дней будет выполнена работа, на которую у нас ушло бы пятнадцать тысяч лет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="18">
+        <sentence>
+          <su lang="en">Dr Wagner was scarcely conscious of the faint sounds from the Manhattan streets far below.</su>
+          <su lang="ru">Далеко внизу лежали улицы Манхэттена, но доктор Вагнер вряд ли слышал невнятный гул городского транспорта.</su>
+        </sentence>
+      </p>
+      <p type="text" id="19">
+        <sentence>
+          <su lang="en">He was in a different world, a world of natural, not man-made, mountains.</su>
+          <su lang="ru">Мысленно он перенесся в другой мир, мир настоящих гор, а не тех, что нагромождены рукой человека.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">High up in their remote aeries these monks had been patiently at work, generation after generation, compiling their lists of meaningless words.</su>
+          <su lang="ru">Там, уединившись в заоблачной выси, эти монахи из поколения в поколение терпеливо трудятся, составляя списки лишенных всякого смысла слов.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Was there any limit to the follies of mankind?</su>
+          <su lang="ru">Есть ли предел людскому безрассудству?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Still, he must give no hint of his inner thoughts.</su>
+          <su lang="ru">Но нельзя показывать, что ты думаешь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The customer was always right…</su>
+          <su lang="ru">Клиент всегда прав.</su>
+        </sentence>
+      </p>
+      <p type="text" id="20">
+        <sentence>
+          <su lang="en">"There’s no doubt," replied the doctor, "that we can modify the Mark V to print lists of this nature.</su>
+          <su lang="ru">— Несомненно, — сказал доктор, — мы можем переделать «Модель пять», чтобы она печатала нужные вам списки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’m much more worried about the problem of installation and maintenance.</su>
+          <su lang="ru">Меня заботит другое — установка и эксплуатация машины.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Getting out to Tibet, in these days, is not going to be easy."</su>
+          <su lang="ru">В наши дни попасть в Тибет не так-то просто.</su>
+        </sentence>
+      </p>
+      <p type="text" id="21">
+        <sentence>
+          <su lang="en">"We can arrange that.</su>
+          <su lang="ru">— Положитесь на нас.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The components are small enough to travel by air—that is one reason why we chose your machine.</su>
+          <su lang="ru">Части не слишком велики, их можно будет перебросить самолетом.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If you can get them to India, we will provide transport from there."</su>
+          <su lang="ru">Вы только доставьте их в Индию, дальше мы сделаем все сами.</su>
+        </sentence>
+      </p>
+      <p type="text" id="22">
+        <sentence>
+          <su lang="en">"And you want to hire two of our engineers?"</su>
+          <su lang="ru">— И вы хотите нанять двух инженеров нашей фирмы?</su>
+        </sentence>
+      </p>
+      <p type="text" id="23">
+        <sentence>
+          <su lang="en">"Yes, for the three months that the project should occupy."</su>
+          <su lang="ru">— Да, на три месяца, пока не будет завершена программа.</su>
+        </sentence>
+      </p>
+      <p type="text" id="24">
+        <sentence>
+          <su lang="en">"I’ve no doubt that Personnel can manage that."</su>
+          <su lang="ru">— Я уверен, что они выдержат срок.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Dr Wagner scribbled a note on his desk pad.</su>
+          <su lang="ru">— Доктор Вагнер записал что-то в блокноте.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"There are just two other points—"</su>
+          <su lang="ru">— Остается выяснить еще два вопроса…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Before he could finish the sentence the lama had produced a small slip of paper.</su>
+          <su lang="ru">Прежде чем он договорил, лама протянул ему узкую полоску бумаги.</su>
+        </sentence>
+      </p>
+      <p type="text" id="25">
+        <sentence>
+          <su lang="en">"This is my certified credit balance at the Asiatic Bank."</su>
+          <su lang="ru">— Вот документ, удостоверяющий состояние моего счета в Азиатском банке.</su>
+        </sentence>
+      </p>
+      <p type="text" id="26">
+        <sentence>
+          <su lang="en">"Thank you.</su>
+          <su lang="ru">— Благодарю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It appears to be—ah—adequate.</su>
+          <su lang="ru">Как будто… да, все в порядке.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The second matter is so trivial that I hesitate to mention it—but it’s surprising how often the obvious gets overlooked.</su>
+          <su lang="ru">Второй вопрос настолько элементарен, я даже не знаю, как сказать… Но вы не представляете себе, сколь часто люди упускают из виду самые элементарные вещи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">What source of electrical energy have you?"</su>
+          <su lang="ru">Итак, какой у вас источник электроэнергии?</su>
+        </sentence>
+      </p>
+      <p type="text" id="27">
+        <sentence>
+          <su lang="en">"A diesel generator providing fifty kilowatts at a hundred and ten volts.</su>
+          <su lang="ru">— Дизельный генератор мощностью пятьдесят киловатт, напряжение сто десять вольт.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was installed about five years ago and is quite reliable.</su>
+          <su lang="ru">Он установлен пять лет назад и вполне надежен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It’s made life at the lamasery much more comfortable, but of course it was really installed to provide power for the motors driving the prayer wheels."</su>
+          <su lang="ru">Благодаря ему жизнь у нас в монастыре стала гораздо приятнее. Но вообще-то его поставили, чтобы снабжать энергией моторы, которые вращают молитвенные колеса.</su>
+        </sentence>
+      </p>
+      <p type="text" id="28">
+        <sentence>
+          <su lang="en">"Of course," echoed Dr Wagner.</su>
+          <su lang="ru">— Ну конечно, — подхватил доктор Вагнер.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"I should have thought of that."</su>
+          <su lang="ru">— Как я не подумал!</su>
+        </sentence>
+      </p>
+      <p type="text" id="29">
+        <sentence>
+          <su lang="en">The view from the parapet was vertiginous, but in time one gets used to anything.</su>
+          <su lang="ru">С балкона открывался захватывающий вид, но со временем ко всему привыкаешь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After three months, George Hanley was not impressed by the two-thousand-foot swoop into the abyss or the remote checkerboard of fields in the valley below.</su>
+          <su lang="ru">Семисотметровая пропасть, на дне которой распластались шахматные клеточки возделанных участков, уже не пугала Джорджа Хенли.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He was leaning against the wind-smoothed stones and staring morosely at the distant mountains whose names he had never bothered to discover.</su>
+          <su lang="ru">Положив локти на сглаженные ветром камни парапета, он угрюмо созерцал далекие горы, названия которых ни разу не попытался узнать.</su>
+        </sentence>
+      </p>
+      <p type="text" id="30">
+        <sentence>
+          <su lang="en">This, thought George, was the craziest thing that had ever happened to him.</su>
+          <su lang="ru">«Вот ведь влип! — сказал себе Джордж.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Project Shangri-La’, some wit back at the labs had christened it.</su>
+          <su lang="ru">— Более дурацкую затею трудно придумать!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">For weeks now the Mark V had been churning out acres of sheets covered with gibberish.</su>
+          <su lang="ru">Уже которую неделю «Модель пять» выдает горы бумаги, испещренной тарабарщиной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Patiently, inexorably, the computer had been rearranging letters in all their possible combinations, exhausting each class before going on to the next.</su>
+          <su lang="ru">Терпеливо, неутомимо машина переставляет буквы, проверяет все сочетания и, исчерпав возможности одной группы, переходит к следующей.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As the sheets had emerged from the electromatic typewriters, the monks had carefully cut them up and pasted them into enormous books.</su>
+          <su lang="ru">По мере того как пишущее устройство выбрасывает готовые листы, монахи тщательно собирают их и склеивают в толстые книги.</su>
+        </sentence>
+      </p>
+      <p type="text" id="31">
+        <sentence>
+          <su lang="en">In another week, heaven be praised, they would have finished.</su>
+          <su lang="ru">Слава Богу, еще неделя, и все будет закончено.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Just what obscure calculations had convinced the monks that they needn’t bother to go on to words of ten, twenty, or a hundred letters. George didn’t know.</su>
+          <su lang="ru">Какие такие расчеты убедили монахов, что нет надобности исследовать комбинации из десяти, двадцати, ста букв, Джордж не знал.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">One of his recurring nightmares was that there would be some change of plan, and that the high lama (whom they’d naturally called Sam Jaffe, though he didn’t look a bit like him) would suddenly announce that the project would be extended to approximately A.D. 2060.</su>
+          <su lang="ru">И без того его по ночам преследовали кошмары: будто в планах монахов произошли перемены и верховный лама объявил, что программа продлевается до 2060 года…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They were quite capable of it.</su>
+          <su lang="ru">А что, они способны на это!</su>
+        </sentence>
+      </p>
+      <p type="text" id="32">
+        <sentence>
+          <su lang="en">George heard the heavy wooden door slam in the wind as Chuck came out on to the parapet beside him.</su>
+          <su lang="ru">Громко хлопнула тяжелая деревянная дверь, и рядом с Джорджем появился Чак.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">As usual, Chuck was smoking one of the cigars that made him so popular with the monks—who, it seemed, were quite willing to embrace all the minor and most of the major pleasures of life.</su>
+          <su lang="ru">Как обычно, он курил одну из своих сигар, которые помогли ему завоевать расположение монахов. Ламы явно ничего не имели против всех малых и большинства великих радостей жизни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That was one thing hi then: favour: they might be crazy, but they weren’t bluenoses.</su>
+          <su lang="ru">Пусть они одержимые, но ханжами их не назовешь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Those frequent trips they took down to the village, for instance…</su>
+          <su lang="ru">Частенько наведываются вниз, в деревню…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Listen, George," said Chuck urgently.</su>
+          <su lang="ru">— Послушай, Джордж, — взволнованно заговорил Чак.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’ve learned something that means trouble."</su>
+          <su lang="ru">— Неприятные новости!</su>
+        </sentence>
+      </p>
+      <p type="text" id="33">
+        <sentence>
+          <su lang="en">"What’s wrong?</su>
+          <su lang="ru">— Что такое?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Isn’t the machine behaving?"</su>
+          <su lang="ru">Машина капризничает?</su>
+        </sentence>
+      </p>
+      <p type="text" id="34">
+        <sentence>
+          <su lang="en">That was the worst contingency George could imagine.</su>
+          <su lang="ru">Большей неприятности Джордж не мог себе представить.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It might delay his return, and nothing could be more horrible.</su>
+          <su lang="ru">Если начнет барахлить машина, это может — о ужас! — задержать их отъезд.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The way he felt now, even the sight of a TV commercial would seem like manna from heaven.</su>
+          <su lang="ru">Сейчас даже телевизионная реклама казалась ему голубой мечтой.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At least it would be some link with home.</su>
+          <su lang="ru">Все-таки что-то родное…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"No—it’s nothing like that."</su>
+          <su lang="ru">— Нет, совсем не то.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Chuck settled himself on the parapet, which was unusual because normally he was scared of the drop. "I’ve just found what all this is about."</su>
+          <su lang="ru">— Чак сел на парапет; удивительный поступок, если учесть, что он всегда боялся обрыва — Я только что выяснил, для чего они все это затеяли.</su>
+        </sentence>
+      </p>
+      <p type="text" id="35">
+        <sentence>
+          <su lang="en">"What d’ya mean?</su>
+          <su lang="ru">— Не понимаю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I thought we knew."</su>
+          <su lang="ru">Разве нам это не известно?</su>
+        </sentence>
+      </p>
+      <p type="text" id="36">
+        <sentence>
+          <su lang="en">"Sure—we know what the monks are trying to do.</su>
+          <su lang="ru">— Известно, какую задачу поставили себе монахи.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But we didn’t know why.</su>
+          <su lang="ru">Но мы не знали для чего.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It’s the craziest thing—"</su>
+          <su lang="ru">Это такой бред…</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Tell me something new," growled George.</su>
+          <su lang="ru">— Расскажи что-нибудь поновее, — простонал Джордж.</su>
+        </sentence>
+      </p>
+      <p type="text" id="37">
+        <sentence>
+          <su lang="en">"—but old Sam’s just come clean with me.</su>
+          <su lang="ru">— Старик верховный только что разоткровенничался со мной.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">You know the way he drops in every afternoon to watch the sheets roll out.</su>
+          <su lang="ru">Ты знаешь его привычку — каждый вечер заходит посмотреть, как машина выдает листы.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Well, this time he seemed rather excited, or at least as near as he’ll ever get to it.</su>
+          <su lang="ru">Ну вот, сегодня он явно был взволнован — если его вообще можно представить себе взволнованным.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When I told him that we were on the last cycle he asked me, in that cute English accent of his, if I’d ever wondered what they were trying to do.</su>
+          <su lang="ru">Когда я объяснил ему, что идет последний цикл, он спросил меня на своем ломаном английском, задумывался ли я когда-нибудь, чего именно они добиваются.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I said, ‘Sure’—and he told me."</su>
+          <su lang="ru">Конечно, говорю. Он мне и рассказал.</su>
+        </sentence>
+      </p>
+      <p type="text" id="38">
+        <sentence>
+          <su lang="en">"Go on: I’ll buy it."</su>
+          <su lang="ru">— Давай, давай, как-нибудь переварю.</su>
+        </sentence>
+      </p>
+      <p type="text" id="39">
+        <sentence>
+          <su lang="en">"Well, they believe that when they have listed all His names—and they reckon that there are about nine billion of them—God’s purpose will be achieved.</su>
+          <su lang="ru">— Ты послушай: они верят, что, когда перепишут все имена Бога, а этих имен, по их подсчетам, что-то около девяти миллиардов, — осуществится божественное предначертание.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The human race will have finished what it was created to do, and there won’t be any point in carrying on.</su>
+          <su lang="ru">Род человеческий завершит то, ради чего был сотворен, и можно будет поставить точку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Indeed, the very idea is something like blasphemy."</su>
+          <su lang="ru">Мне вся эта идея кажется богохульством.</su>
+        </sentence>
+      </p>
+      <p type="text" id="40">
+        <sentence>
+          <su lang="en">"Then what do they expect us to do?</su>
+          <su lang="ru">— И чего же они ждут от нас?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Commit suicide?"</su>
+          <su lang="ru">Что мы покончим жизнь самоубийством?</su>
+        </sentence>
+      </p>
+      <p type="text" id="41">
+        <sentence>
+          <su lang="en">"There’s no need for that.</su>
+          <su lang="ru">— В этом нет нужды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When the list’s completed, God steps in and simply winds things up… bingo!"</su>
+          <su lang="ru">Как только список будет готов, Бог сам вмешается и подведет черту.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Oh, I get it.</su>
+          <su lang="ru">Амба!</su>
+        </sentence>
+      </p>
+      <p type="text" id="42">
+        <sentence>
+          <su lang="en">When we finish our job, it will be the end of the world."</su>
+          <su lang="ru">— Понял: как только мы закончим нашу работу, наступит конец света.</su>
+        </sentence>
+      </p>
+      <p type="text" id="43">
+        <sentence>
+          <su lang="en">Chuck gave a nervous little laugh.</su>
+          <su lang="ru">Чак нервно усмехнулся.</su>
+        </sentence>
+      </p>
+      <p type="text" id="44">
+        <sentence>
+          <su lang="en">"That’s just what I said to Sam.</su>
+          <su lang="ru">— То же самое я сказал верховному.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">And do you know what happened?</su>
+          <su lang="ru">И знаешь, что было?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He looked at me in a very queer way, like I’d been stupid in class, and said, ‘It’s nothing as trivial as that.’</su>
+          <su lang="ru">Он поглядел на меня так, словно я сморозил величайшую глупость, и сказал: «Какие пустяки вас заботят».</su>
+        </sentence>
+      </p>
+      <p type="text" id="45">
+        <sentence>
+          <su lang="en">George thought this over for a moment.</su>
+          <su lang="ru">Джордж призадумался.</su>
+        </sentence>
+      </p>
+      <p type="text" id="46">
+        <sentence>
+          <su lang="en">"That’s what I call taking the Wide View," he said presently.</su>
+          <su lang="ru">— Ничего не скажешь, широкий взгляд на вещи, — произнес он наконец.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"But what d’you suppose we should do about it?</su>
+          <su lang="ru">— Но что мы-то можем тут поделать?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don’t see that it makes the slightest difference to us.</su>
+          <su lang="ru">Твое открытие ничего не меняет.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After all, we already knew that they were crazy."</su>
+          <su lang="ru">Будто мы и без того не знали, что они помешанные.</su>
+        </sentence>
+      </p>
+      <p type="text" id="47">
+        <sentence>
+          <su lang="en">"Yes—but don’t you see what may happen?</su>
+          <su lang="ru">— Верно, но неужели ты не понимаешь, чем это может кончиться?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When the list’s complete and the Last Trump doesn’t blow—or whatever it is they expect—we may get the blame.</su>
+          <su lang="ru">Мы выполним программу, а Судный день не наступит. Они возьмут, да нас обвинят.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It’s our machine they’ve been using.</su>
+          <su lang="ru">Машина-то наша.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I don’t like the situation one little bit."</su>
+          <su lang="ru">Нет, не нравится мне все это.</su>
+        </sentence>
+      </p>
+      <p type="text" id="48">
+        <sentence>
+          <su lang="en">"I see," said George slowly.</su>
+          <su lang="ru">— Дошло, — медленно сказал Джордж.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"You’ve a point there.</su>
+          <su lang="ru">— Пожалуй, ты прав.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But this sort of thing’s happened before, you know.</su>
+          <su lang="ru">Но ведь это не ново, такое и раньше случалось.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">When I was a kid down in Louisiana we had a crackpot preacher who once said the world was going to end next Sunday.</su>
+          <su lang="ru">Помню, в детстве у нас в Луизиане объявился свихнувшийся проповедник, который твердил, что в следующее воскресенье наступит конец света.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Hundreds of people believed him—even sold then: homes.</su>
+          <su lang="ru">Сотни людей поверили ему, некоторые даже продали свои дома.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Yet when nothing happened, they didn’t turn nasty, as you’d expect.</su>
+          <su lang="ru">А когда ничего не произошло, они не стали возмущаться, не думай.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They just decided that he’d made a mistake in his calculations and went right on believing.</su>
+          <su lang="ru">Просто решили, что он ошибся в своих расчетах, и продолжали веровать.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I guess some of them still do."</su>
+          <su lang="ru">Не удивлюсь, что некоторые из них до сих пор ждут конца света.</su>
+        </sentence>
+      </p>
+      <p type="text" id="49">
+        <sentence>
+          <su lang="en">"Well, this isn’t Louisiana, in case you hadn’t noticed.</su>
+          <su lang="ru">— Позволь напомнить, мы не в Луизиане.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There are just two of us and hundreds of these monks.</su>
+          <su lang="ru">И нас двое, а этих лам несколько сотен.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I like them, and I’ll be sorry for old Sam when his life backfires on him.</su>
+          <su lang="ru">Они славные люди, и жаль старика, если рухнет дело всей его жизни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But all the same, I wish I was somewhere else."</su>
+          <su lang="ru">Но я все-таки предпочел бы быть где-нибудь в другом месте.</su>
+        </sentence>
+      </p>
+      <p type="text" id="50">
+        <sentence>
+          <su lang="en">"I’ve been wishing that for weeks.</su>
+          <su lang="ru">— Я об этом давно мечтаю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">But there’s nothing we can do until the contract’s finished and the transport arrives to fly us out."</su>
+          <su lang="ru">Но мы ничего не можем поделать, пока не выполним контракт и за нами не прилетят.</su>
+        </sentence>
+      </p>
+      <p type="text" id="51">
+        <sentence>
+          <su lang="en">"Of course," said Chuck thoughtfully, "we could always try a bit of sabotage."</su>
+          <su lang="ru">— А что, если подстроить что-нибудь?</su>
+        </sentence>
+      </p>
+      <p type="text" id="52">
+        <sentence>
+          <su lang="en">"Like hell we could!</su>
+          <su lang="ru">— Черта с два!</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That would make things worse."</su>
+          <su lang="ru">Только хуже будет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="53">
+        <sentence>
+          <su lang="en">"Not the way I meant. Look at it like this.</su>
+          <su lang="ru">— Не торопись, послушай.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The machine will finish its run four days from now, on the present twenty-hours-a-day basis.</su>
+          <su lang="ru">При нынешнем темпе работы — двадцать часов в сутки — машина закончит все в четыре дня.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The transport calls in a week.</su>
+          <su lang="ru">Самолет прилетит через неделю.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">O.K.—then all we need to do is to find something that needs replacing during one of the overhaul periods—something that will hold up the works for a couple of days.</su>
+          <su lang="ru">Значит, нужно только во время очередной наладки найти какую-нибудь деталь, требующую замены. Так, чтобы оттянуть программу денька на два, не больше.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">We’ll fix it, of course, but not too quickly.</su>
+          <su lang="ru">Исправим не торопясь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">If we time matters properly, we can be down at the airfield when the last name pops out of the register.</su>
+          <su lang="ru">И если сумеем все верно рассчитать, мы будем на аэродроме в тот миг, когда машина выдаст последнее имя.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">They won’t be able to catch us then."</su>
+          <su lang="ru">Тогда им уже нас не перехватить.</su>
+        </sentence>
+      </p>
+      <p type="text" id="54">
+        <sentence>
+          <su lang="en">"I don’t like it," said George.</su>
+          <su lang="ru">— Не нравится мне твой замысел, — ответил Джордж.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"It will be the first time I ever walked out on a job.</su>
+          <su lang="ru">— Не было случая, чтобы я не довел до конца начатую работу.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Besides, it would make them suspicious.</su>
+          <su lang="ru">Не говоря уже о том, что они сразу заподозрят неладное.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No, I’ll sit tight and take what comes."</su>
+          <su lang="ru">Нет уж, лучше дотяну до конца, будь что будет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="55">
+        <sentence>
+          <su lang="en">"I still don’t like it," he said, seven days later, as the tough little mountain ponies carried them down the winding road.</su>
+          <su lang="ru">— Я и теперь не одобряю нашего побега, — сказал он семь дней спустя, когда они верхом на крепких горных лошадках ехали вниз по извилистой дороге.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"And don’t you think I’m running away because I’m afraid.</su>
+          <su lang="ru">— И не подумай, что я удираю, потому что боюсь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">I’m just sorry for those poor old guys up there, and I don’t want to be around when they find what suckers they’ve been.</su>
+          <su lang="ru">Просто мне жаль этих бедняг, не хочется видеть их огорчение, когда они убедятся, что опростоволосились.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Wonder how Sam will take it?"</su>
+          <su lang="ru">Интересно, как верховный это примет?..</su>
+        </sentence>
+      </p>
+      <p type="text" id="56">
+        <sentence>
+          <su lang="en">"It’s funny," replied Chuck, "but when I said good-bye I got the idea he knew we were walking out on him—and that he didn’t care because he knew the machine was running smoothly and that the job would soon be finished.</su>
+          <su lang="ru">— Странно, — отозвался Чак, — когда я прощался с ним, мне показалось, что он нас раскусил и отнесся к этому совершенно спокойно. Все равно машина работает исправно, и задание скоро будет выполнено.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">After that—well, of course, for him there just isn’t any After That…"</su>
+          <su lang="ru">А потом… Впрочем, в его представлении никакого «потом» не будет.</su>
+        </sentence>
+      </p>
+      <p type="text" id="57">
+        <sentence>
+          <su lang="en">George turned in his saddle and stared back up the mountain road.</su>
+          <su lang="ru">Джордж повернулся в седле и поглядел вверх.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This was the last place from which one could get a clear view of the lamasery.</su>
+          <su lang="ru">С этого места в последний раз открывался вид на монастырь.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The squat, angular buildings were silhouetted against the afterglow of the sunset: here and there, lights gleamed like portholes in the side of an ocean liner.</su>
+          <su lang="ru">Приземистые угловатые здания четко вырисовывались на фоне закатного неба; тут и там, точно иллюминаторы океанского лайнера, светились огни.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Electric lights, of course, sharing the same circuit as the Mark V. How much longer would they share it? wondered George.</su>
+          <su lang="ru">Электрические, разумеется, питающиеся от того же источника, что и «Модель пять». «Сколько еще продлится это сосуществование?» — спросил себя Джордж.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Would the monks smash up the computer in their rage and disappointment?</su>
+          <su lang="ru">Разочарованные монахи способны сгоряча разбить вдребезги вычислительную машину.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Or would they just sit down quietly and begin their calculations all over again?</su>
+          <su lang="ru">Или они преспокойно начнут все свои расчеты сначала?..</su>
+        </sentence>
+      </p>
+      <p type="text" id="58">
+        <sentence>
+          <su lang="en">He knew exactly what was happening up on the mountain at this very moment.</su>
+          <su lang="ru">Он ясно представлял себе, что в этот миг происходит на горе.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The high lama and his assistants would be sitting in their silk robes, inspecting the sheets as the junior monks carried them away from the typewriters and pasted them into the great volumes.</su>
+          <su lang="ru">Верховный лама и его помощники сидят в своих шелковых халатах, изучая листки, которые рядовые монахи собирают в книги.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">No one would be saying anything.</su>
+          <su lang="ru">Никто не произносит ни слова.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The only sound would be the incessant patter, the never-ending rainstorm of the keys hitting the paper, for the Mark V itself was utterly silent as it flashed through its thousands of calculations a second.</su>
+          <su lang="ru">Единственный звук — нескончаемая дробь, как от вечного ливня: стучат по бумаге рычаги пишущего устройства. Сама «Модель пять» выполняет свою тысячу вычислений в секунду бесшумно.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Three months of this, thought George, was enough to start anyone climbing up the wall.</su>
+          <su lang="ru">«Три месяца… — подумал Джордж. — Да тут кто угодно свихнется!»</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"There she is!" called Chuck, pointing down into the valley.</su>
+          <su lang="ru">— Вот он! — воскликнул Чак, показывая вниз, в долину.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">"Ain’t she beautiful!"</su>
+          <su lang="ru">— Правда, хорош?</su>
+        </sentence>
+      </p>
+      <p type="text" id="59">
+        <sentence>
+          <su lang="en">She certainly was, thought George.</su>
+          <su lang="ru">«Правда», — мысленно согласился Джордж.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The battered old DC3 lay at the end of the runway like a tiny silver cross.</su>
+          <su lang="ru">Старый, видавший виды самолет серебряным крестиком распластался в начале дорожки.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">In two hours she would be bearing them away to freedom and sanity.</su>
+          <su lang="ru">Через два часа он понесет их к свободе и разуму.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was a thought worth savouring like a fine liqueur.</su>
+          <su lang="ru">Эту мысль хотелось смаковать, как рюмку хорошего ликера.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">George let it roll round his mind as the pony trudged patiently down the slope.</su>
+          <su lang="ru">Джордж упивался ею, покачиваясь в седле.</su>
+        </sentence>
+      </p>
+      <p type="text" id="60">
+        <sentence>
+          <su lang="en">The swift night of the high Himalayas was now almost upon them.</su>
+          <su lang="ru">Гималайская ночь почти настигла их.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Fortunately, the road was very good, as roads went hi that region, and they were both carrying torches.</su>
+          <su lang="ru">К счастью, дорога хорошая, как и все местные дороги. И у них есть фонарики.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">There was not the slightest danger, only a certain discomfort from the bitter cold.</su>
+          <su lang="ru">Никакой опасности, только холод досаждает.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">The sky overhead was perfectly clear, and ablaze with the familiar, friendly stars.</su>
+          <su lang="ru">В удивительно ясном небе сверкали знакомые звезды.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">At least there would be no risk, thought George, of the pilot being unable to take off because of weather conditions.</su>
+          <su lang="ru">«Во всяком случае, — подумал Джордж, — из-за погоды не застрянем».</su>
+        </sentence>
+        <sentence>
+          <su lang="en">That had been his only remaining worry.</su>
+          <su lang="ru">Единственное, что его еще тревожило.</su>
+        </sentence>
+      </p>
+      <p type="text" id="61">
+        <sentence>
+          <su lang="en">He began to sing, but gave it up after a while.</su>
+          <su lang="ru">Он запел, но вскоре смолк.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">This vast arena of mountains, gleaming like whitely hooded ghosts on every side, did not encourage such ebullience.</su>
+          <su lang="ru">Могучие, величавые горы с белыми шапками вершин не располагали к бурному проявлению чувств.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Presently George glanced at his watch.</su>
+          <su lang="ru">Джордж посмотрел на часы.</su>
+        </sentence>
+      </p>
+      <p type="text" id="62">
+        <sentence>
+          <su lang="en">"Should be there hi an hour," he called back over his shoulder to Chuck.</su>
+          <su lang="ru">— Еще час, и будем на аэродроме, — сообщил он через плечо Чаку.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Then he added, in an afterthought: "Wonder if the computer’s finished its run.</su>
+          <su lang="ru">И добавил чуть погодя: — Интересно, как там машина — уже закончила?</su>
+        </sentence>
+        <sentence>
+          <su lang="en">It was due about now."</su>
+          <su lang="ru">По времени — как раз.</su>
+        </sentence>
+      </p>
+      <p type="text" id="63">
+        <sentence>
+          <su lang="en">Chuck didn’t reply, so George swung round in his saddle.</su>
+          <su lang="ru">Чак не ответил, и Джордж повернулся к нему.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">He could just see Chuck’s face, a white oval turned towards the sky.</su>
+          <su lang="ru">Он с трудом различил лицо друга — обращенное к небу белое пятно.</su>
+        </sentence>
+      </p>
+      <p type="text" id="64">
+        <sentence>
+          <su lang="en">"Look," whispered Chuck, and George lifted his eyes to heaven.</su>
+          <su lang="ru">— Смотри, — прошептал Чак, и Джордж тоже обратил взгляд к небесам.</su>
+        </sentence>
+        <sentence>
+          <su lang="en">(There is always a last tune for everything.)</su>
+          <su lang="ru">(Все когда-нибудь происходит в последний раз.)</su>
+        </sentence>
+        <sentence>
+          <su lang="en">Overhead, without any fuss, the stars were going out.</su>
+          <su lang="ru">Высоко над ними тихо, без шума одна за другой гасли звезды.</su>
+        </sentence>
+      </p>
+    </section>
+  </body>
+</book>

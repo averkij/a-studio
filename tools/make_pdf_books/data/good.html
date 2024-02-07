@@ -1,0 +1,104 @@
+<html>
+   <title>Lingtrain Magic Book -
+      			The Luckiest Man in the World / Самый везучий человек в мире
+   </title>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+	  <style>
+	 
+	
+.cont {
+	width:720px;
+}
+
+.u1 {
+	display:inline;
+	line-height: 3em;
+	position: relative;
+}
+
+.sub {
+	position: absolute;
+	top: 0px;
+	width:720px;
+	display: block;
+	
+}
+ 
+
+    <!-- position: absolute; -->
+    <!-- content: ">>>НАЧАЛО текст на другом языке очень длинный текст на другом языке очень длинныйтекст на другом языке очень длинный текст на другом языке очень другом"; -->
+    <!-- display: block; -->
+    <!-- margin-top: 0px; -->
+    <!-- top: 0; -->
+    <!-- /* left: 0; */ -->
+    <!-- color: lightseagreen; -->
+    <!-- width: 700px; -->
+    <!-- text-indent: unset; -->
+	
+
+		</style>
+		
+		<script>
+			
+			(function(window, document, undefined){
+
+			  window.onload = init;
+
+			  function init(){
+				<!-- var offsets = document.getElementById('sub1').getBoundingClientRect(); -->
+				<!-- console.log(offsets); -->
+				
+				var marks = document.getElementsByClassName('mark');
+				for (var i = 0; i < marks.length; ++i) {
+					var m = marks[i];  
+					var offsets = m.getBoundingClientRect();
+					console.log(offsets);
+					
+					let name = "sub" + i
+					
+					console.log(name)
+					
+					var sub = document.getElementById(name);
+					
+					console.log(sub)
+					
+					if (sub) {
+						sub.style.textIndent = offsets.x - 5 + "px";
+						};
+					
+				}
+			  }
+
+			})(window, document, undefined);
+
+		</script>
+
+   </head>
+   
+   <body>
+ 
+	 
+	<div class="cont">
+	 
+		<div class="u1"><span><span class="mark" id="m0">111111111 consectetur  adipiscing elit elit elitconsectetur adipiscing adipiscing  elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elit  elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elit</span><span class="sub" id="sub0" style="color:red">>>>НАЧАЛО текст на другом языке очень длинный текст на другом языке очень длинныйтекст на другом языке очень длинный текст на другом языке очень другом</span>
+		</div>
+		 
+		<div class="u1" id="cont1"><span><span class="mark" id="m1"></span>22222222222 consectetit elit elitconsectetur adipiscing adipiscing elit elit elitcolit elit elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing ansectetur adipiscing adipiscing elit elit elit  elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elit</span><span id="sub1" class="sub" style="color:red">>>>НАЧАЛО текст на другом языке очень длинный текст на другом языке очень длинныйтекст на другом языке очень длинный текст на другом языке очень другом</span>
+		</div>
+		
+		<div class="u1" id="cont1"><span><span class="mark" id="m2"></span>22222222222 consectetur adipiscing adipiscing eliur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elit  elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elit</span><span id="sub2" class="sub" style="color:red">>>>НАЧАЛО текст на другом языке очень длинный текст на другом языке очень длинныйтекст на другом языке очень длинный текст на другом языке очень другом</span>
+		</div>
+		
+		<div class="u1" id="cont1"><span><span class="mark" id="m2"></span>22222222222 consectetur adipiscing adipiscing edipiscing elit elit elit  elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elit</span><span id="sub3" class="sub" style="color:red">>>>НАЧАЛО текст на другом языке очень длинный текст на другом языке очень длинныйтекст на другом языке очень длинный текст на другом языке очень другом</span>
+		</div>
+		
+		<div class="u1" id="cont1"><span><span class="mark" id="m2"></span>22222222222 cur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elit  elitconsectetur adipiscing adipiscing elit elit elitconsectetur adipiscing adipiscing elit elit elit</span><span id="sub4" class="sub" style="color:red">>>>НАЧАЛО текст на другом языке очень длинный текст на другом языке очень длинныйтекст на другом языке очень длинный текст на другом языке очень другом</span>
+		</div>
+   
+	</div>
+   
+   
+   </body>
+   </html>
