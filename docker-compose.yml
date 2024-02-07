@@ -9,3 +9,6 @@ services:
     volumes:
       - ${APP_DATA_PATH}:/app/data
       - ${APP_IMG_PATH}:/app/static/img
+      - ${APP_CACHE_PATH}:/app/models_cache
+    environment:
+      MODEL_NAME: ${MODEL_NAME}
