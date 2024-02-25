@@ -16,6 +16,7 @@ backend/static/img
 dev/data/*
 dev/img/*
 dev/models_cache/*
+backend/models_cache/*
 **/covers
 **/node_modules
 tools/pdf/data/_cat_jp.xml
