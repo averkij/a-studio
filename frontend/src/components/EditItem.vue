@@ -5,12 +5,24 @@
       <div class="cell-top-menu">
         <div class="px-2 py-0 font-weight-bold text-caption d-flex">
           <div class="px-2 cell-top-menu-item" @click="editAddEmptyLineAfter()">
-            + строка
+            добавить
           </div>
           <!-- ↑ ↓ -->
           <div class="px-2 cell-top-menu-item" @click="editDeleteLine()">
             удалить
           </div>
+          <div class="px-2 cell-top-menu-item" @click="showSplitDialog('from')">
+            разделить слева
+          </div>
+          <div class="px-2 cell-top-menu-item" @click="showSplitDialog('to')">
+            разделить справа
+          </div>
+          <SplitSentenceDialog
+            ref="sentSplitDialog"
+            v-model="showSplitSentenceDialog"
+            :text="textToSplit"
+            @splitSentence="splitSentence"
+          />
           <v-spacer></v-spacer>
           <div class="px-2 cell-top-menu-item">
             строка {{ item.index_id + 1 }}
@@ -351,6 +363,7 @@
 import // DEFAULT_VARIANTS_WINDOW_TO
 "@/common/config";
 import { STATE_SAVED, STATE_CHANGED, RESULT_OK } from "@/common/constants";
+import SplitSentenceDialog from "@/components/SplitSentenceDialog";
 import { Helper } from "@/common/helper";
 export default {
   name: "EditItem",
@@ -381,9 +394,39 @@ export default {
       editedToText: "",
       shiftFrom: 0,
       shiftTo: 0,
+      showSplitSentenceDialog: false,
+      textToSplit: "",
     };
   },
   methods: {
+    showSplitDialog(side) {
+      if (side == "from") {
+        if (this.lineIdFromNums.length != 1) {
+          alert(
+            `Разделить можно только одно предложение. Строки в разделяемой ячейке: [${this.lineIdFrom}].`
+          );
+          return;
+        } else {
+          this.textToSplit = this.item.text_from;
+          this.splitSide = "from";
+        }
+      } else {
+        if (this.lineIdToNums.length != 1) {
+          alert(
+            `Разделить можно только одно предложение. Строки в разделяемой ячейке: [${this.lineIdTo}].`
+          );
+          return;
+        } else {
+          this.textToSplit = this.item.text_to;
+          this.splitSide = "to";
+        }
+      }
+      this.$refs.sentSplitDialog.init();
+      this.showSplitSentenceDialog = true;
+    },
+    splitSentence(part1, part2) {
+      console.log(part1, part2, this.splitSide);
+    },
     getCandidates(textType, shift) {
       this.$emit(
         "getCandidates",
@@ -618,6 +661,12 @@ export default {
         })
         .join(", ");
     },
+    lineIdFromNums() {
+      return JSON.parse(this.item.line_id_from);
+    },
+    lineIdToNums() {
+      return JSON.parse(this.item.line_id_to);
+    },
     prevLineIdTo() {
       //correct
       return JSON.parse(this.prevItem.line_id_to)[0];
@@ -667,5 +716,6 @@ export default {
       this.editedToText = "";
     },
   },
+  components: { SplitSentenceDialog },
 };
 </script>
