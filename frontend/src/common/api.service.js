@@ -437,6 +437,18 @@ export const ItemsService = {
       form
     );
   },
+  splitSentence(params) {
+    let form = new FormData();
+    form.append("direction", params.direction);
+    form.append("line_id", params.lineId);
+    form.append("part1", params.part1);
+    form.append("part2", params.part2);
+    return ApiService.post(
+      "items",
+      `${params.username}/processing/${params.langCodeFrom}/${params.langCodeTo}/${params.guid}/split`,
+      form
+    );
+  },
   getContents() {
     return ApiService.get(
       "items",

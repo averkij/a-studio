@@ -425,7 +425,24 @@ export default {
       this.showSplitSentenceDialog = true;
     },
     splitSentence(part1, part2) {
-      console.log(part1, part2, this.splitSide);
+      let line_id = this.lineIdFromNums[0];
+      if (this.splitSide == "to") {
+        line_id = this.lineIdToNums[0];
+      }
+
+      console.log("split line", part1, part2, line_id, this.splitSide);
+      this.$emit(
+        "splitSentence",
+        this.splitSide,
+        line_id,
+        part1,
+        part2
+        // this.item.index_id,
+        // newText,
+        // textType,
+        // this.item.batch_id,
+        // this.item.batch_index_id
+      );
     },
     getCandidates(textType, shift) {
       this.$emit(

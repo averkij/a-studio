@@ -14,8 +14,10 @@
       </v-row>
       <v-row class="ma-0 mt-0 px-7">
         <v-col>
-          <v-textarea rows="3" label="Part 1" v-model="part1"> </v-textarea>
-          <v-textarea rows="3" label="Part 2" v-model="part2"> </v-textarea>
+          <v-textarea rows="3" label="Part 1" v-model="part1" outlined>
+          </v-textarea>
+          <v-textarea rows="3" label="Part 2" v-model="part2" outlined>
+          </v-textarea>
         </v-col>
       </v-row>
 

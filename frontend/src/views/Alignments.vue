@@ -847,6 +847,7 @@
               @editClearLine="editClearLine"
               @getCandidates="getCandidates"
               @editAddCandidateEnd="editAddCandidateEnd"
+              @splitSentence="splitSentence"
               :item="line"
               :prevItem="i == 0 ? processing.items[0] : processing.items[i - 1]"
               :collapse="triggerCollapseEditItem"
@@ -1161,6 +1162,7 @@ import {
   DOWNLOAD_SPLITTED,
   UPDATE_VISUALIZATION,
   FIND_LINE_POSITION_IN_INDEX,
+  SPLIT_SENTENCE,
 } from "@/store/actions.type";
 import { SET_ITEMS_PROCESSING, SET_SPLITTED } from "@/store/mutations.type";
 
@@ -1255,6 +1257,18 @@ export default {
     };
   },
   methods: {
+    splitSentence(side, line_id, part1, part2) {
+      this.$store.dispatch(SPLIT_SENTENCE, {
+        direction: side,
+        lineId: line_id,
+        part1: part1,
+        part2: part2,
+        langCodeFrom: this.langCodeFrom,
+        langCodeTo: this.langCodeTo,
+        guid: this.selectedProcessingId,
+        username: this.$route.params.username,
+      });
+    },
     toSlide(index) {
       this.$refs.mySwiper.$swiper.slideTo(index, 0);
     },

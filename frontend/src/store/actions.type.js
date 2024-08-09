@@ -27,6 +27,7 @@ export const STOP_ALIGNMENT = "stop_alignment";
 
 export const EDIT_PROCESSING = "edit_processing";
 export const EDIT_PROCESSING_MARK_UNUSED = "edit_processing_mark_unused";
+export const SPLIT_SENTENCE = "split_sentence";
 
 export const DOWNLOAD_PROCESSING = "download_processing";
 export const DOWNLOAD_SPLITTED = "download_splitted";
@@ -45,3 +46,6 @@ export const GET_ALIGNMENT_MARKS = "get_alignment_marks";
 export const ADD_ALIGNMENT_MARK = "add_alignment_mark";
 export const BULK_ADD_ALIGNMENT_MARK = "bulk_add_alignment_mark";
 export const EDIT_ALIGNMENT_MARK = "edit_alignment_mark";
+
+
+export const AAA = "dddddddddddddddddddddddd";

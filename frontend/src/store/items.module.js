@@ -40,7 +40,8 @@ import {
   FIND_LINE_POSITION_IN_INDEX,
   ADD_ALIGNMENT_MARK,
   BULK_ADD_ALIGNMENT_MARK,
-  EDIT_ALIGNMENT_MARK
+  EDIT_ALIGNMENT_MARK,
+  SPLIT_SENTENCE,
 } from "./actions.type";
 
 import {
@@ -377,6 +378,12 @@ export const actions = {
       }
     );
     return;
+  },
+  async [SPLIT_SENTENCE](context, params) {
+    await ItemsService.splitSentence(params).then(() => {},
+      () => {
+        console.log("split sentence error", params)
+      });
   },
 };
 
