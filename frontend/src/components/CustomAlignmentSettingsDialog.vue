@@ -56,7 +56,7 @@ export default {
     },
     init() {
       this.range = [0, this.totalBatches - 1];
-    }
+    },
   },
   computed: {
     show: {
