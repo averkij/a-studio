@@ -1182,6 +1182,36 @@ def edit_processing(username, lang_from, lang_to, align_guid):
 
 
 @app.route(
+    "/items/<username>/processing/<lang_from>/<lang_to>/<align_guid>/split",
+    methods=["POST"],
+)
+def split_sentence(username, lang_from, lang_to, align_guid):
+    """Split sentence"""
+    db_folder = os.path.join(
+        con.UPLOAD_FOLDER, username, con.DB_FOLDER, lang_from, lang_to
+    )
+    db_path = os.path.join(db_folder, f"{align_guid}.db")
+    if not os.path.isfile(db_path):
+        abort(404)
+    direction = request.form.get("direction", "")
+    if direction not in ["from", "to"]:
+        return ("Wrong parameter: side.", 404)
+    line_id, _ = misc.try_parse_int(request.form.get("line_id", -1))
+    part1 = request.form.get("part1", "")
+    part2 = request.form.get("part2", "")
+
+    helper.ensure_splitted_pk_is_not_exists(db_path, direction)
+    helper.insert_new_splitted_line(db_path, direction, line_id - 1)
+    helper.update_splitted_text(db_path, direction, line_id, part1)
+    helper.update_splitted_text(db_path, direction, line_id + 1, part2)
+    helper.update_processing_mapping(db_path, direction, line_id)
+    aligner.update_index_mapping(db_path, direction, line_id)
+    helper.update_processing_text(db_path, direction, line_id, part1)
+
+    return ("", 200)
+
+
+@app.route(
     "/items/<username>/splitted/<lang_from>/<lang_to>/<align_guid>/download/<lang>/<direction>",
     methods=["GET"],
 )
