@@ -6,9 +6,6 @@
         >Following sentence will be splitted into two. Lines numeration will be
         handled everywhere in the alignment.</v-card-text
       >
-      <!-- <v-row class="ma-0 mt-0 px-7">
-        <v-col class="text-overline"> Sentence to split:</v-col>
-      </v-row> -->
       <v-row class="ma-0 mt-0 px-7">
         <v-col> {{ text }}</v-col>
       </v-row>
@@ -24,7 +21,15 @@
       <v-card-actions>
         <v-btn color="primary" text @click="show = false"> Close </v-btn>
         <v-spacer></v-spacer>
-        <v-btn color="primary" dark width="120px" @click="split"> Split </v-btn>
+        <v-btn
+          color="primary"
+          :disabled="inProgress"
+          :loading="inProgress"
+          width="120px"
+          @click="split"
+        >
+          Split
+        </v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>
@@ -36,11 +41,13 @@ export default {
   props: {
     value: Boolean,
     text: String,
+    inProgress: Boolean,
   },
   data() {
     return {
       part1: "",
       part2: "",
+      splitStarted: false,
     };
   },
   methods: {
@@ -49,6 +56,8 @@ export default {
     },
     init() {
       setTimeout(() => {
+        this.part1 = "";
+        this.part2 = "";
         let splitted = this.text.split(".");
         if (splitted.length > 1) {
           this.part1 = splitted[0] + ".";
@@ -64,6 +73,8 @@ export default {
               this.part2 = splitted[1] + ".";
             }
           }
+          this.part1 = this.part1.trim();
+          this.part2 = this.part2.trim();
         }
       }, 100);
     },
@@ -76,6 +87,16 @@ export default {
       set(value) {
         this.$emit("input", value);
       },
+    },
+  },
+  watch: {
+    inProgress(value) {
+      if (!value & this.splitStarted) {
+        this.show = false;
+      }
+      if (value) {
+        this.splitStarted = true;
+      }
     },
   },
 };

@@ -857,6 +857,7 @@
               :panelColor="'green'"
               :proxy_from_dict="processing.proxy_from_dict"
               :proxy_to_dict="processing.proxy_to_dict"
+              :splittingInProgress="sentenceSplittingInProgress"
             >
             </EditItem>
             <v-divider></v-divider>
@@ -1200,6 +1201,7 @@ export default {
       triggerExpandEditItem: false,
       triggerClearCandidates: false,
       userAlignInProgress: false,
+      sentenceSplittingInProgress: false,
       showProxyTo: SettingsHelper.getShowProxyTo(),
       showAllTo: SettingsHelper.getShowAllTo(),
       showAllFrom: SettingsHelper.getShowAllFrom(),
@@ -1257,17 +1259,73 @@ export default {
     };
   },
   methods: {
-    splitSentence(side, line_id, part1, part2) {
-      this.$store.dispatch(SPLIT_SENTENCE, {
-        direction: side,
-        lineId: line_id,
-        part1: part1,
-        part2: part2,
-        langCodeFrom: this.langCodeFrom,
-        langCodeTo: this.langCodeTo,
-        guid: this.selectedProcessingId,
-        username: this.$route.params.username,
-      });
+    splitSentence(
+      side,
+      line_id,
+      part1,
+      part2,
+      index_id,
+      batch_id,
+      batch_index_id
+    ) {
+      this.sentenceSplittingInProgress = true;
+      this.$store
+        .dispatch(SPLIT_SENTENCE, {
+          direction: side,
+          lineId: line_id,
+          part1: part1,
+          part2: part2,
+          langCodeFrom: this.langCodeFrom,
+          langCodeTo: this.langCodeTo,
+          guid: this.selectedProcessingId,
+          username: this.$route.params.username,
+        })
+        .then(() => {
+          this.editAddEmptyLineAfter(
+            index_id,
+            batch_id,
+            batch_index_id,
+            true
+          ).then(() => {
+            this.editClearLine(
+              index_id,
+              "from",
+              batch_id,
+              batch_index_id,
+              true
+            ).then(() => {
+              this.editClearLine(
+                index_id,
+                "to",
+                batch_id,
+                batch_index_id,
+                true
+              ).then(() => {
+                this.editAddCandidateEnd(
+                  index_id,
+                  side,
+                  line_id,
+                  part1,
+                  batch_id,
+                  batch_index_id,
+                  true
+                ).then(() => {
+                  this.editAddCandidateEnd(
+                    index_id + 1,
+                    side,
+                    line_id + 1,
+                    part2,
+                    batch_id,
+                    batch_index_id + 1
+                  ).then(() => {
+                    this.triggerClearCandidates = !this.triggerClearCandidates;
+                    this.sentenceSplittingInProgress = false;
+                  });
+                });
+              });
+            });
+          });
+        });
     },
     toSlide(index) {
       this.$refs.mySwiper.$swiper.slideTo(index, 0);
@@ -1855,7 +1913,10 @@ export default {
           }
         });
     },
-    refreshProcessingPage() {
+    refreshProcessingPage(cancel = false) {
+      if (cancel) {
+        return;
+      }
       this.$store.dispatch(GET_PROCESSING, {
         username: this.$route.params.username,
         langCodeFrom: this.langCodeFrom,
@@ -1865,7 +1926,7 @@ export default {
         page: this.processing.meta.page,
       });
     },
-    splitConflict(lineIdFrom, lineIdTo) {
+    splitConflict(lineIdFrom, lineIdTo, noRefresh = false) {
       this.$store
         .dispatch(EDIT_PROCESSING, {
           username: this.$route.params.username,
@@ -1882,7 +1943,7 @@ export default {
         })
         .then(() => {
           this.refreshConflicts();
-          this.refreshProcessingPage();
+          this.refreshProcessingPage(noRefresh);
           this.resetSelectedConflictDetailsLineIds();
         });
     },
@@ -1892,10 +1953,11 @@ export default {
       candidateLineId,
       candidateText,
       batchId,
-      batchIndexId
+      batchIndexId,
+      noRefresh = false
     ) {
       let langCode = textType == "from" ? this.langCodeFrom : this.langCodeTo;
-      this.$store
+      return this.$store
         .dispatch(EDIT_PROCESSING, {
           username: this.$route.params.username,
           fileId: this.selectedProcessingId,
@@ -1913,10 +1975,17 @@ export default {
           target: "previous",
         })
         .then(() => {
-          this.refreshProcessingPage();
+          this.refreshProcessingPage(noRefresh);
         });
     },
-    editAddUpEnd(indexId, editItemText, textType, batchId, batchIndexId) {
+    editAddUpEnd(
+      indexId,
+      editItemText,
+      textType,
+      batchId,
+      batchIndexId,
+      noRefresh = false
+    ) {
       let langCode = textType == "from" ? this.langCodeFrom : this.langCodeTo;
       this.$store
         .dispatch(EDIT_PROCESSING, {
@@ -1935,10 +2004,17 @@ export default {
           target: "previous",
         })
         .then(() => {
-          this.refreshProcessingPage();
+          this.refreshProcessingPage(noRefresh);
         });
     },
-    editAddDownEnd(indexId, editItemText, textType, batchId, batchIndexId) {
+    editAddDownEnd(
+      indexId,
+      editItemText,
+      textType,
+      batchId,
+      batchIndexId,
+      noRefresh = false
+    ) {
       let langCode = textType == "from" ? this.langCodeFrom : this.langCodeTo;
       this.$store
         .dispatch(EDIT_PROCESSING, {
@@ -1957,10 +2033,10 @@ export default {
           target: "next",
         })
         .then(() => {
-          this.refreshProcessingPage();
+          this.refreshProcessingPage(noRefresh);
         });
     },
-    editAddEmptyLineBefore(indexId, batchId, batchIndexId) {
+    editAddEmptyLineBefore(indexId, batchId, batchIndexId, noRefresh = false) {
       this.$store
         .dispatch(EDIT_PROCESSING, {
           username: this.$route.params.username,
@@ -1973,11 +2049,11 @@ export default {
           operation: ADD_EMPTY_LINE_BEFORE,
         })
         .then(() => {
-          this.refreshProcessingPage();
+          this.refreshProcessingPage(noRefresh);
         });
     },
-    editAddEmptyLineAfter(indexId, batchId, batchIndexId) {
-      this.$store
+    editAddEmptyLineAfter(indexId, batchId, batchIndexId, noRefresh = false) {
+      return this.$store
         .dispatch(EDIT_PROCESSING, {
           username: this.$route.params.username,
           fileId: this.selectedProcessingId,
@@ -1989,10 +2065,10 @@ export default {
           operation: ADD_EMPTY_LINE_AFTER,
         })
         .then(() => {
-          this.refreshProcessingPage();
+          this.refreshProcessingPage(noRefresh);
         });
     },
-    editDeleteLine(indexId, batchId, batchIndexId) {
+    editDeleteLine(indexId, batchId, batchIndexId, noRefresh = false) {
       this.$store
         .dispatch(EDIT_PROCESSING, {
           username: this.$route.params.username,
@@ -2005,11 +2081,11 @@ export default {
           operation: EDIT_DELETE_LINE,
         })
         .then(() => {
-          this.refreshProcessingPage();
+          this.refreshProcessingPage(noRefresh);
         });
     },
-    editClearLine(indexId, textType, batchId, batchIndexId) {
-      this.$store
+    editClearLine(indexId, textType, batchId, batchIndexId, noRefresh = false) {
+      return this.$store
         .dispatch(EDIT_PROCESSING, {
           username: this.$route.params.username,
           fileId: this.selectedProcessingId,
@@ -2022,7 +2098,7 @@ export default {
           operation: EDIT_CLEAR_LINE,
         })
         .then(() => {
-          this.refreshProcessingPage();
+          this.refreshProcessingPage(noRefresh);
         });
     },
     editProcessing(

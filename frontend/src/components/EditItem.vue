@@ -21,6 +21,7 @@
             ref="sentSplitDialog"
             v-model="showSplitSentenceDialog"
             :text="textToSplit"
+            :inProgress="splittingInProgress"
             @splitSentence="splitSentence"
           />
           <v-spacer></v-spacer>
@@ -378,6 +379,7 @@ export default {
     "panelColor",
     "proxy_from_dict",
     "proxy_to_dict",
+    "splittingInProgress",
   ],
   data() {
     return {
@@ -403,7 +405,7 @@ export default {
       if (side == "from") {
         if (this.lineIdFromNums.length != 1) {
           alert(
-            `Разделить можно только одно предложение. Строки в разделяемой ячейке: [${this.lineIdFrom}].`
+            `Only a single sentence can be splitted. Lines in the cell: [${this.lineIdFrom}].`
           );
           return;
         } else {
@@ -413,7 +415,7 @@ export default {
       } else {
         if (this.lineIdToNums.length != 1) {
           alert(
-            `Разделить можно только одно предложение. Строки в разделяемой ячейке: [${this.lineIdTo}].`
+            `Only a single sentence can be splitted. Lines in the cell: [${this.lineIdTo}].`
           );
           return;
         } else {
@@ -429,19 +431,15 @@ export default {
       if (this.splitSide == "to") {
         line_id = this.lineIdToNums[0];
       }
-
-      console.log("split line", part1, part2, line_id, this.splitSide);
       this.$emit(
         "splitSentence",
         this.splitSide,
         line_id,
         part1,
-        part2
-        // this.item.index_id,
-        // newText,
-        // textType,
-        // this.item.batch_id,
-        // this.item.batch_index_id
+        part2,
+        this.item.index_id,
+        this.item.batch_id,
+        this.item.batch_index_id
       );
     },
     getCandidates(textType, shift) {
