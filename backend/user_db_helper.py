@@ -356,7 +356,7 @@ def get_version(db_path):
     """Get user database version"""
     with sqlite3.connect(db_path) as db:
         res = db.execute(f"select v.version from version v").fetchone()
-    return res[0]
+    return float(res[0])
 
 
 def set_alignment_uploaded(username, align_guid):
@@ -380,7 +380,7 @@ def process_uploaded_alignment(align_db_path, username):
         align_guid = db_name.split(".")[0]
         lang_from, lang_to = aligner_helper.get_lang_codes(align_db_path)
 
-        if float(alignment_version) <= 6.2:
+        if alignment_version <= 6.2:
             name_from, name_to, guid_from, guid_to = (
                 f"from_{lang_from}",
                 f"to_{lang_to}",
@@ -439,7 +439,7 @@ def process_uploaded_alignment(align_db_path, username):
         )
         misc.check_folder(os.path.dirname(new_path))
 
-        if float(user_db_version) >= 5.1:
+        if user_db_version >= 5.1:
             set_alignment_uploaded(username, align_guid)
 
         print("moving to", new_path)
