@@ -275,7 +275,7 @@
       <!-- PROCESSING DOCUMENTS LIST BLOCK -->
       <v-row>
         <v-col class="text-center text-h4 mt-12">
-          <span>{{ selectedProcessing.name }}</span>
+          <span>{{ selectedProcessing ? selectedProcessing.name : "" }}</span>
         </v-col>
       </v-row>
       <!-- VISUALIZATION -->
@@ -427,8 +427,9 @@
               </v-row>
               <div
                 v-if="
-                  selectedProcessing.proxy_to_loaded ||
-                  selectedProcessing.proxy_from_loaded
+                  selectedProcessing &&
+                  (selectedProcessing.proxy_to_loaded ||
+                    selectedProcessing.proxy_from_loaded)
                 "
               >
                 <v-card-title class="text-subtitle-1 pa-3 pt-0">
@@ -555,13 +556,14 @@
           <v-spacer></v-spacer>
           <div class="mr-3">
             <v-checkbox
-              :disabled="!selectedProcessing.state[2]"
+              :disabled="selectedProcessing && !selectedProcessing.state[2]"
               class="pa-0 ma-0 pl-5 d-inline-block"
               v-model="handleStartConflict"
               label="Handle start"
             ></v-checkbox>
             <v-checkbox
               :disabled="
+                selectedProcessing &&
                 selectedProcessing.state[1] != selectedProcessing.state[2]
               "
               class="pa-0 ma-0 pl-5 d-inline-block"
@@ -995,9 +997,7 @@
             <div v-for="(line, i) in unusedFromLines" :key="i">
               <template>
                 <div
-                  v-show="
-                    showAllFrom == 'true' || !conflictSplittedFrom[line].e
-                  "
+                  v-show="showAllFrom == 'true' || getConflictFromPropE(line)"
                 >
                   <v-row justify="center" no-gutters>
                     <v-col class="text-left" cols="12">
@@ -1013,17 +1013,17 @@
                           class="d-table-cell pa-2"
                           style="width: 100%"
                           :class="[
-                            conflictSplittedFrom[line].e
+                            getConflictFromPropE(line)
                               ? ['grey', 'grey--text', 'lighten-5']
                               : '',
                           ]"
                         >
-                          {{ conflictSplittedFrom[line].t }}
+                          {{ getConflictFromPropT(line) }}
                           <div
-                            v-if="conflictSplittedFrom[line].p"
+                            v-if="getConflictFromPropP(line)"
                             class="mt-3 proxy-to-subtitles grey lighten-3 font-weight-medium"
                           >
-                            {{ conflictSplittedFrom[line].p }}
+                            {{ getConflictFromPropP(line) }}
                           </div>
                         </div>
                         <!-- <v-divider class="d-table-cell" vertical></v-divider>
@@ -1051,9 +1051,7 @@
             <v-divider></v-divider>
             <div v-for="(line, i) in unusedToLines" :key="i">
               <template>
-                <div
-                  v-show="showAllTo == 'true' || !conflictSplittedTo[line].e"
-                >
+                <div v-show="showAllTo == 'true' || getConflictToPropE(line)">
                   <v-row justify="center" no-gutters>
                     <v-col class="text-left" cols="12">
                       <div class="d-table fill-height">
@@ -1068,17 +1066,17 @@
                           class="d-table-cell pa-2"
                           style="width: 100%"
                           :class="[
-                            conflictSplittedTo[line].e
+                            getConflictToPropE(line)
                               ? ['grey', 'grey--text', 'lighten-5']
                               : '',
                           ]"
                         >
-                          {{ conflictSplittedTo[line].t }}
+                          {{ getConflictToPropT(line) }}
                           <div
-                            v-if="conflictSplittedTo[line].p"
+                            v-if="getConflictToPropP(line)"
                             class="mt-3 proxy-to-subtitles grey lighten-3 font-weight-medium"
                           >
-                            {{ conflictSplittedTo[line].p }}
+                            {{ getConflictToPropP(line) }}
                           </div>
                         </div>
                         <!-- <v-divider class="d-table-cell" vertical></v-divider>
@@ -1144,6 +1142,7 @@ import {
   UPLOAD_FILES,
   DELETE_DOCUMENT,
   GET_SPLITTED,
+  GET_SPLITTED_BY_IDS,
   GET_DOC_INDEX,
   GET_PROCESSING,
   GET_PROCESSING_META,
@@ -1262,6 +1261,7 @@ export default {
     splitSentence(
       side,
       line_id,
+      line_id_other_side,
       part1,
       part2,
       index_id,
@@ -1269,6 +1269,9 @@ export default {
       batch_index_id
     ) {
       this.sentenceSplittingInProgress = true;
+      let otherSide = side == "from" ? "to" : "from";
+      console.log("otherSide", otherSide);
+
       this.$store
         .dispatch(SPLIT_SENTENCE, {
           direction: side,
@@ -1316,11 +1319,63 @@ export default {
                     line_id + 1,
                     part2,
                     batch_id,
-                    batch_index_id + 1
-                  ).then(() => {
-                    this.triggerClearCandidates = !this.triggerClearCandidates;
-                    this.sentenceSplittingInProgress = false;
-                  });
+                    batch_index_id + 1,
+                    true
+                  )
+                    .then(() => {
+                      if (line_id_other_side) {
+                        this.$store
+                          .dispatch(GET_SPLITTED_BY_IDS, {
+                            direction: otherSide,
+                            username: this.$route.params.username,
+                            ids: JSON.stringify([
+                              line_id_other_side,
+                              line_id_other_side + 1,
+                            ]),
+                            alignId: this.selectedProcessingId,
+                            langCodeFrom: this.langCodeFrom,
+                            langCodeTo: this.langCodeTo,
+                          })
+                          .then(() => {
+                            console.log(
+                              "SPLIT SENTENCE, DO other side.",
+                              this.requestedSplitted
+                            );
+                            this.editAddCandidateEnd(
+                              index_id,
+                              otherSide,
+                              line_id_other_side,
+                              this.requestedSplitted &&
+                                line_id_other_side in this.requestedSplitted
+                                ? this.requestedSplitted[line_id_other_side].t
+                                : "",
+                              batch_id,
+                              batch_index_id
+                            );
+                          })
+                          .then(() => {
+                            this.editAddCandidateEnd(
+                              index_id + 1,
+                              otherSide,
+                              line_id_other_side + 1,
+                              this.requestedSplitted &&
+                                line_id_other_side + 1 in this.requestedSplitted
+                                ? this.requestedSplitted[line_id_other_side + 1]
+                                    .t
+                                : "",
+                              batch_id,
+                              batch_index_id + 1
+                            );
+                          });
+                      } else {
+                        console.log("SPLIT SENTENCE, skip other side.");
+                      }
+                    })
+                    .then(() => {
+                      this.triggerClearCandidates =
+                        !this.triggerClearCandidates;
+                      this.sentenceSplittingInProgress = false;
+                    });
                 });
               });
             });
@@ -2313,6 +2368,42 @@ export default {
       }
       return res;
     },
+    getConflictToPropE(line) {
+      if (this.conflictSplittedTo && this.conflictSplittedTo[line]) {
+        return this.conflictSplittedTo[line].e;
+      }
+      return false;
+    },
+    getConflictFromPropE(line) {
+      if (this.conflictSplittedFrom && this.conflictSplittedFrom[line]) {
+        return this.conflictSplittedFrom[line].e;
+      }
+      return false;
+    },
+    getConflictToPropT(line) {
+      if (this.conflictSplittedTo && this.conflictSplittedTo[line]) {
+        return this.conflictSplittedTo[line].t;
+      }
+      return "";
+    },
+    getConflictFromPropT(line) {
+      if (this.conflictSplittedFrom && this.conflictSplittedFrom[line]) {
+        return this.conflictSplittedFrom[line].t;
+      }
+      return "";
+    },
+    getConflictToPropP(line) {
+      if (this.conflictSplittedTo && this.conflictSplittedTo[line]) {
+        return this.conflictSplittedTo[line].p;
+      }
+      return false;
+    },
+    getConflictFromPropP(line) {
+      if (this.conflictSplittedFrom && this.conflictSplittedFrom[line]) {
+        return this.conflictSplittedFrom[line].p;
+      }
+      return false;
+    },
   },
   mounted() {
     this.$store
@@ -2348,6 +2439,7 @@ export default {
       "items",
       "itemsProcessing",
       "splitted",
+      "requestedSplitted",
       "processing",
       "docIndex",
       "conflicts",

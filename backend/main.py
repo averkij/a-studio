@@ -35,6 +35,12 @@ app = Flask(__name__)
 CORS(app)
 
 
+import os
+
+# os.environ["MODEL_NAME"] = "lingtrain/labse-udmurt"
+# os.environ["MODEL_NAME"] = "udmurtNLP/labse-udm-eng"
+
+
 @app.route("/items/<username>/init", methods=["GET"])
 def init_userspace(username):
     """Prepare user workspace"""
@@ -1201,12 +1207,11 @@ def split_sentence(username, lang_from, lang_to, align_guid):
     part2 = request.form.get("part2", "")
 
     helper.ensure_splitted_pk_is_not_exists(db_path, direction)
-    helper.insert_new_splitted_line(db_path, direction, line_id - 1)
+    helper.insert_new_splitted_line(db_path, direction, line_id)
     helper.update_splitted_text(db_path, direction, line_id, part1)
     helper.update_splitted_text(db_path, direction, line_id + 1, part2)
     helper.update_processing_mapping(db_path, direction, line_id)
     aligner.update_index_mapping(db_path, direction, line_id)
-    helper.update_processing_text(db_path, direction, line_id, part1)
 
     return ("", 200)
 

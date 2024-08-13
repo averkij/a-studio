@@ -428,13 +428,16 @@ export default {
     },
     splitSentence(part1, part2) {
       let line_id = this.lineIdFromNums[0];
+      let line_id_other_side = this.lineIdToNums[0];
       if (this.splitSide == "to") {
         line_id = this.lineIdToNums[0];
+        line_id_other_side = this.lineIdFromNums[0];
       }
       this.$emit(
         "splitSentence",
         this.splitSide,
         line_id,
+        line_id_other_side,
         part1,
         part2,
         this.item.index_id,
