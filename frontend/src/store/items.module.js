@@ -16,6 +16,7 @@ import {
   DOWNLOAD_PROCESSING,
   DOWNLOAD_BOOK,
   GET_SPLITTED,
+  GET_SPLITTED_BY_IDS,
   GET_FILE_MARKS,
   GET_ALIGNMENT_MARKS,
   GET_DOC_INDEX,
@@ -48,6 +49,7 @@ import {
   SET_ITEMS,
   SET_ITEMS_PROCESSING,
   SET_SPLITTED,
+  SET_SPLITTED_BY_IDS,
   SET_MARKS,
   SET_ALIGNMENT_MARKS,
   SET_PROCESSING,
@@ -83,6 +85,7 @@ const initialState = {
   },
   bookPreview: "",
   linePositionInIndex: -1,
+  requestedSplitted: {}
 };
 
 export const state = {
@@ -167,6 +170,17 @@ export const actions = {
     });
     return;
   },
+  async [GET_SPLITTED_BY_IDS](context, params) {
+    console.log(params)
+    return await ItemsService.getSplittedByIds(params, params['direction']).then(
+      function (response) {
+        context.commit(SET_SPLITTED_BY_IDS, response.data);
+      },
+      function () {
+        console.log(`GET_SPLITTED_BY_IDS error.`);
+      }
+    );
+  },
   async [GET_FILE_MARKS](context, params) {
     const {
       data
@@ -227,6 +241,7 @@ export const actions = {
     );
   },
   async [GET_CONFLICT_DETAILS](context, params) {
+    console.log("GET_CONFLICT_DETAILS params", params)
     await ItemsService.getConflictDetails(params).then(
       function (response) {
         context.commit(SET_CONFLICT_DETAILS, response.data);
@@ -402,6 +417,9 @@ export const mutations = {
       state.splitted[params.side][params.langCode].meta = params.data.meta[params.langCode];
     }
   },
+  [SET_SPLITTED_BY_IDS](state, data) {
+    state.requestedSplitted = data.items;
+  },
   [SET_MARKS](state, params) {
     console.log("SET_MARKS", params)
     state.marks[params.side][params.langCode] = params.data.items;
@@ -423,6 +441,7 @@ export const mutations = {
     state.conflicts = data.items;
   },
   [SET_CONFLICT_DETAILS](state, data) {
+    console.log("SET_CONFLICT_DETAILS:", data.items)
     state.conflictDetails = data;
   },
   [SET_CONFLICT_SPLITTED_FROM](state, data) {
@@ -432,7 +451,7 @@ export const mutations = {
     state.conflictSplittedTo = data.items;
   },
   [SET_CONFLICT_FLOW_TO](state, data) {
-    // console.log("SET_CONFLICT_FLOW_TO:", data.items)
+    console.log("SET_CONFLICT_FLOW_TO:", data.items)
     state.conflictFlowTo = data.items;
   },
   [SET_CONTENTS](state, data) {
@@ -455,6 +474,9 @@ const getters = {
   },
   splitted(state) {
     return state.splitted;
+  },
+  requestedSplitted(state) {
+    return state.requestedSplitted;
   },
   marks(state) {
     return state.marks;
