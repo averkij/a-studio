@@ -3,6 +3,7 @@
 # MODEL = "rubert_tiny"
 # MODEL = "sentence_transformer_multilingual"
 MODEL = "sentence_transformer_multilingual_labse"
+# MODEL = "sonar"
 DEFAULT_TRESHOLD = 0.2
 DEFAULT_BATCHSIZE = 200
 DEFAULT_WINDOW = 50

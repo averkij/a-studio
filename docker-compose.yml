@@ -12,3 +12,12 @@ services:
       - ${APP_CACHE_PATH}:/app/models_cache
     environment:
       MODEL_NAME: ${MODEL_NAME}
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            capabilities:
+              - gpu
+              - utility
+              - compute
