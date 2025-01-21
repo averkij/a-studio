@@ -11,10 +11,12 @@ Lingtrain Studio is the ML based app for accurate texts alignment on different l
 
 ## ⚡ Articles
 
--  [How to create bilingual books. Part 2. Lingtrain Alignment Studio](https://medium.com/@averoo/how-to-create-bilingual-books-part-2-lingtrain-alignment-studio-ffa56c9c07a6)
--  [How to make a parallel texts for language learning. Part 1. Python and Colab version](https://medium.com/@averoo/how-to-make-a-parallel-book-for-language-learning-part-1-python-and-colab-version-cff09e379d8c)
--  [Lingtrain Aligner. Приложение для создания параллельных книг, которое вас удивит](https://habr.com/ru/post/564944/)
--  [Сам себе Гутенберг. Делаем параллельные книги](https://habr.com/ru/post/557664/)
+-  👅 [Язык твой — друг твой. Развиваем малые языки](https://habr.com/ru/articles/791188/)
+-  🔥 [Lingtrain Studio. Книги для всех, даром](https://habr.com/ru/company/ods/blog/669990/)
+-  🧩 [How to create bilingual books. Part 2. Lingtrain Alignment Studio](https://medium.com/@averoo/how-to-create-bilingual-books-part-2-lingtrain-alignment-studio-ffa56c9c07a6)
+-  📘 [How to make a parallel texts for language learning. Part 1. Python and Colab version](https://medium.com/@averoo/how-to-make-a-parallel-book-for-language-learning-part-1-python-and-colab-version-cff09e379d8c)
+-  🔮 [Lingtrain Aligner. Приложение для создания параллельных книг, которое вас удивит](https://habr.com/ru/post/564944/)
+-  📌 [Сам себе Гутенберг. Делаем параллельные книги](https://habr.com/ru/post/557664/)
 
 ## 🧬 Models
 
@@ -30,22 +32,35 @@ Automated alignment process relies on the sentence embeddings models. Embeddings
   - pretty heavy weights — 1.8GB
   - supports 100+ languages
   - full list of supported languages can be found [here](https://arxiv.org/abs/2007.01852)
+- **SONAR** (Sentence-level multimOdal and laNguage-Agnostic Representations)
+  - Supports about 200 languages (approximately [these](https://github.com/facebookresearch/flores/tree/main/flores200))
+  - A large model (3 GB of weights)
+  - Ideally, requires you to indicate the source language explicitly
+  - Was originally released at [facebookresearch/SONAR](https://github.com/facebookresearch/SONAR) based on [fairseq2](https://github.com/facebookresearch/fairseq2), 
+  but here uses [a HuggingFace port](https://huggingface.co/cointegrated/SONAR_200_text_encoder).
 
 ## 💻 Running on local machine
 
 You can run the application on your computer using docker.
+Make sure that docker is installed by typing the <code>docker version</code> command in your console.
 
-1. Make sure that docker is installed by typing the <code>docker version</code> command in your console.
+### docker-compose
 
-2. Images configured to run locally are available on Docker Hub.
+1. docker-compose build
 
-3. Run the following commands in your console:
+2. docker-compose up
+
+### Docker Hub
+
+1. Images configured to run locally are available on Docker Hub.
+
+2. Run the following commands in your console:
     - <code>docker pull lingtrain/studio:v7.2</code>
     - <code>docker run -v C:\app\data:/app/data -v C:\app\img:/app/static/img -p 80:80 lingtrain/studio:v7.2</code>
 
-4. App will be available in your browser on the <code>localhost</code> address.
+3. App will be available in your browser on the <code>localhost</code> address.
 
-5. If you need to run the container on another port (e.g. localhost:8081):
+4. If you need to run the container on another port (e.g. localhost:8081):
     - Change the API_URL parameter in config.js
     - Rebuild the docker container
     - Start it with changed -p parameter (e.g. -p 8081:80)
