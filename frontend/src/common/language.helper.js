@@ -9,6 +9,11 @@ export const LANGUAGES = {
         name: "English",
         icon: "🧸"
     },
+    'hy': {
+        langCode: "hy",
+        name: "Armeinan",
+        icon: "🍷"
+    },
     'ba': {
         langCode: "ba",
         name: "Bashkir",
