@@ -208,12 +208,14 @@ class AlignmentProcessor:
     ):
         """Align process wrapper"""
         logging.info(f"Alignment started for {self.db_path}.")
+
         try:
             texts_from, texts_to = aligner.process_batch(
+                self.db_path,
                 lines_from_batch,
                 lines_to_batch,
-                proxy_from,
-                proxy_to,
+                # proxy_from,
+                # proxy_to,
                 line_ids_from,
                 line_ids_to,
                 batch_number,
