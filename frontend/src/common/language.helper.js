@@ -11,7 +11,7 @@ export const LANGUAGES = {
     },
     'hy': {
         langCode: "hy",
-        name: "Armeinan",
+        name: "Armenian",
         icon: "🍷"
     },
     'ba': {
