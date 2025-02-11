@@ -11,7 +11,7 @@
     "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "lodash": "^4.17.20",
-    "swiper": "^6.7.0",
+    "swiper": "^6.8.4",
     "vue": "^2.6.11",
     "vue-awesome-swiper": "^4.1.1",
     "vue-axios": "^2.1.5",
