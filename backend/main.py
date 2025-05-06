@@ -88,15 +88,21 @@ def items(username, lang):
 
             if request.form["type"] == "proxy":
                 align_guid = request.form.get("align_guid", "")
-                _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+                _, guid_from, guid_to, _, _, _, lang_from, lang_to, uploaded = user_db_helper.get_alignment_info(
                     username, align_guid
                 )
-                filename_from, lang_from = user_db_helper.get_document_info(
-                    username, guid_from
-                )
-                filename_to, lang_to = user_db_helper.get_document_info(
-                    username, guid_to
-                )
+
+                if not uploaded:
+                    filename_from, lang_from = user_db_helper.get_document_info(
+                        username, guid_from
+                    )
+                    filename_to, lang_to = user_db_helper.get_document_info(
+                        username, guid_to
+                    )
+                else:
+                    filename_from = f"uploaded_alignment_proxy_from_{lang_from}.txt"
+                    filename_to = f"uploaded_alignment_proxy_to_{lang_to}.txt"
+
                 db_folder = os.path.join(
                     con.UPLOAD_FOLDER, username, con.DB_FOLDER, lang_from, lang_to
                 )
@@ -225,7 +231,7 @@ def get_alignment_marks(username, align_guid):
         return ("", 400)
     logging.info(f"get_alignment_marks parameters: align_guid {align_guid}")
 
-    _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+    _, guid_from, guid_to, _, _, _, _, _, _ = user_db_helper.get_alignment_info(
         username, align_guid
     )
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
@@ -263,7 +269,7 @@ def add_alignment_mark(username, align_guid):
     if not user_db_helper.alignment_guid_exists(username, align_guid):
         return ("", 400)
 
-    _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+    _, guid_from, guid_to, _, _, _, _, _, _ = user_db_helper.get_alignment_info(
         username, align_guid
     )
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
@@ -304,7 +310,7 @@ def bulk_add_alignment_mark(username, align_guid):
     if not user_db_helper.alignment_guid_exists(username, align_guid):
         return ("", 400)
 
-    _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+    _, guid_from, guid_to, _, _, _, _, _, _ = user_db_helper.get_alignment_info(
         username, align_guid
     )
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
@@ -348,7 +354,7 @@ def edit_alignment_mark(username, align_guid):
     if not user_db_helper.alignment_guid_exists(username, align_guid):
         return ("", 400)
 
-    _, guid_from, guid_to, _, _, _ = user_db_helper.get_alignment_info(
+    _, guid_from, guid_to, _, _, _, _, _, _ = user_db_helper.get_alignment_info(
         username, align_guid
     )
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
@@ -502,7 +508,7 @@ def update_visualization(username):
         f"visualize parameters align_guid {align_guid} update_all {update_all} batch_ids {batch_ids}"
     )
 
-    _, guid_from, guid_to, _, _, total_batches = user_db_helper.get_alignment_info(
+    _, guid_from, guid_to, _, _, total_batches, _, _, _ = user_db_helper.get_alignment_info(
         username, align_guid
     )
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
@@ -562,6 +568,9 @@ def start_alignment(username):
         state,
         curr_batches,
         total_batches,
+        lang_from,
+        lang_to,
+        uploaded
     ) = user_db_helper.get_alignment_info(username, align_guid)
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
     _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
@@ -669,6 +678,9 @@ def align_next_batch(username):
         state,
         curr_batches,
         total_batches,
+        lang_from,
+        lang_to,
+        uploaded
     ) = user_db_helper.get_alignment_info(username, align_guid)
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
     _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
@@ -773,9 +785,15 @@ def get_alignment_conflicts(username, align_guid, handle_edges):
         _,
         _,
         _,
+        lang_from,
+        lang_to,
+        uploaded
     ) = user_db_helper.get_alignment_info(username, align_guid)
-    _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
-    _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
+
+    if not uploaded:
+        _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
+        _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
+
     db_folder = os.path.join(
         con.UPLOAD_FOLDER, username, con.DB_FOLDER, lang_from, lang_to
     )
@@ -819,6 +837,9 @@ def show_alignment_conflict(username, align_guid, id, handle_edges):
         state,
         curr_batches,
         total_batches,
+        lang_from,
+        lang_to,
+        uploaded
     ) = user_db_helper.get_alignment_info(username, align_guid)
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
     _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)
@@ -867,6 +888,9 @@ def resolve_conflicts(username):
         state,
         curr_batches,
         total_batches,
+        lang_from,
+        lang_to,
+        uploaded
     ) = user_db_helper.get_alignment_info(username, align_guid)
     _, lang_from = user_db_helper.get_alignment_fileinfo_from(username, guid_from)
     _, lang_to = user_db_helper.get_alignment_fileinfo_to(username, guid_to)

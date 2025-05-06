@@ -6,7 +6,7 @@ import sqlite3
 import uuid
 import shutil
 from lingtrain_aligner import helper as aligner_helper
-from lingtrain_aligner import vis_helper
+from lingtrain_aligner import vis_helper, splitter
 import misc
 import config
 
@@ -321,10 +321,11 @@ def get_alignment_info(username, guid):
     """Get alignment info by id"""
     db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
     with sqlite3.connect(db_path) as db:
-        return db.execute(
-            "select name, guid_from, guid_to, state, curr_batches, total_batches from alignments where guid=:guid",
+        res = db.execute(
+            "select name, guid_from, guid_to, state, curr_batches, total_batches, lang_from, lang_to, uploaded from alignments where guid=:guid",
             {"guid": guid},
         ).fetchone()
+        return res
 
 
 def get_alignment_progress(user_db_path, align_guid):
@@ -379,6 +380,11 @@ def process_uploaded_alignment(align_db_path, username):
         db_name = os.path.basename(align_db_path)
         align_guid = db_name.split(".")[0]
         lang_from, lang_to = aligner_helper.get_lang_codes(align_db_path)
+
+        if not splitter.is_lang_code_valid(lang_from):
+            lang_from = splitter.XX_CODE
+        if not splitter.is_lang_code_valid(lang_to):
+            lang_to = splitter.XX_CODE
 
         if alignment_version <= 6.2:
             name_from, name_to, guid_from, guid_to = (
@@ -443,7 +449,8 @@ def process_uploaded_alignment(align_db_path, username):
             set_alignment_uploaded(username, align_guid)
 
         print("moving to", new_path)
-        shutil.move(align_db_path, new_path)
+        shutil.copyfile(align_db_path, new_path)
+        # shutil.move(align_db_path, new_path)
 
         # recalculate images
         img_path = os.path.join(
