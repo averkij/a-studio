@@ -11,6 +11,8 @@ Lingtrain Studio is the ML based app for accurate texts alignment on different l
 
 ## ⚡ Articles
 
+Here are some articles about the project.
+
 -  👅 [Язык твой — друг твой. Развиваем малые языки](https://habr.com/ru/articles/791188/)
 -  🔥 [Lingtrain Studio. Книги для всех, даром](https://habr.com/ru/company/ods/blog/669990/)
 -  🧩 [How to create bilingual books. Part 2. Lingtrain Alignment Studio](https://medium.com/@averoo/how-to-create-bilingual-books-part-2-lingtrain-alignment-studio-ffa56c9c07a6)
