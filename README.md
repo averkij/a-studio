@@ -1,13 +1,107 @@
 # Lingtrain Studio
 
-![asd](/img/title.jpg)
+![Lingtrain Studio Banner](/img/title.jpg)
 
-## 💡 Intro
+## 📖 Overview
 
-Lingtrain Studio is the ML based app for accurate texts alignment on different languages.
+Lingtrain Studio is a powerful, open-source application designed for aligning texts in different languages. It leverages machine learning models to create high-quality parallel corpora, which can be used for a variety of purposes, including training translation models, creating bilingual books, and for language learning.
 
-- Extracts parallel corpora from two texts.
-- Makes the formatted parallel book from it with sentence highlighting.
+The application provides a user-friendly interface for aligning texts, as well as a tool for translators to edit and refine the alignments. It also supports a variety of models, allowing users to choose the best one for their specific needs.
+
+## ✨ Features
+
+- **Accurate Text Alignment**: Utilizes state-of-the-art sentence embedding models to accurately align texts in different languages.
+- **Parallel Corpus Creation**: Extracts parallel corpora from two texts, which can be used for a variety of downstream tasks.
+- **Bilingual Book Formatter**: Creates formatted parallel books with sentence highlighting, making them ideal for language learners.
+- **Model Flexibility**: Supports a variety of sentence embedding models, including `distiluse-base-multilingual-cased-v2`, `LaBSE`, and `SONAR`.
+- **User-Friendly Interface**: Provides a simple and intuitive interface for aligning texts and editing alignments.
+- **Dockerized Deployment**: Can be easily deployed on a local machine or a server using Docker.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/lingtrain/a-studio.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd a-studio
+   ```
+
+3. **Build and run the application using Docker Compose:**
+
+   ```bash
+   docker-compose build
+   docker-compose up
+   ```
+
+The application will be available at `http://localhost:80`.
+
+## 🛠️ Development
+
+### Backend
+
+The backend is a Flask/uwsgi REST API service that contains all the alignment logic.
+
+1. **Navigate to the backend directory:**
+
+   ```bash
+   cd backend
+   ```
+
+2. **Install the required dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the backend application:**
+
+   ```bash
+   python main.py
+   ```
+
+### Frontend
+
+The frontend is a Vue.js single-page application that provides the user interface for the application.
+
+1. **Navigate to the frontend directory:**
+
+   ```bash
+   cd frontend
+   ```
+
+2. **Install the required dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the frontend application:**
+
+   ```bash
+   npm run serve
+   ```
+
+The frontend application will be available at `http://localhost:8080`.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you find a bug or have a feature request.
+
+## 📝 License
+
+This project is licensed under the [Attribution-NonCommercial-NoDerivatives 4.0 International](http.creativecommons.org/licenses/by-nc-nd/4.0/) license. See the [LICENSE](LICENSE) file for more details.
 
 ## ⚡ Articles
 
@@ -17,92 +111,3 @@ Lingtrain Studio is the ML based app for accurate texts alignment on different l
 -  📘 [How to make a parallel texts for language learning. Part 1. Python and Colab version](https://medium.com/@averoo/how-to-make-a-parallel-book-for-language-learning-part-1-python-and-colab-version-cff09e379d8c)
 -  🔮 [Lingtrain Aligner. Приложение для создания параллельных книг, которое вас удивит](https://habr.com/ru/post/564944/)
 -  📌 [Сам себе Гутенберг. Делаем параллельные книги](https://habr.com/ru/post/557664/)
-
-## 🧬 Models
-
-Automated alignment process relies on the sentence embeddings models. Embeddings are multidimensional vectors of a special kind which are used to calculate a distance between the sentences. You can also plug your own model using the interface described in models directory. Supported languages list depends on the selected backend model.
-
-- **distiluse-base-multilingual-cased-v2**
-  - more reliable and fast
-  - moderate weights size — 500MB
-  - supports 50+ languages
-  - full list of supported languages can be found in [this paper](https://arxiv.org/abs/2004.09813)
-- **LaBSE (Language-agnostic BERT Sentence Embedding)**
-  - can be used for rare languages
-  - pretty heavy weights — 1.8GB
-  - supports 100+ languages
-  - full list of supported languages can be found [here](https://arxiv.org/abs/2007.01852)
-- **SONAR** (Sentence-level multimOdal and laNguage-Agnostic Representations)
-  - Supports about 200 languages (approximately [these](https://github.com/facebookresearch/flores/tree/main/flores200))
-  - A large model (3 GB of weights)
-  - Ideally, requires you to indicate the source language explicitly
-  - Was originally released at [facebookresearch/SONAR](https://github.com/facebookresearch/SONAR) based on [fairseq2](https://github.com/facebookresearch/fairseq2), 
-  but here uses [a HuggingFace port](https://huggingface.co/cointegrated/SONAR_200_text_encoder).
-
-## 💻 Running on local machine
-
-You can run the application on your computer using docker.
-Make sure that docker is installed by typing the <code>docker version</code> command in your console.
-
-### docker-compose
-
-1. docker-compose build
-
-2. docker-compose up
-
-### Docker Hub
-
-1. Images configured to run locally are available on Docker Hub.
-
-2. Run the following commands in your console:
-    - <code>docker pull lingtrain/studio:v7.2</code>
-    - <code>docker run -v C:\app\data:/app/data -v C:\app\img:/app/static/img -p 80:80 lingtrain/studio:v7.2</code>
-
-3. App will be available in your browser on the <code>localhost</code> address.
-
-4. If you need to run the container on another port (e.g. localhost:8081):
-    - Change the API_URL parameter in config.js
-    - Rebuild the docker container
-    - Start it with changed -p parameter (e.g. -p 8081:80)
-
-## 🔨 Running in development mode
-
-Clone this repo on your machine.
-
-### Backend
-
-Flask/uwsgi backend REST API service. It contains all the alignment logic.
-
-- Go to the backend directory
-  - <code>cd /backend</code>
-
-- Install the requirements
-  - <code>pip install -r requirements.txt</code>
-
-- Run the backend application
-  - <code>python main.py</code>
-
-### Frontend
-
-SPA. Vue + vuex + vuetify. UI for managing alignment process using BE and a tool for translators to edit processing documents.
-
-- Go to the frontend directory
-  - <code>cd /frontend</code>
-
-- Install the requirements
-  - <code>npm install -f</code>
-
-- Compile and run with hot-reloads for development
-  - <code>npm run serve</code>
-
-Application will be available on <code>localhost:8080</code>
-
-## ✉️ Feedback
-
-You can create an issue or send me a message in telegram: @averkij
-
-## 🔑 License
-
-This work is licensed under a [Attribution-NonCommercial-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/) license. See LICENSE.
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
