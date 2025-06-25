@@ -320,11 +320,19 @@ def get_alignment_fileinfo_to(username, guid):
 def get_alignment_info(username, guid):
     """Get alignment info by id"""
     db_path = os.path.join(con.UPLOAD_FOLDER, username, con.USER_DB_NAME)
+    alignment_version = get_version(db_path)
+
     with sqlite3.connect(db_path) as db:
-        res = db.execute(
-            "select name, guid_from, guid_to, state, curr_batches, total_batches, lang_from, lang_to, uploaded from alignments where guid=:guid",
-            {"guid": guid},
-        ).fetchone()
+        if alignment_version >= 7.0:
+            res = db.execute(
+                "select name, guid_from, guid_to, state, curr_batches, total_batches, lang_from, lang_to, uploaded from alignments where guid=:guid",
+                {"guid": guid},
+            ).fetchone()
+        else:
+            res = db.execute(
+                "select name, guid_from, guid_to, state, curr_batches, total_batches, lang_from, lang_to, 0 as uploaded from alignments where guid=:guid",
+                {"guid": guid},
+            ).fetchone()
         return res
 
 

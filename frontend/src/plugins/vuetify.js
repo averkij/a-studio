@@ -1,11 +1,20 @@
 import "@mdi/font/css/materialdesignicons.css";
-import 'swiper/swiper-bundle.css'
+import 'swiper/css/swiper.min.css'
 
 // import SwiperClass, { Mousewheel, Scrollbar, Lazy } from "swiper";
-import SwiperClass, { Scrollbar } from "swiper";
+import SwiperClass from "swiper";
+// import Scrollbar from 'swiper/components/scrollbar/scrollbar.esm.js'; // Previous attempt
+
 // configure Swiper to use modules
 // SwiperClass.use([Mousewheel, Scrollbar, Lazy]);
-SwiperClass.use([Scrollbar]);
+
+// Try to access Scrollbar as a property of SwiperClass, assuming it might be bundled.
+if (SwiperClass.Scrollbar) {
+  SwiperClass.use([SwiperClass.Scrollbar]);
+} else {
+  // Fallback or error if not found - for now, let's see if this works
+  // console.error("Swiper Scrollbar module not found as a property of SwiperClass");
+}
 
 import Vue from "vue";
 import Vuetify from "vuetify/lib";
