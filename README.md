@@ -95,6 +95,14 @@ The frontend is a Vue.js single-page application that provides the user interfac
 
 The frontend application will be available at `http://localhost:8080`.
 
+## 🧬 Models
+
+| Model                                     | Description                                                                                                                                                                                                                                                                                       | Languages              |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| `distiluse-base-multilingual-cased-v2`    | A fast and reliable model with a moderate size (500MB).                                                                                                                                                                                                                                                           | 50+                    |
+| `LaBSE`                                   | A model that can be used for rare languages, but is pretty heavy (1.8GB).                                                                                                                                                                                                                         | 100+                   |
+| `SONAR`                                   | A large model (3GB) that supports about 200 languages. It is recommended to explicitly indicate the source language when using this model.                                                                                                                                                             | ~200                   |
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find a bug or have a feature request.
