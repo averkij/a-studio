@@ -17,6 +17,56 @@ The application provides a user-friendly interface for aligning texts, as well a
 - **User-Friendly Interface**: Provides a simple and intuitive interface for aligning texts and editing alignments.
 - **Dockerized Deployment**: Can be easily deployed on a local machine or a server using Docker.
 
+## 🏗️ Architecture
+
+```mermaid
+%%{ init: {
+     "theme": "base",
+     "themeVariables": {
+       "fontFamily": "Inter, Roboto, Helvetica, Arial, sans-serif",
+       "primaryColor":    "#3F51B5",
+       "primaryBorderColor":"#303F9F",
+       "primaryTextColor":"#FFFFFF",
+       "clusterBkg":      "#E8EAF6",
+       "clusterBorder":   "#3F51B5",
+       "lineColor":       "#303F9F"
+     }
+   }
+}%%
+
+flowchart TD
+    %% ─── Nodes ────────────────────────────────────────────────
+    A["<fa:fa-user>  User"]:::user
+
+    subgraph "Frontend"
+        direction TB
+        B["<fa:fa-window-maximize>  SPA (Vue)"]:::frontend
+    end
+
+    subgraph "Backend"
+        direction TB
+        C["<fa:fa-server>  API Service<br/>(Flask)"]:::backend
+        D["<fa:fa-cogs>  lingtrain_aligner"]:::core
+        E["<fa:fa-brain>  Embedding Models<br/>(LaBSE, SONAR…)"]:::model
+        F["<fa:fa-database>  Data Storage"]:::storage
+    end
+
+    %% ─── Connections ──────────────────────────────────────────
+    A -- "HTTP"      --> B
+    B -- "REST API"  --> C
+    C --> D
+    D -- "Vectorise" --> E
+    C -- "CRUD"      --> F
+
+    %% ─── Styles ───────────────────────────────────────────────
+    classDef user     fill:#4FC3F7,stroke:#0288D1,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef frontend fill:#AED581,stroke:#7CB342,stroke-width:2px;
+    classDef backend  fill:#FFB74D,stroke:#F57C00,stroke-width:2px;
+    classDef core     fill:#E57373,stroke:#D32F2F,stroke-width:3px,font-weight:bold;
+    classDef storage  fill:#8D6E63,stroke:#5D4037,stroke-width:2px,color:#fff;
+    classDef model    fill:#9575CD,stroke:#512DA8,stroke-width:2px,color:#fff;
+```
+
 ## 🚀 Getting Started
 
 ### Prerequisites
