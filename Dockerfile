@@ -22,6 +22,8 @@ ENV LISTEN_PORT 80
 
 #install dependencies
 COPY ./backend/requirements.txt /app
+# Enable GPU support by using CUDA version of PyTorch
+RUN sed -i 's/torch==1.12.0+cpu/torch==1.12.0+cu113/g' /app/requirements.txt
 RUN pip install -r /app/requirements.txt
 
 COPY ./backend/requirements_aligner.txt /app
