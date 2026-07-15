@@ -1,5 +1,6 @@
 module.exports = {
   transpileDependencies: ["vuetify"],
+  publicPath: '/lingtrain_aligner/', //subpath for deploy
   css: {
     loaderOptions: {
       sass: {

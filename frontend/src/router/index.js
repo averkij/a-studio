@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import { base } from "@/common/config";
 import {
   SettingsHelper
 } from "@/common/settings.helper";
@@ -62,6 +63,7 @@ const routes = [{
 
 const router = new VueRouter({
   mode: 'history',
+  base,
   routes
 });
 

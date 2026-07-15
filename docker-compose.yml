@@ -3,6 +3,7 @@ services:
   aligner:
     build: .
     image: aligner:latest
+    container_name: aligner
     restart: unless-stopped
     ports:
         - "${APP_PORT}:80"

@@ -1,1 +1,2 @@
-lingtrain-aligner==1.0.3
+git+https://github.com/vmonakhov/lingtrain-aligner.git
+#lingtrain-aligner==1.0.2
