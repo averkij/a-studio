@@ -79,7 +79,7 @@ flowchart TD
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/lingtrain/a-studio.git
+   git clone https://github.com/averkij/a-studio
    ```
 
 2. **Navigate to the project directory:**
